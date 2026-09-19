@@ -207,6 +207,10 @@ If several consequential fields are missing, ask them together. Do not interroga
 
 Use **768×1024 RGBA** for a standalone portrait unless the actual UI or approved portrait family requires another format. Preserve transparency for UI cutouts.
 
+For a game portrait, treat a transparent RGBA cutout as the default unless the user explicitly requests a designed background or an approved portrait family requires one. Do not bake paper, environmental wash or background color into the transparent margin.
+
+At native size and in the intended UI crop, outer contours must be clean, continuous and intentional: no jagged or visibly aliased edges, broken contour artifacts, halos, detached pixels or stray hair wisps outside the silhouette. Build outer hair as a few controlled masses; reserve individual strands for deliberate interior accents rather than letting them escape the silhouette.
+
 Use aspect-preserving fitting and cropping. Never stretch one axis to fill a portrait box. Keep the source-resolution portrait separate from runtime atlases and cropped derivatives.
 
 ## QA and approval
@@ -221,6 +225,8 @@ Review the full portrait and its actual intended UI crop. Confirm:
 - Correct selected rendering mode
 - One coherent light direction and restrained highlights
 - Natural pose and expression appropriate to the character
+- Transparent game-portrait alpha treatment unless a designed background was explicitly requested
+- Clean anti-aliased outer contours with controlled hair silhouette and no stray exterior strands
 - Face and signature silhouette survive the UI crop
 - Clean contours and alpha edges on the real UI background
 - No pseudo-writing, watermark, invented UI or unrelated design change
