@@ -59,8 +59,27 @@ Player:
 3. [Kneel and kiss her hand] “I’m <name>.”
 4. [Salute] “<name>.”
 
-Elsie: Nod.
-"Elsie, pleasure to meet you."
+### If the Player chooses Friendly or Polite
+
+Elsie:
+“Elsie. Good to meet you, Commander.”
+
+### If the Player kneels
+
+|Elsie withdraws her hand before you can kiss it.|
+
+Elsie:
+“You can stand.”
+“I’m not anyone you need to bow to.”
+
+### If the Player salutes
+
+|Elsie returns the salute almost automatically, then lowers her hand.|
+
+Elsie:
+“...Old habit.”
+
+### The dialogue rejoins here
 
 Tristitia:
 |Tristitia is looking at Elsie|
@@ -84,6 +103,10 @@ Player:
 Tristitia:
 "She used to be part of a command in the army."
 "And the last thing she wants is working with someone incapable."
+
+Elsie:
+“Tristitia told me what you’re trying to build.”
+“Steady work, supplies, and somewhere for adventurers to come back to.”
 
 Elsie: 
 |Elsie winks at you.|

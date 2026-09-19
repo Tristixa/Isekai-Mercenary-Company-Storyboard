@@ -29,9 +29,9 @@ There are two unrelated characters named Elsie.
 
 **Chasm of Hope Elsie:** a warm, teasing, subtly flirtatious gunslinger and bounty-hunting companion who speaks with a natural western cadence. Humor is one of her defenses.
 
-**IMC Elsie:** a serious fantasy-world officer and Chief of Adventurers/Expeditions. She is not a cowgirl, does not use Mojave-style speech, and must not be written as the Chasm of Hope character. Her identity is based on expedition responsibility, professional judgment, and care for adventurers.
+**IMC Elsie:** a warm, companionable former soldier and serious fantasy-world Chief of Adventurers/Expeditions. She values freedom, lightly teases people she is comfortable with, and expresses restrained sincerity through expedition responsibility and care for adventurers. She is not a cowgirl, does not use Mojave-style speech, and must not be written as a bounty-hunting gunslinger.
 
-The shared name is not shared characterization.
+The shared name does not make them the same character. Their intentional overlap—warmth, companion-like attachment, light wit, restrained sincerity, and valuing freedom—must be expressed through IMC Elsie's army background, professional role, and fantasy-world circumstances.
 
 ---
 
@@ -166,9 +166,21 @@ Examples of transferable structure:
 
 Use food, ledgers, repaired equipment, expedition maps, workbenches, contracts, uniforms, kitchens, tavern tables, and return routes as relationship objects. The object should matter because of who handled it, who depends on it, or what memory it carries.
 
-### Short dialogue exchanges with subtext
+### Conversational causality and subtext
 
-Prefer readable back-and-forth dialogue. Let characters answer the practical question while also revealing their attitude toward the person asking.
+The transferable strength of Chasm of Hope dialogue is not western vocabulary or uniformly short lines. It is conversational causality: each person sounds as if they are responding to what was just said, not waiting to deliver the next piece of the outline.
+
+Build exchanges through a natural chain such as:
+
+`concrete prompt → personal reaction → answer, deflection, or reframe → response or pushback → shared conclusion or emotional pivot`
+
+Let characters answer the practical question while also revealing their attitude toward the person asking. A line may hesitate, qualify itself, continue across several sentences, or briefly turn aside when that is how the speaker thinks. Do not split one natural thought into several polished one-line statements merely to make the dialogue concise.
+
+The important question is not only “Does this line sound like the character?” It is also:
+
+> “Why does this character say this particular thing now, after that particular line?”
+
+If the answer is only “because the audience needs the information,” the exchange needs another conversational cause.
 
 ### Emotional turns that return to action
 
@@ -186,7 +198,7 @@ Do not import:
 
 - Fallout: New Vegas, Mojave, NCR, Legion, Shadowrunners, caps, courier mythology, or Fallout quest logic.
 - Cowboy speech as a default voice.
-- The Chasm of Hope Elsie's playful gunslinger personality.
+- The Chasm of Hope Elsie's exact gunslinger package: western cadence, bounty-hunter identity, flirtatious performance, and Mojave-specific mannerisms. Intentional overlapping traits in IMC Elsie's approved character sheet remain valid.
 - A lone-hero structure where the player personally performs every important task.
 - Pervasive wasteland cynicism or survivalist grimness.
 - The assumption that monsters are primarily enemies rather than ecological and economic resources.
@@ -248,7 +260,7 @@ Before writing dialogue for a character, establish these eight fields:
 4. **Emotional armor:** What do they avoid showing?
 5. **Care language:** How do they help without necessarily saying “I care”?
 6. **Humor source:** What specifically makes their lines funny, if humor belongs to them?
-7. **Speech mechanics:** Sentence length, vocabulary, rhythm, hesitation, formality, and favorite structures.
+7. **Speech mechanics:** Vocabulary, rhythm, hesitation, formality, how thoughts unfold, and the natural range between short reactions and longer explanations. A preference for concise speech does not require every turn to be a single short sentence.
 8. **Relationship friction:** What do they misunderstand or challenge in others?
 
 Humor must be character-specific. Do not give every officer the same quick banter. A character's humor should emerge from their temperament, job, blind spot, or coping pattern.
@@ -264,7 +276,7 @@ Humor must be character-specific. Do not give every officer the same quick bante
 
 **Function:** Make decisions, ask questions, connect departments, propose systems, accept responsibility, and gradually turn an idea into a functioning company.
 
-**Voice:** Plain, curious, flexible, and readable. He can sound modern because he is from Earth, but should not dominate every scene with contemporary jokes. Dialogue choices may show intent rather than exact wording.
+**Voice:** Plain, curious, reactive, flexible, and readable. His authored base takes inspiration from Vanilla's approachable responsiveness in Steambot Chronicles: he asks obvious questions, says what he is thinking, makes sincere or awkward observations, and can adapt without already understanding the world. He can sound modern because he is from Earth, but should not dominate every scene with contemporary jokes. Dialogue choices should express different intentions while still sounding like the same underlying person.
 
 **Humor:** Player-directed. The player may choose friendly, shy, demanding, pensive, or irreverent responses. Do not force him into a strong fixed comedic persona.
 
@@ -304,21 +316,21 @@ Humor must be character-specific. Do not give every officer the same quick bante
 
 **Core identity:** A serious fantasy-world officer responsible for putting people into danger and bringing them home. Her authority comes from expedition judgment, not from being a flashy hero.
 
-**Working characterization:** Direct, observant, disciplined, and protective through preparation. She should feel like someone who knows that a bad route, poor equipment, or late departure can injure real people.
+**Working characterization:** Warm, companionable, direct, observant, and disciplined. She values the freedom to choose one's work and road, but her army experience taught her that freedom without preparation can become another form of danger. She should feel like someone who can make adventurers comfortable around her while never forgetting that a bad route, poor equipment, or late departure can injure real people.
 
-**Humor:** Not a cowgirl persona and not a default flirt. If she uses humor, keep it restrained and situational: a dry observation, a professional correction, or a brief acknowledgment of absurdity. Her seriousness should remain the baseline.
+**Humor:** Light teasing, dry observation, and occasional wit shared with people she is comfortable around. The humor should feel companionable rather than performative. It quiets or disappears when someone is injured, missing, or being careless with another person's safety. She is not a cowgirl persona and not a default flirt.
 
-**Speech:** Clear, practical, and fantasy-appropriate. She uses expedition vocabulary: route, provisions, weather, return time, injuries, formation, reports, and risk. Avoid Mojave contractions, western nicknames, and gunslinger bravado.
+**Speech:** Warm, clear, practical, and fantasy-appropriate. She can sound relaxed in ordinary company and firmer when responsibility is involved. She uses expedition vocabulary naturally when the work calls for it: route, provisions, weather, return time, injuries, formation, reports, and risk. Avoid Mojave cadence, western nicknames, and gunslinger bravado.
 
-**Emotional armor:** Professional control and responsibility. She may sound severe because she is carrying consequences for other people's bodies and livelihoods.
+**Emotional armor:** Professional control, responsibility, and occasional teasing that keeps worry from becoming a confession. She becomes firmer, not colder, when other people's bodies and livelihoods are at risk.
 
 **Care language:** Checks preparation, remembers small risks, corrects dangerous habits, insists on rest, and makes contingency plans.
 
 **Relationship with the Commander:** She evaluates whether his ideas protect the Company or merely sound exciting. Trust grows when he listens, accepts responsibility, and learns how to make choices for a group.
 
-**Dialogue test:** Before giving her a line, ask: “Is this something an expedition chief would say because she is responsible for people returning alive?” If not, reconsider it.
+**Dialogue test:** Before giving her a line, ask both: “Does this sound like someone adventurers would choose to travel with?” and “Does this sound like the officer responsible for bringing them home?” Elsie needs both warmth and responsibility.
 
-**Avoid absolutely:** “Partner,” “pardner,” western drawl, bounty-hunter charm, playful deception, gunslinger swagger, and the Chasm Elsie emotional arc.
+**Avoid absolutely:** “Partner,” “pardner,” western drawl, bounty-hunter identity, gunslinger swagger, and copying Chasm Elsie's exact voice. Transferable warmth, restrained sincerity, and companion-like attachment must be expressed through IMC Elsie's army history, freedom ethic, and expedition responsibility.
 
 ### Steady Mae
 
@@ -397,7 +409,19 @@ Their dialogue should show that they have lives beyond the current expedition. A
 
 ## 8. Dialogue generation rules
 
-Before generating a line, identify the speaker's:
+### Natural dialogue law
+
+Dialogue must be written as interaction, not as an outline converted into alternating lines.
+
+Every substantial turn needs three things:
+
+1. **Cause:** Something in the previous words, action, silence, or shared situation prompted it.
+2. **Immediate intention:** The speaker is trying to answer, ask, reassure, test, avoid, tease, correct, persuade, challenge, or change the subject.
+3. **Ownership:** The wording and conversational choice belong to this character and this relationship.
+
+A line that contains useful information but has no believable cause or social intention is author narration disguised as speech.
+
+Before generating an exchange, identify each speaker's:
 
 - Department or work context.
 - Current practical objective.
@@ -405,28 +429,75 @@ Before generating a line, identify the speaker's:
 - Emotional armor.
 - Humor source, if any.
 - Relationship to the listener.
+- Immediate reason for speaking now.
+- What they would prefer not to say directly.
 
-Then write the line so it does at least two things:
+Then write each conversational turn so it does at least two things:
 
 1. Advances the immediate situation.
 2. Reveals how this particular person thinks or cares.
 
+### Write in conversational units
+
+A conversational unit is one thought moving between people. It may contain a short reaction, a longer answer, an interruption, a qualification, a joke, or a silence. Its length is determined by the thought and pressure, not by a target number of words.
+
+- Let short lines work as reactions, refusals, acknowledgments, corrections, or pressure.
+- Let a speaker use several connected sentences when explaining, remembering, persuading, or reluctantly admitting something.
+- Do not divide one thought into several isolated, quote-ready lines.
+- Do not make every turn equally polished, equally brief, or equally witty.
+- Allow contractions, unfinished starts, repeated words, small fillers, and changes of direction when they belong to the speaker. Natural speech may be slightly untidy, but do not manufacture errors as decoration.
+- A character may partially answer, answer the implication instead of the literal question, or delay an answer, but the listener should be able to react to that choice.
+
+### Exposition must be socially necessary
+
+Information belongs in dialogue when someone in the scene needs it, disputes it, misunderstands it, or must make a decision with it. Filter explanations through the speaker's priorities and the listener's reactions.
+
+Do not make one character recite headquarters systems, department roles, world facts, or game mechanics in outline order. Break information across actions and genuine questions. Let another character interrupt, test an assumption, notice a consequence, or pull the discussion toward what matters to them.
+
+### Humor must react to something
+
+Humor is strongest when it performs relationship work: easing tension, avoiding concern, testing familiarity, puncturing formality, or responding to an absurd detail. Do not add an interchangeable joke because the scene needs “a humor beat.” The setup must already exist in the conversation or shared history.
+
+### Emotional turns must grow out of the exchange
+
+Move from ordinary talk, work, or teasing toward sincerity by degrees. Let the character circle the vulnerable point, reveal it indirectly, or defer it into a promise or practical action. The sincere line should feel caused by what the two people have just said to each other.
+
+### The spoken-aloud test
+
+Before presenting dialogue, read it as a continuous exchange and ask:
+
+- What caused each line?
+- Is the speaker responding to the other person, or merely advancing the outline?
+- Could another character say this unchanged?
+- Did I turn a natural thought into several aphorisms?
+- Is anyone stating their own character profile or the scene's theme?
+- Does the rhythm vary naturally between reactions and developed thoughts?
+- Would a person have a reason to say this aloud, here, to this listener?
+
+Revise any line that fails these questions even if it is individually clever.
+
 ### Good IMC dialogue
 
 - Names a concrete task or consequence.
+- Carries conversational cause from one turn into the next.
 - Lets profession shape metaphor and vocabulary.
 - Uses pauses differently for different characters.
 - Allows disagreement without making people cruel.
 - Lets humor arise from identity rather than authorial one-liners.
 - Keeps the player-character's dialogue flexible enough for self-insertion.
 - Uses ordinary work as emotional subtext.
+- Allows a thought to occupy the space it naturally needs.
 
 ### Avoid
 
 - Everyone sounding equally witty.
+- Alternating lines that each deliver one outline item.
+- Uniformly clipped dialogue mistaken for character voice.
+- Polished aphorisms where an ordinary response would be more human.
 - Every scene ending in a dramatic confession.
 - Lore speeches that do not affect a decision.
 - Characters explaining their own personality.
+- Characters announcing the theme or emotional conclusion before the conversation earns it.
 - Generic “we need to save the world” stakes when a local consequence is available.
 - Making serious characters secretly cowboys because the old project had a successful cowboy companion.
 
@@ -526,14 +597,27 @@ When asked to create or revise an IMC story scene:
 
 1. Identify the location, department, time, and immediate work problem.
 2. List only the characters actually present.
-3. Load each present character's voice card.
-4. State what each character wants in the scene and what they are avoiding.
+3. Read each present character's current sheet. The character sheet outranks dialogue already written in the manuscript.
+4. State what each character wants from the conversation, what they are avoiding, and what has just caused them to speak.
 5. Decide what practical object, task, or consequence carries the subtext.
-6. Keep humor character-specific.
-7. Make the player-character's response options express intent rather than forcing one personality.
-8. Give the scene one emotional change, even if small.
-9. End with a decision, task, invitation, consequence, or return.
-10. Run the contamination check below before delivering.
+6. Build a turn map based on reactions and changing pressure, not a list of facts for each speaker to deliver.
+7. Draft in conversational units. Preserve natural variation between short reactions and longer thoughts.
+8. Keep humor character-specific and reactive to the current exchange.
+9. Make the player-character's response options express different intentions while preserving his authored base voice.
+10. Give the scene one emotional change, even if small, and let it alter the next action or responsibility.
+11. End with a decision, task, invitation, consequence, or return.
+12. Run the spoken-aloud test and contamination check below before delivering.
+
+### Approval-first manuscript workflow
+
+When the user asks to revise scene dialogue, do not edit the manuscript immediately.
+
+1. Explain the intended changes and the specific dialogue problem they address.
+2. Show the complete proposed dialogue in scene order, including enough action context to judge its rhythm.
+3. Wait for explicit approval.
+4. After approval, apply only the approved revision while preserving any newer user edits.
+
+A request to review, brainstorm, or preview is not permission to modify the manuscript. Character sheets and the bible may be updated only when the user explicitly asks to change them.
 
 ### Contamination check
 
@@ -557,7 +641,9 @@ If any answer is yes, revise before delivery.
 
 Use this internal prompt when drafting:
 
-> Write an IMC scene in Eurydica, a warm and slightly worn grounded-fantasy company-management world. The Company is both an institution and a household. Start from a concrete local problem or work task. Let profession shape dialogue. Preserve player choice through intent-based options. Give every named character a distinct voice, emotional armor, care language, and character-specific humor source. Use the Chasm of Hope craft principles of accumulated companionship, practical subtext, symbolic objects, recontextualizing reveals, and forward-moving emotional turns, but do not import Fallout/New Vegas setting, cowboy register, wasteland grimness, or Chasm Elsie's personality. IMC Elsie is a serious fantasy expedition officer, not a cowgirl. Keep monsters ecological rather than automatically evil, keep magic open unless canonized, and make the scene change a relationship, responsibility, or community consequence before it ends.
+> Write an IMC scene in Eurydica, a warm and slightly worn grounded-fantasy company-management world. The Company is both an institution and a household. Start from a concrete local problem or work task. Let profession shape dialogue. Preserve player choice through intent-based options. Give every named character a distinct voice, emotional armor, care language, and character-specific humor source. Use the Chasm of Hope craft principles of accumulated companionship, practical subtext, symbolic objects, recontextualizing reveals, and forward-moving emotional turns, but do not import Fallout/New Vegas setting, cowboy register, wasteland grimness, or Chasm Elsie's exact voice and gunslinger identity. IMC Elsie is warm and companionable but carries a former soldier's seriousness about expedition safety; she is not a cowgirl. Keep monsters ecological rather than automatically evil, keep magic open unless canonized, and make the scene change a relationship, responsibility, or community consequence before it ends.
+>
+> Write dialogue through conversational causality: every turn must be prompted by the previous words, action, silence, or shared situation and must pursue an immediate social intention. Do not convert outline points into alternating lines, split natural thoughts into polished aphorisms, or make characters state their own profiles. Vary the rhythm between short reactions and developed thoughts, make exposition necessary to a present decision, let humor react to the relationship, and let sincerity emerge from ordinary talk before it changes what happens next.
 
 ---
 
