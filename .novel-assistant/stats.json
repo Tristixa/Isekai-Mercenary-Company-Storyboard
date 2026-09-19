@@ -10,10 +10,16 @@
       "wordsWritten": 761,
       "timeSpentMinutes": 84,
       "sessionsCount": 1
+    },
+    {
+      "date": "2026-09-19",
+      "wordsWritten": 1015,
+      "timeSpentMinutes": 0,
+      "sessionsCount": 0
     }
   ],
-  "currentStreak": 0,
-  "longestStreak": 0,
-  "totalWordsEver": 761,
+  "currentStreak": 1,
+  "longestStreak": 1,
+  "totalWordsEver": 1776,
   "projectStartDate": "2026-09-18"
 }

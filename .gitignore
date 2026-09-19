@@ -1,0 +1,14 @@
+# Local agent working state
+/.unlazy/
+
+# Temporary and generated working files
+/tmp/
+/output/
+
+# Operating-system clutter
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Office temporary files
+~$*
