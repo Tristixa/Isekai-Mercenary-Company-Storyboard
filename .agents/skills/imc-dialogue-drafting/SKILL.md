@@ -1,6 +1,6 @@
 ---
 name: imc-dialogue-drafting
-description: Draft, review, personalize, or revise dialogue and story scenes for Isekai Mercenary Company while preserving its character sheets, conversational style, player voice, and separation from Chasm of Hope canon. Use for IMC manuscript dialogue, scene previews, dialogue reviews, character voice passes, and dialogue-focused story work.
+description: Draft, review, personalize, or revise dialogue and story scenes for Isekai Mercenary Company while preserving character sheets, conversational style, player voice, and separation from Chasm of Hope canon. Use for IMC dialogue, scene previews, character voice passes, and Steambot Chronicles-style camera and actor staging.
 ---
 
 # IMC Dialogue Drafting
@@ -109,6 +109,27 @@ Do not use Tristitia, Elsie, Mae, or another officer as a game-system presenter.
 - Permit questions, corrections, resistance, or misunderstanding.
 - Break information across relevant actions and decisions.
 - Stop once the listener has enough information for the current choice.
+
+## Stage dialogue with the Steambot Chronicles approach
+
+The user selected Steambot Chronicles alone as IMC's dialogue-staging reference. Do not blend in Genshin direction or use the archived Genshin study as guidance. This choice concerns camera and actor staging; the user's writing style and current character sheets still govern dialogue and personality.
+
+When staging a scene:
+
+- Establish the participants, their positions, and their initial attention once. Let shared group or two-person views carry several connected exchanges.
+- Default to minimal movement and a small reusable set of dialogue poses: idle/listening, a simple turn or nod, thinking, and explicitly needed gestures. Hold a pose across several lines when appropriate. Do not choreograph a sequence of glances, weight shifts, hand movements, and posture adjustments for each thought; dialogue staging is concise game-animation direction, not detailed prose acting.
+- Specify a clear pose when it matters instead of an abstract emotional action. The user's requested Player/Vanilla thinking pose is head lowered, one arm raised with the hand at the chin. For Scene 1's target-guessing choice, use that pose through the choice and return to idle afterward. This is a staging prescription, not a claim that the animation asset already exists or a requirement for every internal thought.
+- Keep worn bags and equipment attached throughout ordinary dialogue, sitting, standing, and walking. Do not add putting down, opening, searching, picking up, re-equipping, or adjusting a bag for incidental realism. Prop interaction needs an actual story requirement or explicit user request; describe the minimum necessary action and flag any bespoke animation need.
+- Internal monologue does not require a matching physical action. In Scene 1, the food-and-water thought remains internal, with no bag search, food retrieval, or eating animation. Quiet sitting and listening can remain in idle; do not add busywork to fill silence.
+- Reframe for a discovery, significant reaction, changed relationship focus, entrance, or departure when the existing view cannot show it clearly. Do not cut merely because the speaker changes.
+- Keep relevant listeners visible when their presence gives humor or emotion its social meaning. Match physical energy to the current character sheets; do not copy the reference characters' mannerisms.
+- Reserve elaborate actions for essential story events or explicit user-authored choices; do not use Steambot's elaborate reveal scenes to justify extra movement in routine dialogue. Preserve existing chosen actions such as saluting or kneeling without embellishing them; flag their animation cost rather than silently deleting or expanding them.
+- Give one-time gestures an ending and a stable waiting pose. Player-choice branches must settle into consistent positions and prop ownership before shared dialogue resumes. Do not prescribe fixed reading or choice durations.
+- Write staging at meaningful beats rather than between every line. Preserve whole conversational thoughts. Describe the intent in terms IMC's actual visual format can support; do not assume free 3D cameras or facial animation.
+
+Before presenting staging, remove any added action that can be conveyed by the dialogue or a held reusable pose without losing necessary story information. Check especially for equipment handling, repeated micro-reactions, and unnecessary position changes. Prefer a concise cue such as `|Player: thinking pose; head lowered, hand at chin.|` over a chain of bespoke movements.
+
+For timestamped evidence when needed, consult `Research/Steambot Chronicles Dialogue Staging Study.md` from the IMC project root. Its historical comparison is not permission to reintroduce Genshin. Staging revisions require the same full-scene preview and approval as dialogue revisions.
 
 ## Audit the dialogue
 

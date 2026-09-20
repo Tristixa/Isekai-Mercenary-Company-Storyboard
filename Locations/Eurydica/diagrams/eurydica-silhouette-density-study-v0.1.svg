@@ -1,132 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100">
-  <defs>
-    <style>
-      .bg { fill:#f4eedf; }
-      .ink { fill:#1b3340; }
-      .muted { fill:#6f665b; }
-      .line { stroke:#6d645a; stroke-width:4; fill:none; }
-      .fine { stroke:#978b7c; stroke-width:2; fill:none; }
-      .guide { stroke:#b6aa98; stroke-width:2; stroke-dasharray:8 8; fill:none; }
-      .road { fill:#d7b26f; }
-      .low { fill:#c6b79c; stroke:#625c54; stroke-width:3; }
-      .mid { fill:#d6c29e; stroke:#625c54; stroke-width:3; }
-      .dense { fill:#b89679; stroke:#625c54; stroke-width:3; }
-      .old { fill:#9a806d; stroke:#574f49; stroke-width:3; }
-      .accent { fill:#477b83; stroke:#315860; stroke-width:3; }
-      .civic { fill:#d9d1bd; stroke:#625c54; stroke-width:3; }
-      .water { fill:#82b4c2; stroke:#3d7787; stroke-width:4; }
-      .title { font: 700 42px Georgia,serif; fill:#173748; }
-      .subtitle { font: 500 20px Arial,sans-serif; fill:#61594f; letter-spacing:1px; }
-      .section { font: 700 23px Arial,sans-serif; fill:#173748; letter-spacing:.5px; }
-      .label { font: 700 18px Arial,sans-serif; fill:#20343d; text-anchor:middle; }
-      .small { font: 400 15px Arial,sans-serif; fill:#4f4a44; text-anchor:middle; }
-      .note { font: 600 16px Arial,sans-serif; fill:#514b45; }
-      .tiny { font: 400 14px Arial,sans-serif; fill:#5f574f; }
-      .number { font: 700 21px Arial,sans-serif; fill:#f4eedf; text-anchor:middle; dominant-baseline:middle; }
-    </style>
-  </defs>
-
-  <rect class="bg" width="1600" height="1100"/>
-  <text class="title" x="70" y="70">Eurydica — Silhouette &amp; Density Study</text>
-  <text class="subtitle" x="72" y="104">CONCEPT V0.1 · SOUTH-TO-NORTH PROFILE · APPROVED 2026-09-20</text>
-
-  <text class="section" x="70" y="155">1 · CITY PROFILE FROM THE SOUTHERN APPROACH</text>
-  <path class="fine" d="M70 510 L1530 510"/>
-  <path class="guide" d="M70 300 L1530 300"/>
-  <text class="tiny" x="1010" y="291">exceptional landmark height</text>
-
-  <!-- mild rising ground -->
-  <path d="M70 510 L300 500 L520 485 L700 465 L830 465 L930 435 L1180 405 L1530 390 L1530 530 L70 530 Z" fill="#dccfb5"/>
-
-  <!-- south gate -->
-  <path class="mid" d="M105 500 L105 405 L145 370 L185 405 L185 500 Z"/>
-  <path class="mid" d="M205 500 L205 405 L245 370 L285 405 L285 500 Z"/>
-  <rect class="low" x="142" y="430" width="106" height="70"/>
-
-  <!-- arrival ward, low and open -->
-  <path class="low" d="M320 495 L320 445 L390 410 L460 445 L460 492 Z"/>
-  <path class="low" d="M485 488 L485 450 L540 425 L600 450 L600 482 Z"/>
-  <path class="accent" d="M390 500 L390 462 L425 442 L462 462 L462 494 Z"/>
-
-  <!-- market climbs and compresses -->
-  <path class="mid" d="M625 475 L625 395 L680 350 L738 395 L738 468 Z"/>
-  <path class="dense" d="M720 468 L720 370 L780 325 L840 370 L840 464 Z"/>
-
-  <!-- river and old bridge as horizontal anchor -->
-  <rect class="water" x="842" y="430" width="150" height="48"/>
-  <path class="old" d="M820 455 L820 350 L855 325 L890 350 L890 455 Z"/>
-  <path class="old" d="M945 455 L945 350 L980 325 L1015 350 L1015 455 Z"/>
-  <rect class="old" x="855" y="385" width="125" height="48"/>
-
-  <!-- civic stays low -->
-  <path class="civic" d="M1030 430 L1030 375 L1080 345 L1130 375 L1130 422 Z"/>
-  <path class="civic" d="M1140 420 L1140 382 L1190 360 L1240 382 L1240 412 Z"/>
-
-  <!-- old city irregular mass and inherited tower -->
-  <path class="dense" d="M1220 410 L1220 320 L1270 278 L1325 320 L1325 402 Z"/>
-  <path class="old" d="M1300 402 L1300 290 L1350 248 L1400 290 L1400 397 Z"/>
-  <path class="old" d="M1355 250 L1355 175 L1382 138 L1409 175 L1409 395 L1355 395 Z"/>
-  <path class="mid" d="M1390 398 L1390 315 L1440 275 L1492 315 L1492 392 Z"/>
-
-  <text class="label" x="195" y="560">SOUTH GATE</text>
-  <text class="small" x="195" y="583">recognizable, practical</text>
-  <text class="label" x="450" y="560">ARRIVAL + COMPANY</text>
-  <text class="small" x="450" y="583">low roofs · open yards</text>
-  <text class="label" x="710" y="560">MARKET SPINE</text>
-  <text class="small" x="710" y="583">2–3 storeys · attached edges</text>
-  <text class="label" x="918" y="560">OLD BRIDGE</text>
-  <text class="small" x="918" y="583">dominant horizontal landmark</text>
-  <text class="label" x="1130" y="560">CIVIC TERRACE</text>
-  <text class="small" x="1130" y="583">deliberately low and modest</text>
-  <text class="label" x="1380" y="560">OLD CITY</text>
-  <text class="small" x="1380" y="583">densest roofline · one old tower</text>
-
-  <text class="section" x="70" y="645">2 · DENSITY AND STREET-WIDTH HIERARCHY</text>
-  <rect x="70" y="680" width="1460" height="210" rx="4" fill="#e8deca" stroke="#8d8274" stroke-width="2"/>
-
-  <!-- density strip -->
-  <rect class="low" x="90" y="705" width="210" height="105"/>
-  <rect class="accent" x="300" y="705" width="155" height="105"/>
-  <rect class="mid" x="455" y="705" width="255" height="105"/>
-  <rect class="road" x="710" y="705" width="105" height="105"/>
-  <rect class="water" x="815" y="705" width="125" height="105"/>
-  <rect class="road" x="940" y="705" width="105" height="105"/>
-  <rect class="civic" x="1045" y="705" width="175" height="105"/>
-  <rect class="dense" x="1220" y="705" width="290" height="105"/>
-
-  <text class="label" x="195" y="750">ARRIVAL</text>
-  <text class="small" x="195" y="777">low–medium</text>
-  <text class="label" x="377" y="750">COMPANY</text>
-  <text class="small" x="377" y="777">low / expandable</text>
-  <text class="label" x="582" y="750">MARKET</text>
-  <text class="small" x="582" y="777">high edge density</text>
-  <text class="label" x="762" y="750">WIDE</text>
-  <text class="small" x="762" y="777">route</text>
-  <text class="label" x="877" y="750">RIVER</text>
-  <text class="label" x="992" y="750">WIDE</text>
-  <text class="small" x="992" y="777">route</text>
-  <text class="label" x="1132" y="750">CIVIC</text>
-  <text class="small" x="1132" y="777">low–medium</text>
-  <text class="label" x="1365" y="750">OLD CITY</text>
-  <text class="small" x="1365" y="777">highest density</text>
-
-  <path class="line" d="M90 845 L1510 845"/>
-  <path d="M1492 833 L1515 845 L1492 857 Z" fill="#6d645a"/>
-  <text class="note" x="90" y="875">SOUTH / OUTSKIRTS</text>
-  <text class="note" x="1360" y="875">NORTH / OLD CORE</text>
-
-  <text class="section" x="70" y="945">3 · APPROVED DESIGN LOCKS</text>
-  <circle cx="95" cy="985" r="18" fill="#315860"/><text class="number" x="95" y="985">1</text>
-  <text class="note" x="125" y="981">Old Bridge rules the horizontal composition.</text>
-  <text class="tiny" x="125" y="1004">The bridge remains the city's identity even when the tower is visible.</text>
-
-  <circle cx="585" cy="985" r="18" fill="#315860"/><text class="number" x="585" y="985">2</text>
-  <text class="note" x="615" y="981">The Civic Terrace never becomes monumental.</text>
-  <text class="tiny" x="615" y="1004">Its low reused buildings preserve the novelty of the future Company.</text>
-
-  <circle cx="1100" cy="985" r="18" fill="#315860"/><text class="number" x="1100" y="985">3</text>
-  <text class="note" x="1130" y="981">Density gathers at edges, not in roads.</text>
-  <text class="tiny" x="1130" y="1004">Broad playable movement survives the lived-in treatment.</text>
-
-  <text class="tiny" x="70" y="1065">Conceptual height relationships only. Exact dimensions, facades, tower design and production camera remain unresolved.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1040" viewBox="0 0 1500 1040" role="img" aria-labelledby="title desc">
+<title id="title">Eurydica / Height and density</title><desc id="desc">District occupied-height ranges relative to local ground, using working storey guides. Roof shapes are not prescribed. The principal river crossing and mild terraces are retained.</desc>
+<defs><style>
+text{font-family:Arial,sans-serif;fill:#25343e}
+.title{font-family:Georgia,serif;font-size:40px;font-weight:bold}
+.sub{font-size:18px;fill:#54616a}
+.h{font-size:24px;font-weight:bold}
+.label{font-size:20px;font-weight:bold}
+.small{font-size:17px}
+.note{font-size:16px;fill:#54616a}
+.center{text-anchor:middle}
+.line{fill:none;stroke:#66747a;stroke-width:2}
+.route{fill:none;stroke:#304d62;stroke-width:12;stroke-linecap:round;stroke-linejoin:round}
+.dash{fill:none;stroke:#66747a;stroke-width:3;stroke-dasharray:9 7}
+</style><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6" fill="none" stroke="#304d62" stroke-width="1.5"/></marker></defs>
+<rect width="1500" height="1040" fill="#f7f7f3"/>
+<text x="60" y="67" class="title">Eurydica / Height and density</text><text x="60" y="103" class="sub">Corrected 20 September 2026 · Relative hierarchy retained · Storeys are working guides, not fixed dimensions</text>
+<text x="60" y="163" class="h">OCCUPIED HEIGHT ABOVE LOCAL GROUND</text>
+<text x="60" y="198" class="note">Roof volume and terrain affect the visible skyline. Exact profiles remain to be designed.</text>
+<text x="60" y="249" class="label">District</text><text x="960" y="249" class="label">Building arrangement</text><text x="440" y="249" class="small center">1 storey</text><path d="M440 266 L440 752" stroke="#d2d7d7" stroke-width="1"/><text x="580" y="249" class="small center">2 storeys</text><path d="M580 266 L580 752" stroke="#d2d7d7" stroke-width="1"/><text x="720" y="249" class="small center">3 storeys</text><path d="M720 266 L720 752" stroke="#d2d7d7" stroke-width="1"/><text x="860" y="249" class="small center">4 storeys</text><path d="M860 266 L860 752" stroke="#d2d7d7" stroke-width="1"/><path d="M60 308 L1435 308" stroke="#e1e4e2"/><text x="60" y="292" class="small">Arrival Ward</text><path d="M440 285 L580 285" stroke="#526d7b" stroke-width="12" stroke-linecap="round"/><circle cx="440" cy="285" r="8" fill="#304d62"/><circle cx="580" cy="285" r="8" fill="#304d62"/><text x="960" y="292" class="small">Lower groups with working yards</text><path d="M60 355 L1435 355" stroke="#e1e4e2"/><text x="60" y="339" class="small">Company Edge</text><path d="M440 332 L580 332" stroke="#526d7b" stroke-width="12" stroke-linecap="round"/><circle cx="440" cy="332" r="8" fill="#304d62"/><circle cx="580" cy="332" r="8" fill="#304d62"/><text x="960" y="339" class="small">Adapted base and expansion ground</text><path d="M60 402 L1435 402" stroke="#e1e4e2"/><text x="60" y="386" class="small">Market Spine</text><path d="M580 379 L720 379" stroke="#526d7b" stroke-width="12" stroke-linecap="round"/><circle cx="580" cy="379" r="8" fill="#304d62"/><circle cx="720" cy="379" r="8" fill="#304d62"/><text x="960" y="386" class="small">Attached frontage; broad main route</text><path d="M60 449 L1435 449" stroke="#e1e4e2"/><text x="60" y="433" class="small">Quays &amp; Storeyards</text><path d="M440 426 L580 426" stroke="#526d7b" stroke-width="12" stroke-linecap="round"/><circle cx="440" cy="426" r="8" fill="#304d62"/><circle cx="580" cy="426" r="8" fill="#304d62"/><text x="960" y="433" class="small">Broad footprints and loading gaps</text><path d="M60 496 L1435 496" stroke="#e1e4e2"/><text x="60" y="480" class="small">Workshop Quarter</text><path d="M440 473 L720 473" stroke="#526d7b" stroke-width="12" stroke-linecap="round"/><circle cx="440" cy="473" r="8" fill="#304d62"/><circle cx="720" cy="473" r="8" fill="#304d62"/><text x="960" y="480" class="small">Grouped work buildings and yard breaks</text><path d="M60 543 L1435 543" stroke="#e1e4e2"/><text x="60" y="527" class="small">Service Lanes</text><path d="M440 520 L580 520" stroke="#526d7b" stroke-width="12" stroke-linecap="round"/><circle cx="440" cy="520" r="8" fill="#304d62"/><circle cx="580" cy="520" r="8" fill="#304d62"/><text x="960" y="527" class="small">Small buildings and rear courts</text><path d="M60 590 L1435 590" stroke="#e1e4e2"/><text x="60" y="574" class="small">Civic Terrace</text><path d="M440 567 L580 567" stroke="#526d7b" stroke-width="12" stroke-linecap="round"/><circle cx="440" cy="567" r="8" fill="#304d62"/><circle cx="580" cy="567" r="8" fill="#304d62"/><text x="960" y="574" class="small">Small offices; expressive craftsmanship</text><path d="M60 637 L1435 637" stroke="#e1e4e2"/><text x="60" y="621" class="small">Old City Streets</text><path d="M580 614 L860 614" stroke="#526d7b" stroke-width="12" stroke-linecap="round"/><circle cx="580" cy="614" r="8" fill="#304d62"/><circle cx="860" cy="614" r="8" fill="#304d62"/><text x="960" y="621" class="small">Densest attached groups</text><path d="M60 684 L1435 684" stroke="#e1e4e2"/><text x="60" y="668" class="small">Residential Quarter</text><path d="M440 661 L720 661" stroke="#526d7b" stroke-width="12" stroke-linecap="round"/><circle cx="440" cy="661" r="8" fill="#304d62"/><circle cx="720" cy="661" r="8" fill="#304d62"/><text x="960" y="668" class="small">Courts, gardens, stepped foundations</text><path d="M60 731 L1435 731" stroke="#e1e4e2"/><text x="60" y="715" class="small">Waterworks &amp; Gardens</text><path d="M440 708 L440 708" stroke="#526d7b" stroke-width="12" stroke-linecap="round"/><circle cx="440" cy="708" r="8" fill="#304d62"/><circle cx="440" cy="708" r="8" fill="#304d62"/><text x="960" y="715" class="small">Low utilities and planted/service ground</text><text x="60" y="794" class="h">LANDMARKS AND GROUND</text>
+<text x="60" y="836" class="label">Old Bridge</text><text x="60" y="865" class="small">Primary city landmark through span,</text><text x="60" y="891" class="small">river views and route importance.</text>
+<text x="552" y="836" class="label">Inherited watch-bell tower</text><text x="552" y="865" class="small">Tallest architectural marker in Old City.</text><text x="552" y="891" class="small">Exact height and form remain open.</text>
+<text x="1040" y="836" class="label">Mild terraces</text><text x="1040" y="865" class="small">Stepped foundations, retaining edges,</text><text x="1040" y="891" class="small">selected trees and exposed rock.</text>
+<path d="M60 929 L1435 929" class="line"/>
+<text x="60" y="968" class="label">SOUTH GATE → ARRIVAL → MARKET → OLD BRIDGE → CIVIC TERRACE</text>
+<text x="60" y="1004" class="note">Gate: compact practical landmark, about 1–2 occupied storeys plus roof. No facade or roof family is selected by this diagram.</text>
 </svg>

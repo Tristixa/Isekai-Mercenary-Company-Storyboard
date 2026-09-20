@@ -4,6 +4,7 @@
 # Temporary and generated working files
 /tmp/
 /output/
+/Characters/Portrait Candidates
 
 # Operating-system clutter
 .DS_Store

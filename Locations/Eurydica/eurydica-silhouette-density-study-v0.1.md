@@ -1,104 +1,86 @@
 # Eurydica Silhouette and Density Study v0.1
 
-Status: approved concept layer as of 2026-09-20. This develops the approved district structure; it is not production geometry or authorization to change the game.
+Status: relative height and density hierarchy approved 2026-09-20; corrected and redrawn following the Amalur reference review. Specific architectural profiles are open for redesign.
 
-Companion city concept: `eurydica-city-concept-v0.1.md`
+Companion documents: [City concept](eurydica-city-concept-v0.1.md) and [district structure](eurydica-district-diagram-v0.1.md).
 
-Approved district structure: `eurydica-district-diagram-v0.1.md`
+Visual study: [editable diagram](diagrams/eurydica-silhouette-density-study-v0.1.svg) / [preview](diagrams/eurydica-silhouette-density-study-v0.1.png).
 
-Visual study: `diagrams/eurydica-silhouette-density-study-v0.1.svg`
+## 1. What this study establishes
 
-Rendered preview: `diagrams/eurydica-silhouette-density-study-v0.1.png`
+Eurydica extends from an open southern arrival edge toward denser northern neighborhoods. The diagram compares district building-height ranges relative to local ground and shows the main route across the river. It is not a literal elevation from one viewpoint.
 
-## 1. Recommended silhouette premise
+The approved height relationships concern occupied building mass. Deep roofs, eaves, terrain and the tower's eventual profile contribute to the visible skyline and must be designed together.
 
-Eurydica should read as a broad, accumulated river city rather than a pristine collection of detached houses. Its skyline rises gradually from the practical southern arrival districts, compresses around the Market Spine and Old Bridge, and becomes most irregular in the older northern streets. The city is substantial but not monumental.
+- Old City has the highest concentration of taller ordinary buildings.
+- Market Spine has attached, varied frontages with clear movement space.
+- Arrival Ward and Company Edge have lower buildings and usable yards.
+- Civic Terrace is small, low, reused and institutionally limited.
+- Waterworks and Gardens break the northern building mass with utility ground and vegetation.
 
-The silhouette hierarchy should be:
+## 2. District height and density guidance
 
-1. **Old City watch-bell tower:** the highest narrow marker, inherited from an older phase of the city. It is a navigation landmark, not evidence of a sophisticated modern government.
-2. **Old Bridge and its bridgehead roofs:** the strongest horizontal landmark and the visual center of Eurydica.
-3. **South Gate:** recognizable from the approach, but practical and smaller than the Old Bridge composition.
-4. **Workshop chimneys and roof vents:** a low, uneven working skyline, never a dominant industrial forest.
-5. **Ordinary attached roofs:** the city-wide rhythm that makes Eurydica feel dense, inhabited and old.
+Storey counts below are working guides, not mandatory dimensions. Roof volume and local terrain elevation affect apparent height.
 
-The Simple Civic Terrace must remain low and visually modest. It should not have a palace, grand council hall, monumental dome or dominant administrative tower.
+| District | Occupied-height guide | Building arrangement |
+| --- | --- | --- |
+| South Gate | 1–2 storeys plus gate roof | Compact defensive masses around a clear opening. |
+| Arrival Ward | 1–2 storeys | Broad inns and stables separated by useful yards. |
+| Company Edge | 1–2 storeys initially | Adapted building with room for growth. |
+| Market Spine | 2–3 storeys | Attached fronts with varied bays, roof heights and extensions. |
+| Quays and Storeyards | 1–2 storeys | Broad footprints, loading gaps and working access. |
+| Workshop Quarter | 1–3 storeys | Grouped workshops with useful yard breaks, vents and short chimneys. |
+| Service Lanes | 1–2 storeys | Smaller groups, rear courts and local connections. |
+| Civic Terrace | 1–2 storeys | Small reused offices, shelter and an imperfect public court. |
+| Old City Streets | 2–4 storeys | Densest attached groups, absorbed passages and layered roofs. |
+| Residential Quarter | 1–3 storeys | Groups of homes with courts, gardens and stepped foundations. |
+| Waterworks and Gardens | Mostly 1 storey | Low utility structures and open service ground. |
 
-## 2. Height and density by district
+Old Bridge is a crossing, not a building-height band. Bridgehead structures should frame a readable crossing and river view; their profiles remain to be developed.
 
-| District | Typical height | Density | Silhouette behavior |
-| --- | --- | --- | --- |
-| South Gate | 1-2 storeys plus gate roof | Medium | Compact paired gate masses with a clear road opening. |
-| Arrival Ward | 1-2 storeys | Low-medium | Broad inns, stables and cart yards; generous ground space. |
-| Company Edge | 1-2 storeys initially | Low | Modest first headquarters with visible side or rear expansion yard. |
-| Market Spine | 2-3 storeys | High along street edges | Continuous shopfront rhythm, varied awnings and occasional projecting upper floors. |
-| Quays and Storeyards | 1-2 storeys | Medium | Large footprints, stepped warehouse roofs and loading gaps facing the river. |
-| Workshop Quarter | 1-3 storeys | Medium-high | Uneven roofs, practical vents and a few short chimneys; no factory-scale skyline. |
-| Service Lanes | 1-2 storeys | Medium | Smaller attached buildings, rear courts and frequent narrow connections. |
-| Old Bridge | Bridge deck plus modest bridgehead structures | Landmark | Long, readable crossing with old masonry mass and inhabited edges kept secondary to circulation. |
-| Simple Civic Terrace | 1-2 storeys | Low-medium | Small reused offices around an imperfect public court; deliberately no grand vertical centerpiece. |
-| Old City Streets | 2-4 storeys | Highest | Attached irregular blocks, older roof layers, passages and the single watch-bell tower. |
-| Residential Quarter | 1-3 storeys | Medium | Stepped roofs, small courts and garden breaks following the mild terrace. |
-| Waterworks and Gardens | Mostly 1 storey | Low | Low utility forms and planted open ground that interrupt the northern roof mass. |
+## 3. Landmark relationships
 
-## 3. Street-width hierarchy
+- **Old Bridge:** defining city landmark, dominant through the river opening, crossing span, framing and route importance. It need not be the tallest object or largest solid mass.
+- **Watch-bell tower:** tallest architectural marker, inherited within Old City. Its exact form and detailed history remain open. Its presence does not imply advanced civic administration.
+- **South Gate:** recognizable approach landmark, practical in capacity and subordinate to the overall bridge-and-city composition.
+- **Workshop roofline:** local orientation through grouped work roofs, vents and a few short chimneys.
+- **Trees and rock:** selected landscape forms shape courts and views. The tower's role does not require every tree or distant landform to be shorter.
 
-- **Primary civic-trade route:** South Gate to Arrival Ward to Market Spine to Old Bridge to Civic Terrace. Keep roughly three cart widths of clear movement space where practical, with widened pockets at the market and bridge approaches.
-- **District streets:** roughly one-and-a-half to two cart widths, enough for delivery traffic and pedestrians without feeling ceremonial.
-- **Old City passages and service lanes:** approximately one cart width plus pedestrian margins, with occasional courts and cut-throughs preventing them from becoming continuous cramped corridors.
-- **Quay loading routes:** broad working lanes with turning and loading pockets rather than decorative promenades.
-- **Residential lanes:** quieter and narrower, but broken by small courts, garden entrances and stepped connections.
+## 4. Terrain and route relationships
 
-These are visual and circulation ratios, not finalized metric dimensions.
+Retain mild terraces. Express them through stepped foundations, low retaining walls, occasional exposed rock, planted slopes and streets that accommodate the land. Avoid either a uniform flat slab or a new mountain-capital setting.
 
-## 4. Architectural rhythm
+Keep the primary sequence:
+**South Gate → Arrival Ward → Market Spine → Old Bridge → Civic Terrace.**
 
-Eurydica should avoid a repeated kit-of-parts appearance. Building groups should share regional construction while showing different ages and owners.
+Use broad primary movement space and narrower secondary connections. Earlier cart-width estimates remain rough circulation guides: around three cart widths on the principal route, roughly one-and-a-half to two on district streets, and smaller service passages with pedestrian room and intermittent courts. Actual dimensions need a later gameplay-scale test.
 
-- Use attached or closely spaced building groups in the Market Spine and Old City instead of evenly isolated houses.
-- Vary roof height every one to three building fronts; avoid a uniform sawtooth applied mechanically across the city.
-- Combine simple gables, shallow curved eaves, clipped corners and small roof extensions.
-- Let upper floors occasionally project, bridge a service passage or wrap around an older masonry base.
-- Reserve symmetrical facades for a few older public or mercantile buildings. Everyday buildings should be composed through practical additions.
-- Keep the Civic Terrace's reused buildings plainer and lower than prosperous market houses.
+The northern neighborhoods connect across Old Bridge; secondary crossings are unresolved. Dense architecture should frame useful movement space. Apply the playable-scene open-ground target at the selected gameplay camera later, not as a city-wide land-use ratio.
 
-## 5. Regional fantasy identity
+## 5. Architectural direction for the redesign
 
-The fantasy character should come from a coherent local construction language rather than glowing crystals or monumental spectacle.
+Develop stronger roof sweeps, deep eaves, substantial structural supports, projecting rooms and shaped window/door openings. Preserve readable construction, attachment and ground contact.
 
-- Honey-grey river stone foundations and bridge masonry.
-- Muted cream, pale ochre and dusty green plaster fields.
-- Dark painted structural joinery with selected indigo or blue-green accents.
-- Clay and weathered copper roof families, including colored ceramic ridge caps and drainage pieces.
-- Curved timber or metal braces under balconies, awnings and bridgehead roofs.
-- Restrained river-wave, reed or compass-like geometric motifs on railings, vents, tiles and civic signs.
+Rooflines should vary because buildings have different purposes, histories and plots. Repeated geometry should not impose a mechanical sawtooth. The Civic Terrace may share all the local fantasy character while staying lower, smaller and simpler in service capacity.
 
-These traits should repeat selectively across districts so Eurydica feels regionally unified without every building being identical.
+Exact roof materials, motifs and palette are open. The former shallow-curve and clay/copper prescription is replaced by the corrected [facade redesign brief](eurydica-facade-material-language-v0.1.md).
 
-## 6. Lived-in density rather than clutter
+## 6. Visible occupation
 
-The city should show accumulated occupation at three scales:
+Show specific evidence of past construction, present ownership and daily use. Repairs follow building components and causes: a replaced roof run, altered opening, repaired stair or rebuilt foundation section. Thresholds, work bays, loading access and household courts make activity legible.
 
-- **Past:** patched roof runs, reused stone bases, blocked openings, mismatched but compatible extensions and repaired wall sections.
-- **Present ownership:** trade-specific awnings, loading frames, shop signs, garden walls, drying racks, storage sheds and building colors chosen by current occupants.
-- **Daily routine:** broad cart wear, swept shop thresholds, market setup zones, stable access, quay loading clearances and household service paths.
+There is no numeric allocation for age, ownership or regional construction. Evaluate whether each intervention explains the building and preserves coherent circulation.
 
-Keep the main playable routes broad and legible. Life should collect at edges, thresholds, courts and work pockets instead of filling the center of every road with props.
+## 7. Decisions carried forward
 
-## 7. Approved locks
+- Approved district positions and city scale.
+- Lower southern arrival buildings and denser northern Old City.
+- Old Bridge as the principal city landmark.
+- One inherited watch-bell tower as the tallest architectural marker.
+- A small, low Civic Terrace with limited services and expressive local craftsmanship.
+- Broad primary routes and attached market/old-city edges.
+- Visible but mild terrain changes.
 
-- The city rises from a low southern arrival edge into a denser northern old-city silhouette.
-- The Old Bridge is the dominant horizontal landmark.
-- One inherited Old City watch-bell tower is the tallest vertical marker; it does not belong to a developed civic bureaucracy.
-- The Civic Terrace remains low, reused and visually secondary.
-- The Market Spine and Old City use attached, irregular building groups; Arrival Ward and the Company Edge retain more open ground.
-- The primary route stays broad, with density concentrated along its edges rather than in its movement space.
-- Eurydica's regional identity uses river stone, colored plaster, painted joinery, clay/copper roofs, curved braces and restrained geometric motifs.
+## 8. Open design work
 
-## 8. Still unresolved after this study
-
-- Exact facade designs and district-specific building kits.
-- Exact shape and history of the watch-bell tower.
-- Final roof palette and material swatches.
-- Camera choice for the later concept image and playable production assets.
-- Final rendering family.
+Exact facade and roof forms, material families, motif design, scene palette, tower profile, concept camera and rendering treatment remain to be developed. The next test is a small Market Spine composition approaching Old Bridge.

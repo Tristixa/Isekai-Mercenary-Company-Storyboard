@@ -1,116 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200">
-  <defs>
-    <style>
-      .bg{fill:#f4eedf}.ink{fill:#193746}.muted{fill:#645c53}.panel{fill:#e9dfcb;stroke:#8b8073;stroke-width:2}.stone{fill:#8a8b82}.plaster{fill:#d8cbae}.ochre{fill:#c69b62}.sage{fill:#91a18d}.timber{fill:#4e4038}.clay{fill:#a75f4c}.darkroof{fill:#465765}.copper{fill:#638d84}.indigo{fill:#3f6274}.brass{fill:#b08c50}.paper{fill:#efe6d4}.line{stroke:#584f47;stroke-width:4;fill:none}.fine{stroke:#6f655b;stroke-width:2;fill:none}.repair{stroke:#d7bd86;stroke-width:8;fill:none;stroke-dasharray:20 10}.title{font:700 42px Georgia,serif;fill:#173748}.subtitle{font:500 19px Arial,sans-serif;fill:#61594f;letter-spacing:1px}.section{font:700 23px Arial,sans-serif;fill:#173748}.label{font:700 18px Arial,sans-serif;fill:#20343d}.small{font:400 15px Arial,sans-serif;fill:#4f4a44}.tiny{font:400 13px Arial,sans-serif;fill:#554e47}.center{text-anchor:middle}.light{fill:#f4eedf}.swatchname{font:700 14px Arial,sans-serif;fill:#20343d}.hex{font:400 12px Consolas,monospace;fill:#514a44}.rule{font:700 20px Arial,sans-serif;fill:#f4eedf;text-anchor:middle;dominant-baseline:middle}.number{font:700 24px Arial,sans-serif;fill:#f4eedf;text-anchor:middle;dominant-baseline:middle}
-    </style>
-  </defs>
-  <rect class="bg" width="1600" height="1200"/>
-  <text class="title" x="70" y="68">Eurydica — Facade &amp; Material Language</text>
-  <text class="subtitle" x="72" y="102">CONCEPT V0.1 · SHARED CITY GRAMMAR WITH OWNED, LIVED-IN VARIATION</text>
-
-  <text class="section" x="70" y="150">1 · REGIONAL MATERIAL PALETTE</text>
-  <g transform="translate(70 172)">
-    <g transform="translate(0 0)"><rect class="stone" width="136" height="72"/><text class="swatchname" y="94">RIVER STONE</text><text class="hex" y="113">#8A8B82</text></g>
-    <g transform="translate(148 0)"><rect class="plaster" width="136" height="72"/><text class="swatchname" y="94">PALE PLASTER</text><text class="hex" y="113">#D8CBAE</text></g>
-    <g transform="translate(296 0)"><rect class="ochre" width="136" height="72"/><text class="swatchname" y="94">OCHRE</text><text class="hex" y="113">#C69B62</text></g>
-    <g transform="translate(444 0)"><rect class="sage" width="136" height="72"/><text class="swatchname" y="94">DUSTY SAGE</text><text class="hex" y="113">#91A18D</text></g>
-    <g transform="translate(592 0)"><rect class="timber" width="136" height="72"/><text class="swatchname" y="94">JOINERY</text><text class="hex" y="113">#4E4038</text></g>
-    <g transform="translate(740 0)"><rect class="clay" width="136" height="72"/><text class="swatchname" y="94">CLAY ROOF</text><text class="hex" y="113">#A75F4C</text></g>
-    <g transform="translate(888 0)"><rect class="darkroof" width="136" height="72"/><text class="swatchname" y="94">DARK ROOF</text><text class="hex" y="113">#465765</text></g>
-    <g transform="translate(1036 0)"><rect class="copper" width="136" height="72"/><text class="swatchname" y="94">AGED COPPER</text><text class="hex" y="113">#638D84</text></g>
-    <g transform="translate(1184 0)"><rect class="indigo" width="136" height="72"/><text class="swatchname" y="94">RIVER INDIGO</text><text class="hex" y="113">#3F6274</text></g>
-    <g transform="translate(1332 0)"><rect class="brass" width="128" height="72"/><text class="swatchname" y="94">OLD BRASS</text><text class="hex" y="113">#B08C50</text></g>
-  </g>
-
-  <text class="section" x="70" y="330">2 · FOUR FACADE FAMILIES</text>
-
-  <!-- Market facade -->
-  <g transform="translate(70 355)">
-    <rect class="panel" width="350" height="425" rx="3"/>
-    <text class="label center" x="175" y="35">MARKET SPINE</text>
-    <text class="small center" x="175" y="58">attached · adaptable · owner-marked</text>
-    <rect class="stone" x="35" y="285" width="280" height="75"/>
-    <rect class="ochre" x="35" y="145" width="280" height="140"/>
-    <path class="clay" d="M20 145 L80 90 L210 108 L330 145 Z"/>
-    <rect class="timber" x="64" y="145" width="12" height="140"/><rect class="timber" x="194" y="145" width="12" height="140"/>
-    <rect class="indigo" x="88" y="180" width="72" height="58"/><rect class="paper" x="98" y="190" width="52" height="38"/>
-    <rect class="indigo" x="225" y="180" width="58" height="58"/><rect class="paper" x="235" y="190" width="38" height="38"/>
-    <rect class="timber" x="65" y="285" width="92" height="75"/><rect class="timber" x="230" y="285" width="58" height="75"/>
-    <path class="copper" d="M45 265 L175 265 L155 300 L60 300 Z"/>
-    <path class="repair" d="M240 112 L292 137"/>
-    <text class="tiny" x="28" y="392">wide shop openings · varied bays · awning points</text>
-  </g>
-
-  <!-- Old City facade -->
-  <g transform="translate(440 355)">
-    <rect class="panel" width="350" height="425" rx="3"/>
-    <text class="label center" x="175" y="35">OLD CITY</text>
-    <text class="small center" x="175" y="58">compressed · inherited · irregular</text>
-    <rect class="stone" x="35" y="290" width="280" height="70"/>
-    <rect class="plaster" x="35" y="135" width="165" height="155"/>
-    <rect class="sage" x="200" y="175" width="115" height="115"/>
-    <path class="darkroof" d="M18 135 L92 78 L216 135 Z"/>
-    <path class="clay" d="M188 175 L250 122 L330 175 Z"/>
-    <rect class="timber" x="70" y="135" width="12" height="155"/><rect class="timber" x="154" y="135" width="12" height="155"/>
-    <path class="fine" d="M35 228 L200 228 M200 238 L315 238"/>
-    <rect class="indigo" x="100" y="170" width="45" height="55"/><rect class="paper" x="108" y="178" width="29" height="39"/>
-    <rect class="timber" x="235" y="215" width="42" height="75"/>
-    <path class="timber" d="M185 250 L225 220 L235 228 L195 260 Z"/>
-    <path class="repair" d="M52 304 L120 304"/>
-    <text class="tiny" x="28" y="392">overlapping ages · reused base · rare passage bridge</text>
-  </g>
-
-  <!-- Arrival / Company facade -->
-  <g transform="translate(810 355)">
-    <rect class="panel" width="350" height="425" rx="3"/>
-    <text class="label center" x="175" y="35">ARRIVAL + COMPANY</text>
-    <text class="small center" x="175" y="58">practical · low · expandable</text>
-    <rect class="stone" x="35" y="290" width="280" height="70"/>
-    <rect class="plaster" x="35" y="180" width="280" height="110"/>
-    <path class="clay" d="M20 180 L92 120 L330 180 Z"/>
-    <rect class="timber" x="66" y="180" width="13" height="110"/><rect class="timber" x="245" y="180" width="13" height="110"/>
-    <rect class="indigo" x="105" y="220" width="80" height="70"/>
-    <rect class="paper" x="215" y="215" width="58" height="46"/>
-    <path class="copper" d="M260 180 L315 180 L315 255 L300 255 L300 198 L260 198 Z"/>
-    <rect class="timber" x="28" y="315" width="75" height="8"/>
-    <path class="repair" d="M205 143 L275 162"/>
-    <text class="tiny" x="28" y="392">robust doors · broad eaves · visible growth yard</text>
-  </g>
-
-  <!-- Civic facade -->
-  <g transform="translate(1180 355)">
-    <rect class="panel" width="350" height="425" rx="3"/>
-    <text class="label center" x="175" y="35">SIMPLE CIVIC TERRACE</text>
-    <text class="small center" x="175" y="58">reused · restrained · non-monumental</text>
-    <rect class="stone" x="35" y="292" width="280" height="68"/>
-    <rect class="paper" x="35" y="178" width="280" height="114"/>
-    <path class="darkroof" d="M20 178 L95 130 L330 178 Z"/>
-    <rect class="timber" x="74" y="178" width="12" height="114"/><rect class="timber" x="260" y="178" width="12" height="114"/>
-    <rect class="indigo" x="118" y="220" width="56" height="72"/>
-    <rect class="indigo" x="210" y="212" width="45" height="45"/><rect class="plaster" x="218" y="220" width="29" height="29"/>
-    <rect class="brass" x="52" y="205" width="44" height="35"/>
-    <path class="repair" d="M175 292 L240 292"/>
-    <text class="tiny" x="28" y="392">ordinary scale · clear entrance · no civic grandeur</text>
-  </g>
-
-  <text class="section" x="70" y="835">3 · THE CONTROLLED-VARIATION RULE</text>
-  <g transform="translate(70 865)">
-    <rect class="timber" width="850" height="80"/>
-    <rect class="indigo" x="850" width="340" height="80"/>
-    <rect class="brass" x="1190" width="170" height="80"/>
-    <text class="rule" x="425" y="40">70% SHARED REGIONAL GRAMMAR</text>
-    <text class="rule" x="1020" y="40">20% OWNER ADAPTATION</text>
-    <text class="rule" x="1275" y="40">10% AGE / REPAIR</text>
-    <text class="small" x="0" y="110">A design discipline, not a literal asset or pixel percentage.</text>
-  </g>
-
-  <text class="section" x="70" y="1030">4 · APPROVAL TEST</text>
-  <circle cx="95" cy="1072" r="18" fill="#315860"/><text class="number" x="95" y="1072">1</text>
-  <text class="label" x="125" y="1068">One city, several generations</text><text class="small" x="125" y="1093">shared construction without cloned facades</text>
-  <circle cx="585" cy="1072" r="18" fill="#315860"/><text class="number" x="585" y="1072">2</text>
-  <text class="label" x="615" y="1068">Life follows function</text><text class="small" x="615" y="1093">repairs and props explain ownership and routine</text>
-  <circle cx="1080" cy="1072" r="18" fill="#315860"/><text class="number" x="1080" y="1072">3</text>
-  <text class="label" x="1110" y="1068">Fantasy stays restrained</text><text class="small" x="1110" y="1093">regional forms and color, not crystal clutter</text>
-
-  <text class="tiny" x="70" y="1160">Concept palette and facade grammar only. Final rendering, lighting, camera, modular dimensions and surface values remain unresolved.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1040" viewBox="0 0 1500 1040" role="img" aria-labelledby="title desc">
+<title id="title">Eurydica / Architecture redesign brief</title><desc id="desc">The corrected brief joins Steambot urban function, Amalur fantasy forms and landscape composition, and IMC JRPG readability. It leads to a Market Spine street study before final facade and palette decisions.</desc>
+<defs><style>
+text{font-family:Arial,sans-serif;fill:#25343e}
+.title{font-family:Georgia,serif;font-size:40px;font-weight:bold}
+.sub{font-size:18px;fill:#54616a}
+.h{font-size:24px;font-weight:bold}
+.label{font-size:20px;font-weight:bold}
+.small{font-size:17px}
+.note{font-size:16px;fill:#54616a}
+.center{text-anchor:middle}
+.line{fill:none;stroke:#66747a;stroke-width:2}
+.route{fill:none;stroke:#304d62;stroke-width:12;stroke-linecap:round;stroke-linejoin:round}
+.dash{fill:none;stroke:#66747a;stroke-width:3;stroke-dasharray:9 7}
+</style><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6" fill="none" stroke="#304d62" stroke-width="1.5"/></marker></defs>
+<rect width="1500" height="1040" fill="#f7f7f3"/>
+<text x="60" y="67" class="title">Eurydica / Architecture redesign brief</text><text x="60" y="103" class="sub">Corrected 20 September 2026 · Active direction for the next concept · Facade designs and final palette remain open</text>
+<text x="60" y="164" class="h">REFERENCE RESPONSIBILITIES</text><path d="M60 186 L500 186" stroke="#526d7b" stroke-width="4"/><text x="60" y="222" class="label">STEAMBOT CHRONICLES</text><text x="60" y="257" class="small">City scale and daily function</text><text x="60" y="288" class="note">Infrastructure · neighborhoods · ownership</text><path d="M550 186 L990 186" stroke="#526d7b" stroke-width="4"/><text x="550" y="222" class="label">AMALUR</text><text x="550" y="257" class="small">Fantasy forms and atmosphere</text><text x="550" y="288" class="note">Expressive roofs · landscape · scene color</text><path d="M1040 186 L1480 186" stroke="#526d7b" stroke-width="4"/><text x="1040" y="222" class="label">CURRENT IMC</text><text x="1040" y="257" class="small">JRPG presentation</text><text x="1040" y="288" class="note">Character readability · portrait/world fit</text><path d="M282 314 L282 342 L750 342 L750 375 M772 314 L772 342 M1260 314 L1260 342 L750 342" class="line"/>
+<text x="750" y="412" class="h center">Everyday architecture is recognizably fantastical.</text>
+<text x="750" y="444" class="small center">Control detail and focal points for readability.</text>
+<path d="M60 474 L1440 474" class="line"/>
+<text x="60" y="515" class="h">DEVELOP TOGETHER IN A COMPLETE STREET</text><text x="60" y="563" class="label">BUILDING FORM</text><text x="60" y="610" class="small">Sweeping roof volumes and deep eaves</text><text x="60" y="640" class="small">Shaped openings and substantial supports</text><text x="60" y="670" class="small">Projecting rooms and readable construction</text><text x="550" y="563" class="label">LANDSCAPE &amp; USE</text><text x="550" y="610" class="small">Foundations fitted to mild terraces</text><text x="550" y="640" class="small">Trees and rocks that shape courts and routes</text><text x="550" y="670" class="small">Repairs, thresholds and loading tied to function</text><text x="1040" y="563" class="label">SCENE COLOR</text><text x="1040" y="610" class="small">Dominant roof and foliage masses</text><text x="1040" y="640" class="small">Supporting wall and ground colors</text><text x="1040" y="670" class="small">Localized cloth and activity accents</text><path d="M60 704 L1440 704" class="line"/>
+<text x="60" y="746" class="h">CIVIC TERRACE</text>
+<text x="60" y="784" class="small">Small footprint · limited services · reused buildings</text>
+<text x="750" y="784" class="small">Expressive local roofs, windows, doors and color</text>
+<text x="60" y="818" class="note">Institutional simplicity and fantasy craftsmanship can coexist. The Company still fills the adventurer-coordination gap.</text>
+<path d="M60 852 L1440 852" class="line"/>
+<text x="60" y="894" class="h">NEXT DESIGN TEST / MARKET SPINE APPROACHING OLD BRIDGE</text>
+<text x="60" y="936" class="small">Three neighboring buildings + side passage + substantial tree + merchant frontage + clear main route</text>
+<text x="60" y="975" class="small">Judge form and color in context; derive facade families and material swatches from the successful composition.</text>
+<text x="60" y="1014" class="note">Retained: river, district relationships, city scale, height hierarchy, modest civic capacity and inherited tower.</text>
 </svg>

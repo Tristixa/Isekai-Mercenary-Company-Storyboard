@@ -501,6 +501,22 @@ Revise any line that fails these questions even if it is individually clever.
 - Generic “we need to save the world” stakes when a local consequence is available.
 - Making serious characters secretly cowboys because the old project had a successful cowboy companion.
 
+### Dialogue camera and actor staging: Steambot Chronicles only
+
+User-selected direction, 2026-09-20: use the Steambot Chronicles approach for dialogue staging. Genshin is archived comparison research only and must not influence scene direction. This choice does not replace the user's conversational writing style or the authority of current character sheets.
+
+Use shared group and two-person compositions that can hold several exchanges. Let attention, facing, posture, and occasional brief gestures carry the interaction. Reframe when an important discovery, reaction, entrance, departure, or change of relationship focus needs clearer presentation; a new speaker alone is not a reason to cut.
+
+Character movement must be minimal and animation-conscious. Prefer a small reusable set of idle/listening, turning, nodding, thinking, and explicitly needed gesture poses, held across several lines where appropriate. Do not fill dialogue with detailed sequences of glances, weight shifts, hand movements, or posture adjustments. Keep listeners visible when their presence matters, but they do not need a new reaction for every line. Character identity still governs which simple pose fits.
+
+Worn bags and equipment stay attached through ordinary dialogue, sitting, standing, and walking. Do not add removing, putting down, opening, searching, picking up, re-equipping, or adjusting them for incidental realism. Prop interactions require a genuine story need or explicit user request, with any bespoke animation requirement made clear. Internal thoughts can play over an idle or held pose without literal physical enactment.
+
+Scene 1 corrections to carry into its next preview: the Player's bag remains attached from the beginning; the food-and-water line is internal monologue with no bag search; during the target-guessing choice, the Player uses a thinking pose with head lowered and hand at the chin, then returns to idle. These directions do not claim the required animation assets already exist.
+
+Reserve elaborate movement for essential events or explicit user-authored choices. Preserve chosen actions such as a salute or kneeling without adding flourish; flag production needs rather than silently removing them. Complete gestures into stable waiting poses and reconcile branches before shared dialogue resumes. Establish the initial arrangement once and annotate only meaningful changes without fragmenting natural speech. Adapt framing to IMC's actual presentation capabilities. Before presenting a scene, remove added movements that dialogue or a held pose can communicate just as clearly.
+
+The dialogue skill contains operational guidance; `Research/Steambot Chronicles Dialogue Staging Study.md` supplies timestamped evidence. Manuscript staging still requires a complete preview and explicit approval before edits.
+
 ### Character-specific humor map
 
 | Character | Humor source | What it should not become |

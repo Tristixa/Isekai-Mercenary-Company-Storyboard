@@ -1,6 +1,6 @@
 # Eurydica District Diagram v0.1
 
-Status: approved whole-city district structure as of 2026-09-19. It remains a concept schematic, not final production geometry, navigation data or game integration.
+Status: district relationships approved 2026-09-19; documentation and diagram corrected 2026-09-20. Exact geometry remains provisional. Diagram tones encode planning relationships, not building materials.
 
 Companion brief: `eurydica-city-concept-v0.1.md`
 
@@ -22,39 +22,15 @@ The Company begins near the southern market edge, where adventurers, travelers, 
 
 ## 2. Whole-city schematic
 
-North is up. Shapes show relationships rather than exact size.
+Use the linked visual schematic as the single district-placement map. North is up.
 
-```text
-                              NORTH / INLAND ROADS
-                 ┌─────────────────────────────────────┐
-                 │       NORTH TERRACE AND WALL        │
-                 │                                     │
-                 │  [H] Simple Civic Terrace           │
-                 │   toll / guard / notices / records  │
-                 │              ║                      │
-                 │  [G] Old City Streets ── [I] Homes │
-                 │      attached blocks       & daily  │
-                 │              ║              services│
- WEST ROAD       ├────────── [F] OLD BRIDGE ───────────┤  EAST ROAD
- AND QUARRIES    │~~~~~~~~~ APPROVED MAIN RIVER ~~~~~~~│  AND FARMS
-                 │   [D] Quays       [J] Waterworks    │
-                 │   & storeyards     and gardens      │
-                 │          ╲          ╱               │
-                 │        [E] Market Spine              │
-                 │     shops, stalls, tavern            │
-                 │       ╱                ╲             │
-                 │ [C] Workshops      [K] Service Lanes │
-                 │ processing/repair   food/clinic/home │
-                 │          ╲          ╱               │
-                 │         [B] Arrival Ward             │
-                 │   [L] Company        inns/stables    │
-                 │        Edge            and yards     │
-                 │              ║                      │
-                 │         [A] SOUTH GATE               │
-                 └──────────────╫───────────────────────┘
-                                ║
-                       OUTSKIRTS / MOSSWOOD ROAD
-```
+- North bank: Old City Streets to the west, the small Civic Terrace at the bridge approach, Residential Quarter to the east, and Waterworks and Gardens along the northeastern river edge.
+- South bank: Quays and Storeyards to the west, Market Spine at the bridge approach, and Service Lanes to the east.
+- Southern arrival edge: Workshops to the southwest, Company Edge between Arrival Ward and Market Spine, and Arrival Ward at South Gate.
+- Old Bridge joins the two banks. Cross-bank routes use Old Bridge until an additional crossing is explicitly designed.
+- Mild terraces are expressed through foundations, retaining edges, courts and routes that accommodate the terrain. Exact elevations and parcel shapes are unresolved.
+
+The visual distinguishes the approved principal route from provisional outward links and boundary geometry. Internal secondary routes are described below. District areas do not imply exact land allocation or relative institutional capacity.
 
 ## 3. District functions
 
@@ -76,7 +52,7 @@ North is up. Shapes show relationships rather than exact size.
 
 - Houses repair, basic processing, tools, containers and transport support.
 - Connects directly to the market, quays and outbound road.
-- Uses durable paving, wider doors, covered work edges and lower broad structures.
+- Uses compacted sand/dirt courts and delivery lanes, wider doors, covered work edges and lower broad structures. The user's 2026-09-20 correction calls for sparse trees and neutral workshop roof colors; the working route toward the quays is unpaved.
 - Gives Mae's profession a visible economic context without making her current arrangement prosperous.
 
 ### D. Quays and Storeyards
@@ -102,6 +78,9 @@ North is up. Shapes show relationships rather than exact size.
 
 ### G. Old City Streets
 
+- User-established history: this is Eurydica's original settlement, retained as the city expanded. Do not import Nefroburg's royal/castle history into Eurydica.
+- Historic but maintained, including the streets: predominantly timber buildings with brick repairs/infill and stone foundations; inherited road alignments and repaired older paving rather than pristine uniform surfaces or ruined streets.
+- Mae's user-described recommendation of Old City for its views is a design requirement: reveal river, bridge and city-roof views through street openings and modest overlooks. Exact viewpoints remain to be designed.
 - Denser attached buildings and irregular parcels reveal Eurydica's age.
 - Former walls, yards and passages have been absorbed into homes and businesses.
 - Streets remain navigable but feel more enclosed than the southern market.
@@ -111,7 +90,7 @@ North is up. Shapes show relationships rather than exact size.
 
 - Remains a small public terrace rather than a developed administrative district.
 - Contains only basic functions such as a toll or weights office, guard post, notice shelter and limited records room.
-- Uses modest reused buildings, patched paving and practical shelters; the Old Bridge—not a grand hall—remains the landmark.
+- Uses small reused buildings, patched paving and practical shelters; Old Bridge remains the primary landmark. Local roof curves, shaped windows, carved doors and color may be expressive even with limited institutional resources.
 - Reveals an institutional gap: officials can maintain ordinary city order, but nobody coordinates adventurers, verifies dangerous work or assumes responsibility for expedition outcomes.
 - Feels adequate for an older, smaller settlement and increasingly inadequate for present-day Eurydica.
 
@@ -157,11 +136,12 @@ South Gate → Arrival Ward → Market Spine → Old Bridge → Civic Terrace.
 South Gate/Arrival Ward → Workshops → Quays → Market storage edge.
 
 - Keeps carts and bulk handling away from the main pedestrian center where possible.
+- Surface direction: use sand/dirt for workshop courts and working routes toward the quays. South Gate → Arrival Ward → Market Spine AND Service Lanes streets and household courts are paved. Structural quay stone, foundations and thresholds remain appropriate. See the [approved south-bank layout](concepts/eurydica-south-bank-layout-approved.md) for accepted conceptual junctions; exact geometry remains unresolved.
 - Explains material movement and the relationship between processing and trade.
 
 ### Residential route
 
-Market Spine → Service Lanes → Residential Quarter → East Road.
+Market Spine → Old Bridge → northern connections → Residential Quarter; Service Lanes connect locally to Market Spine on the south bank. East-road connections remain provisional.
 
 - Quieter and more intimate, with domestic thresholds and small businesses.
 - Avoids turning private lanes into the city's only route.
@@ -190,7 +170,8 @@ Workshops, quays, residential lanes and the civic terrace can initially be visib
 
 ## 6. Landmark hierarchy
 
-1. **Primary:** Old Bridge and the river corridor.
+1. **Primary:** Old Bridge and the river corridor, dominant through composition and route importance.
+   **Vertical orientation:** the inherited Old City watch-bell tower is the tallest architectural marker. Its exact shape remains open.
 2. **Arrival:** South Gate silhouette.
 3. **Commercial:** Market junction and tavern frontage.
 4. **Player home:** Company banner/sign and adaptable yard.
@@ -199,14 +180,11 @@ Workshops, quays, residential lanes and the civic terrace can initially be visib
 
 No fountain should be asked to represent the entire city. Smaller wells, basins or civic ornaments may exist only where their use and placement make sense.
 
-## 7. First concept-image recommendation
+## 7. Next visual study
 
-After this diagram is approved, produce two complementary images rather than forcing every question into one view:
+First test the revised fantasy forms and scene colors in a small Market Spine composition approaching Old Bridge. Include three neighboring buildings, a visible side passage, a substantial tree and merchant frontage.
 
-1. **Full-city overview:** Nefroburg-scale geography, walls, river, district masses, major routes and skyline. This is a world-design image, not the gameplay camera lock.
-2. **Market-and-Company gameplay concept:** orthographic three-quarter district view testing character scale, route width, lived-in edges and the relationship among gate, tavern, market and Company.
-
-The overview proves that Eurydica is a city. The district view proves that it can become a readable playable environment.
+A later whole-city overview will test the design across the approved districts. A separate gameplay study will verify character scale, camera, street widths, UI and circulation. The prototype's elevated view supplies context; this document does not select the image-generation camera.
 
 ## 8. Open design questions
 

@@ -2,6 +2,8 @@
 
 Status: user-selected design reference set for the Eurydica city concept. These images are reference material only and are not shipping game assets.
 
+Role clarified 2026-09-20: this set supplies scale, infrastructure and everyday urban function. Amalur supplies the current fantasy-form and landscape/color direction; the current IMC screenshot supplies JRPG presentation context. See [combined reference roles](../reference-roles.md).
+
 ## Reference roles
 
 | File | Original source | Use for Eurydica | Do not copy |

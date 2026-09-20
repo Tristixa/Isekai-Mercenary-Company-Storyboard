@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100">
+<title>Eurydica south-bank continuity study</title>
+<desc>Proposed junction placement within approved district relationships. North up. Paved primary and service routes, dirt working loop. Not to scale.</desc>
+<style>text{font-family:Arial,sans-serif;fill:#26343b;font-size:19px}.title{font-size:36px;font-weight:bold}.h{font-size:23px;font-weight:bold}.small{font-size:16px}.muted{fill:#59666c}.area{fill:#eeeee6;stroke:#bbc1bb;stroke-width:2}.paved{fill:none;stroke:#566f7b;stroke-width:15;stroke-linecap:round;stroke-linejoin:round}.local{fill:none;stroke:#566f7b;stroke-width:8;stroke-linecap:round;stroke-linejoin:round}.dirt{fill:none;stroke:#a67443;stroke-width:11;stroke-dasharray:18 8;stroke-linecap:round}.node{fill:#fffaf0;stroke:#26343b;stroke-width:2}.num{font-size:17px;font-weight:bold;text-anchor:middle}.rule{stroke:#c5cbc8;stroke-width:1}</style>
+<rect width="1600" height="1100" fill="#faf9f3"/>
+<text x="45" y="60" class="title">EURYDICA — SOUTH-BANK LAYOUT STUDY</text>
+<text x="45" y="94" class="muted">Approved relationship study · district identities and junction arrangement accepted · north up · not to scale</text>
+<path d="M40 158 Q310 130 560 157 T1030 154 L1030 253 Q760 274 550 244 T40 253Z" fill="#c5dce0"/>
+<text x="80" y="206" class="h">MAIN RIVER</text>
+<text x="680" y="142" class="small">To Civic Terrace / north bank</text>
+<path d="M623 135 L623 271" stroke="#8e9693" stroke-width="58"/>
+<path d="M623 135 L623 280" class="paved"/>
+<text x="675" y="208" class="h">OLD BRIDGE</text>
+<text x="975" y="130" class="h">N ↑</text>
+<path class="area" d="M60 280 L439 280 L453 475 L65 481Z"/>
+<path class="area" d="M472 280 L720 280 L720 580 L475 580Z"/>
+<path class="area" d="M750 280 L1030 280 L1030 722 L752 705Z"/>
+<path class="area" d="M62 510 L381 510 L382 825 L63 825Z"/>
+<path class="area" d="M405 606 L587 606 L587 823 L405 823Z"/>
+<path class="area" d="M610 610 L730 610 L730 747 L1010 747 L1010 901 L608 901Z"/>
+<!-- continuous circulation -->
+<path class="paved" d="M635 983 L635 872 L650 787 L635 650 L623 549 L623 266"/>
+<path class="dirt" d="M604 842 L390 842 Q350 825 350 777 L350 456 Q350 417 410 417 L579 417"/>
+<path class="dirt" d="M410 417 L410 290 L242 290 L242 280"/>
+<path class="dirt" d="M350 567 L429 567 L585 548"/>
+<path class="local" d="M579 417 L623 417 M585 548 L623 549 M604 842 L635 842"/>
+<path class="local" d="M623 487 L793 487 L793 664 L896 694 L939 796 L649 796"/>
+<path class="local" d="M793 487 L934 487 L934 651 L896 694"/>
+<path class="local" d="M537 712 L635 712"/>
+<!-- transition markers -->
+<path d="M579 401 L579 435 M580 531 L590 561 M604 826 L604 858" stroke="#26343b" stroke-width="4"/>
+<!-- district labels -->
+<text x="86" y="318" class="h">QUAYS &amp; STOREYARDS</text>
+<text x="86" y="348">Bulk storage · loading shelter</text>
+<text x="86" y="376" class="small">Brown roofs / earth receiving yard</text>
+<text x="488" y="312" class="h">MARKET</text><text x="488" y="340" class="h">SPINE</text>
+<text x="488" y="368" class="small">Shops / tavern</text>
+<text x="780" y="318" class="h">SERVICE LANES</text>
+<text x="780" y="348">Food · doctor / clinic</text>
+<text x="780" y="376" class="small">Paved court / warm mixed roofs</text>
+<text x="780" y="401" class="small">Moderately leafy neighborhood</text>
+<text x="84" y="620" class="h">WORKSHOP</text><text x="84" y="649" class="h">QUARTER</text>
+<text x="84" y="681" class="small">Repair / tools / containers</text>
+<text x="84" y="711" class="small">Brown roofs / earth courts</text>
+<text x="84" y="740" class="small">Sparse trees</text>
+<text x="421" y="645" class="h">COMPANY</text><text x="421" y="674" class="h">EDGE</text>
+<text x="421" y="759" class="small">House + growth yard</text>
+<text x="421" y="788" class="small">Retain plum / green</text>
+<text x="746" y="837" class="h">ARRIVAL WARD</text>
+<text x="746" y="867" class="small">Lodging / cart yard / guard</text>
+<!-- landmarks use point markers not footprint boxes -->
+<circle cx="544" cy="506" r="7" fill="#ad7057"/><text x="483" y="483" class="small">Tavern + tree</text>
+<circle cx="537" cy="712" r="7" fill="#ad7057"/><text x="422" y="705" class="small">House</text>
+<circle cx="726" cy="805" r="7" fill="#ad7057"/>
+<text x="745" y="780" class="small">Lodging house*</text>
+<circle cx="850" cy="449" r="7" fill="#ad7057"/><text x="875" y="452" class="small">Clinic</text>
+<circle cx="965" cy="536" r="7" fill="#ad7057"/><text x="828" y="545" class="small">Food shop</text>
+<text x="817" y="589" class="small">Shared court</text><text x="818" y="614" class="small">+ rear deliveries</text>
+<path d="M242 282 L242 256 L311 256" fill="none" stroke="#8d7159" stroke-width="13"/>
+<text x="290" y="275" class="small">Dock / ramp</text>
+<!-- boundary does not block gate -->
+<path d="M58 915 Q310 939 600 927 M670 927 Q830 930 1030 911" fill="none" stroke="#969f99" stroke-width="4" stroke-dasharray="9 7"/>
+<text x="65" y="909" class="small muted">Southern wall line: indicative</text>
+<path d="M608 934 L608 957 M662 934 L662 957" stroke="#26343b" stroke-width="7"/>
+<text x="694" y="956" class="h">SOUTH GATE*</text>
+<text x="668" y="990" class="small">Outskirts / Mosswood road</text>
+<!-- numbered proposed junctions -->
+<g><circle cx="635" cy="842" r="18" class="node"/><text x="635" y="848" class="num">1</text>
+<circle cx="623" cy="417" r="18" class="node"/><text x="623" y="423" class="num">2</text>
+<circle cx="623" cy="487" r="18" class="node"/><text x="623" y="493" class="num">3</text>
+<circle cx="649" cy="796" r="18" class="node"/><text x="649" y="802" class="num">4</text>
+<circle cx="635" cy="712" r="18" class="node"/><text x="635" y="718" class="num">5</text>
+<circle cx="623" cy="549" r="18" class="node"/><text x="623" y="555" class="num">6</text></g>
+<!-- key panel -->
+<path d="M1070 138 L1070 1010" class="rule"/>
+<text x="1100" y="167" class="h">APPROVED CONNECTIONS</text>
+<text x="1100" y="211">1  Arrival → working route</text><text x="1126" y="239" class="small">Earth starts west of paved spine.</text>
+<text x="1100" y="284">2  Quays → market storage edge</text><text x="1126" y="312" class="small">Unload off the main bridge approach.</text>
+<text x="1100" y="357">3  Market → Service Lanes</text><text x="1126" y="385" class="small">Paved access to food and clinic.</text>
+<text x="1100" y="430">4  Service Lanes → Arrival</text><text x="1126" y="458" class="small">Public loop; avoid private courtyards.</text>
+<text x="1100" y="503">5  Company entrance</text><text x="1126" y="531" class="small">Level/ramped delivery access; grade later.</text>
+<text x="1100" y="576">6  Workshops → market</text><text x="1126" y="604" class="small">Short local supply connection.</text>
+<path d="M1100 635 L1550 635" class="rule"/>
+<text x="1100" y="673" class="h">CONTINUITY LOCKS</text>
+<text x="1100" y="710" class="small">* One gate and one lodging house, not duplicates.</text>
+<text x="1100" y="739" class="small">Shared roofs: original Arrival green.</text>
+<text x="1100" y="768" class="small">Workshop / quay roofs remain brown.</text>
+<text x="1100" y="797" class="small">Service Lanes remain paved and warm-roofed.</text>
+<text x="1100" y="842" class="h">STILL TO RESOLVE</text>
+<text x="1100" y="876" class="small">Exact grade, retaining walls and ramp lengths.</text>
+<text x="1100" y="905" class="small">Street widths, parcel sizes and actor scale.</text>
+<text x="1100" y="934" class="small">No new bridge or east/west gate is implied.</text>
+<text x="1100" y="978" class="small muted">Areas and points are planning marks,</text>
+<text x="1100" y="1003" class="small muted">not proposed roof shapes or building footprints.</text>
+<path d="M50 1051 L115 1051" class="paved"/><text x="130" y="1057" class="small">Paved main route</text>
+<path d="M330 1051 L395 1051" class="local"/><text x="410" y="1057" class="small">Paved local route</text>
+<path d="M600 1051 L675 1051" class="dirt"/><text x="690" y="1057" class="small">Earth working route</text>
+<path d="M905 1038 L905 1066" stroke="#26343b" stroke-width="4"/><text x="925" y="1057" class="small">Surface transition</text>
+</svg>

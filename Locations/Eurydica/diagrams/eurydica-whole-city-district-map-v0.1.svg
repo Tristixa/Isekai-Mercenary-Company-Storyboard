@@ -1,124 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100" role="img" aria-labelledby="title desc">
-  <title id="title">Eurydica whole-city district map, concept version 0.1</title>
-  <desc id="desc">A schematic map of Eurydica with a central river, the Old Bridge, a simple civic terrace to the north, and the market, Company, arrival, workshop, quay, residential and service districts arranged around the primary south-to-north route.</desc>
-  <defs>
-    <style>
-      .bg { fill: #f5efdf; }
-      .wall { fill: #e4d7bd; stroke: #6a6258; stroke-width: 8; stroke-linejoin: round; }
-      .inner { fill: #eee4d2; stroke: #8a8073; stroke-width: 2; }
-      .river { fill: #77adbb; stroke: #3e7483; stroke-width: 4; }
-      .bridge { fill: #c9b083; stroke: #60584f; stroke-width: 5; }
-      .road { fill: none; stroke: #c39b58; stroke-width: 22; stroke-linecap: round; stroke-linejoin: round; }
-      .road-edge { fill: none; stroke: #725f45; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
-      .provisional { fill: none; stroke: #877d70; stroke-width: 5; stroke-dasharray: 15 13; }
-      .district { stroke: #665e54; stroke-width: 3; }
-      .oldcity { fill: #d9c5a9; }
-      .civic { fill: #ddd4c0; }
-      .residential { fill: #cbd4b1; }
-      .waterworks { fill: #b8d2bd; }
-      .work { fill: #c9b29c; }
-      .market { fill: #e0bd80; }
-      .service { fill: #d6c9a6; }
-      .arrival { fill: #d9c39a; }
-      .company { fill: #9eb9b4; stroke: #315f63; stroke-width: 5; }
-      .gate { fill: #b8aa92; stroke: #5c554c; stroke-width: 4; }
-      .title { font-family: Georgia, serif; font-size: 42px; font-weight: 700; fill: #27373c; }
-      .subtitle { font-family: Arial, sans-serif; font-size: 19px; fill: #5d625f; letter-spacing: 1px; }
-      .label { font-family: Arial, sans-serif; font-size: 22px; font-weight: 700; fill: #2e3535; text-anchor: middle; }
-      .small { font-family: Arial, sans-serif; font-size: 16px; fill: #424948; text-anchor: middle; }
-      .outside { font-family: Arial, sans-serif; font-size: 17px; font-weight: 700; fill: #676057; letter-spacing: 1px; text-anchor: middle; }
-      .river-label { font-family: Georgia, serif; font-size: 22px; font-style: italic; fill: #163f4b; text-anchor: middle; }
-      .key { font-family: Arial, sans-serif; font-size: 15px; fill: #4e5351; }
-    </style>
-    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
-      <path d="M0,0 L0,6 L9,3 z" fill="#725f45"/>
-    </marker>
-  </defs>
-
-  <rect class="bg" width="1600" height="1100"/>
-  <text class="title" x="80" y="70">Eurydica — Whole-City District Structure</text>
-  <text class="subtitle" x="82" y="104">CONCEPT V0.1 · NEFROBURG-SCALE REGIONAL TRADE CITY · NOT PRODUCTION GEOMETRY</text>
-  <text class="outside" x="800" y="140">NORTH / INLAND ROADS</text>
-
-  <!-- Old city boundary. Its exact condition remains provisional. -->
-  <path class="wall" d="M190 220 L365 145 L1235 145 L1410 230 L1470 760 L1340 945 L1010 1010 L590 1010 L260 945 L130 760 Z"/>
-  <path class="inner" d="M215 245 L385 175 L1215 175 L1380 250 L1435 742 L1315 915 L995 977 L605 977 L285 915 L165 742 Z"/>
-
-  <!-- Provisional outer connections. -->
-  <path class="provisional" d="M155 700 C95 695 60 670 20 650"/>
-  <path class="provisional" d="M1440 675 C1500 665 1545 640 1580 610"/>
-  <!-- North-bank districts. -->
-  <path class="district oldcity" d="M225 270 L380 205 L645 205 L690 430 L565 470 L240 440 Z"/>
-  <text class="label" x="455" y="310">OLD CITY STREETS</text>
-  <text class="small" x="455" y="338">attached blocks · reused walls</text>
-  <text class="small" x="455" y="362">older courts and passages</text>
-
-  <path class="district civic" d="M665 205 L940 205 L975 410 L890 455 L710 445 L630 405 Z"/>
-  <text class="label" x="802" y="285">SIMPLE CIVIC TERRACE</text>
-  <text class="small" x="802" y="314">toll · guard · notices · records</text>
-  <text class="small" x="802" y="338">modest and underdeveloped</text>
-
-  <path class="district residential" d="M965 210 L1210 205 L1360 275 L1380 425 L1225 465 L1000 410 Z"/>
-  <text class="label" x="1175" y="300">RESIDENTIAL QUARTER</text>
-  <text class="small" x="1175" y="328">homes · small courts</text>
-  <text class="small" x="1175" y="352">daily services</text>
-
-  <path class="district waterworks" d="M1110 365 L1360 390 L1385 450 L1210 475 L1080 435 Z"/>
-  <text class="label" x="1235" y="408">WATERWORKS &amp; GARDENS</text>
-  <text class="small" x="1235" y="433">practical river utility</text>
-
-  <!-- Approved main river. -->
-  <path class="river" d="M145 470 C360 435 495 475 650 490 C820 508 975 475 1150 490 C1280 502 1380 475 1455 450 L1470 585 C1325 615 1210 580 1070 590 C875 605 760 575 590 570 C410 565 270 590 145 615 Z"/>
-  <text class="river-label" x="340" y="535">Approved main river</text>
-  <path d="M190 553 C260 565 315 563 385 551" fill="none" stroke="#2f6775" stroke-width="3" marker-end="url(#arrow)"/>
-
-  <!-- Working banks. -->
-  <path class="district work" d="M180 620 L545 590 L570 745 L485 795 L215 770 Z"/>
-  <text class="label" x="370" y="670">QUAYS &amp; STOREYARDS</text>
-  <text class="small" x="370" y="698">bulk goods · loading · river trade</text>
-
-  <path class="district market" d="M560 610 L975 605 L1010 800 L880 850 L610 815 Z"/>
-  <text class="label" x="705" y="675">MARKET SPINE</text>
-  <text class="small" x="705" y="703">shops · stalls · tavern</text>
-  <text class="small" x="705" y="727">main everyday route</text>
-
-  <path class="district service" d="M1000 605 L1390 590 L1370 770 L1120 810 L1015 755 Z"/>
-  <text class="label" x="1200" y="670">SERVICE LANES</text>
-  <text class="small" x="1200" y="698">food · clinic · households</text>
-
-  <path class="district work" d="M245 790 L515 800 L585 925 L305 920 Z"/>
-  <text class="label" x="410" y="850">WORKSHOP QUARTER</text>
-  <text class="small" x="410" y="878">repair · tools · processing</text>
-
-  <path class="district company" d="M565 820 L765 835 L790 945 L585 930 Z"/>
-  <text class="label" x="680" y="870">COMPANY EDGE</text>
-  <text class="small" x="680" y="898">Tier I base · growth yard</text>
-
-  <path class="district arrival" d="M800 830 L1110 800 L1260 915 L1000 972 L800 940 Z"/>
-  <text class="label" x="1080" y="865">ARRIVAL WARD</text>
-  <text class="small" x="1080" y="893">inns · stables · cart services</text>
-
-  <!-- Approved primary bridge and city route. -->
-  <rect class="bridge" x="752" y="445" width="105" height="175" rx="8"/>
-  <line x1="772" y1="460" x2="772" y2="605" stroke="#8a744f" stroke-width="6"/>
-  <line x1="837" y1="460" x2="837" y2="605" stroke="#8a744f" stroke-width="6"/>
-  <path class="road" d="M855 1015 C860 940 970 920 930 840 C890 765 820 730 805 615 L805 445 C805 420 805 405 805 385"/>
-  <path class="road-edge" d="M855 1015 C860 940 970 920 930 840 C890 765 820 730 805 615 L805 445 C805 420 805 405 805 385" marker-end="url(#arrow)"/>
-  <text class="label" x="900" y="525">OLD BRIDGE</text>
-
-  <path class="gate" d="M765 965 L945 965 L970 1022 L740 1022 Z"/>
-  <rect class="gate" x="750" y="925" width="55" height="95"/>
-  <rect class="gate" x="905" y="925" width="55" height="95"/>
-  <text class="label" x="855" y="995">SOUTH GATE</text>
-  <text class="outside" x="855" y="1062">OUTSKIRTS / MOSSWOOD ROAD</text>
-
-  <!-- Draw outbound-road captions last so the city and river cannot obscure them. -->
-  <text class="outside" x="25" y="700" style="text-anchor:start">WEST ROAD</text>
-  <text class="outside" x="25" y="723" style="text-anchor:start">QUARRIES / BULK GOODS</text>
-  <text class="outside" x="1575" y="700" style="text-anchor:end">EAST ROAD</text>
-  <text class="outside" x="1575" y="723" style="text-anchor:end">FARMS / LOCAL TRADE</text>
-
-  <!-- Compact status key. -->
-  <line x1="30" y1="1072" x2="78" y2="1072" class="provisional"/>
-  <text class="key" x="92" y="1078">Dashed routes and boundary details remain provisional</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1040" viewBox="0 0 1500 1040" role="img" aria-labelledby="title desc">
+<title id="title">Eurydica / District relationships</title><desc id="desc">Approved districts on either bank of the main river. Old Bridge connects Market Spine to the small Civic Terrace. Only the primary route and district relationships are locked.</desc>
+<defs><style>
+text{font-family:Arial,sans-serif;fill:#25343e}
+.title{font-family:Georgia,serif;font-size:40px;font-weight:bold}
+.sub{font-size:18px;fill:#54616a}
+.h{font-size:24px;font-weight:bold}
+.label{font-size:20px;font-weight:bold}
+.small{font-size:17px}
+.note{font-size:16px;fill:#54616a}
+.center{text-anchor:middle}
+.line{fill:none;stroke:#66747a;stroke-width:2}
+.route{fill:none;stroke:#304d62;stroke-width:12;stroke-linecap:round;stroke-linejoin:round}
+.dash{fill:none;stroke:#66747a;stroke-width:3;stroke-dasharray:9 7}
+</style><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6" fill="none" stroke="#304d62" stroke-width="1.5"/></marker></defs>
+<rect width="1500" height="1040" fill="#f7f7f3"/>
+<text x="60" y="67" class="title">Eurydica / District relationships</text><text x="60" y="103" class="sub">Corrected 20 September 2026 · Approved relationships · Shapes and tones indicate planning, not architecture or palette</text>
+<path d="M150 208 Q650 143 1260 202 L1375 285 L1390 783 L1230 895 L328 912 L143 803 Z" class="dash"/>
+<text x="750" y="155" class="small center">NORTH / inland connections remain provisional</text>
+<path d="M144 445 Q350 416 555 452 T1010 451 Q1230 412 1390 443 L1390 551 Q1200 523 1010 561 T555 562 Q330 526 145 560 Z" fill="#d9e2e4" stroke="#91a2a8" stroke-width="2"/>
+<text x="360" y="500" class="label center">MAIN RIVER</text>
+<path d="M265 520 L457 520" class="line" marker-end="url(#arrow)"/>
+<g fill="#e7e9e4" stroke="#a0a8a8" stroke-width="2">
+<path d="M190 233 L572 208 L575 410 L190 426 Z"/>
+<path d="M597 224 L894 218 L910 405 L820 428 L598 406 Z"/>
+<path d="M921 220 L1255 238 L1340 307 L1338 359 L937 359 Z"/>
+<path d="M993 380 L1340 379 L1350 421 L1090 450 L983 421 Z"/>
+<path d="M188 584 L530 575 L552 713 L219 730 Z"/>
+<path d="M571 584 L897 588 L936 757 L589 768 Z"/>
+<path d="M938 585 L1345 584 L1324 737 L982 762 Z"/>
+<path d="M226 752 L521 747 L550 865 L344 880 Z"/>
+<path d="M566 791 L721 788 L729 874 L575 874 Z"/>
+<path d="M752 788 L1094 781 L1210 855 L1070 882 L753 881 Z"/>
+</g>
+<text x="380" y="301" class="label center">OLD CITY STREETS</text><text x="380" y="330" class="small center">attached blocks · inherited tower</text>
+<text x="750" y="280" class="label center">CIVIC TERRACE</text><text x="750" y="309" class="small center">small reused offices · limited services</text><text x="750" y="336" class="small center">expressive local craftsmanship</text>
+<text x="1130" y="286" class="label center">RESIDENTIAL QUARTER</text><text x="1130" y="316" class="small center">homes · courts · mild eastern rise</text>
+<text x="1165" y="410" class="small center">WATERWORKS &amp; GARDENS</text>
+<text x="370" y="637" class="label center">QUAYS &amp; STOREYARDS</text><text x="370" y="666" class="small center">loading · river trade</text>
+<text x="690" y="651" class="label center">MARKET SPINE</text><text x="690" y="680" class="small center">shops · tavern</text><text x="690" y="706" class="small center">attached street fronts</text>
+<text x="1140" y="642" class="label center">SERVICE LANES</text><text x="1140" y="671" class="small center">food · clinic · local connections</text>
+<text x="393" y="795" class="label center">WORKSHOPS</text><text x="393" y="824" class="small center">repair · processing</text>
+<text x="646" y="821" class="small center">COMPANY EDGE</text><text x="646" y="849" class="note center">base + growth yard</text>
+<text x="993" y="822" class="label center">ARRIVAL WARD</text><text x="993" y="851" class="small center">inns · stables · cart services</text>
+<path d="M822 925 L822 851 Q830 795 804 742 L804 589 L750 542 L750 375" class="route"/>
+<rect x="720" y="447" width="60" height="112" fill="#f7f7f3" stroke="#304d62" stroke-width="4"/>
+<path d="M750 551 L750 451" class="route"/>
+<text x="812" y="490" class="label">OLD BRIDGE</text><text x="812" y="519" class="small">primary crossing and city landmark</text>
+<text x="860" y="934" class="label">SOUTH GATE</text><text x="750" y="969" class="small center">OUTSKIRTS / MOSSWOOD ROAD</text>
+<path d="M82 638 L153 638 M1390 638 L1450 615" class="dash"/>
+<text x="59" y="602" class="note">West route</text><text x="1342" y="584" class="note">East route</text>
+<path d="M62 1009 L108 1009" class="route"/><text x="125" y="1015" class="note">Approved main route</text>
+<path d="M375 1009 L420 1009" class="dash"/><text x="435" y="1015" class="note">Provisional boundary / outward links</text>
+<text x="900" y="1015" class="note">District areas are not land-use or capacity measurements.</text>
 </svg>

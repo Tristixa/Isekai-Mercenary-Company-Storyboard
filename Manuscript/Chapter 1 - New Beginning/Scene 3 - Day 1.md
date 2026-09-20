@@ -2,60 +2,70 @@
 
 ## Synopsis
 
-Location: Interior of Tier 1 Company Base.
+Location: Tier 1 Company Base interior and courtyard.
 Time: Morning.
-Actors: Tristitia, Mae, Elsie, Players.
+Actors: Tristitia, Elsie, Player.
 
-1 week after the discussion in the tavern.
+One week after the discussion in the tavern.
+
+Unless directed otherwise, characters hold their current idle pose. Camera views continue across dialogue and choices.
 
 ---
 
-(Control is still Locked)
+|Control remains locked.|
+
+|Camera: Shared view across a table. Tristitia is seated, with an open ledger on the table. Player stands beside the opposite chair.|
 
 Tristitia:
-"Everything is ready."
-"Sit. We should decide how the work will be divided."
+“Everything is ready.”
+“Sit. We should decide how the work will be divided.”
 
 Player:
-"Okay."
+“Okay.”
+
+|Player sits. Hold the shared table view.|
 
 Tristitia:
-"For the present, I will handle the requests and daily reports."
-"Mae has taken charge of processing and storage."
+“For the present, I will handle the requests and daily reports.”
+“Mae has taken charge of processing and storage.”
 
 Player:
-"And I make the decisions."
+“And I make the decisions.”
 
 Tristitia:
 “Yes. You did accept the title.”
 
-|Tristitia opens the ledger.|
-
 Tristitia:
 “We have another concern.”
+
+|Player briefly lowers his head toward the ledger.|
 
 Player:
 “Money?”
 
+|Player returns to seated idle, facing Tristitia.|
+
 Tristitia:
 “Our lack of it, yes.”
-“We spent most of what we had on this building."
-"I can find us requests, but no one is going to trust a new company before it has a reputation.”
+“We spent most of what we had on this building.”
+“I can find us requests, but no one is going to trust a new company before it has a reputation.”
 
-Player: "What about selling monster materials?"
+Player:
+“What about selling monster materials?”
 
 Tristitia:
-"We can do that at the market."
-"But I suggest we wait. They know we need the coin, so they’ll offer as little as they can."
+“We can do that at the market.”
+“But I suggest we wait. They know we need the coin, so they’ll offer as little as they can.”
 
-Player: “So requests first.”
+Player:
+“So requests first.”
 
-Tristitia: 
+Tristitia:
 “Requests first.”
 “Once we have enough material to sell regularly, we can find someone who understands the market better than either of us.”
 
-Player: 
-"Sounds reasonable."
+Player:
+“Sounds reasonable.”
 “Then where do we find adventurers to take the requests?”
 
 Tristitia:
@@ -67,10 +77,13 @@ Player:
 Tristitia:
 “Come outside.”
 
-(Tristitia and Player both walk outside to the Base Courtyard)
-(then scene change to Tier 1 Base Courtyard.)
+|Tristitia and Player stand. Tristitia leads toward the courtyard; Player follows.|
 
-|A blonde-haired woman is inspecting one of the travel packs resting on a bench. She pulls firmly on one of its straps.|
+|Cut to the courtyard.|
+
+|Camera: Shared view of Elsie beside a bench, with room for Tristitia and Player to enter. A travel pack with a visibly damaged strap rests on the bench. Elsie stands looking down at it.|
+
+|Tristitia and Player approach and stop beside the bench. Keep all three visible.|
 
 Elsie:
 “This will split before it reaches the city gate.”
@@ -78,7 +91,7 @@ Elsie:
 Tristitia:
 “Then it is fortunate we found someone who notices such things.”
 
-|Elsie looks up at the Player.|
+|Elsie turns toward Player and settles into standing idle.|
 
 Elsie:
 “So this is the Commander.”
@@ -91,11 +104,23 @@ Elsie:
 “Considering.”
 “She left that part out.”
 
+|Hold the shared view through the greeting choices.|
+
 Player:
-1. [Be friendly] “I’m <name>. Nice to meet you.”
-2. [Be polite] “My name is <name>. Pleasure to meet you.”
-3. [Kneel and kiss her hand] “I’m <name>.”
-4. [Salute] “<name>.”
+
+1. **[Be friendly]**
+   “I’m <name>. Nice to meet you.”
+
+2. **[Be polite]**
+   “My name is <name>. Pleasure to meet you.”
+
+3. **[Kneel and kiss her hand]**
+   |Player kneels and reaches for Elsie’s hand.|
+   “I’m <name>.”
+
+4. **[Salute]**
+   |Player salutes.|
+   “<name>.”
 
 ### If the Player chooses Friendly or Polite
 
@@ -104,20 +129,24 @@ Elsie:
 
 ### If the Player kneels
 
-|Elsie withdraws her hand before you can kiss it.|
+|Elsie withdraws her hand before Player can kiss it.|
 
 Elsie:
 “You can stand.”
 “I’m not anyone you need to bow to.”
 
+|Player stands. Both return to standing idle.|
+
 ### If the Player salutes
 
-|Elsie returns the salute almost automatically, then lowers her hand.|
+|Elsie returns the salute almost automatically, then lowers her hand. Player also lowers his hand.|
 
 Elsie:
 “...Old habit.”
 
 ### The dialogue rejoins here
+
+|All three remain standing in the shared courtyard view.|
 
 Elsie:
 “Tristitia told me what you’re trying to build.”
@@ -133,9 +162,15 @@ Elsie:
 Player:
 “Of course.”
 
+|Camera: Closer shared view of Elsie and Player, with Tristitia at the edge of the frame.|
+
 Elsie:
 “Then let me ask you something.”
 “Say we accept a request and the adventurer refuses it. What do you do?”
+
+|Camera: Cut to Player alone while the response options are displayed. Hold this view while the player considers the choice.|
+
+|On selection, return to the previous closer shared view of Elsie and Player before Player speaks the selected line. Hold that view through Elsie’s response.|
 
 Player:
 1. [Respect their choice] “Then we offer it to someone else. It’s their life.”
@@ -173,6 +208,8 @@ Elsie:
 “All right.”
 “I can work with you.”
 
+|Camera: Return to the shared view of all three.|
+
 Tristitia:
 “That was a shorter interview than mine.”
 “Then I assume the position is settled.”
@@ -180,9 +217,9 @@ Tristitia:
 Elsie:
 “It is.”
 
-|Elsie gives the Player a brief smile.|
+|Elsie gives Player a brief smile.|
 
-Elsie: 
+Elsie:
 “I’ll handle training, preparation, and the expeditions.”
 “If someone isn’t ready to leave, I’ll tell you.”
 
@@ -218,9 +255,11 @@ Tristitia:
 Elsie:
 “I already started one.”
 
-|The Player and Tristitia return to the base interior.|
+|Tristitia and Player walk toward the base interior. Elsie turns back toward the equipment.|
 
-|Tristitia opens the door to a small furnished room.|
+|Cut to the base interior.|
+
+|Camera: Shared view beside an open doorway, showing the small furnished room beyond it. Tristitia and Player stop beside the doorway, leaving the passage clear.|
 
 Tristitia:
 “This room is yours.”
@@ -240,15 +279,19 @@ Tristitia:
 “Mae and I will remain at the inn.”
 “Elsie can keep her present lodging until we have more room.”
 
-|The Player looks around the unfinished base.|
+|Player turns his head toward the surrounding unfinished interior.|
+
+|Camera: Cut to Player alone. Slowly rotate the camera around him to reveal the surrounding unfinished interior, keeping him in frame.|
+
+|Player faces Tristitia again. Return to the previous shared doorway view as Player begins the following line.|
 
 Player:
 “What do I do first?”
 
 Tristitia:
 “Learn the city.”
-"Start with the market and the gate."
-"Find out where people gather and share informations."
+“Start with the market and the gate.”
+“Find out where people gather and share informations.”
 
 Player:
 “So I walk around and talk to people.”
@@ -266,9 +309,41 @@ Tristitia:
 
 Player:
 
-1. [Be friendly] “All right. I’ll see you at two.”
-2. [Thank her] “Understood. Thank you, Tristitia.”
-3. [Say goodbye] “Two o’clock. See you later.”
-4. [Salute] “Understood.”
+1. **[Be friendly]**
+   “All right. I’ll see you at two.”
 
-(Control is now unlocked. The Player can explore the base and Eurydica.)
+2. **[Thank her]**
+   “Understood. Thank you, Tristitia.”
+
+3. **[Say goodbye]**
+   “Two o’clock. See you later.”
+
+4. **[Salute]**
+   |Player salutes.|
+   “Understood.”
+   |Player returns to standing idle.|
+
+|Camera: Switch to the gameplay view. Player remains clear of Tristitia and the doorway.|
+
+|Control unlocks. Player can explore the base and Eurydica.|
+
+(When the player return to Tristitia at 14:00 Mira the woman ranger and the male sword and shield user will be availabe to recruit, Tristitia will also have 2 new requests along with additional request that the player receive from talking with NPCs in the city)
+
+The 2 request from Tristitia
+# Request 1
+Client: Inn owner.
+Reward: 50 gold, 50 reputation. (give icon for gold and reputation)
+Time Limit: 5 Days from now. (counting down from current day which is day 1)
+Request: x5 common slime part / any condition (different text color for highlight)
+common slime part icon here that shows 0/5 in inventory.
+Description: Need 5 common slime parts for the bathroom.
+Tristitia Text: "Simple request, he is trusted among adventurers and will spread our company name to them."
+
+# Request 2
+Client: Inn owner.
+Reward: 100 gold, 50 reputation.
+Time Limit: 4 Days from now.
+Request: x2 rare slime part / any condition.
+rare slime part icon here that shows 0/2 in inventory.
+Description: Need 2 rare slime part to decorate my garden.
+Tristitia Text: "Clearly it won't be used for decoration, but when it come to noble it's best to leave it alone."

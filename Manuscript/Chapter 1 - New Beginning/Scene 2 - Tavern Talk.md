@@ -6,7 +6,11 @@ Location: Eurydica Tavern
 Time: Night  
 Actors: Player, Tristitia, Mae
 
-Tristitia and the Player enter the tavern after Scene 1. Mae is already seated at a table, sorting and inspecting materials from an earlier hunt.
+|Mae has been waiting for Tristitia at the tavern. Continue from Scene 1 with all three already seated. Three mugs are on the table.|
+
+|Camera: Shared table view showing all three characters. Mae uses a relaxed seated idle; Tristitia sits upright; Player faces into the group. Leave room beside Mae for the optional hand-kiss greeting.|
+
+Unless directed otherwise, characters hold their current idle pose.
 
 ---
 
@@ -21,7 +25,10 @@ Tristitia:
 
 Mae:
 “Mmm.”
-|Mae looks toward you.|
+
+|Mae turns her head toward Player.|
+
+Mae:
 “And a person.”
 
 Tristitia:
@@ -30,17 +37,33 @@ Tristitia:
 Mae:
 “Mm-hmm, That is usually how people begin.”
 
+|Camera: Cut closer to Tristitia, keeping Mae at the edge of the frame. Add one brief, slight camera shake as Tristitia speaks.|
+
 Tristitia:
 “Mae!”
+
+|Briefly hold on Tristitia, then return to the shared table view. Mae remains in her relaxed seated pose.|
 
 Mae:
 “So, who is he?”
 
 Player:
-1. [Be friendly] “I’m <name>. Nice to meet you.”
-2. [Be shy] “<name>.”
-3. [Kneel and kiss her hand] “I’m <name>.”
-4. [Salute] “<name>.”
+
+1. **[Be friendly]**
+   “I’m <name>. Nice to meet you.”
+
+2. **[Be shy]**
+   “<name>.”
+
+3. **[Kneel and kiss her hand]**
+   |Player stands and kneels beside Mae, kissing her hand.|
+   “I’m <name>.”
+   |Player releases her hand and returns to his seat. Both return to seated idle.|
+
+4. **[Salute]**
+   |Player salutes while seated.|
+   “<name>.”
+   |Player returns to seated idle.|
 
 Mae:
 “I’m Mae.”
@@ -56,11 +79,14 @@ Mae:
 Tristitia:
 “The bandits won't be a problem anymore.”
 
+|Mae turns her attention to Tristitia.|
+
+|Camera: Closer shared view of Mae and Tristitia, with Player’s shoulder at the edge of the frame.|
+
 Mae:
 “I thought you stopped taking works involving other humans.”
 
-Tristitia:
-|Tristitia says nothing.|
+|Tristitia lowers her gaze slightly and says nothing. Hold the view.|
 
 Mae:
 “Just hunt monsters and I'll do the processing as always.”
@@ -68,12 +94,16 @@ Mae:
 Tristitia:
 “I’ll keep that in mind.”
 
+|Tristitia returns to her usual seated idle.|
+
 Player:
 “You’re not an adventurer?”
 
+|Camera: Return to the shared table view. Mae faces Player.|
+
 Mae:
-“I used to be an adventurer like her."
-"Then I discovered that monsters are easier to deal with after they stop moving.”
+“I used to be an adventurer like her.”
+“Then I discovered that monsters are easier to deal with after they stop moving.”
 
 Mae:
 “Now I process what she brings back and find someone willing to pay for it.”
@@ -126,21 +156,23 @@ Player:
 Mae:
 “Then tell us.”
 
-(The screen slowly fades to black.)
+**The screen slowly fades to black.**
 
 |You explain what you know about Adventurer Guild.|
 
-The screen fades back in.
+**The screen fades back in.**
+
+|Camera: Resume the shared table view. Everyone remains seated in the same positions.|
 
 Mae:
 “So it is a workplace.”
 
 Player:
 “Yeah.”
-"They connect clients with adventurers, organize jobs, establish payment, provide a base, keep records, and create a system for handling equipment and materials"
+“They connect clients with adventurers, organize jobs, establish payment, provide a base, keep records, and create a system for handling equipment and materials”
 
 Mae:
-“Hmmm...."
+“Hmmm....”
 
 Tristitia:
 “You seem interested.”
@@ -152,7 +184,7 @@ Mae:
 “Sounds like it will make our work easier.”
 
 Tristitia:
-"....."
+“.....”
 
 “It would benefit both sides.”
 
@@ -184,22 +216,30 @@ Player:
 “I’m willing to use them.”
 
 Mae:
-“You are willing to invest everything you have in an idea you have only just explained.”
+“You are willing to invest everything you have in an idea you have only just explained?”
 
 Player:
 “It’s worth trying.”
 
+|Tristitia turns her head toward Player. Hold the shared view.|
+
 Tristitia:
-". . . . ."
-"Don't sell everything, hold on to things that still have attachment to you."
+“. . . . .”
+“Don't sell everything, hold on to things that still have attachment to you.”
 
 Mae:
 “You have the idea and the money. I think he should be the commander.”
 
 Player:
-1. [Nod] Nod.
-2. [Agree] “Okay.”
-3. [Reluctantly agree] “Sure. I can be commander, I guess.”
+
+1. **[Nod]**
+   |Player nods.|
+
+2. **[Agree]**
+   “Okay.”
+
+3. **[Reluctantly agree]**
+   “Sure. I can be commander, I guess.”
 
 Mae:
 “Good. Saves us the cost of hiring one.”
@@ -207,10 +247,14 @@ Mae:
 Tristitia:
 “Don't worry you're not alone.”
 
+|Mae raises her mug.|
+
 Mae:
 “To our new beginning.”
 
 “Cheers.”
+
+|Tristitia and Player raise their mugs. Keep all three in the shared view.|
 
 Tristitia:
 “Cheers.”
@@ -218,4 +262,4 @@ Tristitia:
 Player:
 “Cheers.”
 
-The screen slowly fades to black before transitioning to the next scene.
+**The screen slowly fades to black before transitioning to the next scene.**

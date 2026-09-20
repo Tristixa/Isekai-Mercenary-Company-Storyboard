@@ -1,216 +1,122 @@
 # Eurydica Facade and Material Language v0.1
 
-Status: proposed concept layer for approval. This develops the approved district, silhouette and density studies. It is not production artwork, geometry or authorization to change the game.
+Status: Market Spine street appearance and three-building exterior sheet approved, 2026-09-20. The approved tavern, provisions shop and repair/supply shop establish the first exterior family. Measured construction, other district families and final production material specifications remain to be developed.
 
-Companion studies:
+Companion documents: [city concept](eurydica-city-concept-v0.1.md), [district structure](eurydica-district-diagram-v0.1.md), [height and density](eurydica-silhouette-density-study-v0.1.md).
 
-- `eurydica-city-concept-v0.1.md`
-- `eurydica-district-diagram-v0.1.md`
-- `eurydica-silhouette-density-study-v0.1.md`
+Direction board: [editable diagram](diagrams/eurydica-facade-material-language-v0.1.svg) / [preview](diagrams/eurydica-facade-material-language-v0.1.png).
 
-Visual study: `diagrams/eurydica-facade-material-language-v0.1.svg`
+## 1. Current design direction
 
-Rendered preview: `diagrams/eurydica-facade-material-language-v0.1.png`
+Everyday architecture is recognizably fantastical; detail and focal points are controlled for readability.
 
-## 1. Design thesis
+Combine Steambot's urban scale and daily function, Amalur's expressive forms and landscape/color composition, and IMC's JRPG presentation and character readability.
 
-Eurydica should look like one regional city built over several generations, not a plaza assembled from matching pristine prefabs. Buildings share a recognizable material grammar, but age, trade, wealth and present ownership alter how that grammar appears.
+Treat the environment as a connected composition: building silhouettes, trees, rock, ground, paths and activity should belong to the same place. Regional identity must be visible in main forms before small ornament is added.
 
-The common construction stack is:
+## 2. Building form
 
-1. **Durable river-stone base:** foundations, retaining walls, bridgework and lower service walls.
-2. **Lighter occupied body:** colored lime plaster, masonry infill and painted structural joinery.
-3. **Strong protective roof:** clay tile, dark slate-like tile or repaired copper sheet with visible drainage pieces.
-4. **Owner layer:** awnings, shutters, signs, balconies, loading frames, garden walls or work attachments.
-5. **Age layer:** a restrained patch, replaced bay, faded finish, reused stone course or roof repair.
+Develop these relationships together:
 
-Every building does not need every element. The city-wide identity comes from repetition with controlled variation.
+- Strong roof sweeps and substantial eave thickness around occupied building volumes.
+- Roof wings, dormers, projecting rooms and useful extensions with clear support.
+- A small related family of shaped openings: tall, tapered, arched or patterned.
+- Deep entrances, window recesses and readable structural members.
+- Foundations and access steps responding to local terrain.
+- Distinct house, shop, workshop and service-building proportions.
 
-## 2. What the Steambot references contribute
+At an elevated gameplay camera, roof shape and volume carry a large share of architectural identity. Fine facade decoration cannot substitute for those larger forms.
 
-The three Nefroburg images remain location and urban-life references, not rendering-style or camera locks.
+Forms should feel confidently imagined and structurally supported. Avoid both identical box-and-roof assemblies and arbitrary bending that makes construction unreadable.
 
-### Canal and bridge
+## 3. Civic simplicity and Company beginnings
 
-Use:
+Civic Terrace remains small in footprint, staffing capacity and range of services: tolls/weights, guards, notices and limited records. Reused premises and an imperfect court support that status.
 
-- Major infrastructure embedded in ordinary daily frontage.
-- A strong bridge crossing that organizes the surrounding city.
-- Balconies, awnings and occupied edges touching the water corridor.
-- Repeated civic fixtures establishing route rhythm.
+Local roof forms, carved doors, shaped windows and color can be expressive. Visual craftsmanship is not evidence that officials coordinate adventurers. Do not add a grand administrative complex or expand civic services through the art.
 
-Do not copy:
+The first Company base remains an adapted property near Arrival Ward and Market Spine, with limited initial capacity and usable expansion space. Show its early status through occupation and practical adaptations; fantasy character belongs to ordinary buildings as well as landmarks.
 
-- Sepia sunset treatment.
-- Exact European block proportions.
-- Eye-level camera or painted runtime illumination.
+## 4. Material and color development
 
-### Station facade
+The earlier material-to-hex palette is withdrawn. Develop materials in a complete street scene before locking swatches.
 
-Use:
+Choose dominant roof and foliage masses, supporting wall and ground colors, and localized activity accents. Control value, saturation, lighting and color area together.
 
-- Clear structural bays and a readable base/body/roof hierarchy.
-- Ornament concentrated into bands rather than scattered everywhere.
-- Practical planting and signage connected to the building's use.
-- A large public building that still reads through ordinary materials.
+The following are exploratory combinations for testing, not approved material specifications:
 
-Do not copy:
+| Scene role | Relationships to test |
+| --- | --- |
+| Roof masses | Deep blue-green and plum/slate, with meaningful variation by building group. |
+| Occupied walls | Warm ivory/honey with selected peach or rose fields beneath darker eaves. |
+| Structural elements | Substantial timber or painted members; selected green/blue-green construction accents. |
+| Vegetation | Grouped greens with a few copper-red or golden landmark trees. |
+| Trade activity | Concentrated wine-red, saffron and cream cloth identifying particular frontages. |
+| Ground and masonry | Quieter warm greys and earth colors supporting routes and character silhouettes. |
 
-- The exact half-timber railway-station design.
-- Its pointed roof finials as a universal Eurydica motif.
-- Purple color cast or industrial-period specificity.
+Material identity should read through construction and broad shading: masonry has mass, roofs overlap, timber supports, cloth hangs, and metal fittings attach credibly. Exact roofing materials and motif families remain open.
 
-### City overview
+Do not spread equal saturation across every object or use a uniform brown/teal filter. Daylight, season and weather are unresolved; the first comparison should hold them consistent between candidates.
 
-Use:
+## 5. District expression
 
-- District-scale roof variation and recognizable larger civic/trade masses.
-- Trees and open courts interrupting the built fabric.
-- Mountains and water giving the city a strong geographic setting.
+| District family | Form and activity direction |
+| --- | --- |
+| Market Spine | Attached 2–3-storey guidance; substantial roofs, occupied upper floors, varied shop bays and purposeful edge activity. |
+| Old City | Denser 2–4-storey guidance; accumulated footprints, shared walls, absorbed passages, projecting rooms and the inherited tower. |
+| Arrival and Company | Lower building groups, robust access, strong roof silhouettes, yards and practical additions. |
+| Civic Terrace | Small reused premises with local fantasy craftsmanship; clear entrances and modest service capacity. |
+| Quays and Workshops | Broad working openings, supported loading structures, useful roof spans and materials suited to contact, runoff and repair. |
+| Residential and Waterworks | Household courts, terrain-responsive access, distinctive trees, practical water infrastructure and cared-for planted edges. |
 
-Do not copy:
+Counts remain guides; roof volume and terrain influence the final silhouette.
 
-- Empty, uniformly clean streets.
-- Broad lavender grading.
-- The precise waterfront grid.
+## 6. Lived-in construction
 
-## 3. Proposed city palette
+Develop visible evidence at the building's actual points of use:
 
-The palette should be warm and varied without becoming uniformly brown.
+- **History:** an altered doorway, extended roof, repaired support, rebuilt stair or reused foundation.
+- **Ownership:** a recognizable selling bay, household balcony, workshop access or newly occupied Company frontage.
+- **Routine:** loading paths, swept thresholds, storage near work, cloth tied to real supports and worn approaches.
 
-| Role | Color | Hex guide | Use |
-| --- | --- | --- | --- |
-| River stone | Warm grey | `#8A8B82` | Foundations, bridge masonry, retaining walls. |
-| Pale plaster | Warm cream | `#D8CBAE` | Most occupied wall fields. |
-| Ochre plaster | Muted ochre | `#C69B62` | Market and older sun-facing walls. |
-| Sage plaster | Dusty sage | `#91A18D` | Residential and waterworks accents. |
-| Structural timber | Charred umber | `#4E4038` | Joinery, braces, frames and repaired beams. |
-| Clay roof | Weathered terracotta | `#A75F4C` | Common pitched roofs and patch tiles. |
-| Dark roof | Blue charcoal | `#465765` | Older roofs, civic reuse and visual cooling. |
-| Aged copper | Muted verdigris | `#638D84` | Select gutters, roofs, caps and water-facing details. |
-| Painted accent | River indigo | `#3F6274` | Doors, shutters, signs and Company-related accents. |
-| Metal accent | Old brass | `#B08C50` | Restrained hardware, sign brackets and civic markers. |
+Repairs must align with surfaces and structural components. Avoid floating repair marks, decorative scratch coverage and disconnected props.
 
-These are concept guides rather than final shader or texture values. Each material needs lighter and darker value families when the rendering option is chosen.
+There is no 70/20/10 allocation. Shared regional construction, owner adaptation and age should be judged through the scene's coherence and believable use.
 
-## 4. Core facade grammar
+## 7. Landscape and JRPG presentation
 
-### Foundations and lower walls
+Design selected trees and rock formations early enough to affect footprints, courts and routes. Preserve the city's mild terraces and scale. Broad routes may curve and change surface while staying easy to read.
 
-- Use coursed river stone with broad, readable blocks rather than tiny noisy joints.
-- Allow foundations to step with the terraces and reveal older height changes.
-- Add repair through one changed stone family or rebuilt corner, not random cracks across every wall.
-- Market, quay and workshop lower walls should tolerate visible loading contact and splash wear.
+Carry Amalur's form and composition principles into IMC's presentation through grouped foliage, clear silhouettes, broad shading and selected detail. Use the current screenshot as context for actors, portraits and gameplay scale. Its night state and prototype paving are not compulsory scene choices.
 
-### Wall bodies and structural rhythm
+During later production, keep water and light effects independently controllable in Godot, and retain appropriate asset separation. This brief does not change the game renderer or select a production asset workflow.
 
-- Divide facades into unequal but intentional bays.
-- Use dark painted joinery selectively: corners, major floor lines, window groupings and structural braces.
-- Avoid placing the same timber grid on every building.
-- Let plaster colors shift by owner and age while staying inside the city palette.
-- Concentrate carved or ceramic motifs in one band, lintel, railing or drainage line.
+## 8. Reference responsibilities
 
-### Roofs and drainage
+See [reference roles](references/reference-roles.md).
 
-- Use three roof families: clay tile, blue-charcoal tile and repaired copper sheet.
-- Vary ridge height and roof direction between attached groups.
-- Use shallow curved eaves or clipped corners on selected buildings to establish fantasy character.
-- Show gutters, chains, ceramic spouts or collection barrels where water management is practical.
-- Keep finials rare: the watch-bell tower, bridgeheads and a few old mercantile roofs only.
+- Steambot: Nefroburg scale, infrastructure, neighborhood relationships, ownership and everyday function.
+- Amalur: expressive roofs and openings, substantial supports, integration with landscape, selective color emphasis and fantasy atmosphere.
+- Current IMC screenshot: JRPG presentation and character/world readability.
 
-### Windows and doors
+The monumental-city reference contributes layering and repeated landmark forms. It does not change Eurydica into a capital, authorize a palace complex or enlarge the Civic Terrace.
 
-- Group windows by the building's internal use rather than placing identical openings on a perfect grid.
-- Market buildings favor wider lower openings and smaller upper rooms.
-- Workshops use broad doors, high vents and reinforced lower frames.
-- Homes use shutters, deep sills, small balconies and garden-facing windows.
-- Civic buildings use legible entrances but remain modest in scale and decoration.
-- Glazing should not make every window glow; runtime lighting remains separate.
+## 9. Next concrete design test
 
-## 5. District facade families
+Approved references: [Market Spine / Old Bridge](concepts/eurydica-market-spine-approved.md) and [three-building exterior sheet](concepts/eurydica-market-building-exteriors-approved.md). Match their broad curved roof surfaces, plain materials, grouped foliage, large paving slabs and few props. The tavern, provisions shop and repair/supply shop exteriors are approved concept designs. Rejected images have been removed from the project. Measured construction and production material specifications remain separate work.
 
-### Market Spine — adapted mercantile frontage
+Develop a small Market Spine scene approaching Old Bridge:
 
-- Two to three storeys with attached street edges.
-- Stone or masonry base, colored plaster upper floors and projecting shade structures.
-- Awnings, hanging signs and stall fixing points belong to individual owners.
-- Frequent door and window alterations show businesses changing over time.
-- Keep the central road clear; display life at thresholds and under awnings.
+1. Three neighboring buildings with related construction and distinct functions.
+2. A visible side passage and clear principal route.
+3. One substantial tree that shapes the space.
+4. Merchant frontage with purposeful cloth, signs and goods.
+5. A framed bridge approach and northern roofline giving city context.
 
-### Old City — inherited, compressed fabric
+Use that scene to judge the architecture and color together. Then derive facade families and material swatches from the successful composition.
 
-- Two to four storeys, irregular party walls and overlapping roof ages.
-- More exposed older stone, darker joinery and reused carved bands.
-- Upper-floor bridges or passage arches may occur rarely where blocks accumulated together.
-- The watch-bell tower uses the same materials at greater vertical proportion, preventing it from reading as a separate palace style.
+Review questions: Does ordinary architecture feel fantastical at thumbnail size? Do the roof masses and foliage form a coherent color composition? Do doors and shopfronts reveal use? Do supports and foundations make sense? Is the route readable at actor scale? Does Eurydica retain its regional city scale and institutional gap?
 
-### Arrival Ward and Company Edge — practical and expandable
+## 10. Decision status
 
-- One to two storeys with larger yards, sheds and visible delivery access.
-- Simpler plaster fields, robust doors and broad roof overhangs.
-- Inns and stables gain owner-specific porches, mounting rails, water points and storage edges.
-- The first Company building should look newly occupied rather than newly constructed: reused frontage, repaired sign bracket and available expansion yard.
-
-### Civic Terrace — modest reused administration
-
-- One to two storeys around an imperfect public court.
-- Plain stone base, faded plaster and restrained indigo or brass identification markers.
-- Small notice shelter, toll office and records room should appear adapted from ordinary buildings.
-- No monumental stairs, dome, palace facade, huge columns or dominant symmetry.
-
-### Quays and Workshops — working construction
-
-- Larger ground-floor openings, masonry bases and replaceable upper panels.
-- Timber loading frames, hoists, vents and short chimneys attached where their work requires them.
-- Roof repairs and wall protection are more visible, but structures remain maintained and safe.
-- Keep grime localized to loading, heat, runoff and contact zones.
-
-### Residential and Waterworks — quieter variation
-
-- Pale and sage plaster, small courts, garden walls and restrained balcony planting.
-- Roof breaks and extensions show households changing over time.
-- Waterworks use more stone, copper drainage and practical open service access.
-- Plants are cared for and clustered, not procedural overgrowth covering every surface.
-
-## 6. Controlled variation rule
-
-Use a **70 / 20 / 10 design balance** when developing building families:
-
-- **70% shared regional grammar:** common material stack, roof logic, joinery proportions and motifs.
-- **20% owner adaptation:** trade frontage, awning, balcony, sign, storage, garden or work attachment.
-- **10% age and repair:** one or two legible interventions such as a patched roof run, rebuilt bay or replaced finish.
-
-This is a design discipline, not a literal pixel or asset percentage.
-
-## 7. Pristine-asset failure checks
-
-Reject a facade family when:
-
-- Every building has the same cream walls, timber grid and roof pitch.
-- Windows, doors and signs repeat at identical intervals regardless of use.
-- Materials are uniformly clean, uniformly dirty or covered in procedural scratches.
-- Repairs appear as random decals rather than construction changes.
-- Props are scattered to simulate life without showing circulation or ownership.
-- Fantasy identity depends mainly on crystals, glow or oversized ornament.
-- The Civic Terrace looks wealthier or more organized than the Market Spine.
-- The Company looks like a completed guild headquarters at the beginning of the story.
-
-## 8. Proposed approval locks
-
-- Eurydica uses the river-stone / colored-plaster / painted-joinery / clay-dark-copper roof stack.
-- The palette combines warm mineral walls with cool indigo, charcoal and verdigris accents.
-- Regional fantasy identity comes from selective curved eaves, clipped corners, braces, ceramic drainage and restrained river-geometric motifs.
-- Building variation follows shared construction plus owner adaptation and restrained age/repair.
-- Market and Old City facades are attached and layered; Arrival and Company buildings remain simpler and more open.
-- Civic buildings reuse ordinary architecture and never become monumental.
-- Lived-in evidence remains functional and concentrated at edges, thresholds and work zones.
-
-## 9. Still unresolved after this study
-
-- Exact facade drawings and modular building-kit dimensions.
-- Final material rendering under the selected visual style.
-- Exact motif design and Company sign language.
-- Daytime lighting, season and weather for the concept image.
-- Concept-image and playable-production camera selection.
-- Final rendering family.
-
+The user approved the simplified street appearance and labeled three-building exterior sheet. Preserve those exterior designs and their simple material treatment during further development. This does not approve interior layouts, exact dimensions, unseen elevations, a final citywide palette or game integration.
