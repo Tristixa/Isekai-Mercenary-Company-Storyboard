@@ -329,21 +329,6 @@ Player:
 
 (When the player return to Tristitia at 14:00 Mira the woman ranger and the male sword and shield user will be availabe to recruit, Tristitia will also have 2 new requests along with additional request that the player receive from talking with NPCs in the city)
 
-The 2 request from Tristitia
-# Request 1
-Client: Inn owner.
-Reward: 50 gold, 50 reputation. (give icon for gold and reputation)
-Time Limit: 5 Days from now. (counting down from current day which is day 1)
-Request: x5 common slime part / any condition (different text color for highlight)
-common slime part icon here that shows 0/5 in inventory.
-Description: Need 5 common slime parts for the bathroom.
-Tristitia Text: "Simple request, he is trusted among adventurers and will spread our company name to them."
+Request "Slime Parts for the Bathroom" [CH1-REQ-001] is now available.
 
-# Request 2
-Client: Inn owner.
-Reward: 100 gold, 50 reputation.
-Time Limit: 4 Days from now.
-Request: x2 rare slime part / any condition.
-rare slime part icon here that shows 0/2 in inventory.
-Description: Need 2 rare slime part to decorate my garden.
-Tristitia Text: "Clearly it won't be used for decoration, but when it come to noble it's best to leave it alone."
+Request "Rare Slime Parts for the Garden" [CH1-REQ-002] is now available.

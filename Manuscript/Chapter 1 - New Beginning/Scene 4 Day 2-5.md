@@ -2,7 +2,7 @@
 
 ## Synopsis
 This is only each characters dialogues/side arc/side quest before the next chapter 1 scene milestone.
-Unaccepted requests become unavailable after Chapter 1. Accepted requests remain completable after Chapter 1; the chapter transition does not cancel them. Existing explicit deadlines still apply to the Traveling Merchant and Dr. Ginger requests. Requests 3-5 have no countdown deadline.
+Request details are maintained in the Requests folder. Availability notices below add the named request to the request list only on the help/accept branch.
 
 ## Gameplay dialogue staging
 
@@ -124,7 +124,7 @@ Elsie: "*chuckle*, Apologize commander."
 ---
 
 
-# Request 1 (Traveling Merchant in Market Spine)
+# Request 1 (Traveling Merchant in Market Spine) [CH1-REQ-003]
 The merchant's muttering appears when Player gets nearby, before interaction.
 Travelling Merchant:
 "Hmmm there's not much rare slime parts in the market..."
@@ -162,17 +162,11 @@ Player:
 "Okay."
 
 
-Client: Traveling Merchant.
-Reward: 25 gold, 100 reputation. (give icon for gold and reputation)
-Time Limit: 2 Days from now. (counting down from current day which is day 1)
-Request: x2 rare slime part / any condition (different text color for highlight)
-rare slime part icon here that shows 0/2 in inventory.
-Description: Need 2 rare slime parts for my client.
-Tristitia Text: "This is a rush order with little pay buy reputation always pays for the long run."
+Request "Merchant's Rare Slime Order" [CH1-REQ-003] is now available.
 
 ---
 
-# Request 2 (Dr. Ginger in Service Lanes)
+# Request 2 (Dr. Ginger in Service Lanes) [CH1-REQ-004]
 Dr.Ginger:
 "Hello young man, you don't have any common slime parts by chance are you?"
 
@@ -196,25 +190,11 @@ Dr.Ginger:
 "Thanks boy, I'll talk to her."
 
 
-Client: Dr.Ginger
-Reward: 100 gold, 20 reputation.
-Time Limit: 6 Days from now.
-Request: x10 common slime part / any condition
-common slime part icon here that shows 0/10 in inventory.
-Description: I need restock of slime parts for my work.
-Tristitia Text: "I say we take this one, no personal reason."
+Request "Clinic Restock" [CH1-REQ-004] is now available.
 
 ---
 
-## Additional request implementation notes
-
-Hollis, Marta, and Beren are recurring townspeople tied to local services. Later visits do not always need another request.
-
-Requests 3-5 are material orders, not Subjugation contracts. Scouting must discover the relevant hunting grounds and monsters before Hunt expeditions can supply them, with processing where needed. Scouting's unlock day is not fixed here.
-
-The quantities below are drafting targets. Exact item names and inventory equivalents still need to be matched to the item system; rewards and condition requirements are not yet set.
-
-# Request 3 - Hollis: Winter Bedding
+# Request 3 - Hollis: Winter Bedding [CH1-REQ-005]
 
 Location: Stables near the south gate.
 
@@ -238,16 +218,12 @@ Hollis: "That's fine. I'm asking before it gets cold enough for him to refuse hi
 Player: "Talk to Tristitia at <Guild-name>. She'll write down what you need."
 Hollis: "All right. Three pelts, and no need to hurry."
 
+Request "Winter Bedding" [CH1-REQ-005] is now available.
+
 ### If declining
 
 Hollis: "Fair enough. Let me know if that changes."
 
-Client: Hollis.
-Reward: TBD.
-Time Limit: None.
-Request: x3 wolf pelts (exact inventory item pending).
-Description: Bedding for the person taking the overnight stable watch.
-Tristitia Text: "There is no deadline. We will need to scout Mosswood and locate wolves before arranging a hunt."
 
 ### Later visit after completion
 
@@ -255,7 +231,7 @@ Hollis: "The bedding's finished. My son brought a pillow over yesterday, so I su
 
 ---
 
-# Request 4 - Marta: Something Different for Supper
+# Request 4 - Marta: Something Different for Supper [CH1-REQ-006]
 
 Location: Food shop in the Service Lanes.
 
@@ -279,16 +255,12 @@ Marta: "That's all right. I haven't promised anyone anything."
 Player: "We still need to find where the boars are. You can speak to Tristitia at <Guild-name> about the order."
 Marta: "I'll come by when it's quiet."
 
+Request "Something Different for Supper" [CH1-REQ-006] is now available.
+
 ### If declining
 
 Marta: "Well, you know where I am if you bring some back."
 
-Client: Marta.
-Reward: TBD.
-Time Limit: None.
-Request: x4 portions of boar meat (exact inventory equivalent pending).
-Description: Boar meat for a roast to add variety to the usual menu.
-Tristitia Text: "Marta is willing to wait. Once scouting finds a suitable hunting ground, we can arrange a boar hunt and have Mae prepare the meat."
 
 ### Later visit after completion
 
@@ -298,7 +270,7 @@ Marta: "Most of them. Someone asked where the stew was."
 
 ---
 
-# Request 5 - Beren: Keep the Old Ones Working
+# Request 5 - Beren: Keep the Old Ones Working [CH1-REQ-007]
 
 Location: Repair & Supply shop in the Market Spine.
 
@@ -324,16 +296,12 @@ Beren: "That's fine. Bring the request here when it's ready, or tell me who I sh
 Player: "Tristitia, at <Guild-name>. She handles the arrangements."
 Beren: "All right. I'll speak to her."
 
+Request "Keep the Old Ones Working" [CH1-REQ-007] is now available.
+
 ### If declining
 
 Beren: "All right. Keep me in mind if you end up with some."
 
-Client: Beren.
-Reward: TBD.
-Time Limit: None.
-Request: x2 boar hides (or corresponding boar material if hides are not separate inventory items).
-Description: Materials to repair worn work equipment.
-Tristitia Text: "This can wait until scouting locates boars. If we also accept Marta's order, the same hunts may supply both requests."
 
 ### Later visit after completion
 

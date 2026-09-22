@@ -35,6 +35,7 @@ It does not apply to the backstory. Unlike Steambot's Vanilla, the IMC Player re
 ## Physical Description
 
 - Age: Early 20s.
+- Height: Approximately 167 cm.
 - Appearance: Young male with short black hair.
 - Gender: Male.
 - Distinguishing features: Intentionally ordinary so players can project themselves onto him.
