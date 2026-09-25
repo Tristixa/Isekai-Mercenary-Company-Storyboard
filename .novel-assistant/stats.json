@@ -6,20 +6,14 @@
   },
   "dailyStats": [
     {
-      "date": "2026-09-18",
-      "wordsWritten": 761,
-      "timeSpentMinutes": 84,
-      "sessionsCount": 1
-    },
-    {
-      "date": "2026-09-19",
-      "wordsWritten": 1125,
-      "timeSpentMinutes": 366,
+      "date": "2026-09-23",
+      "wordsWritten": 0,
+      "timeSpentMinutes": 262,
       "sessionsCount": 1
     }
   ],
-  "currentStreak": 1,
-  "longestStreak": 1,
-  "totalWordsEver": 1886,
-  "projectStartDate": "2026-09-18"
+  "currentStreak": 0,
+  "longestStreak": 0,
+  "totalWordsEver": 0,
+  "projectStartDate": "2026-09-23"
 }
