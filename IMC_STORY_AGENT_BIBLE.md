@@ -51,7 +51,7 @@ Information, logistics, preparation, timing, morale, trust, and ordinary work ma
 
 - Eurydica is the central settlement and parent world/map layer.
 - The established playable regions are Mosswood Forest, Amber Marsh, and Redstone Highlands.
-- Eurydica has markets, guild presence, couriers, gates, food service, water and garden keepers, patrols, small businesses, and regional supply routes.
+- Eurydica has markets, no adventurer's guild (the gap the Company fills), couriers, gates, food service, water and garden keepers, patrols, small businesses, and regional supply routes.
 - The Company headquarters is a physical working building with command, preparation, processing, information, commerce, workshop, contract, rest, and meal spaces.
 - Officers represent departments: Tristitia for command/company vice, Elsie for adventurers and expeditions, Steady Mae for processing, Fulker for the workshop, Liliana for information, and Valerie for commerce.
 - Adventurers are persistent people with stamina, injuries, equipment, wages, relationships, preferences, and risk. They are employees and companions, not disposable units.
@@ -388,9 +388,9 @@ Humor must be character-specific. Do not give every officer the same quick bante
 
 **Status:** Role established; personality not yet canonized in the current character sheet.
 
-**Role:** Chief of Craftsman / workshop chief.
+**Role:** Chief of Craftsman / workshop chief. Fulker is a woman (owner, 2026-09-28).
 
-**Current rule:** Keep him functionally grounded until his identity is defined. He can discuss tools, material limits, repairs, production time, and workshop standards, but do not invent a stable humor style, backstory, or emotional arc and present it as settled.
+**Current rule:** Keep her functionally grounded until her identity is defined. He can discuss tools, material limits, repairs, production time, and workshop standards, but do not invent a stable humor style, backstory, or emotional arc and present it as settled.
 
 ### Valerie
 

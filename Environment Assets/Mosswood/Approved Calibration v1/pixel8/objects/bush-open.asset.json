@@ -1,0 +1,14 @@
+{
+  "kind": "sprite-gen-asset",
+  "version": 1,
+  "anchor": [
+    156,
+    296
+  ],
+  "frames": [
+    {
+      "file": "bush-open.png",
+      "duration": 1.0
+    }
+  ]
+}

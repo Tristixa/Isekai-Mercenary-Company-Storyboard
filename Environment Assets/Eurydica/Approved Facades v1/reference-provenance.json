@@ -1,0 +1,476 @@
+{
+  "reference_copies": {
+    "D:\\Storyboards\\Isekai Mercenary Company\\Locations\\Eurydica\\concepts\\eurydica-company-edge-approved.png": {
+      "frozen_copy": "references/eurydica-company-edge-approved.png",
+      "sha256": "bb75b73a6b1e72f9e7a50689aa4436dbd72877e8f07c33a5d6652b17d6ff2f42"
+    },
+    "D:\\Storyboards\\Isekai Mercenary Company\\Locations\\Eurydica\\concepts\\eurydica-market-building-exteriors-approved.png": {
+      "frozen_copy": "references/eurydica-market-building-exteriors-approved.png",
+      "sha256": "268d9a1115ccb3a7b7451df09457abc2183cc9897abfab181020b491ca764493"
+    },
+    "D:\\Storyboards\\Isekai Mercenary Company\\Locations\\Eurydica\\concepts\\eurydica-arrival-ward-approved.png": {
+      "frozen_copy": "references/eurydica-arrival-ward-approved.png",
+      "sha256": "d7a66c7fd15b7df7387c4466afd3e5a1e0b3df837e064bd48ac4a462c1333888"
+    },
+    "D:\\Storyboards\\Isekai Mercenary Company\\Locations\\Eurydica\\concepts\\eurydica-market-spine-approved.png": {
+      "frozen_copy": "references/eurydica-market-spine-approved.png",
+      "sha256": "4a61ba79c668eba8e4ccba865b0ada2e5805287f3d8d6317ff9468b722181ebe"
+    },
+    "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Mosswood\\Approved Calibration v1\\clean\\Props.png": {
+      "frozen_copy": "references/mosswood-clean-props.png",
+      "sha256": "ab075b1352a887d800f8778194eea048811957651468e870ae9b89a601738d53"
+    },
+    "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\references\\media\\imc-game-appearance-approved-v0.3.png": {
+      "frozen_copy": "references/imc-game-appearance-approved-v0.3.png",
+      "sha256": "4a61ba79c668eba8e4ccba865b0ada2e5805287f3d8d6317ff9468b722181ebe"
+    },
+    "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\references\\media\\imc-runtime-appearance-reference.png": {
+      "frozen_copy": "references/imc-runtime-appearance-reference.png",
+      "sha256": "af9dec07c562528fdcbeaab57aeed5f398e7ce480b11ab564eaf8f1f08523738"
+    },
+    "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\references\\media\\camera\\pixel-courtyard.jpg": {
+      "frozen_copy": "references/pixel-courtyard.jpg",
+      "sha256": "dc58791a40fd0e65301ab54fce4e6dfcaaa5de8afa9877d49bf6acede33e816b"
+    }
+  },
+  "ordered_attachments": {
+    "company_house": [
+      {
+        "path": "D:\\Codex\\IMC\\runs\\facades-v1\\guides\\company_house.png",
+        "role": "exact silhouette/layout and door guide",
+        "sha256": "d33c57ec4f59369b8ca22b9488b0b5a646dcda44e077201975941dce05ad305c"
+      },
+      {
+        "path": "D:\\Storyboards\\Isekai Mercenary Company\\Locations\\Eurydica\\concepts\\eurydica-company-edge-approved.png",
+        "role": "architectural identity and approved simplified game appearance",
+        "sha256": "bb75b73a6b1e72f9e7a50689aa4436dbd72877e8f07c33a5d6652b17d6ff2f42"
+      },
+      {
+        "path": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Mosswood\\Approved Calibration v1\\clean\\Props.png",
+        "role": "clean painted finish compatibility; no foliage copied",
+        "sha256": "ab075b1352a887d800f8778194eea048811957651468e870ae9b89a601738d53"
+      },
+      {
+        "path": "D:\\Codex\\IMC\\runs\\facades-v1\\sources\\tavern-v2.png",
+        "role": "finish and detail level of this set",
+        "sha256": "d937b294c430b138e9605d43514ffe5742adae9850c51d9ef4da5053d5719d69"
+      },
+      {
+        "path": "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\references\\media\\imc-runtime-appearance-reference.png",
+        "role": "environment complexity only; ignore portrait/UI/people/lighting",
+        "sha256": "af9dec07c562528fdcbeaab57aeed5f398e7ce480b11ab564eaf8f1f08523738"
+      }
+    ],
+    "repair_supply": [
+      {
+        "path": "D:\\Codex\\IMC\\runs\\facades-v1\\guides\\repair_supply.png",
+        "role": "exact silhouette/layout and door guide",
+        "sha256": "f7ee67b0588bc42c2dd797d1927f20bc392f3d0ec1ca788240ab9c4081c84b0f"
+      },
+      {
+        "path": "D:\\Storyboards\\Isekai Mercenary Company\\Locations\\Eurydica\\concepts\\eurydica-market-building-exteriors-approved.png",
+        "role": "architectural identity and approved simplified game appearance",
+        "sha256": "268d9a1115ccb3a7b7451df09457abc2183cc9897abfab181020b491ca764493"
+      },
+      {
+        "path": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Mosswood\\Approved Calibration v1\\clean\\Props.png",
+        "role": "clean painted finish compatibility; no foliage copied",
+        "sha256": "ab075b1352a887d800f8778194eea048811957651468e870ae9b89a601738d53"
+      },
+      {
+        "path": "D:\\Codex\\IMC\\runs\\facades-v1\\sources\\tavern-v2.png",
+        "role": "finish and detail level of this set",
+        "sha256": "d937b294c430b138e9605d43514ffe5742adae9850c51d9ef4da5053d5719d69"
+      },
+      {
+        "path": "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\references\\media\\imc-runtime-appearance-reference.png",
+        "role": "environment complexity only; ignore portrait/UI/people/lighting",
+        "sha256": "af9dec07c562528fdcbeaab57aeed5f398e7ce480b11ab564eaf8f1f08523738"
+      }
+    ],
+    "provisions": [
+      {
+        "path": "D:\\Codex\\IMC\\runs\\facades-v1\\guides\\provisions.png",
+        "role": "exact silhouette/layout and door guide",
+        "sha256": "e5eb675ad1e430e73dc4b15b6611ebf314e0c666d4e614d097d8142afeec878f"
+      },
+      {
+        "path": "D:\\Storyboards\\Isekai Mercenary Company\\Locations\\Eurydica\\concepts\\eurydica-market-building-exteriors-approved.png",
+        "role": "architectural identity and approved simplified game appearance",
+        "sha256": "268d9a1115ccb3a7b7451df09457abc2183cc9897abfab181020b491ca764493"
+      },
+      {
+        "path": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Mosswood\\Approved Calibration v1\\clean\\Props.png",
+        "role": "clean painted finish compatibility; no foliage copied",
+        "sha256": "ab075b1352a887d800f8778194eea048811957651468e870ae9b89a601738d53"
+      },
+      {
+        "path": "D:\\Codex\\IMC\\runs\\facades-v1\\sources\\tavern-v2.png",
+        "role": "finish and detail level of this set",
+        "sha256": "d937b294c430b138e9605d43514ffe5742adae9850c51d9ef4da5053d5719d69"
+      },
+      {
+        "path": "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\references\\media\\imc-runtime-appearance-reference.png",
+        "role": "environment complexity only; ignore portrait/UI/people/lighting",
+        "sha256": "af9dec07c562528fdcbeaab57aeed5f398e7ce480b11ab564eaf8f1f08523738"
+      }
+    ],
+    "gatehouse": [
+      {
+        "path": "D:\\Codex\\IMC\\runs\\facades-v1\\guides\\gatehouse.png",
+        "role": "exact silhouette/layout and door guide",
+        "sha256": "a68c6b6d0ff6a8defc9e20879fcb1b7d642d1579207c3d8cb84cc1c3c7216997"
+      },
+      {
+        "path": "D:\\Storyboards\\Isekai Mercenary Company\\Locations\\Eurydica\\concepts\\eurydica-arrival-ward-approved.png",
+        "role": "architectural identity and approved simplified game appearance",
+        "sha256": "d7a66c7fd15b7df7387c4466afd3e5a1e0b3df837e064bd48ac4a462c1333888"
+      },
+      {
+        "path": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Mosswood\\Approved Calibration v1\\clean\\Props.png",
+        "role": "clean painted finish compatibility; no foliage copied",
+        "sha256": "ab075b1352a887d800f8778194eea048811957651468e870ae9b89a601738d53"
+      },
+      {
+        "path": "D:\\Codex\\IMC\\runs\\facades-v1\\sources\\tavern-v2.png",
+        "role": "finish and detail level of this set",
+        "sha256": "d937b294c430b138e9605d43514ffe5742adae9850c51d9ef4da5053d5719d69"
+      },
+      {
+        "path": "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\references\\media\\imc-runtime-appearance-reference.png",
+        "role": "environment complexity only; ignore portrait/UI/people/lighting",
+        "sha256": "af9dec07c562528fdcbeaab57aeed5f398e7ce480b11ab564eaf8f1f08523738"
+      }
+    ],
+    "lodging": [
+      {
+        "path": "D:\\Codex\\IMC\\runs\\facades-v1\\guides\\lodging.png",
+        "role": "exact silhouette/layout and door guide",
+        "sha256": "1f294c501f1040227a1e536abb97c2e22c111dadfa8b8f57f339f7547c50f68b"
+      },
+      {
+        "path": "D:\\Storyboards\\Isekai Mercenary Company\\Locations\\Eurydica\\concepts\\eurydica-arrival-ward-approved.png",
+        "role": "architectural identity and approved simplified game appearance",
+        "sha256": "d7a66c7fd15b7df7387c4466afd3e5a1e0b3df837e064bd48ac4a462c1333888"
+      },
+      {
+        "path": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Mosswood\\Approved Calibration v1\\clean\\Props.png",
+        "role": "clean painted finish compatibility; no foliage copied",
+        "sha256": "ab075b1352a887d800f8778194eea048811957651468e870ae9b89a601738d53"
+      },
+      {
+        "path": "D:\\Codex\\IMC\\runs\\facades-v1\\sources\\tavern-v2.png",
+        "role": "finish and detail level of this set",
+        "sha256": "d937b294c430b138e9605d43514ffe5742adae9850c51d9ef4da5053d5719d69"
+      },
+      {
+        "path": "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\references\\media\\imc-runtime-appearance-reference.png",
+        "role": "environment complexity only; ignore portrait/UI/people/lighting",
+        "sha256": "af9dec07c562528fdcbeaab57aeed5f398e7ce480b11ab564eaf8f1f08523738"
+      }
+    ],
+    "stables": [
+      {
+        "path": "D:\\Codex\\IMC\\runs\\facades-v1\\guides\\stables.png",
+        "role": "exact silhouette/layout and door guide",
+        "sha256": "e61ab473cabca07c15bf9fab579742afa16e2c23181c42a1bf78aee74e03cb6c"
+      },
+      {
+        "path": "D:\\Storyboards\\Isekai Mercenary Company\\Locations\\Eurydica\\concepts\\eurydica-arrival-ward-approved.png",
+        "role": "architectural identity and approved simplified game appearance",
+        "sha256": "d7a66c7fd15b7df7387c4466afd3e5a1e0b3df837e064bd48ac4a462c1333888"
+      },
+      {
+        "path": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Mosswood\\Approved Calibration v1\\clean\\Props.png",
+        "role": "clean painted finish compatibility; no foliage copied",
+        "sha256": "ab075b1352a887d800f8778194eea048811957651468e870ae9b89a601738d53"
+      },
+      {
+        "path": "D:\\Codex\\IMC\\runs\\facades-v1\\sources\\tavern-v2.png",
+        "role": "finish and detail level of this set",
+        "sha256": "d937b294c430b138e9605d43514ffe5742adae9850c51d9ef4da5053d5719d69"
+      },
+      {
+        "path": "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\references\\media\\imc-runtime-appearance-reference.png",
+        "role": "environment complexity only; ignore portrait/UI/people/lighting",
+        "sha256": "af9dec07c562528fdcbeaab57aeed5f398e7ce480b11ab564eaf8f1f08523738"
+      }
+    ],
+    "guard_shelter": [
+      {
+        "path": "D:\\Codex\\IMC\\runs\\facades-v1\\guides\\guard_shelter.png",
+        "role": "exact silhouette/layout and door guide",
+        "sha256": "de54fe81c553799296e104ab5de9aeae676d6ba603f46bb7d1d20f21f5f4b5bc"
+      },
+      {
+        "path": "D:\\Storyboards\\Isekai Mercenary Company\\Locations\\Eurydica\\concepts\\eurydica-arrival-ward-approved.png",
+        "role": "architectural identity and approved simplified game appearance",
+        "sha256": "d7a66c7fd15b7df7387c4466afd3e5a1e0b3df837e064bd48ac4a462c1333888"
+      },
+      {
+        "path": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Mosswood\\Approved Calibration v1\\clean\\Props.png",
+        "role": "clean painted finish compatibility; no foliage copied",
+        "sha256": "ab075b1352a887d800f8778194eea048811957651468e870ae9b89a601738d53"
+      },
+      {
+        "path": "D:\\Codex\\IMC\\runs\\facades-v1\\sources\\tavern-v2.png",
+        "role": "finish and detail level of this set",
+        "sha256": "d937b294c430b138e9605d43514ffe5742adae9850c51d9ef4da5053d5719d69"
+      },
+      {
+        "path": "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\references\\media\\imc-runtime-appearance-reference.png",
+        "role": "environment complexity only; ignore portrait/UI/people/lighting",
+        "sha256": "af9dec07c562528fdcbeaab57aeed5f398e7ce480b11ab564eaf8f1f08523738"
+      }
+    ],
+    "store_shed": [
+      {
+        "path": "D:\\Codex\\IMC\\runs\\facades-v1\\guides\\store_shed.png",
+        "role": "exact silhouette/layout and door guide",
+        "sha256": "76412d4024e99fc09c42443fe55dc47af5d562dd4379bd9e5ac677bb887211a8"
+      },
+      {
+        "path": "D:\\Storyboards\\Isekai Mercenary Company\\Locations\\Eurydica\\concepts\\eurydica-company-edge-approved.png",
+        "role": "architectural identity and approved simplified game appearance",
+        "sha256": "bb75b73a6b1e72f9e7a50689aa4436dbd72877e8f07c33a5d6652b17d6ff2f42"
+      },
+      {
+        "path": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Mosswood\\Approved Calibration v1\\clean\\Props.png",
+        "role": "clean painted finish compatibility; no foliage copied",
+        "sha256": "ab075b1352a887d800f8778194eea048811957651468e870ae9b89a601738d53"
+      },
+      {
+        "path": "D:\\Codex\\IMC\\runs\\facades-v1\\sources\\tavern-v2.png",
+        "role": "finish and detail level of this set",
+        "sha256": "d937b294c430b138e9605d43514ffe5742adae9850c51d9ef4da5053d5719d69"
+      },
+      {
+        "path": "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\references\\media\\imc-runtime-appearance-reference.png",
+        "role": "environment complexity only; ignore portrait/UI/people/lighting",
+        "sha256": "af9dec07c562528fdcbeaab57aeed5f398e7ce480b11ab564eaf8f1f08523738"
+      }
+    ],
+    "house_violet": [
+      {
+        "path": "D:\\Codex\\IMC\\runs\\facades-v1\\guides\\house_violet.png",
+        "role": "exact silhouette/layout and door guide",
+        "sha256": "0ae6bc1ecdc1c2159be5910d53d3bd4ff17cbef5ee1ab5ed39559577efab894f"
+      },
+      {
+        "path": "D:\\Storyboards\\Isekai Mercenary Company\\Locations\\Eurydica\\concepts\\eurydica-company-edge-approved.png",
+        "role": "architectural identity and approved simplified game appearance",
+        "sha256": "bb75b73a6b1e72f9e7a50689aa4436dbd72877e8f07c33a5d6652b17d6ff2f42"
+      },
+      {
+        "path": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Mosswood\\Approved Calibration v1\\clean\\Props.png",
+        "role": "clean painted finish compatibility; no foliage copied",
+        "sha256": "ab075b1352a887d800f8778194eea048811957651468e870ae9b89a601738d53"
+      },
+      {
+        "path": "D:\\Codex\\IMC\\runs\\facades-v1\\sources\\tavern-v2.png",
+        "role": "finish and detail level of this set",
+        "sha256": "d937b294c430b138e9605d43514ffe5742adae9850c51d9ef4da5053d5719d69"
+      },
+      {
+        "path": "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\references\\media\\imc-runtime-appearance-reference.png",
+        "role": "environment complexity only; ignore portrait/UI/people/lighting",
+        "sha256": "af9dec07c562528fdcbeaab57aeed5f398e7ce480b11ab564eaf8f1f08523738"
+      }
+    ],
+    "house_green": [
+      {
+        "path": "D:\\Codex\\IMC\\runs\\facades-v1\\guides\\house_green.png",
+        "role": "exact silhouette/layout and door guide",
+        "sha256": "da2e7a7a651f87883d03013db77ddf91b7c22a9559f9b858873524a4bec232e3"
+      },
+      {
+        "path": "D:\\Storyboards\\Isekai Mercenary Company\\Locations\\Eurydica\\concepts\\eurydica-market-spine-approved.png",
+        "role": "architectural identity and approved simplified game appearance",
+        "sha256": "4a61ba79c668eba8e4ccba865b0ada2e5805287f3d8d6317ff9468b722181ebe"
+      },
+      {
+        "path": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Mosswood\\Approved Calibration v1\\clean\\Props.png",
+        "role": "clean painted finish compatibility; no foliage copied",
+        "sha256": "ab075b1352a887d800f8778194eea048811957651468e870ae9b89a601738d53"
+      },
+      {
+        "path": "D:\\Codex\\IMC\\runs\\facades-v1\\sources\\tavern-v2.png",
+        "role": "finish and detail level of this set",
+        "sha256": "d937b294c430b138e9605d43514ffe5742adae9850c51d9ef4da5053d5719d69"
+      },
+      {
+        "path": "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\references\\media\\imc-runtime-appearance-reference.png",
+        "role": "environment complexity only; ignore portrait/UI/people/lighting",
+        "sha256": "af9dec07c562528fdcbeaab57aeed5f398e7ce480b11ab564eaf8f1f08523738"
+      }
+    ],
+    "roof_tiles": [
+      {
+        "path": "D:\\Storyboards\\Isekai Mercenary Company\\Locations\\Eurydica\\concepts\\eurydica-market-spine-approved.png",
+        "role": "regional object/material design and palette only",
+        "sha256": "4a61ba79c668eba8e4ccba865b0ada2e5805287f3d8d6317ff9468b722181ebe"
+      },
+      {
+        "path": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Mosswood\\Approved Calibration v1\\clean\\Props.png",
+        "role": "clean painted finish compatibility only",
+        "sha256": "ab075b1352a887d800f8778194eea048811957651468e870ae9b89a601738d53"
+      },
+      {
+        "path": "D:\\Codex\\IMC\\runs\\facades-v1\\sources\\tavern-v2.png",
+        "role": "finish and detail level of this set",
+        "sha256": "d937b294c430b138e9605d43514ffe5742adae9850c51d9ef4da5053d5719d69"
+      },
+      {
+        "path": "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\references\\media\\imc-runtime-appearance-reference.png",
+        "role": "environment complexity only; ignore portrait/UI/people/lighting",
+        "sha256": "af9dec07c562528fdcbeaab57aeed5f398e7ce480b11ab564eaf8f1f08523738"
+      }
+    ],
+    "city_wall": [
+      {
+        "path": "D:\\Storyboards\\Isekai Mercenary Company\\Locations\\Eurydica\\concepts\\eurydica-arrival-ward-approved.png",
+        "role": "regional object/material design and palette only",
+        "sha256": "d7a66c7fd15b7df7387c4466afd3e5a1e0b3df837e064bd48ac4a462c1333888"
+      },
+      {
+        "path": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Mosswood\\Approved Calibration v1\\clean\\Props.png",
+        "role": "clean painted finish compatibility only",
+        "sha256": "ab075b1352a887d800f8778194eea048811957651468e870ae9b89a601738d53"
+      },
+      {
+        "path": "D:\\Codex\\IMC\\runs\\facades-v1\\sources\\tavern-v2.png",
+        "role": "finish and detail level of this set",
+        "sha256": "d937b294c430b138e9605d43514ffe5742adae9850c51d9ef4da5053d5719d69"
+      },
+      {
+        "path": "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\references\\media\\imc-runtime-appearance-reference.png",
+        "role": "environment complexity only; ignore portrait/UI/people/lighting",
+        "sha256": "af9dec07c562528fdcbeaab57aeed5f398e7ce480b11ab564eaf8f1f08523738"
+      }
+    ],
+    "attachments": [
+      {
+        "path": "D:\\Storyboards\\Isekai Mercenary Company\\Locations\\Eurydica\\concepts\\eurydica-market-building-exteriors-approved.png",
+        "role": "regional object/material design and palette only",
+        "sha256": "268d9a1115ccb3a7b7451df09457abc2183cc9897abfab181020b491ca764493"
+      },
+      {
+        "path": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Mosswood\\Approved Calibration v1\\clean\\Props.png",
+        "role": "clean painted finish compatibility only",
+        "sha256": "ab075b1352a887d800f8778194eea048811957651468e870ae9b89a601738d53"
+      },
+      {
+        "path": "D:\\Codex\\IMC\\runs\\facades-v1\\sources\\tavern-v2.png",
+        "role": "finish and detail level of this set",
+        "sha256": "d937b294c430b138e9605d43514ffe5742adae9850c51d9ef4da5053d5719d69"
+      },
+      {
+        "path": "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\references\\media\\imc-runtime-appearance-reference.png",
+        "role": "environment complexity only; ignore portrait/UI/people/lighting",
+        "sha256": "af9dec07c562528fdcbeaab57aeed5f398e7ce480b11ab564eaf8f1f08523738"
+      }
+    ],
+    "props": [
+      {
+        "path": "D:\\Storyboards\\Isekai Mercenary Company\\Locations\\Eurydica\\concepts\\eurydica-arrival-ward-approved.png",
+        "role": "regional object/material design and palette only",
+        "sha256": "d7a66c7fd15b7df7387c4466afd3e5a1e0b3df837e064bd48ac4a462c1333888"
+      },
+      {
+        "path": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Mosswood\\Approved Calibration v1\\clean\\Props.png",
+        "role": "clean painted finish compatibility only",
+        "sha256": "ab075b1352a887d800f8778194eea048811957651468e870ae9b89a601738d53"
+      },
+      {
+        "path": "D:\\Codex\\IMC\\runs\\facades-v1\\sources\\tavern-v2.png",
+        "role": "finish and detail level of this set",
+        "sha256": "d937b294c430b138e9605d43514ffe5742adae9850c51d9ef4da5053d5719d69"
+      },
+      {
+        "path": "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\references\\media\\camera\\pixel-courtyard.jpg",
+        "role": "front-facing elevated camera construction only; no pixel styling",
+        "sha256": "dc58791a40fd0e65301ab54fce4e6dfcaaa5de8afa9877d49bf6acede33e816b"
+      },
+      {
+        "path": "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\references\\media\\imc-runtime-appearance-reference.png",
+        "role": "environment complexity only; ignore portrait/UI/people/lighting",
+        "sha256": "af9dec07c562528fdcbeaab57aeed5f398e7ce480b11ab564eaf8f1f08523738"
+      }
+    ]
+  },
+  "source_dimensions": {
+    "attachments.png": [
+      1536,
+      1024
+    ],
+    "city_wall.png": [
+      1356,
+      1160
+    ],
+    "company_house.png": [
+      1184,
+      1328
+    ],
+    "gatehouse.png": [
+      1488,
+      1057
+    ],
+    "guard_shelter.png": [
+      1083,
+      1452
+    ],
+    "house_green.png": [
+      1138,
+      1382
+    ],
+    "house_violet.png": [
+      1161,
+      1355
+    ],
+    "lodging.png": [
+      1221,
+      1288
+    ],
+    "props.png": [
+      1448,
+      1086
+    ],
+    "provisions.png": [
+      1105,
+      1423
+    ],
+    "repair_supply.png": [
+      1376,
+      1143
+    ],
+    "roof_tiles.png": [
+      1254,
+      1254
+    ],
+    "stables.png": [
+      1593,
+      987
+    ],
+    "store_shed.png": [
+      1111,
+      1416
+    ],
+    "tavern-v1-rejected.png": [
+      1374,
+      1145
+    ],
+    "tavern-v2-rgb-inspect.png": [
+      1113,
+      1414
+    ],
+    "tavern-v2.png": [
+      1113,
+      1414
+    ],
+    "tavern.png": [
+      1113,
+      1414
+    ]
+  },
+  "tavern_source_sha256": "d937b294c430b138e9605d43514ffe5742adae9850c51d9ef4da5053d5719d69"
+}

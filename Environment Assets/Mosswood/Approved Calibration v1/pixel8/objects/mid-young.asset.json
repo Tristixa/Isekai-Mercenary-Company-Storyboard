@@ -1,0 +1,14 @@
+{
+  "kind": "sprite-gen-asset",
+  "version": 1,
+  "anchor": [
+    128,
+    256
+  ],
+  "frames": [
+    {
+      "file": "mid-young.png",
+      "duration": 1.0
+    }
+  ]
+}

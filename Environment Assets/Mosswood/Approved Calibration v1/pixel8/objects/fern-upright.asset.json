@@ -1,0 +1,14 @@
+{
+  "kind": "sprite-gen-asset",
+  "version": 1,
+  "anchor": [
+    136,
+    256
+  ],
+  "frames": [
+    {
+      "file": "fern-upright.png",
+      "duration": 1.0
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "kind": "sprite-gen-asset",
+  "version": 1,
+  "anchor": [
+    112,
+    184
+  ],
+  "frames": [
+    {
+      "file": "wildflowers.png",
+      "duration": 1.0
+    }
+  ]
+}

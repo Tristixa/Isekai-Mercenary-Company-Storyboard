@@ -1,0 +1,1 @@
+PASS: 422/422 checks; 0 failures. 44 faces; 55 exact-size images; 12 props; 0 magenta-like prop pixels. Roof/wall opposite-edge max difference: 0/255.

@@ -1,0 +1,14 @@
+{
+  "kind": "sprite-gen-asset",
+  "version": 1,
+  "anchor": [
+    208,
+    368
+  ],
+  "frames": [
+    {
+      "file": "mid-leaning.png",
+      "duration": 1.0
+    }
+  ]
+}

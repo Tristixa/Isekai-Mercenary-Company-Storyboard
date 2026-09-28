@@ -1,0 +1,14 @@
+{
+  "kind": "sprite-gen-asset",
+  "version": 1,
+  "anchor": [
+    224,
+    648
+  ],
+  "frames": [
+    {
+      "file": "tree-tall.png",
+      "duration": 1.0
+    }
+  ]
+}

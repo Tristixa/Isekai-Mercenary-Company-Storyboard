@@ -4,6 +4,7 @@ The user's explicit selections control reference use. A higher version number do
 
 ## Current visual references
 
+- Silas Crane: `Characters/Buyers/Silas Crane/Base.png`, fantasy merchant Base v2 explicitly approved 2026-09-28. See the adjacent `Approval.md`. This supersedes the original modern suit/watch costume proposal; retain v2 face, hair, palette, wrap tunic, mantle, sash and trade token for continuity.
 - Sole style master: `Portrait Styles/tristitia.png`.
 - Steady Mae: `Characters/Portrait Candidates/Steady Mae - Locked Style v1.png`, explicitly approved by the user.
 - Elsie: `Characters/Portrait Candidates/Elsie - Locked Style v1.png`, explicitly selected by the user as the best and correct version. Its corresponding original source is `output/portraits/elsie-2026-09-20-v1/generated-source.png`.

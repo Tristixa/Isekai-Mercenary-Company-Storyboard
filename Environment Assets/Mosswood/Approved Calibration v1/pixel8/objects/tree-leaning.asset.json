@@ -1,0 +1,14 @@
+{
+  "kind": "sprite-gen-asset",
+  "version": 1,
+  "anchor": [
+    308,
+    576
+  ],
+  "frames": [
+    {
+      "file": "tree-leaning.png",
+      "duration": 1.0
+    }
+  ]
+}

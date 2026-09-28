@@ -1,0 +1,14 @@
+{
+  "kind": "sprite-gen-asset",
+  "version": 1,
+  "anchor": [
+    140,
+    248
+  ],
+  "frames": [
+    {
+      "file": "stump.png",
+      "duration": 1.0
+    }
+  ]
+}

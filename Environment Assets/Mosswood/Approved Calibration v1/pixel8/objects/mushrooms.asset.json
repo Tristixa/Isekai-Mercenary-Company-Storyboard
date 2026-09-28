@@ -1,0 +1,14 @@
+{
+  "kind": "sprite-gen-asset",
+  "version": 1,
+  "anchor": [
+    104,
+    128
+  ],
+  "frames": [
+    {
+      "file": "mushrooms.png",
+      "duration": 1.0
+    }
+  ]
+}

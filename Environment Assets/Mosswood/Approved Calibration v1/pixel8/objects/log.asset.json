@@ -1,0 +1,14 @@
+{
+  "kind": "sprite-gen-asset",
+  "version": 1,
+  "anchor": [
+    188,
+    168
+  ],
+  "frames": [
+    {
+      "file": "log.png",
+      "duration": 1.0
+    }
+  ]
+}

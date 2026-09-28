@@ -1,0 +1,1883 @@
+{
+  "status": "candidate, not approved",
+  "spec": "../../handoff/facades-spec.json",
+  "check_summary": "PASS: 422/422 checks; 0 failures. 44 faces; 55 exact-size images; 12 props; 0 magenta-like prop pixels. Roof/wall opposite-edge max difference: 0/255.",
+  "check_results": "check-results.json",
+  "files": [
+    {
+      "file": "asset-processing.json",
+      "bytes": 4302,
+      "sha256": "0e2d3a2db2db77bdf15a5e68c53a9758bec1c4f4b3ebf575be4ee1a2542744da",
+      "px": null,
+      "alpha_range": null,
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "attachments/awning_lodging.png",
+      "bytes": 32517,
+      "sha256": "c71799ea2781de8fe228fbad7267532a0203d78731301c23c7121cfa0ace49d7",
+      "px": [
+        256,
+        102
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "attachments/awning_provisions.png",
+      "bytes": 33932,
+      "sha256": "ff2725c9725e0102a8134e402323a21d2a5d1fee76247a1625d06643d80b34ea",
+      "px": [
+        256,
+        102
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "attachments/awning_tavern.png",
+      "bytes": 39800,
+      "sha256": "bd8892226e7eb9ae1efad42b3eccd46670429b68efecc72c381192ac0f6b5221",
+      "px": [
+        320,
+        102
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "attachments/banner_wine.png",
+      "bytes": 4401,
+      "sha256": "f291651e1b40c546c444efd5293daf218d1cf4f853aa4292848bfebc9973e569",
+      "px": [
+        38,
+        90
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "attachments/chroma-sheet.png",
+      "bytes": 630695,
+      "sha256": "25737a17fe3f455b01daecd5d6760250f1a29be32c2e1ba497a3be09e951705d",
+      "px": [
+        1536,
+        1024
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "attachments/cover_repair.png",
+      "bytes": 33504,
+      "sha256": "27f4ef3b7dc02972d3479b4b132e0f7a020656a1c42559eddc8863f4170ad030",
+      "px": [
+        256,
+        102
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "attachments/sign_tavern.png",
+      "bytes": 6624,
+      "sha256": "d047d00860ed581536ff65d0fccae7dd2d38beb0194b2e113443b9da0b901520",
+      "px": [
+        64,
+        64
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "check-results.json",
+      "bytes": 55110,
+      "sha256": "67fc84624dea086d9002b1dfca0681fd1968d839a2607d347c1578700d5b5972",
+      "px": null,
+      "alpha_range": null,
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "check-summary.txt",
+      "bytes": 152,
+      "sha256": "b5eceff97735e54d7d22769e0609c1d629f59ba272770ac3c77bc19694248e60",
+      "px": null,
+      "alpha_range": null,
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "check_facades.py",
+      "bytes": 7410,
+      "sha256": "dda4d730e66b9c7e0f64071140235b120a84cc8851775bd7cce4215c3964c37a",
+      "px": null,
+      "alpha_range": null,
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "company_house/e.png",
+      "bytes": 147769,
+      "sha256": "d7e125581aaac648d1ddf3aa2115c996a75e1b1602a8672c9bf9f2a9ba289254",
+      "px": [
+        480,
+        282
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "company_house/n.png",
+      "bytes": 218765,
+      "sha256": "b54f7efae784b636ae99c8001d974d8e738ea53a630c34f588b68ccc1ca6d6ac",
+      "px": [
+        480,
+        546
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "company_house/s.png",
+      "bytes": 218369,
+      "sha256": "a8e2ac3dc27e6d863cc101b91c187b93a8469c5c7b8e9aa5749538c855b85d72",
+      "px": [
+        480,
+        546
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "company_house/w.png",
+      "bytes": 146603,
+      "sha256": "5a7d7af4fa900621b9774b48c1ee60943627e41804e54807db4d7acdf3583cda",
+      "px": [
+        480,
+        282
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "door-registration.json",
+      "bytes": 3985,
+      "sha256": "b2b516c9a30e6ebd71c78fd86bbe1e98c790f639bce71ea70e50577c2065ead0",
+      "px": null,
+      "alpha_range": null,
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "extract_facades.py",
+      "bytes": 9014,
+      "sha256": "35ea55f5d28f95787cffd799be40399a5a47d4c6975337573a429283dde7ab8a",
+      "px": null,
+      "alpha_range": null,
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "extraction.json",
+      "bytes": 25366,
+      "sha256": "253361fea3c952dad57c38b6c7bb2f11576ebfd217bc92445dd072bb128d5b3c",
+      "px": null,
+      "alpha_range": null,
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "finish_assets.py",
+      "bytes": 5781,
+      "sha256": "c0ecb34c4753374da3e39adb2e812933bb94a159e6111aec662cb0118e4dca6b",
+      "px": null,
+      "alpha_range": null,
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "gatehouse/e.png",
+      "bytes": 86291,
+      "sha256": "f528642e3fa9defd751e3238d4beced1aa802709cc215546301316abaa330ef6",
+      "px": [
+        154,
+        545
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "gatehouse/n.png",
+      "bytes": 291409,
+      "sha256": "77716e98166e45118a583e1773f6a717c76427d8a80ededa10ec44d084598965",
+      "px": [
+        794,
+        461
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "gatehouse/s.png",
+      "bytes": 291409,
+      "sha256": "77716e98166e45118a583e1773f6a717c76427d8a80ededa10ec44d084598965",
+      "px": [
+        794,
+        461
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "gatehouse/w.png",
+      "bytes": 86640,
+      "sha256": "59a67b32dc8915fabbc10375228406aedfedc0ef572d2bc11e4776f08b0dc70a",
+      "px": [
+        154,
+        545
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "guard_shelter/e.png",
+      "bytes": 56744,
+      "sha256": "a918d5bf2f2411d32540940161c07ec68bed584f2cfd4675943f8e52c4f782ca",
+      "px": [
+        224,
+        198
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "guard_shelter/n.png",
+      "bytes": 80009,
+      "sha256": "64216444a4cca58541ff70ae77344653bfe203e4c0528663b888bdb98232731c",
+      "px": [
+        224,
+        322
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "guard_shelter/s.png",
+      "bytes": 80034,
+      "sha256": "538ceeb91132f0ab57c01ff0e99c9802765d3f3b11d2e9e02d0974d5405d846b",
+      "px": [
+        224,
+        322
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "guard_shelter/w.png",
+      "bytes": 56742,
+      "sha256": "e125cf18cd3977508673e1cc20b83e03303867578a545a83cc3e46fd6d8eddb9",
+      "px": [
+        224,
+        198
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "guides/company_house.png",
+      "bytes": 8994,
+      "sha256": "d33c57ec4f59369b8ca22b9488b0b5a646dcda44e077201975941dce05ad305c",
+      "px": [
+        1088,
+        1220
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "guides/gatehouse.png",
+      "bytes": 10689,
+      "sha256": "a68c6b6d0ff6a8defc9e20879fcb1b7d642d1579207c3d8cb84cc1c3c7216997",
+      "px": [
+        1716,
+        1218
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "guides/guard_shelter.png",
+      "bytes": 4116,
+      "sha256": "de54fe81c553799296e104ab5de9aeae676d6ba603f46bb7d1d20f21f5f4b5bc",
+      "px": [
+        576,
+        772
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "guides/house_green.png",
+      "bytes": 12097,
+      "sha256": "da2e7a7a651f87883d03013db77ddf91b7c22a9559f9b858873524a4bec232e3",
+      "px": [
+        1280,
+        1556
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "guides/house_violet.png",
+      "bytes": 9376,
+      "sha256": "0ae6bc1ecdc1c2159be5910d53d3bd4ff17cbef5ee1ab5ed39559577efab894f",
+      "px": [
+        1152,
+        1344
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "guides/layouts.json",
+      "bytes": 4531,
+      "sha256": "90481bfb88da76b5e6f00bb063876610c355f7457b3a7a16a277fef1d4377197",
+      "px": null,
+      "alpha_range": null,
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "guides/lodging.png",
+      "bytes": 12065,
+      "sha256": "1f294c501f1040227a1e536abb97c2e22c111dadfa8b8f57f339f7547c50f68b",
+      "px": [
+        1408,
+        1484
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "guides/provisions.png",
+      "bytes": 10806,
+      "sha256": "e5eb675ad1e430e73dc4b15b6611ebf314e0c666d4e614d097d8142afeec878f",
+      "px": [
+        1152,
+        1484
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "guides/repair_supply.png",
+      "bytes": 13082,
+      "sha256": "f7ee67b0588bc42c2dd797d1927f20bc392f3d0ec1ca788240ab9c4081c84b0f",
+      "px": [
+        1664,
+        1382
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "guides/stables.png",
+      "bytes": 8241,
+      "sha256": "e61ab473cabca07c15bf9fab579742afa16e2c23181c42a1bf78aee74e03cb6c",
+      "px": [
+        1536,
+        952
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "guides/store_shed.png",
+      "bytes": 3989,
+      "sha256": "76412d4024e99fc09c42443fe55dc47af5d562dd4379bd9e5ac677bb887211a8",
+      "px": [
+        576,
+        734
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "guides/tavern.png",
+      "bytes": 16055,
+      "sha256": "6f1a28b8d3d1e533f404f69de9a9149d4a49a2ae588c9579708c418d6b3b3a2d",
+      "px": [
+        1536,
+        1952
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "house_green/e.png",
+      "bytes": 203312,
+      "sha256": "27f8dfc9433225f351fac8ed2cc473993d42f591e375583d292308ad5630429f",
+      "px": [
+        512,
+        397
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "house_green/n.png",
+      "bytes": 317076,
+      "sha256": "385405b8b8e391cd04a1964cccadc5778502ee87b61df532d207b1a7b1ad0bd2",
+      "px": [
+        576,
+        714
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "house_green/s.png",
+      "bytes": 316257,
+      "sha256": "a4c23c97eeeb8917424684a7fb15c72d8f8f3b476e2b278bdf3ef491b43c5934",
+      "px": [
+        576,
+        714
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "house_green/w.png",
+      "bytes": 206009,
+      "sha256": "0bf428f7a44a501a4194379adf1130f658cb7eab54ef6a53670c4d6f263a0341",
+      "px": [
+        512,
+        397
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "house_violet/e.png",
+      "bytes": 212773,
+      "sha256": "d2b42dda30d420af472664131f5c78ff971edcfe280ffef9d4bf2e0d72bee879",
+      "px": [
+        384,
+        608
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "house_violet/n.png",
+      "bytes": 206175,
+      "sha256": "c13021026ec42f769c7849c53913438e32e0f6cf0483182c2a3407b466adfef0",
+      "px": [
+        512,
+        397
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "house_violet/s.png",
+      "bytes": 204021,
+      "sha256": "dc3f16d5c7e594877fd9c8f4b8eb3749a5cccf6a5814cc98f20651be8318e74c",
+      "px": [
+        512,
+        397
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "house_violet/w.png",
+      "bytes": 213410,
+      "sha256": "d7333cf8a136522acac77cfe2db5f7dab5ceafde2a8e1bbcc9b50f0399de2e6e",
+      "px": [
+        384,
+        608
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "inspect_sources.py",
+      "bytes": 1070,
+      "sha256": "d96f92778d44ae87399d04c0e2cff7a0c525f1edfb4beb3ecd2ee3ad3cad5526",
+      "px": null,
+      "alpha_range": null,
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "layout_guides.py",
+      "bytes": 1729,
+      "sha256": "e3f54cef18cc001b385e27d71231d5858195e50f4d9c298441dc2e122d5a2202",
+      "px": null,
+      "alpha_range": null,
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "lodging/e.png",
+      "bytes": 281300,
+      "sha256": "3230382ce864ce371666e7b92ddb9e3f5670f391956cdc1bd8d2fd0b92eaef95",
+      "px": [
+        512,
+        678
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "lodging/n.png",
+      "bytes": 255342,
+      "sha256": "2a859dd3ba80278a2a97ada0e39b39edf1c0d653e5885a389613aac9d5dc7e20",
+      "px": [
+        640,
+        397
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "lodging/s.png",
+      "bytes": 255200,
+      "sha256": "c1b6bf9428b73d971799dbfa9058ba73c615a6888b955959ff01d99fdac62d57",
+      "px": [
+        640,
+        397
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "lodging/w.png",
+      "bytes": 280762,
+      "sha256": "60a300a76723e6b3cb686f8ef0a005f68d0ca3f59177ce643367ac3e4427db5c",
+      "px": [
+        512,
+        678
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "make_reviews.py",
+      "bytes": 4645,
+      "sha256": "d844d696036c999d868f4140052759ca7eef58e53b1c9e7c020162b97a2bafdd",
+      "px": null,
+      "alpha_range": null,
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "prompts/attachments.txt",
+      "bytes": 1250,
+      "sha256": "3a042ff13e0317d355a29d061e56340e3b52eaec022672215957f2ebb107e2d0",
+      "px": null,
+      "alpha_range": null,
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "prompts/city_wall.txt",
+      "bytes": 988,
+      "sha256": "4944aeffe4aafebc8eab9c2336205307dcbdeb17c24355c50421634b36fb6a1b",
+      "px": null,
+      "alpha_range": null,
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "prompts/company_house.txt",
+      "bytes": 1702,
+      "sha256": "d8fe2ca9dab89ae4d2ebdbac6003c815ec5f4d4a3ca424a76390fd86a87950e1",
+      "px": null,
+      "alpha_range": null,
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "prompts/gatehouse.txt",
+      "bytes": 1991,
+      "sha256": "6b81b63daf5e5b5c79cd7378a99f95ec238e1b5ec29fd01a06376b99235aec09",
+      "px": null,
+      "alpha_range": null,
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "prompts/guard_shelter.txt",
+      "bytes": 1895,
+      "sha256": "b74217da046d965092c623c3ec3218502da68fba9ed4f2e2ae473aecf3024a69",
+      "px": null,
+      "alpha_range": null,
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "prompts/house_green.txt",
+      "bytes": 1861,
+      "sha256": "0cefdd468ebe6dba042049e9017c95d527db26cfaba18d65fa2dfee1c0965ce4",
+      "px": null,
+      "alpha_range": null,
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "prompts/house_violet.txt",
+      "bytes": 1862,
+      "sha256": "b0518d15803e0fa8e686f3bb47394ffe2bb4956fd0348c13a05dfb08a2992ea7",
+      "px": null,
+      "alpha_range": null,
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "prompts/lodging.txt",
+      "bytes": 1812,
+      "sha256": "9d6a737e35305e2391a63fb63255af2bd780acc09b23c3104c72fc35f6dcfeb8",
+      "px": null,
+      "alpha_range": null,
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "prompts/props.txt",
+      "bytes": 1875,
+      "sha256": "82e67856c365862016b05b75e4400a0222bda6c35346a9335cf82b9ed05c9748",
+      "px": null,
+      "alpha_range": null,
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "prompts/provisions.txt",
+      "bytes": 1915,
+      "sha256": "741237e2741c81d81ea764012b3561c111fde7d8c16c7277fad8c249db4307b5",
+      "px": null,
+      "alpha_range": null,
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "prompts/repair_supply.txt",
+      "bytes": 1864,
+      "sha256": "fa371857953551fe15f1908f325f03c85457928b39b84ace7e58ddb1185e74ee",
+      "px": null,
+      "alpha_range": null,
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "prompts/roof_tiles.txt",
+      "bytes": 1313,
+      "sha256": "9d537244e9f4f0330a8c9f5c048104d2aac7d3be61510a3cd5bf3bc1db6db684",
+      "px": null,
+      "alpha_range": null,
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "prompts/stables.txt",
+      "bytes": 1958,
+      "sha256": "922e45958d7ff937adc92033934d2fa4e264a9c8e2be85513d272deb84f80524",
+      "px": null,
+      "alpha_range": null,
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "prompts/store_shed.txt",
+      "bytes": 1885,
+      "sha256": "685637de7041864d779379c052740a4c55b2a3606d01990a113fa0dc80f16a67",
+      "px": null,
+      "alpha_range": null,
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "prompts.md",
+      "bytes": 41025,
+      "sha256": "bd7833b591fdacd6c38905ddcc176903c2d46a1412d6038f84bd0354559d01e6",
+      "px": null,
+      "alpha_range": null,
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "props/anchors.json",
+      "bytes": 4527,
+      "sha256": "440ada524334f7c3777a3354a4b29fcecfdd1736bbdd9da1192bf89d48303a27",
+      "px": null,
+      "alpha_range": null,
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "props/barrel.png",
+      "bytes": 9205,
+      "sha256": "ee99903675d741582417f97b0b83806251b868a47425cd2b252c74eb05a63dd2",
+      "px": [
+        62,
+        86
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "props/basket_pair.png",
+      "bytes": 9704,
+      "sha256": "6552246f3d2d20a6d4fcadac16143b2d9868460880309f37dff3fca8a1b24ddb",
+      "px": [
+        101,
+        62
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "props/bench.png",
+      "bytes": 7914,
+      "sha256": "095198f5f6656a27c7dc910c96a0524f2e3e3b3e5e798b83b934650266d75d49",
+      "px": [
+        115,
+        60
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "props/board_stack.png",
+      "bytes": 18635,
+      "sha256": "40dcae5ce6cfc7a2fb7e719bd160a387d6af64cd15f7e183e178df8ccf6aa72d",
+      "px": [
+        148,
+        79
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "props/cart_wheel.png",
+      "bytes": 9221,
+      "sha256": "4c51b5abc9356b313441ab984264f10c4ca2a8ca759318667f0dccff64326c9a",
+      "px": [
+        72,
+        72
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "props/crate.png",
+      "bytes": 9268,
+      "sha256": "67d061faba79cfaf0c636ecff2b49cac0a27d58f15210f9f94c06d77ce4dc992",
+      "px": [
+        66,
+        80
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "props/crate_stack.png",
+      "bytes": 13524,
+      "sha256": "86f5bc3a718be0b522a6b4ebe0f51ddf8b1924b1198a2a4a8db8559d7ad8ac82",
+      "px": [
+        70,
+        114
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "props/handcart.png",
+      "bytes": 28654,
+      "sha256": "5f4864c0f1e2e9feab0ebfaabd0c7e884e5bf4204a4c55540b077ea6b712099c",
+      "px": [
+        175,
+        146
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "props/hay_bale.png",
+      "bytes": 17148,
+      "sha256": "230fe1da5822ad30e5eff24064357280419071992eac07637090ecfddf7205a4",
+      "px": [
+        111,
+        75
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "props/lamp_post.png",
+      "bytes": 10288,
+      "sha256": "2b13bbf09dadc236583a4a2c201507cc624487ca5ee0210b1464cb3fafdebe90",
+      "px": [
+        48,
+        195
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "props/notice_board.png",
+      "bytes": 13008,
+      "sha256": "219a0f3862e5b2d52c16839e870777835208520afe9ca182f3558dc2056629b0",
+      "px": [
+        104,
+        109
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "props/sheet.png",
+      "bytes": 780941,
+      "sha256": "a36365d9999167879e50128c9723a4de581e2aa0b44faecda45874c003b6786e",
+      "px": [
+        1448,
+        1086
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "props/water_trough.png",
+      "bytes": 13795,
+      "sha256": "2d565056e648dd6030b895a177c73fdcc080602a79451a10d01f59c282bbb1a2",
+      "px": [
+        115,
+        67
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "provisions/e.png",
+      "bytes": 194610,
+      "sha256": "714bf67baf907f0cc6314bd9b912d288e395afbd0e0c264f7c017f882c585340",
+      "px": [
+        512,
+        397
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "provisions/n.png",
+      "bytes": 290315,
+      "sha256": "0a6867ad520fe1ec19ee15615c1188b3921a47398832d25409a8481f57cfc6d2",
+      "px": [
+        512,
+        678
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "provisions/s.png",
+      "bytes": 279449,
+      "sha256": "a84ed271a22b8772461084c8f3e0b21460877c51cbc7647361466700a9ee1b95",
+      "px": [
+        512,
+        678
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "provisions/w.png",
+      "bytes": 202106,
+      "sha256": "d84ba2521444861aae7c3d44d3fe3efdf56672ce47accb33ad87048517bdaf45",
+      "px": [
+        512,
+        397
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "README.md",
+      "bytes": 9517,
+      "sha256": "a2f6cad13c230b7b57957e20a5ef261325f29e9981461121c9ab0efb4babdee0",
+      "px": null,
+      "alpha_range": null,
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "record_run.py",
+      "bytes": 3892,
+      "sha256": "0b8d91b8e1e448671ed260f2b58f3a399dbd51685b690db2c731dcc56cb5ab80",
+      "px": null,
+      "alpha_range": null,
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "reference-provenance.json",
+      "bytes": 23171,
+      "sha256": "bb1c065fabe509da230906633e4d5af5c7e3d8730605f4ab9c585e33a14bfc30",
+      "px": null,
+      "alpha_range": null,
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "references/eurydica-arrival-ward-approved.png",
+      "bytes": 2575081,
+      "sha256": "d7a66c7fd15b7df7387c4466afd3e5a1e0b3df837e064bd48ac4a462c1333888",
+      "px": [
+        1536,
+        1024
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "references/eurydica-company-edge-approved.png",
+      "bytes": 2445383,
+      "sha256": "bb75b73a6b1e72f9e7a50689aa4436dbd72877e8f07c33a5d6652b17d6ff2f42",
+      "px": [
+        1536,
+        1024
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "references/eurydica-market-building-exteriors-approved.png",
+      "bytes": 1666589,
+      "sha256": "268d9a1115ccb3a7b7451df09457abc2183cc9897abfab181020b491ca764493",
+      "px": [
+        1536,
+        1024
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "references/eurydica-market-spine-approved.png",
+      "bytes": 2087638,
+      "sha256": "4a61ba79c668eba8e4ccba865b0ada2e5805287f3d8d6317ff9468b722181ebe",
+      "px": [
+        1536,
+        1024
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "references/imc-game-appearance-approved-v0.3.png",
+      "bytes": 2087638,
+      "sha256": "4a61ba79c668eba8e4ccba865b0ada2e5805287f3d8d6317ff9468b722181ebe",
+      "px": [
+        1536,
+        1024
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "references/imc-runtime-appearance-reference.png",
+      "bytes": 768296,
+      "sha256": "af9dec07c562528fdcbeaab57aeed5f398e7ce480b11ab564eaf8f1f08523738",
+      "px": [
+        1278,
+        744
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "references/mosswood-clean-props.png",
+      "bytes": 1148501,
+      "sha256": "ab075b1352a887d800f8778194eea048811957651468e870ae9b89a601738d53",
+      "px": [
+        1536,
+        1024
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "references/pixel-courtyard.jpg",
+      "bytes": 303979,
+      "sha256": "dc58791a40fd0e65301ab54fce4e6dfcaaa5de8afa9877d49bf6acede33e816b",
+      "px": null,
+      "alpha_range": null,
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "repair_supply/e.png",
+      "bytes": 228191,
+      "sha256": "0862cb8d7c35b6caee86079bcbf1e27a245f0cc582fd90ed5da547f084013c72",
+      "px": [
+        768,
+        307
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "repair_supply/n.png",
+      "bytes": 304791,
+      "sha256": "7b3b4c5bec3e19c757469a0fcc3fa652f050299bd8d2cba82e947788a142b16b",
+      "px": [
+        640,
+        627
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "repair_supply/s.png",
+      "bytes": 303671,
+      "sha256": "de1aa6041eb184346ac104e8848c2add37ff09e99c799a82e842f1f42791b016",
+      "px": [
+        640,
+        627
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "repair_supply/w.png",
+      "bytes": 235057,
+      "sha256": "448da7472f8e15f909fe3cd5b16cf42aa5c4ef0de84c62b57a8eef897f78527e",
+      "px": [
+        768,
+        307
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "review/assembled-company_house.png",
+      "bytes": 673610,
+      "sha256": "568988328939e54ea1069e85aa4d88daaff80cd8afb83f12cf386449d301bd9d",
+      "px": [
+        2040,
+        681
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "review/assembled-tavern.png",
+      "bytes": 1536066,
+      "sha256": "83b10ca81b128bfe13bc5a32e815a98ed9804add2a71350e0d54a59930540045",
+      "px": [
+        2680,
+        1047
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "review/overview.png",
+      "bytes": 3384482,
+      "sha256": "e68ea7bbcfe0794f9c3c82997a01e3c45e375fd761475b42a78029baaea9b968",
+      "px": [
+        1600,
+        5710
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "review/props-cutouts.png",
+      "bytes": 252991,
+      "sha256": "49f232ae0585d652e7e94eeb393059b0680926fd868c8fa1dbd49bf8b866c799",
+      "px": [
+        1440,
+        820
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "review/repeat-city-wall-3x1.png",
+      "bytes": 85892,
+      "sha256": "7ce0dea6773fdb61d881dab536fd26962e3564c3fc56328a9d8f38f6e3f32b27",
+      "px": [
+        768,
+        218
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "review/repeat-city-wall-3x3.png",
+      "bytes": 256833,
+      "sha256": "09120bd44f27f602b9d25f3b70283c782b1afc371eede239196322b4fc89536b",
+      "px": [
+        768,
+        654
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "review/repeat-roof-brown.png",
+      "bytes": 1034409,
+      "sha256": "ca523809527b531c5b10232633ee05b71b8e97ea7023aae2bfb1025d2d0d2c76",
+      "px": [
+        1536,
+        1536
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "review/repeat-roof-green.png",
+      "bytes": 1073179,
+      "sha256": "8830cc95928408688059c90bd429eb4a0c9898d100412cff671467b6d75e867e",
+      "px": [
+        1536,
+        1536
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "review/repeat-roof-patchwork.png",
+      "bytes": 1114196,
+      "sha256": "d7516659cef774539d8d7d63e4bb4ea287cb49e7e697f7c0ac67a30cd33f7810",
+      "px": [
+        1536,
+        1536
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "review/repeat-roof-violet.png",
+      "bytes": 1089503,
+      "sha256": "5b2888d2b0665fcd9a46fa5056248fec4fd480797974aad56b28dabb303d8b07",
+      "px": [
+        1536,
+        1536
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "roofs/brown.png",
+      "bytes": 302430,
+      "sha256": "7a60024846a71253878153f113d8249effc2ec7f4856340e59b9ce72e307b9e7",
+      "px": [
+        512,
+        512
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "roofs/green.png",
+      "bytes": 314123,
+      "sha256": "6c4d6e580e5028233d5f155a9d926b93006d35957b3606486f4d4c027678b0e7",
+      "px": [
+        512,
+        512
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "roofs/patchwork.png",
+      "bytes": 325954,
+      "sha256": "2c4190d7e7e63e720505864580b6b87b5a1e2dd415d23e1bd493fadddcdda357",
+      "px": [
+        512,
+        512
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "roofs/violet.png",
+      "bytes": 318414,
+      "sha256": "1f4978a2c61b5e1e4370ef003930dc2052ff79007ef80cd5f6593c1fd8540e5c",
+      "px": [
+        512,
+        512
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "source-crops.json",
+      "bytes": 3223,
+      "sha256": "262275c143dc77cb2a4adc130dbcb0367aa0eea7952e806c5419fb5997d1fa1a",
+      "px": null,
+      "alpha_range": null,
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "sources/attachments.png",
+      "bytes": 1491743,
+      "sha256": "1ac4c0e555623ba936ad61ec012addd46fb73dc97394d09c040ccf31629e9dde",
+      "px": [
+        1536,
+        1024
+      ],
+      "alpha_range": [
+        0,
+        254
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "sources/city_wall.png",
+      "bytes": 2322119,
+      "sha256": "568ef9a0e96053f31ac844bbb01ba0e257f0a8d9621fe4051c56b4ccc4bf4908",
+      "px": [
+        1356,
+        1160
+      ],
+      "alpha_range": [
+        117,
+        251
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "sources/company_house.png",
+      "bytes": 1638202,
+      "sha256": "82c153d5d18902a4844ad71dd72d56f8f3b597892d0a7cfce5913bb7ab9f9f2c",
+      "px": [
+        1184,
+        1328
+      ],
+      "alpha_range": [
+        0,
+        254
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "sources/gatehouse.png",
+      "bytes": 831232,
+      "sha256": "811dd12913d1fce0695ed0403198c6e09b5442b82622407a8b97db0d919bc269",
+      "px": [
+        1488,
+        1057
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "sources/guard_shelter.png",
+      "bytes": 1170037,
+      "sha256": "de65ac3fe7854c8c3333829f93a1920ef889e3b63745fbeeb2935921a0bb2413",
+      "px": [
+        1083,
+        1452
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "sources/house_green.png",
+      "bytes": 1213520,
+      "sha256": "f04d3d34e0da06576b4ab78e41d748caff4b51a30ef678b9dd5c7a9c2dc685d2",
+      "px": [
+        1138,
+        1382
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "sources/house_violet.png",
+      "bytes": 1288748,
+      "sha256": "4fdd59eae9efa05ff32fccf600b9c5e0b88680410054199b881cf815ebb7600e",
+      "px": [
+        1161,
+        1355
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "sources/lodging.png",
+      "bytes": 1234466,
+      "sha256": "a5c918b84ade63f03a5d4d26891b95c8e50837d8f157d6a0b99f3102ce6240ed",
+      "px": [
+        1221,
+        1288
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "sources/props.png",
+      "bytes": 1080377,
+      "sha256": "7e263f746146556fb2131c66dcb6b73bc46e13620ffba6e38b8b3c6545bdb17c",
+      "px": [
+        1448,
+        1086
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "sources/provisions.png",
+      "bytes": 1291569,
+      "sha256": "03e10918874024926de226b31ef8dbbb52d2d3514489cfb07c9c9d2f0621e606",
+      "px": [
+        1105,
+        1423
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "sources/repair_supply.png",
+      "bytes": 1157919,
+      "sha256": "7a027cad9f18e8ba3e363b4310b91c213f1678321e748582385fa322ae079e98",
+      "px": [
+        1376,
+        1143
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "sources/roof_tiles.png",
+      "bytes": 1938033,
+      "sha256": "984f80558c17bfee42cc369d2da8b5f708525df2bd754998008673917ae7364f",
+      "px": [
+        1254,
+        1254
+      ],
+      "alpha_range": [
+        214,
+        248
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "sources/stables.png",
+      "bytes": 926529,
+      "sha256": "d4d6a434bf43f1568e3b66aa795bf35518ea1103bf1683c0961976babba675da",
+      "px": [
+        1593,
+        987
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "sources/store_shed.png",
+      "bytes": 1135597,
+      "sha256": "27b6297c0d8e015973201852e88326cc46cf313741f624d9f04c3bccea2b822c",
+      "px": [
+        1111,
+        1416
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "sources/tavern-v1-rejected.png",
+      "bytes": 1317925,
+      "sha256": "40c2508ab998c3c26f76b75abf0f1f419fb5412ebfe84f5673ed7fe621c83614",
+      "px": [
+        1374,
+        1145
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "sources/tavern-v2-rgb-inspect.png",
+      "bytes": 1118510,
+      "sha256": "8e74cee154972c0a0b50b36d3e609d48b21667e5bd00eade3a5086cdd5c1db6d",
+      "px": [
+        1113,
+        1414
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "sources/tavern-v2.png",
+      "bytes": 1326956,
+      "sha256": "d937b294c430b138e9605d43514ffe5742adae9850c51d9ef4da5053d5719d69",
+      "px": [
+        1113,
+        1414
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "sources/tavern.png",
+      "bytes": 1448010,
+      "sha256": "f35ef39a114bcb4bcd56dd054bb5cc1c70e4d495d2755bbaabd8ec532832e4c4",
+      "px": [
+        1113,
+        1414
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "stables/e.png",
+      "bytes": 126218,
+      "sha256": "7b01ce11abebe06424203c5345dd47d03021f863db5e8d830ed40bd61e8ff20c",
+      "px": [
+        352,
+        412
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "stables/n.png",
+      "bytes": 169204,
+      "sha256": "15b6f83bfc68f114159cc0f6d61b72b644251c1549d7926a4cea7eb679dada15",
+      "px": [
+        704,
+        218
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "stables/s.png",
+      "bytes": 169210,
+      "sha256": "facb4a73196f50d76b3e5dec7d29f5f0ba31956c0b9c941d619b3e8287ed926b",
+      "px": [
+        704,
+        218
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "stables/w.png",
+      "bytes": 126756,
+      "sha256": "2cb61b80d0645494d5335d298a5d27f0cd3c21bbef0011b367ac9fda27cec29f",
+      "px": [
+        352,
+        412
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "store_shed/e.png",
+      "bytes": 76154,
+      "sha256": "c7c8819517d466e11c8f95aa80e145a6ff1c2e7a8d98b66e632a6546fdf5be42",
+      "px": [
+        224,
+        303
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "store_shed/n.png",
+      "bytes": 54247,
+      "sha256": "8ef8ac20abe7f3045ceadeb5de75f56baa459dd08d52325fd1f30a6ac0ce1666",
+      "px": [
+        224,
+        179
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "store_shed/s.png",
+      "bytes": 54599,
+      "sha256": "d869ab3128b39601de6f7307a48737cc390f3e794b812c6e812d7aea4e113ecc",
+      "px": [
+        224,
+        179
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "store_shed/w.png",
+      "bytes": 76534,
+      "sha256": "32db4e612d5f317d9a6ec4ba864c204591521a1f40957d5d4dc71f1b78af233d",
+      "px": [
+        224,
+        303
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "tavern/e.png",
+      "bytes": 385620,
+      "sha256": "b7abc0d3777db8ae748fcbf12f00499fd5036977c24af9cf21dc5681c70b14d6",
+      "px": [
+        704,
+        595
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "tavern/n.png",
+      "bytes": 470351,
+      "sha256": "068aa3073e2dc9fc18f06054d04c91b82a652c2241d3899b28bc4bdc8be5bad7",
+      "px": [
+        576,
+        912
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "tavern/s.png",
+      "bytes": 471159,
+      "sha256": "05448c5f37f251aba529fd9427993474b3440d977c440793f6b90f471dcb91c3",
+      "px": [
+        576,
+        912
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "tavern/w.png",
+      "bytes": 388667,
+      "sha256": "0fd4c49ee24dedfb7b6c4b2629468494f47682294748a5a440485535dd369c90",
+      "px": [
+        704,
+        595
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    },
+    {
+      "file": "walls/city_wall.png",
+      "bytes": 75121,
+      "sha256": "dd2e87aeeb48affd75d399735ec817fa5facbbb3c5660c8145fdef2e40ba6e83",
+      "px": [
+        256,
+        218
+      ],
+      "alpha_range": [
+        255,
+        255
+      ],
+      "status": "candidate, not approved"
+    }
+  ],
+  "self_inventory_note": "Manifest omits its own hash to avoid self-reference."
+}

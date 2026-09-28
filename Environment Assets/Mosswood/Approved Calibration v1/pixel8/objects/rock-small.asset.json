@@ -1,0 +1,14 @@
+{
+  "kind": "sprite-gen-asset",
+  "version": 1,
+  "anchor": [
+    104,
+    144
+  ],
+  "frames": [
+    {
+      "file": "rock-small.png",
+      "duration": 1.0
+    }
+  ]
+}

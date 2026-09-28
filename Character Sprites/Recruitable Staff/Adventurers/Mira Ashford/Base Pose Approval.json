@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-28",
+  "userApproval": "great, Mira idles+sleep is approved.",
+  "files": [
+    {
+      "pose": "Idle Front",
+      "from": "D:\\Codex\\IMC\\Mira Ashford\\Base Sprite - Fewer Buckles\\Idle Front.png",
+      "to": "D:\\Storyboards\\Isekai Mercenary Company\\Character Sprites\\Recruitable Staff\\Adventurers\\Mira Ashford\\Idle Front.png",
+      "sha256": "1818488ed6282be43aeeead2e00d30f80f63fbe888d15079fdbb0ff59848f9ea"
+    },
+    {
+      "pose": "Idle Left",
+      "from": "D:\\Codex\\IMC\\Mira Ashford\\Base Sprite - Fewer Buckles\\Idle Left.png",
+      "to": "D:\\Storyboards\\Isekai Mercenary Company\\Character Sprites\\Recruitable Staff\\Adventurers\\Mira Ashford\\Idle Left.png",
+      "sha256": "2b4ede6d2929177a016f6c5fbcd6138f11b42399c423c4389a072d1d3adf7da8"
+    },
+    {
+      "pose": "Idle Back",
+      "from": "D:\\Codex\\IMC\\Mira Ashford\\Base Sprite - Fewer Buckles\\Idle Back.png",
+      "to": "D:\\Storyboards\\Isekai Mercenary Company\\Character Sprites\\Recruitable Staff\\Adventurers\\Mira Ashford\\Idle Back.png",
+      "sha256": "18c8e919fb65157b61cf3389eac6cb3795c0230d32dcffad9204d2cda2caa5ac"
+    },
+    {
+      "pose": "Sleeping",
+      "from": "D:\\Codex\\IMC\\Mira Ashford\\Base Sprite - Fewer Buckles\\Sleeping.png",
+      "to": "D:\\Storyboards\\Isekai Mercenary Company\\Character Sprites\\Recruitable Staff\\Adventurers\\Mira Ashford\\Sleeping.png",
+      "sha256": "6ec8eefde1a9e08370959b026383aeb8cd0937a5cc94493631c6872ab1962b3d"
+    }
+  ],
+  "approvedSheet": "D:\\Codex\\IMC\\Mira Ashford\\Base Sprite - Fewer Buckles\\Pose Sheet.png",
+  "approvedSheetSha256": "692519ef27871fbc3a0c69d8195df3b7dad2566c8807236875ca1cefc231618b",
+  "productionRecord": "D:/Codex/IMC/runs/mira-fewer-buckles/record.json",
+  "scope": "Approved artwork; not integrated into game"
+}

@@ -1,0 +1,14 @@
+{
+  "kind": "sprite-gen-asset",
+  "version": 1,
+  "anchor": [
+    168,
+    208
+  ],
+  "frames": [
+    {
+      "file": "canopy-right.png",
+      "duration": 1.0
+    }
+  ]
+}

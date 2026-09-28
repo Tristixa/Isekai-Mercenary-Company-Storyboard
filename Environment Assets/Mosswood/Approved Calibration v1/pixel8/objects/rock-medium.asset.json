@@ -1,0 +1,14 @@
+{
+  "kind": "sprite-gen-asset",
+  "version": 1,
+  "anchor": [
+    132,
+    208
+  ],
+  "frames": [
+    {
+      "file": "rock-medium.png",
+      "duration": 1.0
+    }
+  ]
+}

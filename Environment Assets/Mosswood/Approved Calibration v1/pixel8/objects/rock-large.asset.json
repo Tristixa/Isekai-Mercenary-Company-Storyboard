@@ -1,0 +1,14 @@
+{
+  "kind": "sprite-gen-asset",
+  "version": 1,
+  "anchor": [
+    196,
+    240
+  ],
+  "frames": [
+    {
+      "file": "rock-large.png",
+      "duration": 1.0
+    }
+  ]
+}

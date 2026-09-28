@@ -1,0 +1,42 @@
+﻿[
+    {
+        "pose":  "Battle Stance",
+        "stage":  "D:\\Codex\\IMC\\Aveline Frost - Original Battle Poses\\Battle Stance.png",
+        "approvedPath":  "D:\\Storyboards\\Isekai Mercenary Company\\Character Sprites\\Recruitable Staff\\Adventurers\\Aveline Frost\\Battle Stance.png",
+        "generatedSource":  "C:/Users/Tristixa-/.codex/generated_images/01a0e1ef-45f2-7461-907a-6d0d9fe4a156/exec-d9aa93fa-8982-433e-9618-29f066b57b0a.png",
+        "sha256":  "f427614db550176ce3f0b7fd1c46c99b9ea3ee22bdb74479aec7a6b3de3be848",
+        "approvedOn":  "2026-09-28"
+    },
+    {
+        "pose":  "Getting Hit",
+        "stage":  "D:\\Codex\\IMC\\Aveline Frost - Original Battle Poses\\Getting Hit.png",
+        "approvedPath":  "D:\\Storyboards\\Isekai Mercenary Company\\Character Sprites\\Recruitable Staff\\Adventurers\\Aveline Frost\\Getting Hit.png",
+        "generatedSource":  "C:/Users/Tristixa-/.codex/generated_images/01a0e1ef-45f2-7461-907a-6d0d9fe4a156/exec-f1a4b2a0-87fe-494e-ac54-307a3315f9dc.png",
+        "sha256":  "81502f7dd68b5b9d0e8e2bed6fac966befafd7f09faaa89da4f209440b9f18c3",
+        "approvedOn":  "2026-09-28"
+    },
+    {
+        "pose":  "Guard",
+        "stage":  "D:\\Codex\\IMC\\Aveline Frost - Original Battle Poses\\Guard.png",
+        "approvedPath":  "D:\\Storyboards\\Isekai Mercenary Company\\Character Sprites\\Recruitable Staff\\Adventurers\\Aveline Frost\\Guard.png",
+        "generatedSource":  "C:/Users/Tristixa-/.codex/generated_images/01a0e1ef-45f2-7461-907a-6d0d9fe4a156/exec-a692ecd2-f62c-498e-802c-1407763be442.png",
+        "sha256":  "f9a71846147cec581468851b01f51ec234fe3560f6c276bde6e5ac82b8feb1e1",
+        "approvedOn":  "2026-09-28"
+    },
+    {
+        "pose":  "Victory",
+        "stage":  "D:\\Codex\\IMC\\Aveline Frost - Original Battle Poses\\Victory.png",
+        "approvedPath":  "D:\\Storyboards\\Isekai Mercenary Company\\Character Sprites\\Recruitable Staff\\Adventurers\\Aveline Frost\\Victory.png",
+        "generatedSource":  "C:/Users/Tristixa-/.codex/generated_images/01a0e1ef-45f2-7461-907a-6d0d9fe4a156/exec-85e3b742-3ddb-40fe-8314-c625722f3c9a.png",
+        "sha256":  "611fe984a9ae1a43873b0885865605dd7c78ccaafac20a24ecd92ec7741305b7",
+        "approvedOn":  "2026-09-28"
+    },
+    {
+        "pose":  "Defeat",
+        "stage":  "D:\\Codex\\IMC\\Aveline Frost - Original Battle Poses\\Defeat.png",
+        "approvedPath":  "D:\\Storyboards\\Isekai Mercenary Company\\Character Sprites\\Recruitable Staff\\Adventurers\\Aveline Frost\\Defeat.png",
+        "generatedSource":  "C:/Users/Tristixa-/.codex/generated_images/01a0e1ef-45f2-7461-907a-6d0d9fe4a156/exec-b444e014-c71a-4ee9-8858-34e80b5fe381.png",
+        "sha256":  "7c3673a22e33ba3cac40bb3ae8bbecff3ffcde75fd151d2b2a81e03d1be15fdb",
+        "approvedOn":  "2026-09-28"
+    }
+]

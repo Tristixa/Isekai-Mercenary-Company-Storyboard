@@ -1,0 +1,14 @@
+{
+  "kind": "sprite-gen-asset",
+  "version": 1,
+  "anchor": [
+    144,
+    176
+  ],
+  "frames": [
+    {
+      "file": "grass-leaning.png",
+      "duration": 1.0
+    }
+  ]
+}
