@@ -1376,8 +1376,8 @@
         ],
         "processing_corner": [
           -10.5,
-          3.7,
-          "north"
+          1.7,
+          "south"
         ],
         "reception": [
           4.4,
@@ -2341,8 +2341,8 @@
         ],
         "mae_station": [
           -8.6,
-          3,
-          "north"
+          1.3,
+          "south"
         ],
         "fulker_station": [
           -8.2,
@@ -2351,8 +2351,8 @@
         ],
         "processing_staff_station": [
           -4.8,
-          3,
-          "north"
+          1.3,
+          "south"
         ],
         "craftsman_station": [
           -2.4,
