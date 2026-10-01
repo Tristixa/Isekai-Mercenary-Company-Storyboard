@@ -16,9 +16,9 @@ Owner, 2026-10-01: big features to pick up when weekly usage resets. They are ag
 - **Ideas:** clear, overcast, rain, fog, maybe snow in the Frontier highlands. Each one changes sky colour, sun strength and haze. Rain falls outdoors and streaks on windows. Interiors get greyer light through the windows (the hall's window setup already supports this). Weather can follow the Guild clock and change by day.
 - **Later hooks:** weather could affect hunts or scouting (fog lowers discovery, rain slows travel). That's a design question for when it's built.
 
-## Standing orders for hunts (proposal, owner discussing)
+## Standing orders for hunts (agreed, design in GDD 9.3a2)
 
-Keep hunts automatic, and give each adventurer a few simple rules that the existing combat engine follows. See the discussion of 2026-10-01; the open question is how signature skills fit (below). It should stay much simpler than Unicorn Overlord's or Pillars of Eternity's systems.
+One rule per adventurer for when the signature skill fires (as soon as ready, save for an Elite, when hurt, when a front ally is hurt, before an enemy skill). Build it in the sim with the combat engine when convenient.
 
 ## Art follow-ups
 

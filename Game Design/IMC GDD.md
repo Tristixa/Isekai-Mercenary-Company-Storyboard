@@ -880,6 +880,23 @@ The orange meter glows with SKILL at full; the gold ring remains the attack time
 
 **Frontier scaling:** rank-2 retention and starting-meter modifiers use these explicit exceptions; no automatic meter-system replacement.
 
+### 9.3a2 Standing orders: when to use the signature *(owner decision 2026-10-01; designed, not yet built)*
+
+Hunts stay automatic and watching never changes the outcome. The player plans instead: each adventurer has **one standing order for their signature skill**, saying when to use it once the meter is full. Much simpler than Unicorn Overlord or Pillars of Eternity by design.
+
+| Order | The skill fires when the meter is full and... |
+|---|---|
+| **As soon as ready** (default) | always (today's behaviour) |
+| **Save for an Elite** | a rare, variant or boss enemy is in the fight |
+| **When I'm hurt** | the adventurer is below 50% HP |
+| **When a front ally is hurt** | a living front-row ally is below 50% HP (suits Anselm's Phalanx with its Focus upgrade) |
+| **Before an enemy skill** | any enemy's skill meter is at 80% or more (9.3b), so a defensive skill is up for the big hit |
+
+- **The trade-off:** while the skill is held, the meter stays full and gains nothing, so holding too long means fewer skills. A held skill is used at the first action where its condition is true.
+- **Unlocks:** *As soon as ready* from the start; the others unlock through Elsie's training (5.4, the Adventurer Office) so the system arrives gradually.
+- **Later, optional:** a targeting rule for attack skills (front, weakest, the enemy that hit an ally) and an adjustable potion threshold (25 / 40 / 60%).
+- Deterministic: orders read only fight state, never randomness or watching.
+
 ### 9.3b Monster skills *(new, owner decision 2026-09-28; designed, not yet proven)*
 
 Every monster has **one skill**: ordinary monsters, their variants, rares, bosses and flashpoints.
@@ -1485,6 +1502,7 @@ No unresolved numeric system rule is parked here. Balance values throughout rema
 |---|---|
 | 2026-09-29 | **The move to the Frontier is story-driven** (14, 16a): 3 days after Crownstone an Alliance envoy summons the Commander to the Civic Terrace; the Alliance of Nations appoints the Guild the sole institution that verifies information and pays for the move (no 1,500G fee). Verification authority starts at the appointment. Rank C is no longer a gate; the player still picks the departure day and must have no debt. |
 | 2026-09-29 | **Bonds are capped at level 1 in Eurydica** (5.4); banked points carry over to the Frontier under the weekly limit. |
+| 2026-10-01 | **Standing orders** (9.3a2): one rule per adventurer for when the signature skill fires; hunts stay automatic. Flashpoints played by hand (Grandia 3-style timeline with movement) and a reusable weather system are agreed for later (). |
 | 2026-10-01 | **Eurydica HQ per Scene 6** (owner): Tier 1 (main room with meeting table and Mae's processing corner, Commander's room = office, shared officers' room, Elsie in the courtyard, **dormitory for 4 staff from the start**) and **Guild House Tier 2** (C1S6-1; 1,000G + 6 Standard+ Boar Hides / 48 h: officers' room II, a 4-table Workshop for processing and crafting, one Commerce + Information room), then **Dorm Expansion 4→8**. Staff (recruitables) sleep in the dorm. Per-officer department rooms and the HQ kitchen are Frontier content. Replaces Dorm Annex, Larger Dorm, Second Processing Table, Second Workbench and Officers' Quarters II. **Environment style:** pixel art (Proof 1), §2.4. |
 | 2026-09-29 | Owner decisions after S2: **enhancement removed** (12.3; Refinement becomes the Demondrug line); **consumables** made a heavy expedition requirement, tier 1 bought in Eurydica (new 6.6a: Potion, Demondrug, Armorskin, Lure, Map), tiers 1–5 from a Frontier Research Department; the Workshop crafts gear only; **crafted gear** gets market demand per item at (inputs + fee) × 1.25; abandoned or failed repeats return after 2 days; the demand schedule covers today + 3 days; the Negotiation gold bonus rounds down. |
 | 2026-09-28 | UI finish locked from style test v5 (owner): fonts Cormorant Garamond SemiBold + Alegreya with lining figures, all-caps card headers; the 2.5 colour tokens stay (parchment and navy); the FGC_08 §2.2 tier and layer model; the owner's watermark emblem. |
