@@ -1,0 +1,30 @@
+{
+  "id": "boar_hide",
+  "region": "eurydica",
+  "rev": 1,
+  "name": "Boar Hide",
+  "gdd": [
+    "10.5; 12.1"
+  ],
+  "authoring_status": "specified",
+  "missing_fields": [],
+  "base_value_g": 12,
+  "qualities": [
+    "unsellable",
+    "damaged",
+    "standard",
+    "pristine"
+  ],
+  "quality_multipliers": {
+    "unsellable": 0,
+    "damaged": 0.5,
+    "standard": 1,
+    "pristine": 1.25
+  },
+  "part_kind": "common",
+  "source_monster_ids": [
+    "dire_boar",
+    "mossback_elder"
+  ],
+  "aliases": []
+}

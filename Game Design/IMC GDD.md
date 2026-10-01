@@ -24,20 +24,20 @@
 | 4. Explorable Eurydica | Grey-box slice played as Chapter 1 Scene 3: follow camera with cutaway, walking and collision, manuscript dialogue with choices, requests noted, merchant buys at 50%, 14:00 return | https://claude.ai/artifact/N7VYKQzNWXJWwfDhYrUtRb |
 
 **Proof 4 (agreed and built 2026-09-27):**
-- **Scope:** the first playable slice, played as Chapter 1 Scene 3. It covers South Gate and Arrival Ward (stables, Hollis), Company Edge (HQ exterior and yard) and the southern Market Spine (tavern, red-tree plaza, Repair & Supply with Beren, the travelling merchant), with a view toward the Old Bridge. The objective is "return to Tristitia by 14:00". Service Lanes (Dr. Ginger, Marta) is visible but closed.
+- **Scope:** the first playable slice, played as Chapter 1 Scene 3. It covers South Gate and Arrival Ward (stables, Jeb), Guild Edge, then called Company Edge (HQ exterior and yard) and the southern Market Spine (tavern, red-tree plaza, Repair & Supply with Gerd, the travelling merchant), with a view toward the Old Bridge. The objective is "return to Tristitia by 14:00". Service Lanes (Dr. Emmerich, Hilde) is visible but closed.
 - **Camera:** Octopath-style town camera. Perspective, about 35–40° down, following the Commander, no rotation, tilt-shift depth of field.
-- **Buildings:** simple 3D volumes wearing painted facade and roof textures, made per building by Codex from the approved concepts. Codex uses the `$imc-environment-art-direction` skill (`D:/Godot Projects/IMC-Companion-Skill-Environment`), the same one that made Mosswood. The proof starts with plain blocks in the district roof colours to settle camera, scale, walking, collisions, talking and the market.
-- **Story fixes:** the Mosswood road leaves by the South Gate; the HQ grows (5.1); the story bible's "guild presence" line is dropped.
+- **Buildings:** simple 3D volumes wearing painted facade and roof textures, made per building by Codex from the approved concepts. Codex uses the `$imc-environment-art-direction` skill (`D:/Godot Projects/IMC-Companion-Skill-Environment`), the same one that made Hylaea. The proof starts with plain blocks in the district roof colours to settle camera, scale, walking, collisions, talking and the market.
+- **Story fixes:** the Hylaea road leaves by the South Gate; the HQ grows (5.1); the story bible's "guild presence" line is dropped.
 - **Results:**
   - **Camera:** 40° down at about 28 m, FOV 30. At that distance a 1.68 m sprite is about 93 px on a 1280×800 view, close to its native pixel size.
   - **Cutaway:** buildings between the camera and the Commander (or nearby people) fade to 22%, Octopath-style. This is needed because the camera faces north and the south wall and gate sit between it and the player.
   - **Walking and time:** walking speed is 3.2 m/s. The day clock runs at 120 company seconds per real second and stops in dialogue and the shop.
-  - **Dialogue:** lines are verbatim from the manuscript, extracted by Codex with nested choices. A request is noted only on the offer branch (Hollis: Winter Bedding; Beren: Keep the Old Ones Working; the merchant: Rare Slime Order). `<name>` and `<Guild-name>` are shown as "Commander" and "the Company" until those names are decided.
+  - **Dialogue:** lines are verbatim from the manuscript, extracted by Codex with nested choices. A request is noted only on the offer branch (Jeb: Winter Bedding; Gerd: Keep the Old Ones Working; the merchant: Rare Slime Order). `<name>` and `<Guild-name>` are shown as "Commander" and "the Company" until those names are decided.
   - **Placeholders:** townspeople without sprites use grey stand-ins with a "?" portrait card.
   - **Deferred:** evening and night NPCs (the Lady in a Red Dress, the Lady in a Green Dress and others) wait for a time-of-day pass.
 - **Painted facades (version 2):** Codex painted orthographic elevation textures at 64 px/m for 11 buildings (44 faces), using the approved Eurydica concepts for design and its tavern sheet as the style anchor. It also painted 4 roof tiles, the city wall, awnings and 12 props. They are UV-mapped onto the 3D volumes under curved, flared roofs, and lighting comes from the engine. The textures and props are candidates awaiting the owner's review.
 - **Camera decided (2026-09-27):** straight north. The facades were approved and moved to `Environment Assets/Eurydica/Approved Facades v1/`. The workflow is now part of `$imc-environment-art-direction` (`references/hd2d-buildings.md`).
-- **Stopped here by the owner (2026-09-27):** the remaining town work (sprites for Hollis, Beren and the merchant, the stall) waits for the Godot build.
+- **Stopped here by the owner (2026-09-27):** the remaining town work (sprites for Jeb, Gerd and the merchant, the stall) waits for the Godot build.
 
 The proof sources, build tools and check scripts live in `HD-2D Proof/` (`src/`, `tools/`, `GATES-*.md`).
 
@@ -53,7 +53,7 @@ The proof sources, build tools and check scripts live in `HD-2D Proof/` (`src/`,
 
 **Core fantasy:** run a living guild where information, logistics, preparation, timing and people matter as much as combat.
 
-**Campaign:** Eurydica (Chapters 1–5) is the short opening act. The **Frontier** (Chapter 6 onward) is the main body of the game (16a). Eurydica teaches the routine; the Frontier holds most of the progression, the cast and the romance.
+**Campaign:** Eurydica (Chapters 1–2) is the short opening act. The **Frontier** (Chapter 3 onward) is the main body of the game (16a). Eurydica teaches the routine; the Frontier holds most of the progression, the cast and the romance.
 
 **Pillars**
 - **Management first.** The player decides; combat resolves itself. The Commander never fights.
@@ -74,7 +74,7 @@ The proof sources, build tools and check scripts live in `HD-2D Proof/` (`src/`,
 
 ### 2.1 Look
 - Pixel-art sprites standing in a lit 3D scene: real lights and shadows, depth of field with tilt-shift, bloom, and a warm colour grade.
-- Warm late-afternoon light from the upper left is the default for Mosswood.
+- Warm late-afternoon light from the upper left is the default for Hylaea.
 - Locations are layered like Octopath: a 3D floor, near props, and parallax background layers.
 
 ### 2.2 Sprites
@@ -96,14 +96,14 @@ The proof sources, build tools and check scripts live in `HD-2D Proof/` (`src/`,
 ### 2.4 Environment art
 - Battle and field backgrounds are built from Higgsfield images (`Environment Assets/Higgsfield Battleground Prompts.md`): a far panorama, a mid tree line, a ground tile, a prop sheet and a canopy.
 - **New:** the panorama, tree line and canopy must **loop horizontally**, because the field view scrolls them while parties walk (section 8.3).
-- **Method that works (2026-09-27):** the owner generated Mosswood with Codex from an MD brief. Source art is painted first, then cut into objects (the 8×8 snap from that first pass is superseded by the painted decision below). The approved set is `Environment Assets/Mosswood/Approved Calibration v1/`. The briefs for Amber Marsh and Redstone are in `Environment Assets/Region Prompts - Amber Marsh and Redstone Highlands.md`.
+- **Method that works (2026-09-27):** the owner generated Hylaea with Codex from an MD brief. Source art is painted first, then cut into objects (the 8×8 snap from that first pass is superseded by the painted decision below). The approved set is `Environment Assets/Hylaea/Approved Calibration v1/`. The briefs for Bernmoor and Erythra are in `Environment Assets/Region Prompts - Bernmoor and Erythra Highlands.md`.
 - **In the scene (proven in the operations proof):**
   - **Layers:** the far strip stands 26 m back and the mid strip 13 m back, each sized to the band the camera sees above the horizon. The mid strip is planted by its lowest tree base.
   - **Objects:** trees, props and the canopy are lit cutouts anchored at their base. The ground tile covers 6.3 m. Everything scrolls in world units, so perspective gives the parallax.
   - **Layout:** the fighting band stays empty; only small grass sits in front of it, and large pieces stay behind or at the far sides. The layout repeats every 48 m.
 - **Pixel density:** the environment art has coarser pixels than the characters. At the characters' density a tall tree would be only as tall as a person. Each group is therefore scaled to a believable real size: trees about 0.105 m per art pixel, props 0.036, grass and flowers 0.03. Depth of field softens the difference at distance. Near the camera the coarse pixels turn into large blocks. The region briefs (revision 2) therefore target art-pixel counts by real size (for example a large tree at 400–550 art pixels).
 - **Style decided (2026-09-27): painted.** Environments use the painted, Unicorn Overlord-like source art at full resolution, not 8×8 pixel art. Characters stay pixel sprites. The operations proof defaults to painted; its pixel switch remains only for comparison.
-- **Density (owner direction, 2026-09-27):** less negative space, as in `Environment Assets/Mosswood/Codex Concept.png`. There is a tree line in front of the mid strip and more trees and props around the clearing. Big near trunks frame the screen edges. They are the closest layer, so they sweep past fastest while walking; when a fight starts they glide to the edges so they never stop in front of the fighters and a near foreground band of ferns, bushes and logs sits just behind the party HUD, softened by depth of field. Only the fighting floor stays open. The briefs add two sheets per region for this: `Foreground.png` and `Near Trunks.png`.
+- **Density (owner direction, 2026-09-27):** less negative space, as in `Environment Assets/Hylaea/Codex Concept.png`. There is a tree line in front of the mid strip and more trees and props around the clearing. Big near trunks frame the screen edges. They are the closest layer, so they sweep past fastest while walking; when a fight starts they glide to the edges so they never stop in front of the fighters and a near foreground band of ferns, bushes and logs sits just behind the party HUD, softened by depth of field. Only the fighting floor stays open. The briefs add two sheets per region for this: `Foreground.png` and `Near Trunks.png`.
 
 ### 2.5 UI palette (from the v1.1 VDD)
 
@@ -117,7 +117,7 @@ The proof sources, build tools and check scripts live in `HD-2D Proof/` (`src/`,
 | Success / Warning / Danger / Critical | #43A65E / #D79A2B / #C9433A / #9F1F22 | Status, alerts |
 | Info / Rare / Disabled | #3C8CCB / #8B5CC7 / #6E6C68 | Info, rare finds, locked items |
 
-- **Fonts:** Marcellus for headings, Alegreya Sans for text and **all numbers**, Pixelify Sans for in-battle names. **Changed:** Pixelify digits misread (an 8 looks like an S), so numbers never use it.
+- **Fonts** *(changed 2026-09-28, owner, after the UI style tests)*: **Cormorant Garamond SemiBold** for headings, **Alegreya** (the serif) for text and **all numbers** with lining figures, Pixelify Sans for in-battle names. Card header titles are set in **all caps**. (Previously Marcellus and Alegreya Sans.) **Changed:** Pixelify digits misread (an 8 looks like an S), so numbers never use it.
 - **Numbers use lining figures.** Old-style figures made "0" read as "o".
 
 
@@ -130,6 +130,7 @@ HD-2D staging inside the diorama, as in Octopath Traveler II. Not Steambot-style
   - The sprites turn to face each other and play small emotes.
   - The portrait dialogue view carries the facial expression.
 - **Key story beats only:** authored shots such as letterboxing, a slow pan, a push-in, or a modest turned angle.
+- **Writing scenes:** the manuscript uses `Game Design/Scene Script Format.md`: speaker expressions, a fixed cue vocabulary (camera, shake, emote, pose, move), choice tags and flags, readable by the engine.
 
 ---
 
@@ -143,17 +144,17 @@ HD-2D staging inside the diorama, as in Octopath Traveler II. Not Steambot-style
 6. At 20:00, finish due events, close operations, show Resolution, then Day Summary. Settle payroll on its weekly dates.
 7. Advance the night to 07:00. Start the next operating day paused.
 
-**Visible projects.** Show recipe cards before the Workshop opens, material sources on known hunting grounds, Marta and Beren's repeat orders after their first deliveries, and the Dorm Annex with Aveline and Durgan waiting beside its quote. The player can pin up to three projects; the Day Summary shows progress, remaining goods/gold, source and next action. Suggest one nearly done, one being funded and one beyond current reach; never replace the player's pins automatically.
+**Visible projects.** Show recipe cards before the Workshop opens, material sources on known hunting grounds, Hilde and Gerd's repeat orders after their first deliveries, and the Dorm Annex with Severa and Otto waiting beside its quote. The player can pin up to three projects; the Day Summary shows progress, remaining goods/gold, source and next action. Suggest one nearly done, one being funded and one beyond current reach; never replace the player's pins automatically.
 
 **Pacing examples are goals for a proof, not day-locked promises.**
 
 | Checkpoint | Intended choice and lasting prize | Stamina and progression check |
 |---|---|---|
 | Day 3 | Finish slime orders or scout toward boars; preview the Vest, Bow and Annex | One dispatch per day can be sustained by overnight sleep. Starting at 4, two dispatches leave 2, sleep gives 3; another two leave 1 and the second is fatigued. A rest day restores 4 at 20:00. |
-| Day 10 | Turn boars into Marta/Beren deliveries, first gear or beds; pursue wolves for Hollis | With four hires, stagger rest and use a three-person hunt plus one scout. A 100-XP hunt takes 14 successful hunts to fund one level-5 track; calendar timing depends on outcomes and scouting. |
+| Day 10 | Turn boars into Hilde/Gerd deliveries, first gear or beds; pursue wolves for Jeb | With four hires, stagger rest and use a three-person hunt plus one scout. A 100-XP hunt takes 14 successful hunts to fund one level-5 track; calendar timing depends on outcomes and scouting. |
 | Day 25 | Aim at the charter and Frontier readiness, or already be in the Frontier; retain useful Eurydica customers while preparing | Eurydica targets a strongest track around level 5–6, Rank C and initial Boarhide/Reed/Ridge gear. It must not require maxing every track or waiting until a fixed day. Night sleep and optional rest days govern readiness throughout. |
 
-**Frontier scaling:** Chapters 6 onward are the main game: larger roster and facilities, higher tracks, gear and Guild ranks, using the same material-to-project loop.
+**Frontier scaling:** Chapter 3 onward is the main game: larger roster and facilities, higher tracks, gear and Guild ranks, using the same material-to-project loop.
 
 ## 4. Time — Proven (clock); Designed, not yet proven (revised day and event contract)
 
@@ -176,7 +177,7 @@ One authoritative clock drives all operations. Each operation has a saved, stabl
 
 At each tick, resolve completed combat actions first; then due timed events; then cutoff. Within timed events use this stable order: scout intervals and completed production/construction; operation duration/return; market buyers; request/debt deadlines; queued story flags. Stable operation ID breaks ties. A completed contract kill at the deadline or cutoff succeeds before expiry. A completed scout interval earns its rewards before that interval's injury check. A processing job finishing at 20:00 supplies the final buyer check.
 
-At 20:00, no new dispatch, search, combat action or production job starts. Hunts/scouts return with secured results; unfinished accepted contract attempts fail. Cancel in-flight actions without damage; completed kills remain secured. Abort unfinished processing/crafting/enhancement and return their inputs and fees. Retain queue recipes and corpse identities, without overnight work; resuming tomorrow starts the unfinished job from zero. Listings persist. Construction, injury, request and debt timers continue through the night; buyers and production do not.
+At 20:00, no new dispatch, search, combat action or production job starts. Hunts/scouts return with secured results; unfinished accepted contract attempts fail. Cancel in-flight actions without damage; completed kills remain secured. Abort unfinished processing, crafting and Reworking and return their inputs and fees. Retain queue recipes and corpse identities, without overnight work; resuming tomorrow starts the unfinished job from zero. Listings persist. Construction, injury, request and debt timers continue through the night; buyers and production do not.
 
 Resolution lists party, target, start/finish, rewards and status: completed, returned, returned at 20:00, returned (recalled), returned (injured), or failed. Explain secured yields, path/den effects, injury cause, consumed potions and XP, alongside the original prep estimate. It also lists continuing injuries, construction, listings and unused rare sightings. Apply rest-day recovery and daily accounting, then show Day Summary; weekly payroll is an explicit step in that closeout. If dialogue is open, freeze at the cutoff and show closeout after its safe end. Never simulate operations beyond it.
 
@@ -191,12 +192,19 @@ Process the 11-hour night in chronological timer order, including injury expiry 
 - **The day ends only when he sleeps in his bed after 20:00.** At 01:00 he falls asleep automatically. No penalty either way.
 - **The night jump** from sleep to 07:00 follows 4.1's 11-hour accounting. Time he spends awake at night is part of those 11 hours, never counted twice.
 
+### 4.3 The city bell *(new, owner 2026-09-28; designed, not yet proven)*
+
+- **Eurydica's clock tower** stands at the centre of the Civic Terrace, the landmark of the north bank. It rings at **09:00, 12:00, 15:00 and 18:00**: a peal that repeats for a while (about 8–10 seconds).
+- **Where it's heard:** only outdoors in Eurydica, not in interiors or the field view. It's louder on the north bank and softer near the South Gate.
+- **It's a runtime sound cue, keyed to the Guild clock.** It never pauses the clock and changes no rules. It gives the day an audible rhythm; the Intelligent Girl's line about the bell sounding different by the bridge hints at it.
+- **Frontier scaling:** each Frontier base can have its own time sound (a camp bell, a horn), or none.
+
 ---
 
 ## 5. Guild, HQ and officers - Carried over (Adventurer Office proven)
 
 ### 5.1 HQ
-- **The HQ grows with the story** (decided 2026-09-27). Chapter 1 uses the small Tier 1 Guild house on Company Edge: main room, Commander room, small courtyard and two-bed dormitory, with the expansion yard beside it. Departments open as officers join in Chapter 1, and the yard is built up with paid capacity (12.7). The courtyard has no training targets.
+- **The HQ grows with the story** (decided 2026-09-27). Chapter 1 uses the small Tier 1 Guild house on **Guild Edge**, beside the South Gate. It has a main room, the Commander room, **one shared officers' room** (Tristitia, Mae and Elsie, from the start; owner 2026-09-28), a small courtyard and a two-bed dormitory, with the expansion yard beside it. Departments open as officers join in Chapter 1, and the yard is built up with paid capacity (12.7). The courtyard has no training targets.
 - HQ is room-based. Each officer owns a department, and the Commander walks to them. Never gather every officer in one room.
 - Proof 4 proved walking through Eurydica (grey-box); the HQ interior follows the same method.
 
@@ -207,10 +215,11 @@ Process the 11-hour night in chronological timer order, including injury expiry 
 | Tristitia | Commander's Office | Briefings, requests admin, Day Summary, payroll, flashpoints | Yes, in crises. Full battle set done. |
 | Elsie | Adventurer Office | Roster, rest, backpack, expedition setup and monitoring | Rarely. Longsword and martial arts (9.6); battle stance, attack and skill made, batch 2 pending. |
 | Steady Mae | Processing Room | Corpse storage, processing | No |
-| Fulker | Workshop | Crafting, enhancement | No |
+| Fulker | Workshop | Crafting, Reworking | No |
 | Liliana | Information Office | Forecasts, rumours | No |
 | Valerie | Commerce / Trading Post | Market, listings, potion counter | No. Always wears glasses. |
 
+- **Full names** (nameplates in brackets): Tristitia Fidei (Tristitia), Elsie Rodger (Elsie), Mae Tanner (Mae, "Steady Mae"), Sigrid Fulker (**Fulker**, since she prefers her surname), Liliana Kessel (Liliana), Valerie Kaufmann (Valerie). See `Naming Guide.md`.
 - Officers join through the story, never through the recruitment pool. Valerie, Fulker and Liliana all join during Chapter 1 (14). Never invent a filler officer.
 - **Officers fight only at big story moments**, so their battles must look strong (section 9.4).
 
@@ -222,6 +231,21 @@ Day, time, Gold, Reputation, Morale, Guild Rank. A new Guild starts at 07:00 wit
 
 Officers aren't romanceable (owner decision, 2026-09-27; may be revisited if players ask). Each officer has a **bond** from 0 to 5 that grows through time spent with them. It unlocks authored **friendship scenes**, one per level, and a **perk choice** at Bond 5.
 
+**Perk arithmetic (applies to every "faster/slower" and "relative" perk):**
+- "X% faster" means duration × (1 − X%), and "X% slower" means duration × (1 + X%). For example, Quick Hands gives a processing duration ×0.75.
+- A "relative" change to the Pristine chance multiplies it (Careful Cuts: Pristine × 1.25). The probability added or removed is taken from, or returned to, **Standard**. Damaged and Unsellable chances never change, except through the Commander's Know-how rank-3 **Trained eye** (5a.2), which moves the Unsellable chance to Damaged. It applies after perks and session bonuses, which don't touch those two rows.
+
+**Bond points (starting values, owner may retune):**
+
+| Source | Points |
+|---|---|
+| Evening talk (once a day per officer) | +1 |
+| Shared meal (counts as that day's talk; never both) | +1 |
+| Working session with that officer | C +1, B +2, A +2, S +3 (D +0) |
+| A dialogue choice tagged `{bond: X +n}` | as written |
+
+**Bond levels** need 5 / 12 / 20 / 30 / 42 cumulative points for Bonds 1–5. The weekly one-level limit and Bond 5's story beat still apply.
+
 **Growth:**
 - Bond points come from:
   - working sessions with that officer (the Commander's minigames, 5a.2);
@@ -230,6 +254,7 @@ Officers aren't romanceable (owner decision, 2026-09-27; may be revisited if pla
   - dialogue choices they respond to.
 - At most one bond level per officer per in-game week.
 - Bond 5 also needs that officer's personal story beat, so most perks arrive in the Frontier.
+- **In Eurydica, bonds are capped at level 1** (owner, 2026-09-29). Points keep accumulating past 12, but the level stays at 1 until the Guild reaches the Frontier. There the one-level-per-week limit still applies, so banked points never skip levels. Bonds 2–5, their scenes and every perk belong to the Frontier.
 
 **Perk, FNV-style:**
 - At **Bond 5** the Commander picks **one of two** perks for that officer, **once and permanently**.
@@ -279,9 +304,9 @@ The Commander never fights and never joins an expedition (owner decision, 2026-0
 | Skill | Officer and session | What the session produces | Effect per rank | Rank 3 unlock |
 |---|---|---|---|---|
 | **Leadership** | **Elsie: Expedition Planning.** Plot a party's route across a Frontier-style map grid: terrain costs, rest points, water, threats, within a stamina and time budget. | The next party dispatched today is **Briefed**: it starts each fight with 10 meter | Morale losses −10% | **Word of encouragement:** once a day, cancel one adventurer's Red Fatigue penalty for the next dispatch |
-| **Negotiation** | **Valerie: Counter-offer.** Haggle with one buyer over 3–5 rounds; the buyer has a hidden price ceiling and patience that you read from their reactions. | A real sale of one stack from storage at the agreed price, which can beat the market | Request and contract gold +4%; market buyers pay +2% | **Standing offer:** once a week, a repeat customer or trader orders a material you hold at +20%, at any base |
-| **Insight** | **Liliana: Cross-check.** Compare field reports, sketch maps and witness notes, and mark the discrepancies (distances, landmarks, counts, dates). | A **verified record**. In Eurydica it confirms one rumour or reveals one lead. In the Frontier it builds the verified routes the Guild becomes known for (Guild Verified, from Chapter 7). | Scout find chance +2 points; forecast accuracy +2% | **Sharp ear:** one extra lead each morning |
-| **Know-how** | **Mae: Cutting Chart** (trace cut lines on a carcass diagram with precision) or **Fulker: Fitting** (fit parts into a frame, a grid assembly puzzle). | Mae: the current processing job's Pristine chance +5 to +15 points by grade. Fulker: the current crafting job takes 10–25% less time by grade. | Processing and crafting time −3% | **Trained eye:** see the quality odds before starting a processing job |
+| **Negotiation** | **Valerie: Counter-offer.** Haggle with one buyer over 3–5 rounds; the buyer has a hidden price ceiling and patience that you read from their reactions. | A real sale of one stack from storage at the agreed price, which can beat the market | Request and contract gold +4% (the total is rounded down); market buyers pay +2% | **Standing offer:** once a week, a repeat customer or trader orders a material you hold at +20%, at any base |
+| **Insight** | **Liliana: Cross-check.** Compare field reports, sketch maps and witness notes, and mark the discrepancies (distances, landmarks, counts, dates). | A **verified record**. In Eurydica it confirms one rumour or reveals one lead. In the Frontier it builds the verified routes the Guild becomes known for (Guild Verified, from the Frontier chapter that grants that authority). | Scout find chance +2 points; forecast accuracy +2% | **Sharp ear:** one extra lead each morning |
+| **Know-how** | **Mae: Cutting Chart** (trace cut lines on a carcass diagram with precision) or **Fulker: Fitting** (fit parts into a frame, a grid assembly puzzle). | Mae: the current processing job's Pristine chance +5 to +15 points by grade. Fulker: the current crafting job takes 10–25% less time by grade. | Processing and crafting time −3% | **Trained eye** *(passive; changed 2026-09-28)*: processing never produces Unsellable. That chance is added to Damaged instead (rank-1 processor: Damaged 20%, Unsellable 0%; rank 2: Damaged 10%, Unsellable 0%). Quality odds are always shown (§12.1) |
 
 **Session rules:**
 - A session takes **1 Guild hour**. The clock pauses while you play, and the hour passes when you finish; operations run as normal.
@@ -302,6 +327,8 @@ The Commander never fights and never joins an expedition (owner decision, 2026-0
 - Grades run D (failed) / C / B / A / S. Each minigame computes a fair best result for its own puzzle, so S means "near the best possible", never luck.
 - The officer comments in the portrait dialogue view before and after. One free hint is available, and taking it caps the grade at A.
 - Content comes from authored templates with randomised details, so sessions stay fresh without hand-writing each one.
+
+**Tuning numbers:** the exact tuning of each session is set by its playable prototype in M3 and recorded here then. That covers the negotiation's starting acceptance, tactic changes and tell thresholds, the cut scoring weights and speed band, and the Fitting par. The rules below are fixed.
 
 #### Expedition Planning (Elsie, Leadership)
 
@@ -336,10 +363,10 @@ The Commander never fights and never joins an expedition (owner decision, 2026-0
 - **The buyers:**
   - Eurydica has one, the Travelling Merchant, with honest tells.
   - The Frontier has four traders from rival merchant factions:
-    - Silas Crane of the Frontier Exchange (a gambler who bluffs once and rewards nerve);
-    - Aldric Harrow of the Iron Ledger Consortium (a poker face);
-    - Madame Ottilie Valcourt of House Valcourt (over-eager warmth that misleads);
-    - Captain Sabine Duquesne of the Meridian Charter Company (barter, slow tells).
+    - Dietrich Vogt of the Frontier Exchange (a gambler who bluffs once and rewards nerve);
+    - Reinhold Eisenmann of the Iron Ledger Consortium (a poker face);
+    - Lady Isabeau de Chamerolles of House Chamerolles (over-eager warmth that misleads);
+    - Captain Josie Harlan of the Meridian Charter Company (barter, slow tells).
 - **Each round:**
   1. Set a price on a slider.
   2. Play one **tactic**: *Hold firm*, *Show quality* (only helps with Standard or Pristine goods), *Add a unit* (bundle), *Mention another buyer*, or *Give ground*.
@@ -382,7 +409,7 @@ In the spirit of *Papers, Please*: spot what doesn't add up across documents. Th
   - records from rival sources.
 - **Produces:** a **verified record**.
   - In Eurydica it turns one rumour into an exact lead, or reveals one find in a known area.
-  - In the Frontier it builds verified route segments. Before Chapter 7 these give that path's search bonus; from Chapter 7 they're **Guild Verified**, the Guild's recognised product.
+  - In the Frontier it builds verified route segments. The Alliance of Nations grants the Guild its verification authority at the Civic Terrace appointment (14, 16a), so from the first Frontier day these are **Guild Verified**, the Guild's recognised product.
 
 #### Cutting Chart (Mae, Know-how)
 
@@ -395,7 +422,7 @@ In the spirit of *Papers, Please*: spot what doesn't add up across documents. Th
 
 #### Fitting (Fulker, Know-how)
 
-- **Needs:** a crafting or enhancement job in progress or queued.
+- **Needs:** a crafting job in progress or queued.
 - **Board:**
   - A **jig frame** on a grid, with fixed pegs.
   - A tray of **parts**: grid shapes with notches, in the same visual language as the backpack.
@@ -447,21 +474,22 @@ In the spirit of *Papers, Please*: spot what doesn't add up across documents. Th
 
 | Name | Specialty | HP | ATK | DEF | Rate | Traits | Passive |
 |---|---|---|---|---|---|---|---|
-| Rowan Vale | Vanguard | 180 | 18 | 10 | 1.0 | Steadfast, Shield-trained | **Shieldbearer** |
-| Mira Ashford | Ranger | 150 | 16 | 8 | 1.0 | Keen-eyed, Trailwise | **Tracker** |
-| Aveline Frost | Warden | 175 | 17 | 16 | 1.0 | Disciplined, Watchful | **Big Game Hunter** |
-| Durgan Brass | Breaker | 205 | 18 | 8 | 1.0 | Resolute, Heavy-handed | **Shieldbearer** |
+| Anselm Voigt | Vanguard | 180 | 18 | 10 | 1.0 | Steadfast, Shield-trained | **Shieldbearer** |
+| Nell Larkin | Ranger | 150 | 16 | 8 | 1.0 | Keen-eyed, Trailwise | **Tracker** |
+| Severa Kaltenbach | Warden | 175 | 17 | 16 | 1.0 | Disciplined, Watchful | **Big Game Hunter** |
+| Otto Grimbald | Breaker | 205 | 18 | 8 | 1.0 | Unshakable, Heavy-handed | **Ironclad** |
 
-Durgan keeps Shieldbearer because he later becomes a shield and one-handed hammer fighter. Aveline uses a **greatsword** (decided 2026-09-27): a blade clearly shorter than her body (about chest height when planted), because full-length greatswords caused most of the video failures. Her specialty is renamed Warden (her old catalog id) so it no longer shares a name with the Shieldbearer passive. Reach: Rowan, Aveline and Durgan are **melee**; Mira is **ranged** (bow). Their looks, personalities and asset lists are in `Characters/Adventurers and Staff Roster.md`. In the operations proof the starters use officer sprites as stand-ins (Rowan = Fulker, Mira = Liliana, Aveline = Steady Mae, Durgan = Valerie) until their own sheets exist. Valencia is planned as a future adventurer.
+Otto is redesigned (owner, 2026-09-28): **full plate armour with a closed helmet and a heavy two-handed warhammer, no shield**. His passive changes from Shieldbearer to **Ironclad**, and his skill keeps its effect under a new name, **Hammerfall**. Severa uses a **greatsword** (decided 2026-09-27): a blade clearly shorter than her body (about chest height when planted), because full-length greatswords caused most of the video failures. Her specialty is renamed Warden (her old catalog id) so it no longer shares a name with the Shieldbearer passive. Reach: Anselm, Severa and Otto are **melee**; Nell is **ranged** (bow). Their looks, personalities and asset lists are in `Characters/Adventurers and Staff Roster.md`. In the operations proof the starters use officer sprites as stand-ins (Anselm = Fulker, Nell = Liliana, Severa = Steady Mae, Otto = Valerie) until their own sheets exist. Chloris is planned as a future adventurer.
 
 ### 6.2 Passives *(new)*
 Passives are named abilities an adventurer brings to an expedition. They are shown on the roster and the prep screen.
 
 | Passive | Effect | Owner |
 |---|---|---|
-| Tracker | +10% chance of a group of the hunt target; +10% find chance when scouting | Mira |
-| Shieldbearer | +25% DEF while in the front row | Rowan, Durgan |
-| Big Game Hunter | +20% ATK and +20% attack rate against Elite monsters (rare, variant and boss) | Aveline |
+| Tracker | +10% chance of a group of the hunt target; +10% find chance when scouting | Nell |
+| Shieldbearer | +25% DEF while in the front row | Anselm |
+| Ironclad | +20% DEF while in the front row, and immune to stun | Otto |
+| Big Game Hunter | +20% ATK and +20% attack rate against Elite monsters (rare, variant and boss) | Severa |
 
 The percentages are starting values to tune. Items may later give similar bonuses (lures, maps).
 
@@ -478,9 +506,9 @@ Anything that says "Elite" (like Big Game Hunter) applies to all three kinds.
 
 ### 6.2a Support adventurers (mages) — Designed, not yet proven
 
-Valencia is the first recruitable mage. Preview her in Chapter 1; recruiting requires Chapter 2, Guild Rank E and a free bed. Mages are ranged; healing, buffs, debuffs and offensive spells are supported action types, but only Valencia's authored kit enters the opening roster. Formation remains three slots per row, five people total: a lone front tank supports at most three back-row allies.
+Chloris is the first recruitable mage. Preview her in Chapter 1; recruiting requires Chapter 2, Guild Rank E and a free bed. Mages are ranged; healing, buffs, debuffs and offensive spells are supported action types, but only Chloris's authored kit enters the opening roster. Formation remains three slots per row, five people total: a lone front tank supports at most three back-row allies.
 
-| Valencia | Starting value |
+| Chloris | Starting value |
 |---|---|
 | HP / ATK / DEF / rate | 150 / 14 / 9 / 0.9 |
 | Hire / weekly wage | 400G / 120G |
@@ -498,7 +526,7 @@ No overheal. Blessing modifiers use the same selection limits as every other adv
 | Speed | Also gives +15% attack rate | Targets every living ally |
 | Focus | Lasts 5 recipient actions | Retains 25 meter after casting |
 
-**Frontier scaling:** opens Valencia's rank-2 choices and additional authored support kits; no generic random mage pool.
+**Frontier scaling:** opens Chloris's rank-2 choices and additional authored support kits; no generic random mage pool.
 
 ### 6.2b Signature skills — Proven (base skills); Designed, not yet proven (interaction details)
 
@@ -506,11 +534,11 @@ Each adventurer has one signature, used as their next action once their meter is
 
 | Adventurer | Meter role | Signature | Base effect |
 |---|---|---|---|
-| Aveline | Attacker | Diving Splitter | 2.5× normal-hit damage to one enemy |
-| Rowan | Defender | Phalanx | +50% DEF for his next 3 actions |
-| Mira | Attacker | Frost Arrow | Normal hit; target's attack interval ×1.5 for its next 3 actions |
-| Durgan | Defender | Shield Slam | Normal hit; target skips its next action |
-| Valencia | Mage | Verdant Blessing | Section 6.2a |
+| Severa | Attacker | Diving Splitter | 2.5× normal-hit damage to one enemy |
+| Anselm | Defender | Phalanx | +50% DEF for his next 3 actions |
+| Nell | Attacker | Frost Arrow | Normal hit; target's attack interval ×1.5 for its next 3 actions |
+| Otto | Defender | Hammerfall | Normal hit; target skips its next action |
+| Chloris | Mage | Verdant Blessing | Section 6.2a |
 
 **Frontier scaling:** rank-2 modifiers expand these same signatures; they do not add a second skill tree.
 
@@ -535,7 +563,7 @@ Every track starts at level 1 with no bonus. Level n supplies n−1 increments. 
 | Rank-2 prerequisite | Same track's rank-1 choice selected, track level 8 |
 | Rebuild at Elsie's | One free per adventurer, then 100G; available at HQ only |
 
-The lower opening cap replaces the audit's unrestricted opening progression so a long Eurydica stay cannot consume Frontier growth. At the current campaign cap, stop new awards; retain existing spendable XP. On Frontier arrival, raise the cap without a free XP grant. A rebuild refunds spent XP to that person's pool, resets purchased track levels and modifier choices, and preserves lifetime earned XP. Enhancement is separate and is not refunded. Commit the complete build atomically after showing stats, interval ticks, milestones and price. Locked Frontier levels remain previewable. All purchased track stats apply whether or not their modifier is selected.
+The lower opening cap replaces the audit's unrestricted opening progression so a long Eurydica stay cannot consume Frontier growth. At the current campaign cap, stop new awards; retain existing spendable XP. On Frontier arrival, raise the cap without a free XP grant. A rebuild refunds spent XP to that person's pool, resets purchased track levels and modifier choices, and preserves lifetime earned XP. Commit the complete build atomically after showing stats, interval ticks, milestones and price. Locked Frontier levels remain previewable. All purchased track stats apply whether or not their modifier is selected.
 
 | XP source | Award |
 |---|---|
@@ -549,26 +577,26 @@ Forced milestone reveals count as actual finds once and credit the scout whose i
 
 | Adventurer / track | Rank 1 at level 5 | Rank 2 at level 8, Frontier only |
 |---|---|---|
-| Mira / Power | Frost Arrow coefficient becomes 1.5× normal hit | Its slowed targets take +20% damage from all allies |
-| Mira / Toughness | Mira gains +25% DEF for 2 actions after firing | Frost Arrow also lowers target ATK by 20% while its slow lasts |
-| Mira / Speed | Hits 2 enemies | Hits all enemies |
-| Mira / Focus | Slow lasts 5 actions | Slow interval multiplier becomes ×2 |
-| Aveline / Power | Coefficient becomes 3× instead of 2.5× | A signature kill refills 50 meter, once per cast |
-| Aveline / Toughness | Takes 30% less damage for 2 actions | Heals for 20% of total signature damage dealt |
-| Aveline / Speed | Second target takes half damage | Primary target full damage, every other enemy half |
-| Aveline / Focus | Signature damage to Elites ×1.5, after its coefficient | Applies −30% DEF for 3 target actions |
-| Rowan / Power | During Phalanx, retaliates using 50% of Rowan's ATK | Retaliation uses 100% ATK |
-| Rowan / Toughness | Phalanx DEF bonus becomes +75% | Casting heals 15% max HP |
-| Rowan / Speed | Phalanx lasts 5 actions | Starts each fight at 50 meter |
-| Rowan / Focus | Other living front allies gain +25% DEF for their next 3 actions | Provokes all enemies while Rowan's Phalanx remains active |
-| Durgan / Power | Signature coefficient becomes 2× | Stun skips 2 actions |
-| Durgan / Toughness | Gains +30% DEF for 2 actions | Casting heals 10% max HP |
-| Durgan / Speed | Hits and stuns 2 enemies | Hits and stuns all enemies |
-| Durgan / Focus | His stunned targets take +25% damage from allies | Against a slowed target, stun skips 2 actions |
+| Nell / Power | Frost Arrow coefficient becomes 1.5× normal hit | Its slowed targets take +20% damage from all allies |
+| Nell / Toughness | Nell gains +25% DEF for 2 actions after firing | Frost Arrow also lowers target ATK by 20% while its slow lasts |
+| Nell / Speed | Hits 2 enemies | Hits all enemies |
+| Nell / Focus | Slow lasts 5 actions | Slow interval multiplier becomes ×2 |
+| Severa / Power | Coefficient becomes 3× instead of 2.5× | A signature kill refills 50 meter, once per cast |
+| Severa / Toughness | Takes 30% less damage for 2 actions | Heals for 20% of total signature damage dealt |
+| Severa / Speed | Second target takes half damage | Primary target full damage, every other enemy half |
+| Severa / Focus | Signature damage to Elites ×1.5, after its coefficient | Applies −30% DEF for 3 target actions |
+| Anselm / Power | During Phalanx, retaliates using 50% of Anselm's ATK | Retaliation uses 100% ATK |
+| Anselm / Toughness | Phalanx DEF bonus becomes +75% | Casting heals 15% max HP |
+| Anselm / Speed | Phalanx lasts 5 actions | Starts each fight at 50 meter |
+| Anselm / Focus | Other living front allies gain +25% DEF for their next 3 actions | Provokes all enemies while Anselm's Phalanx remains active |
+| Otto / Power | Signature coefficient becomes 2× | Stun skips 2 actions |
+| Otto / Toughness | Gains +30% DEF for 2 actions | Casting heals 10% max HP |
+| Otto / Speed | Hits and stuns 2 enemies | Hits and stuns all enemies |
+| Otto / Focus | His stunned targets take +25% damage from allies | Against a slowed target, stun skips 2 actions |
 
-Multi-target choices hit the primary front enemy, then the next living enemy in stable slot order. Rowan retaliates inside the incoming action against its attacker, using the normal formula with the listed ATK coefficient; retaliation generates no meter or recursive counter. Durgan's two longer-stun effects give at most two skips, not four. Aveline's Elite bonus stacks with her fixed Big Game Hunter passive. Healing caps at max HP and never revives.
+Multi-target choices hit the primary front enemy, then the next living enemy in stable slot order. Anselm retaliates inside the incoming action against its attacker, using the normal formula with the listed ATK coefficient; retaliation generates no meter or recursive counter. Otto's two longer-stun effects give at most two skips, not four. Severa's Elite bonus stacks with her fixed Big Game Hunter passive. Healing caps at max HP and never revives.
 
-Innate passives are fixed, one per authored adventurer. Remove the old learned skill-point system and Pathfinder levels; Route Map supplies the search bonus. Durgan's Chapter 3 costume/weapon presentation change does not change his passive, kit or stats.
+Innate passives are fixed, one per authored adventurer. Remove the old learned skill-point system and Pathfinder levels; Route Map supplies the search bonus. Otto's plate-and-warhammer design is his only outfit; there is no later shield variant.
 
 **Frontier scaling:** levels 7–10, rank-2 modifiers and the raised lifetime cap open on arrival; the opening limits do not reset purchased stats or charge for them again.
 
@@ -584,7 +612,7 @@ Innate passives are fixed, one per authored adventurer. Remove the old learned s
 
 These are the only stamina recovery rules. Idle hours, hiring, rehire, rebuild and injury expiry grant no extra stamina. Full stamina is an initial condition for a never-hired recruit, not a repeatable rehire reward. An injured adventurer can sleep or receive a rest order, but stamina recovery never removes the injury.
 
-Assign rest at 07:00 or later only if the person has not dispatched that day. No retroactive rest after an expedition. A rest order locks dispatch and enhancement for the rest of that day; cancelling before 20:00 removes its full-recovery entitlement. Overnight sleep may follow a rest day, but the cap prevents extra bars. Show stamina before and after debit: the third dispatch from 4 begins fatigued at 1.
+Assign rest at 07:00 or later only if the person has not dispatched that day. No retroactive rest after an expedition. A rest order locks dispatch for the rest of that day; cancelling before 20:00 removes its full-recovery entitlement. Overnight sleep may follow a rest day, but the cap prevents extra bars. Show stamina before and after debit: the third dispatch from 4 begins fatigued at 1.
 
 **Frontier scaling:** preserve the four-bar rules; a larger roster makes rotating rest practical rather than adding a new recovery currency.
 
@@ -604,13 +632,13 @@ An 11-hour night heals an otherwise healthy idle person fully, even from very lo
 
 ### 6.4a Nobody is lost for good — Carried over
 
-Defeat means injury, never permanent loss. Unpaid employees temporarily leave after returning crafted gear and backpack items to storage. Former staff stay visible indefinitely, retaining stats, XP, enhancement, stamina and outstanding injury timers. Rehire costs unpaid wages plus the original hire cost and requires a free bed or station. Time may expire an injury while absent; absence grants no Guild sleep/rest recovery. Dismissal also preserves the person and does not erase accrued wages. Officers never enter the employee recruitment pool or leave over payroll. The rescue loan in 13.4 keeps recovery possible.
+Defeat means injury, never permanent loss. Unpaid employees temporarily leave after returning crafted gear and backpack items to storage. Former staff stay visible indefinitely, retaining stats, XP, stamina and outstanding injury timers. Rehire costs unpaid wages plus the original hire cost and requires a free bed or station. Time may expire an injury while absent; absence grants no Guild sleep/rest recovery. Dismissal also preserves the person and does not erase accrued wages. Officers never enter the employee recruitment pool or leave over payroll. The rescue loan in 13.4 keeps recovery possible.
 
 **Frontier scaling:** carry every authored person and former-staff record across relocation; no replacement by anonymous rolls.
 
 ### 6.5 States — Designed, not yet proven
 
-One primary state: Available, Hunting, Scouting, On contract, Resting, Injured, Enhancing, Event-locked, or Left. Red Fatigue is a condition overlay, not a second primary state. Preserve injury end-time separately while Left or Event-locked. A rest-day order may apply during injury without changing the displayed Injured state. After release, derive the state from active restrictions; do not blindly set Available. All dispatches recheck employment, HP above zero, injury, stamina, state and reservations.
+One primary state: Available, Hunting, Scouting, On contract, Resting, Injured, Event-locked, or Left. Red Fatigue is a condition overlay, not a second primary state. Preserve injury end-time separately while Left or Event-locked. A rest-day order may apply during injury without changing the displayed Injured state. After release, derive the state from active restrictions; do not blindly set Available. All dispatches recheck employment, HP above zero, injury, stamina, state and reservations.
 
 **Frontier scaling:** the same states cover larger rosters and the relocation lock; no Dead state.
 
@@ -625,11 +653,28 @@ One primary state: Available, Hunting, Scouting, On contract, Resting, Injured, 
 | Bow / Arrow Case adjacency | Share an orthogonal edge: +15% attack rate once |
 | Item rotation | 90° steps; no overlap or out-of-grid placement |
 
-Starter weapon/clothes are bound and included in base stats, occupy no cells and cannot be sold. Mira can place a zero-bonus 1×3 starter-bow token to activate Arrow Case adjacency; Hunter Bow replaces the token. Crafted footprints and effects are in 12.2. No backpack stacking: each potion, lure or map is a separate physical item. Reserve one lure/map for an expedition and consume it at dispatch; a reusable active Route Map stays packed. Equipment carried but not selected in its category gives no bonus. Materials and corpses use shared storage, not these grids.
+Starter weapon/clothes are bound and included in base stats, occupy no cells and cannot be sold. Nell can place a zero-bonus 1×3 starter-bow token to activate Arrow Case adjacency; Hunter Bow replaces the token. Crafted footprints and effects are in 12.2. No backpack stacking: each consumable is a separate physical item. Reserve lures and maps for an expedition and consume them at dispatch; a reusable active Route Map stays packed. Equipment carried but not selected in its category gives no bonus. Materials and corpses use shared storage, not these grids.
 
 After enemy damage, determine downing first; a potion cannot revive or trigger between cosmetic combo hits. Equipment edits require Available at HQ, and prep edits remain a draft until dispatch. Removing max-HP gear clamps current HP; adding it does not heal. Invalid placements keep the original item intact. Respecs, grid changes and rehires must never delete inventory.
 
 **Frontier scaling:** 5×5 packs at higher Guild ranks, more gear choices and stronger tiers; keep category limits so carrying duplicates is not unlimited power.
+
+### 6.6a Consumables — tier 1 in Eurydica *(owner decisions 2026-09-29; designed, not yet proven)*
+
+Consumables are a **heavy requirement, never a mandatory one** (Monster Hunter World is the reference). They sit in the backpack, one 1×1 cell each, so they compete with gear for space, and the risk forecast includes them. Eurydica has **tier 1 only, bought, not crafted**: Elsie's counter before Commerce, then also Valerie's Trading Post, at any base. Tiers 1–5 come from the Frontier's **Research Department** (16a; `Consumables and Research Proposal.md`).
+
+| Tier-1 item | Price | Trigger | Effect |
+|---|---|---|---|
+| Potion | 20G | In combat: after an enemy damage action, if alive and HP ≤40% (6.6) | Restores 30% max HP |
+| Demondrug | 30G *(starting value)* | Whole expedition, from departure | +8% ATK for the carrier |
+| Armorskin | 30G *(starting value)* | Whole expedition, from departure | +8% DEF for the carrier |
+| Hunting Lure | 25G | Consumed at hunt departure | +10 points to the target's group chance (9.2) |
+| Scout Map | 20G, once scouting opens | Consumed at scout departure | +10 points to find chance (8.2) |
+
+- One Demondrug and one Armorskin effect per fighter; a second copy doesn't stack. A recall never refunds a consumed item; unused items come home.
+- Dr. Wendt's clinic request keeps its weekly allotment of four potions at 18G (11.1).
+- **Tuning target (owner):** a normal party without consumables still succeeds, but often comes home with its front line near 50% HP. A **solo hunt without potions and a Demondrug or Armorskin should fail**. Balance monsters and prices to this in the M3 playtest.
+- Purchased consumables resell for at most half their actual purchase price, so there is no buy-sell loop.
 
 ## 7. Regions and discovery — Proven (structure); Designed, not yet proven (completion rules)
 
@@ -637,9 +682,9 @@ After enemy damage, determine downing first; a potion cannot revive or trigger b
 
 | Eurydica area | Required Guild Rank | Theme |
 |---|---|---|
-| Mosswood Forest | F | Old oak forest, South Gate road; beasts and forest-habitat fantasy monsters |
-| Amber Marsh | E | Reedbeds and slow water |
-| Redstone Highlands | D | Cold stone stairways and ridges |
+| Hylaea Forest | F | Old oak forest, South Gate road; beasts and forest-habitat fantasy monsters |
+| Bernmoor | E | Reedbeds and slow water |
+| Erythra Highlands | D | Cold stone stairways and ridges |
 
 Locked areas show rank and story context. Each area contains three ordinary species, three landmarks (including two dens) and two hidden paths. Rare monsters and bosses are separate from that ordinary count. No extra regional boar species are implied by proof recolours.
 
@@ -679,7 +724,7 @@ Show known species out of three, landmarks out of three, paths out of two, curre
 
 Each completed interval adds exploration, resolves threshold reveals, then rolls once for an eligible weighted find. Chance is 45%, plus 10 percentage points for Tracker and 10 for one consumed Scout Map, capped at 80%. Remove discovered fixed entries and active/reserved sightings from the pool. A hint may appear once per still-unidentified species within 20 points of its threshold; it gives no find XP. Empty pools show “No new lead,” never fabricate a reward. Discoveries awarded by milestone guarantees do not also remain available for the same interval's random roll.
 
-| Mosswood find | Kind | Eligible at | Weight | Effect |
+| Hylaea find | Kind | Eligible at | Weight | Effect |
 |---|---|---|---|---|
 | Charcoal Burners' Trail | Path | 10% | 3 | Search −5 min |
 | Dire Boar Nest | Den | 15% | 3 | Boar encounter weight ×1.5; target group +15 points when known |
@@ -690,7 +735,7 @@ Each completed interval adds exploration, resolves threshold reveals, then rolls
 | Mossback Elder | Rare sighting | Boar known | 1.5 | One available sighting |
 | Silvermane | Rare sighting | Wolf known | 1 | One available sighting |
 
-| Amber Marsh find | Kind | Eligible at | Weight | Effect |
+| Bernmoor find | Kind | Eligible at | Weight | Effect |
 |---|---|---|---|---|
 | Reedcutters' Causeway | Path | 10% | 3 | Search −5 min |
 | Serpent Reedbed | Den | 15% | 3 | Serpent weight ×1.5; target group +15 points when known |
@@ -701,7 +746,7 @@ Each completed interval adds exploration, resolves threshold reveals, then rolls
 | Reedcoil Elder | Rare sighting | Serpent known | 1.5 | One available sighting |
 | Pale Marsh Stalker | Rare sighting | Stalker known | 1 | One available sighting |
 
-| Redstone find | Kind | Eligible at | Weight | Effect |
+| Erythra find | Kind | Eligible at | Weight | Effect |
 |---|---|---|---|---|
 | Quarry Steps | Path | 10% | 3 | Search −5 min |
 | Highland Wolf Lair | Den | 15% | 3 | Wolf weight ×1.5; target group +15 points when known |
@@ -726,11 +771,11 @@ A sighting adds one purple RARE target and does not expire with time. Dispatch r
 
 | Area | Base injury per completed half-hour | Full six-interval trip, no modifiers |
 |---|---|---|
-| Mosswood | 1% | 5.85% injury; 94.15% no incident |
-| Amber Marsh | 1.5% | 8.67% injury; 91.33% no incident |
-| Redstone | 2% | 11.42% injury; 88.58% no incident |
+| Hylaea | 1% | 5.85% injury; 94.15% no incident |
+| Bernmoor | 1.5% | 8.67% injury; 91.33% no incident |
+| Erythra | 2% | 11.42% injury; 88.58% no incident |
 
-Use `1 − (1 − p)^n`, where n is the number of intervals that can complete before the selected return/cutoff. Apply area landmarks, flashpoint aftermath and Red Fatigue before calculating p. For changing p, use `1 − product(1 − p_i)`. Six fatigued Mosswood checks at 2% give 11.42%, not 12%. Progress/finds/XP resolve before each injury roll. Injury ends the scout immediately at 40% HP for 48 hours, with earned results and the +2 Reputation. No death or serious-injury lottery.
+Use `1 − (1 − p)^n`, where n is the number of intervals that can complete before the selected return/cutoff. Apply area landmarks, flashpoint aftermath and Red Fatigue before calculating p. For changing p, use `1 − product(1 − p_i)`. Six fatigued Hylaea checks at 2% give 11.42%, not 12%. Progress/finds/XP resolve before each injury roll. Injury ends the scout immediately at 40% HP for 48 hours, with earned results and the +2 Reputation. No death or serious-injury lottery.
 
 **Frontier scaling:** initial base risk is 2% per half-hour, with the same forecast contract and safe-route benefits; new content supplies the area-specific data.
 
@@ -794,7 +839,7 @@ For the selected ordinary hunt target, `c = min(0.95, base + den 0.15 + Tracker 
 | Queue | Readiness time, then front slots, back slots, enemy slots; stable slot order |
 | Stage | One action at a time per encounter; independent encounters run concurrently |
 
-Build stats from listed base × (1 + track percentages + enhancement percentages), then flat equipment, then applicable passives, fatigue and temporary multipliers. Keep fractional stats until the damage or tick rounding point. Snapshot permanent build, equipment, row and post-debit fatigue at fight start. Apply temporary status and target-specific Big Game Hunter dynamically; mixed ordinary/variant groups do not grant its Elite bonuses against ordinary targets.
+Build stats from listed base × (1 + track percentages), then flat equipment, then applicable passives, fatigue, whole-expedition consumables (Demondrug, Armorskin; 6.6a) and temporary multipliers. Keep fractional stats until the damage or tick rounding point. Snapshot permanent build, equipment, row and post-debit fatigue at fight start. Apply temporary status and target-specific Big Game Hunter dynamically; mixed ordinary/variant groups do not grant its Elite bonuses against ordinary targets.
 
 Attack gauges start empty. They fill while another fighter acts, then queue once and stop; an actor's gauge restarts after its action ends. Retain fractional gauge progress if a dynamic rate/slow changes. At each tick finish the active action, remove downed actors, update surviving gauges and mage meters for elapsed time, and queue new ready actors. Only after the timed-event/cutoff phases in section 4 may a still-active operation start its next action; never start one at its return time or at 20:00. Tied readiness uses the table order. Big Game Hunter uses the current valid intended target while charging and is re-evaluated at action start; display interval changes when that target changes tier. A stunned ready fighter loses one queued action for 12 seconds, consumes one skip, restarts its gauge, and spends no skill meter.
 
@@ -823,7 +868,7 @@ At watched 1×, a normal action takes 0.8 real seconds and a skill 2.4. A 23-gam
 | Defender | 20 per enemy damage action received while surviving; not per cosmetic hit |
 | Mage | Continuous in-combat gain `100 / (4 × current rounded attack interval)` per Guild second |
 
-Focus multiplies these gains; Valencia's passive multiplies mage gain again. Meter is clamped to 0–100; there is no charge out of combat. At action start, use a signature if meter is 100 and consume 100; a completed skill generates no normal-action meter from its own damage. Explicit retain/refill modifiers apply after completion. Starting at zero with no modifiers, an attacker completes four normal actions and uses the skill as action five. Defender meter can fill during another actor's action; skills still wait for readiness and queue order. Mage gain continues while queued or acting, capped normally. Interrupted skills do not refund consumed meter, and ending the encounter resets it.
+Focus multiplies these gains; Chloris's passive multiplies mage gain again. Meter is clamped to 0–100; there is no charge out of combat. At action start, use a signature if meter is 100 and consume 100; a completed skill generates no normal-action meter from its own damage. Explicit retain/refill modifiers apply after completion. Starting at zero with no modifiers, an attacker completes four normal actions and uses the skill as action five. Defender meter can fill during another actor's action; skills still wait for readiness and queue order. Mage gain continues while queued or acting, capped normally. Interrupted skills do not refund consumed meter, and ending the encounter resets it.
 
 The orange meter glows with SKILL at full; the gold ring remains the attack timer. Never use blue MP styling for either.
 
@@ -849,7 +894,7 @@ Every monster has **one skill**: ordinary monsters, their variants, rares, bosse
 - A skill targets like a normal attack (front row first, provoke respected).
 - Statuses follow the stacking rules in 9.3.
 - A variant keeps its parent's skill; its ATK bonus applies as normal.
-- Skill names, effects and still poses are listed per monster in `Production Assets Requirement/Eurydica Monsters.md`.
+- Skill names, effects and still poses are listed per monster in `Production Assets Requirement/Eurydica Monsters.md`, **approved by the owner on 2026-09-28**.
 - The hunt risk estimate (9.1) includes monster skills.
 
 **Frontier scaling:** Frontier monsters may carry authored multi-target or two-skill kits at boss tier; ordinary monsters stay at one skill.
@@ -873,14 +918,14 @@ Every monster has **one skill**: ordinary monsters, their variants, rares, bosse
 
 **Battle HUD**
 - **Enemy HP**: top centre, one bar per enemy (RARE badge where it applies).
-- **Party row**: along the bottom with no container box, Star Ocean 2 style.
+- **Party column** *(changed 2026-09-28, owner)*: one semi-transparent card per member, stacked down the right edge (as in Star Ocean: The Second Story R), so five members never cover the fight. Each card uses the FGC_08 card finish.
   - A round bust (face and shoulders from the front idle sprite) instead of a name plate.
-  - Name above a large HP number and HP bar.
+  - Name beside a large HP number and HP bar.
   - The attack timer is a **gold ring filling clockwise** around the bust. Not a blue bar: that reads as MP.
   - Status effects sit above the name. Slot 1 shows FRONT.
 - **Left side**: place and target, time left, secured corpses.
-- **Right side**: battle log.
-- **Buttons**: Leave view and Recall. The top bar with the speed controls stays visible.
+- **Bottom left**: battle log (moved from the right, which the party column now uses).
+- **Buttons**: Leave view and Recall. The HUD cluster with the speed controls stays visible.
 - There is **no turn-order bar**; the rings make it redundant.
 - **Closing the view never stops the fight**, and reopening it shows the live state.
 
@@ -901,7 +946,7 @@ Officers fight only at story moments, so their battles are showpieces. They use 
 
 ---
 
-## 10. Monsters and materials — Proven (Mosswood proof); Designed, not yet proven (complete rewards and later balance)
+## 10. Monsters and materials — Proven (Hylaea proof); Designed, not yet proven (complete rewards and later balance)
 
 ### 10.0 Variants — Proven (appearance and encounters); Designed, not yet proven (parts)
 
@@ -909,13 +954,13 @@ Officers fight only at story moments, so their battles are showpieces. They use 
 |---|---|
 | Appearance | 15% larger, distinct palette, VARIANT badge; alert even when unwatched |
 | Stats | Parent HP ×1.5; ATK and DEF ×1.25; parent rate |
-| Chance | 8% independently per ordinary hunt member; Howling Ridge adds 4 points in Mosswood; total cap 20% |
+| Chance | 8% independently per ordinary hunt member; Howling Ridge adds 4 points in Hylaea; total cap 20% |
 | Tier / XP | Elite: Variant; parent base XP ×2 exactly once |
 | Processing | Parent time, ordinary outputs and rare roll, plus one guaranteed elite unit |
 
-Rare, Variant and Boss are mutually exclusive Elite subtypes. Fixed contract encounters use the listed ordinary/boss identity without random variant upgrades. The exact number of variants per hunt depends on completed encounters; no fixed “one every two hunts” promise. Nine ordinary species mean nine elite material IDs. All early elite parts are saleable, with their stronger enhancement use previewed for the Frontier.
+Rare, Variant and Boss are mutually exclusive Elite subtypes. Fixed contract encounters use the listed ordinary/boss identity without random variant upgrades. The exact number of variants per hunt depends on completed encounters; no fixed “one every two hunts” promise. Nine ordinary species mean nine elite material IDs. All early elite parts are saleable, with their stronger uses in higher-tier Frontier recipes (gear and consumables) previewed for the Frontier.
 
-### 10.1 Mosswood Forest — Proven (ordinary proof values); Designed, not yet proven (bosses and rares)
+### 10.1 Hylaea Forest — Proven (ordinary proof values); Designed, not yet proven (bosses and rares)
 
 | Monster | HP | ATK | DEF | Rate | Hunt knowledge | Base processing | Common unit value | Base XP |
 |---|---|---|---|---|---|---|---|---|
@@ -923,27 +968,27 @@ Rare, Variant and Boss are mutually exclusive Elite subtypes. Fixed contract enc
 | Dire Boar | 330 | 6 | 8 | 0.8 | 25% | 45 min | 12G | 11 |
 | Forest Wolf | 420 | 8 | 10 | 1.0 | 50% | 60 min | 16G | 14 |
 | Blackfang Direwolf | 1,950 | 15 | 25 | 1.0 | Optional contract | 90 min | 30G | 65 |
-| Mosswood Chimera | 2,400 | 17 | 25 | 1.0 | Chapter 2 flashpoint | 120 min | 30G | 80 |
+| Hylaea Chimera | 2,400 | 17 | 25 | 1.0 | Chapter 2 flashpoint | 120 min | 30G | 80 |
 
 These retain the beefier ordinary monster values already used in the operations proof. Historical batch and queued timing measurements belong to their specific test parties; they are not fresh v2.1 balance evidence.
 
-### 10.2 Amber Marsh — Carried over (ordinary/boss stats); Designed, not yet proven (complete data)
+### 10.2 Bernmoor — Carried over (ordinary/boss stats); Designed, not yet proven (complete data)
 
 | Monster | HP | ATK | DEF | Rate | Hunt knowledge | Base processing | Common unit value | Base XP |
 |---|---|---|---|---|---|---|---|---|
 | Marsh Slime | 510 | 10 | 15 | 0.8 | 0% | 45 min | 18G | 18 |
 | Marsh Serpent | 660 | 13 | 20 | 1.0 | 25% | 60 min | 22G | 24 |
 | Marsh Stalker | 840 | 15 | 25 | 1.1 | 50% | 75 min | 28G | 30 |
-| Ambermaw Matriarch | 3,300 | 21 | 35 | 1.0 | Chapter 3 flashpoint | 120 min | 45G | 110 |
+| Ambermaw Matriarch | 3,300 | 21 | 35 | 1.0 | Chapter 2 flashpoint (second) | 120 min | 45G | 110 |
 
-### 10.3 Redstone Highlands — Carried over (ordinary/boss stats); Designed, not yet proven (complete data)
+### 10.3 Erythra Highlands — Carried over (ordinary/boss stats); Designed, not yet proven (complete data)
 
 | Monster | HP | ATK | DEF | Rate | Hunt knowledge | Base processing | Common unit value | Base XP |
 |---|---|---|---|---|---|---|---|---|
 | Stone Crawler | 900 | 17 | 35 | 0.8 | 0% | 60 min | 30G | 32 |
 | Highland Wolf | 1,140 | 20 | 30 | 1.1 | 25% | 75 min | 36G | 38 |
 | Ridge Drake | 1,500 | 24 | 45 | 0.9 | 50% | 90 min | 45G | 48 |
-| Crownstone Wyrm | 5,400 | 28 | 50 | 1.0 | Chapter 4 flashpoint | 150 min | 65G | 180 |
+| Crownstone Wyrm | 5,400 | 28 | 50 | 1.0 | Chapter 2 flashpoint (third) | 150 min | 65G | 180 |
 
 ### 10.4 Rare monsters — Designed, not yet proven
 
@@ -988,7 +1033,7 @@ States are Hidden → Offered → Accepted → Completed, Expired or Failed. Off
 
 An ignored offer expires without penalty. Accepted timed expiry, voluntary abandonment, or failed optional subjugation costs 10 Reputation once; no Morale penalty. A failed no-deadline delivery does not arise merely from waiting. Main flashpoints use 11.4 instead. City offers CH1-REQ-003 through CH1-REQ-007 disappear at Chapter 1 end if still unaccepted; show a warning before concluding the chapter. CH1-REQ-001/002 use their own timers. Accepted requests survive chapter changes and relocation, subject to their remaining deadlines.
 
-Reserve partial quantities, but complete the entire order atomically for its full reward. Show owned/listed/reserved/available counts and exact consumed units; choose lowest acceptable quality first. Never consume equipped or bound items. Before Hollis's courier benefit, HQ may reserve/escrow the goods but payment/completion requires a client visit. After the benefit, the board completes any eligible Eurydica delivery immediately. A client is always available through a request interaction while an accepted order is active, regardless of ambient NPC schedule. This access belongs to the request, not to a trader's visit schedule.
+Reserve partial quantities, but complete the entire order atomically for its full reward. Show owned/listed/reserved/available counts and exact consumed units; choose lowest acceptable quality first. Never consume equipped or bound items. Before Jeb's courier benefit, HQ may reserve/escrow the goods but payment/completion requires a client visit. After the benefit, the board completes any eligible Eurydica delivery immediately. A client is always available through a request interaction while an accepted order is active, regardless of ambient NPC schedule. This access belongs to the request, not to a trader's visit schedule.
 
 ### 11.2 Seven Chapter 1 requests — Designed, not yet proven
 
@@ -999,23 +1044,23 @@ These seven IDs replace the unindexed ten-delivery claim. Reward rules and clien
 | CH1-REQ-001 / Bathroom / inn owner (`eur_inn_owner`) | 5 Slime Gel, any condition | 50 / 50 | 5 days | Bathroom aftermath flag; offer introduced at M02 |
 | CH1-REQ-002 / Garden / noble household's garden steward (`eur_garden_steward`) | 2 Slime Cores, any condition | 100 / 50 | 4 days | Garden aftermath flag; offer introduced at M02; garden client, not inn owner |
 | CH1-REQ-003 / Rare Slime Order / original trader client | 2 Slime Cores, any condition | 25 / 100 | 2 days | Order aftermath flag; request-owned exchange below |
-| CH1-REQ-004 / Clinic / Dr. Ginger | 10 Slime Gel, any condition | 100 / 20 | 6 days | Four potions per Guild week may be bought for 18G each; normal price after allotment |
-| CH1-REQ-005 / Winter Bedding / Hollis | 3 Standard+ Wolf Pelts | 75 / 25 | None | Permanent free board courier for Eurydica clients |
-| CH1-REQ-006 / Marta's supply / Marta | 4 Standard+ Boar Meat | 60 / 20 | None | Roast aftermath; enables EUR-WO-001 |
-| CH1-REQ-007 / Keep the Old Ones Working / Beren | 2 Standard+ Boar Hides | 40 / 20 | None | Repair aftermath; enables EUR-WO-002; shows Vest recipe |
+| CH1-REQ-004 / Clinic / Dr. Emmerich | 10 Slime Gel, any condition | 100 / 20 | 6 days | Four potions per Guild week may be bought for 18G each; normal price after allotment |
+| CH1-REQ-005 / Winter Bedding / Jeb | 3 Standard+ Wolf Pelts | 75 / 25 | None | Permanent free board courier for Eurydica clients |
+| CH1-REQ-006 / Hilde's supply / Hilde | 4 Standard+ Boar Meat | 60 / 20 | None | Roast aftermath; enables EUR-WO-001 |
+| CH1-REQ-007 / Keep the Old Ones Working / Gerd | 2 Standard+ Boar Hides | 40 / 20 | None | Repair aftermath; enables EUR-WO-002; shows Vest recipe |
 
-Clinic allotments reset at the start of each Guild week (days 1, 8, 15…), never accumulate, and remain claimable from the potion counter at any base through the completed-request flag. Hollis's own first completion requires visiting him; later deliveries may use the board. No core mechanic waits for the original Rare Slime Order trader to revisit.
+Clinic allotments reset at the start of each Guild week (days 1, 8, 15…), never accumulate, and remain claimable from the potion counter at any base through the completed-request flag. Jeb's own first completion requires visiting him; later deliveries may use the board. No core mechanic waits for the original Rare Slime Order trader to revisit.
 
 **Rare-core safeguards.** Accepting CH1-REQ-003 exposes a one-time alternative in that request's panel: 15 Slime Gel of any condition satisfy its two cores directly. No physical tradeable cores are issued. CH1-REQ-002 gains the same alternative when its final 24 hours begin and fewer than two cores have been obtained/reserved for it; acceptance during that window enables it immediately. Choosing the full gel alternative releases any core reservation. Each alternative consumes 15 gel once, is exclusive with ordinary core delivery, grants only the request's stated reward, and earns no sales Reputation. The request panel remains accessible at every base. Explain the alternative before acceptance; it removes rare-drop dependence, not the need to gather common goods.
 
-Two Standard boar corpses yield four meat and two hides: enough for Marta and Beren together, paying 100G and 40 Rep initially. That competes with 36G generic walk-up value for the same six Standard common units, with gear and with the Annex. Rare parts/quality are extra, not assumed in that comparison.
+Two Standard boar corpses yield four meat and two hides: enough for Hilde and Gerd together, paying 100G and 40 Rep initially. That competes with 36G generic walk-up value for the same six Standard common units, with gear and with the Annex. Rare parts/quality are extra, not assumed in that comparison.
 
 | Repeat customer ID | Goods / reward | Availability |
 |---|---|---|
-| EUR-WO-001 / Marta | 4 Standard+ Boar Meat / 60G + 5 Rep | First offer 7 calendar days after CH1-REQ-006 completion; then 7 days after each repeat completion |
-| EUR-WO-002 / Beren | 2 Standard+ Boar Hides / 40G + 5 Rep | First offer 7 calendar days after CH1-REQ-007 completion; then 7 days after each repeat completion |
+| EUR-WO-001 / Hilde | 4 Standard+ Boar Meat / 60G + 5 Rep | First offer 7 calendar days after CH1-REQ-006 completion; then 7 days after each repeat completion |
+| EUR-WO-002 / Gerd | 2 Standard+ Boar Hides / 40G + 5 Rep | First offer 7 calendar days after CH1-REQ-007 completion; then 7 days after each repeat completion |
 
-One outstanding instance per customer, no countdown and no accumulated missed orders. Show next appearance and quantities. Offers already accepted carry across relocation; pause future recurrence while Eurydica is not the operating base and resume its remaining wait only on resuming that base. Existing unaccepted Eurydica repeat offers are suspended there. Contacts and aftermath remain in the journal; they are not a separate relationship-XP ladder.
+One outstanding instance per customer, no countdown and no accumulated missed orders. A completed repeat returns 7 calendar days after completion; an **abandoned or failed** one returns 2 calendar days after it ends (owner, 2026-09-29). Show next appearance and quantities. Offers already accepted carry across relocation; pause future recurrence while Eurydica is not the operating base and resume its remaining wait only on resuming that base. Existing unaccepted Eurydica repeat offers are suspended there. Contacts and aftermath remain in the journal; they are not a separate relationship-XP ladder.
 
 ### 11.3 Optional subjugations — Designed, not yet proven
 
@@ -1026,12 +1071,12 @@ Offers last 72 calendar hours from appearance; acceptance does not restart the c
 | ID / client / problem | Eligibility | Fixed encounter | Gold / Rep | Ending flag premise |
 |---|---|---|---|---|
 | EUR-SUB-01 / inn owner / slime nuisance | F; first hunt returned | 2 Moss Slimes | 90 / 15 | Inn supply access cleared |
-| EUR-SUB-02 / Beren / damaged deliveries | F; boar known | 2 Dire Boars | 140 / 20 | Repair supplies delivered |
-| EUR-SUB-03 / Hollis / stable road danger | F; wolf known | 2 Forest Wolves | 200 / 25 | Road warning removed |
+| EUR-SUB-02 / Gerd / damaged deliveries | F; boar known | 2 Dire Boars | 140 / 20 | Repair supplies delivered |
+| EUR-SUB-03 / Jeb / stable road danger | F; wolf known | 2 Forest Wolves | 200 / 25 | Road warning removed |
 | EUR-SUB-04 / South Gate guard / Blackfang attacks | E; wolf known; Chapter 2 or later | Blackfang Direwolf | 450 / 100 | Blackfang case closed, not the Chimera story flag |
-| EUR-SUB-05 / Dr. Ginger / marsh supplies blocked | E; Marsh Slime known | 2 Marsh Slimes | 260 / 30 | Clinic supply report resolved |
+| EUR-SUB-05 / Dr. Emmerich / marsh supplies blocked | E; Marsh Slime known | 2 Marsh Slimes | 260 / 30 | Clinic supply report resolved |
 | EUR-SUB-06 / trade contact / pickup blocked | E; Serpent known | 2 Marsh Serpents | 320 / 35 | Pickup report resolved |
-| EUR-SUB-07 / Beren / unsafe quarry access | D; Crawler known | 2 Stone Crawlers | 420 / 40 | Quarry report resolved |
+| EUR-SUB-07 / Gerd / unsafe quarry access | D; Crawler known | 2 Stone Crawlers | 420 / 40 | Quarry report resolved |
 | EUR-SUB-08 / trade contact / high-road danger | D; Highland Wolf known | 2 Highland Wolves | 500 / 45 | Shipment route cleared |
 
 Trade-contact roles retain their source client IDs but dispatch, turn-in and retries belong to the board, never an itinerant NPC's presence. Ending flags grant no unlisted economic bonus. Rewards use the stated baseline (Commander skills and officer perks can modify this; see section 5 and the Commander section).
@@ -1040,13 +1085,13 @@ Trade-contact roles retain their source client IDs but dispatch, turn-in and ret
 
 | Flashpoint | All required gates | Reward | Lasting aftermath |
 |---|---|---|---|
-| Mosswood Chimera — Chapter 2 | Chapter 2 entered; Chapter 1 complete; E; 300 Rep | 900G + 250 Rep | Mosswood base scout injury becomes 0.5%; ordinary target share becomes 85% before den weighting |
-| Ambermaw Blockade — Chapter 3 | Chapter 3 entered; Chimera cleared; E; 800 Rep | 1,400G + 350 Rep | Marsh ordinary target share becomes 85% before den weighting |
-| Crownstone Reckoning — Chapter 4 | Chapter 4 entered; Ambermaw cleared; D; 1,400 Rep | 2,000G + 450 Rep | Redstone ordinary target share becomes 85% before den weighting |
+| Hylaea Chimera — Chapter 2, first | Chapter 2 entered; E; 300 Rep | 900G + 250 Rep | Hylaea base scout injury becomes 0.5%; ordinary target share becomes 85% before den weighting |
+| Ambermaw Blockade — Chapter 2, second | Chimera cleared; E; 800 Rep | 1,400G + 350 Rep | Marsh ordinary target share becomes 85% before den weighting |
+| Crownstone Reckoning — Chapter 2, third | Ambermaw cleared; D; 1,400 Rep | 2,000G + 450 Rep | Erythra ordinary target share becomes 85% before den weighting |
 
 Each target is a solo Elite boss with section 10 stats, a 30-minute approach and the standard combat model. Display named threats early with every unmet condition. Main-story offers never expire. Losing, recalling or reaching cutoff fails the attempt but costs no Reputation and leaves the offer available; retry when a party is ready. Reward and aftermath apply only on first victory. No respawn-farming reward, timed offer lockout, invented boss phase or hidden officer rescue. Story guests enter only through the explicit authored formation.
 
-**Frontier scaling:** new contracts, residents and chapters use this lifecycle and request-owned safeguards. Chapter 4's success completes one charter condition, not the campaign.
+**Frontier scaling:** new contracts, residents and chapters use this lifecycle and request-owned safeguards. Crownstone's success brings the Alliance envoy (14), not the end of the campaign.
 
 ## 12. Economy — Designed, not yet proven
 
@@ -1069,7 +1114,7 @@ All money belongs to the Guild purse. Inventory reservations are authoritative a
 | Damaged | 0.50 | 15% | 8% | 5% |
 | Unsellable | 0 | 5% | 2% | 0% |
 
-One quality roll applies to the entire job. Recipes and food requests require Standard or Pristine; explicit “any condition” requests can consume Unsellable. Guaranteed elite parts satisfy their enhancement requirement at any quality; quality affects their sale price, not that eligibility. No second gear-quality roll.
+One quality roll applies to the entire job. **How later modifiers meet the fixed roll:** the job stores one random number `u` when the corpse is first queued. The outcome is read from `u` against the job's **final odds table** at completion: the base odds of the first committed processor's rank, then any perk, then any Cutting Chart session bonus (Pristine taken from Standard). Modifiers change the table, never the draw, so reloading or reassigning can't reroll. Recipes and food requests require Standard or Pristine; explicit “any condition” requests can consume Unsellable. Guaranteed elite parts count at any quality for recipes that use them; quality affects their sale price, not that eligibility. No second gear-quality roll.
 
 Persist quality and rare-roll results against the corpse ID when first queued, using its first committed processor rank. Cancellation, a new worker, cutoff or reload never rerolls the corpse. Refund reservations on cancellation/cutoff while retaining that identity. Other waiting jobs remain queued. At 07:00 valid queues resume automatically after checking assignments and inputs; held reservations cannot be sold in the meantime, while released inputs must be reacquired before restarting.
 
@@ -1077,42 +1122,29 @@ Duration = monster base time × staff duration factor × Morale factor, rounded 
 
 ### 12.2 Equipment and recipes — Designed, not yet proven
 
-Crafted gear adds flat stats to an adventurer's existing starter kit. Recipe cards are visible before the Workshop opens at Beren's and Elsie's, with exact inputs, source links, fee, duration, footprint and result. One active weapon, armour and accessory; craft choices need no separate appearance per equipment piece in the first release. One craftsman/workbench processes one crafting or enhancement job at a time, up to 20 queued jobs. “Production focus” is a recipe-category filter, not free daily output.
+Crafted gear adds flat stats to an adventurer's existing starter kit. Recipe cards are visible before the Workshop opens at Gerd's and Elsie's, with exact inputs, source links, fee, duration, footprint and result. One active weapon, armour and accessory; craft choices need no separate appearance per equipment piece in the first release. One craftsman/workbench processes one crafting or Reworking job at a time, up to 20 queued jobs. “Production focus” is a recipe-category filter, not free daily output.
 
 | Output | Standard+ inputs and fee | Base time | Footprint / benefit |
 |---|---|---|---|
-| Hunting Lure | 1 Boar Meat + 5G | 30 min | 1×1; consume at hunt departure for +10 target group points |
-| Scout Map | 1 Slime Gel + 8G | 30 min | 1×1; consume at scout departure for +10 find points |
 | Route Map | 2 Wolf Pelts + 30G | 1 hour | 1×2 accessory; party search ×0.95; strongest only |
 | Boarhide Vest | 4 Boar Hides + 40G | 2 hours | 2×2 armour; +30 max HP, +8 DEF |
 | Balanced Blade/Hammer | 4 Slime Gel + 2 Boar Tusks + 50G | 2 hours | 1×3 weapon; +5 ATK for the matching melee kit |
-| Hunter Bow | 3 Boar Hides + 1 Wolf Fang + 40G | 2 hours | 1×3 weapon; +4 ATK for Mira |
+| Hunter Bow | 3 Boar Hides + 1 Wolf Fang + 40G | 2 hours | 1×3 weapon; +4 ATK for Nell |
 | Arrow Case | 2 Boar Hides + 15G | 1 hour | 1×2 accessory; adjacent bow gains +15% attack rate |
 | Reed Ward | 4 Serpent Scales + 1 Marsh Core + 80G | 3 hours | 2×2 armour; +45 HP, +12 DEF |
 | Ridge Edge | 4 Drake Scales + 1 Crawler Core + 120G | 3 hours | 1×3 weapon; +10 ATK; melee, bow or caster-focus form |
-| Refinement | 3 Slime Gel + 10G | 1 hour | Shared-storage enhancement material |
 
-Each recipe yields one item. Blade/Hammer and Ridge forms are choices within one recipe, not multiplied outputs. Ridge bow counts as a bow for Arrow Case. If one person carries Arrow Case, they cannot also activate Route Map; another party member may carry the map. Crafting reserves inputs and fee at job start, supplies output on completion, and refunds both on cancellation/cutoff. Reserve queued ingredients explicitly; never silently spend a request's goods. Output and completion flag commit together.
+Each recipe yields one item. Blade/Hammer and Ridge forms are choices within one recipe, not multiplied outputs. Ridge bow counts as a bow for Arrow Case. If one person carries Arrow Case, they cannot also activate Route Map; another party member may carry the map. Crafting reserves inputs and fee at job start (12.2a; queued jobs are intentions without a material claim), supplies output on completion, and refunds both on cancellation/cutoff. A job never takes goods already reserved by a request, listing or another job. Output and completion flag commit together.
 
-Potions cost 20G from Elsie's before Commerce, then also from its counter; there is no cheaper craft-to-sale loop. Elsie sells Lures for 25G; Scout Maps cost 20G once scouting opens. These access fallbacks are available at any base. Clinic request discounts use its own persistent flag.
+The Workshop crafts **gear only**; consumables are bought in Eurydica and researched in the Frontier (6.6a). Crafted gear is a sellable good with its own market demand (12.4).
 
 ### 12.2a Workshop work order — Designed, not yet proven
 
-The Workshop uses the same model as Processing. The Commander gives Fulker one **workshop work order** that mixes crafting, enhancement and Reworking jobs (12.8). Fulker assigns each job to the highest-rated free craftsman, covers a vacant bench herself at fallback speed, and never leaves a craftsman idle while jobs wait. Inputs are reserved when a job starts, not when it's queued.
+The Workshop uses the same model as Processing. The Commander gives Fulker one **workshop work order** that mixes crafting and Reworking jobs (12.8). Fulker assigns each job to the highest-rated free craftsman, covers a vacant bench herself at fallback speed, and never leaves a craftsman idle while jobs wait. Inputs are reserved when a job starts, not when it's queued.
 
-### 12.3 Enhancement — Designed, not yet proven
+### 12.3 Enhancement — Removed (owner, 2026-09-29)
 
-Enhancement improves the adventurer's training profile permanently, not an unspecified equipment item. Each level adds 5% of base HP/ATK/DEF, additive with track percentages; no rate bonus. Adventure, rest-day order and enhancement are mutually exclusive. Show the target person's permanent result before payment. Pay sequentially; no skip to a higher level.
-
-| Destination level | Common units, one species | Refinements | Gold | Extra input | Base time | Campaign availability |
-|---|---|---|---|---|---|---|
-| 1 | 2 | 1 | 25G | None | 30 min | Eurydica |
-| 2 | 4 | 2 | 50G | None | 60 min | Eurydica |
-| 3 | 6 | 3 | 75G | None | 90 min | Frontier |
-| 4 | 8 | 4 | 100G | 1 elite-variant part, any ordinary species/quality | 120 min | Frontier |
-| 5 | 10 | 5 | 125G | 1 elite-variant part, any ordinary species/quality | 150 min | Frontier |
-
-The opening enhancement ceiling is lowered from the audit's unrestricted five levels to two, preserving +15% to +25% base-stat progression and elite-part demand for the main campaign. Preview locked uses so early elite parts still present a save-versus-sell decision. Common units must be Standard+. Cancel/cutoff returns every input and fee; no partial enhancement.
+The permanent-stat enhancement system and its Refinement material are removed. Adventurer power comes from the four tracks (6.2c), skills, equipment (12.2) and consumables for one expedition (6.6a). Refinement's role becomes the Demondrug line (6.6a). Elite parts keep their sale value and gain uses in higher-tier Frontier recipes. See `Consumables and Research Proposal.md`.
 
 ### 12.4 Commerce — Designed, not yet proven
 
@@ -1126,11 +1158,11 @@ The opening enhancement ceiling is lowered from the audit's unrestricted five le
 | Hourly maximum units bought | 1 / 2 / 3 |
 | Fee per executed sale | `max(1, ceil(gross × 0.05))` |
 
-At 07:00 extend a persistent three-day demand schedule; never reroll already generated days. A market category is a sellable processed-material item ID, shared across qualities and listings; base ID also keys the independent local demand pool. Corpses and crafted equipment use the generic walk-up channel, not hourly material demand. Each category has one potential buyer at each whole hour 08:00–20:00. On a successful buy roll, consume up to that state's quota from cheapest eligible listings, then oldest, splitting stacks as needed. Willingness to pay is `base unit value × quality multiplier × demand factor`; overpricing gets no sale. Each filled listing is one executed sale for fees. Repricing/splitting/cancelling never creates another buyer or quota.
+At 07:00 extend a persistent demand schedule covering today and the next three days (four with Deep Analysis), so every forecast reads generated demand (owner, 2026-09-29); never reroll already generated days. A market category is a sellable processed-material item ID, shared across qualities and listings; base ID also keys the independent local demand pool. Corpses use the generic walk-up channel, not hourly material demand. **Crafted gear is a market category too**, one per crafted item, with its own demand like a material; its base value is `floor((the recipe inputs' Standard base value + the craft fee) × 1.25)` (owner, 2026-09-29). Example: Boarhide Vest `(4 × 12 + 40) × 1.25 = 110G`, against 48G for its hides sold raw. Each category has one potential buyer at each whole hour 08:00–20:00. On a successful buy roll, consume up to that state's quota from cheapest eligible listings, then oldest, splitting stacks as needed. Willingness to pay is `base unit value × quality multiplier × demand factor`; overpricing gets no sale. Each filled listing is one executed sale for fees. Repricing/splitting/cancelling never creates another buyer or quota.
 
 Reserve listed stock; unsold listings persist overnight. Unsellable quality cannot be listed. If capacity falls below current listings after a Reputation penalty, leave existing listings intact but block new listings until below capacity. Example: three Standard Boar Hides at 12G each produce 36G gross, 2G fee and 34G net. Standard category expected unit capacity, before prices/stock, is 3.25 / 13 / 29.25 units per day at Low/Normal/High; these are expectations from 13 checks, not guaranteed sales.
 
-**Any-trader fallback:** available at every base with no visit schedule or volume limit. A processed unit pays `floor(0.5 × base × quality)`, no listing fee; Unsellable is not bought. Raw corpses pay half their section 10 reference value, floored. Crafted equipment resale pays 25% of its consumed materials' Standard base value, floored, excluding fees. Purchased consumables resell for at most half their actual purchase price; crafted consumables use the same material-only resale rule. Track origin/cost so refunds, clinic discounts and recipe choices cannot create a buy-sell loop.
+**Any-trader fallback:** available at every base with no visit schedule or volume limit. A processed unit pays `floor(0.5 × base × quality)`, no listing fee; Unsellable is not bought. Raw corpses pay half their section 10 reference value, floored. Crafted gear pays `floor(0.5 × its crafted base value)`. Purchased consumables resell for at most half their actual purchase price. Track origin/cost so refunds, clinic discounts and recipe choices cannot create a buy-sell loop.
 
 Reputation from sales is one per 100G cumulative net market/walk-up receipts, with remainder retained; request cash and loans do not count. Net means after sale fees but before debt sweeps. Refunds are not new receipts. Reservations prevent accidental sale of a project, request or equipped item.
 
@@ -1150,14 +1182,14 @@ Each morning show one uncompleted opportunity from discovered-region data: mater
 
 | Employee | Hire | Weekly base wage | Eligibility |
 |---|---|---|---|
-| Rowan | 250G | 90G | M02; first pair; free adventurer bed |
-| Mira | 250G | 90G | M02; first pair; free adventurer bed |
-| Aveline | 300G | 105G | Visible at M02; Annex complete; free bed |
-| Durgan | 325G | 110G | Visible at M02; Annex complete; free bed |
-| Valencia | 400G | 120G | Chapter 2, E, free bed |
-| Oren, processor | 150G | 60G | Preview at M02; Processing open and free staffed station |
-| Nessa, clerk | 150G | 60G | Information open and free clerk station |
-| Bastian, craftsman | 200G | 75G | M05 and free staffed workbench |
+| Anselm | 250G | 90G | M02; first pair; free adventurer bed |
+| Nell | 250G | 90G | M02; first pair; free adventurer bed |
+| Severa | 300G | 105G | Visible at M02; Annex complete; free bed |
+| Otto | 325G | 110G | Visible at M02; Annex complete; free bed |
+| Chloris | 400G | 120G | Chapter 2, E, free bed |
+| Konrad, processor | 150G | 60G | Preview at M02; Processing open and free staffed station |
+| Cassia, clerk | 150G | 60G | Information open and free clerk station |
+| Ulrich, craftsman | 200G | 75G | M05 and free staffed workbench |
 
 Authored candidates never vanish for being unaffordable; no random duplicates. Officers join through story for no hiring charge and have no separate payroll in this baseline. Routine staff are distinct from those officers; they use stations, not adventurer beds.
 
@@ -1167,9 +1199,9 @@ Authored candidates never vanish for being unaffordable; no random duplicates. O
 | 2 | 40 total productive operating hours + 200G | 0.85 | 1.25 |
 | 3 | Frontier reached; 100 total productive hours + 400G | 0.70 | 1.50 |
 
-Productive hours credit completed processing/crafting/enhancement work only, using actual operating duration; cancellations/aborted work earn none. Nessa earns one productive hour per morning forecast service delivered, not per category or screen opening. Retain fractional hours, total across promotions, and round the displayed weekly rank wage up to whole gold. Rank-3 staff advancement is held for the Frontier to leave service growth after the opening. Traits without explicit mechanics remain descriptive.
+Productive hours credit completed processing, crafting and Reworking work only, using actual operating duration; cancellations/aborted work earn none. Cassia earns one productive hour per morning forecast service delivered, not per category or screen opening. Retain fractional hours, total across promotions, and round the displayed weekly rank wage up to whole gold. Rank-3 staff advancement is held for the Frontier to leave service growth after the opening. Traits without explicit mechanics remain descriptive.
 
-Mae/Fulker/Liliana cover one vacant baseline station at twice base production time or the stated fallback forecast. This is the department's base recovery service, not a bond perk. Officers never double-work a station occupied by its employee. With a second table/bench, Oren/Bastian can run one and Mae/Fulker the other at fallback speed. No new anonymous worker is implied.
+Mae/Fulker/Liliana cover one vacant baseline station at twice base production time or the stated fallback forecast. This is the department's base recovery service, not a bond perk. Officers never double-work a station occupied by its employee. With a second table/bench, Konrad/Ulrich can run one and Mae/Fulker the other at fallback speed. No new anonymous worker is implied.
 
 ### 12.8 Reworking (Fulker's Workshop) *(new, owner decision 2026-09-28; designed, not yet proven)*
 
@@ -1182,7 +1214,7 @@ Fulker opens **Reworking** when she joins in Chapter 1. A craftsman combines low
 | *Master's Salvage perk only* | 3 Damaged | 1 Pristine | 6 hours |
 
 - Unsellable units can't be reworked.
-- Jobs queue in the Workshop work order (12.2a). They're affected by staff rank and Morale like other Workshop jobs, and a cutoff returns their inputs.
+- Jobs queue in the Workshop work order (12.2a). Their duration uses staff rank like other Workshop jobs; Morale does not apply (Morale affects processing only, 13.2). A cutoff returns their inputs.
 - The perk *Rough Patch* halves the time but allows Mend only (up to Standard).
 
 **Why it's worth doing:** in gold, Reworking breaks even at best (2 Damaged are worth 1 Standard) or loses value (2 Standard are worth more than 1 Pristine). Its value is **access**:
@@ -1198,17 +1230,18 @@ Start with two adventurer beds and service corners opened free by their story in
 
 | Upgrade | Preview / prerequisite | Cost / calendar duration | Effect |
 |---|---|---|---|
-| Dorm Annex | Preview at founding with Aveline and Durgan; first hunt returned | 600G + 6 Standard+ Boar Hides / 24 hours | Beds 2→4 |
-| Larger Dorm | Preview at E; Annex + E | 1,000G + 8 Standard+ Wolf Pelts / 48 hours | Beds 4→5, room for Valencia |
+| Dorm Annex | Preview at founding with Severa and Otto; first hunt returned | 600G + 6 Standard+ Boar Hides / 24 hours | Beds 2→4 |
+| Larger Dorm | Preview at E; Annex + E | 1,000G + 8 Standard+ Wolf Pelts / 48 hours | Beds 4→5, room for Chloris |
 | Second Processing Table | Processing open; 10 corpses completed | 350G + 2 Standard+ Boar Hides / 24 hours | 2 simultaneous processing stations |
-| Second Workbench | Fulker joined; E | 600G + 4 Standard+ Crawler Plates / 24 hours | 2 craft/enhancement stations; materials visibly require Redstone |
+| Second Workbench | Fulker joined; E | 600G + 4 Standard+ Crawler Plates / 24 hours | 2 Workshop stations; materials visibly require Erythra |
 | Trading Shelves | Valerie joined | 300G + 4 Standard+ Boar Hides / 24 hours | +2 listing slots |
+| Officers' Quarters II | Valerie, Fulker and Liliana all joined | 500G + 4 Standard+ Boar Hides / 24 hours | A second shared officers' room for Valerie, Liliana and Fulker; they move in and keep their evening routines at the Guild house |
 
 Larger Dorm gives five beds rather than the audit's six; only five adventurers are authored for Eurydica. More beds and a roster beyond those five belong to the Frontier. No implicit sixth recruit. Four people can run a three-person hunt plus one scout, or two modest two-person hunts; two safe boar teams are not promised. Simultaneous operations have no extra slot currency.
 
 One construction job at a time; consume quoted inputs at start, complete through calendar time including night, and refund fully on cancellation before completion. No duplicate upgrade or recurring upkeep. Apply capacity at the completion tick; update room visuals at the next safe transition. Optional HQ spending is blocked while debt is overdue, not ordinary income-producing dispatch/material processing.
 
-**Frontier scaling:** higher gear tiers beyond Boarhide/Reed/Ridge, enhancement 3–5, staff rank 3, more beds/workstations and a larger authored roster. Purchased capacities carry over; no second payment for the same beds. Retain honest local demand and request-owned benefits rather than a travelling-merchant dependency.
+**Frontier scaling:** higher gear tiers beyond Boarhide/Reed/Ridge, consumable tiers 2–5 from the Research Department, staff rank 3, more beds/workstations and a larger authored roster. Purchased capacities carry over; no second payment for the same beds. Retain honest local demand and request-owned benefits rather than a travelling-merchant dependency.
 
 ## 13. Closeout, payroll and Guild progression — Proven (screens); Designed, not yet proven (accounting)
 
@@ -1242,9 +1275,9 @@ Start at 07:00 with 2,500G, 0 Reputation, 60 Morale and Guild Rank F. Reputation
 
 | Promotion | Required Reputation | Gold charge | Unlock |
 |---|---|---|---|
-| F→E | 200 | 300G | Amber Marsh; Valencia's rank gate |
-| E→D | 700 | 700G | Redstone; 5×4 packs |
-| D→C | 1,500 | 1,500G | Eurydica charter rank condition |
+| F→E | 200 | 300G | Bernmoor; Chloris's rank gate |
+| E→D | 700 | 700G | Erythra; 5×4 packs |
+| D→C | 1,500 | 1,500G | The opening act's rank target (no longer a move condition; 16a) |
 | C→B | 3,000 | 3,000G | Frontier only; 5×5 packs; higher facility/gear tier access |
 | B→A | 6,000 | 6,000G | Frontier only; next facility/gear tier access |
 | A→S | 12,000 | 12,000G | Frontier only; highest Guild standing/tier access |
@@ -1253,11 +1286,11 @@ B/A/S thresholds and fees continue the opening curve as unproven starting values
 
 Gold/XP/Rep rewards are committed once with their event ID. Sources are hunt/contract corpses, successful scouts, completed requests/contracts/flashpoints, and cumulative net sales. An accepted optional failure debits 10 once; story failures do not. Refunds, exchanges and borrowing do not manufacture sales Reputation.
 
-Starting-cash example: Rowan + Mira + Oren cost 650G, leaving 1,850G. Four initial adventurers plus three rank-1 workers cost 1,625G and 590G/week; adding the 600G Annex leaves 275G before earnings, below that full weekly bill. This is a warning to stage investment, not a claim that hiring everyone immediately is viable. It excludes Valencia and the Larger Dorm.
+Starting-cash example: Anselm + Nell + Konrad cost 650G, leaving 1,850G. Four initial adventurers plus three rank-1 workers cost 1,625G and 590G/week; adding the 600G Annex leaves 275G before earnings, below that full weekly bill. This is a warning to stage investment, not a claim that hiring everyone immediately is viable. It excludes Chloris and the Larger Dorm.
 
 ### 13.4 Debt and the Eurydica charter — Designed, not yet proven
 
-**Eurydica charter complete** requires Guild Rank C, Crownstone's Chapter 4 flashpoint cleared, and zero debt. Record this once; later debt does not erase the milestone. Continue play into Chapter 5 and the Chapter 6 relocation. There are no credits, forced stop or fixed day limit here.
+**The Eurydica charter** is now the Alliance appointment (14, 16a; owner, 2026-09-29): it follows the Crownstone flashpoint, with no rank or debt condition. Debt still blocks the **departure** until it is repaid. There are no credits, forced stop or fixed day limit here.
 
 | Recovery rule | Value |
 |---|---|
@@ -1278,21 +1311,22 @@ Services open through once-only event predicates, not fixed days or mandatory nu
 
 | Milestone / event | Predicate | Result |
 |---|---|---|
-| M02 | Chapter 1 arrival walk complete; returned to Tristitia for the 14:00 meeting; recruitment scene acknowledged | Rowan/Mira hiring, Aveline/Durgan/Annex preview; CH1-REQ-001/002 offers |
+| M02 | Chapter 1 arrival walk complete; returned to Tristitia for the 14:00 meeting; recruitment scene acknowledged | Anselm/Nell hiring, Severa/Otto/Annex preview; CH1-REQ-001/002 offers |
 | M03 | M02; at least one hire; Elsie's dispatch explanation acknowledged | Hunting; Mae's baseline Processing opens alongside it |
-| M06 | First hunt returned, including a safe recall; Elsie's scouting introduction acknowledged | Scouting independent of M05; Scout Map fallback |
+| M06 | Opens with M03 (owner, 2026-09-30: Elsie suggests hunting and scouting together in Scene 5) | Scouting, from the first expedition; Scout Map fallback |
 | M05 / Fulker joins | Boar material seen in inventory or a discovered material-source card; speak to Fulker | Crafting officer joins in Chapter 1; Workshop corner works immediately |
-| Valerie joins | First sale OR first request completed; joining scene acknowledged | Commerce officer joins in Chapter 1; trading counter |
+| Valerie joins | The Guild reaches **400 Reputation** (owner, 2026-09-30; Scene 6); joining scene acknowledged | Commerce officer joins in Chapter 1; trading counter |
 | Liliana joins | First scouting return; joining scene acknowledged | Information officer joins in Chapter 1; Information corner works immediately |
 | M08 | First ordinary hunt fight won; Tristitia's contract explanation acknowledged | Optional contracts subject to individual gates |
-| Service Lanes access | M02 completed; next free city exploration | Marta/clinic request conversations accessible during Chapter 1 |
+| Service Lanes access | M02 completed; next free city exploration | Hilde/clinic request conversations accessible during Chapter 1 |
 | Chapter 1 completion | Commerce, Crafting and Information officers joined; player elects chapter conclusion | Enter Chapter 2; review unaccepted local offers first |
-| Chapter 3 entry | Chimera cleared; next chapter scene acknowledged | Ambermaw chapter, subject to its rank/Rep gates |
-| Chapter 4 entry | Ambermaw cleared; next chapter scene acknowledged | Crownstone chapter, subject to its rank/Rep gates |
-| Chapter 5 entry | Eurydica charter complete; transition chapter scene acknowledged | Readiness and relocation preparation |
-| Chapter 6 departure | Chapter 5 transition introduction complete; charter flag; no debt; move conditions in 16a met; player elects move | Transfer to Frontier |
+| Ambermaw offer | Chimera cleared (Chapter 2); its scene acknowledged | Ambermaw flashpoint, subject to its rank/Rep gates |
+| Crownstone offer | Ambermaw cleared (Chapter 2); its scene acknowledged | Crownstone flashpoint, subject to its rank/Rep gates |
+| The envoy (end of Chapter 2) | 3 calendar days after the Crownstone flashpoint is cleared *(starting value)*; envoy scene acknowledged. No rank or debt condition | An Alliance envoy summons the Commander to the Civic Terrace |
+| The Alliance appointment | Envoy scene complete; Civic Terrace meeting with the leaders of the nations acknowledged | The Alliance of Nations, impressed by the Guild, appoints it the **sole institution that verifies information** and charges it to open the Frontier. Verification authority starts now. The move unlocks |
+| Chapter 3 departure | Appointment complete; move conditions in 16a met; player elects the day | Transfer to the Frontier; Chapter 3 begins on arrival |
 
-The three officers may join in any eligible order; none is drawn from recruitment and none requires another officer's bespoke request. The morning-only proof does not establish that all services operate on campaign Day 1. Chapter 1 previews Frontier reports lightly; verification authority is not granted early. Chapter 7 may introduce that authority through its authored scene without moving the physical relocation out of Chapter 6.
+The three officers may join in any eligible order; none is drawn from recruitment and none requires another officer's bespoke request. The morning-only proof does not establish that all services operate on campaign Day 1. Chapter 1 previews Frontier reports lightly; verification authority is not granted early. The Alliance grants it at the Civic Terrace appointment at the end of Chapter 2 (owner, 2026-09-29); the physical relocation stays at the start of Chapter 3.
 
 **Frontier scaling:** later chapters bind new content to persistent predicates, using the same once-only event/reward contract. Scenes and cast are content to author, not unspecified service logic.
 
@@ -1302,7 +1336,7 @@ Management screens pause, show the owning officer and return to their previous n
 
 | Screen / owner | Minimum data and behaviour | Status |
 |---|---|---|
-| Top bar | Day, time, Guild purse, Reputation, Morale, Rank; orange from 19:00; speed controls and Battle pace chip | Proven layout; revised copy designed |
+| HUD cluster (top left) | Day, time, Guild purse, Reputation, Morale, Rank; orange from 19:00; speed controls and Battle pace chip. Grouped around a clock medallion in the top-left corner (FGC_08 §5.1; owner 2026-09-28), replacing the full-width top bar | Designed, not yet proven |
 | Adventurer Office / Elsie | Event dialogue, New Expedition, Ongoing, Roster, Progression, Rest; show readiness and payroll exposure | Proven shell; new actions designed |
 | Roster / Elsie | Name, portrait, fixed passive, reach, HP, four stamina bars, primary state and fatigue overlay; inspect/hire route/rest order | Proven shell; state details designed |
 | Progression / Elsie | All four tracks, available/lifetime XP and campaign cap, every milestone, selected slots, interval ticks, stat deltas; batch Buy/Rebuild/Cancel | Designed, not yet proven |
@@ -1315,7 +1349,7 @@ Management screens pause, show the owning officer and return to their previous n
 | HQ / Building Map | Current rooms, beds/stations, named waiting recruits, full quote, prerequisite and completion time; Preview/Build/Cancel | Designed, not yet proven |
 | Request Board / Tristitia | Hidden excluded; Offered/Accepted/history, client, deadline, exact goods, owned/listed/reserved, full reward/benefit, exchange and courier access; Accept/Reserve/Deliver/Decline | Designed, not yet proven |
 | Processing / Mae | Corpse ID, output/quality odds, worker, queue, finish time and cutoff warning; Queue/Reorder/Cancel | Designed, not yet proven |
-| Workshop / Fulker | All recipe previews, sources, footprints, stats, enhancement target/campaign locks, queue, inputs/fee and finish; Reserve/Craft/Enhance/Cancel | Designed, not yet proven |
+| Workshop / Fulker | All recipe previews, sources, footprints, stats, queue, inputs/fee and finish; Reserve/Craft/Rework/Cancel | Designed, not yet proven |
 | Information / Liliana | Dated forecasts/confidence, prior actual demand, known source links and unverified leads; inspect without reroll | Designed, not yet proven |
 | Commerce / Valerie | Available/reserved stock, slots, price, demand, fee/net and debt-sweep preview, shared buyer explanation; List/Reprice/Withdraw/Walk-up sale | Designed, not yet proven |
 | Recruitment / Elsie; staff department | Eligible named candidates and former staff, original hire/arrears, bed/station, coming bill; Hire/Rehire, no random refresh purchase | Designed, not yet proven |
@@ -1349,25 +1383,25 @@ Elsie's preparation screen can save two named formation/loadout templates. Apply
 
 ## 16a. Campaign structure and the Frontier — Designed, not yet proven
 
-Eurydica, Chapters 1–5, is the short opening act. Its target is the first complete Guild routine: adventurers' strongest tracks around 5–6, Guild Rank C, and a first crafted set from Boarhide, Reed and Ridge tiers. The Frontier, Chapter 6 onward, is the main body. Advancing the story never requires exhausting all opening side requests, charting every area or reaching an XP cap.
+Eurydica, Chapters 1–2, is the short opening act (owner decision, 2026-09-28: Chapter 1 recruits the officers; Chapter 2 holds all three flashpoints: Chimera, then Ambermaw, then Crownstone). Its target is the first complete Guild routine: adventurers' strongest tracks around 5–6, Guild Rank C, and a first crafted set from Boarhide, Reed and Ridge tiers. The Frontier, Chapter 3 onward, is the main body. Advancing the story never requires exhausting all opening side requests, charting every area or reaching an XP cap.
 
-The charter condition is Rank C + Chapter 4 flashpoint + no debt. Chapter 5 is readiness/transition, not a fourth Eurydica flashpoint. After its introduction, the player chooses when to move; there is no calendar deadline.
+**The move is story-driven** (owner, 2026-09-29). A few days after the Crownstone flashpoint (3 calendar days, a starting value), an Alliance envoy summons the Commander to Eurydica's Civic Terrace. There the leaders of the nations, impressed by the Guild, appoint it the sole institution that verifies information and charge it with opening the Frontier. Rank C stays the opening act's target, not a gate. Chapter 2 ends with that appointment, not a fourth flashpoint. After it, the player chooses the day to leave; there is no calendar deadline.
 
 | Transfer rule | Contract |
 |---|---|
-| Price / duration | 1,500G / 48 calendar hours; arrival time is departure time plus 48 hours |
-| Preconditions | Chapter 5 introduction complete, charter recorded, no current debt, fee affordable; no active expedition or construction job |
+| Price / duration | Paid by the Alliance (no fee) / 48 calendar hours; arrival time is departure time plus 48 hours |
+| Preconditions | Alliance appointment complete, no current debt; no active expedition or construction job |
 | Before confirmation | Finish/recall expeditions; finish/cancel construction; settle/cancel production and refund unfinished inputs/fees; cancel listings and return stock; show payroll dates/amounts during travel |
 | Payroll | Calendar days and payroll boundaries advance; pause transfer for ordinary payroll allocation if necessary; no guaranteed paid wages hidden in the fee |
 | Request timers | Accepted timed deliveries freeze with their exact remaining hours for transfer only; resume at arrival; no automatic success or extra reward |
 | Other clocks | Injury and debt advance; two crossed nights give one sleep bar each to employed adventurers, capped at four; no automatic rest-day order or transfer rest bonus |
 | Local operations | No hunts, scout intervals, production, buyers or new local recurring offers during transfer |
-| Carryover | Purse after expenses, Reputation, Morale, rank, employees/former staff, accrued wages/arrears, XP/builds, enhancement, gear, inventory, requests/contacts and story/discovery flags |
+| Carryover | Purse after expenses, Reputation, Morale, rank, employees/former staff, accrued wages/arrears, XP/builds, gear, consumables, inventory, requests/contacts and story/discovery flags |
 | HQ at arrival | Carry purchased bed/station/listing capacity; same operational services; never sell the same capacity again |
 
-Expeditions must resolve before departure; accepted optional combat contracts not attempted keep their deadlines and can expire normally. Unaccepted timed offers also continue to expire. The confirmation identifies them separately from protected accepted deliveries. Accepted Eurydica deliveries remain fulfillable through a relocation courier in their request panel, even without Hollis's local unlock; it is transfer protection, not a new remote market. Pause local recurring-customer timers as specified in 11.2. During transfer, heal healthy people by elapsed idle hours and process injury expiry exactly; no simulated successful-operation or idle-rest Morale bonuses. Actual payroll effects still apply. Show any transfer ledger changes on arrival. Resume paused at the arrival clock time; no second night credit.
+Expeditions must resolve before departure; accepted optional combat contracts not attempted keep their deadlines and can expire normally. Unaccepted timed offers also continue to expire. The confirmation identifies them separately from protected accepted deliveries. Accepted Eurydica deliveries remain fulfillable through a relocation courier in their request panel, even without Jeb's local unlock; it is transfer protection, not a new remote market. Pause local recurring-customer timers as specified in 11.2. During transfer, heal healthy people by elapsed idle hours and process injury expiry exactly; no simulated successful-operation or idle-rest Morale bonuses. Actual payroll effects still apply. Show any transfer ledger changes on arrival. Resume paused at the arrival clock time; no second night credit.
 
-The first Frontier area opens at 0% exploration with the same three ordinary species, three landmarks and two paths, plus one initial rare lead available to discover. Its names, monsters and scenes are content to author, not placeholders promoted to canon. Initial scouting risk is 2% per half-hour, no death; local hunts/scouts remain at most three hours. Once a path is discovered and one hunt successfully returns from its selected route, set its surveyed-route flag. The path's −5-minute search benefit applies once, never again for verification; use the existing search floor. The new-area route data can distinguish resource-rich and safer paths. Until Chapter 7's authority scene, call this “surveyed,” not “Guild Verified.”
+The first Frontier area opens at 0% exploration with the same three ordinary species, three landmarks and two paths, plus one initial rare lead available to discover. Its names, monsters and scenes are content to author, not placeholders promoted to canon. Initial scouting risk is 2% per half-hour, no death; local hunts/scouts remain at most three hours. Once a path is discovered and one hunt successfully returns from its selected route, set its surveyed-route flag. The path's −5-minute search benefit applies once, never again for verification; use the existing search floor. The new-area route data can distinguish resource-rich and safer paths. The Guild already holds verification authority on arrival, so a surveyed route can be recorded as **Guild Verified**.
 
 Each base has its own demand pool. Eurydica exploration, discoveries, characters and contacts stay in the save/journal, but the inactive base produces nothing and makes no automatic sales. This is not a second autonomous HQ or caravan simulation. Transfer consumes no one and resets no progression. Ordinary manual saves remain available during transfer checkpoints, including payroll.
 
@@ -1377,7 +1411,7 @@ Each base has its own demand pool. Eurydica exploration, discoveries, characters
 |---|---|---|
 | Adventurer progression | Track ≤6; lifetime XP ≤3,000 | Track ≤10; lifetime XP ≤12,000; rank-2 milestones at 8 |
 | Guild Rank | F–C | B/A/S thresholds and fees in 13.3 |
-| Equipment | First Boarhide/Reed/Ridge set; enhancement ≤2 | Higher authored tiers; enhancement 3–5 and elite-part spending |
+| Equipment and consumables | First Boarhide/Reed/Ridge set; tier-1 consumables (bought) | Higher authored gear tiers; consumable tiers 1–5 from the Research Department; elite-part recipes |
 | Capacity and people | 2→4→5 beds; five authored adventurers | Additional beds, larger authored roster and new kits; purchased beds persist |
 | Staff | Ranks 1–2 | Rank 3, retained productive hours and promotions |
 | Backpack | Up to 5×4 | 5×5 at B/A/S |
@@ -1432,8 +1466,8 @@ Difficulty changes take effect at the next 07:00 boundary. Apply to new injury t
 1. Author the Frontier's named areas, route descriptions, landmarks and material-source text using the settled area schema.
 2. Author Frontier ordinary monsters, rares, bosses, higher gear recipes and later capacity rewards within the settled progression gates.
 3. Author the additional Frontier adventurers, residents and supporting cast, their identities, kits, portraits, sprites and dialogue.
-4. Write the Chapter 1 officer introductions and request aftermath, the eight optional contract scenes, Chapters 2–5 flashpoint/transition scenes, and Chapter 6 onward's arrival, authority and later campaign scenes.
-5. Complete the remaining Eurydica character and monster visual content for the fixed roster and kit: Rowan/Mira first, then Aveline/Durgan; Moss Slime/Forest Wolf, then Chimera/Blackfang and later-area creatures. These are production assets, not unresolved recruitment, weapon, camera or progression decisions.
+4. Write the Chapter 1 officer introductions and request aftermath, the eight optional contract scenes, Chapter 2's three flashpoint arcs and transition beat, and Chapter 3 onward's arrival, authority and later campaign scenes.
+5. Complete the remaining Eurydica character and monster visual content for the fixed roster and kit: Anselm/Nell first, then Severa/Otto; Moss Slime/Forest Wolf, then Chimera/Blackfang and later-area creatures. These are production assets, not unresolved recruitment, weapon, camera or progression decisions.
 
 No unresolved numeric system rule is parked here. Balance values throughout remain starting values for an integrated proof; that validation status is not an unanswered design question.
 
@@ -1446,6 +1480,42 @@ No unresolved numeric system rule is parked here. Balance values throughout rema
 
 | Date | Change |
 |---|---|
+| 2026-09-29 | **The move to the Frontier is story-driven** (14, 16a): 3 days after Crownstone an Alliance envoy summons the Commander to the Civic Terrace; the Alliance of Nations appoints the Guild the sole institution that verifies information and pays for the move (no 1,500G fee). Verification authority starts at the appointment. Rank C is no longer a gate; the player still picks the departure day and must have no debt. |
+| 2026-09-29 | **Bonds are capped at level 1 in Eurydica** (5.4); banked points carry over to the Frontier under the weekly limit. |
+| 2026-09-29 | Owner decisions after S2: **enhancement removed** (12.3; Refinement becomes the Demondrug line); **consumables** made a heavy expedition requirement, tier 1 bought in Eurydica (new 6.6a: Potion, Demondrug, Armorskin, Lure, Map), tiers 1–5 from a Frontier Research Department; the Workshop crafts gear only; **crafted gear** gets market demand per item at (inputs + fee) × 1.25; abandoned or failed repeats return after 2 days; the demand schedule covers today + 3 days; the Negotiation gold bonus rounds down. |
+| 2026-09-28 | UI finish locked from style test v5 (owner): fonts Cormorant Garamond SemiBold + Alegreya with lining figures, all-caps card headers; the 2.5 colour tokens stay (parchment and navy); the FGC_08 §2.2 tier and layer model; the owner's watermark emblem. |
+| 2026-09-28 | UI decisions from FGC_08 (owner): the top bar becomes a top-left HUD cluster around a clock medallion (§15); the battle HUD party row becomes a semi-transparent card column on the right, and the battle log moves to the bottom left (§9). Processing odds stay visible as §12.1/§15 say, so the rank-3 Know-how ability **Trained eye** becomes a passive: processing never produces Unsellable, and that chance moves to Damaged (§5a.2, §5.4 perk arithmetic). |
+| 2026-09-28 | Officers' full names recorded: Tristitia Fidei, Elsie Rodger, Mae Tanner, Sigrid Fulker (nameplate Fulker), Liliana Kessel, Valerie Kaufmann. The buyer Florian Zell is renamed **Dietrich Vogt**. |
+| 2026-09-28 | The **clock tower** moves to the centre of the Civic Terrace as the north-bank landmark. It rings at 09:00, 12:00, 15:00 and 18:00 outdoors in Eurydica (4.3). |
+| 2026-09-28 | **Names replaced** (owner-approved; see `Naming Guide.md`). Older change-log rows were renamed too.
+- **Adventurers:** Anselm Voigt, Nell Larkin, Severa Kaltenbach, Otto Grimbald.
+- **Staff:** Konrad Metzler, Cassia Susurra, Ulrich Esser. **First mage:** Chloris Linde.
+- **NPCs:** Jeb (stables), Hilde (food shop), Gerd (Repair & Supply), Dr. Emmerich (clinic).
+- **Buyers:** Dietrich Vogt, Reinhold Eisenmann, Lady Isabeau de Chamerolles (House Chamerolles), Captain Josie Harlan.
+- **Regions:** Hylaea Forest, Bernmoor, Erythra Highlands.
+
+Internal IDs are unchanged. |
+| 2026-09-28 | **Otto redesign:**
+- Full plate armour, a closed helmet and a two-handed warhammer, with no shield and no later shield outfit.
+- His passive **Ironclad** (+20% DEF in the front row, immune to stun) replaces Shieldbearer.
+- His traits are now Unshakable and Heavy-handed.
+- His skill is renamed **Hammerfall**, with the same effect.
+- **Facade finish decided:** storybook walls (style-test A) with detailed-texture roofs (B). |
+| 2026-09-28 | **District swap:**
+- The Guild house district moves beside the South Gate and is renamed **Guild Edge** (was Company Edge).
+- The lodging house and cart yard move to the old spot between the gate and the Market Spine, keeping the name Arrival Ward.
+- Jeb's stables and the guard shelter stay at the gate.
+- The arrival route is now Outskirts → South Gate → Guild Edge → Arrival Ward → Market Spine.
+
+**Rooms:** the Tier 1 Guild house has one shared officers' room (Tristitia, Mae, Elsie) from the start. The new HQ upgrade *Officers' Quarters II* (Valerie, Liliana, Fulker) comes after all three have joined. Roof colours are a guide by building group: green for businesses and public buildings, plum for homes (including the Guild house), brown for work buildings, warm red for Service Lanes and old homes. |
+| 2026-09-28 | Fixes from the implementation-spec review:
+- **Workshop inputs** are reserved when a job starts (12.2 matches 12.2a).
+- **Reworking** ignores Morale (Morale is processing only).
+- **Perk arithmetic** is defined (faster means duration × (1 − X); relative Pristine is taken from Standard).
+- **Bond points** have starting values: talk or meal +1, sessions by grade, levels at 5/12/20/30/42.
+- **The fixed quality roll** is read against the final odds table at completion.
+- **Minigame tuning numbers** come from the M3 prototypes. |
+| 2026-09-28 | **Eurydica is 2 chapters.** Chapter 1 recruits the officers. Chapter 2 holds all three flashpoints in order (Chimera, Ambermaw, Crownstone) and ends with the transition beat. The Frontier starts at Chapter 3 (the move). Guild Verified authority comes in a later Frontier chapter. Scene scripts follow `Game Design/Scene Script Format.md`. |
 | 2026-09-28 | Every monster has **one skill**, fired through the attacker meter on every fifth action, with a skill budget by tier (9.3b). Ordinary monsters get a Skill still. Monster candidates are made in `D:/Codex/IMC/<Monster>/`, and only approved stills go to `Enemy Sprites/`. |
 | 2026-09-28 | **v2.1.1.** Processing and the Workshop use **work orders**: Mae and Fulker assign jobs to the highest-rated free worker, with no idle workers (12.1, 12.2a). New **Reworking** mechanic at Fulker's Workshop (12.8). Bond 5 perks revised (Valerie, Elsie, Fulker's Rough Patch / Master's Salvage) and visible in officer profiles from the start (5.4). Valerie's session is a daily **negotiation order** drawn from storage, with the buyer roster in `Characters/Negotiation Buyers Roster.md`. Cross-check credits Papers, Please. **Region tags** (16a.1). Dialogue staging approved (2.6). Fulker is a woman. |
 | 2026-09-27 | **v2.1.** Renamed Frontier Guild Chronicle; "Guild" in player-facing text. Operations run 07:00–20:00, then night and sleep (4.2). Stamina: +1 overnight, a rest order restores it fully. The Commander has skills grown through officer working sessions (5a) and hunger as a status. Officer bonds end in one permanent trade-off perk at Bond 5 (5.4). Romance lives in the Frontier and excludes officers (5b). The chimera is the Chapter 2 flashpoint; all three officers join in Chapter 1; Rank C is the "Eurydica charter", not victory. The Codex audit's economy is adopted as starting values: materials, recipes, market, staff, HQ, requests, saves and difficulty. The "Tomorrow I want to" hooks are added. The Frontier is the main body (16a). Dialogue staging decided (2.6). The Godot target is a new clean project (16). |
@@ -1453,17 +1523,17 @@ No unresolved numeric system rule is parked here. Balance values throughout rema
 | 2026-09-27 | Proof 4 version 2: Codex-painted facades, curved roofs, arched gatehouse, painted props; camera heading left open for the owner. |
 | 2026-09-27 | Proof 4 built and published: explorable Eurydica grey-box (Chapter 1 Scene 3). The town camera and cutaway are decided. Town dialogue follows the manuscript, and requests unlock only on the offer branch. |
 | 2026-09-27 | v2.0 created from the v1.1 GDD and the balance sheet. Added: HD-2D direction, four-direction sprites, battle presentation and party HUD, battle pace, 1–3 monster groups, scouting finds, landmarks, hidden paths, rare targets, scout risk, field view and search walk, region knowledge and field map. Scouting slowed from 5% to 2% per half-hour. |
-| 2026-09-27 | Elsie decided: longsword with Yoshimitsu-like kicks and punches; her skill becomes Hateful Slash (provoke). Aveline takes the greatsword (shorter than full body length) and her specialty becomes Warden. |
+| 2026-09-27 | Elsie decided: longsword with Yoshimitsu-like kicks and punches; her skill becomes Hateful Slash (provoke). Severa takes the greatsword (shorter than full body length) and her specialty becomes Warden. |
 | 2026-09-27 | Elsie's greatsword dropped; her weapon is either the spear and short sword or a longsword with Yoshimitsu-like mixed fighting (recommended). |
 | 2026-09-27 | Turns: one fighter acts at a time through a readiness queue; attacks take 24 company seconds and skills 72, with a push-in cinematic and a banner for skills. |
 | 2026-09-27 | Environment style decided: painted (briefs updated to skip the 8×8 snap). Near trunks scroll with the walk and frame each fight. Proof 4 plan agreed (scope, camera, building method, story fixes). Roster of the starting adventurers and staff written: `Characters/Adventurers and Staff Roster.md`. |
-| 2026-09-27 | Denser Mosswood assembly after the owner's concept (tree line, framing trunks, near foreground band); a pixel-art / painted switch in the proof; the region briefs revised for pixel density, density and two new sheets. |
-| 2026-09-27 | The approved Mosswood environment set replaces the placeholder clearing in the field view (hunt search walk, battles, scout walk). |
+| 2026-09-27 | Denser Hylaea assembly after the owner's concept (tree line, framing trunks, near foreground band); a pixel-art / painted switch in the proof; the region briefs revised for pixel density, density and two new sheets. |
+| 2026-09-27 | The approved Hylaea environment set replaces the placeholder clearing in the field view (hunt search walk, battles, scout walk). |
 | 2026-09-27 | Balance: group chances raised (slime 60%, boar 45%, wolf 70%); monster HP ×3 and ATK ×0.7 in every area, chosen by simulation (fights about 3× longer, 3× more skills, no wipes for a normal party); kill experience is a fixed value per monster. |
-| 2026-09-27 | The operations proof now has the skill meter, the four signature skills, variants (8%, the rust boar recolour for the Dire Boar) and experience earning. Drafted milestone modifiers for Aveline, Rowan and Durgan, the experience numbers (100 × level costs, 12,000 cap), and Valencia as the proposed first mage (Verdant Blessing). |
-| 2026-09-27 | Signature skills: Diving Splitter (Aveline), Phalanx (Rowan), Frost Arrow (Mira), Shield Slam (Durgan). Progression: four tracks (Power, Toughness, Speed, Focus) bought with experience at rising cost, BattleTech style; level 5 and 8 milestones modify the signature skill, with at most two rank 1 and one rank 2 modifiers per adventurer. Replaces v1.1's skill points. |
+| 2026-09-27 | The operations proof now has the skill meter, the four signature skills, variants (8%, the rust boar recolour for the Dire Boar) and experience earning. Drafted milestone modifiers for Severa, Anselm and Otto, the experience numbers (100 × level costs, 12,000 cap), and Chloris as the proposed first mage (Verdant Blessing). |
+| 2026-09-27 | Signature skills: Diving Splitter (Severa), Phalanx (Anselm), Frost Arrow (Nell), Shield Slam (Otto). Progression: four tracks (Power, Toughness, Speed, Focus) bought with experience at rising cost, BattleTech style; level 5 and 8 milestones modify the signature skill, with at most two rank 1 and one rank 2 modifiers per adventurer. Replaces v1.1's skill points. |
 | 2026-09-27 | Skill meter under the HP bar, filled by role (attackers by hitting, defenders by being hit, mages over time). Variants: bigger and recoloured, HP ×1.5, ATK/DEF ×1.25, 8% per monster, better experience, variant corpses with a small elite-part library. |
 | 2026-09-27 | Monster tiers: Ordinary, or Elite (rare, variant, boss); Big Game Hunter applies to all Elites. Support adventurers are mage types in the back row with heal, buff, debuff or attack skills. |
-| 2026-09-27 | Durgan keeps Shieldbearer (future shield and one-handed hammer build). Unpaid wages: the staff member leaves but can always be rehired as Former staff for unpaid wages + original hiring cost; the emergency loan trigger is reworded. |
+| 2026-09-27 | Otto keeps Shieldbearer (future shield and one-handed hammer build). Unpaid wages: the staff member leaves but can always be rehired as Former staff for unpaid wages + original hiring cost; the emergency loan trigger is reworded. |
 | 2026-09-27 | Front and back rows (3 + 3 slots, up to 5, at least 1 in front), enemies spread over the front row, melee in the back −50%; the operations proof now uses the real starters and their passives. |
-| 2026-09-27 | Nobody is permanently lost: no death, no quitting over wages (6.4a). Passives: Shieldbearer (Rowan, Durgan), Big Game Hunter (Aveline); monster tiers added. Scout risk tuning deferred until Mosswood is complete; its death column removed. Recolourable recruits saved as a later idea. |
+| 2026-09-27 | Nobody is permanently lost: no death, no quitting over wages (6.4a). Passives: Shieldbearer (Anselm, Otto), Big Game Hunter (Severa); monster tiers added. Scout risk tuning deferred until Hylaea is complete; its death column removed. Recolourable recruits saved as a later idea. |

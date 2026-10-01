@@ -1,0 +1,55 @@
+{
+  "id": "oren",
+  "region": "eurydica",
+  "rev": 1,
+  "name": "Konrad",
+  "gdd": [
+    "12.6"
+  ],
+  "authoring_status": "specified",
+  "missing_fields": [],
+  "role": "processor",
+  "hire_g": 150,
+  "weekly_wage_g": 60,
+  "station_kind": "processing_table",
+  "gate": {
+    "all": [
+      {
+        "fact": "processing_open",
+        "cmp": "eq",
+        "value": true
+      },
+      {
+        "fact": "free_processing_stations",
+        "cmp": "gte",
+        "value": 1
+      }
+    ]
+  },
+  "ranks": [
+    {
+      "rank": 1,
+      "productive_hours": 0,
+      "promotion_g": 0,
+      "duration_factor": 1,
+      "wage_factor": 1,
+      "requires_frontier": false
+    },
+    {
+      "rank": 2,
+      "productive_hours": 40,
+      "promotion_g": 200,
+      "duration_factor": 0.85,
+      "wage_factor": 1.25,
+      "requires_frontier": false
+    },
+    {
+      "rank": 3,
+      "productive_hours": 100,
+      "promotion_g": 400,
+      "duration_factor": 0.7,
+      "wage_factor": 1.5,
+      "requires_frontier": true
+    }
+  ]
+}

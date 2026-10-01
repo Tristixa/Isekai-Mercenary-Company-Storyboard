@@ -1,0 +1,127 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "repeat_order.schema.json",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "region": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "rev": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "gdd": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "authoring_status": {
+      "enum": [
+        "specified",
+        "incomplete"
+      ]
+    },
+    "missing_fields": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "source_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "client_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "unlock_request_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "inputs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "item_id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+          },
+          "quantity": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "min_quality": {
+            "enum": [
+              "unsellable",
+              "damaged",
+              "standard",
+              "pristine"
+            ]
+          }
+        },
+        "required": [
+          "item_id",
+          "quantity",
+          "min_quality"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "reward": {
+      "$ref": "shared.schema.json#/$defs/reward"
+    },
+    "wait_seconds": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "wait_origin": {
+      "const": "previous_completion"
+    },
+    "max_outstanding": {
+      "const": 1
+    },
+    "deadline_seconds": {
+      "type": "null"
+    },
+    "inactive_policy": {
+      "const": "suspend_offer_and_remaining_wait"
+    }
+  },
+  "required": [
+    "id",
+    "region",
+    "rev",
+    "name",
+    "gdd",
+    "authoring_status",
+    "missing_fields",
+    "source_id",
+    "client_id",
+    "unlock_request_id",
+    "inputs",
+    "reward",
+    "wait_seconds",
+    "wait_origin",
+    "max_outstanding",
+    "deadline_seconds",
+    "inactive_policy"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,31 @@
+{
+  "id": "eur_wo_001",
+  "region": "eurydica",
+  "rev": 1,
+  "name": "Hilde's supply repeat",
+  "gdd": [
+    "11.2"
+  ],
+  "authoring_status": "specified",
+  "missing_fields": [],
+  "source_id": "EUR-WO-001",
+  "client_id": "marta",
+  "unlock_request_id": "ch1_req_006",
+  "inputs": [
+    {
+      "item_id": "boar_meat",
+      "quantity": 4,
+      "min_quality": "standard"
+    }
+  ],
+  "reward": {
+    "gold": 60,
+    "reputation": 5,
+    "effects": []
+  },
+  "wait_seconds": 604800,
+  "wait_origin": "previous_completion",
+  "max_outstanding": 1,
+  "deadline_seconds": null,
+  "inactive_policy": "suspend_offer_and_remaining_wait"
+}

@@ -1,0 +1,187 @@
+{
+  "location": "eurydica",
+  "buildings": {
+    "company_house": {
+      "concept": "eurydica-company-edge-approved.png (03 COMPANY HOUSE)",
+      "footprint_m": [
+        7.5,
+        7.5
+      ],
+      "wall_height_m": 4.4,
+      "ridge_axis": "z",
+      "door_face": "e",
+      "roof": "violet",
+      "notes": "The Company's small Tier 1 house: cream plaster, dark timber, grey stone base and corners, violet roof with one dormer and a chimney; a green-roofed porch on the door face (the porch roof is separate geometry, paint only the wall behind it). Short steps and a barrel by the door are props, not painted.",
+      "door": {
+        "width_m": 1.4,
+        "height_m": 2.3
+      }
+    },
+    "tavern": {
+      "concept": "eurydica-market-building-exteriors-approved.png (01 TAVERN)",
+      "footprint_m": [
+        9,
+        11
+      ],
+      "wall_height_m": 9.3,
+      "ridge_axis": "z",
+      "door_face": "e",
+      "roof": "green",
+      "notes": "Tallest building in the slice: two occupied storeys plus a third under the roof line, projecting upper room read through timber framing; the wine-red awning over the entrance is separate. One plain replacement door plank as repair history.",
+      "door": {
+        "width_m": 1.4,
+        "height_m": 2.3
+      }
+    },
+    "provisions": {
+      "concept": "eurydica-market-building-exteriors-approved.png (02 PROVISIONS SHOP)",
+      "footprint_m": [
+        8,
+        8
+      ],
+      "wall_height_m": 6.2,
+      "ridge_axis": "z",
+      "door_face": "e",
+      "roof": "green",
+      "notes": "Compact shop: selling bay opening on the door face (a wide counter opening beside the door), a side storage door on one side wall, one broad plaster repair patch.",
+      "door": {
+        "width_m": 1.4,
+        "height_m": 2.3
+      }
+    },
+    "repair_supply": {
+      "concept": "eurydica-market-building-exteriors-approved.png (03 REPAIR & SUPPLY)",
+      "footprint_m": [
+        10,
+        12
+      ],
+      "wall_height_m": 4.8,
+      "ridge_axis": "z",
+      "door_face": "w",
+      "roof": "green",
+      "notes": "Broad low working building: WIDE double work doors 3.0 m wide on the door face, older grey stone base and corner quoins, one replaced door brace. Gerd's shop.",
+      "door": {
+        "width_m": 3,
+        "height_m": 2.8
+      }
+    },
+    "lodging": {
+      "concept": "eurydica-arrival-ward-approved.png (02 LODGING HOUSE)",
+      "footprint_m": [
+        10,
+        8
+      ],
+      "wall_height_m": 6.2,
+      "ridge_axis": "x",
+      "door_face": "w",
+      "roof": "green",
+      "notes": "Two-storey lodging house near the gate: cream plaster and timber, green roof, cream awning over the door (separate), wine banner beside the door (separate).",
+      "door": {
+        "width_m": 1.4,
+        "height_m": 2.3
+      }
+    },
+    "stables": {
+      "concept": "eurydica-arrival-ward-approved.png (Arrival Ward stables; no dedicated label)",
+      "footprint_m": [
+        11,
+        5.5
+      ],
+      "wall_height_m": 3.4,
+      "ridge_axis": "x",
+      "door_face": "w",
+      "roof": "brown",
+      "notes": "Jeb's stables: timber-boarded walls over a low stone base, a wide 3.0 m stable opening on the door face, half-doors (stall doors) along the long walls, hay-loft hatch in the gable. Work-worn but maintained.",
+      "door": {
+        "width_m": 3,
+        "height_m": 2.3
+      }
+    },
+    "guard_shelter": {
+      "concept": "eurydica-arrival-ward-approved.png (04 GUARD SHELTER)",
+      "footprint_m": [
+        3.5,
+        3.5
+      ],
+      "wall_height_m": 3.1,
+      "ridge_axis": "z",
+      "door_face": "e",
+      "roof": "green",
+      "notes": "Small timber guard booth beside the gate, open counter window on the door face, a plain notice board (no writing) on a side wall.",
+      "door": {
+        "width_m": 1.4,
+        "height_m": 2.3
+      }
+    },
+    "store_shed": {
+      "concept": "eurydica-company-edge-approved.png (store shed at the expansion yard)",
+      "footprint_m": [
+        3.5,
+        3.5
+      ],
+      "wall_height_m": 2.8,
+      "ridge_axis": "x",
+      "door_face": "e",
+      "roof": "patchwork",
+      "notes": "The Company's lean timber store shed: boarded walls, plank door, a patched roof of reused red and brown boards (the patchwork roof tile).",
+      "door": {
+        "width_m": 1.2,
+        "height_m": 2.3
+      }
+    },
+    "gatehouse": {
+      "concept": "eurydica-arrival-ward-approved.png (05 SOUTH GATE)",
+      "footprint_m": [
+        12.4,
+        2.4
+      ],
+      "wall_height_m": 7.2,
+      "ridge_axis": "x",
+      "door_face": "s",
+      "roof": "green",
+      "notes": "The South Gate: pale grey dressed-stone gatehouse, ONE round-arched opening through the middle, small green roof above; the arch opening must stay fully transparent (players walk through it). Same painting on the north (city) face and the south (outskirts) face.",
+      "arch": {
+        "half_width_m": 2.3,
+        "straight_to_m": 3
+      }
+    },
+    "house_violet": {
+      "concept": "eurydica-company-edge-approved.png and eurydica-arrival-ward-approved.png (violet-roofed houses)",
+      "footprint_m": [
+        8,
+        6
+      ],
+      "wall_height_m": 6.2,
+      "ridge_axis": "x",
+      "door_face": "s",
+      "roof": "violet",
+      "notes": "Generic residential house (reused and stretched for many lots): cream plaster, dark timber, violet roof, simple dark windows. Keep it plainer than the named buildings.",
+      "door": {
+        "width_m": 1.4,
+        "height_m": 2.3
+      }
+    },
+    "house_green": {
+      "concept": "eurydica-market-spine-approved.png (market-side houses)",
+      "footprint_m": [
+        9,
+        8
+      ],
+      "wall_height_m": 6.2,
+      "ridge_axis": "z",
+      "door_face": "e",
+      "roof": "green",
+      "notes": "Generic market-street house (reused): cream plaster, timber framing, green roof; the ground floor may show a closed shutter shopfront. Plainer than the named shops.",
+      "door": {
+        "width_m": 1.4,
+        "height_m": 2.3
+      }
+    }
+  },
+  "roofs": [
+    "green",
+    "violet",
+    "brown",
+    "patchwork"
+  ]
+}

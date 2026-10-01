@@ -7,7 +7,7 @@ Status: **candidate, not approved**. Prepared 2026-09-27 for the southern Eurydi
 - Location ID: `eurydica-south`; artwork revision: `facades-v1`; building IDs and exact output paths come from `../../handoff/facades-spec.json`.
 - Purpose: painted near-albedo UV elevations for existing 3D building volumes in a playable exterior. This is a layout-preserving texture pass. Curved roof geometry and runtime integration remain with the proof author.
 - Buildings: tavern, company_house, repair_supply, provisions, gatehouse, lodging, stables, guard_shelter, store_shed, house_violet, house_green.
-- Rendering: approved simplified IMC game appearance with the clean painted Mosswood finish and accepted tavern source as set anchor. Broad matte plaster, substantial structural timber, quiet stone and sparse construction joints. `fit.pixel_unfake: false`; no palette quantization or pixel-grid export.
+- Rendering: approved simplified IMC game appearance with the clean painted Hylaea finish and accepted tavern source as set anchor. Broad matte plaster, substantial structural timber, quiet stone and sparse construction joints. `fit.pixel_unfake: false`; no palette quantization or pixel-grid export.
 - Palette: cream/peach plaster, dark brown timber, quiet grey stone; deep green and violet roofs, brown stable roofing and red/brown patchwork shed roofing; localized wine, cream and saffron cloth.
 - Lighting: neutral near-albedo and soft recess/joint AO. Windows dark, lamp unlit, trough dry. Runtime owns directional light, cast/contact shadows, emissions and water.
 - Facade camera: strictly straight-on orthographic elevation, each face seen from outside, ground at bottom. No roof plane or perspective baked into these UV faces.
@@ -32,9 +32,9 @@ Status: **candidate, not approved**. Prepared 2026-09-27 for the southern Eurydi
 
 The user handoff and RESUME NOTE override older defaults. `sources/tavern-v2.png` is the explicitly accepted source and was not regenerated or overwritten. The older headings in the preserved beginning of `prompts.md` are historical; the RESUME NOTE is the current source-selection authority.
 
-Every new building call attached its layout guide, its approved location concept, clean Mosswood Props, the accepted tavern sheet as "finish and detail level of this set", and the retained runtime environment screenshot. Concept references establish identity, never labels, lighting or camera. The tool accepts at most five paths; the approved identity concept also carried the simplified game appearance role. The initial six-path Company call was rejected before generation and was resubmitted with five explicit references.
+Every new building call attached its layout guide, its approved location concept, clean Hylaea Props, the accepted tavern sheet as "finish and detail level of this set", and the retained runtime environment screenshot. Concept references establish identity, never labels, lighting or camera. The tool accepts at most five paths; the approved identity concept also carried the simplified game appearance role. The initial six-path Company call was rejected before generation and was resubmitted with five explicit references.
 
-Tiles and attachments attached an appropriate approved concept, clean Mosswood Props, accepted tavern and runtime screenshot. Props additionally attached the retained front-facing courtyard camera example. Exact ordered paths and their roles are in `prompts.md` and `reference-provenance.json`.
+Tiles and attachments attached an appropriate approved concept, clean Hylaea Props, accepted tavern and runtime screenshot. Props additionally attached the retained front-facing courtyard camera example. Exact ordered paths and their roles are in `prompts.md` and `reference-provenance.json`.
 
 ## Production and extraction notes
 

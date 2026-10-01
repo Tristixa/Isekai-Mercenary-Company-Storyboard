@@ -1,0 +1,153 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "request.schema.json",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "region": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "rev": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "gdd": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "authoring_status": {
+      "enum": [
+        "specified",
+        "incomplete"
+      ]
+    },
+    "missing_fields": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "source_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "client_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "offer_event": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "inputs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "item_id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+          },
+          "quantity": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "min_quality": {
+            "enum": [
+              "unsellable",
+              "damaged",
+              "standard",
+              "pristine"
+            ]
+          }
+        },
+        "required": [
+          "item_id",
+          "quantity",
+          "min_quality"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "reward": {
+      "$ref": "shared.schema.json#/$defs/reward"
+    },
+    "deadline_seconds": {
+      "anyOf": [
+        {
+          "type": "integer",
+          "minimum": 1
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "deadline_origin": {
+      "const": "first_offer"
+    },
+    "accepted_failure_rep": {
+      "const": 10
+    },
+    "chapter_end_withdrawal": {
+      "type": "boolean"
+    },
+    "completion_access": {
+      "enum": [
+        "client_then_courier",
+        "request_panel"
+      ]
+    },
+    "alternatives": {
+      "type": "array",
+      "items": {
+        "$ref": "shared.schema.json#/$defs/alternative"
+      },
+      "minItems": 0
+    },
+    "transitions": {
+      "type": "array",
+      "items": {
+        "$ref": "shared.schema.json#/$defs/transition"
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "id",
+    "region",
+    "rev",
+    "name",
+    "gdd",
+    "authoring_status",
+    "missing_fields",
+    "source_id",
+    "client_id",
+    "offer_event",
+    "inputs",
+    "reward",
+    "deadline_seconds",
+    "deadline_origin",
+    "accepted_failure_rep",
+    "chapter_end_withdrawal",
+    "completion_access",
+    "alternatives",
+    "transitions"
+  ],
+  "additionalProperties": false
+}

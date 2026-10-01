@@ -1,0 +1,18 @@
+{
+    "character":  "Lady Isabeau de Chamerolles",
+    "faction":  "House Chamerolles",
+    "date":  "2026-09-30",
+    "status":  "user-selected manually corrected base",
+    "source":  "D:/Storyboards/Isekai Mercenary Company/Characters/Buyers/Lady Isabeau de Chamerolles/Base.png",
+    "preservedCopy":  "D:/Codex/IMC/Buyers/Lady Isabeau de Chamerolles/Manual Base 2026-09-30/Base.png",
+    "sha256":  "6a9f505a25fb8fb54404ef44ee7c15049402d0d668f8fc6b70fe1447b427751c",
+    "width":  1134,
+    "height":  1449,
+    "channels":  4,
+    "hasAlpha":  true,
+    "userDirection":  "Use the manually fixed project Base.png as the base. Earlier generated version has crooked teeth and overly pale skin. Do not generate expressions yet; study the updated Buyer Portrait Prompts.md.",
+    "referenceAuthority":  "This file controls identity, skin tone, mouth/teeth, makeup, build, outfit, palette, pose and composition. Lady.png remains historical design provenance; it must not override these manual corrections.",
+    "supersedes":  "Earlier Ottilie/Octavia portraits, expression sets and redesign candidates as current generation anchors.",
+    "expressionsStatus":  "seven expressions explicitly approved and moved unchanged beside Base.png on 2026-09-30; see Expression Approval.json",
+    "runtimeIntegration":  false
+}

@@ -1,0 +1,151 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "processing_yield.schema.json",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "region": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "rev": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "gdd": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "authoring_status": {
+      "enum": [
+        "specified",
+        "incomplete"
+      ]
+    },
+    "missing_fields": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "monster_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "duration_seconds": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "common": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "item_id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+          },
+          "quantity": {
+            "type": "integer",
+            "minimum": 1
+          }
+        },
+        "required": [
+          "item_id",
+          "quantity"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "rare": {
+      "anyOf": [
+        {
+          "type": "object",
+          "properties": {
+            "item_id": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+            },
+            "quantity": {
+              "const": 1
+            },
+            "chance": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            }
+          },
+          "required": [
+            "item_id",
+            "quantity",
+            "chance"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "guaranteed": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "item_id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+          },
+          "quantity": {
+            "type": "integer",
+            "minimum": 1
+          }
+        },
+        "required": [
+          "item_id",
+          "quantity"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "quality_roll_scope": {
+      "const": "corpse"
+    },
+    "raw_reference_g": {
+      "type": "integer",
+      "minimum": 0
+    }
+  },
+  "required": [
+    "id",
+    "region",
+    "rev",
+    "name",
+    "gdd",
+    "authoring_status",
+    "missing_fields",
+    "monster_id",
+    "duration_seconds",
+    "common",
+    "rare",
+    "guaranteed",
+    "quality_roll_scope",
+    "raw_reference_g"
+  ],
+  "additionalProperties": false
+}

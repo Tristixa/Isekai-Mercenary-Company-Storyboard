@@ -1,0 +1,946 @@
+{
+  "attachments/awning_lodging.png": {
+    "bytes": 32517,
+    "sha256": "c71799ea2781de8fe228fbad7267532a0203d78731301c23c7121cfa0ace49d7"
+  },
+  "attachments/awning_provisions.png": {
+    "bytes": 33932,
+    "sha256": "ff2725c9725e0102a8134e402323a21d2a5d1fee76247a1625d06643d80b34ea"
+  },
+  "attachments/awning_tavern.png": {
+    "bytes": 39800,
+    "sha256": "bd8892226e7eb9ae1efad42b3eccd46670429b68efecc72c381192ac0f6b5221"
+  },
+  "attachments/banner_wine.png": {
+    "bytes": 4401,
+    "sha256": "f291651e1b40c546c444efd5293daf218d1cf4f853aa4292848bfebc9973e569"
+  },
+  "attachments/chroma-sheet.png": {
+    "bytes": 630695,
+    "sha256": "25737a17fe3f455b01daecd5d6760250f1a29be32c2e1ba497a3be09e951705d"
+  },
+  "attachments/cover_repair.png": {
+    "bytes": 33504,
+    "sha256": "27f4ef3b7dc02972d3479b4b132e0f7a020656a1c42559eddc8863f4170ad030"
+  },
+  "attachments/sign_tavern.png": {
+    "bytes": 6624,
+    "sha256": "d047d00860ed581536ff65d0fccae7dd2d38beb0194b2e113443b9da0b901520"
+  },
+  "company_house/e.png": {
+    "bytes": 218813,
+    "sha256": "790618b1ab6bca7c1fbd18f1ee24d8c5ed8e90e552ca8fd0e6e263093b6eb78f"
+  },
+  "company_house/n.png": {
+    "bytes": 332657,
+    "sha256": "44b1c25f783b7ed8c23236c42978cd5c490b983c21d18b3c3f471464e1db7ab1"
+  },
+  "company_house/s.png": {
+    "bytes": 329345,
+    "sha256": "ad47e2cf01af5c67545b70502c7edf7e898d5b1879cf4e73510553d9a2216f2a"
+  },
+  "company_house/w.png": {
+    "bytes": 222604,
+    "sha256": "a0e13a1c2fbaa0362ec01e79ee7244c357b69393bb9acd45677d8000330f144a"
+  },
+  "gatehouse/e.png": {
+    "bytes": 125051,
+    "sha256": "0e85a1f73e5cf843e62b2eb8029dff8f2f19ddc3745cfff9c80a1493859d2e24"
+  },
+  "gatehouse/n.png": {
+    "bytes": 444438,
+    "sha256": "0222c92d7a3a32e422c6b327d751543ad3c229a3820e0fd570e6800c22a19da8"
+  },
+  "gatehouse/s.png": {
+    "bytes": 444438,
+    "sha256": "0222c92d7a3a32e422c6b327d751543ad3c229a3820e0fd570e6800c22a19da8"
+  },
+  "gatehouse/w.png": {
+    "bytes": 125238,
+    "sha256": "e6e6fa5dac34356ee7b5a31c303de627dffaf6f553179b060a8b0ea47c703aaa"
+  },
+  "guard_shelter/e.png": {
+    "bytes": 71160,
+    "sha256": "4e3ee0c7179177ffebdeed73ab33e02c38be215b1f9dc9f3e8d9094786a21869"
+  },
+  "guard_shelter/n.png": {
+    "bytes": 97560,
+    "sha256": "4d23bbd3902875d93cf207029df8435855017e5a1377bc6d86e09b4f3535ee42"
+  },
+  "guard_shelter/s.png": {
+    "bytes": 97338,
+    "sha256": "dfa5746c698816a14ceed2b7aa5134f22a32e3a200ed9141a3182a33efdf68b1"
+  },
+  "guard_shelter/w.png": {
+    "bytes": 72530,
+    "sha256": "3d2f1c3af0c474e83234ed04ca4d12278b59ca9a14ecc9ae724191828dd61bc3"
+  },
+  "house_green/e.png": {
+    "bytes": 284050,
+    "sha256": "d72fc71c2127f7a8cdb80b64553adebd3c9c426d041f74f3386a46ae0fa72423"
+  },
+  "house_green/n.png": {
+    "bytes": 444685,
+    "sha256": "9ffef575d66fa1dbfc0d5f8989e01e987ba1a82625bc73136dfdcf4bb1ea66ea"
+  },
+  "house_green/s.png": {
+    "bytes": 420772,
+    "sha256": "e19ca304fae024b258ab351803cf637db5c03943d14edf616cf2f1b5d97ea146"
+  },
+  "house_green/w.png": {
+    "bytes": 280287,
+    "sha256": "37fed1b4eac21d320102f7be5ccc8f19b6ffbd992b6313b11f79dcf05514159c"
+  },
+  "house_violet/e.png": {
+    "bytes": 296505,
+    "sha256": "9860a5eac71338b472b0889be0a638d283e8f0c2ae6e73f03cadcd0d523ca792"
+  },
+  "house_violet/n.png": {
+    "bytes": 301036,
+    "sha256": "740500d29b4294f243f761b12bf24eeb867a4418c13dc2529aa0f91f66d786e9"
+  },
+  "house_violet/s.png": {
+    "bytes": 295441,
+    "sha256": "3a7cfbeff902d68f47827a8ae6aa5e2dc1e26f8bac733b9e17d97e7748fe352d"
+  },
+  "house_violet/w.png": {
+    "bytes": 286302,
+    "sha256": "853fb7c2b563e8ff559e2f7bc314d7482f7789010e411eacb697506e3c957df0"
+  },
+  "lodging/e.png": {
+    "bytes": 379201,
+    "sha256": "7eb26fd0dab8f2f99893e2e4539d4f6a193f1314e006a4b944abd5784d60fde3"
+  },
+  "lodging/n.png": {
+    "bytes": 349043,
+    "sha256": "aca3f489e05dd94ef928790cb1b1c20411fe2ba57fe9da529d660bfa22cb8fa0"
+  },
+  "lodging/s.png": {
+    "bytes": 348230,
+    "sha256": "278ee8ce6d90cadc4ff04ad742a64109896d381fefc0983f8308ddbedbe4847c"
+  },
+  "lodging/w.png": {
+    "bytes": 373029,
+    "sha256": "b54eba982ea930cb523f94ad4f3047d001c74c05c445a01b632fe3adabd1e06b"
+  },
+  "props/barrel.png": {
+    "bytes": 9205,
+    "sha256": "ee99903675d741582417f97b0b83806251b868a47425cd2b252c74eb05a63dd2"
+  },
+  "props/basket_pair.png": {
+    "bytes": 9704,
+    "sha256": "6552246f3d2d20a6d4fcadac16143b2d9868460880309f37dff3fca8a1b24ddb"
+  },
+  "props/bench.png": {
+    "bytes": 7914,
+    "sha256": "095198f5f6656a27c7dc910c96a0524f2e3e3b3e5e798b83b934650266d75d49"
+  },
+  "props/board_stack.png": {
+    "bytes": 18635,
+    "sha256": "40dcae5ce6cfc7a2fb7e719bd160a387d6af64cd15f7e183e178df8ccf6aa72d"
+  },
+  "props/cart_wheel.png": {
+    "bytes": 9221,
+    "sha256": "4c51b5abc9356b313441ab984264f10c4ca2a8ca759318667f0dccff64326c9a"
+  },
+  "props/crate.png": {
+    "bytes": 9268,
+    "sha256": "67d061faba79cfaf0c636ecff2b49cac0a27d58f15210f9f94c06d77ce4dc992"
+  },
+  "props/crate_stack.png": {
+    "bytes": 13524,
+    "sha256": "86f5bc3a718be0b522a6b4ebe0f51ddf8b1924b1198a2a4a8db8559d7ad8ac82"
+  },
+  "props/handcart.png": {
+    "bytes": 28654,
+    "sha256": "5f4864c0f1e2e9feab0ebfaabd0c7e884e5bf4204a4c55540b077ea6b712099c"
+  },
+  "props/hay_bale.png": {
+    "bytes": 17148,
+    "sha256": "230fe1da5822ad30e5eff24064357280419071992eac07637090ecfddf7205a4"
+  },
+  "props/lamp_post.png": {
+    "bytes": 10288,
+    "sha256": "2b13bbf09dadc236583a4a2c201507cc624487ca5ee0210b1464cb3fafdebe90"
+  },
+  "props/notice_board.png": {
+    "bytes": 13008,
+    "sha256": "219a0f3862e5b2d52c16839e870777835208520afe9ca182f3558dc2056629b0"
+  },
+  "props/sheet.png": {
+    "bytes": 780941,
+    "sha256": "a36365d9999167879e50128c9723a4de581e2aa0b44faecda45874c003b6786e"
+  },
+  "props/water_trough.png": {
+    "bytes": 13795,
+    "sha256": "2d565056e648dd6030b895a177c73fdcc080602a79451a10d01f59c282bbb1a2"
+  },
+  "provisions/e.png": {
+    "bytes": 304720,
+    "sha256": "78c5f6c68341ac88e4024f0e4a3628eec929a6b35e8986ed18a53eeec0329612"
+  },
+  "provisions/n.png": {
+    "bytes": 420876,
+    "sha256": "22200c59e520519f4b3b0ffe1cb57d8cbf9f52951d2ae6a850374228b8a01af5"
+  },
+  "provisions/s.png": {
+    "bytes": 404365,
+    "sha256": "39ac777a72c3f4bde4b052f1407b968fbfe97d7f1df3c3139932c01045c449ea"
+  },
+  "provisions/w.png": {
+    "bytes": 310056,
+    "sha256": "06712dea75c7b12e208c428f14e1661650f4433a02aeb7330223c00b448ea3cb"
+  },
+  "repair_supply/e.png": {
+    "bytes": 323718,
+    "sha256": "6c50da61ced6c5ebfe73b7aceeb6d15c645e1b8bf2b3b846c3879f44d019232d"
+  },
+  "repair_supply/n.png": {
+    "bytes": 405241,
+    "sha256": "15a9e5d097a52a7ddca463efd09ee218f40472c36aee790e4c48c8e26558c352"
+  },
+  "repair_supply/s.png": {
+    "bytes": 400874,
+    "sha256": "5c27fa5d0efd31c3582af7140fb6cc3d05b545e6c6965be93d975cbfc46f9862"
+  },
+  "repair_supply/w.png": {
+    "bytes": 319217,
+    "sha256": "8aac4aa6854cb60ea9744adcac53a3503a52bcb1c5c237820a27b2a7b85d1f25"
+  },
+  "review/assembled-company_house.png": {
+    "bytes": 440101,
+    "sha256": "383134d2509698d1867771e29f375ecb83b76567633e47916d59d2c3c2f54476"
+  },
+  "review/assembled-tavern.png": {
+    "bytes": 979868,
+    "sha256": "42e9cc29e67809c58ece0d4a5eb51346771c9e363587bc079abd5a518684be6d"
+  },
+  "review/doors-before.png": {
+    "bytes": 1177031,
+    "sha256": "ee1427c052c4b7690f048d445b48bdd0ee03450b77dbebd25346c9f85c219229"
+  },
+  "review/materials.png": {
+    "bytes": 804471,
+    "sha256": "77f070689de628f6069aef9f2a97b43dc29b0b3566186fdf5330b82756554fd4"
+  },
+  "review/overview.png": {
+    "bytes": 5083225,
+    "sha256": "7c972dcdd58666ed77ce11ce01fbdf2e2fd2cab7db88b053e4c04df3f218b7ed"
+  },
+  "review/roof-kit.png": {
+    "bytes": 485146,
+    "sha256": "47bc025f0860e8eab8328990aa9c05a0eff105ffc66c7ad78cb2f59d34c4df7a"
+  },
+  "review/stall-alpha-test.png": {
+    "bytes": 532890,
+    "sha256": "d01b05c2d6c0d6bcc9840520dd7b9647ecd0db648e3a3bae2a39064ad41b68ea"
+  },
+  "review/stalls.png": {
+    "bytes": 1045759,
+    "sha256": "23d8a57ac362a4dc535771194451adba5d3eea6e81724a65d916f793ec4d2681"
+  },
+  "review/v1-v2-compare.png": {
+    "bytes": 1985329,
+    "sha256": "0ac4015a7d9f0a7c35ce7ae7b7e102d1b5d10b85848fc51666e97f36872c3844"
+  },
+  "roofs/brown.png": {
+    "bytes": 426967,
+    "sha256": "d4b66584693bce2f52ff9445d7adc8fc88d05af94270ab2097ed82f297f94861"
+  },
+  "roofs/green.png": {
+    "bytes": 441436,
+    "sha256": "d54013d6fcf2d1e8e11a142804a2bcd9bd1633107b4eba8935c9045d396fa5c3"
+  },
+  "roofs/patchwork.png": {
+    "bytes": 508894,
+    "sha256": "9f5e4202f7e3ce4bd5c991096694364d8ba38d4bcfe35326620f253bcb37e83e"
+  },
+  "roofs/violet.png": {
+    "bytes": 432469,
+    "sha256": "080b748ce8e1a208befc23bdbab9b7171b6e257812b431941b72400bdc2629ff"
+  },
+  "sources/company_house-generated.png": {
+    "bytes": 1529218,
+    "sha256": "e8b2ea71c1cd3d1fb8aa9275f311154c86adc69ea83edea7770c85ebc77a3edd"
+  },
+  "sources/company_house-layout.png": {
+    "bytes": 676428,
+    "sha256": "baaefd65d0464985f965ba395e72cba9d75527b8537a43c350590264e76f2ec9"
+  },
+  "sources/gatehouse-generated.png": {
+    "bytes": 1397949,
+    "sha256": "05f1fc76228fe2ace680299dea20f99d9b66027770c9d076e717c0c0565e03b6"
+  },
+  "sources/gatehouse-layout.png": {
+    "bytes": 729326,
+    "sha256": "35afc7de7235f05d7d97e1fd93458a2303306f237dd6039aa350e4a27490fa9e"
+  },
+  "sources/guard_shelter-generated.png": {
+    "bytes": 1036020,
+    "sha256": "f6c92914935ffdb140b4048fa63303e6b70779ce83b363bb28e4d3ecdddf4d4d"
+  },
+  "sources/guard_shelter-layout.png": {
+    "bytes": 258450,
+    "sha256": "2a0dec3effac825b0cd1110a28c41563c5ebd5e014981acbbf025514ddfe82eb"
+  },
+  "sources/house_violet-generated.png": {
+    "bytes": 1482477,
+    "sha256": "3485fe3aed2706e759f42895b6df707f0192bb3dc6812ac66c7f71419bc16b11"
+  },
+  "sources/house_violet-layout.png": {
+    "bytes": 768217,
+    "sha256": "e1204b5d77ac094f62df9f022dec2ab293b64491e85d918f39b8970ade0f9447"
+  },
+  "sources/lodging-fixed.png": {
+    "bytes": 1570874,
+    "sha256": "c2f170193ce04604b0c20b46c59752a8907379b4aee422547a72f997c8edb72b"
+  },
+  "sources/lodging-generated.png": {
+    "bytes": 1483334,
+    "sha256": "fc74c5d82759c6eb1e9844efe09dc74012c9a7d8f5c1973b381b38b26b527693"
+  },
+  "sources/lodging-layout.png": {
+    "bytes": 980688,
+    "sha256": "3e813abef1a58fab7951207844f7ec59be2b3e6052bbca0c3983a0e813f1f7f0"
+  },
+  "sources/provisions-generated.png": {
+    "bytes": 1538524,
+    "sha256": "d72dfb42e95b5094e9c689551b92b05c248cae035bb268b925d7749968a20a56"
+  },
+  "sources/provisions-layout.png": {
+    "bytes": 877292,
+    "sha256": "03c3c7a6e0de1919c72f8ab7ac1f34b3410b07556a6408369cf728910353dc55"
+  },
+  "sources/repair_supply-generated.png": {
+    "bytes": 1399910,
+    "sha256": "b7e01e4da526c90c4956da0db1d777d47b24a75da6790c54553c89340588e0a3"
+  },
+  "sources/repair_supply-layout.png": {
+    "bytes": 982974,
+    "sha256": "e09a900de9eb44e662d1a583bc07d09e4c294274d00085eeb09f20419040aa39"
+  },
+  "sources/roof-kit-generated.png": {
+    "bytes": 1652615,
+    "sha256": "945c6569eec8a14ee81d8b0a0c2216d53983e038531a3f32e85fdbe48524c247"
+  },
+  "sources/roof_brown-generated.png": {
+    "bytes": 2058471,
+    "sha256": "0832871a797e5d4dd845b650f860160de61cb1d05f8355b867ea137420ad9918"
+  },
+  "sources/roof_patchwork-generated.png": {
+    "bytes": 2761467,
+    "sha256": "38a9ecee70eae1a6e4add34db44703c7c77a26d6f3fea852e0bff7f6e85d8475"
+  },
+  "sources/roof_violet-generated.png": {
+    "bytes": 2476656,
+    "sha256": "253708816f74a74e36e81805f16d4d4634404552d6d5f02c44ea72951ab19581"
+  },
+  "sources/stables-generated.png": {
+    "bytes": 1249589,
+    "sha256": "c561c1eaddc0850a940a930bc2f16f905bd40644dcaf935c452dc312a14be0fe"
+  },
+  "sources/stables-layout.png": {
+    "bytes": 558161,
+    "sha256": "2ba1bd3b0888598059e514869e8b9fb6a742922a155bb05576ad4f16b0184f94"
+  },
+  "sources/stall-01-generated.png": {
+    "bytes": 1644649,
+    "sha256": "357a973ab7a94a220d628eb21c5726742a8cbbda1ad2d63b669d978592c34636"
+  },
+  "sources/stall-02-fixed.png": {
+    "bytes": 1970443,
+    "sha256": "daf2a701879a9d1ada6b94dbf2211c65ead3c0a2a7543cb1767d1022292ca046"
+  },
+  "sources/stall-02-generated.png": {
+    "bytes": 2003519,
+    "sha256": "33910630f52f83fbe9af242510435919bee90e7d3266ab1e59be38c1b3d5f5f6"
+  },
+  "sources/stall-03-generated.png": {
+    "bytes": 2000207,
+    "sha256": "261c54d999e9ec86f2e6569de4bf387d87e9d2fabf9554e4b77f9cfde9d07fee"
+  },
+  "sources/store_shed-generated.png": {
+    "bytes": 969859,
+    "sha256": "30466028a44b2fdcbab221660cff8bff205761ea14c2347a8652da656f4c70bc"
+  },
+  "sources/store_shed-layout.png": {
+    "bytes": 247570,
+    "sha256": "d3147b7d295283660c485af2b11e25a92e7dea1dd80df8999320296cf3a4b16a"
+  },
+  "stables/e.png": {
+    "bytes": 156743,
+    "sha256": "d1eb1e0593cf4e830b4662a99b3748edf928409589c2d51f4859ef159ed6f562"
+  },
+  "stables/n.png": {
+    "bytes": 218443,
+    "sha256": "cbbc3aaa5bebdea118a3ecf3b0cd74cd4736e367c61f009dc015fcfc409e9cfa"
+  },
+  "stables/s.png": {
+    "bytes": 214765,
+    "sha256": "aaddc2ed1acab5c8aad6422b97b55bb468c7e69a5cc4dab7b738227ab54b5e1e"
+  },
+  "stables/w.png": {
+    "bytes": 154150,
+    "sha256": "f3af2991371654258b2a65b8592701dc9ab5bd046b48aee8acbe1e4b7491d18b"
+  },
+  "stalls/market_herb_row.png": {
+    "bytes": 156826,
+    "sha256": "b1fa0a4687de58e843df4c9a7f5ac6ac7ebe38e733a487b715982cf8a5b986c0"
+  },
+  "stalls/market_produce_pair.png": {
+    "bytes": 120917,
+    "sha256": "95ce85887e0d50da00b0afad766738fa28cedb67353fd4fc191e07dd77580454"
+  },
+  "stalls/red_tree_court.png": {
+    "bytes": 116541,
+    "sha256": "8f8ff456b22d15e2c83c48c72f91c77b93b6f78ff273e8c3b118edcf3fe93180"
+  },
+  "store_shed/e.png": {
+    "bytes": 85329,
+    "sha256": "edac77b9ae2601ee732d2a74c1e210448ff76748c93783ef5472c7b2979add7e"
+  },
+  "store_shed/n.png": {
+    "bytes": 64868,
+    "sha256": "68299ed5d99d12aa05bb4cd8f0a01479d45240ef9c8021e388ed85ed0483034b"
+  },
+  "store_shed/s.png": {
+    "bytes": 64145,
+    "sha256": "7adb67675ae15643af1eb5a0a62b337c0f35a69107ded1244322acc501f71a94"
+  },
+  "store_shed/w.png": {
+    "bytes": 88869,
+    "sha256": "ea95467dda735480048ff211847c37b2f3817ebbd22900c48cc76c18e0705803"
+  },
+  "tavern/e.png": {
+    "bytes": 587187,
+    "sha256": "04425df7b94ddfbf0bf598302aab4280f3542326e5ea8f20878427fc61cd23af"
+  },
+  "tavern/n.png": {
+    "bytes": 618891,
+    "sha256": "459e51bbce1482865b77afa79992ed8f977318044e0575e1468462d809b1e2b7"
+  },
+  "tavern/s.png": {
+    "bytes": 617816,
+    "sha256": "042c2bea9f6dbafe1f75162d220aa094e592bf66731bdf8bc72580ed2f78b2cd"
+  },
+  "tavern/w.png": {
+    "bytes": 572658,
+    "sha256": "34427d219b0b68510e6ded9c9d8f221f12d2a3c2ad4135f9bc5ed4feeaebdb39"
+  },
+  "walls/city_wall.png": {
+    "bytes": 75121,
+    "sha256": "dd2e87aeeb48affd75d399735ec817fa5facbbb3c5660c8145fdef2e40ba6e83"
+  },
+  "roof-kit/bay_1storey/front.png": {
+    "bytes": 48431,
+    "sha256": "3c61cd2fa6ffaa8d6d6ab997b9d44b3677416e2ff9ba03cf661388e0046657d6"
+  },
+  "roof-kit/bay_1storey/left.png": {
+    "bytes": 18339,
+    "sha256": "64e89f94ef2f84d39b94c0f17762df7c65b49efbbe7d7d8b00f471bad159fa15"
+  },
+  "roof-kit/bay_1storey/right.png": {
+    "bytes": 18400,
+    "sha256": "d9decd12aca9307b8ede3133cd8fc6049a9d7d4e8c530a53ba6fafd1990785b6"
+  },
+  "roof-kit/bay_2storey/front.png": {
+    "bytes": 93086,
+    "sha256": "651a6cfe34717c0324d66d1afced981ffff37d892bf3d6715d9c3a879486e328"
+  },
+  "roof-kit/bay_2storey/left.png": {
+    "bytes": 37098,
+    "sha256": "a99576f3203b7d66f39be8173c2905f9cc84ea3c93e450b948d411c1a7eb65d2"
+  },
+  "roof-kit/bay_2storey/right.png": {
+    "bytes": 37152,
+    "sha256": "5ce5fa1d25a7d3377b7e1ae9d73ca67717a773d6de4d14573024d531c1f3165e"
+  },
+  "roof-kit/chimney_brick/back.png": {
+    "bytes": 18915,
+    "sha256": "e220f92b51f651bac08eab403ef362851a9a28d99bea80f696468cdbd52f9cde"
+  },
+  "roof-kit/chimney_brick/front.png": {
+    "bytes": 18915,
+    "sha256": "e220f92b51f651bac08eab403ef362851a9a28d99bea80f696468cdbd52f9cde"
+  },
+  "roof-kit/chimney_brick/left.png": {
+    "bytes": 18228,
+    "sha256": "035e2eb3f1e0df72787085a5b089f2327bd6c8e2697ae0ca005f238091d8d6a1"
+  },
+  "roof-kit/chimney_brick/right.png": {
+    "bytes": 18290,
+    "sha256": "8af7123349a0cb143ffc567b8451bef5780971b07f9e3d14d52a015ef1ad6925"
+  },
+  "roof-kit/chimney_stone/back.png": {
+    "bytes": 18201,
+    "sha256": "b0917043837a83a76b09fa62bbcaec57a792799e5f2b3732977b5988d99b63c4"
+  },
+  "roof-kit/chimney_stone/front.png": {
+    "bytes": 18201,
+    "sha256": "b0917043837a83a76b09fa62bbcaec57a792799e5f2b3732977b5988d99b63c4"
+  },
+  "roof-kit/chimney_stone/left.png": {
+    "bytes": 17272,
+    "sha256": "3dabdc6a72d6bbfa9454c580e3def81bf3e91ff528aac05032f6d0b02054d6ce"
+  },
+  "roof-kit/chimney_stone/right.png": {
+    "bytes": 17241,
+    "sha256": "bd768da8bf75891d5ff73d91a542dba1084883acdf39a460f89124a3cd8b0d41"
+  },
+  "roof-kit/dormer_large/front.png": {
+    "bytes": 34184,
+    "sha256": "252f33d4731a69aa0e094c4f9b9662f0cebdf03742b976c2a5ea5a3fbf90c669"
+  },
+  "roof-kit/dormer_large/left.png": {
+    "bytes": 21768,
+    "sha256": "9bad391830ae45b6e989a8f1f4a24dacf0c31e5fd304689b6f473f7df44cbb55"
+  },
+  "roof-kit/dormer_large/right.png": {
+    "bytes": 21838,
+    "sha256": "2b0f4fd0d2ff17f7402bb65bed77ff58efcf4f6c641186d5a4f18eda736c0ec2"
+  },
+  "roof-kit/dormer_small/front.png": {
+    "bytes": 18069,
+    "sha256": "7b35f6c6696a56f243d89e8211ab4edb0749baa0ea10b0157c0e515c713fc883"
+  },
+  "roof-kit/dormer_small/left.png": {
+    "bytes": 12480,
+    "sha256": "7d0a19e34997624ecc883506076358fa8482bdeb0eeaf3f577e89ad3cc046c13"
+  },
+  "roof-kit/dormer_small/right.png": {
+    "bytes": 12494,
+    "sha256": "5bb49d2738b6ac2ee46a71b3c5a03fd76e8fc3209b2214c64fa07813bb216c6b"
+  },
+  "sources/crops/company_house/e.png": {
+    "bytes": 215649,
+    "sha256": "a91ed091fcb18f67d856ca13247af7f241a55a370fcd478081288b61ec7657a9"
+  },
+  "sources/crops/company_house/n.png": {
+    "bytes": 355467,
+    "sha256": "310cdebed9d09c312427f7d4902f2539422ae35326110c8f2fc92fb9260f4e77"
+  },
+  "sources/crops/company_house/s.png": {
+    "bytes": 348215,
+    "sha256": "b2a2580017b22509b483f90fec5d9c754d0eb3f3b937f8f27ed1446a97556b1c"
+  },
+  "sources/crops/company_house/w.png": {
+    "bytes": 214505,
+    "sha256": "7c92317ae1d66ad21f692258b0174da9d1761e08bb01c108703f83cfc854eed7"
+  },
+  "sources/crops/gatehouse/e.png": {
+    "bytes": 86029,
+    "sha256": "1c2b33d13b70f662d7aa268d2d50162182a050521fd4b4495c0a545779dc18d2"
+  },
+  "sources/crops/gatehouse/n.png": {
+    "bytes": 330768,
+    "sha256": "872c74dc843be3348e38a585cb9ebd7d66ee8264c89710d4dd47a5617ed02218"
+  },
+  "sources/crops/gatehouse/s.png": {
+    "bytes": 333162,
+    "sha256": "44e90c981447ad8849cc59b33df32146187f5ea1d496b35d9478d3b1df59a2e8"
+  },
+  "sources/crops/gatehouse/w.png": {
+    "bytes": 85718,
+    "sha256": "fe0472a88282418a18f5c081885afd714a61ff0b676195e553a3717bc1f3727a"
+  },
+  "sources/crops/guard_shelter/e.png": {
+    "bytes": 182032,
+    "sha256": "244d8116ee39a89e05350f2cb345ad6dd6276b8aea6d1b78f9b36496f77b3865"
+  },
+  "sources/crops/guard_shelter/n.png": {
+    "bytes": 235789,
+    "sha256": "43416109c5c8d48d1730493d842c3da8aac31057480f40d7ab98b45f35994ec3"
+  },
+  "sources/crops/guard_shelter/s.png": {
+    "bytes": 234786,
+    "sha256": "baae1a761c50d05a85f050508d32ef47f74b19141110e96e57d9766cb6fcd79d"
+  },
+  "sources/crops/guard_shelter/w.png": {
+    "bytes": 175640,
+    "sha256": "25f73772f80521a91f99cf472b0e92aaf3e4e4d60ca5cd4d0c31d044e9390c93"
+  },
+  "sources/crops/house_violet/e.png": {
+    "bytes": 285572,
+    "sha256": "0fc81314d0990be828cb62e8be08bebe8dde1200665f6f75534d956da17adefa"
+  },
+  "sources/crops/house_violet/n.png": {
+    "bytes": 253741,
+    "sha256": "b4b27aa325685bd31903a0f02c1f116b7f84105c1e5c0fb1075ac899af114c5b"
+  },
+  "sources/crops/house_violet/s.png": {
+    "bytes": 255242,
+    "sha256": "4fcc62a6a9d8e11a06887969c8fb60a0fee19d7ee5fc0e44c65691b9207329a8"
+  },
+  "sources/crops/house_violet/w.png": {
+    "bytes": 275670,
+    "sha256": "9b3483d425fc04349a613d276e4e346ce0540957826ff67010ac686b4fe8e684"
+  },
+  "sources/crops/lodging/e.png": {
+    "bytes": 288840,
+    "sha256": "7bf2bcbdd7016364f7dd00467575f6670d0666a406da8b695889295f32f86af8"
+  },
+  "sources/crops/lodging/n.png": {
+    "bytes": 227422,
+    "sha256": "706fc710330e3f5b4257ebe8a5e734ee800b36ae79401165c369dd4b7f5be875"
+  },
+  "sources/crops/lodging/s.png": {
+    "bytes": 227678,
+    "sha256": "c3514555d61f2291c793f17c4f0dd37bcdc6ffc23c1e5ab0eb9d797099d4b7b5"
+  },
+  "sources/crops/lodging/w.png": {
+    "bytes": 286366,
+    "sha256": "6f0bd6e51c0df610db44016c10bd8556bdf39ec027a74ac98d31aa92b744690f"
+  },
+  "sources/crops/provisions/e.png": {
+    "bytes": 236318,
+    "sha256": "75b4dd3bca35d55ca7912cbd1e789d70d9190c14fc9bc897eacab3ed3dca0825"
+  },
+  "sources/crops/provisions/n.png": {
+    "bytes": 364483,
+    "sha256": "f17d85bd0f25782328426d7056c64d204d533500a45db48a87310c718c08f92d"
+  },
+  "sources/crops/provisions/s.png": {
+    "bytes": 348500,
+    "sha256": "2c12eb553c72fb23517a74e85f146d45ae879a05b7b70509e45037482eeb4015"
+  },
+  "sources/crops/provisions/w.png": {
+    "bytes": 239475,
+    "sha256": "6ff0d5faf5e3b162ca58c5eca932aee3e60f3846faf78a32e9265c97c1addb99"
+  },
+  "sources/crops/repair_supply/e.png": {
+    "bytes": 200930,
+    "sha256": "8df9622151fa5afd00b081c416cfb320b908ae90e57bec81b837b743214feb99"
+  },
+  "sources/crops/repair_supply/n.png": {
+    "bytes": 294224,
+    "sha256": "45096d4f660fea4f33bf7aa875ce7fbbf93081a06a699eb6aa9e05775f104f33"
+  },
+  "sources/crops/repair_supply/s.png": {
+    "bytes": 289729,
+    "sha256": "e18b18e93c48039bd9f657885a1f6697ee3431e5031aff98d2c04b8ffb0e9cb6"
+  },
+  "sources/crops/repair_supply/w.png": {
+    "bytes": 199420,
+    "sha256": "b555038cddf27f24ad6c00e5554e057f6f30d9e6a851f71e34a0fb9ea2d654af"
+  },
+  "sources/crops/stables/e.png": {
+    "bytes": 164228,
+    "sha256": "97260a785cf46a748f0750cc8b41c7e2a312588949557ae3a1bc8a9794dff363"
+  },
+  "sources/crops/stables/n.png": {
+    "bytes": 186286,
+    "sha256": "74a9557513c3af2ed87ccfc451314a24454225e7908079e627e2cccd41c4a60b"
+  },
+  "sources/crops/stables/s.png": {
+    "bytes": 184660,
+    "sha256": "cd0def321bbe9aefc04d0f1ccf671d47d6928b9b752db8375b1d27a951fdaa94"
+  },
+  "sources/crops/stables/w.png": {
+    "bytes": 164157,
+    "sha256": "f4e509d5749bcd65aa961c9b1a08a4ab5c46698801cc4b96dc7e0b78aef7d240"
+  },
+  "sources/crops/store_shed/e.png": {
+    "bytes": 221372,
+    "sha256": "91b3815c32eece0fe6f42e599625e848f80ef7e7ceceac67d8ec2d472546cb13"
+  },
+  "sources/crops/store_shed/n.png": {
+    "bytes": 163977,
+    "sha256": "73e7940157fcb818d2d0be5292b4189acf872809290e89a83f5d6488bbccbf48"
+  },
+  "sources/crops/store_shed/s.png": {
+    "bytes": 161674,
+    "sha256": "7b06f0ac1889acf00c2bb2aee1297eab61e13418e3f045d4039d5275792db4d0"
+  },
+  "sources/crops/store_shed/w.png": {
+    "bytes": 222039,
+    "sha256": "ad932c7d39c443ccdfe7f8067885af742793ea77b5e7e41a9561cbb0c5286574"
+  },
+  "sources/fitted/company_house/e.png": {
+    "bytes": 198004,
+    "sha256": "08ff94f8292f5cc1f80a248d4a51c690dffeb784e8638f92f4a64fdfb5724fbd"
+  },
+  "sources/fitted/company_house/n.png": {
+    "bytes": 338308,
+    "sha256": "b97565d27cf37eb2c6d750257e4832f47ae34c07576b7e10f8a44d40b310b182"
+  },
+  "sources/fitted/company_house/s.png": {
+    "bytes": 335444,
+    "sha256": "80b528537b00cf5a40df6551b91bda0bc7c2f31512e3e7e5e00298d05d53f041"
+  },
+  "sources/fitted/company_house/w.png": {
+    "bytes": 197423,
+    "sha256": "2c8b16a032ad45bb49e0c7bba674cd135093bdd0deae48d9a122ccacce8567a3"
+  },
+  "sources/fitted/gatehouse/e.png": {
+    "bytes": 115537,
+    "sha256": "52ff8ae9fb9e9c9a83a62f74a4acb65b3a55d7eba5d4faef4e3fc4f683958037"
+  },
+  "sources/fitted/gatehouse/n.png": {
+    "bytes": 439223,
+    "sha256": "1660b5bd8a40f93c3697ffbbbdf430e7a44af833fb44f6f15de94dbf30565d15"
+  },
+  "sources/fitted/gatehouse/s.png": {
+    "bytes": 441782,
+    "sha256": "939a407ec83c0b957b6fd1756b955176582c1bccfedf74d07efb7c82a6241f88"
+  },
+  "sources/fitted/gatehouse/w.png": {
+    "bytes": 115511,
+    "sha256": "1142a7a5aa718b38add19b971e29a9ca942eb912937cbd6f42a2f8f9731873d1"
+  },
+  "sources/fitted/guard_shelter/e.png": {
+    "bytes": 67594,
+    "sha256": "4deda595ff9260b5298a7fb5593778a260178b49b643d620624c92dfbae83250"
+  },
+  "sources/fitted/guard_shelter/n.png": {
+    "bytes": 91316,
+    "sha256": "4b0361dc8288ee19fa8282c6c5905033d5c6ef5129d3af669a4822cc97c0e66a"
+  },
+  "sources/fitted/guard_shelter/s.png": {
+    "bytes": 90949,
+    "sha256": "51ad32545aa6ede80ef4c5dad01fa56b227dd72d7f7a35c1652827ce1af4e4ce"
+  },
+  "sources/fitted/guard_shelter/w.png": {
+    "bytes": 64808,
+    "sha256": "5b59227fd5fa67c67c2abb7d3a31fd48951bc98e096466a9053b2646ca782397"
+  },
+  "sources/fitted/house_violet/e.png": {
+    "bytes": 293768,
+    "sha256": "8c5d92b089fa5750b737c072141a508f30f530ff5ef59a87b542da004379145d"
+  },
+  "sources/fitted/house_violet/n.png": {
+    "bytes": 267006,
+    "sha256": "1842dd00bf215a163cdafe6f28f96ef18d0d1e4a2bd8c2496ad36f5d887999ef"
+  },
+  "sources/fitted/house_violet/s.png": {
+    "bytes": 263932,
+    "sha256": "3303b539d51c49e69b09a340709d0407e9a0f9f2195666be603576f76418f72d"
+  },
+  "sources/fitted/house_violet/w.png": {
+    "bytes": 284644,
+    "sha256": "edaa9503b950a8c1a4ab554faac9cb3b76e14be5ef61eeb5ac0dcce0afd2d458"
+  },
+  "sources/fitted/lodging/e.png": {
+    "bytes": 388530,
+    "sha256": "ebecfd82801ab8f49ddb1e6206b330aa77189025973df2ba92b41e2c3b160f21"
+  },
+  "sources/fitted/lodging/n.png": {
+    "bytes": 307306,
+    "sha256": "797e75d08965ac2052b3ecb21fc085bca9c402d4d857b6add683f9d0364fb81e"
+  },
+  "sources/fitted/lodging/s.png": {
+    "bytes": 306417,
+    "sha256": "0ca0f476881736cb56a0584b6e711aa9b148f19d5c5fd771bea0be351846a964"
+  },
+  "sources/fitted/lodging/w.png": {
+    "bytes": 385922,
+    "sha256": "e391301b60b091420fb27940787fa729ed98fac85555136865d6efee51ac2f6e"
+  },
+  "sources/fitted/provisions/e.png": {
+    "bytes": 272479,
+    "sha256": "6c7aac4dc1004365cdeaf5f1552460fad7138484598cd8e094799c94c04d8a76"
+  },
+  "sources/fitted/provisions/n.png": {
+    "bytes": 419857,
+    "sha256": "ce837d66d01803a0314a8ee44cf8c6fd1dbcaf05311c7fb9dcee5ed490c5dc31"
+  },
+  "sources/fitted/provisions/s.png": {
+    "bytes": 402292,
+    "sha256": "a93e51f773f3ceb0176715c1a2fd696a058f562d8a44cba19bc2c370aeb3729a"
+  },
+  "sources/fitted/provisions/w.png": {
+    "bytes": 277122,
+    "sha256": "feca800470b2289289d6fdb132959b14baaef495898c5d0f9a5ac03d59eee5df"
+  },
+  "sources/fitted/repair_supply/e.png": {
+    "bytes": 284394,
+    "sha256": "418a742b150e323080b3893618ad890f30ac692645280ec46e158f6473685c08"
+  },
+  "sources/fitted/repair_supply/n.png": {
+    "bytes": 415802,
+    "sha256": "aec51c1a362b19788872560bab03133c1d4f1d4e05f9e5d83dc8a3f4c61258c1"
+  },
+  "sources/fitted/repair_supply/s.png": {
+    "bytes": 411396,
+    "sha256": "70f958bc8ea01bed0a73759973cb30b646bfd43839cf0636fbf42799056cd75f"
+  },
+  "sources/fitted/repair_supply/w.png": {
+    "bytes": 280860,
+    "sha256": "16da63a47d6e7a69e6267f35cf2fa74f2d168ea1b7118d809ca1c832982fda52"
+  },
+  "sources/fitted/stables/e.png": {
+    "bytes": 167297,
+    "sha256": "e0892d004477eb55869c98945003c467a6c503f60552fab2a4761cb6334507a5"
+  },
+  "sources/fitted/stables/n.png": {
+    "bytes": 191869,
+    "sha256": "c6198d356ed47f6f64004fa0ec13a3c1370b05a225c5f903e97f55b16a8343b5"
+  },
+  "sources/fitted/stables/s.png": {
+    "bytes": 188486,
+    "sha256": "51fcc494facee82a07fc5aa30913de8c23f54056f85d8e80b8e74cd2f8dc5351"
+  },
+  "sources/fitted/stables/w.png": {
+    "bytes": 167628,
+    "sha256": "13be8c43fbae085959e89b7ea7679f2d54f9dd6fcfe1243f07c13f8fc2e2c4cc"
+  },
+  "sources/fitted/store_shed/e.png": {
+    "bytes": 81360,
+    "sha256": "5b6f52be0770c3481d874798f42ae94e25f8671e57b8b9f62890c861eab411bc"
+  },
+  "sources/fitted/store_shed/n.png": {
+    "bytes": 58203,
+    "sha256": "cd73120a58e2fb425797a6291f312a504fe5fe3081461753a19db0e11096d058"
+  },
+  "sources/fitted/store_shed/s.png": {
+    "bytes": 57539,
+    "sha256": "2d592aa03fb13699069234c21bf927fcc56462c86517da7abcce8210e1b933a4"
+  },
+  "sources/fitted/store_shed/w.png": {
+    "bytes": 82059,
+    "sha256": "96170fe012e52a85456132909cf87fe3cf6e6628f6c8673549effe3a4a95ac05"
+  },
+  "sources/registered/company_house/e.png": {
+    "bytes": 192746,
+    "sha256": "6e83f6082ec0039a68bff191479082339ef01669bfa1ca0d658b6f3d111c57f9"
+  },
+  "sources/registered/company_house/n.png": {
+    "bytes": 337804,
+    "sha256": "8aa6ac65790a05875b4ef0f65c66df955b325e0cdc42baefc3d94bbc93f5485f"
+  },
+  "sources/registered/company_house/s.png": {
+    "bytes": 333760,
+    "sha256": "27b4774c3247283a711289d072b1fa4b77c824822e8f993c9b7760c178c66c1a"
+  },
+  "sources/registered/company_house/w.png": {
+    "bytes": 195887,
+    "sha256": "1646f8500b435539266d04b63d2008b9420c13731adf788fa049fd4784bc11ab"
+  },
+  "sources/registered/gatehouse/e.png": {
+    "bytes": 115584,
+    "sha256": "65230171110ad4a5b69144c74b2a435f35c416e59a168f1343b628bb8b62aa52"
+  },
+  "sources/registered/gatehouse/n.png": {
+    "bytes": 439223,
+    "sha256": "1660b5bd8a40f93c3697ffbbbdf430e7a44af833fb44f6f15de94dbf30565d15"
+  },
+  "sources/registered/gatehouse/s.png": {
+    "bytes": 441782,
+    "sha256": "939a407ec83c0b957b6fd1756b955176582c1bccfedf74d07efb7c82a6241f88"
+  },
+  "sources/registered/gatehouse/w.png": {
+    "bytes": 115560,
+    "sha256": "569844d4571cca2327f851c7781e82964679a76429ea91bdbf92d1d6659ac756"
+  },
+  "sources/registered/guard_shelter/e.png": {
+    "bytes": 63255,
+    "sha256": "7d8228d006d736ed43618b10d89ea451272e6fab8e946556a203f6d906c7b482"
+  },
+  "sources/registered/guard_shelter/n.png": {
+    "bytes": 90906,
+    "sha256": "293725980816fb8e15ff8be2fbc61a583875f441bbc5e6af75ef6b0087fdfe89"
+  },
+  "sources/registered/guard_shelter/s.png": {
+    "bytes": 90494,
+    "sha256": "7ac8649e99320ed7f3d992e6dd69b6db6ed18c5307eee4cc7d0f37d8816a29bb"
+  },
+  "sources/registered/guard_shelter/w.png": {
+    "bytes": 64808,
+    "sha256": "5b59227fd5fa67c67c2abb7d3a31fd48951bc98e096466a9053b2646ca782397"
+  },
+  "sources/registered/house_violet/e.png": {
+    "bytes": 289858,
+    "sha256": "b0f5eed8c5b64c4d1845d1fffea9003b884eaa626f6a4a97415531a45c4179b4"
+  },
+  "sources/registered/house_violet/n.png": {
+    "bytes": 264319,
+    "sha256": "0f9a0a6fa80fb53ab1bb642b3c89f2faf43b3b579dbe1b35e2b150129ce5fc3b"
+  },
+  "sources/registered/house_violet/s.png": {
+    "bytes": 259186,
+    "sha256": "b157b738f14995999e07ac0c2c90ff757f3ba532d9885b70b1bcee749969e49f"
+  },
+  "sources/registered/house_violet/w.png": {
+    "bytes": 280793,
+    "sha256": "5592fa404133abaf4d6954b417454be4b2ad5fcd0cedd51834d964adf5d91aaa"
+  },
+  "sources/registered/lodging/e.png": {
+    "bytes": 387447,
+    "sha256": "1c14c8d5fab73f694520c39245e581c42beaa758531927bb404c6d8cf8c16a0b"
+  },
+  "sources/registered/lodging/n.png": {
+    "bytes": 304966,
+    "sha256": "a15d67911ed47f85bbbe2b9092ba87b38b97eae0e585b9516a740a1b63b6422e"
+  },
+  "sources/registered/lodging/s.png": {
+    "bytes": 304095,
+    "sha256": "e0d7e262ba2cd2cd41366107bc30f6df193aeccef834c1895998c933ccbd5c7e"
+  },
+  "sources/registered/lodging/w.png": {
+    "bytes": 383647,
+    "sha256": "ad42ef4f1353e05e2aa1ac6a976cfc4d0647639c2947f9902c444328578cf389"
+  },
+  "sources/registered/provisions/e.png": {
+    "bytes": 267283,
+    "sha256": "82608547b955dfcb80de56643dd145803c84ff51e8e26937a22b2de6a8241a99"
+  },
+  "sources/registered/provisions/n.png": {
+    "bytes": 415295,
+    "sha256": "eca5a075b0bd5b5ebe067c421013f2df1cf2c79234bd8334e6fd542fa8894b3c"
+  },
+  "sources/registered/provisions/s.png": {
+    "bytes": 398468,
+    "sha256": "b97536af39bc81038db3cb3cbd98d3db7d9b46012637d51ca8811602cfced224"
+  },
+  "sources/registered/provisions/w.png": {
+    "bytes": 271631,
+    "sha256": "4f2f6e4c90b6e89719d5862e012ba026bf49bae3736175248463d4115c1b55d6"
+  },
+  "sources/registered/repair_supply/e.png": {
+    "bytes": 284020,
+    "sha256": "ee52c54ec69cb5a26bbd52930d83c5e4ce702f845b373dd92d13045c970dd976"
+  },
+  "sources/registered/repair_supply/n.png": {
+    "bytes": 414066,
+    "sha256": "b7a68005829418a61f80e7b5e84e5e6526975681a4d72209bef25595646b6ae5"
+  },
+  "sources/registered/repair_supply/s.png": {
+    "bytes": 409462,
+    "sha256": "227dfc7c6c63b990e04a5cb1685818ee84510a7c267a5ddfccfd8ee185adee2b"
+  },
+  "sources/registered/repair_supply/w.png": {
+    "bytes": 279555,
+    "sha256": "17defea2587a69b18faa3ca98c1c068f947002d1fe7e8e222baa388bb7a57108"
+  },
+  "sources/registered/stables/e.png": {
+    "bytes": 167299,
+    "sha256": "b29cde92d58aed447fb520b62a281d5b35a8ada0dca06b0c6ab656fd9a58cdab"
+  },
+  "sources/registered/stables/n.png": {
+    "bytes": 191869,
+    "sha256": "c6198d356ed47f6f64004fa0ec13a3c1370b05a225c5f903e97f55b16a8343b5"
+  },
+  "sources/registered/stables/s.png": {
+    "bytes": 188486,
+    "sha256": "51fcc494facee82a07fc5aa30913de8c23f54056f85d8e80b8e74cd2f8dc5351"
+  },
+  "sources/registered/stables/w.png": {
+    "bytes": 163907,
+    "sha256": "82dcacb2b873abc4ff5c3c49ff386b8433b5007ead130f00b6e831c6d3f6a5a7"
+  },
+  "sources/registered/store_shed/e.png": {
+    "bytes": 79115,
+    "sha256": "db75929551dd3ffdc4651813f5226b03d7f3b3943aab462ead9f1cc8b26d6070"
+  },
+  "sources/registered/store_shed/n.png": {
+    "bytes": 58203,
+    "sha256": "cd73120a58e2fb425797a6291f312a504fe5fe3081461753a19db0e11096d058"
+  },
+  "sources/registered/store_shed/s.png": {
+    "bytes": 57539,
+    "sha256": "2d592aa03fb13699069234c21bf927fcc56462c86517da7abcce8210e1b933a4"
+  },
+  "sources/registered/store_shed/w.png": {
+    "bytes": 82059,
+    "sha256": "96170fe012e52a85456132909cf87fe3cf6e6628f6c8673549effe3a4a95ac05"
+  }
+}

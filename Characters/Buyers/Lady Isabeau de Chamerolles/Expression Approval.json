@@ -1,0 +1,92 @@
+{
+    "character":  "Lady Isabeau de Chamerolles",
+    "date":  "2026-09-30",
+    "status":  "explicitly user-approved expression set; moved unchanged to portrait folder",
+    "userAuthorization":  "Approved, move the expressions set to her folder D:\\Storyboards\\Isekai Mercenary Company\\Characters\\Buyers\\Lady Isabeau de Chamerolles",
+    "productionRecord":  "D:\\Codex\\IMC\\Buyers\\Lady Isabeau de Chamerolles\\Expressions v1\\Production.json",
+    "base":  "D:\\Storyboards\\Isekai Mercenary Company\\Characters\\Buyers\\Lady Isabeau de Chamerolles\\Base.png",
+    "baseSHA256":  "6a9f505a25fb8fb54404ef44ee7c15049402d0d668f8fc6b70fe1447b427751c",
+    "count":  7,
+    "files":  [
+                  {
+                      "name":  "Pleased",
+                      "source":  "D:\\Codex\\IMC\\Buyers\\Lady Isabeau de Chamerolles\\Expressions v1\\Pleased.png",
+                      "destination":  "D:\\Storyboards\\Isekai Mercenary Company\\Characters\\Buyers\\Lady Isabeau de Chamerolles\\Pleased.png",
+                      "sha256":  "643bca46697966c11a57425e182e8ab1dc9659481829854e0f7e4d503e3cba3f",
+                      "width":  768,
+                      "height":  1024,
+                      "channels":  4,
+                      "generatedSource":  "C:/Users/Tristixa-/.codex/generated_images/01a0e544-9186-78f0-adf2-8d4d89bfe019/exec-92e42653-9133-4d64-9ccf-7ed910540f66.png",
+                      "preservedMaster":  "D:\\Codex\\IMC\\Buyers\\Lady Isabeau de Chamerolles\\Expressions v1\\Masters\\Pleased.png"
+                  },
+                  {
+                      "name":  "Considering",
+                      "source":  "D:\\Codex\\IMC\\Buyers\\Lady Isabeau de Chamerolles\\Expressions v1\\Considering.png",
+                      "destination":  "D:\\Storyboards\\Isekai Mercenary Company\\Characters\\Buyers\\Lady Isabeau de Chamerolles\\Considering.png",
+                      "sha256":  "76f6b2339cb788510aa5b5e1afde03646cf85b3770e59ef636b9ddd511cc44bb",
+                      "width":  768,
+                      "height":  1024,
+                      "channels":  4,
+                      "generatedSource":  "C:/Users/Tristixa-/.codex/generated_images/01a0e544-9186-78f0-adf2-8d4d89bfe019/exec-9bcb15f2-d24b-4eab-8953-baed58e4ad21.png",
+                      "preservedMaster":  "D:\\Codex\\IMC\\Buyers\\Lady Isabeau de Chamerolles\\Expressions v1\\Masters\\Considering.png"
+                  },
+                  {
+                      "name":  "Doubtful",
+                      "source":  "D:\\Codex\\IMC\\Buyers\\Lady Isabeau de Chamerolles\\Expressions v1\\Doubtful.png",
+                      "destination":  "D:\\Storyboards\\Isekai Mercenary Company\\Characters\\Buyers\\Lady Isabeau de Chamerolles\\Doubtful.png",
+                      "sha256":  "9a4b8e07cb3262470d8324849069f087881c34c5a7c458a4712af80e2b941937",
+                      "width":  768,
+                      "height":  1024,
+                      "channels":  4,
+                      "generatedSource":  "C:/Users/Tristixa-/.codex/generated_images/01a0e544-9186-78f0-adf2-8d4d89bfe019/exec-5977deba-4858-4e0b-aeb6-df03cf00fe2a.png",
+                      "preservedMaster":  "D:\\Codex\\IMC\\Buyers\\Lady Isabeau de Chamerolles\\Expressions v1\\Masters\\Doubtful.png"
+                  },
+                  {
+                      "name":  "Irritated",
+                      "source":  "D:\\Codex\\IMC\\Buyers\\Lady Isabeau de Chamerolles\\Expressions v1\\Irritated.png",
+                      "destination":  "D:\\Storyboards\\Isekai Mercenary Company\\Characters\\Buyers\\Lady Isabeau de Chamerolles\\Irritated.png",
+                      "sha256":  "e3e9f8d58270d8615ce0987e8b0b0ce0c56ecccf01643c9cef0a95e16bc882bf",
+                      "width":  768,
+                      "height":  1024,
+                      "channels":  4,
+                      "generatedSource":  "C:/Users/Tristixa-/.codex/generated_images/01a0e544-9186-78f0-adf2-8d4d89bfe019/exec-6b68e209-91ca-4fb7-b3fb-4cd1599d2ec0.png",
+                      "preservedMaster":  "D:\\Codex\\IMC\\Buyers\\Lady Isabeau de Chamerolles\\Expressions v1\\Masters\\Irritated.png"
+                  },
+                  {
+                      "name":  "Surprised",
+                      "source":  "D:\\Codex\\IMC\\Buyers\\Lady Isabeau de Chamerolles\\Expressions v1\\Surprised.png",
+                      "destination":  "D:\\Storyboards\\Isekai Mercenary Company\\Characters\\Buyers\\Lady Isabeau de Chamerolles\\Surprised.png",
+                      "sha256":  "4cdb05f3eb3d3b2d2acde427aac4229b9714b0d4f57c01b60b9d53e2501c1a02",
+                      "width":  768,
+                      "height":  1024,
+                      "channels":  4,
+                      "generatedSource":  "C:/Users/Tristixa-/.codex/generated_images/01a0e544-9186-78f0-adf2-8d4d89bfe019/exec-96fa21be-0c86-4376-9fa4-fd56783ae356.png",
+                      "preservedMaster":  "D:\\Codex\\IMC\\Buyers\\Lady Isabeau de Chamerolles\\Expressions v1\\Masters\\Surprised.png"
+                  },
+                  {
+                      "name":  "Deal",
+                      "source":  "D:\\Codex\\IMC\\Buyers\\Lady Isabeau de Chamerolles\\Expressions v1\\Deal.png",
+                      "destination":  "D:\\Storyboards\\Isekai Mercenary Company\\Characters\\Buyers\\Lady Isabeau de Chamerolles\\Deal.png",
+                      "sha256":  "1d67cba79d6d0bcd346b30347d2ce98d372174e3b5c7cd3d88e6e50ba9473e08",
+                      "width":  768,
+                      "height":  1024,
+                      "channels":  4,
+                      "generatedSource":  "C:/Users/Tristixa-/.codex/generated_images/01a0e544-9186-78f0-adf2-8d4d89bfe019/exec-c22951a5-aa36-4a2b-acae-83141a25a524.png",
+                      "preservedMaster":  "D:\\Codex\\IMC\\Buyers\\Lady Isabeau de Chamerolles\\Expressions v1\\Masters\\Deal.png"
+                  },
+                  {
+                      "name":  "WalkAway",
+                      "source":  "D:\\Codex\\IMC\\Buyers\\Lady Isabeau de Chamerolles\\Expressions v1\\WalkAway.png",
+                      "destination":  "D:\\Storyboards\\Isekai Mercenary Company\\Characters\\Buyers\\Lady Isabeau de Chamerolles\\WalkAway.png",
+                      "sha256":  "6ea164ce061136d4f1d4921d882b1e358be9a3cd3e2af912c5dbc3959c66aa0b",
+                      "width":  768,
+                      "height":  1024,
+                      "channels":  4,
+                      "generatedSource":  "C:/Users/Tristixa-/.codex/generated_images/01a0e544-9186-78f0-adf2-8d4d89bfe019/exec-700370bf-c01f-4ea7-bbab-f21d6bfa3932.png",
+                      "preservedMaster":  "D:\\Codex\\IMC\\Buyers\\Lady Isabeau de Chamerolles\\Expressions v1\\Masters\\WalkAway.png"
+                  }
+              ],
+    "originalMastersPreserved":  true,
+    "archive":  "D:\\Codex\\IMC\\Buyers\\Lady Isabeau de Chamerolles\\Expressions v1\\Isabeau Expressions.zip",
+    "runtimeIntegration":  false
+}

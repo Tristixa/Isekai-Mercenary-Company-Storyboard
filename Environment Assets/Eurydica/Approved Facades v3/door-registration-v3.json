@@ -1,0 +1,156 @@
+{
+  "market_bakery/n.png": {
+    "source_master": "sources/market_bakery-corrected.png",
+    "source_crop_bounds_px": [
+      40,
+      48,
+      531,
+      656
+    ],
+    "source_leaf_bounds_px": [
+      221,
+      460,
+      287,
+      608
+    ],
+    "target_leaf_bounds_px": [
+      243.2,
+      566.7174887892377,
+      332.8,
+      714
+    ],
+    "method": "Visually inspected leaf bounds; v2 horizontal pixel-centre registration plus piecewise vertical eave/door-top/ground registration"
+  },
+  "market_provisions/e.png": {
+    "source_master": "sources/market_provisions.png",
+    "source_crop_bounds_px": [
+      572,
+      184,
+      1066,
+      682
+    ],
+    "source_leaf_bounds_px": [
+      150,
+      360,
+      208,
+      498
+    ],
+    "target_leaf_bounds_px": [
+      243.2,
+      447.8494623655914,
+      332.8,
+      595
+    ],
+    "method": "Visually inspected leaf bounds; v2 horizontal pixel-centre registration plus piecewise vertical eave/door-top/ground registration"
+  },
+  "market_small_shop_east/n.png": {
+    "source_master": "sources/market_small_shop_east-corrected.png",
+    "source_crop_bounds_px": [
+      52,
+      71,
+      516,
+      674
+    ],
+    "source_leaf_bounds_px": [
+      193,
+      431,
+      262,
+      603
+    ],
+    "target_leaf_bounds_px": [
+      147.2,
+      345.7402597402597,
+      236.8,
+      493
+    ],
+    "method": "Visually inspected leaf bounds; v2 horizontal pixel-centre registration plus piecewise vertical eave/door-top/ground registration"
+  },
+  "market_small_shop_south/w.png": {
+    "source_master": "sources/market_small_shop_south-corrected.png",
+    "source_crop_bounds_px": [
+      624,
+      902,
+      1154,
+      1274
+    ],
+    "source_leaf_bounds_px": [
+      302,
+      196,
+      410,
+      372
+    ],
+    "target_leaf_bounds_px": [
+      179.2,
+      249.72580645161293,
+      268.8,
+      397
+    ],
+    "method": "Visually inspected leaf bounds; v2 horizontal pixel-centre registration plus piecewise vertical eave/door-top/ground registration"
+  },
+  "food_shop/w.png": {
+    "source_master": "sources/food_shop.png",
+    "source_crop_bounds_px": [
+      639,
+      934,
+      1155,
+      1266
+    ],
+    "source_leaf_bounds_px": [
+      283,
+      181,
+      358,
+      332
+    ],
+    "target_leaf_bounds_px": [
+      243.2,
+      249.72580645161293,
+      332.8,
+      397
+    ],
+    "method": "Visually inspected leaf bounds; v2 horizontal pixel-centre registration plus piecewise vertical eave/door-top/ground registration"
+  },
+  "clinic/w.png": {
+    "source_master": "sources/clinic.png",
+    "source_crop_bounds_px": [
+      682,
+      870,
+      1255,
+      1179
+    ],
+    "source_leaf_bounds_px": [
+      245,
+      171,
+      324,
+      309
+    ],
+    "target_leaf_bounds_px": [
+      275.2,
+      249.72580645161293,
+      364.80000000000007,
+      397
+    ],
+    "method": "Visually inspected leaf bounds; v2 horizontal pixel-centre registration plus piecewise vertical eave/door-top/ground registration"
+  },
+  "house_warm/e.png": {
+    "source_master": "sources/house_warm.png",
+    "source_crop_bounds_px": [
+      590,
+      298,
+      1073,
+      680
+    ],
+    "source_leaf_bounds_px": [
+      198,
+      240,
+      274,
+      382
+    ],
+    "target_leaf_bounds_px": [
+      211.2,
+      249.72580645161293,
+      300.8,
+      397
+    ],
+    "method": "Visually inspected leaf bounds; v2 horizontal pixel-centre registration plus piecewise vertical eave/door-top/ground registration"
+  }
+}

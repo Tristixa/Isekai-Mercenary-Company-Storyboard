@@ -53,8 +53,8 @@ Note: The client is currently written as Inn owner, but Tristitia refers to a no
 
 - ID: CH1-REQ-004.
 - Location: Service Lanes, Eurydica.
-- Appears: Chapter 1: at the end of Dr. Ginger's conversation, if Player accepts his offer.
-- Client: Dr.Ginger
+- Appears: Chapter 1: at the end of Dr. Emmerich's conversation, if Player accepts his offer.
+- Client: Dr. Emmerich
 - Reward: 100 gold, 20 reputation.
 - Time Limit: 6 days from appearing in the request list.
 - Request: x10 common slime part / any condition

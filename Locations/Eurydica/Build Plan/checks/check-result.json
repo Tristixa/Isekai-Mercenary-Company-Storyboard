@@ -1,0 +1,754 @@
+{
+  "graph_nodes": 443,
+  "gate_market_walk_m": 100.337,
+  "gate_market_walk_s_at_3_2": 31.355,
+  "gate_market_stroll_s_at_2": 50.169,
+  "buildings": 86,
+  "buildings_before": 83,
+  "added_buildings": [
+    "bridge_home_01",
+    "bridge_home_02",
+    "service_added_home"
+  ],
+  "clusters": 21,
+  "districts": 10,
+  "markers": 59,
+  "npc_spots": 24,
+  "props": 103,
+  "gate_river_m": 130.8,
+  "spacing_rows": [
+    {
+      "id": "south_gate",
+      "cluster": "gate_cluster",
+      "nearest": "street_home_1",
+      "gap_m": 0.919281
+    },
+    {
+      "id": "guard_shelter",
+      "cluster": "gate_cluster",
+      "nearest": "south_gate",
+      "gap_m": 0.932884
+    },
+    {
+      "id": "street_home_1",
+      "cluster": "gate_cluster",
+      "nearest": "south_gate",
+      "gap_m": 0.919281
+    },
+    {
+      "id": "infill_home_11",
+      "cluster": "gate_cluster",
+      "nearest": "guard_shelter",
+      "gap_m": 1.087064
+    },
+    {
+      "id": "company_house",
+      "cluster": "guild_compound",
+      "nearest": "store_shed",
+      "gap_m": 1.0
+    },
+    {
+      "id": "store_shed",
+      "cluster": "guild_compound",
+      "nearest": "stables",
+      "gap_m": 0.5
+    },
+    {
+      "id": "stables",
+      "cluster": "guild_compound",
+      "nearest": "store_shed",
+      "gap_m": 0.5
+    },
+    {
+      "id": "lodging",
+      "cluster": "lodging_row",
+      "nearest": "street_home_0",
+      "gap_m": 0.644809
+    },
+    {
+      "id": "street_home_0",
+      "cluster": "lodging_row",
+      "nearest": "street_home_2",
+      "gap_m": 0.601231
+    },
+    {
+      "id": "street_home_2",
+      "cluster": "lodging_row",
+      "nearest": "street_home_0",
+      "gap_m": 0.601231
+    },
+    {
+      "id": "infill_home_22",
+      "cluster": "lodging_row",
+      "nearest": "street_home_2",
+      "gap_m": 0.821023
+    },
+    {
+      "id": "arrival_home_1",
+      "cluster": "arrival_court",
+      "nearest": "arrival_home_3",
+      "gap_m": 0.579608
+    },
+    {
+      "id": "arrival_home_2",
+      "cluster": "arrival_court",
+      "nearest": "infill_home_03",
+      "gap_m": 0.507552
+    },
+    {
+      "id": "infill_home_03",
+      "cluster": "arrival_court",
+      "nearest": "arrival_home_2",
+      "gap_m": 0.507552
+    },
+    {
+      "id": "arrival_home_3",
+      "cluster": "arrival_court",
+      "nearest": "arrival_home_1",
+      "gap_m": 0.579608
+    },
+    {
+      "id": "infill_home_18",
+      "cluster": "arrival_court",
+      "nearest": "infill_home_03",
+      "gap_m": 1.0
+    },
+    {
+      "id": "street_home_3",
+      "cluster": "arrival_court",
+      "nearest": "arrival_home_3",
+      "gap_m": 0.965752
+    },
+    {
+      "id": "tavern",
+      "cluster": "red_tree_court",
+      "nearest": "infill_home_12",
+      "gap_m": 0.892214
+    },
+    {
+      "id": "infill_home_12",
+      "cluster": "red_tree_court",
+      "nearest": "street_home_8",
+      "gap_m": 0.368264
+    },
+    {
+      "id": "street_home_8",
+      "cluster": "red_tree_court",
+      "nearest": "infill_home_12",
+      "gap_m": 0.368264
+    },
+    {
+      "id": "provisions",
+      "cluster": "red_tree_court",
+      "nearest": "tavern",
+      "gap_m": 1.753653
+    },
+    {
+      "id": "repair_supply",
+      "cluster": "market_row",
+      "nearest": "infill_home_06",
+      "gap_m": 0.72816
+    },
+    {
+      "id": "infill_home_06",
+      "cluster": "market_row",
+      "nearest": "repair_supply",
+      "gap_m": 0.72816
+    },
+    {
+      "id": "infill_home_23",
+      "cluster": "market_row",
+      "nearest": "market_home_violet",
+      "gap_m": 0.641004
+    },
+    {
+      "id": "market_home_violet",
+      "cluster": "market_row",
+      "nearest": "infill_home_23",
+      "gap_m": 0.641004
+    },
+    {
+      "id": "market_home_0",
+      "cluster": "market_homes",
+      "nearest": "infill_home_04",
+      "gap_m": 0.797166
+    },
+    {
+      "id": "market_home_1",
+      "cluster": "market_homes",
+      "nearest": "market_home_east",
+      "gap_m": 0.422299
+    },
+    {
+      "id": "market_home_east",
+      "cluster": "market_homes",
+      "nearest": "market_home_1",
+      "gap_m": 0.422299
+    },
+    {
+      "id": "infill_home_04",
+      "cluster": "market_homes",
+      "nearest": "infill_home_08",
+      "gap_m": 0.793343
+    },
+    {
+      "id": "infill_home_05",
+      "cluster": "market_homes",
+      "nearest": "market_home_1",
+      "gap_m": 0.579608
+    },
+    {
+      "id": "infill_home_08",
+      "cluster": "market_homes",
+      "nearest": "infill_home_04",
+      "gap_m": 0.793343
+    },
+    {
+      "id": "food_shop",
+      "cluster": "service_lane",
+      "nearest": "clinic",
+      "gap_m": 0.585133
+    },
+    {
+      "id": "clinic",
+      "cluster": "service_lane",
+      "nearest": "food_shop",
+      "gap_m": 0.585133
+    },
+    {
+      "id": "service_home_0",
+      "cluster": "service_lane",
+      "nearest": "service_home_3",
+      "gap_m": 0.644809
+    },
+    {
+      "id": "service_home_3",
+      "cluster": "service_lane",
+      "nearest": "service_home_0",
+      "gap_m": 0.644809
+    },
+    {
+      "id": "service_home_1",
+      "cluster": "service_homes",
+      "nearest": "infill_home_02",
+      "gap_m": 0.842647
+    },
+    {
+      "id": "service_home_2",
+      "cluster": "service_homes",
+      "nearest": "infill_home_01",
+      "gap_m": 0.420396
+    },
+    {
+      "id": "infill_home_01",
+      "cluster": "service_homes",
+      "nearest": "service_home_2",
+      "gap_m": 0.420396
+    },
+    {
+      "id": "infill_home_02",
+      "cluster": "service_homes",
+      "nearest": "service_home_1",
+      "gap_m": 0.842647
+    },
+    {
+      "id": "infill_home_07",
+      "cluster": "service_homes",
+      "nearest": "service_home_2",
+      "gap_m": 1.279643
+    },
+    {
+      "id": "company_neighbor",
+      "cluster": "arrival_west_court",
+      "nearest": "infill_home_09",
+      "gap_m": 0.435533
+    },
+    {
+      "id": "infill_home_09",
+      "cluster": "arrival_west_court",
+      "nearest": "company_neighbor",
+      "gap_m": 0.435533
+    },
+    {
+      "id": "infill_home_10",
+      "cluster": "arrival_west_court",
+      "nearest": "infill_home_09",
+      "gap_m": 0.890053
+    },
+    {
+      "id": "street_home_4",
+      "cluster": "arrival_west_court",
+      "nearest": "infill_home_09",
+      "gap_m": 0.58155
+    },
+    {
+      "id": "infill_home_15",
+      "cluster": "arrival_west_court",
+      "nearest": "infill_home_10",
+      "gap_m": 1.0
+    },
+    {
+      "id": "street_home_5",
+      "cluster": "arrival_west_court",
+      "nearest": "street_home_4",
+      "gap_m": 0.965752
+    },
+    {
+      "id": "street_home_6",
+      "cluster": "guild_neighbours",
+      "nearest": "street_home_7",
+      "gap_m": 0.91755
+    },
+    {
+      "id": "street_home_7",
+      "cluster": "guild_neighbours",
+      "nearest": "infill_home_16",
+      "gap_m": 0.419452
+    },
+    {
+      "id": "infill_home_16",
+      "cluster": "guild_neighbours",
+      "nearest": "street_home_7",
+      "gap_m": 0.419452
+    },
+    {
+      "id": "infill_home_29",
+      "cluster": "guild_neighbours",
+      "nearest": "infill_home_30",
+      "gap_m": 0.413744
+    },
+    {
+      "id": "infill_home_30",
+      "cluster": "guild_neighbours",
+      "nearest": "infill_home_29",
+      "gap_m": 0.413744
+    },
+    {
+      "id": "infill_home_20",
+      "cluster": "arrival_garden_court",
+      "nearest": "infill_home_21",
+      "gap_m": 0.996151
+    },
+    {
+      "id": "infill_home_21",
+      "cluster": "arrival_garden_court",
+      "nearest": "infill_home_26",
+      "gap_m": 0.973363
+    },
+    {
+      "id": "infill_home_25",
+      "cluster": "arrival_garden_court",
+      "nearest": "infill_home_26",
+      "gap_m": 0.996151
+    },
+    {
+      "id": "infill_home_26",
+      "cluster": "arrival_garden_court",
+      "nearest": "infill_home_21",
+      "gap_m": 0.973363
+    },
+    {
+      "id": "infill_home_13",
+      "cluster": "service_garden_row",
+      "nearest": "infill_home_24",
+      "gap_m": 0.731965
+    },
+    {
+      "id": "infill_home_24",
+      "cluster": "service_garden_row",
+      "nearest": "infill_home_13",
+      "gap_m": 0.731965
+    },
+    {
+      "id": "service_added_home",
+      "cluster": "service_garden_row",
+      "nearest": "infill_home_24",
+      "gap_m": 0.775543
+    },
+    {
+      "id": "infill_home_28",
+      "cluster": "market_riverside",
+      "nearest": "infill_home_27",
+      "gap_m": 0.777446
+    },
+    {
+      "id": "infill_home_27",
+      "cluster": "market_riverside",
+      "nearest": "infill_home_28",
+      "gap_m": 0.777446
+    },
+    {
+      "id": "bridge_home_01",
+      "cluster": "market_riverside",
+      "nearest": "bridge_home_02",
+      "gap_m": 0.641004
+    },
+    {
+      "id": "bridge_home_02",
+      "cluster": "market_riverside",
+      "nearest": "bridge_home_01",
+      "gap_m": 0.641004
+    },
+    {
+      "id": "tool_repair",
+      "cluster": "workshop_yard",
+      "nearest": "timber_containers",
+      "gap_m": 1.191462
+    },
+    {
+      "id": "timber_containers",
+      "cluster": "workshop_yard",
+      "nearest": "tool_repair",
+      "gap_m": 1.191462
+    },
+    {
+      "id": "material_sorting",
+      "cluster": "workshop_yard",
+      "nearest": "tool_repair",
+      "gap_m": 1.414214
+    },
+    {
+      "id": "bulk_storehouse",
+      "cluster": "quay_row",
+      "nearest": "quay_storehouse",
+      "gap_m": 0.228057
+    },
+    {
+      "id": "quay_storehouse",
+      "cluster": "quay_row",
+      "nearest": "loading_shelter",
+      "gap_m": 0.000797
+    },
+    {
+      "id": "loading_shelter",
+      "cluster": "quay_row",
+      "nearest": "quay_storehouse",
+      "gap_m": 0.000797
+    },
+    {
+      "id": "watch_tower",
+      "cluster": "civic_plaza",
+      "nearest": "toll_records",
+      "gap_m": 6.223414
+    },
+    {
+      "id": "toll_records",
+      "cluster": "civic_plaza",
+      "nearest": "civic_guard",
+      "gap_m": 0.462331
+    },
+    {
+      "id": "civic_guard",
+      "cluster": "civic_plaza",
+      "nearest": "toll_records",
+      "gap_m": 0.462331
+    },
+    {
+      "id": "notice_shelter",
+      "cluster": "civic_plaza",
+      "nearest": "toll_records",
+      "gap_m": 1.411044
+    },
+    {
+      "id": "old_home_0",
+      "cluster": "old_city_row",
+      "nearest": "old_home_1",
+      "gap_m": 0.498097
+    },
+    {
+      "id": "old_home_1",
+      "cluster": "old_city_row",
+      "nearest": "old_home_0",
+      "gap_m": 0.498097
+    },
+    {
+      "id": "old_home_2",
+      "cluster": "old_city_row",
+      "nearest": "old_home_1",
+      "gap_m": 0.501903
+    },
+    {
+      "id": "old_hall",
+      "cluster": "old_city_row",
+      "nearest": "old_home_2",
+      "gap_m": 1.124791
+    },
+    {
+      "id": "res_home_0",
+      "cluster": "residential_a",
+      "nearest": "res_home_3",
+      "gap_m": 0.9128
+    },
+    {
+      "id": "res_home_3",
+      "cluster": "residential_a",
+      "nearest": "res_home_0",
+      "gap_m": 0.9128
+    },
+    {
+      "id": "infill_home_19",
+      "cluster": "residential_a",
+      "nearest": "res_home_0",
+      "gap_m": 1.173648
+    },
+    {
+      "id": "res_home_1",
+      "cluster": "residential_b",
+      "nearest": "res_home_2",
+      "gap_m": 0.915647
+    },
+    {
+      "id": "res_home_2",
+      "cluster": "residential_b",
+      "nearest": "infill_home_17",
+      "gap_m": 0.833116
+    },
+    {
+      "id": "infill_home_14",
+      "cluster": "residential_b",
+      "nearest": "res_home_1",
+      "gap_m": 1.0
+    },
+    {
+      "id": "infill_home_17",
+      "cluster": "residential_b",
+      "nearest": "res_home_2",
+      "gap_m": 0.833116
+    },
+    {
+      "id": "cistern",
+      "cluster": "waterworks_group",
+      "nearest": "waterkeeper",
+      "gap_m": 1.100247
+    },
+    {
+      "id": "waterkeeper",
+      "cluster": "waterworks_group",
+      "nearest": "washing",
+      "gap_m": 0.843365
+    },
+    {
+      "id": "washing",
+      "cluster": "waterworks_group",
+      "nearest": "waterkeeper",
+      "gap_m": 0.843365
+    }
+  ],
+  "median_cluster_wall_gap_m": 0.732,
+  "green_area_m2": 7666.55,
+  "green_locations": [
+    {
+      "id": "red_tree_bed",
+      "name": "Open red-tree grass-and-earth bed",
+      "area_m2": 25.0
+    },
+    {
+      "id": "rest_1_grass",
+      "name": "Guild rest_1 resting grass",
+      "area_m2": 2.4
+    },
+    {
+      "id": "rest_2_grass",
+      "name": "Guild rest_2 resting grass",
+      "area_m2": 2.4
+    },
+    {
+      "id": "spine_service_allotments",
+      "name": "Service household allotments (beds and tending aisles)",
+      "area_m2": 1211.5
+    },
+    {
+      "id": "old_city_orchard",
+      "name": "Old City communal orchard",
+      "area_m2": 445.96
+    },
+    {
+      "id": "old_city_east_garden",
+      "name": "Old City terrace gardens",
+      "area_m2": 444.65
+    },
+    {
+      "id": "civic_east_garden",
+      "name": "Civic east garden",
+      "area_m2": 447.78
+    },
+    {
+      "id": "civic_river_gardens",
+      "name": "Civic river gardens",
+      "area_m2": 276.35
+    },
+    {
+      "id": "residential_grove",
+      "name": "Residential shared grove",
+      "area_m2": 449.38
+    },
+    {
+      "id": "residential_court_garden",
+      "name": "Between the residential courts",
+      "area_m2": 230.92
+    },
+    {
+      "id": "waterworks_east_orchard",
+      "name": "Waterworks orchard",
+      "area_m2": 252.01
+    },
+    {
+      "id": "quay_orchard_buffer",
+      "name": "Quay and orchard buffer",
+      "area_m2": 142.47
+    },
+    {
+      "id": "west_wall_grove",
+      "name": "West wall grove",
+      "area_m2": 220.64
+    },
+    {
+      "id": "arrival_shared_garden",
+      "name": "Arrival shared garden",
+      "area_m2": 365.35
+    },
+    {
+      "id": "arrival_west_garden",
+      "name": "West arrival garden",
+      "area_m2": 318.07
+    },
+    {
+      "id": "arrival_south_garden",
+      "name": "Arrival and Guild garden",
+      "area_m2": 305.86
+    },
+    {
+      "id": "arrival_east_orchard",
+      "name": "Arrival east orchard",
+      "area_m2": 390.23
+    },
+    {
+      "id": "market_east_grove",
+      "name": "Market and service grove",
+      "area_m2": 253.3
+    },
+    {
+      "id": "market_north_garden",
+      "name": "Bridge-side garden",
+      "area_m2": 343.11
+    },
+    {
+      "id": "service_north_orchard",
+      "name": "Service north orchard",
+      "area_m2": 297.48
+    },
+    {
+      "id": "service_court_garden",
+      "name": "Service court garden",
+      "area_m2": 192.54
+    },
+    {
+      "id": "service_south_orchard",
+      "name": "Service south orchard",
+      "area_m2": 449.38
+    },
+    {
+      "id": "service_east_grove",
+      "name": "Service east grove",
+      "area_m2": 241.5
+    },
+    {
+      "id": "gate_east_grove",
+      "name": "Inner-wall east grove",
+      "area_m2": 196.17
+    },
+    {
+      "id": "gate_south_garden",
+      "name": "Gate inner-wall garden",
+      "area_m2": 162.1
+    }
+  ],
+  "civic_min_body_clearance_m": 1.3,
+  "allotment_reachable_half_m_cells": 3141,
+  "v5_gate_market_walk_m": 217.808,
+  "v5_gate_market_walk_s": 68.065,
+  "v5_all_nearest_median_m": 2.3557,
+  "v7_all_nearest_median_m": 0.732,
+  "v5_nonlandmarks_with_neighbour_at_2m": 10,
+  "v7_nonlandmarks_with_neighbour_at_2m": 84,
+  "nonlandmark_population_before": 81,
+  "nonlandmark_population_after": 84,
+  "trees": 424,
+  "named_green_spaces": 25,
+  "extent_area_m2": 65217.0,
+  "v5_extent_area_m2": 91346.0,
+  "building_area_m2": 6519.010000000001,
+  "v5_building_area_m2": 6375.009999999996,
+  "north_green_area_m2": 2547.052063451696,
+  "v5_gate_river_m": 308.8,
+  "roads_before": {
+    "length_m": 2485.672,
+    "summed_strip_area_m2": 8911.33,
+    "union_area_m2": 8193.38,
+    "union_sample_m": 0.1,
+    "routes": 121,
+    "door_length_m": 774.0
+  },
+  "roads_after": {
+    "length_m": 1900.417,
+    "summed_strip_area_m2": 6682.22,
+    "union_area_m2": 6237.66,
+    "union_sample_m": 0.1,
+    "routes": 131,
+    "door_length_m": 340.921
+  },
+  "roads_v7b": {
+    "length_m": 2057.752,
+    "summed_strip_area_m2": 6938.56,
+    "union_area_m2": 6482.19,
+    "union_sample_m": 0.1,
+    "routes": 126,
+    "door_length_m": 472.497
+  },
+  "road_length_reduction_percent": 23.55,
+  "road_area_reduction_percent": 23.87,
+  "door_spur_max_m": 10.636,
+  "door_spur_median_m": 3.324,
+  "bounded_route_faces": 2,
+  "building_yaws_deg": [
+    -10,
+    -5,
+    0,
+    5,
+    10,
+    15
+  ],
+  "angled_nonlandmarks": 72,
+  "green_irregularity": {
+    "definition": "1 - polygon area / axis-aligned bounding-box area; 0 means rectangle",
+    "before_mean": 0.3442,
+    "after_mean": 0.3449,
+    "concave_groves": 21,
+    "groves": 21
+  },
+  "continuous_intercluster_green_m2": 33208.56,
+  "unassigned_intercluster_gap_m2": 0.0,
+  "tree_spacing_cv": 0.5101,
+  "main_road_extrema_m": [
+    6.995,
+    -6.999,
+    6.999,
+    -6.995
+  ],
+  "grove_trees": 413,
+  "grove_count": 25,
+  "grove_tree_percent": 97.41,
+  "accent_trees": 11,
+  "road_35_percent_target_met": false,
+  "road_target_note": "35 percent is the handoff aim; report any shortfall explicitly, never remove spurs/alleys/bridge from the totals.",
+  "storeyard_irregularity": 0.1656,
+  "plan_sha256": "8e11a66429a94a8e61110bd51e0071d4aba664647e1e64a7ea0080c63eeb87b5",
+  "errors": [],
+  "checker_sources": {
+    "check_plan_v7c.py": "cddf8a5b8a9e76d931197f2cbeb57e5d6124b8adc22ec5fc9219cfad742228ef",
+    "detail_checks_v7c.py": "d32bb3569192bd637073e947abe0b9db966ed99096cebaf80b6e50b8628174a7",
+    "refinements_v7c.py": "46076a3e63226bf3b0ca29582306473377b9298a22e58881a41225f51ff1c152",
+    "geometry_v7b.py": "06429af7fbbc118604da1a1d112885085749c593538753cd554e28c124436919",
+    "inherited_checks.py": "f58861f41140112b7b4c4710649ca219abc09c709520fe956ae512d636eccca1"
+  }
+}

@@ -7,7 +7,7 @@ Last updated 2026-09-26. Videos: use **Omniflash** (steadiest, crispest and true
 Keep these the same for every character:
 - **Size:** about **96 art pixels tall** from the hair to the soles. The game uses sprites at their native size with no downscale (decided 2026-09-26). The six officer sheets came out 91–98 px tall on a 7.5 px grid, so asking for about 96 keeps new characters consistent with them.
 - **Pixel block:** every art pixel is an **8 × 8 block** of image pixels. The snapper finds the grid much more reliably when the block size is fixed and large.
-- **Background:** use a **key colour** the character does not wear. The default is pure green `#00FF00`. For characters with green clothing, eyes or skills (Valencia, Elsie's jacket), use magenta `#FF00FF`. Use the **same key colour in the sheet and in all four videos** for that character.
+- **Background:** use a **key colour** the character does not wear. The default is pure green `#00FF00`. For characters with green clothing, eyes or skills (Chloris, Elsie's jacket), use magenta `#FF00FF`. Use the **same key colour in the sheet and in all four videos** for that character.
 
 ---
 

@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "client.schema.json",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "region": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "rev": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "gdd": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "authoring_status": {
+      "enum": [
+        "specified",
+        "incomplete"
+      ]
+    },
+    "missing_fields": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "role": {
+      "type": "string",
+      "minLength": 1
+    },
+    "marker": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "buyer_id": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "region",
+    "rev",
+    "name",
+    "gdd",
+    "authoring_status",
+    "missing_fields",
+    "role",
+    "marker",
+    "buyer_id"
+  ],
+  "additionalProperties": false
+}

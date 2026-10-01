@@ -1,0 +1,2059 @@
+{
+  "source_sha256": "db5a41c61b8850f783d0a7321444321f4ee5fa0ede3d5236a83fbb188e334444",
+  "candidate_sha256": "5bfc52f9e40090aaad31aa7766e123eddc41d6f53aa1cea843681df55f601a9d",
+  "source_bytes": 499647,
+  "candidate_bytes": 550038,
+  "retained_bytes": 498803,
+  "removed_or_replaced_bytes": 844,
+  "inserted_or_replacement_bytes": 51235,
+  "edit_count": 115,
+  "unchanged_spans": [
+    {
+      "old_start": 0,
+      "new_start": 0,
+      "bytes": 78458,
+      "sha256": "b3ae973637e982880f94cc41b966c68ea03e11edefbac2f8277904c7b6dca72d"
+    },
+    {
+      "old_start": 78458,
+      "new_start": 78697,
+      "bytes": 1004,
+      "sha256": "f47b123f79055becd698e3051cd7c1f5079cc244d2e3efb34d9a2cfab77ecc6d"
+    },
+    {
+      "old_start": 79462,
+      "new_start": 79940,
+      "bytes": 958,
+      "sha256": "adec9f7f433debe22c1a77d677b3fad4844bd885d843a164740ef9781a2a1381"
+    },
+    {
+      "old_start": 80420,
+      "new_start": 81137,
+      "bytes": 981,
+      "sha256": "7024ae54995ff13c3700650998ec7d889577b172c3c9b8dfc9b17677296a1ce8"
+    },
+    {
+      "old_start": 81401,
+      "new_start": 82357,
+      "bytes": 1075,
+      "sha256": "80f099af2095b85afff4e814da5f9335baf6b336e07dd0263ea7a34f37e0d9cc"
+    },
+    {
+      "old_start": 82476,
+      "new_start": 83671,
+      "bytes": 1075,
+      "sha256": "b3ad3536ca1506acb5c2145977ebc4886ec8910df399ef67273032991d7c4dbf"
+    },
+    {
+      "old_start": 83551,
+      "new_start": 84985,
+      "bytes": 1020,
+      "sha256": "c39d41a90b64c0d1b2139953378230c48be628b0f150058f953150ab3e39b936"
+    },
+    {
+      "old_start": 84571,
+      "new_start": 86263,
+      "bytes": 990,
+      "sha256": "05b7aee4ceacb370a2529d52f8c83c1dec4bb013b4a2b5e7f12578eb1ad72c31"
+    },
+    {
+      "old_start": 85561,
+      "new_start": 87505,
+      "bytes": 996,
+      "sha256": "f1a96888afa0683eb8a6641767de8c0ced624fa7441ac44ce628d62be38038d2"
+    },
+    {
+      "old_start": 86557,
+      "new_start": 88740,
+      "bytes": 1069,
+      "sha256": "1b32644125716ba6f7d038a8d099320d67656e76363e204ab62b9679b2ac2bc4"
+    },
+    {
+      "old_start": 87626,
+      "new_start": 90048,
+      "bytes": 959,
+      "sha256": "345d858890e0377175df886afa9b9f8ec416a6ed8192557d5a301e86c0822082"
+    },
+    {
+      "old_start": 88585,
+      "new_start": 91299,
+      "bytes": 987,
+      "sha256": "a421bf557df23c9471c9077e996a18282ba88928bd7ab9b0a263fc86cd81aed4"
+    },
+    {
+      "old_start": 89572,
+      "new_start": 92525,
+      "bytes": 990,
+      "sha256": "4abc427046bfc331b872bb7ec96acd21f62178145425fbf2aa3487f6117f6510"
+    },
+    {
+      "old_start": 90562,
+      "new_start": 93754,
+      "bytes": 1012,
+      "sha256": "b4e9c3f1edd2827baed9925f366de7082dd8ec4e1ed22e0d23a4e9bd40cc771a"
+    },
+    {
+      "old_start": 91574,
+      "new_start": 95005,
+      "bytes": 1013,
+      "sha256": "d9fd9434e851a705f178c418afdf30411b844d6d72867dadd1d8d4e1636be752"
+    },
+    {
+      "old_start": 92587,
+      "new_start": 96257,
+      "bytes": 1023,
+      "sha256": "fc66cba3bace242bc615992abb02cfa5d7f3a7a4c42d07e6e2f320c292d84c62"
+    },
+    {
+      "old_start": 93610,
+      "new_start": 97539,
+      "bytes": 1088,
+      "sha256": "a19e9d97216c0480349087d154a3e82284b8ec004f956ca072115a6c7ebe3306"
+    },
+    {
+      "old_start": 94698,
+      "new_start": 98866,
+      "bytes": 958,
+      "sha256": "fecaa2077b14a05d03cb91a0651dffd8ef0bbd638590ebc895c61e20563063d6"
+    },
+    {
+      "old_start": 95656,
+      "new_start": 100076,
+      "bytes": 977,
+      "sha256": "5e2c1a0be85739a6478b2d6d966383e88154ca3a0661963a7445b16d87bcef8f"
+    },
+    {
+      "old_start": 96633,
+      "new_start": 101292,
+      "bytes": 974,
+      "sha256": "021ca2382d8b8f330437f36f6b39138b66f0f1158ae6807b8d33be8c43b89900"
+    },
+    {
+      "old_start": 97607,
+      "new_start": 102505,
+      "bytes": 969,
+      "sha256": "e1429b167c3eaf27347a0acabf20cc537a965fcded4d216048689f11fdbb5981"
+    },
+    {
+      "old_start": 98576,
+      "new_start": 103713,
+      "bytes": 961,
+      "sha256": "557f7f827cafc26a87d0fc349cbd618114e1e4cf195663edfbd9870cbb4fea48"
+    },
+    {
+      "old_start": 99537,
+      "new_start": 104913,
+      "bytes": 969,
+      "sha256": "a81435f338501624bd5f81d40677966a9b20e1bf586e66fec454dee5a66fa130"
+    },
+    {
+      "old_start": 100506,
+      "new_start": 106121,
+      "bytes": 969,
+      "sha256": "de168c184f7cbc632a1d60f387417866637d3d27a7950ed816cf89356a499e70"
+    },
+    {
+      "old_start": 101475,
+      "new_start": 107342,
+      "bytes": 985,
+      "sha256": "1348a082bc52ae1982ce0ee67f3cc891eee8564b0092ec60ec628ae275f774b0"
+    },
+    {
+      "old_start": 102460,
+      "new_start": 108579,
+      "bytes": 1000,
+      "sha256": "28b04f0517c5e150ef190da27da167869372b5bcdc16a132adfdcee780b7a212"
+    },
+    {
+      "old_start": 103460,
+      "new_start": 109818,
+      "bytes": 1004,
+      "sha256": "0b4daaaa5dff6562d07c7f316cfe23aa4e88a73803bdf02a2d5ac49d82e8bffb"
+    },
+    {
+      "old_start": 104464,
+      "new_start": 111061,
+      "bytes": 1000,
+      "sha256": "b19da0049a250127d68fc38463d63877d9ef838d877cc79fc296667cbd588f63"
+    },
+    {
+      "old_start": 105464,
+      "new_start": 112320,
+      "bytes": 1001,
+      "sha256": "87d891aaec782df54c0f41259abcb0a1c488e7afae16bf60e31077d901162ac8"
+    },
+    {
+      "old_start": 106465,
+      "new_start": 113560,
+      "bytes": 1033,
+      "sha256": "e3a815e6700193a97559074cca0d3ce0d130d48fe5ea4b02af6b4b712b8c1b90"
+    },
+    {
+      "old_start": 107498,
+      "new_start": 114885,
+      "bytes": 1277,
+      "sha256": "0d67b7c0d6ac337a824039049d87422c68fe50d6e9e101418527e7af7d0be4a0"
+    },
+    {
+      "old_start": 108775,
+      "new_start": 116401,
+      "bytes": 1049,
+      "sha256": "16b0b8c23e9a4782e11a04b236c5741778924020a3fcf541bc4018774f76df9e"
+    },
+    {
+      "old_start": 109824,
+      "new_start": 117689,
+      "bytes": 1048,
+      "sha256": "2c2f1954cd7b1cd688405ffc70686b98ba3bdd1c6b48bd9184bfb2f7cdf9fb68"
+    },
+    {
+      "old_start": 110872,
+      "new_start": 118976,
+      "bytes": 999,
+      "sha256": "e4f170e6ad901a4f5ed71fc6f9d8c6ebca7d794eab504ca6378fc0a8f0a03865"
+    },
+    {
+      "old_start": 111871,
+      "new_start": 120234,
+      "bytes": 1009,
+      "sha256": "1a46778dbefc277c69a672c876320322c70ec3deb7f152909f2f72fed22aae8e"
+    },
+    {
+      "old_start": 112880,
+      "new_start": 121482,
+      "bytes": 1001,
+      "sha256": "550435b6491f129ebaa14f2839acc80150ca54b3f48dda44de74a011d4ee6b07"
+    },
+    {
+      "old_start": 113881,
+      "new_start": 122722,
+      "bytes": 972,
+      "sha256": "09b7ddf2884c8b71d3fb6e7f4b56ce260b2bcfdfc5fe3b9522ededcb2835a130"
+    },
+    {
+      "old_start": 114853,
+      "new_start": 123933,
+      "bytes": 994,
+      "sha256": "09e5218930d2ce89f87f8c8e8d7cf4a019ddb7a3a19598e48534860624a4cc61"
+    },
+    {
+      "old_start": 115847,
+      "new_start": 125166,
+      "bytes": 996,
+      "sha256": "fb3276d8b1dd5ee73ad1c5e40af952ef674c8d519b9f03f46e670b14dfe1f026"
+    },
+    {
+      "old_start": 116843,
+      "new_start": 126401,
+      "bytes": 994,
+      "sha256": "605dc08d698cee32683280ddb8c163973da1b0fb6e975e261954d419b177226d"
+    },
+    {
+      "old_start": 117837,
+      "new_start": 127654,
+      "bytes": 998,
+      "sha256": "e639d935679771ca9eb8ca3e84262301d63c162492e474adfc0f1ef247df6721"
+    },
+    {
+      "old_start": 118835,
+      "new_start": 128891,
+      "bytes": 970,
+      "sha256": "5b0b7345ab31612c884adc1cfeae8d5ff7d7a7ad686ddbddc9a6ad24cc794129"
+    },
+    {
+      "old_start": 119805,
+      "new_start": 130100,
+      "bytes": 939,
+      "sha256": "d64cf99631c90f341a7d7902214595eafac88c6fb690c8753e09dc772856564e"
+    },
+    {
+      "old_start": 120744,
+      "new_start": 131278,
+      "bytes": 941,
+      "sha256": "8dc7a6629b249cdd0d44d1929215ff8f861a350c8040d058c19fe7554a772f7a"
+    },
+    {
+      "old_start": 121685,
+      "new_start": 132458,
+      "bytes": 1093,
+      "sha256": "c7eda320dbce07532efaefd7fbb12fd0430a190d78124cd890d5e7d28af0ec85"
+    },
+    {
+      "old_start": 122778,
+      "new_start": 133790,
+      "bytes": 1092,
+      "sha256": "ce4db302dfdb50806acb5e4d2d3d4a7b6dc24920723fa072af616493f1b4c6d4"
+    },
+    {
+      "old_start": 123870,
+      "new_start": 135141,
+      "bytes": 1093,
+      "sha256": "16955afd1a3c88e09b94751b646a36bfc921356fd9bedf67f91402e645ff46bc"
+    },
+    {
+      "old_start": 124963,
+      "new_start": 136473,
+      "bytes": 1094,
+      "sha256": "2d12daf89ad1a388c3d3f5be2e6fbfbae80f886347433a6ebd864b68fe48b559"
+    },
+    {
+      "old_start": 126057,
+      "new_start": 137806,
+      "bytes": 1096,
+      "sha256": "9390912645e871d570458e57554b7d958cd22368edc5fbcb900c8474bdc3d4c7"
+    },
+    {
+      "old_start": 127153,
+      "new_start": 139160,
+      "bytes": 1095,
+      "sha256": "0b5dc3e87c6682d3e0a53927b1fb149e3d905c457f48e2fe1c7ac61488d78d66"
+    },
+    {
+      "old_start": 128248,
+      "new_start": 140494,
+      "bytes": 1095,
+      "sha256": "06907b62f4ac52d0fbc13251caf1fb1a1819e99e643071e6d1cc46148e4c7950"
+    },
+    {
+      "old_start": 129343,
+      "new_start": 141828,
+      "bytes": 1095,
+      "sha256": "bc16511175a8614e5ab3fe331abaf1c9e25ed27a7b7626dc2faa3958a446b163"
+    },
+    {
+      "old_start": 130438,
+      "new_start": 143182,
+      "bytes": 60,
+      "sha256": "2760b2ddf593d188e6065c1aa7a548fba57fa66d75a886ba84cb60273b99e793"
+    },
+    {
+      "old_start": 130511,
+      "new_start": 143257,
+      "bytes": 308,
+      "sha256": "02d5a41251be76ad4b2be00a0c51834bbadd1b33b24a1aa1a35d228971a20621"
+    },
+    {
+      "old_start": 130874,
+      "new_start": 143573,
+      "bytes": 140,
+      "sha256": "9a276d4e68f606ed7cdcb8854b5b96bc9c29ea6819180f9ede298c9d73fcf38f"
+    },
+    {
+      "old_start": 131020,
+      "new_start": 143720,
+      "bytes": 25,
+      "sha256": "b1cdf5fda3bb2e6e6e1f26acb2b504079de5e819e05668912c113dab202bade1"
+    },
+    {
+      "old_start": 131053,
+      "new_start": 143783,
+      "bytes": 152,
+      "sha256": "d518ca2b08bcd07b42c2d127435867df37520f65931242fc4b9b64a7fb357348"
+    },
+    {
+      "old_start": 131260,
+      "new_start": 143943,
+      "bytes": 30,
+      "sha256": "cd2fe73a6a9d185f4b10e8b87bd8d99f0c27a155a4fb554dc2715ce8bb4b6413"
+    },
+    {
+      "old_start": 131404,
+      "new_start": 144047,
+      "bytes": 132,
+      "sha256": "23dbad97d47f0fe223c9cb5e6bc1105ba2a49151de9a0b2def36bc576274512d"
+    },
+    {
+      "old_start": 131536,
+      "new_start": 144438,
+      "bytes": 1034,
+      "sha256": "2ad569253093a28fc7c677cbf8eab5376ea3686629381e85d7ef72861197f0cc"
+    },
+    {
+      "old_start": 132570,
+      "new_start": 145711,
+      "bytes": 1045,
+      "sha256": "ae2772b39cf4fcd49053481ed3285e0e0c2e62d145b2a9248403a8359329f0a3"
+    },
+    {
+      "old_start": 133615,
+      "new_start": 147014,
+      "bytes": 1085,
+      "sha256": "ba7dd4d11d96d8432089e25f9dceb1f9aa3efe129c838f528c77a9e0f119c55b"
+    },
+    {
+      "old_start": 134700,
+      "new_start": 148338,
+      "bytes": 1052,
+      "sha256": "044e2fcae8a6076efbfc7f7890a9ff3d9f1c513339eb588d84b3d7f96a4a9bc5"
+    },
+    {
+      "old_start": 135752,
+      "new_start": 149629,
+      "bytes": 1094,
+      "sha256": "d7715b89657c244b90f76c761faddf8933b248263fa60c1150e264f65d049265"
+    },
+    {
+      "old_start": 136846,
+      "new_start": 150982,
+      "bytes": 61,
+      "sha256": "cf25c729e00ce43b97f234c7609536f3ca3d2bfb8047398928024ec68eb08236"
+    },
+    {
+      "old_start": 136921,
+      "new_start": 151067,
+      "bytes": 290,
+      "sha256": "7d4a6e0e5869382252b51623a8ef72512ae10e041d4fd0849ed15cf3c94facab"
+    },
+    {
+      "old_start": 137229,
+      "new_start": 151378,
+      "bytes": 139,
+      "sha256": "7e895e929996111705c8c8e8c53fd27fda8b52ba045f6ed110c6145d2bf99f18"
+    },
+    {
+      "old_start": 137374,
+      "new_start": 151524,
+      "bytes": 25,
+      "sha256": "b1cdf5fda3bb2e6e6e1f26acb2b504079de5e819e05668912c113dab202bade1"
+    },
+    {
+      "old_start": 137426,
+      "new_start": 151587,
+      "bytes": 166,
+      "sha256": "c903d4ffe89205bfef0b52cada33e67607b75cb2e0e646c968bde186ef84bc97"
+    },
+    {
+      "old_start": 137603,
+      "new_start": 151774,
+      "bytes": 30,
+      "sha256": "cd2fe73a6a9d185f4b10e8b87bd8d99f0c27a155a4fb554dc2715ce8bb4b6413"
+    },
+    {
+      "old_start": 137747,
+      "new_start": 151878,
+      "bytes": 128,
+      "sha256": "0a92f3f2c3178a44b427dd96cbd62f3e34c5e1338cf55be55ee4d461c70c9147"
+    },
+    {
+      "old_start": 137875,
+      "new_start": 152272,
+      "bytes": 1046,
+      "sha256": "883fc79ea3d91228d1578be71e79a299b4b3f390028baa3697cb3abd44ba62f6"
+    },
+    {
+      "old_start": 138921,
+      "new_start": 153557,
+      "bytes": 1042,
+      "sha256": "11ef232ceb99cadf6e01e955c9bb5bfd19f69c47e11b4244acb67a6ff45b424a"
+    },
+    {
+      "old_start": 139963,
+      "new_start": 154857,
+      "bytes": 1068,
+      "sha256": "56251163f53845743217a83100f77ecb8488e4aab56c0335109b179310b321e2"
+    },
+    {
+      "old_start": 141031,
+      "new_start": 156164,
+      "bytes": 1064,
+      "sha256": "3335d4610177e11fe670de2ce6cdc2b591545654a2f7940d63c3b1e1f4458589"
+    },
+    {
+      "old_start": 142095,
+      "new_start": 157467,
+      "bytes": 1027,
+      "sha256": "a43eedeed96d688680f1f0f7d1ba2640d287812275ea6115783e0f794790b2cd"
+    },
+    {
+      "old_start": 143122,
+      "new_start": 158753,
+      "bytes": 61,
+      "sha256": "743b2ea82bb0db13af374d7b6172dd5d9aac923a8c00eb3f579edfaf68219114"
+    },
+    {
+      "old_start": 143197,
+      "new_start": 158833,
+      "bytes": 279,
+      "sha256": "5c92d11856344bb8739e63d20cd4a509bba687caff1280e0f9036f2801f9a96c"
+    },
+    {
+      "old_start": 143494,
+      "new_start": 159129,
+      "bytes": 139,
+      "sha256": "7e895e929996111705c8c8e8c53fd27fda8b52ba045f6ed110c6145d2bf99f18"
+    },
+    {
+      "old_start": 143639,
+      "new_start": 159275,
+      "bytes": 25,
+      "sha256": "b1cdf5fda3bb2e6e6e1f26acb2b504079de5e819e05668912c113dab202bade1"
+    },
+    {
+      "old_start": 143691,
+      "new_start": 159338,
+      "bytes": 157,
+      "sha256": "b340687f68a2ff2b2edae5f7c867d0a416e4d2f88d06b2847b45c12496a5f757"
+    },
+    {
+      "old_start": 143874,
+      "new_start": 159512,
+      "bytes": 30,
+      "sha256": "cd2fe73a6a9d185f4b10e8b87bd8d99f0c27a155a4fb554dc2715ce8bb4b6413"
+    },
+    {
+      "old_start": 144018,
+      "new_start": 159616,
+      "bytes": 142,
+      "sha256": "19fa5d5384cbf4a2e83354a34fa8aceeb50d1aa9bc7b99913dcaf7a086766ca1"
+    },
+    {
+      "old_start": 144160,
+      "new_start": 160004,
+      "bytes": 999,
+      "sha256": "3d7b65fde22a27953789e79c4b940f758a2ed08adb1a5c2b54c43fedb70521e9"
+    },
+    {
+      "old_start": 145159,
+      "new_start": 161242,
+      "bytes": 1046,
+      "sha256": "ebbe02cec10f692b7aa308c815f68dc3805bb562e5f38dd85d75c133b75ed896"
+    },
+    {
+      "old_start": 146205,
+      "new_start": 162546,
+      "bytes": 1062,
+      "sha256": "4acfeca1e176077c593f927704725c08938aaa45f07bf1beb3f3aaa53ca680d9"
+    },
+    {
+      "old_start": 147267,
+      "new_start": 163847,
+      "bytes": 1051,
+      "sha256": "1087bab02aacf37276244ab1497a757891b13775cd55d8b9a544240db51c2814"
+    },
+    {
+      "old_start": 148318,
+      "new_start": 165137,
+      "bytes": 1060,
+      "sha256": "d8e7c6fed13d206e12dd0dfeeac5c86d9265fe1b3b17ac843d95d0576ef2a751"
+    },
+    {
+      "old_start": 149378,
+      "new_start": 166456,
+      "bytes": 1085,
+      "sha256": "b3271618e61164bcba7642521109073438cdefa4f766c3a9c84c9526ee21eb1f"
+    },
+    {
+      "old_start": 150463,
+      "new_start": 167780,
+      "bytes": 1048,
+      "sha256": "58305c9f47fc6c2790b84f5ce9012dd9ac59817ddf343b063f4a857125314782"
+    },
+    {
+      "old_start": 151511,
+      "new_start": 169067,
+      "bytes": 1059,
+      "sha256": "66bf0ffa844ebbc0cd2880d62e2fe2094cc8a7f8e6d3d3145eb8936e7e479129"
+    },
+    {
+      "old_start": 152570,
+      "new_start": 170384,
+      "bytes": 1048,
+      "sha256": "393327d4e9f3cd801582ca9552d6270d217df22e4af679e398289f40acde7cd5"
+    },
+    {
+      "old_start": 153618,
+      "new_start": 171671,
+      "bytes": 1033,
+      "sha256": "0d2ad7416c2cd3b0fcb1fc84e978ebc8cd32a2f008780b63f33ac8495dc6805b"
+    },
+    {
+      "old_start": 154651,
+      "new_start": 172943,
+      "bytes": 61,
+      "sha256": "d9b36b8ce03e2e3eaed7bb83be3f4c3610bbad02d9530f42b7cfa14030ccc4d3"
+    },
+    {
+      "old_start": 154726,
+      "new_start": 173029,
+      "bytes": 300,
+      "sha256": "97886232929f600b068069aeddd71f864ba7a4faf18d850aca5cea072ddd304f"
+    },
+    {
+      "old_start": 155044,
+      "new_start": 173347,
+      "bytes": 140,
+      "sha256": "9a276d4e68f606ed7cdcb8854b5b96bc9c29ea6819180f9ede298c9d73fcf38f"
+    },
+    {
+      "old_start": 155190,
+      "new_start": 173494,
+      "bytes": 25,
+      "sha256": "b1cdf5fda3bb2e6e6e1f26acb2b504079de5e819e05668912c113dab202bade1"
+    },
+    {
+      "old_start": 155242,
+      "new_start": 173557,
+      "bytes": 153,
+      "sha256": "d95924bef3352d0d875814bbf370f24175f0c922fc0cfcd9c395dbeeb5982767"
+    },
+    {
+      "old_start": 155414,
+      "new_start": 173728,
+      "bytes": 30,
+      "sha256": "cd2fe73a6a9d185f4b10e8b87bd8d99f0c27a155a4fb554dc2715ce8bb4b6413"
+    },
+    {
+      "old_start": 155558,
+      "new_start": 173832,
+      "bytes": 137,
+      "sha256": "c756e00436fd5215ea961c49101ff74b0ea2db0f09959f49d52596cc40b6ed49"
+    },
+    {
+      "old_start": 155695,
+      "new_start": 174214,
+      "bytes": 1036,
+      "sha256": "c4ddd97a9f1dc1b32559848d245e6fce79d7a6a8da711ec4d0b00403c7a3617d"
+    },
+    {
+      "old_start": 156731,
+      "new_start": 175489,
+      "bytes": 1064,
+      "sha256": "ede63ee93df656a0f9b1c000535e0cb8341a941b2367dd2a5a89be98c81b7a4a"
+    },
+    {
+      "old_start": 157795,
+      "new_start": 176792,
+      "bytes": 1051,
+      "sha256": "596b7251ea34351b04e62cc3a3cc0bacdf5e48678789faabcb3ef198a17ff1e5"
+    },
+    {
+      "old_start": 158846,
+      "new_start": 178101,
+      "bytes": 1047,
+      "sha256": "8b61261f6e77be1749482142ba34f38d73c014c1d3086616b3fbf3b7a1fe79ce"
+    },
+    {
+      "old_start": 159893,
+      "new_start": 179387,
+      "bytes": 1046,
+      "sha256": "a09c76dd88fbda4c049af9e469c2434bab9446005930be838f13f2e057f6e21f"
+    },
+    {
+      "old_start": 160939,
+      "new_start": 180672,
+      "bytes": 1052,
+      "sha256": "0592fa9b861aebb57a7211971cccf583bee895b6b8f1d0e0ba367d4420e6c826"
+    },
+    {
+      "old_start": 161991,
+      "new_start": 181983,
+      "bytes": 1061,
+      "sha256": "18ca9716dcefea437dce387bdfe7b217ff5fbbafcb586ba48922a32fa063a6e1"
+    },
+    {
+      "old_start": 163052,
+      "new_start": 183283,
+      "bytes": 200989,
+      "sha256": "76b3afec849d1af6d6170819ec63d782893e39f1ede5cfa569479c7201edf248"
+    },
+    {
+      "old_start": 364041,
+      "new_start": 384673,
+      "bytes": 11701,
+      "sha256": "ef53c77896a8c5c59549afa3d3e1024fc23fa3e03236c4253bd0722d93cfbd20"
+    },
+    {
+      "old_start": 375742,
+      "new_start": 401449,
+      "bytes": 7055,
+      "sha256": "aef7d734977081b26d45ae5a4b51542f368db440ecb02ef9ff21837836e01b29"
+    },
+    {
+      "old_start": 382797,
+      "new_start": 410650,
+      "bytes": 4436,
+      "sha256": "3955ff02177664c5b9406f74bb6587ef0a2c93fdb9777d8e5882bbe2aeb9f214"
+    },
+    {
+      "old_start": 387233,
+      "new_start": 436222,
+      "bytes": 5555,
+      "sha256": "33f909afcc1d5fcb8fedc0355e17205a9aa3effc6d967d4b25b8e360bc367120"
+    },
+    {
+      "old_start": 392788,
+      "new_start": 442493,
+      "bytes": 3691,
+      "sha256": "29e5a6b18e008be1516228d8085317a4c33775dcef4728cfe34f1ecf7d9520ec"
+    },
+    {
+      "old_start": 396479,
+      "new_start": 446250,
+      "bytes": 879,
+      "sha256": "662ca527c409274f3e64a5e66cd83ba5716131dc4a408154dfc48f4339822cca"
+    },
+    {
+      "old_start": 397358,
+      "new_start": 447195,
+      "bytes": 619,
+      "sha256": "1e8b0f64913cf6db4324d017f6342299a3b72ad9f4ebfdaa209ae60e4e167f31"
+    },
+    {
+      "old_start": 397977,
+      "new_start": 448368,
+      "bytes": 101670,
+      "sha256": "ea4e5f1ed0f63ded263da582f1e3ea183fe9ca567a2349afbeb6468a3b6e1805"
+    }
+  ],
+  "changed_ids": {
+    "buildings": [
+      "south_gate",
+      "guard_shelter",
+      "lodging",
+      "stables",
+      "arrival_home_1",
+      "arrival_home_2",
+      "arrival_home_3",
+      "company_house",
+      "store_shed",
+      "company_neighbor",
+      "tavern",
+      "provisions",
+      "repair_supply",
+      "market_home_0",
+      "market_home_1",
+      "market_home_east",
+      "market_home_violet",
+      "tool_repair",
+      "timber_containers",
+      "material_sorting",
+      "bulk_storehouse",
+      "loading_shelter",
+      "quay_storehouse",
+      "food_shop",
+      "clinic",
+      "service_home_0",
+      "service_home_1",
+      "service_home_2",
+      "service_home_3",
+      "old_hall",
+      "watch_tower",
+      "old_home_0",
+      "old_home_1",
+      "old_home_2",
+      "toll_records",
+      "civic_guard",
+      "notice_shelter",
+      "res_home_0",
+      "res_home_1",
+      "res_home_2",
+      "res_home_3",
+      "waterkeeper",
+      "washing",
+      "cistern",
+      "street_home_0",
+      "street_home_1",
+      "street_home_2",
+      "street_home_3",
+      "street_home_4",
+      "street_home_5",
+      "street_home_6",
+      "street_home_7",
+      "street_home_8",
+      "infill_home_01",
+      "infill_home_02",
+      "infill_home_03",
+      "infill_home_04",
+      "infill_home_05",
+      "infill_home_06",
+      "infill_home_07",
+      "infill_home_08",
+      "infill_home_09",
+      "infill_home_10",
+      "infill_home_11",
+      "infill_home_12",
+      "infill_home_13",
+      "infill_home_14",
+      "infill_home_15",
+      "infill_home_16",
+      "infill_home_17",
+      "infill_home_18",
+      "infill_home_19",
+      "infill_home_20",
+      "infill_home_21",
+      "infill_home_22",
+      "infill_home_23",
+      "infill_home_24",
+      "infill_home_25",
+      "infill_home_26",
+      "infill_home_27",
+      "infill_home_28",
+      "infill_home_29",
+      "infill_home_30"
+    ],
+    "ground_zones": [],
+    "markers": [],
+    "npc_spots": [],
+    "props": [],
+    "new_facades": [],
+    "interiors": [
+      "guild_interior"
+    ],
+    "portals": [],
+    "rooms_and_links": [
+      "guild_interior/two_bed_dormitory",
+      "guild_interior/dorm_stair"
+    ]
+  },
+  "added_ids": {
+    "buildings": [],
+    "ground_zones": [
+      "spine_service_allotments"
+    ],
+    "markers": [
+      "civic_terrace/leaders_1",
+      "civic_terrace/leaders_2",
+      "civic_terrace/leaders_3",
+      "civic_terrace/leaders_4",
+      "civic_terrace/leaders_5",
+      "civic_terrace/commander",
+      "civic_terrace/officers_1",
+      "civic_terrace/officers_2",
+      "civic_terrace/officers_3",
+      "civic_terrace/officers_4",
+      "civic_terrace/officers_5",
+      "civic_terrace/envoy",
+      "civic_terrace/camera_hint",
+      "south_gate/envoy_arrival",
+      "guild_courtyard/envoy",
+      "guild_interior/adventurer_evening_1",
+      "guild_interior/adventurer_evening_2",
+      "guild_courtyard/adventurer_evening_1",
+      "guild_courtyard/adventurer_evening_2",
+      "tavern_interior/adventurer_evening_1",
+      "tavern_interior/adventurer_evening_2",
+      "guild_courtyard/rest_1",
+      "guild_courtyard/rest_2"
+    ],
+    "npc_spots": [
+      "guild_interior/adventurer_evening_1",
+      "guild_interior/adventurer_evening_2",
+      "guild_courtyard/adventurer_evening_1",
+      "guild_courtyard/adventurer_evening_2",
+      "tavern_interior/adventurer_evening_1",
+      "tavern_interior/adventurer_evening_2"
+    ],
+    "props": [
+      "market_court_stall_1",
+      "market_court_stall_2",
+      "market_edge_stall_1",
+      "market_edge_stall_2",
+      "allotment_bed_1",
+      "allotment_bed_2",
+      "allotment_bed_3",
+      "allotment_bed_4",
+      "allotment_tools",
+      "workshop_timber_pile",
+      "workshop_stacked_materials",
+      "workshop_crates",
+      "workshop_work_area",
+      "workshop_cart",
+      "quays_timber_pile",
+      "quays_stacked_materials",
+      "quays_crates",
+      "quays_work_area",
+      "quays_cart",
+      "allotment_bed_5",
+      "allotment_bed_6",
+      "allotment_bed_7",
+      "allotment_bed_8",
+      "allotment_bed_9",
+      "allotment_bed_10",
+      "allotment_water_butt",
+      "allotment_compost",
+      "allotment_fruit_tree_1",
+      "allotment_fruit_tree_2",
+      "allotment_fence_north",
+      "allotment_fence_south",
+      "allotment_fence_west",
+      "allotment_fence_east_north",
+      "allotment_fence_east_south",
+      "allotment_gate",
+      "quays_crate_stack_wall",
+      "quays_barrels_wall",
+      "quays_rope_wall",
+      "quays_timber_wall",
+      "quays_lean_to",
+      "quays_cart_2",
+      "quays_barrels_south",
+      "quays_crates_south",
+      "quays_hand_hoist",
+      "quays_loading_crates",
+      "quays_loading_barrels",
+      "quays_loading_rope",
+      "quays_cart_3",
+      "quays_weigh_scale",
+      "quays_north_stock",
+      "workshop_timber_wall",
+      "workshop_sawhorses",
+      "workshop_bench_1",
+      "workshop_bench_2",
+      "workshop_bench_3",
+      "workshop_drying_rack",
+      "workshop_stone_stack",
+      "workshop_scrap_1",
+      "workshop_scrap_2",
+      "workshop_tool_shed",
+      "workshop_south_timber",
+      "workshop_south_stone",
+      "workshop_east_sawhorses",
+      "workshop_east_bench",
+      "workshop_east_stock",
+      "market_court_stall_3",
+      "market_court_crates",
+      "market_court_baskets",
+      "market_court_barrow",
+      "market_edge_stall_3",
+      "market_edge_crates",
+      "market_edge_baskets",
+      "market_edge_barrow",
+      "market_south_stall_1",
+      "market_south_stall_2",
+      "market_south_stall_3",
+      "market_south_crates",
+      "market_south_baskets",
+      "market_south_barrow"
+    ],
+    "new_facades": [
+      "market_bakery",
+      "market_small_shop_east",
+      "market_provisions",
+      "market_small_shop_south"
+    ],
+    "interiors": [],
+    "portals": [
+      "dorm_annex_portal",
+      "larger_dorm_portal"
+    ]
+  },
+  "changed_paths": [
+    [
+      "interiors",
+      1,
+      "vertical_links",
+      0,
+      "access_reason"
+    ],
+    [
+      "interiors",
+      1,
+      "vertical_links",
+      0,
+      "player_access"
+    ],
+    [
+      "interiors",
+      1,
+      "rooms",
+      3,
+      "player_access"
+    ],
+    [
+      "interiors",
+      1,
+      "rooms",
+      3,
+      "access_reason"
+    ],
+    [
+      "new_facades",
+      17
+    ],
+    [
+      "new_facades",
+      18
+    ],
+    [
+      "new_facades",
+      19
+    ],
+    [
+      "new_facades",
+      20
+    ],
+    [
+      "ground_zones",
+      320
+    ],
+    [
+      "markers",
+      36
+    ],
+    [
+      "markers",
+      37
+    ],
+    [
+      "markers",
+      38
+    ],
+    [
+      "markers",
+      39
+    ],
+    [
+      "markers",
+      40
+    ],
+    [
+      "markers",
+      41
+    ],
+    [
+      "markers",
+      42
+    ],
+    [
+      "markers",
+      43
+    ],
+    [
+      "markers",
+      44
+    ],
+    [
+      "markers",
+      45
+    ],
+    [
+      "markers",
+      46
+    ],
+    [
+      "markers",
+      47
+    ],
+    [
+      "markers",
+      48
+    ],
+    [
+      "markers",
+      49
+    ],
+    [
+      "markers",
+      50
+    ],
+    [
+      "markers",
+      51
+    ],
+    [
+      "markers",
+      52
+    ],
+    [
+      "markers",
+      53
+    ],
+    [
+      "markers",
+      54
+    ],
+    [
+      "markers",
+      55
+    ],
+    [
+      "markers",
+      56
+    ],
+    [
+      "markers",
+      57
+    ],
+    [
+      "markers",
+      58
+    ],
+    [
+      "npc_spots",
+      18
+    ],
+    [
+      "npc_spots",
+      19
+    ],
+    [
+      "npc_spots",
+      20
+    ],
+    [
+      "npc_spots",
+      21
+    ],
+    [
+      "npc_spots",
+      22
+    ],
+    [
+      "npc_spots",
+      23
+    ],
+    [
+      "buildings",
+      0,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      1,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      2,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      3,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      4,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      5,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      6,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      7,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      8,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      9,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      10,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      11,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      12,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      13,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      14,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      15,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      16,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      17,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      18,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      19,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      20,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      21,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      22,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      23,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      24,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      25,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      26,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      27,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      28,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      29,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      30,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      31,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      32,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      33,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      34,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      35,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      36,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      37,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      38,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      39,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      40,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      41,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      42,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      43,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      44,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      45,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      46,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      47,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      48,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      49,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      50,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      51,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      52,
+      "display_name"
+    ],
+    [
+      "buildings",
+      52,
+      "asset_status"
+    ],
+    [
+      "buildings",
+      52,
+      "role"
+    ],
+    [
+      "buildings",
+      52,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      52,
+      "facade_id"
+    ],
+    [
+      "buildings",
+      52,
+      "roof_palette"
+    ],
+    [
+      "buildings",
+      52,
+      "roof_binding_note"
+    ],
+    [
+      "buildings",
+      53,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      54,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      55,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      56,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      57,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      58,
+      "display_name"
+    ],
+    [
+      "buildings",
+      58,
+      "asset_status"
+    ],
+    [
+      "buildings",
+      58,
+      "role"
+    ],
+    [
+      "buildings",
+      58,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      58,
+      "facade_id"
+    ],
+    [
+      "buildings",
+      58,
+      "roof_palette"
+    ],
+    [
+      "buildings",
+      58,
+      "roof_binding_note"
+    ],
+    [
+      "buildings",
+      59,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      60,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      61,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      62,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      63,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      64,
+      "display_name"
+    ],
+    [
+      "buildings",
+      64,
+      "asset_status"
+    ],
+    [
+      "buildings",
+      64,
+      "role"
+    ],
+    [
+      "buildings",
+      64,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      64,
+      "facade_id"
+    ],
+    [
+      "buildings",
+      64,
+      "roof_palette"
+    ],
+    [
+      "buildings",
+      64,
+      "roof_binding_note"
+    ],
+    [
+      "buildings",
+      65,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      66,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      67,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      68,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      69,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      70,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      71,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      72,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      73,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      74,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      75,
+      "display_name"
+    ],
+    [
+      "buildings",
+      75,
+      "asset_status"
+    ],
+    [
+      "buildings",
+      75,
+      "role"
+    ],
+    [
+      "buildings",
+      75,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      75,
+      "facade_id"
+    ],
+    [
+      "buildings",
+      75,
+      "roof_palette"
+    ],
+    [
+      "buildings",
+      75,
+      "roof_binding_note"
+    ],
+    [
+      "buildings",
+      76,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      77,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      78,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      79,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      80,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      81,
+      "roof_kit"
+    ],
+    [
+      "buildings",
+      82,
+      "roof_kit"
+    ],
+    [
+      "portals",
+      2
+    ],
+    [
+      "portals",
+      3
+    ],
+    [
+      "props",
+      24
+    ],
+    [
+      "props",
+      25
+    ],
+    [
+      "props",
+      26
+    ],
+    [
+      "props",
+      27
+    ],
+    [
+      "props",
+      28
+    ],
+    [
+      "props",
+      29
+    ],
+    [
+      "props",
+      30
+    ],
+    [
+      "props",
+      31
+    ],
+    [
+      "props",
+      32
+    ],
+    [
+      "props",
+      33
+    ],
+    [
+      "props",
+      34
+    ],
+    [
+      "props",
+      35
+    ],
+    [
+      "props",
+      36
+    ],
+    [
+      "props",
+      37
+    ],
+    [
+      "props",
+      38
+    ],
+    [
+      "props",
+      39
+    ],
+    [
+      "props",
+      40
+    ],
+    [
+      "props",
+      41
+    ],
+    [
+      "props",
+      42
+    ],
+    [
+      "props",
+      43
+    ],
+    [
+      "props",
+      44
+    ],
+    [
+      "props",
+      45
+    ],
+    [
+      "props",
+      46
+    ],
+    [
+      "props",
+      47
+    ],
+    [
+      "props",
+      48
+    ],
+    [
+      "props",
+      49
+    ],
+    [
+      "props",
+      50
+    ],
+    [
+      "props",
+      51
+    ],
+    [
+      "props",
+      52
+    ],
+    [
+      "props",
+      53
+    ],
+    [
+      "props",
+      54
+    ],
+    [
+      "props",
+      55
+    ],
+    [
+      "props",
+      56
+    ],
+    [
+      "props",
+      57
+    ],
+    [
+      "props",
+      58
+    ],
+    [
+      "props",
+      59
+    ],
+    [
+      "props",
+      60
+    ],
+    [
+      "props",
+      61
+    ],
+    [
+      "props",
+      62
+    ],
+    [
+      "props",
+      63
+    ],
+    [
+      "props",
+      64
+    ],
+    [
+      "props",
+      65
+    ],
+    [
+      "props",
+      66
+    ],
+    [
+      "props",
+      67
+    ],
+    [
+      "props",
+      68
+    ],
+    [
+      "props",
+      69
+    ],
+    [
+      "props",
+      70
+    ],
+    [
+      "props",
+      71
+    ],
+    [
+      "props",
+      72
+    ],
+    [
+      "props",
+      73
+    ],
+    [
+      "props",
+      74
+    ],
+    [
+      "props",
+      75
+    ],
+    [
+      "props",
+      76
+    ],
+    [
+      "props",
+      77
+    ],
+    [
+      "props",
+      78
+    ],
+    [
+      "props",
+      79
+    ],
+    [
+      "props",
+      80
+    ],
+    [
+      "props",
+      81
+    ],
+    [
+      "props",
+      82
+    ],
+    [
+      "props",
+      83
+    ],
+    [
+      "props",
+      84
+    ],
+    [
+      "props",
+      85
+    ],
+    [
+      "props",
+      86
+    ],
+    [
+      "props",
+      87
+    ],
+    [
+      "props",
+      88
+    ],
+    [
+      "props",
+      89
+    ],
+    [
+      "props",
+      90
+    ],
+    [
+      "props",
+      91
+    ],
+    [
+      "props",
+      92
+    ],
+    [
+      "props",
+      93
+    ],
+    [
+      "props",
+      94
+    ],
+    [
+      "props",
+      95
+    ],
+    [
+      "props",
+      96
+    ],
+    [
+      "props",
+      97
+    ],
+    [
+      "props",
+      98
+    ],
+    [
+      "props",
+      99
+    ],
+    [
+      "props",
+      100
+    ],
+    [
+      "props",
+      101
+    ],
+    [
+      "props",
+      102
+    ]
+  ],
+  "round_1_revision": {
+    "source_sha256": "3db5cc24475237ef7f4c2353485c97717a3512acebe8f8cfa44d0cc581233500",
+    "collections": {
+      "props": {
+        "changed": [
+          "allotment_bed_1",
+          "allotment_bed_2",
+          "allotment_bed_3",
+          "allotment_bed_4",
+          "allotment_tools",
+          "workshop_timber_pile",
+          "workshop_stacked_materials",
+          "workshop_crates",
+          "workshop_work_area",
+          "workshop_cart",
+          "quays_timber_pile",
+          "quays_stacked_materials",
+          "quays_crates",
+          "quays_work_area",
+          "quays_cart"
+        ],
+        "added": [
+          "allotment_bed_5",
+          "allotment_bed_6",
+          "allotment_bed_7",
+          "allotment_bed_8",
+          "allotment_bed_9",
+          "allotment_bed_10",
+          "allotment_water_butt",
+          "allotment_compost",
+          "allotment_fruit_tree_1",
+          "allotment_fruit_tree_2",
+          "allotment_fence_north",
+          "allotment_fence_south",
+          "allotment_fence_west",
+          "allotment_fence_east_north",
+          "allotment_fence_east_south",
+          "allotment_gate",
+          "quays_crate_stack_wall",
+          "quays_barrels_wall",
+          "quays_rope_wall",
+          "quays_timber_wall",
+          "quays_lean_to",
+          "quays_cart_2",
+          "quays_barrels_south",
+          "quays_crates_south",
+          "quays_hand_hoist",
+          "quays_loading_crates",
+          "quays_loading_barrels",
+          "quays_loading_rope",
+          "quays_cart_3",
+          "quays_weigh_scale",
+          "quays_north_stock",
+          "workshop_timber_wall",
+          "workshop_sawhorses",
+          "workshop_bench_1",
+          "workshop_bench_2",
+          "workshop_bench_3",
+          "workshop_drying_rack",
+          "workshop_stone_stack",
+          "workshop_scrap_1",
+          "workshop_scrap_2",
+          "workshop_tool_shed",
+          "workshop_south_timber",
+          "workshop_south_stone",
+          "workshop_east_sawhorses",
+          "workshop_east_bench",
+          "workshop_east_stock",
+          "market_court_stall_3",
+          "market_court_crates",
+          "market_court_baskets",
+          "market_court_barrow",
+          "market_edge_stall_3",
+          "market_edge_crates",
+          "market_edge_baskets",
+          "market_edge_barrow",
+          "market_south_stall_1",
+          "market_south_stall_2",
+          "market_south_stall_3",
+          "market_south_crates",
+          "market_south_baskets",
+          "market_south_barrow"
+        ],
+        "removed": []
+      },
+      "ground_zones": {
+        "changed": [
+          "spine_service_allotments"
+        ],
+        "added": [],
+        "removed": []
+      }
+    },
+    "other_collections_equal": true
+  }
+}

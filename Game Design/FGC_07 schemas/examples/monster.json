@@ -1,0 +1,36 @@
+{
+  "id": "moss_slime",
+  "region": "eurydica",
+  "rev": 1,
+  "name": "Moss Slime",
+  "gdd": [
+    "10.1; 9.3b; 2.2"
+  ],
+  "authoring_status": "incomplete",
+  "missing_fields": [
+    "skill (species assignment pending approval)"
+  ],
+  "area_id": "mosswood",
+  "tier": "ordinary",
+  "parent_id": null,
+  "stats": {
+    "hp": 180,
+    "atk": 4,
+    "def": 0,
+    "rate": 0.7
+  },
+  "base_xp": 6,
+  "knowledge_pct": 0,
+  "processing_yield_id": "moss_slime_yield",
+  "skill": null,
+  "poses": {
+    "idle": "moss_slime_idle",
+    "attack": "moss_slime_attack",
+    "skill": "moss_slime_skill",
+    "hurt": "moss_slime_hurt",
+    "second_hurt": null,
+    "defeat": "moss_slime_defeat"
+  },
+  "variant_palette_ref": null,
+  "group_chance": 0.6
+}

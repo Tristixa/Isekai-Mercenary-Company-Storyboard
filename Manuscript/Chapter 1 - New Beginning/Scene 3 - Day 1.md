@@ -1,334 +1,382 @@
 # Scene 3 - Starting Up
 
 ## Synopsis
+Location: Guild house (Tier 1) interior
+Time: Morning
+Actors: Tristitia, Elsie, Commander
+Staging: Tristitia at table_north facing south, seated; Commander at table_south facing north, standing beside the opposite chair; Elsie at bench_east facing west in Guild house (Tier 1) courtyard, offstage until the courtyard transition
+Special poses: Tristitia sit, Tristitia stand_from_chair, Commander sit, Commander look_down_seated, Commander stand_from_chair, Elsie look_down, Commander kneel_reach, Elsie withdraw_hand, Commander stand_from_kneel, Commander salute, Elsie salute
 
-Location: Tier 1 Company Base interior and courtyard.
-Time: Morning.
-Actors: Tristitia, Elsie, Player.
+> One week after the discussion in the tavern.
 
-One week after the discussion in the tavern.
-
-Unless directed otherwise, characters hold their current idle pose. Camera views continue across dialogue and choices.
+|Unless directed otherwise, characters hold their current idle pose. Camera views continue across dialogue and choices.|
 
 ---
 
-|Control remains locked.|
+[control: lock]
+[camera: shared]
+[pose: Tristitia sit]
+|Tristitia is seated, with an open ledger on the table. Commander stands beside the opposite chair.|
 
-|Camera: Shared view across a table. Tristitia is seated, with an open ledger on the table. Player stands beside the opposite chair.|
+Tristitia (Base):
+"Everything is ready."
+"Sit. We should decide how the work will be divided."
 
-Tristitia:
-“Everything is ready.”
-“Sit. We should decide how the work will be divided.”
+Commander (Base):
+"Okay."
 
-Player:
-“Okay.”
+[pose: Commander sit]
+Tristitia (Serious):
+"For the present, I will handle the requests and daily reports."
+"Mae has taken charge of processing and storage."
 
-|Player sits. Hold the shared table view.|
+Commander (Base):
+"And I make the decisions."
 
-Tristitia:
-“For the present, I will handle the requests and daily reports.”
-“Mae has taken charge of processing and storage.”
+Tristitia (Base):
+"Yes. You did accept the title."
 
-Player:
-“And I make the decisions.”
+Tristitia (Serious):
+"We have another concern."
 
-Tristitia:
-“Yes. You did accept the title.”
+[pose: Commander look_down_seated]
+Commander (Serious):
+"Money?"
 
-Tristitia:
-“We have another concern.”
+[pose: Commander sit]
+[face: Commander Tristitia]
+Tristitia (Serious):
+"Our lack of it, yes."
+"We spent most of what we had on this building."
+"I can find us requests, but no one is going to trust a new guild before it has a reputation."
 
-|Player briefly lowers his head toward the ledger.|
+Commander (Base):
+"What about selling monster materials?"
 
-Player:
-“Money?”
+Tristitia (Serious):
+"We can do that at the market."
+"But I suggest we wait. They know we need the coin, so they’ll offer as little as they can."
 
-|Player returns to seated idle, facing Tristitia.|
+Commander (Serious):
+"So requests first."
 
-Tristitia:
-“Our lack of it, yes.”
-“We spent most of what we had on this building.”
-“I can find us requests, but no one is going to trust a new company before it has a reputation.”
+Tristitia (Serious):
+"Requests first."
+"Once we have enough material to sell regularly, we can find someone who understands the market better than either of us."
 
-Player:
-“What about selling monster materials?”
+Commander (Base):
+"Sounds reasonable."
+"Then where do we find adventurers to take the requests?"
 
-Tristitia:
-“We can do that at the market.”
-“But I suggest we wait. They know we need the coin, so they’ll offer as little as they can.”
+Tristitia (Base):
+"I have already found the person who will answer that."
 
-Player:
-“So requests first.”
+[emote: Commander question]
+Commander (Surprise):
+"You have?"
 
-Tristitia:
-“Requests first.”
-“Once we have enough material to sell regularly, we can find someone who understands the market better than either of us.”
+Tristitia (Base):
+"Come outside."
 
-Player:
-“Sounds reasonable.”
-“Then where do we find adventurers to take the requests?”
+[pose: Tristitia stand_from_chair]
+[pose: Commander stand_from_chair]
+[pose: Tristitia idle]
+[pose: Commander idle]
+[move: Tristitia courtyard_door]
+[move: Commander courtyard_door]
+[fade: out]
+[location: Guild house (Tier 1) courtyard]
+[camera: shared]
+[pose: Elsie look_down]
+[face: Elsie west]
+[fade: in]
+|A travel pack with a visibly damaged strap rests on the bench. Elsie stands looking down at it.|
 
-Tristitia:
-“I have already found the person who will answer that.”
+[enter: Tristitia interior_door]
+[move: Tristitia bench_south]
+[enter: Commander interior_door]
+[move: Commander bench_west]
+[face: Tristitia Elsie]
+[face: Commander Elsie]
+Elsie (Serious):
+"This will split before it reaches the city gate."
 
-Player:
-“You have?”
+Tristitia (Base):
+"Then it is fortunate we found someone who notices such things."
 
-Tristitia:
-“Come outside.”
+[face: Elsie Commander]
+[pose: Elsie idle]
+Elsie (Base):
+"So this is the Commander."
 
-|Tristitia and Player stand. Tristitia leads toward the courtyard; Player follows.|
+Tristitia (Base):
+"<name>, this is Elsie."
+"She will hold the position of Chief of Adventurers."
 
-|Cut to the courtyard.|
+Elsie (Base):
+"Considering."
+"She left that part out."
 
-|Camera: Shared view of Elsie beside a bench, with room for Tristitia and Player to enter. A travel pack with a visibly damaged strap rests on the bench. Elsie stands looking down at it.|
-
-|Tristitia and Player approach and stop beside the bench. Keep all three visible.|
-
-Elsie:
-“This will split before it reaches the city gate.”
-
-Tristitia:
-“Then it is fortunate we found someone who notices such things.”
-
-|Elsie turns toward Player and settles into standing idle.|
-
-Elsie:
-“So this is the Commander.”
-
-Tristitia:
-“<name>, this is Elsie.”
-“She will hold the position of Chief of Adventurers.”
-
-Elsie:
-“Considering.”
-“She left that part out.”
-
-|Hold the shared view through the greeting choices.|
-
-Player:
+Commander (Base):
 
 1. **[Be friendly]**
-   “I’m <name>. Nice to meet you.”
+   Commander (Happy):
+   "I’m <name>. Nice to meet you."
+   Elsie (Happy):
+   "Elsie. Good to meet you, Commander."
 
 2. **[Be polite]**
-   “My name is <name>. Pleasure to meet you.”
+   Commander (Base):
+   "My name is <name>. Pleasure to meet you."
+   Elsie (Happy):
+   "Elsie. Good to meet you, Commander."
 
 3. **[Kneel and kiss her hand]**
-   |Player kneels and reaches for Elsie’s hand.|
-   “I’m <name>.”
+   [move: Commander elsie_side]
+   [pose: Commander kneel_reach]
+   Commander (Happy):
+   "I’m <name>."
+   [pose: Elsie withdraw_hand]
+   Elsie (Base):
+   "You can stand."
+   "I’m not anyone you need to bow to."
+   [pose: Commander stand_from_kneel]
+   [pose: Commander idle]
+   [pose: Elsie idle]
+   [move: Commander bench_west]
+   [face: Commander Elsie]
 
 4. **[Salute]**
-   |Player salutes.|
-   “<name>.”
+   [pose: Commander salute]
+   Commander (Serious):
+   "<name>."
+   [pose: Elsie salute]
+   [pose: Elsie idle]
+   [pose: Commander idle]
+   Elsie (Base):
+   "...Old habit."
 
-### If the Player chooses Friendly or Polite
+Elsie (Base):
+"Tristitia told me what you’re trying to build."
+"Steady work, supplies, and somewhere for adventurers to come back to."
 
-Elsie:
-“Elsie. Good to meet you, Commander.”
+Commander (Happy):
+"That’s the plan."
 
-### If the Player kneels
+Elsie (Happy):
+"It’s a good one."
 
-|Elsie withdraws her hand before Player can kiss it.|
+Elsie (Serious):
+"But you’ll be accepting the work while someone else has to walk out that gate and do it."
 
-Elsie:
-“You can stand.”
-“I’m not anyone you need to bow to.”
+Commander (Base):
+"Of course."
 
-|Player stands. Both return to standing idle.|
+[camera: two-shot Elsie Commander]
+|Keep Tristitia at the edge of the closer framing.|
+Elsie (Serious):
+"Then let me ask you something."
+"Say we accept a request and the adventurer refuses it. What do you do?"
 
-### If the Player salutes
+[camera: push-in Commander]
+Commander (Serious):
 
-|Elsie returns the salute almost automatically, then lowers her hand. Player also lowers his hand.|
+1. **[Respect their choice]**
+   [camera: two-shot Elsie Commander]
+   Commander (Serious):
+   "Then we offer it to someone else. It’s their life."
+   Elsie (Happy):
+   "Good."
+   Elsie (Serious):
+   "A contract is work, not a chain."
 
-Elsie:
-“...Old habit.”
+2. **[Ask why]**
+   [camera: two-shot Elsie Commander]
+   Commander (Serious):
+   "I’d ask why. They might know something we don’t."
+   Elsie (Happy):
+   "Exactly."
+   Elsie (Serious):
+   "People on the road may notice something we missed from behind a desk."
 
-### The dialogue rejoins here
+3. **[Be firm]**
+   [camera: two-shot Elsie Commander]
+   Commander (Serious):
+   "If they already accepted it, they owe us an explanation."
+   Elsie (Serious):
+   "Fair."
+   "They may refuse the work, but they don’t get to waste everyone else’s time."
 
-|All three remain standing in the shared courtyard view.|
+4. **[Ask her]**
+   [camera: two-shot Elsie Commander]
+   Commander (Base):
+   "I don’t know yet. What would you do?"
+   Elsie (Serious):
+   "I’d ask why."
+   "Then I’d decide whether they need better preparation, or we need a better request."
 
-Elsie:
-“Tristitia told me what you’re trying to build.”
-“Steady work, supplies, and somewhere for adventurers to come back to.”
+Elsie (Happy):
+"All right."
+"I can work with you."
 
-Player:
-“That’s the plan.”
+[camera: return]
+Tristitia (Base):
+"That was a shorter interview than mine."
+"Then I assume the position is settled."
 
-Elsie:
-“It’s a good one.”
-“But you’ll be accepting the work while someone else has to walk out that gate and do it.”
+Elsie (Base):
+"It is."
 
-Player:
-“Of course.”
+[face: Elsie Commander]
+Elsie (Happy):
+"I’ll handle training, preparation, and the expeditions."
 
-|Camera: Closer shared view of Elsie and Player, with Tristitia at the edge of the frame.|
+Elsie (Serious):
+"If someone isn’t ready to leave, I’ll tell you."
 
-Elsie:
-“Then let me ask you something.”
-“Say we accept a request and the adventurer refuses it. What do you do?”
+Commander (Serious):
+"And the decision is still mine?"
 
-|Camera: Cut to Player alone while the response options are displayed. Hold this view while the player considers the choice.|
+Elsie (Serious):
+"It is."
+"I’m only asking you to listen before you make it."
 
-|On selection, return to the previous closer shared view of Elsie and Player before Player speaks the selected line. Hold that view through Elsie’s response.|
+Commander (Happy):
+"I can do that."
+"I’m counting on you, Elsie."
 
-Player:
-1. [Respect their choice] “Then we offer it to someone else. It’s their life.”
-2. [Ask why] “I’d ask why. They might know something we don’t.”
-3. [Be firm] “If they already accepted it, they owe us an explanation.”
-4. [Ask her] “I don’t know yet. What would you do?”
+Elsie (Happy):
+"Then we understand each other."
 
-### If the Player respects their choice
+Tristitia (Base):
+"We should finish the tour."
 
-Elsie:
-“Good.”
-“A contract is work, not a chain.”
+Elsie (Base):
+"Go ahead. I want to check the rest of this equipment."
 
-### If the Player asks why
+Commander (Surprise):
+"Is it all that bad?"
 
-Elsie:
-“Exactly.”
-“People on the road may notice something we missed from behind a desk.”
+Elsie (Happy):
+"No. Some of it might survive until lunch."
 
-### If the Player is firm
+Tristitia (Base):
+"Make a list."
 
-Elsie:
-“Fair.”
-“They may refuse the work, but they don’t get to waste everyone else’s time.”
+Elsie (Base):
+"I already started one."
 
-### If the Player asks her
+[face: Elsie west]
+[move: Tristitia interior_door]
+[move: Commander interior_door]
+[fade: out]
+[location: Guild house (Tier 1) interior]
+[enter: Tristitia courtyard_door]
+[move: Tristitia office_door_west]
+[enter: Commander courtyard_door]
+[move: Commander office_door_east]
+[face: Tristitia Commander]
+[face: Commander Tristitia]
+[camera: shared]
+[fade: in]
+|Frame the open doorway and the small furnished room beyond it. Both doorway markers leave the passage clear.|
 
-Elsie:
-“I’d ask why.”
-“Then I’d decide whether they need better preparation, or we need a better request.”
+Tristitia (Base):
+"This room is yours."
+"It will also serve as your office."
 
-### The dialogue rejoins here
+Commander (Base):
+"What about everyone else?"
 
-Elsie:
-“All right.”
-“I can work with you.”
+Tristitia (Base):
+"The dormitory can hold two adventurers."
+"Those beds remain theirs."
 
-|Camera: Return to the shared view of all three.|
+Commander (Base):
+"How about you, Mae, and Elsie?"
 
-Tristitia:
-“That was a shorter interview than mine.”
-“Then I assume the position is settled.”
+Tristitia (Base):
+"The three of us share the room across the hall."
+"When more people join, we'll need another."
 
-Elsie:
-“It is.”
+[face: Commander south]
+[camera: push-in Commander]
+[letterbox: on]
+[camera: pan unfinished_west]
+[camera: turn 20]
+[camera: hold 1.0]
+[camera: pan unfinished_east]
+[camera: hold 1.0]
+|Slowly reveal the unfinished interior, keeping Commander in frame throughout the pan.|
+[letterbox: off]
+[camera: return]
+[face: Commander Tristitia]
+Commander (Base):
+"What do I do first?"
 
-|Elsie gives Player a brief smile.|
+Tristitia (Serious):
+"Learn the city."
+"Start with the market and the gate."
+"Find out where people gather and share informations."
 
-Elsie:
-“I’ll handle training, preparation, and the expeditions.”
-“If someone isn’t ready to leave, I’ll tell you.”
+Commander (Base):
+"So I walk around and talk to people."
 
-Player:
-“And the decision is still mine?”
+Tristitia (Serious):
+"Talk to them, yes."
+"But look around before you begin asking questions. You will learn more that way."
 
-Elsie:
-“It is.”
-“I’m only asking you to listen before you make it.”
+Commander (Base):
+"All right. I can do that."
 
-Player:
-“I can do that.”
-“I’m counting on you, Elsie.”
+Tristitia (Serious):
+"Be back by two."
+"I should have our first request by then, and someone interested in joining."
 
-Elsie:
-“Then we understand each other.”
-
-Tristitia:
-“We should finish the tour.”
-
-Elsie:
-“Go ahead. I want to check the rest of this equipment.”
-
-Player:
-“Is it all that bad?”
-
-Elsie:
-“No. Some of it might survive until lunch.”
-
-Tristitia:
-“Make a list.”
-
-Elsie:
-“I already started one.”
-
-|Tristitia and Player walk toward the base interior. Elsie turns back toward the equipment.|
-
-|Cut to the base interior.|
-
-|Camera: Shared view beside an open doorway, showing the small furnished room beyond it. Tristitia and Player stop beside the doorway, leaving the passage clear.|
-
-Tristitia:
-“This room is yours.”
-“It will also serve as your office.”
-
-Player:
-“What about everyone else?”
-
-Tristitia:
-“The dormitory can hold two adventurers.”
-“Those beds remain theirs.”
-
-Player:
-“How about you, Mae, and Elsie?”
-
-Tristitia:
-“Mae and I will remain at the inn.”
-“Elsie can keep her present lodging until we have more room.”
-
-|Player turns his head toward the surrounding unfinished interior.|
-
-|Camera: Cut to Player alone. Slowly rotate the camera around him to reveal the surrounding unfinished interior, keeping him in frame.|
-
-|Player faces Tristitia again. Return to the previous shared doorway view as Player begins the following line.|
-
-Player:
-“What do I do first?”
-
-Tristitia:
-“Learn the city.”
-“Start with the market and the gate.”
-“Find out where people gather and share informations.”
-
-Player:
-“So I walk around and talk to people.”
-
-Tristitia:
-“Talk to them, yes.”
-“But look around before you begin asking questions. You will learn more that way.”
-
-Player:
-“All right. I can do that.”
-
-Tristitia:
-“Be back by two.”
-“I should have our first request by then, and someone interested in joining.”
-
-Player:
+Commander (Base):
 
 1. **[Be friendly]**
-   “All right. I’ll see you at two.”
+   Commander (Happy):
+   "All right. I’ll see you at two."
 
 2. **[Thank her]**
-   “Understood. Thank you, Tristitia.”
+   Commander (Happy):
+   "Understood. Thank you, Tristitia."
 
 3. **[Say goodbye]**
-   “Two o’clock. See you later.”
+   Commander (Happy):
+   "Two o’clock. See you later."
 
 4. **[Salute]**
-   |Player salutes.|
-   “Understood.”
-   |Player returns to standing idle.|
+   [pose: Commander salute]
+   Commander (Serious):
+   "Understood."
+   [pose: Commander idle]
 
-|Camera: Switch to the gameplay view. Player remains clear of Tristitia and the doorway.|
+Tristitia (Serious):
+"While you're out, think of a name for the Guild."
+"We've postponed it long enough."
 
-|Control unlocks. Player can explore the base and Eurydica.|
+[camera: gameplay]
+[control: unlock]
+|Commander remains clear of Tristitia and the doorway. Commander can explore the base and Eurydica.|
 
-(When the player return to Tristitia at 14:00 Mira the woman ranger and the male sword and shield user will be availabe to recruit, Tristitia will also have 2 new requests along with additional request that the player receive from talking with NPCs in the city)
+[objectives: C1S3-1]
+- Explore Eurydica's districts (0/4)
+- Return to the Guild house at 14:00
+[end objectives]
 
-Request "Slime Parts for the Bathroom" [CH1-REQ-001] is now available.
+|The objectives are optional: the Commander can visit only some districts and come back late. The four districts open on Day 1 are the plan's phase-1 districts: Guild Edge, Arrival Ward, Market Spine and Service Lanes (the South Gate belongs to Arrival Ward). Entering the Guild house at 14:00 or later plays Scene 5. When the player returns to Tristitia, all four starting adventurers can be recruited, and Tristitia also has two new requests, plus any request the player picked up from townspeople in the city.|
 
-Request "Rare Slime Parts for the Garden" [CH1-REQ-002] is now available.
+## Event: Late return
+Trigger: time 16:00
+[if: not seen: Scene 5 - Operation Begin]
+[control: lock]
+Commander (Base):
+{I should return to base.}
+{.....}
+{I hope she won't get mad I'm late.}
+[fade: out]
+[location: Guild house (Tier 1) interior]
+[goto: Scene 5 - Operation Begin]
+[end if]

@@ -1,0 +1,19 @@
+{
+  "id": "mend",
+  "region": "common",
+  "rev": 1,
+  "name": "Mend",
+  "gdd": [
+    "12.8"
+  ],
+  "authoring_status": "specified",
+  "missing_fields": [],
+  "input_quality": "damaged",
+  "input_count": 2,
+  "output_quality": "standard",
+  "output_count": 1,
+  "duration_seconds": 14400,
+  "requires_perk": null,
+  "forbidden_perks": [],
+  "same_material": true
+}

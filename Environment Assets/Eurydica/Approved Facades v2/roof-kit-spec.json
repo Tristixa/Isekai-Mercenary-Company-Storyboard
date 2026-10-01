@@ -1,0 +1,506 @@
+{
+  "status": "candidate, not approved",
+  "px_per_m": 64,
+  "camera": "flat orthographic elevations",
+  "units": "metres; image x right, y down",
+  "modules": {
+    "dormer_small": {
+      "faces": {
+        "front": {
+          "file": "roof-kit/dormer_small/front.png",
+          "size_m": [
+            1.5,
+            2
+          ],
+          "px": [
+            96,
+            128
+          ],
+          "source_crop": [
+            30,
+            105,
+            304,
+            408
+          ]
+        },
+        "right": {
+          "file": "roof-kit/dormer_small/right.png",
+          "size_m": [
+            1,
+            2
+          ],
+          "px": [
+            64,
+            128
+          ],
+          "source_crop": [
+            334,
+            130,
+            491,
+            408
+          ]
+        },
+        "left": {
+          "file": "roof-kit/dormer_small/left.png",
+          "size_m": [
+            1,
+            2
+          ],
+          "px": [
+            64,
+            128
+          ],
+          "source_crop": [
+            334,
+            130,
+            491,
+            408
+          ],
+          "method": "mirrored side return"
+        }
+      },
+      "width_m": 1.5,
+      "height_m": 2,
+      "depth_m": 1,
+      "attach_point": {
+        "space": "module local, x right/y up/z toward viewer",
+        "position_m": [
+          0,
+          0,
+          0
+        ],
+        "description": "bottom centre at rear wall plane; +z projects out"
+      },
+      "suits_roofs": [
+        "green",
+        "violet",
+        "brown",
+        "patchwork"
+      ],
+      "mount": "dormer bottom at roof cutout; rear intersects host roof; use matching host roof tile on separate roof slopes",
+      "alpha_mode": "cutout; use alpha-test 0.5",
+      "rear_face": "hidden against host, no exposed rear required"
+    },
+    "dormer_large": {
+      "faces": {
+        "front": {
+          "file": "roof-kit/dormer_large/front.png",
+          "size_m": [
+            2.5,
+            2.5
+          ],
+          "px": [
+            160,
+            160
+          ],
+          "source_crop": [
+            524,
+            55,
+            847,
+            408
+          ]
+        },
+        "right": {
+          "file": "roof-kit/dormer_large/right.png",
+          "size_m": [
+            1.5,
+            2.5
+          ],
+          "px": [
+            96,
+            160
+          ],
+          "source_crop": [
+            859,
+            130,
+            1007,
+            408
+          ]
+        },
+        "left": {
+          "file": "roof-kit/dormer_large/left.png",
+          "size_m": [
+            1.5,
+            2.5
+          ],
+          "px": [
+            96,
+            160
+          ],
+          "source_crop": [
+            859,
+            130,
+            1007,
+            408
+          ],
+          "method": "mirrored side return"
+        }
+      },
+      "width_m": 2.5,
+      "height_m": 2.5,
+      "depth_m": 1.5,
+      "attach_point": {
+        "space": "module local, x right/y up/z toward viewer",
+        "position_m": [
+          0,
+          0,
+          0
+        ],
+        "description": "bottom centre at rear wall plane; +z projects out"
+      },
+      "suits_roofs": [
+        "green",
+        "violet",
+        "brown",
+        "patchwork"
+      ],
+      "mount": "dormer bottom at roof cutout; rear intersects host roof; use matching host roof tile on separate roof slopes",
+      "alpha_mode": "cutout; use alpha-test 0.5",
+      "rear_face": "hidden against host, no exposed rear required"
+    },
+    "chimney_stone": {
+      "faces": {
+        "front": {
+          "file": "roof-kit/chimney_stone/front.png",
+          "size_m": [
+            0.875,
+            2.5
+          ],
+          "px": [
+            56,
+            160
+          ],
+          "source_crop": [
+            88,
+            477,
+            245,
+            892
+          ]
+        },
+        "right": {
+          "file": "roof-kit/chimney_stone/right.png",
+          "size_m": [
+            0.875,
+            2.5
+          ],
+          "px": [
+            56,
+            160
+          ],
+          "source_crop": [
+            307,
+            477,
+            433,
+            892
+          ]
+        },
+        "left": {
+          "file": "roof-kit/chimney_stone/left.png",
+          "size_m": [
+            0.875,
+            2.5
+          ],
+          "px": [
+            56,
+            160
+          ],
+          "source_crop": [
+            307,
+            477,
+            433,
+            892
+          ],
+          "method": "mirrored side return"
+        },
+        "back": {
+          "file": "roof-kit/chimney_stone/back.png",
+          "size_m": [
+            0.875,
+            2.5
+          ],
+          "px": [
+            56,
+            160
+          ],
+          "source_crop": [
+            88,
+            477,
+            245,
+            892
+          ],
+          "method": "same masonry on opposite face"
+        }
+      },
+      "width_m": 0.875,
+      "height_m": 2.5,
+      "depth_m": 0.875,
+      "attach_point": {
+        "space": "module local, x right/y up/z toward viewer",
+        "position_m": [
+          0,
+          0,
+          0
+        ],
+        "description": "bottom centre at rear wall plane; +z projects out"
+      },
+      "suits_roofs": [
+        "green",
+        "violet",
+        "brown",
+        "patchwork"
+      ],
+      "mount": "roof penetration; cap top is builder geometry, no smoke",
+      "alpha_mode": "cutout; use alpha-test 0.5",
+      "rear_face": "included"
+    },
+    "chimney_brick": {
+      "faces": {
+        "front": {
+          "file": "roof-kit/chimney_brick/front.png",
+          "size_m": [
+            0.875,
+            2.5
+          ],
+          "px": [
+            56,
+            160
+          ],
+          "source_crop": [
+            589,
+            477,
+            755,
+            892
+          ]
+        },
+        "right": {
+          "file": "roof-kit/chimney_brick/right.png",
+          "size_m": [
+            0.875,
+            2.5
+          ],
+          "px": [
+            56,
+            160
+          ],
+          "source_crop": [
+            815,
+            477,
+            944,
+            892
+          ]
+        },
+        "left": {
+          "file": "roof-kit/chimney_brick/left.png",
+          "size_m": [
+            0.875,
+            2.5
+          ],
+          "px": [
+            56,
+            160
+          ],
+          "source_crop": [
+            815,
+            477,
+            944,
+            892
+          ],
+          "method": "mirrored side return"
+        },
+        "back": {
+          "file": "roof-kit/chimney_brick/back.png",
+          "size_m": [
+            0.875,
+            2.5
+          ],
+          "px": [
+            56,
+            160
+          ],
+          "source_crop": [
+            589,
+            477,
+            755,
+            892
+          ],
+          "method": "same masonry on opposite face"
+        }
+      },
+      "width_m": 0.875,
+      "height_m": 2.5,
+      "depth_m": 0.875,
+      "attach_point": {
+        "space": "module local, x right/y up/z toward viewer",
+        "position_m": [
+          0,
+          0,
+          0
+        ],
+        "description": "bottom centre at rear wall plane; +z projects out"
+      },
+      "suits_roofs": [
+        "green",
+        "violet",
+        "brown",
+        "patchwork"
+      ],
+      "mount": "roof penetration; cap top is builder geometry, no smoke",
+      "alpha_mode": "cutout; use alpha-test 0.5",
+      "rear_face": "included"
+    },
+    "bay_1storey": {
+      "faces": {
+        "front": {
+          "file": "roof-kit/bay_1storey/front.png",
+          "size_m": [
+            2.5,
+            3
+          ],
+          "px": [
+            160,
+            192
+          ],
+          "source_crop": [
+            30,
+            1058,
+            337,
+            1399
+          ]
+        },
+        "right": {
+          "file": "roof-kit/bay_1storey/right.png",
+          "size_m": [
+            1,
+            3
+          ],
+          "px": [
+            64,
+            192
+          ],
+          "source_crop": [
+            343,
+            1058,
+            491,
+            1399
+          ]
+        },
+        "left": {
+          "file": "roof-kit/bay_1storey/left.png",
+          "size_m": [
+            1,
+            3
+          ],
+          "px": [
+            64,
+            192
+          ],
+          "source_crop": [
+            343,
+            1058,
+            491,
+            1399
+          ],
+          "method": "mirrored side return"
+        }
+      },
+      "width_m": 2.5,
+      "height_m": 3,
+      "depth_m": 1,
+      "attach_point": {
+        "space": "module local, x right/y up/z toward viewer",
+        "position_m": [
+          0,
+          0,
+          0
+        ],
+        "description": "bottom centre at rear wall plane; +z projects out"
+      },
+      "suits_roofs": [
+        "green",
+        "violet",
+        "brown",
+        "patchwork"
+      ],
+      "mount": "rear wall plane; attach bottom at target storey sill; separate roof cap uses host roof tile",
+      "alpha_mode": "cutout; use alpha-test 0.5",
+      "rear_face": "hidden against host, no exposed rear required"
+    },
+    "bay_2storey": {
+      "faces": {
+        "front": {
+          "file": "roof-kit/bay_2storey/front.png",
+          "size_m": [
+            2.5,
+            6
+          ],
+          "px": [
+            160,
+            384
+          ],
+          "source_crop": [
+            533,
+            931,
+            840,
+            1433
+          ]
+        },
+        "right": {
+          "file": "roof-kit/bay_2storey/right.png",
+          "size_m": [
+            1,
+            6
+          ],
+          "px": [
+            64,
+            384
+          ],
+          "source_crop": [
+            861,
+            931,
+            993,
+            1433
+          ]
+        },
+        "left": {
+          "file": "roof-kit/bay_2storey/left.png",
+          "size_m": [
+            1,
+            6
+          ],
+          "px": [
+            64,
+            384
+          ],
+          "source_crop": [
+            861,
+            931,
+            993,
+            1433
+          ],
+          "method": "mirrored side return"
+        }
+      },
+      "width_m": 2.5,
+      "height_m": 6,
+      "depth_m": 1,
+      "attach_point": {
+        "space": "module local, x right/y up/z toward viewer",
+        "position_m": [
+          0,
+          0,
+          0
+        ],
+        "description": "bottom centre at rear wall plane; +z projects out"
+      },
+      "suits_roofs": [
+        "green",
+        "violet",
+        "brown",
+        "patchwork"
+      ],
+      "mount": "rear wall plane; attach bottom at target storey sill; separate roof cap uses host roof tile",
+      "alpha_mode": "cutout; use alpha-test 0.5",
+      "rear_face": "hidden against host, no exposed rear required"
+    }
+  }
+}

@@ -1,6 +1,6 @@
 # Eurydica Monsters: roster and still-pose prompts
 
-**Status:** v2 revised by Codex on 2026-09-28 for Claude review, using the current GDD including §9.3b. The prior version was reviewed by Claude; this revision's move names and effects are *proposed*, pending owner approval. It replaces the video workflow in `Gemini Monster Prompts.md`: monsters get **one still per pose**, with no animation videos (owner, 2026-09-28).
+**Status:** move names and skill effects **approved by the owner on 2026-09-28**. Drafted by Codex, reviewed by Claude. It replaces the video workflow in `Gemini Monster Prompts.md`: monsters get **one still per pose**, with no animation videos. Monster designs are still made and approved one by one as art.
 
 Frontier Guild Chronicle · Chapters 1–5 · prepared 2026-09-28 for Claude review. Documentation only; no art approval, generation or integration implied.
 
@@ -23,7 +23,7 @@ Unless absolute, source paths below are relative to `D:/Storyboards/Isekai Merce
 
 - `Game Design/IMC GDD.md`, including the 2026-09-28 §9.3b decision: §§2.2, 7.1, 8.4, 9–10, 11.3–11.4, 13.3, 14 and 17. Authoritative for species, stats, access and combat.
 - `D:/Codex/IMC/Boar/Battle Stills v1/Production.md`, `Prompts.json`, `GATES.md` and `Approval.json`: staged boar production records. Five battle stills (Hurt, Second Hurt, Defeat, Tusk Gore, Wild Charge) were approved via `Approve Battle Stills.ps1`; approved PNGs are directly in `Enemy Sprites/Boar/`. `Enemy Sprites/Boar/Start - Idle.png` was visually inspected for the prior draft; no new visual inspection is claimed here.
-- `Production Assets Requirement/Region Prompts - Amber Marsh and Redstone Highlands.md` and `Production Assets Requirement/Higgsfield Battleground Prompts.md`: regional colour/mood only. Their painted scenery workflow does not replace pixel-art monster rendering.
+- `Production Assets Requirement/Region Prompts - Bernmoor and Erythra Highlands.md` and `Production Assets Requirement/Higgsfield Battleground Prompts.md`: regional colour/mood only. Their painted scenery workflow does not replace pixel-art monster rendering.
 - `AGENTS.md`: untouched masters and internal cast comparison. This handoff limits monster comparison to scale sanity and excludes cleanup/transparency conversion.
 
 The latest handoff replaces the GDD's older one-still coverage and the retired monster-video workflow with individually generated still poses. No animation clips, sheets, sprite atlases or game changes are requested.
@@ -34,45 +34,45 @@ Ordinary skills choose one ×1.5 hit, or a normal ×1.0 hit plus one status for 
 
 ## Roster
 
-19 named monsters: 9 Ordinary, 6 Rare, 1 optional Boss and 3 Flashpoints. Flashpoint is a production tier; in combat these are Elite bosses. There is no new Chapter 5 species or flashpoint (§14).
+19 named monsters: 9 Ordinary, 6 Rare, 1 optional Boss and 3 Flashpoints. Flashpoint is a production tier; in combat these are Elite bosses. Eurydica is Chapters 1–2 (owner, 2026-09-28): Chapter 2 holds all three flashpoints in order, Chimera, Ambermaw, Crownstone, and no other species or flashpoint.
 
-**Chapter first met:** `1+ / E` and `1+ / D` mean no explicit chapter floor is stated for ordinary region access: the rank and discovery gates govern it, potentially during Chapter 1 or later. Amber Marsh is scheduled with Chapter 3 assets and Redstone with Chapter 4 assets, but those are production groupings, not invented locks. Rares additionally require a scout sighting (§8.4). Ordinary discovery thresholds within each region are 0%, 25%, 50% in table order. Mosswood is Rank F. Boss chapter numbers are explicit gates, not estimates.
+**Chapter first met:** `1+ / E` and `1+ / D` mean no explicit chapter floor is stated for ordinary region access: the rank and discovery gates govern it, potentially during Chapter 1 or later. Bernmoor and Erythra are both needed in Chapter 2 (their flashpoints come second and third), but those are production groupings, not invented locks. Rares additionally require a scout sighting (§8.4). Ordinary discovery thresholds within each region are 0%, 25%, 50% in table order. Hylaea is Rank F. Boss chapter numbers are explicit gates, not estimates.
 
 **Art dimensions:** proposed idle silhouette height × horizontal length, in native art pixels, excluding padding; characters stand about 93 px tall. These are brief targets, not GDD stats or measured exports. Keep pixel density and body mass constant through poses; expand the canvas for action, never stretch a pose to its idle bounding box. Bosses are visibly taller and longer than ordinary relatives. Boar target is provisional: retain the existing drawing and verify native scale before any placement. M = magenta `#FF00FF`; G = green `#00FF00`. All future palettes/design details are proposed unless explicitly sourced.
 
-### Mosswood Forest
+### Hylaea Forest
 
 | Name | Region | Tier | Chapter first met | New art or recolour of X | Key colour | Size, art px H × L | Status |
 |---|---|---|---|---|---|---|---|
-| Moss Slime | Mosswood Forest | Ordinary | 1; F | New art | M | 42 × 62 | To make |
-| Dire Boar | Mosswood Forest | Ordinary | 1; F | Existing boar art, labelled Mosswood Boar in production | M | ~108 × 160 | Existing Idle; five battle stills approved, including Wild Charge; Second Hurt is extra |
-| Forest Wolf | Mosswood Forest | Ordinary | 1; F | New art | M | 82 × 145 | To make |
-| Mossback Elder | Mosswood Forest | Rare | 1+; F, sighting | Recolour of Dire Boar | M | ~108 × 160 | To make, pipeline recolour |
-| Silvermane | Mosswood Forest | Rare | 1+; F, sighting | Recolour of Forest Wolf | M | 82 × 145 | To make, pipeline recolour including Skill |
-| Blackfang Direwolf | Mosswood Forest | Boss | 2+; E, wolf known, M08, EUR-SUB-04 | New art | M | 145 × 230 | To make |
-| Mosswood Chimera | Mosswood Forest | Flashpoint | 2; E, 300 Rep, Chapter 1 complete | New art | M | 180 × 265 | To make |
+| Moss Slime | Hylaea Forest | Ordinary | 1; F | New art | M | 42 × 62 | To make |
+| Dire Boar | Hylaea Forest | Ordinary | 1; F | Existing boar art, labelled Hylaea Boar in production | M | ~108 × 160 | Existing Idle; five battle stills approved, including Wild Charge; Second Hurt is extra |
+| Forest Wolf | Hylaea Forest | Ordinary | 1; F | New art | M | 82 × 145 | To make |
+| Mossback Elder | Hylaea Forest | Rare | 1+; F, sighting | Recolour of Dire Boar | M | ~108 × 160 | To make, pipeline recolour |
+| Silvermane | Hylaea Forest | Rare | 1+; F, sighting | Recolour of Forest Wolf | M | 82 × 145 | To make, pipeline recolour including Skill |
+| Blackfang Direwolf | Hylaea Forest | Boss | 2+; E, wolf known, M08, EUR-SUB-04 | New art | M | 145 × 230 | To make |
+| Hylaea Chimera | Hylaea Forest | Flashpoint | 2; E, 300 Rep, Chapter 1 complete | New art | M | 180 × 265 | To make |
 
-### Amber Marsh
-
-| Name | Region | Tier | Chapter first met | New art or recolour of X | Key colour | Size, art px H × L | Status |
-|---|---|---|---|---|---|---|---|
-| Marsh Slime | Amber Marsh | Ordinary | 1+ / E; Chapter 3 asset grouping | Recolour of Moss Slime (proposed regional reuse) | M | 42 × 62 | To make, pipeline recolour |
-| Marsh Serpent | Amber Marsh | Ordinary | 1+ / E; Chapter 3 asset grouping | New art | M | 88 × 160 | To make |
-| Marsh Stalker | Amber Marsh | Ordinary | 1+ / E; Chapter 3 asset grouping | New art | M | 95 × 165 | To make |
-| Reedcoil Elder | Amber Marsh | Rare | 1+ / E, sighting; Chapter 3 asset grouping | Recolour of Marsh Serpent | M | 88 × 160 | To make, pipeline recolour including Skill |
-| Pale Marsh Stalker | Amber Marsh | Rare | 1+ / E, sighting; Chapter 3 asset grouping | Recolour of Marsh Stalker | M | 95 × 165 | To make, pipeline recolour including Skill |
-| Ambermaw Matriarch | Amber Marsh | Flashpoint | 3; E, 800 Rep, Chimera cleared | New art | M | 165 × 270 | To make |
-
-### Redstone Highlands
+### Bernmoor
 
 | Name | Region | Tier | Chapter first met | New art or recolour of X | Key colour | Size, art px H × L | Status |
 |---|---|---|---|---|---|---|---|
-| Stone Crawler | Redstone Highlands | Ordinary | 1+ / D; Chapter 4 asset grouping | New art | G | 75 × 140 | To make |
-| Highland Wolf | Redstone Highlands | Ordinary | 1+ / D; Chapter 4 asset grouping | Recolour of Forest Wolf (proposed regional reuse) | G | 82 × 145 | To make, pipeline recolour |
-| Ridge Drake | Redstone Highlands | Ordinary | 1+ / D; Chapter 4 asset grouping | New art | G | 115 × 195 | To make |
-| Redmane Alpha | Redstone Highlands | Rare | 1+ / D, sighting; Chapter 4 asset grouping | Recolour of Highland Wolf | G | 82 × 145 | To make, pipeline recolour including Skill |
-| Old Ridge Drake | Redstone Highlands | Rare | 1+ / D, sighting; Chapter 4 asset grouping | Recolour of Ridge Drake | G | 115 × 195 | To make, pipeline recolour including Skill |
-| Crownstone Wyrm | Redstone Highlands | Flashpoint | 4; D, 1,400 Rep, Ambermaw cleared | New art | G | 215 × 360 | To make |
+| Marsh Slime | Bernmoor | Ordinary | 1+ / E; Chapter 2 (second flashpoint region) | Recolour of Moss Slime (proposed regional reuse) | M | 42 × 62 | To make, pipeline recolour |
+| Marsh Serpent | Bernmoor | Ordinary | 1+ / E; Chapter 2 (second flashpoint region) | New art | M | 88 × 160 | To make |
+| Marsh Stalker | Bernmoor | Ordinary | 1+ / E; Chapter 2 (second flashpoint region) | New art | M | 95 × 165 | To make |
+| Reedcoil Elder | Bernmoor | Rare | 1+ / E, sighting; Chapter 2 (second flashpoint region) | Recolour of Marsh Serpent | M | 88 × 160 | To make, pipeline recolour including Skill |
+| Pale Marsh Stalker | Bernmoor | Rare | 1+ / E, sighting; Chapter 2 (second flashpoint region) | Recolour of Marsh Stalker | M | 95 × 165 | To make, pipeline recolour including Skill |
+| Ambermaw Matriarch | Bernmoor | Flashpoint | 3; E, 800 Rep, Chimera cleared | New art | M | 165 × 270 | To make |
+
+### Erythra Highlands
+
+| Name | Region | Tier | Chapter first met | New art or recolour of X | Key colour | Size, art px H × L | Status |
+|---|---|---|---|---|---|---|---|
+| Stone Crawler | Erythra Highlands | Ordinary | 1+ / D; Chapter 2 (third flashpoint region) | New art | G | 75 × 140 | To make |
+| Highland Wolf | Erythra Highlands | Ordinary | 1+ / D; Chapter 2 (third flashpoint region) | Recolour of Forest Wolf (proposed regional reuse) | G | 82 × 145 | To make, pipeline recolour |
+| Ridge Drake | Erythra Highlands | Ordinary | 1+ / D; Chapter 2 (third flashpoint region) | New art | G | 115 × 195 | To make |
+| Redmane Alpha | Erythra Highlands | Rare | 1+ / D, sighting; Chapter 2 (third flashpoint region) | Recolour of Highland Wolf | G | 82 × 145 | To make, pipeline recolour including Skill |
+| Old Ridge Drake | Erythra Highlands | Rare | 1+ / D, sighting; Chapter 2 (third flashpoint region) | Recolour of Ridge Drake | G | 115 × 195 | To make, pipeline recolour including Skill |
+| Crownstone Wyrm | Erythra Highlands | Flashpoint | 4; D, 1,400 Rep, Ambermaw cleared | New art | G | 215 × 360 | To make |
 
 ### Canonical stat check
 
@@ -86,7 +86,7 @@ Transcribed from GDD §§10.1–10.4. Rate is the source attack-rate value. Rare
 | Mossback Elder | 800 | 11 | 18 | 0.8 | 32 |
 | Silvermane | 950 | 13 | 16 | 1.1 | 38 |
 | Blackfang Direwolf | 1,950 | 15 | 25 | 1.0 | 65 |
-| Mosswood Chimera | 2,400 | 17 | 25 | 1.0 | 80 |
+| Hylaea Chimera | 2,400 | 17 | 25 | 1.0 | 80 |
 | Marsh Slime | 510 | 10 | 15 | 0.8 | 18 |
 | Marsh Serpent | 660 | 13 | 20 | 1.0 | 24 |
 | Marsh Stalker | 840 | 15 | 25 | 1.1 | 30 |
@@ -119,7 +119,7 @@ The GDD permits regional/rare palette reuse (§2.2) and names all six rare paren
 
 ### Ordinary variants — pipeline only, no new art
 
-Exactly nine variant identities, derived from their ordinary parent's entire five-pose set, including Skill. Each inherits its parent's skill name and effect; its ATK bonus applies normally (§9.3b). GDD §10.0: 8% independently per ordinary hunt member; Howling Ridge adds 4 percentage points in Mosswood; total cap 20%. Appearance is 15% larger with distinct palette; stats HP ×1.5, ATK/DEF ×1.25, unchanged Rate, parent base XP ×2 once. Pipeline/engine placement must preserve source pixels; do not destructively resize masters. Fixed optional-contract encounters receive no random variants. Do not apply these rules to rares or bosses.
+Exactly nine variant identities, derived from their ordinary parent's entire five-pose set, including Skill. Each inherits its parent's skill name and effect; its ATK bonus applies normally (§9.3b). GDD §10.0: 8% independently per ordinary hunt member; Howling Ridge adds 4 percentage points in Hylaea; total cap 20%. Appearance is 15% larger with distinct palette; stats HP ×1.5, ATK/DEF ×1.25, unchanged Rate, parent base XP ×2 once. Pipeline/engine placement must preserve source pixels; do not destructively resize masters. Fixed optional-contract encounters receive no random variants. Do not apply these rules to rares or bosses.
 
 | Ordinary parent | Variant palette (proposed unless noted) | Variant key |
 |---|---|---|
@@ -149,7 +149,7 @@ All move names and effects are *proposed*, including retained production labels.
 | Mossback Elder | Tusk Gore — *proposed*; inherited production label | Elder Charge — *proposed* | Idle, Attack, Skill, Hurt, Defeat |
 | Silvermane | Snapping Bite — *proposed* | Silver Howl — *proposed* | Idle, Attack, Skill, Hurt, Defeat |
 | Blackfang Direwolf | Blackfang Bite — *proposed* | Ravaging Lunge — *proposed*; **one skill** | Idle, Attack, Skill 1, Hurt, Second Hurt, Defeat |
-| Mosswood Chimera | Raking Claw — *proposed* | Threefold Threat — *proposed*; **one skill** | Idle, Attack, Skill 1, Hurt, Second Hurt, Defeat |
+| Hylaea Chimera | Raking Claw — *proposed* | Threefold Threat — *proposed*; **one skill** | Idle, Attack, Skill 1, Hurt, Second Hurt, Defeat |
 | Marsh Slime | Gel Bump — *proposed* | Clinging Mire — *proposed* | Idle, Attack, Skill, Hurt, Defeat |
 | Marsh Serpent | Reed Fang — *proposed* | Venom Coil — *proposed* | Idle, Attack, Skill, Hurt, Defeat |
 | Marsh Stalker | Hooking Claw — *proposed* | Ambush Pounce — *proposed* | Idle, Attack, Skill, Hurt, Defeat |
@@ -175,7 +175,7 @@ Every name and effect below is *proposed*. Row-wide boss statuses use the whole-
 | Mossback Elder | Elder Charge — *proposed* | *Proposed:* One ×2.0 hit. | Recolour Dire Boar Wild Charge. |
 | Silvermane | Silver Howl — *proposed* | *Proposed:* One ×1.25 hit + ATK DOWN −25% for 3 target actions. | Recolour Forest Wolf Dread Howl. |
 | Blackfang Direwolf | Ravaging Lunge — *proposed* | *Proposed:* One ×2.5 hit. | Long rightward pounce, both forepaws reaching and jaws forward. |
-| Mosswood Chimera | Threefold Threat — *proposed* | *Proposed:* ATK DOWN −25% to every living front-row opponent for 3 actions of each affected target; no damage. | Lion jaws, goat horns and snake-tail head threaten right together. |
+| Hylaea Chimera | Threefold Threat — *proposed* | *Proposed:* ATK DOWN −25% to every living front-row opponent for 3 actions of each affected target; no damage. | Lion jaws, goat horns and snake-tail head threaten right together. |
 | Marsh Slime | Clinging Mire — *proposed* | *Proposed:* One ×1.0 hit + SPD DOWN (action interval ×1.25) for 2 target actions. | Recolour Moss Slime Sticky Press. |
 | Marsh Serpent | Venom Coil — *proposed* | *Proposed:* One ×1.0 hit + ATK DOWN −15% for 2 target actions. | Tight coil and exposed right-facing fangs at the braced venom-bite apex. |
 | Marsh Stalker | Ambush Pounce — *proposed* | *Proposed:* One ×1.5 hit. | Extended rightward pounce, foreclaws reaching and tail trailing. |
@@ -203,7 +203,7 @@ The anatomy of unmade monsters is **proposed visual design**, not additional lor
 
 ### Moss Slime — new art
 
-**Identity block:** Low, asymmetrical domed gel body, broad flattened base, two small dark eyes directed right, moss-like green colour islands inside the gel, no limbs or accessories. Leaf green `#73934E`, pale sage `#B0C785`, dark olive `#3D5231`; opaque-looking pixel shading, no background showing through gel. Target 42 × 62 art px. Flat MAGENTA `#FF00FF`. Warm Mosswood highlights, subdued green-brown lower-right shading.
+**Identity block:** Low, asymmetrical domed gel body, broad flattened base, two small dark eyes directed right, moss-like green colour islands inside the gel, no limbs or accessories. Leaf green `#73934E`, pale sage `#B0C785`, dark olive `#3D5231`; opaque-looking pixel shading, no background showing through gel. Target 42 × 62 art px. Flat MAGENTA `#FF00FF`. Warm Hylaea highlights, subdued green-brown lower-right shading.
 
 - **Idle:** One calm right-facing gel dome, eyes alert, base broadly settled; complete silhouette, no drips detached from the body. Establish the identity for the other poses.
 - **Attack — Gel Bump (*proposed*):** Attached Idle is the exact identity. At impact apex, stretch the whole gel mass forward RIGHT into a blunt rounded shoulder, rear compressed and eyes intent; preserve volume, no projectile.
@@ -213,7 +213,7 @@ The anatomy of unmade monsters is **proposed visual design**, not additional lor
 
 ### Forest Wolf — new art
 
-**Identity block:** Lean long-legged quadruped wolf with a deep chest, pointed ears, a modest shaggy neck ruff and long bushy tail. Brown-grey coat `#716E5D`, tan highlights `#AA9A78`, dark umber `#383B33`, ivory fangs and amber eyes; no red markings or equipment. Target 82 × 145 art px. Flat MAGENTA `#FF00FF`. Mosswood warmth and quiet earthy values.
+**Identity block:** Lean long-legged quadruped wolf with a deep chest, pointed ears, a modest shaggy neck ruff and long bushy tail. Brown-grey coat `#716E5D`, tan highlights `#AA9A78`, dark umber `#383B33`, ivory fangs and amber eyes; no red markings or equipment. Target 82 × 145 art px. Flat MAGENTA `#FF00FF`. Hylaea warmth and quiet earthy values.
 
 - **Idle:** Alert right-facing side stance, four legs naturally spaced, head level and tail low, weight balanced; establish the lean body and ruff.
 - **Attack — Snapping Bite (*proposed*):** Attached Idle is the exact identity. Short forward-right bite at full neck extension, jaws open around empty space, one forepaw lifted and hind legs driving; keep tail and all paws complete.
@@ -232,7 +232,7 @@ The anatomy of unmade monsters is **proposed visual design**, not additional lor
 - **Second Hurt:** Attached Idle is the exact identity. Small grounded flinch, all paws near their support positions, neck contracts and head angles slightly away from the right; torso remains right-facing.
 - **Defeat:** Attached Idle is the exact identity. Heavy body fully on its side, head low at right, folded forelegs and slack hind legs, ruff and tail settled, eye shut.
 
-### Mosswood Chimera — new art
+### Hylaea Chimera — new art
 
 **Identity block:** Proposed coherent chimera anatomy: one four-legged tawny lion body, lion head at the front, one goat head rising from the shoulders, one long snake-headed tail curving forward behind them; no wings. Three heads remain anatomically distinct and readable. Umber/tawny fur `#806748`, dark mane `#403B2D`, olive serpent scales `#647344`, ivory horns `#D0C19C`, amber eyes. Target 180 × 265 art px. Flat MAGENTA `#FF00FF`. Warm woodland material highlights; no supernatural glow.
 
@@ -286,7 +286,7 @@ The anatomy of unmade monsters is **proposed visual design**, not additional lor
 
 ### Ridge Drake — new art
 
-**Identity block:** Proposed sturdy wingless four-legged drake, long neck, angular hornless snout, continuous low jagged dorsal ridge and tapering tail. Terracotta scales `#9B5D45`, dark rust `#653F36`, slate belly `#65717A`, pale gold ridge tips `#C2A16A`, ivory teeth. Target 115 × 195 art px. Flat GREEN `#00FF00`. Cold Redstone palette with crisp upper-left highlights, no flame or glow.
+**Identity block:** Proposed sturdy wingless four-legged drake, long neck, angular hornless snout, continuous low jagged dorsal ridge and tapering tail. Terracotta scales `#9B5D45`, dark rust `#653F36`, slate belly `#65717A`, pale gold ridge tips `#C2A16A`, ivory teeth. Target 115 × 195 art px. Flat GREEN `#00FF00`. Cold Erythra palette with crisp upper-left highlights, no flame or glow.
 
 - **Idle:** Four-footed alert stance facing RIGHT, neck lifted slightly, jaws closed, jagged ridge clear against the key and tail trailing left; establish the complete wingless anatomy.
 - **Attack — Ridge Bite (*proposed*):** Attached Idle is the exact identity. Neck drives forward RIGHT into a full-open bite, body low, front legs brace and hind legs push; no fire or target.
@@ -323,11 +323,11 @@ Recolours reuse all five parent stills, including Skill; no separate parent-sour
 ## Production order
 
 1. **Moss Slime and Forest Wolf first** (GDD §17). Select each Idle, then make Attack, Skill, Hurt and Defeat separately. Reuse the existing boar; check its file/pose provenance without rerendering it.
-2. **Mosswood Chimera and Blackfang Direwolf next** (§17), each Idle followed by its five non-Idle poses. These are separate Chapter 2 flashpoint and optional-contract targets, not alternate names for one boss.
-3. Complete Mosswood rare recolours: Mossback from boar and Silvermane from wolf; reuse each parent's Skill still. Prepare the three Mosswood ordinary-variant palettes in the pipeline.
-4. **Amber Marsh:** recolour Marsh Slime; make Marsh Serpent and Marsh Stalker, then Ambermaw Matriarch. Complete Reedcoil Elder and Pale Marsh Stalker, reusing their parents' Skill stills, and three ordinary variants.
-5. **Redstone Highlands:** make Stone Crawler and Ridge Drake; recolour Highland Wolf. Make Crownstone Wyrm, then Redmane Alpha and Old Ridge Drake by recolouring their parents' Skill stills; prepare three ordinary variants.
-6. Chapter 5 reuses Eurydica's roster; no extra monster or flashpoint is introduced. Source reference, silhouette/scale checks and review precede any eventual game integration.
+2. **Hylaea Chimera and Blackfang Direwolf next** (§17), each Idle followed by its five non-Idle poses. These are separate Chapter 2 flashpoint and optional-contract targets, not alternate names for one boss.
+3. Complete Hylaea rare recolours: Mossback from boar and Silvermane from wolf; reuse each parent's Skill still. Prepare the three Hylaea ordinary-variant palettes in the pipeline.
+4. **Bernmoor:** recolour Marsh Slime; make Marsh Serpent and Marsh Stalker, then Ambermaw Matriarch. Complete Reedcoil Elder and Pale Marsh Stalker, reusing their parents' Skill stills, and three ordinary variants.
+5. **Erythra Highlands:** make Stone Crawler and Ridge Drake; recolour Highland Wolf. Make Crownstone Wyrm, then Redmane Alpha and Old Ridge Drake by recolouring their parents' Skill stills; prepare three ordinary variants.
+6. Chapter 2's closing transition beat reuses Eurydica's roster; no extra monster or flashpoint is introduced. Source reference, silhouette/scale checks and review precede any eventual game integration.
 
 This plan has **10 new identities / 54 still prompts**: 6 new-art ordinary monsters × 5 poses = 30, plus 4 bosses/flashpoints × 6 poses = 24. The six ordinary Skill prompts are included in 54; there are **0 additional parent Skill-source prompts**. There are **8 named recolour sets** (2 regional + 6 rare), each with 5 derived poses = 40, and **9 ordinary-variant palette recipes**, each covering 5 inherited poses = 45. Dire Boar supplies 5 existing required poses. The 19 named monsters require **99 stills** (54 new + 40 recoloured + 5 existing); variants add 45 derived stills for **144 required stills** including variants. Boar Second Hurt is one preserved extra outside these totals. Counts describe the production plan, not images created or newly approved by this draft.
 

@@ -1,0 +1,169 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "adventurer.schema.json",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "region": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "rev": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "gdd": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "authoring_status": {
+      "enum": [
+        "specified",
+        "incomplete"
+      ]
+    },
+    "missing_fields": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "specialty": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "stats": {
+      "type": "object",
+      "properties": {
+        "hp": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "atk": {
+          "type": "number",
+          "minimum": 0
+        },
+        "def": {
+          "type": "number",
+          "minimum": 0
+        },
+        "rate": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      },
+      "required": [
+        "hp",
+        "atk",
+        "def",
+        "rate"
+      ],
+      "additionalProperties": false
+    },
+    "reach": {
+      "enum": [
+        "melee",
+        "ranged"
+      ]
+    },
+    "meter_role": {
+      "enum": [
+        "attacker",
+        "defender",
+        "mage"
+      ]
+    },
+    "traits": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "passive_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "signature": {
+      "$ref": "shared.schema.json#/$defs/skill"
+    },
+    "modifier_choices": {
+      "type": "array",
+      "items": {
+        "$ref": "shared.schema.json#/$defs/modifier_choice"
+      },
+      "minItems": 0
+    },
+    "hire_g": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "weekly_wage_g": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "gate": {
+      "$ref": "shared.schema.json#/$defs/predicate"
+    },
+    "initial_tracks": {
+      "type": "object",
+      "properties": {
+        "power": {
+          "const": 1
+        },
+        "toughness": {
+          "const": 1
+        },
+        "speed": {
+          "const": 1
+        },
+        "focus": {
+          "const": 1
+        }
+      },
+      "required": [
+        "power",
+        "toughness",
+        "speed",
+        "focus"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "id",
+    "region",
+    "rev",
+    "name",
+    "gdd",
+    "authoring_status",
+    "missing_fields",
+    "specialty",
+    "stats",
+    "reach",
+    "meter_role",
+    "traits",
+    "passive_id",
+    "signature",
+    "modifier_choices",
+    "hire_g",
+    "weekly_wage_g",
+    "gate",
+    "initial_tracks"
+  ],
+  "additionalProperties": false
+}

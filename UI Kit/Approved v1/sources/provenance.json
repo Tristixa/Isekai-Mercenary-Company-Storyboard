@@ -1,0 +1,254 @@
+[
+  {
+    "key": "world",
+    "source": "D:/Storyboards/Isekai Mercenary Company/HD-2D Proof/out/style-test/A-tavern.png",
+    "file": "sources/reused/world.png",
+    "sha256": "7960aad6b84e2ac7907f48cf2376c9c08c87a25a043f1f510d31f67f9fdddd1b"
+  },
+  {
+    "key": "forest",
+    "source": "D:/Storyboards/Isekai Mercenary Company/Environment Assets/Hylaea/Approved Calibration v1/logical/Far Background.png",
+    "file": "sources/reused/forest.png",
+    "sha256": "41fd618b67f7ed0afa8b79c51fcd4a2ba7d94632c4ddbf9a1ad95f25ad5d183a"
+  },
+  {
+    "key": "commander",
+    "source": "D:/Storyboards/Isekai Mercenary Company/Characters/Officers/Commander(Player Character)/Base.png",
+    "file": "sources/reused/commander.png",
+    "sha256": "fc937e6e63996b8535673f473d7f99d206d6ffb1e684f6538c3a3aaa3f76c9c4"
+  },
+  {
+    "key": "mae",
+    "source": "D:/Storyboards/Isekai Mercenary Company/Characters/Officers/Steady Mae/Happy.png",
+    "file": "sources/reused/mae.png",
+    "sha256": "ec3ca6c04a369e785cf9ea39e80ddaf693a7bc1a06235cd60088d1452f34ace8"
+  },
+  {
+    "key": "elsie",
+    "source": "D:/Storyboards/Isekai Mercenary Company/Characters/Officers/Elsie/Base.png",
+    "file": "sources/reused/elsie.png",
+    "sha256": "ad31656a99473d752f6b8ab18e8aaa03144e142d6bc56b264e992c311607e731"
+  },
+  {
+    "key": "wolf",
+    "source": "D:/Storyboards/Isekai Mercenary Company/Enemy Sprites/Forest Wolf/Idle.png",
+    "file": "sources/reused/wolf.png",
+    "sha256": "e89efea5a4182d9a2223bb9f7ea6b9044e2d9667afd3672c4a853d00a374603e"
+  },
+  {
+    "key": "boar",
+    "source": "D:/Storyboards/Isekai Mercenary Company/Enemy Sprites/Boar/Start - Idle.png",
+    "file": "sources/reused/boar.png",
+    "sha256": "57ec1d2af9d1de55ff386aa4bfc9614b14af9d5dc0870f46480711ecb3a99198"
+  },
+  {
+    "key": "left_Anselm Voigt",
+    "source": "D:\\Codex\\IMC\\runs\\ui-style-test-v5/sources/display-grid-Anselm-Voigt-3.png",
+    "file": "sources/reused/left_anselm_voigt.png",
+    "sha256": "9eb91fc73a6389f172f8bf766a68da565e9ee4f30a780df59d3c1b6ebd00d75e"
+  },
+  {
+    "key": "front_Anselm Voigt",
+    "source": "D:/Storyboards/Isekai Mercenary Company/Character Sprites/Recruitable Staff/Adventurers/Anselm Voigt/Idle Front - Native.png",
+    "file": "sources/reused/front_anselm_voigt.png",
+    "sha256": "3ab9067d57ea88b85099a5aba7d0c65cd945c2a123f378eb54108ea42254cc40"
+  },
+  {
+    "key": "full_Anselm Voigt",
+    "source": "D:/Storyboards/Isekai Mercenary Company/Character Sprites/Recruitable Staff/Adventurers/Anselm Voigt/Idle Left - Native.png",
+    "file": "sources/reused/full_anselm_voigt.png",
+    "sha256": "f69560b4b202284bdf4af457d1498ea5df87d12bfc2aa15fe14e4697a37d5f82"
+  },
+  {
+    "key": "left_Nell Larkin",
+    "source": "D:\\Codex\\IMC\\runs\\ui-style-test-v5/sources/display-grid-Nell-Larkin-3.png",
+    "file": "sources/reused/left_nell_larkin.png",
+    "sha256": "72ed817050500b9bb88e00fb9bd1291c19bc961a659b356d9f30b1f0b6d1d49c"
+  },
+  {
+    "key": "front_Nell Larkin",
+    "source": "D:/Storyboards/Isekai Mercenary Company/Character Sprites/Recruitable Staff/Adventurers/Nell Larkin/Idle Front.png",
+    "file": "sources/reused/front_nell_larkin.png",
+    "sha256": "1818488ed6282be43aeeead2e00d30f80f63fbe888d15079fdbb0ff59848f9ea"
+  },
+  {
+    "key": "full_Nell Larkin",
+    "source": "D:/Storyboards/Isekai Mercenary Company/Character Sprites/Recruitable Staff/Adventurers/Nell Larkin/Idle Left.png",
+    "file": "sources/reused/full_nell_larkin.png",
+    "sha256": "2b4ede6d2929177a016f6c5fbcd6138f11b42399c423c4389a072d1d3adf7da8"
+  },
+  {
+    "key": "left_Severa Kaltenbach",
+    "source": "D:\\Codex\\IMC\\runs\\ui-style-test-v5/sources/display-grid-Severa-Kaltenbach-3.png",
+    "file": "sources/reused/left_severa_kaltenbach.png",
+    "sha256": "baefe52e6273d3c830f44f52a0c7b750a4b7e0261ba4168d510d7702adc5590c"
+  },
+  {
+    "key": "front_Severa Kaltenbach",
+    "source": "D:/Storyboards/Isekai Mercenary Company/Character Sprites/Recruitable Staff/Adventurers/Severa Kaltenbach/Base Sprite - Native.png",
+    "file": "sources/reused/front_severa_kaltenbach.png",
+    "sha256": "e20a07c14913f1586761898ff34e447b4cbd4966c4361de2a60f75705e8b5592"
+  },
+  {
+    "key": "full_Severa Kaltenbach",
+    "source": "D:/Storyboards/Isekai Mercenary Company/Character Sprites/Recruitable Staff/Adventurers/Severa Kaltenbach/Idle Left.png",
+    "file": "sources/reused/full_severa_kaltenbach.png",
+    "sha256": "c6adeb8be8e6e2a616ae09fa24e6e3c49e115652fac7c134d3337279736c972d"
+  },
+  {
+    "key": "left_Otto Grimbald",
+    "source": "D:\\Codex\\IMC\\runs\\ui-style-test-v5/sources/display-grid-Otto-Grimbald-3.png",
+    "file": "sources/reused/left_otto_grimbald.png",
+    "sha256": "a75deacbf0b7545a7e144eedbb3fdf572e99bb5707602bdaad1e63d123c96734"
+  },
+  {
+    "key": "front_Otto Grimbald",
+    "source": "D:/Storyboards/Isekai Mercenary Company/Character Sprites/Recruitable Staff/Adventurers/Otto Grimbald/Idle Front - Native.png",
+    "file": "sources/reused/front_otto_grimbald.png",
+    "sha256": "9ef1b365df64736b87d5faff07a77642f519758be1cbdfee936ed2250e971fae"
+  },
+  {
+    "key": "full_Otto Grimbald",
+    "source": "D:/Storyboards/Isekai Mercenary Company/Character Sprites/Recruitable Staff/Adventurers/Otto Grimbald/Idle Left - Native.png",
+    "file": "sources/reused/full_otto_grimbald.png",
+    "sha256": "15c747dae9694128a891bed29e113290687a1711abf912cbce84a1d1a5d3bc07"
+  },
+  {
+    "key": "ribbon",
+    "source": "D:\\Codex\\IMC\\runs\\ui-style-test-v5/pieces/tier-1/title-ribbon.png",
+    "file": "sources/reused/ribbon.png",
+    "sha256": "5f58a4a58bcf044ccddf12dce49a2278774e303ab3cf2e83406dfebec3d7995f"
+  },
+  {
+    "key": "clock",
+    "source": "D:\\Codex\\IMC\\runs\\ui-style-test-v5/pieces/tier-1/clock-medallion-wreath.png",
+    "file": "sources/reused/clock.png",
+    "sha256": "d5681977240394c9f0b74bb8ea52c4a001e5ea55cf5f49cbed8ab517804cdfb6"
+  },
+  {
+    "key": "quill",
+    "source": "D:\\Codex\\IMC\\runs\\ui-style-test-v5/pieces/tier-2/quill.png",
+    "file": "sources/reused/quill.png",
+    "sha256": "42216fb9d63feac83d1bef662ef0541a932a6fedf21ddb657a3c064e36e7dacf"
+  },
+  {
+    "key": "selection",
+    "source": "D:\\Codex\\IMC\\runs\\ui-style-test-v5/pieces/tier-2/selected-row-glow.png",
+    "file": "sources/reused/selection.png",
+    "sha256": "a99b249de129a907b643bb0e412d264aec0b4b6c28b2f4a8d5f90c312a947606"
+  },
+  {
+    "key": "watermark",
+    "source": "D:\\Codex\\IMC\\runs\\ui-style-test-v5/layers/watermark.png",
+    "file": "sources/reused/watermark.png",
+    "sha256": "b98db71d365e7b2dd318a37c9f0472bcd167ea5e19dc4836a3315f5cbea9f56a"
+  },
+  {
+    "key": "mask_corner_large",
+    "source": "D:\\Codex\\IMC\\runs\\ui-style-test-v5/pieces/masks/corner-large.png",
+    "file": "sources/reused/mask_corner_large.png",
+    "sha256": "bd68c3d9924c5d43d5198a2f4acb7d416da8b22f9eba2bab756e70f18866b6c5"
+  },
+  {
+    "key": "mask_corner_small",
+    "source": "D:\\Codex\\IMC\\runs\\ui-style-test-v5/pieces/masks/corner-small.png",
+    "file": "sources/reused/mask_corner_small.png",
+    "sha256": "662799678650b68b1811db0055dee085109792ccdbdf200aa88fac5fcd9d5a1d"
+  },
+  {
+    "key": "mask_lattice",
+    "source": "D:\\Codex\\IMC\\runs\\ui-style-test-v5/pieces/masks/lattice.png",
+    "file": "sources/reused/mask_lattice.png",
+    "sha256": "0c5c5f927ab02191ace8676396a6f37130158b711e1ca20a37117568b69039b3"
+  },
+  {
+    "key": "mask_diamond_row",
+    "source": "D:\\Codex\\IMC\\runs\\ui-style-test-v5/pieces/masks/diamond-row.png",
+    "file": "sources/reused/mask_diamond_row.png",
+    "sha256": "b756ab13925d71a16c8f8cc1097508e87eb4f32d3de93071a347f89bd6f3ec23"
+  },
+  {
+    "key": "mask_header_flourish",
+    "source": "D:\\Codex\\IMC\\runs\\ui-style-test-v5/pieces/masks/header-flourish.png",
+    "file": "sources/reused/mask_header_flourish.png",
+    "sha256": "e888600f8a63f91124c8585a75d8c6fe4435637d96e4180b45acb54189871304"
+  },
+  {
+    "key": "mask_help_end",
+    "source": "D:\\Codex\\IMC\\runs\\ui-style-test-v5/pieces/masks/help-end.png",
+    "file": "sources/reused/mask_help_end.png",
+    "sha256": "936baf8704dd97be7fb700ad90704f97bf5277361f69e06a861ca9f1e4d2e108"
+  },
+  {
+    "key": "mask_ribbon_left",
+    "source": "D:\\Codex\\IMC\\runs\\ui-style-test-v5/pieces/masks/ribbon-left.png",
+    "file": "sources/reused/mask_ribbon_left.png",
+    "sha256": "7a0b064625f6a56b33a892722491593d6b01a0d335d1d6b5d1d44d6567ef85d1"
+  },
+  {
+    "key": "mask_ribbon_right",
+    "source": "D:\\Codex\\IMC\\runs\\ui-style-test-v5/pieces/masks/ribbon-right.png",
+    "file": "sources/reused/mask_ribbon_right.png",
+    "sha256": "010c430ffb3b96d7753cd6be1af19f1e4fbed23e51db56fe53f1997f6a31924b"
+  },
+  {
+    "key": "stain_1",
+    "source": "D:\\Codex\\IMC\\runs\\ui-style-test-v5/layers/stains/stain-1.png",
+    "file": "sources/reused/stain_1.png",
+    "sha256": "b16afd2e839eaa0248d3d43afe5202a1382ff16e8c14d78cf4446f77ba120e9c"
+  },
+  {
+    "key": "stain_2",
+    "source": "D:\\Codex\\IMC\\runs\\ui-style-test-v5/layers/stains/stain-2.png",
+    "file": "sources/reused/stain_2.png",
+    "sha256": "8118aa32594b43c1be62cf8156df4edd28e58dfc962cbad14f0bf9f2ba4ab42d"
+  },
+  {
+    "key": "stain_3",
+    "source": "D:\\Codex\\IMC\\runs\\ui-style-test-v5/layers/stains/stain-3.png",
+    "file": "sources/reused/stain_3.png",
+    "sha256": "a1eda5f24bd0ac1140a48ca59f6824ce40c36d7d10c7629ce61e0a99b0ca861e"
+  },
+  {
+    "key": "stain_4",
+    "source": "D:\\Codex\\IMC\\runs\\ui-style-test-v5/layers/stains/stain-4.png",
+    "file": "sources/reused/stain_4.png",
+    "sha256": "6fa66122d4b5f2912453bd8c5170af4d0e5246488eb08b9c2bbf6f466d08ba77"
+  },
+  {
+    "key": "stain_5",
+    "source": "D:\\Codex\\IMC\\runs\\ui-style-test-v5/layers/stains/stain-5.png",
+    "file": "sources/reused/stain_5.png",
+    "sha256": "2568634ea750347e903007cd4985996e7cfaee6607ff95772baf415b18d08aba"
+  },
+  {
+    "key": "stain_6",
+    "source": "D:\\Codex\\IMC\\runs\\ui-style-test-v5/layers/stains/stain-6.png",
+    "file": "sources/reused/stain_6.png",
+    "sha256": "27657e8e9ed0cf0273fe61e86c11c3a53843c4b56cb7d4fb1cafdb6b7c7aa598"
+  },
+  {
+    "key": "stain_7",
+    "source": "D:\\Codex\\IMC\\runs\\ui-style-test-v5/layers/stains/stain-7.png",
+    "file": "sources/reused/stain_7.png",
+    "sha256": "3126d8642b65956d8725410fd3bb82d923e20729bcb2b593712cba25d6e09258"
+  },
+  {
+    "key": "stain_8",
+    "source": "D:\\Codex\\IMC\\runs\\ui-style-test-v5/layers/stains/stain-8.png",
+    "file": "sources/reused/stain_8.png",
+    "sha256": "594d757a22e5f3944f442d8de12d8b404e21094ef9972d0661c03addf8918e1c"
+  },
+  {
+    "key": "forest_ground",
+    "source": "D:/Storyboards/Isekai Mercenary Company/Environment Assets/Hylaea/Approved Calibration v1/logical/Ground Tile.png",
+    "file": "sources/reused/forest_ground.png",
+    "sha256": "b7976da4be0d4fcf67f56c213aa90eaea4388ab423f400c1cc8db2df35a04543"
+  },
+  {
+    "key": "tavern",
+    "source": "D:/Storyboards/Isekai Mercenary Company/Locations/Eurydica/concepts/eurydica-tavern-interior-approved.png",
+    "file": "sources/reused/tavern.png",
+    "sha256": "86f31b084fca2ad689ffdac9b9deb4ea8dc3e7163a849d1f802a2fc150a7663b"
+  }
+]

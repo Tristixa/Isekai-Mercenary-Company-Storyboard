@@ -1,0 +1,53 @@
+{
+  "character": "Madame Octavia Belmonte",
+  "version": "Expressions v1",
+  "status": "approved",
+  "date": "2026-09-28",
+  "userStatement": "approved",
+  "scope": "All seven delivered expression portraits",
+  "files": [
+    {
+      "file": "Pleased.png",
+      "sha256": "8a733ec03a9495a420e0016f85b0c011f494127b4e91e3b3b2ddd12505b6ac75",
+      "source": "D:/Codex/IMC/Buyers/Madame Octavia Belmonte/Expressions v1/Pleased.png",
+      "master": "D:/Codex/IMC/Buyers/Madame Octavia Belmonte/Expressions v1/Masters/Pleased.png"
+    },
+    {
+      "file": "Considering.png",
+      "sha256": "33699fca0102dc64c52614f0abe576f7fb9b5379c9789aeaf215f0e67e97d995",
+      "source": "D:/Codex/IMC/Buyers/Madame Octavia Belmonte/Expressions v1/Considering.png",
+      "master": "D:/Codex/IMC/Buyers/Madame Octavia Belmonte/Expressions v1/Masters/Considering.png"
+    },
+    {
+      "file": "Doubtful.png",
+      "sha256": "1ef3e2ee71feddc371b12c9a7b432569d6131a435127d2e4e35862be97ce95e2",
+      "source": "D:/Codex/IMC/Buyers/Madame Octavia Belmonte/Expressions v1/Doubtful.png",
+      "master": "D:/Codex/IMC/Buyers/Madame Octavia Belmonte/Expressions v1/Masters/Doubtful.png"
+    },
+    {
+      "file": "Irritated.png",
+      "sha256": "b806399d3f41fac9a0721e30d55919b0e6584d5cf9184169c8c0f4a370a26c37",
+      "source": "D:/Codex/IMC/Buyers/Madame Octavia Belmonte/Expressions v1/Irritated.png",
+      "master": "D:/Codex/IMC/Buyers/Madame Octavia Belmonte/Expressions v1/Masters/Irritated.png"
+    },
+    {
+      "file": "Surprised.png",
+      "sha256": "7a2d2f095233fb1de59cb1bd91228a7efbcad471d81e7c0e39115b243a976fc1",
+      "source": "D:/Codex/IMC/Buyers/Madame Octavia Belmonte/Expressions v1/Surprised.png",
+      "master": "D:/Codex/IMC/Buyers/Madame Octavia Belmonte/Expressions v1/Masters/Surprised.png"
+    },
+    {
+      "file": "Deal.png",
+      "sha256": "9c54e948fdd2d7e9effa45051b40a583e43829c7f3a672885b36fae01c2b2089",
+      "source": "D:/Codex/IMC/Buyers/Madame Octavia Belmonte/Expressions v1/Deal.png",
+      "master": "D:/Codex/IMC/Buyers/Madame Octavia Belmonte/Expressions v1/Masters/Deal.png"
+    },
+    {
+      "file": "WalkAway.png",
+      "sha256": "de17b19047ff1710387bbc892a66c3e79e96e931f0af2fc4600d1dfa7d8cb9e2",
+      "source": "D:/Codex/IMC/Buyers/Madame Octavia Belmonte/Expressions v1/WalkAway.png",
+      "master": "D:/Codex/IMC/Buyers/Madame Octavia Belmonte/Expressions v1/Masters/WalkAway.png"
+    }
+  ],
+  "runtimeIntegration": false
+}

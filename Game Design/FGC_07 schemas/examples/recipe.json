@@ -1,0 +1,54 @@
+{
+  "id": "boarhide_vest_recipe",
+  "region": "eurydica",
+  "rev": 1,
+  "name": "Boarhide Vest",
+  "gdd": [
+    "12.2"
+  ],
+  "authoring_status": "specified",
+  "missing_fields": [],
+  "inputs": [
+    {
+      "item_id": "boar_hide",
+      "quantity": 4,
+      "min_quality": "standard"
+    }
+  ],
+  "fee_g": 40,
+  "duration_seconds": 7200,
+  "output_item_id": "boarhide_vest",
+  "output_count": 1,
+  "output_forms": [
+    "boarhide_vest"
+  ],
+  "category": "armour",
+  "footprint": {
+    "width": 2,
+    "height": 2,
+    "rotatable": true
+  },
+  "effects": [
+    {
+      "op": "add",
+      "target": "max_hp",
+      "value": 30,
+      "duration_actions": null
+    },
+    {
+      "op": "add",
+      "target": "def",
+      "value": 8,
+      "duration_actions": null
+    }
+  ],
+  "gate": {
+    "all": [
+      {
+        "fact": "fulker_joined",
+        "cmp": "eq",
+        "value": true
+      }
+    ]
+  }
+}

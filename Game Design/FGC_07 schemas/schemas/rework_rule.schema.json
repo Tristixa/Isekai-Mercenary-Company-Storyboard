@@ -1,0 +1,112 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "rework_rule.schema.json",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "region": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "rev": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "gdd": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "authoring_status": {
+      "enum": [
+        "specified",
+        "incomplete"
+      ]
+    },
+    "missing_fields": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "input_quality": {
+      "enum": [
+        "unsellable",
+        "damaged",
+        "standard",
+        "pristine"
+      ]
+    },
+    "input_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "output_quality": {
+      "enum": [
+        "unsellable",
+        "damaged",
+        "standard",
+        "pristine"
+      ]
+    },
+    "output_count": {
+      "const": 1
+    },
+    "duration_seconds": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "requires_perk": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "forbidden_perks": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+      },
+      "minItems": 0
+    },
+    "same_material": {
+      "const": true
+    }
+  },
+  "required": [
+    "id",
+    "region",
+    "rev",
+    "name",
+    "gdd",
+    "authoring_status",
+    "missing_fields",
+    "input_quality",
+    "input_count",
+    "output_quality",
+    "output_count",
+    "duration_seconds",
+    "requires_perk",
+    "forbidden_perks",
+    "same_material"
+  ],
+  "additionalProperties": false
+}

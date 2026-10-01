@@ -1,0 +1,33 @@
+{
+  "id": "eurydica",
+  "region": "eurydica",
+  "rev": 1,
+  "name": "Eurydica",
+  "gdd": [
+    "16a"
+  ],
+  "authoring_status": "specified",
+  "missing_fields": [],
+  "area_ids": [
+    "mosswood",
+    "amber_marsh",
+    "redstone"
+  ],
+  "chapter_start": 1,
+  "operating_base": true,
+  "track_cap": 6,
+  "lifetime_xp_cap": 3000,
+  "enhancement_cap": 2,
+  "staff_rank_cap": 2,
+  "commander_skill_cap": 2,
+  "rank_ceiling": "c",
+  "local_generators": [
+    "requests",
+    "repeat_orders",
+    "rumours",
+    "forecasts",
+    "negotiation_orders",
+    "standing_offers",
+    "daily_hints"
+  ]
+}

@@ -1,0 +1,918 @@
+{
+ "location": "eurydica",
+ "purpose": "Painted facade textures for the 3D building volumes of an HD-2D town. Each PNG is UV-mapped flat onto one face of a box, so every face is a straight-on ORTHOGRAPHIC ELEVATION, not a scene view.",
+ "px_per_m": 64,
+ "ground_is_bottom_edge": true,
+ "gable_profile": "For a gable face of width W, wall height H and gable height G: opaque below H across the full width; above H the opaque top edge is y = H + G * (1 - u)^1.4 where u = |x - W/2| / (W/2) (y up from the bottom edge, x from the left edge). Everything above that curve is alpha 0. The roof is separate 3D geometry that covers this edge by 0.45 m.",
+ "arch_profile": "Arch faces: transparent where |x - centre| <= half_width up to straight_to, then a semicircle of radius half_width centred at straight_to.",
+ "face_orientation": "Each face is painted as seen from OUTSIDE the building, standing in front of that face. Left/right in the image = the viewer's left/right.",
+ "buildings": {
+  "company_house": {
+   "concept": "eurydica-company-edge-approved.png (03 COMPANY HOUSE)",
+   "footprint_m": [
+    7.5,
+    7.5
+   ],
+   "wall_height_m": 4.4,
+   "ridge_axis": "z",
+   "door_face": "e",
+   "roof": "violet",
+   "notes": "The Company's small Tier 1 house: cream plaster, dark timber, grey stone base and corners, violet roof with one dormer and a chimney; a green-roofed porch on the door face (the porch roof is separate geometry, paint only the wall behind it). Short steps and a barrel by the door are props, not painted.",
+   "door": {
+    "width_m": 1.4,
+    "height_m": 2.3
+   }
+  },
+  "tavern": {
+   "concept": "eurydica-market-building-exteriors-approved.png (01 TAVERN)",
+   "footprint_m": [
+    9,
+    11
+   ],
+   "wall_height_m": 9.3,
+   "ridge_axis": "z",
+   "door_face": "e",
+   "roof": "green",
+   "notes": "Tallest building in the slice: two occupied storeys plus a third under the roof line, projecting upper room read through timber framing; the wine-red awning over the entrance is separate. One plain replacement door plank as repair history.",
+   "door": {
+    "width_m": 1.4,
+    "height_m": 2.3
+   }
+  },
+  "provisions": {
+   "concept": "eurydica-market-building-exteriors-approved.png (02 PROVISIONS SHOP)",
+   "footprint_m": [
+    8,
+    8
+   ],
+   "wall_height_m": 6.2,
+   "ridge_axis": "z",
+   "door_face": "e",
+   "roof": "green",
+   "notes": "Compact shop: selling bay opening on the door face (a wide counter opening beside the door), a side storage door on one side wall, one broad plaster repair patch.",
+   "door": {
+    "width_m": 1.4,
+    "height_m": 2.3
+   }
+  },
+  "repair_supply": {
+   "concept": "eurydica-market-building-exteriors-approved.png (03 REPAIR & SUPPLY)",
+   "footprint_m": [
+    10,
+    12
+   ],
+   "wall_height_m": 4.8,
+   "ridge_axis": "z",
+   "door_face": "w",
+   "roof": "green",
+   "notes": "Broad low working building: WIDE double work doors 3.0 m wide on the door face, older grey stone base and corner quoins, one replaced door brace. Gerd's shop.",
+   "door": {
+    "width_m": 3,
+    "height_m": 2.8
+   }
+  },
+  "lodging": {
+   "concept": "eurydica-arrival-ward-approved.png (02 LODGING HOUSE)",
+   "footprint_m": [
+    10,
+    8
+   ],
+   "wall_height_m": 6.2,
+   "ridge_axis": "x",
+   "door_face": "w",
+   "roof": "green",
+   "notes": "Two-storey lodging house near the gate: cream plaster and timber, green roof, cream awning over the door (separate), wine banner beside the door (separate).",
+   "door": {
+    "width_m": 1.4,
+    "height_m": 2.3
+   }
+  },
+  "stables": {
+   "concept": "eurydica-arrival-ward-approved.png (Arrival Ward stables; no dedicated label)",
+   "footprint_m": [
+    11,
+    5.5
+   ],
+   "wall_height_m": 3.4,
+   "ridge_axis": "x",
+   "door_face": "w",
+   "roof": "brown",
+   "notes": "Jeb's stables: timber-boarded walls over a low stone base, a wide 3.0 m stable opening on the door face, half-doors (stall doors) along the long walls, hay-loft hatch in the gable. Work-worn but maintained.",
+   "door": {
+    "width_m": 3,
+    "height_m": 2.3
+   }
+  },
+  "guard_shelter": {
+   "concept": "eurydica-arrival-ward-approved.png (04 GUARD SHELTER)",
+   "footprint_m": [
+    3.5,
+    3.5
+   ],
+   "wall_height_m": 3.1,
+   "ridge_axis": "z",
+   "door_face": "e",
+   "roof": "green",
+   "notes": "Small timber guard booth beside the gate, open counter window on the door face, a plain notice board (no writing) on a side wall.",
+   "door": {
+    "width_m": 1.4,
+    "height_m": 2.3
+   }
+  },
+  "store_shed": {
+   "concept": "eurydica-company-edge-approved.png (store shed at the expansion yard)",
+   "footprint_m": [
+    3.5,
+    3.5
+   ],
+   "wall_height_m": 2.8,
+   "ridge_axis": "x",
+   "door_face": "e",
+   "roof": "patchwork",
+   "notes": "The Company's lean timber store shed: boarded walls, plank door, a patched roof of reused red and brown boards (the patchwork roof tile).",
+   "door": {
+    "width_m": 1.2,
+    "height_m": 2.3
+   }
+  },
+  "gatehouse": {
+   "concept": "eurydica-arrival-ward-approved.png (05 SOUTH GATE)",
+   "footprint_m": [
+    12.4,
+    2.4
+   ],
+   "wall_height_m": 7.2,
+   "ridge_axis": "x",
+   "door_face": "s",
+   "roof": "green",
+   "notes": "The South Gate: pale grey dressed-stone gatehouse, ONE round-arched opening through the middle, small green roof above; the arch opening must stay fully transparent (players walk through it). Same painting on the north (city) face and the south (outskirts) face.",
+   "arch": {
+    "half_width_m": 2.3,
+    "straight_to_m": 3
+   }
+  },
+  "house_violet": {
+   "concept": "eurydica-company-edge-approved.png and eurydica-arrival-ward-approved.png (violet-roofed houses)",
+   "footprint_m": [
+    8,
+    6
+   ],
+   "wall_height_m": 6.2,
+   "ridge_axis": "x",
+   "door_face": "s",
+   "roof": "violet",
+   "notes": "Generic residential house (reused and stretched for many lots): cream plaster, dark timber, violet roof, simple dark windows. Keep it plainer than the named buildings.",
+   "door": {
+    "width_m": 1.4,
+    "height_m": 2.3
+   }
+  },
+  "house_green": {
+   "concept": "eurydica-market-spine-approved.png (market-side houses)",
+   "footprint_m": [
+    9,
+    8
+   ],
+   "wall_height_m": 6.2,
+   "ridge_axis": "z",
+   "door_face": "e",
+   "roof": "green",
+   "notes": "Generic market-street house (reused): cream plaster, timber framing, green roof; the ground floor may show a closed shutter shopfront. Plainer than the named shops.",
+   "door": {
+    "width_m": 1.4,
+    "height_m": 2.3
+   }
+  }
+ },
+ "faces": [
+  {
+   "building": "company_house",
+   "face": "n",
+   "file": "company_house/n.png",
+   "type": "gable",
+   "width_m": 7.5,
+   "wall_height_m": 4.4,
+   "gable_height_m": 4.13,
+   "px": [
+    480,
+    546
+   ],
+   "door": null
+  },
+  {
+   "building": "company_house",
+   "face": "s",
+   "file": "company_house/s.png",
+   "type": "gable",
+   "width_m": 7.5,
+   "wall_height_m": 4.4,
+   "gable_height_m": 4.13,
+   "px": [
+    480,
+    546
+   ],
+   "door": null
+  },
+  {
+   "building": "company_house",
+   "face": "e",
+   "file": "company_house/e.png",
+   "type": "wall",
+   "width_m": 7.5,
+   "wall_height_m": 4.4,
+   "gable_height_m": 0,
+   "px": [
+    480,
+    282
+   ],
+   "door": {
+    "centre_x_m": 3.75,
+    "width_m": 1.4,
+    "height_m": 2.3
+   }
+  },
+  {
+   "building": "company_house",
+   "face": "w",
+   "file": "company_house/w.png",
+   "type": "wall",
+   "width_m": 7.5,
+   "wall_height_m": 4.4,
+   "gable_height_m": 0,
+   "px": [
+    480,
+    282
+   ],
+   "door": null
+  },
+  {
+   "building": "tavern",
+   "face": "n",
+   "file": "tavern/n.png",
+   "type": "gable",
+   "width_m": 9,
+   "wall_height_m": 9.3,
+   "gable_height_m": 4.95,
+   "px": [
+    576,
+    912
+   ],
+   "door": null
+  },
+  {
+   "building": "tavern",
+   "face": "s",
+   "file": "tavern/s.png",
+   "type": "gable",
+   "width_m": 9,
+   "wall_height_m": 9.3,
+   "gable_height_m": 4.95,
+   "px": [
+    576,
+    912
+   ],
+   "door": null
+  },
+  {
+   "building": "tavern",
+   "face": "e",
+   "file": "tavern/e.png",
+   "type": "wall",
+   "width_m": 11,
+   "wall_height_m": 9.3,
+   "gable_height_m": 0,
+   "px": [
+    704,
+    595
+   ],
+   "door": {
+    "centre_x_m": 5.5,
+    "width_m": 1.4,
+    "height_m": 2.3
+   }
+  },
+  {
+   "building": "tavern",
+   "face": "w",
+   "file": "tavern/w.png",
+   "type": "wall",
+   "width_m": 11,
+   "wall_height_m": 9.3,
+   "gable_height_m": 0,
+   "px": [
+    704,
+    595
+   ],
+   "door": null
+  },
+  {
+   "building": "provisions",
+   "face": "n",
+   "file": "provisions/n.png",
+   "type": "gable",
+   "width_m": 8,
+   "wall_height_m": 6.2,
+   "gable_height_m": 4.4,
+   "px": [
+    512,
+    678
+   ],
+   "door": null
+  },
+  {
+   "building": "provisions",
+   "face": "s",
+   "file": "provisions/s.png",
+   "type": "gable",
+   "width_m": 8,
+   "wall_height_m": 6.2,
+   "gable_height_m": 4.4,
+   "px": [
+    512,
+    678
+   ],
+   "door": null
+  },
+  {
+   "building": "provisions",
+   "face": "e",
+   "file": "provisions/e.png",
+   "type": "wall",
+   "width_m": 8,
+   "wall_height_m": 6.2,
+   "gable_height_m": 0,
+   "px": [
+    512,
+    397
+   ],
+   "door": {
+    "centre_x_m": 4,
+    "width_m": 1.4,
+    "height_m": 2.3
+   }
+  },
+  {
+   "building": "provisions",
+   "face": "w",
+   "file": "provisions/w.png",
+   "type": "wall",
+   "width_m": 8,
+   "wall_height_m": 6.2,
+   "gable_height_m": 0,
+   "px": [
+    512,
+    397
+   ],
+   "door": null
+  },
+  {
+   "building": "repair_supply",
+   "face": "n",
+   "file": "repair_supply/n.png",
+   "type": "gable",
+   "width_m": 10,
+   "wall_height_m": 4.8,
+   "gable_height_m": 5,
+   "px": [
+    640,
+    627
+   ],
+   "door": null
+  },
+  {
+   "building": "repair_supply",
+   "face": "s",
+   "file": "repair_supply/s.png",
+   "type": "gable",
+   "width_m": 10,
+   "wall_height_m": 4.8,
+   "gable_height_m": 5,
+   "px": [
+    640,
+    627
+   ],
+   "door": null
+  },
+  {
+   "building": "repair_supply",
+   "face": "e",
+   "file": "repair_supply/e.png",
+   "type": "wall",
+   "width_m": 12,
+   "wall_height_m": 4.8,
+   "gable_height_m": 0,
+   "px": [
+    768,
+    307
+   ],
+   "door": null
+  },
+  {
+   "building": "repair_supply",
+   "face": "w",
+   "file": "repair_supply/w.png",
+   "type": "wall",
+   "width_m": 12,
+   "wall_height_m": 4.8,
+   "gable_height_m": 0,
+   "px": [
+    768,
+    307
+   ],
+   "door": {
+    "centre_x_m": 6,
+    "width_m": 3,
+    "height_m": 2.8
+   }
+  },
+  {
+   "building": "lodging",
+   "face": "n",
+   "file": "lodging/n.png",
+   "type": "wall",
+   "width_m": 10,
+   "wall_height_m": 6.2,
+   "gable_height_m": 0,
+   "px": [
+    640,
+    397
+   ],
+   "door": null
+  },
+  {
+   "building": "lodging",
+   "face": "s",
+   "file": "lodging/s.png",
+   "type": "wall",
+   "width_m": 10,
+   "wall_height_m": 6.2,
+   "gable_height_m": 0,
+   "px": [
+    640,
+    397
+   ],
+   "door": null
+  },
+  {
+   "building": "lodging",
+   "face": "e",
+   "file": "lodging/e.png",
+   "type": "gable",
+   "width_m": 8,
+   "wall_height_m": 6.2,
+   "gable_height_m": 4.4,
+   "px": [
+    512,
+    678
+   ],
+   "door": null
+  },
+  {
+   "building": "lodging",
+   "face": "w",
+   "file": "lodging/w.png",
+   "type": "gable",
+   "width_m": 8,
+   "wall_height_m": 6.2,
+   "gable_height_m": 4.4,
+   "px": [
+    512,
+    678
+   ],
+   "door": {
+    "centre_x_m": 4,
+    "width_m": 1.4,
+    "height_m": 2.3
+   }
+  },
+  {
+   "building": "stables",
+   "face": "n",
+   "file": "stables/n.png",
+   "type": "wall",
+   "width_m": 11,
+   "wall_height_m": 3.4,
+   "gable_height_m": 0,
+   "px": [
+    704,
+    218
+   ],
+   "door": null
+  },
+  {
+   "building": "stables",
+   "face": "s",
+   "file": "stables/s.png",
+   "type": "wall",
+   "width_m": 11,
+   "wall_height_m": 3.4,
+   "gable_height_m": 0,
+   "px": [
+    704,
+    218
+   ],
+   "door": null
+  },
+  {
+   "building": "stables",
+   "face": "e",
+   "file": "stables/e.png",
+   "type": "gable",
+   "width_m": 5.5,
+   "wall_height_m": 3.4,
+   "gable_height_m": 3.03,
+   "px": [
+    352,
+    412
+   ],
+   "door": null
+  },
+  {
+   "building": "stables",
+   "face": "w",
+   "file": "stables/w.png",
+   "type": "gable",
+   "width_m": 5.5,
+   "wall_height_m": 3.4,
+   "gable_height_m": 3.03,
+   "px": [
+    352,
+    412
+   ],
+   "door": {
+    "centre_x_m": 2.75,
+    "width_m": 3,
+    "height_m": 2.3
+   }
+  },
+  {
+   "building": "guard_shelter",
+   "face": "n",
+   "file": "guard_shelter/n.png",
+   "type": "gable",
+   "width_m": 3.5,
+   "wall_height_m": 3.1,
+   "gable_height_m": 1.93,
+   "px": [
+    224,
+    322
+   ],
+   "door": null
+  },
+  {
+   "building": "guard_shelter",
+   "face": "s",
+   "file": "guard_shelter/s.png",
+   "type": "gable",
+   "width_m": 3.5,
+   "wall_height_m": 3.1,
+   "gable_height_m": 1.93,
+   "px": [
+    224,
+    322
+   ],
+   "door": null
+  },
+  {
+   "building": "guard_shelter",
+   "face": "e",
+   "file": "guard_shelter/e.png",
+   "type": "wall",
+   "width_m": 3.5,
+   "wall_height_m": 3.1,
+   "gable_height_m": 0,
+   "px": [
+    224,
+    198
+   ],
+   "door": {
+    "centre_x_m": 1.75,
+    "width_m": 1.4,
+    "height_m": 2.3
+   }
+  },
+  {
+   "building": "guard_shelter",
+   "face": "w",
+   "file": "guard_shelter/w.png",
+   "type": "wall",
+   "width_m": 3.5,
+   "wall_height_m": 3.1,
+   "gable_height_m": 0,
+   "px": [
+    224,
+    198
+   ],
+   "door": null
+  },
+  {
+   "building": "store_shed",
+   "face": "n",
+   "file": "store_shed/n.png",
+   "type": "wall",
+   "width_m": 3.5,
+   "wall_height_m": 2.8,
+   "gable_height_m": 0,
+   "px": [
+    224,
+    179
+   ],
+   "door": null
+  },
+  {
+   "building": "store_shed",
+   "face": "s",
+   "file": "store_shed/s.png",
+   "type": "wall",
+   "width_m": 3.5,
+   "wall_height_m": 2.8,
+   "gable_height_m": 0,
+   "px": [
+    224,
+    179
+   ],
+   "door": null
+  },
+  {
+   "building": "store_shed",
+   "face": "e",
+   "file": "store_shed/e.png",
+   "type": "gable",
+   "width_m": 3.5,
+   "wall_height_m": 2.8,
+   "gable_height_m": 1.93,
+   "px": [
+    224,
+    303
+   ],
+   "door": {
+    "centre_x_m": 1.75,
+    "width_m": 1.2,
+    "height_m": 2.3
+   }
+  },
+  {
+   "building": "store_shed",
+   "face": "w",
+   "file": "store_shed/w.png",
+   "type": "gable",
+   "width_m": 3.5,
+   "wall_height_m": 2.8,
+   "gable_height_m": 1.93,
+   "px": [
+    224,
+    303
+   ],
+   "door": null
+  },
+  {
+   "building": "gatehouse",
+   "face": "n",
+   "file": "gatehouse/n.png",
+   "type": "wall",
+   "width_m": 12.4,
+   "wall_height_m": 7.2,
+   "gable_height_m": 0,
+   "px": [
+    794,
+    461
+   ],
+   "door": null,
+   "arch": {
+    "centre_x_m": 6.2,
+    "half_width_m": 2.3,
+    "straight_to_m": 3,
+    "apex_m": 5.3
+   }
+  },
+  {
+   "building": "gatehouse",
+   "face": "s",
+   "file": "gatehouse/s.png",
+   "type": "wall",
+   "width_m": 12.4,
+   "wall_height_m": 7.2,
+   "gable_height_m": 0,
+   "px": [
+    794,
+    461
+   ],
+   "door": null,
+   "arch": {
+    "centre_x_m": 6.2,
+    "half_width_m": 2.3,
+    "straight_to_m": 3,
+    "apex_m": 5.3
+   }
+  },
+  {
+   "building": "gatehouse",
+   "face": "e",
+   "file": "gatehouse/e.png",
+   "type": "gable",
+   "width_m": 2.4,
+   "wall_height_m": 7.2,
+   "gable_height_m": 1.32,
+   "px": [
+    154,
+    545
+   ],
+   "door": null
+  },
+  {
+   "building": "gatehouse",
+   "face": "w",
+   "file": "gatehouse/w.png",
+   "type": "gable",
+   "width_m": 2.4,
+   "wall_height_m": 7.2,
+   "gable_height_m": 1.32,
+   "px": [
+    154,
+    545
+   ],
+   "door": null
+  },
+  {
+   "building": "house_violet",
+   "face": "n",
+   "file": "house_violet/n.png",
+   "type": "wall",
+   "width_m": 8,
+   "wall_height_m": 6.2,
+   "gable_height_m": 0,
+   "px": [
+    512,
+    397
+   ],
+   "door": null
+  },
+  {
+   "building": "house_violet",
+   "face": "s",
+   "file": "house_violet/s.png",
+   "type": "wall",
+   "width_m": 8,
+   "wall_height_m": 6.2,
+   "gable_height_m": 0,
+   "px": [
+    512,
+    397
+   ],
+   "door": {
+    "centre_x_m": 4,
+    "width_m": 1.4,
+    "height_m": 2.3
+   }
+  },
+  {
+   "building": "house_violet",
+   "face": "e",
+   "file": "house_violet/e.png",
+   "type": "gable",
+   "width_m": 6,
+   "wall_height_m": 6.2,
+   "gable_height_m": 3.3,
+   "px": [
+    384,
+    608
+   ],
+   "door": null
+  },
+  {
+   "building": "house_violet",
+   "face": "w",
+   "file": "house_violet/w.png",
+   "type": "gable",
+   "width_m": 6,
+   "wall_height_m": 6.2,
+   "gable_height_m": 3.3,
+   "px": [
+    384,
+    608
+   ],
+   "door": null
+  },
+  {
+   "building": "house_green",
+   "face": "n",
+   "file": "house_green/n.png",
+   "type": "gable",
+   "width_m": 9,
+   "wall_height_m": 6.2,
+   "gable_height_m": 4.95,
+   "px": [
+    576,
+    714
+   ],
+   "door": null
+  },
+  {
+   "building": "house_green",
+   "face": "s",
+   "file": "house_green/s.png",
+   "type": "gable",
+   "width_m": 9,
+   "wall_height_m": 6.2,
+   "gable_height_m": 4.95,
+   "px": [
+    576,
+    714
+   ],
+   "door": null
+  },
+  {
+   "building": "house_green",
+   "face": "e",
+   "file": "house_green/e.png",
+   "type": "wall",
+   "width_m": 8,
+   "wall_height_m": 6.2,
+   "gable_height_m": 0,
+   "px": [
+    512,
+    397
+   ],
+   "door": {
+    "centre_x_m": 4,
+    "width_m": 1.4,
+    "height_m": 2.3
+   }
+  },
+  {
+   "building": "house_green",
+   "face": "w",
+   "file": "house_green/w.png",
+   "type": "wall",
+   "width_m": 8,
+   "wall_height_m": 6.2,
+   "gable_height_m": 0,
+   "px": [
+    512,
+    397
+   ],
+   "door": null
+  }
+ ],
+ "roof_tiles": [
+  {
+   "id": "green",
+   "file": "roofs/green.png",
+   "px": [
+    512,
+    512
+   ],
+   "covers_m": [
+    8,
+    8
+   ],
+   "seamless": "both axes",
+   "courses_run": "horizontally (parallel to the ridge)"
+  },
+  {
+   "id": "violet",
+   "file": "roofs/violet.png",
+   "px": [
+    512,
+    512
+   ],
+   "covers_m": [
+    8,
+    8
+   ],
+   "seamless": "both axes",
+   "courses_run": "horizontally (parallel to the ridge)"
+  },
+  {
+   "id": "brown",
+   "file": "roofs/brown.png",
+   "px": [
+    512,
+    512
+   ],
+   "covers_m": [
+    8,
+    8
+   ],
+   "seamless": "both axes",
+   "courses_run": "horizontally (parallel to the ridge)"
+  },
+  {
+   "id": "patchwork",
+   "file": "roofs/patchwork.png",
+   "px": [
+    512,
+    512
+   ],
+   "covers_m": [
+    8,
+    8
+   ],
+   "seamless": "both axes",
+   "courses_run": "horizontally (parallel to the ridge)"
+  }
+ ],
+ "walls": [],
+ "attachments": [],
+ "props_sheet": null
+}

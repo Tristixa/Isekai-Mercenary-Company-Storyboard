@@ -1,0 +1,486 @@
+{
+  "status": "candidate_not_approved",
+  "geography": "proposal_not_canon",
+  "mapSize": [
+    1536,
+    1024
+  ],
+  "mockupMapRect": [
+    62,
+    172,
+    1162,
+    747
+  ],
+  "mapping": "screenX = 62 + mapX * 1162/1536; screenY = 172 + mapY * 747/1024",
+  "layers": [
+    {
+      "name": "den-oak",
+      "kind": "den",
+      "sourceCrop": [
+        0,
+        0,
+        530,
+        510
+      ],
+      "mapRect": [
+        440,
+        505,
+        118,
+        83.26612903225806
+      ],
+      "revealedInA": true
+    },
+    {
+      "name": "den-rock",
+      "kind": "den",
+      "sourceCrop": [
+        535,
+        0,
+        535,
+        510
+      ],
+      "mapRect": [
+        650,
+        580,
+        100,
+        69.32270916334662
+      ],
+      "revealedInA": false
+    },
+    {
+      "name": "landmark-stump",
+      "kind": "landmark",
+      "sourceCrop": [
+        1075,
+        0,
+        461,
+        510
+      ],
+      "mapRect": [
+        625,
+        480,
+        87,
+        82.79032258064517
+      ],
+      "revealedInA": true
+    },
+    {
+      "name": "hidden-path-1",
+      "kind": "hidden_path",
+      "sourceCrop": [
+        100,
+        520,
+        720,
+        504
+      ],
+      "mapRect": [
+        330,
+        565,
+        145,
+        93.94694533762058
+      ],
+      "revealedInA": false
+    },
+    {
+      "name": "hidden-path-2",
+      "kind": "hidden_path",
+      "sourceCrop": [
+        850,
+        520,
+        686,
+        504
+      ],
+      "mapRect": [
+        480,
+        675,
+        155,
+        114.54144620811287
+      ],
+      "revealedInA": false
+    }
+  ],
+  "previewPlacements": [
+    {
+      "screen": "preview-hylaea",
+      "key": "h_mid-tall-left",
+      "dest": [
+        -70,
+        40,
+        430,
+        664.5454545454545
+      ]
+    },
+    {
+      "screen": "preview-hylaea",
+      "key": "h_mid-broad",
+      "dest": [
+        1200,
+        270,
+        420,
+        420
+      ]
+    },
+    {
+      "screen": "preview-hylaea",
+      "key": "h_canopy-left",
+      "dest": [
+        -180,
+        -120,
+        540,
+        342.3342175066313
+      ]
+    },
+    {
+      "screen": "preview-hylaea",
+      "key": "h_canopy-right",
+      "dest": [
+        1280,
+        -120,
+        510,
+        336
+      ]
+    },
+    {
+      "screen": "preview-hylaea",
+      "key": "h_fern-wide",
+      "dest": [
+        -45,
+        724,
+        460,
+        307.5068493150685
+      ]
+    },
+    {
+      "screen": "preview-hylaea",
+      "key": "h_bush-low",
+      "dest": [
+        1240,
+        760,
+        440,
+        286.8354430379747
+      ]
+    },
+    {
+      "screen": "preview-bernmoor",
+      "sourceCrop": [
+        0,
+        0,
+        412.68,
+        724
+      ],
+      "dest": [
+        -65,
+        210,
+        460,
+        514.4903581267217
+      ]
+    },
+    {
+      "screen": "preview-bernmoor",
+      "sourceCrop": [
+        1585.56,
+        0,
+        347.52,
+        724
+      ],
+      "dest": [
+        1230,
+        180,
+        420,
+        555.6521739130435
+      ]
+    },
+    {
+      "screen": "preview-bernmoor",
+      "sourceCrop": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "dest": [
+        -40,
+        745,
+        520,
+        180.32258064516128
+      ]
+    },
+    {
+      "screen": "preview-bernmoor",
+      "sourceCrop": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "dest": [
+        1230,
+        745,
+        440,
+        229.32203389830508
+      ]
+    },
+    {
+      "screen": "preview-erythra",
+      "sourceCrop": [
+        0,
+        0,
+        421.98,
+        727
+      ],
+      "dest": [
+        -40,
+        280,
+        410,
+        460
+      ]
+    },
+    {
+      "screen": "preview-erythra",
+      "sourceCrop": [
+        1428.24,
+        0,
+        367.88000000000005,
+        727
+      ],
+      "dest": [
+        1240,
+        265,
+        400,
+        465.14285714285717
+      ]
+    },
+    {
+      "screen": "preview-erythra",
+      "sourceCrop": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "dest": [
+        -40,
+        745,
+        520,
+        213.30612244897958
+      ]
+    },
+    {
+      "screen": "preview-erythra",
+      "sourceCrop": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "dest": [
+        1230,
+        745,
+        440,
+        230.2803738317757
+      ]
+    }
+  ],
+  "markers": [
+    {
+      "screen": "mockup-A",
+      "name": "Hylaea Forest",
+      "rect": [
+        326,
+        758,
+        280,
+        44
+      ],
+      "locked": false,
+      "selected": true
+    },
+    {
+      "screen": "mockup-A",
+      "name": "Bernmoor",
+      "rect": [
+        654,
+        821,
+        280,
+        44
+      ],
+      "locked": false,
+      "selected": false
+    },
+    {
+      "screen": "mockup-A",
+      "name": "Erythra Highlands",
+      "rect": [
+        887,
+        519,
+        280,
+        44
+      ],
+      "locked": true,
+      "selected": false
+    },
+    {
+      "screen": "mockup-B",
+      "name": "Hylaea Forest",
+      "rect": [
+        326,
+        758,
+        280,
+        44
+      ],
+      "locked": false,
+      "selected": false
+    },
+    {
+      "screen": "mockup-B",
+      "name": "Bernmoor",
+      "rect": [
+        654,
+        821,
+        280,
+        44
+      ],
+      "locked": false,
+      "selected": false
+    },
+    {
+      "screen": "mockup-B",
+      "name": "Erythra Highlands",
+      "rect": [
+        887,
+        519,
+        280,
+        44
+      ],
+      "locked": true,
+      "selected": true
+    },
+    {
+      "screen": "mockup-C",
+      "name": "Hylaea Forest",
+      "rect": [
+        326,
+        758,
+        280,
+        44
+      ],
+      "locked": false,
+      "selected": true
+    },
+    {
+      "screen": "mockup-C",
+      "name": "Bernmoor",
+      "rect": [
+        654,
+        821,
+        280,
+        44
+      ],
+      "locked": false,
+      "selected": false
+    },
+    {
+      "screen": "mockup-C",
+      "name": "Erythra Highlands",
+      "rect": [
+        887,
+        519,
+        280,
+        44
+      ],
+      "locked": true,
+      "selected": false
+    }
+  ],
+  "tabs": [
+    {
+      "screen": "mockup-A",
+      "label": "EURYDICA",
+      "state": "selected",
+      "rect": [
+        62,
+        104,
+        330,
+        68
+      ]
+    },
+    {
+      "screen": "mockup-B",
+      "label": "EURYDICA",
+      "state": "selected",
+      "rect": [
+        62,
+        104,
+        330,
+        68
+      ]
+    },
+    {
+      "screen": "mockup-C",
+      "label": "EURYDICA",
+      "state": "disabled",
+      "rect": [
+        62,
+        104,
+        290,
+        68
+      ]
+    },
+    {
+      "screen": "mockup-C",
+      "label": "FRONTIER REGION 2",
+      "state": "idle",
+      "rect": [
+        815,
+        104,
+        405,
+        68
+      ]
+    },
+    {
+      "screen": "mockup-C",
+      "label": "FRONTIER REGION 1",
+      "state": "selected",
+      "rect": [
+        360,
+        104,
+        440,
+        68
+      ]
+    }
+  ],
+  "lockedTreatments": [
+    {
+      "screen": "mockup-A",
+      "saturation": 0.6,
+      "parchmentWash": 0.16,
+      "masterEllipse": [
+        1210,
+        245,
+        390,
+        235
+      ]
+    },
+    {
+      "screen": "mockup-B",
+      "saturation": 0.6,
+      "parchmentWash": 0.16,
+      "masterEllipse": [
+        1210,
+        245,
+        390,
+        235
+      ]
+    },
+    {
+      "screen": "mockup-C",
+      "saturation": 0.6,
+      "parchmentWash": 0.16,
+      "masterEllipse": [
+        1210,
+        245,
+        390,
+        235
+      ]
+    }
+  ]
+}

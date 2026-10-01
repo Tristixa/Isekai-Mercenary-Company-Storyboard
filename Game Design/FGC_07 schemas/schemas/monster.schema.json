@@ -1,0 +1,201 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "monster.schema.json",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "region": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "rev": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "gdd": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "authoring_status": {
+      "enum": [
+        "specified",
+        "incomplete"
+      ]
+    },
+    "missing_fields": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "area_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "tier": {
+      "enum": [
+        "ordinary",
+        "variant",
+        "rare",
+        "boss"
+      ]
+    },
+    "parent_id": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "stats": {
+      "type": "object",
+      "properties": {
+        "hp": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "atk": {
+          "type": "number",
+          "minimum": 0
+        },
+        "def": {
+          "type": "number",
+          "minimum": 0
+        },
+        "rate": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      },
+      "required": [
+        "hp",
+        "atk",
+        "def",
+        "rate"
+      ],
+      "additionalProperties": false
+    },
+    "base_xp": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "knowledge_pct": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "processing_yield_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "skill": {
+      "anyOf": [
+        {
+          "$ref": "shared.schema.json#/$defs/skill"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "poses": {
+      "type": "object",
+      "properties": {
+        "idle": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+        },
+        "attack": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+        },
+        "skill": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+        },
+        "hurt": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+        },
+        "second_hurt": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "defeat": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+        }
+      },
+      "required": [
+        "idle",
+        "attack",
+        "skill",
+        "hurt",
+        "second_hurt",
+        "defeat"
+      ],
+      "additionalProperties": false
+    },
+    "variant_palette_ref": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "group_chance": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    }
+  },
+  "required": [
+    "id",
+    "region",
+    "rev",
+    "name",
+    "gdd",
+    "authoring_status",
+    "missing_fields",
+    "area_id",
+    "tier",
+    "parent_id",
+    "stats",
+    "base_xp",
+    "knowledge_pct",
+    "processing_yield_id",
+    "skill",
+    "poses",
+    "variant_palette_ref",
+    "group_chance"
+  ],
+  "additionalProperties": false
+}

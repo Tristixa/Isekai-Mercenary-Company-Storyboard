@@ -1,0 +1,913 @@
+{
+  "location": "eurydica-phase1-facades-v3-candidates",
+  "purpose": "Painted facade textures for the 3D building volumes of an HD-2D town. Each PNG is UV-mapped flat onto one face of a box, so every face is a straight-on ORTHOGRAPHIC ELEVATION, not a scene view.",
+  "px_per_m": 64,
+  "ground_is_bottom_edge": true,
+  "gable_profile": "For a gable face of width W, wall height H and gable height G: opaque below H across the full width; above H the opaque top edge is y = H + G * (1 - u)^1.4 where u = |x - W/2| / (W/2) (y up from the bottom edge, x from the left edge). Everything above that curve is alpha 0. The roof is separate 3D geometry that covers this edge by 0.45 m.",
+  "arch_profile": "Arch faces: transparent where |x - centre| <= half_width up to straight_to, then a semicircle of radius half_width centred at straight_to.",
+  "face_orientation": "Each face is painted as seen from OUTSIDE the building, standing in front of that face. Left/right in the image = the viewer's left/right.",
+  "buildings": {
+    "market_bakery": {
+      "concept": "eurydica-market-spine-approved.png (market-side houses)",
+      "footprint_m": [
+        9,
+        8
+      ],
+      "wall_height_m": 6.2,
+      "ridge_axis": "z",
+      "door_face": "n",
+      "roof": "green",
+      "notes": "Bakery: loaf pictogram hanging sign, warm ochre cloth awning over a recessed bread counter, two unlit lanterns beside the central door, modest white flowers. Two wall storeys plus attic. No freestanding goods.",
+      "instances": [
+        "street_home_8"
+      ]
+    },
+    "market_provisions": {
+      "concept": "eurydica-market-building-exteriors-approved.png (01 TAVERN)",
+      "footprint_m": [
+        5,
+        9
+      ],
+      "wall_height_m": 9.3,
+      "ridge_axis": "z",
+      "door_face": "e",
+      "roof": "green",
+      "notes": "Provisions shop: three wall storeys, basket-and-wheat pictogram, faded wine-red cloth hood over selling hatch beside central door, one unlit lantern, selective upper flower boxes, one restrained plaster repair.",
+      "instances": [
+        "infill_home_12"
+      ]
+    },
+    "market_small_shop_east": {
+      "concept": "eurydica-market-building-exteriors-approved.png (03 REPAIR & SUPPLY)",
+      "footprint_m": [
+        6,
+        6
+      ],
+      "wall_height_m": 4.4,
+      "ridge_axis": "z",
+      "door_face": "n",
+      "roof": "green",
+      "notes": "Sundries cottage: one tall wall storey plus attic. Spool-and-jug pictogram hanging sign, small sage cloth hood over side counter, one unlit lantern by central door, one flower box; practical shuttered storage windows.",
+      "instances": [
+        "infill_home_06"
+      ]
+    },
+    "market_small_shop_south": {
+      "concept": "eurydica-market-spine-approved.png (market-side houses)",
+      "footprint_m": [
+        10,
+        7
+      ],
+      "wall_height_m": 6.2,
+      "ridge_axis": "z",
+      "door_face": "w",
+      "roof": "green",
+      "notes": "Cloth shop: two wall storeys plus attic. Folded cloth and spool pictogram sign, muted dusty-rose fabric hood over selling window beside central door, two unlit lanterns, white flower boxes. No heraldry.",
+      "instances": [
+        "infill_home_23"
+      ]
+    },
+    "food_shop": {
+      "concept": "eurydica-service-lanes-approved.png",
+      "footprint_m": [
+        10,
+        9
+      ],
+      "wall_height_m": 6.2,
+      "ridge_axis": "z",
+      "door_face": "w",
+      "roof": "warm_red",
+      "notes": "Hilde food shop: two wall storeys plus attic. Cream scalloped cloth hood over recessed counter beside central door, bowl-and-spoon pictogram, unlit lantern, modest herb boxes. Source service-lane corner food shop.",
+      "instances": [
+        "food_shop"
+      ]
+    },
+    "clinic": {
+      "concept": "eurydica-service-lanes-approved.png",
+      "footprint_m": [
+        12,
+        10
+      ],
+      "wall_height_m": 6.2,
+      "ridge_axis": "z",
+      "door_face": "w",
+      "roof": "warm_red",
+      "notes": "Dr. Emmerich clinic: two wall storeys plus attic. Leaf and mortar/pestle pictogram, muted sage narrow cloth hood over central entrance, one unlit lantern, white flowers and herb window boxes. No cross, crest, shield or text. Quiet maintained premises.",
+      "instances": [
+        "clinic"
+      ]
+    },
+    "house_warm": {
+      "concept": "eurydica-service-lanes-approved.png",
+      "footprint_m": [
+        8,
+        8
+      ],
+      "wall_height_m": 6.2,
+      "ridge_axis": "z",
+      "door_face": "e",
+      "roof": "warm_red",
+      "notes": "Domestic townhouse, two wall storeys plus attic, plainer than shops. No sign, no awning or counter. Selective shutters, two modest flower boxes, one unlit lantern beside central east door, one repaired plaster patch and restrained base ivy.",
+      "instances": [
+        "service_home_0",
+        "service_home_2"
+      ]
+    }
+  },
+  "faces": [
+    {
+      "building": "market_bakery",
+      "face": "n",
+      "file": "market_bakery/n.png",
+      "type": "gable",
+      "width_m": 9,
+      "wall_height_m": 6.2,
+      "gable_height_m": 4.95,
+      "px": [
+        576,
+        714
+      ],
+      "door": {
+        "centre_x_m": 4.5,
+        "width_m": 1.4,
+        "height_m": 2.3
+      }
+    },
+    {
+      "building": "market_bakery",
+      "face": "s",
+      "file": "market_bakery/s.png",
+      "type": "gable",
+      "width_m": 9,
+      "wall_height_m": 6.2,
+      "gable_height_m": 4.95,
+      "px": [
+        576,
+        714
+      ],
+      "door": null
+    },
+    {
+      "building": "market_bakery",
+      "face": "e",
+      "file": "market_bakery/e.png",
+      "type": "wall",
+      "width_m": 8,
+      "wall_height_m": 6.2,
+      "gable_height_m": 0,
+      "px": [
+        512,
+        397
+      ],
+      "door": null
+    },
+    {
+      "building": "market_bakery",
+      "face": "w",
+      "file": "market_bakery/w.png",
+      "type": "wall",
+      "width_m": 8,
+      "wall_height_m": 6.2,
+      "gable_height_m": 0,
+      "px": [
+        512,
+        397
+      ],
+      "door": null
+    },
+    {
+      "building": "market_provisions",
+      "face": "n",
+      "file": "market_provisions/n.png",
+      "type": "gable",
+      "width_m": 5,
+      "wall_height_m": 9.3,
+      "gable_height_m": 2.75,
+      "px": [
+        320,
+        771
+      ],
+      "door": null
+    },
+    {
+      "building": "market_provisions",
+      "face": "s",
+      "file": "market_provisions/s.png",
+      "type": "gable",
+      "width_m": 5,
+      "wall_height_m": 9.3,
+      "gable_height_m": 2.75,
+      "px": [
+        320,
+        771
+      ],
+      "door": null
+    },
+    {
+      "building": "market_provisions",
+      "face": "e",
+      "file": "market_provisions/e.png",
+      "type": "wall",
+      "width_m": 9,
+      "wall_height_m": 9.3,
+      "gable_height_m": 0,
+      "px": [
+        576,
+        595
+      ],
+      "door": {
+        "centre_x_m": 4.5,
+        "width_m": 1.4,
+        "height_m": 2.3
+      }
+    },
+    {
+      "building": "market_provisions",
+      "face": "w",
+      "file": "market_provisions/w.png",
+      "type": "wall",
+      "width_m": 9,
+      "wall_height_m": 9.3,
+      "gable_height_m": 0,
+      "px": [
+        576,
+        595
+      ],
+      "door": null
+    },
+    {
+      "building": "market_small_shop_east",
+      "face": "n",
+      "file": "market_small_shop_east/n.png",
+      "type": "gable",
+      "width_m": 6,
+      "wall_height_m": 4.4,
+      "gable_height_m": 3.3,
+      "px": [
+        384,
+        493
+      ],
+      "door": {
+        "centre_x_m": 3,
+        "width_m": 1.4,
+        "height_m": 2.3
+      }
+    },
+    {
+      "building": "market_small_shop_east",
+      "face": "s",
+      "file": "market_small_shop_east/s.png",
+      "type": "gable",
+      "width_m": 6,
+      "wall_height_m": 4.4,
+      "gable_height_m": 3.3,
+      "px": [
+        384,
+        493
+      ],
+      "door": null
+    },
+    {
+      "building": "market_small_shop_east",
+      "face": "e",
+      "file": "market_small_shop_east/e.png",
+      "type": "wall",
+      "width_m": 6,
+      "wall_height_m": 4.4,
+      "gable_height_m": 0,
+      "px": [
+        384,
+        282
+      ],
+      "door": null
+    },
+    {
+      "building": "market_small_shop_east",
+      "face": "w",
+      "file": "market_small_shop_east/w.png",
+      "type": "wall",
+      "width_m": 6,
+      "wall_height_m": 4.4,
+      "gable_height_m": 0,
+      "px": [
+        384,
+        282
+      ],
+      "door": null
+    },
+    {
+      "building": "market_small_shop_south",
+      "face": "n",
+      "file": "market_small_shop_south/n.png",
+      "type": "gable",
+      "width_m": 10,
+      "wall_height_m": 6.2,
+      "gable_height_m": 5,
+      "px": [
+        640,
+        717
+      ],
+      "door": null
+    },
+    {
+      "building": "market_small_shop_south",
+      "face": "s",
+      "file": "market_small_shop_south/s.png",
+      "type": "gable",
+      "width_m": 10,
+      "wall_height_m": 6.2,
+      "gable_height_m": 5,
+      "px": [
+        640,
+        717
+      ],
+      "door": null
+    },
+    {
+      "building": "market_small_shop_south",
+      "face": "e",
+      "file": "market_small_shop_south/e.png",
+      "type": "wall",
+      "width_m": 7,
+      "wall_height_m": 6.2,
+      "gable_height_m": 0,
+      "px": [
+        448,
+        397
+      ],
+      "door": null
+    },
+    {
+      "building": "market_small_shop_south",
+      "face": "w",
+      "file": "market_small_shop_south/w.png",
+      "type": "wall",
+      "width_m": 7,
+      "wall_height_m": 6.2,
+      "gable_height_m": 0,
+      "px": [
+        448,
+        397
+      ],
+      "door": {
+        "centre_x_m": 3.5,
+        "width_m": 1.4,
+        "height_m": 2.3
+      }
+    },
+    {
+      "building": "food_shop",
+      "face": "n",
+      "file": "food_shop/n.png",
+      "type": "gable",
+      "width_m": 10,
+      "wall_height_m": 6.2,
+      "gable_height_m": 5,
+      "px": [
+        640,
+        717
+      ],
+      "door": null
+    },
+    {
+      "building": "food_shop",
+      "face": "s",
+      "file": "food_shop/s.png",
+      "type": "gable",
+      "width_m": 10,
+      "wall_height_m": 6.2,
+      "gable_height_m": 5,
+      "px": [
+        640,
+        717
+      ],
+      "door": null
+    },
+    {
+      "building": "food_shop",
+      "face": "e",
+      "file": "food_shop/e.png",
+      "type": "wall",
+      "width_m": 9,
+      "wall_height_m": 6.2,
+      "gable_height_m": 0,
+      "px": [
+        576,
+        397
+      ],
+      "door": null
+    },
+    {
+      "building": "food_shop",
+      "face": "w",
+      "file": "food_shop/w.png",
+      "type": "wall",
+      "width_m": 9,
+      "wall_height_m": 6.2,
+      "gable_height_m": 0,
+      "px": [
+        576,
+        397
+      ],
+      "door": {
+        "centre_x_m": 4.5,
+        "width_m": 1.4,
+        "height_m": 2.3
+      }
+    },
+    {
+      "building": "clinic",
+      "face": "n",
+      "file": "clinic/n.png",
+      "type": "gable",
+      "width_m": 12,
+      "wall_height_m": 6.2,
+      "gable_height_m": 5,
+      "px": [
+        768,
+        717
+      ],
+      "door": null
+    },
+    {
+      "building": "clinic",
+      "face": "s",
+      "file": "clinic/s.png",
+      "type": "gable",
+      "width_m": 12,
+      "wall_height_m": 6.2,
+      "gable_height_m": 5,
+      "px": [
+        768,
+        717
+      ],
+      "door": null
+    },
+    {
+      "building": "clinic",
+      "face": "e",
+      "file": "clinic/e.png",
+      "type": "wall",
+      "width_m": 10,
+      "wall_height_m": 6.2,
+      "gable_height_m": 0,
+      "px": [
+        640,
+        397
+      ],
+      "door": null
+    },
+    {
+      "building": "clinic",
+      "face": "w",
+      "file": "clinic/w.png",
+      "type": "wall",
+      "width_m": 10,
+      "wall_height_m": 6.2,
+      "gable_height_m": 0,
+      "px": [
+        640,
+        397
+      ],
+      "door": {
+        "centre_x_m": 5,
+        "width_m": 1.4,
+        "height_m": 2.3
+      }
+    },
+    {
+      "building": "house_warm",
+      "face": "n",
+      "file": "house_warm/n.png",
+      "type": "gable",
+      "width_m": 8,
+      "wall_height_m": 6.2,
+      "gable_height_m": 4.4,
+      "px": [
+        512,
+        678
+      ],
+      "door": null
+    },
+    {
+      "building": "house_warm",
+      "face": "s",
+      "file": "house_warm/s.png",
+      "type": "gable",
+      "width_m": 8,
+      "wall_height_m": 6.2,
+      "gable_height_m": 4.4,
+      "px": [
+        512,
+        678
+      ],
+      "door": null
+    },
+    {
+      "building": "house_warm",
+      "face": "e",
+      "file": "house_warm/e.png",
+      "type": "wall",
+      "width_m": 8,
+      "wall_height_m": 6.2,
+      "gable_height_m": 0,
+      "px": [
+        512,
+        397
+      ],
+      "door": {
+        "centre_x_m": 4,
+        "width_m": 1.4,
+        "height_m": 2.3
+      }
+    },
+    {
+      "building": "house_warm",
+      "face": "w",
+      "file": "house_warm/w.png",
+      "type": "wall",
+      "width_m": 8,
+      "wall_height_m": 6.2,
+      "gable_height_m": 0,
+      "px": [
+        512,
+        397
+      ],
+      "door": null
+    }
+  ],
+  "roof_tiles": [],
+  "walls": [],
+  "attachments": [],
+  "status": "candidate",
+  "plan_instances": [
+    {
+      "id": "food_shop",
+      "facade_id": "food_shop",
+      "footprint": [
+        71.0,
+        104.5,
+        81.0,
+        113.5
+      ],
+      "door_face": "w",
+      "door_position": [
+        71.0,
+        109
+      ],
+      "height_m": 6.2,
+      "roof_height_m": 5,
+      "ground_y_m": 0,
+      "role": "Hilde's food shop",
+      "district": "service",
+      "chapter_availability": [
+        1,
+        2
+      ],
+      "phase": 1,
+      "roof_palette": "warm_red",
+      "asset_status": "needed",
+      "source_concept": "eurydica-service-lanes-approved.png",
+      "door_route": "door_food_shop",
+      "display_name": "Hilde's food shop",
+      "roof_binding_note": "Owner 2026-09-28 roof category overrides historical facade roof paint; retain dimensions and internal facade ID.",
+      "yaw_deg": 0,
+      "typology": "named premises",
+      "spacing_exempt_reason": "",
+      "cluster_id": "cluster_04",
+      "roof_kit": {
+        "dormers": [],
+        "chimneys": [
+          "squat_stone"
+        ],
+        "bays": [],
+        "roof_variant": "existing",
+        "bounds_rule": "Within existing footprint, yaw and total height envelope; no new ground collision.",
+        "source": "v3/review/jrpg-gap-analysis.md / rank 2"
+      }
+    },
+    {
+      "id": "clinic",
+      "facade_id": "clinic",
+      "footprint": [
+        72.0,
+        79.0,
+        84.0,
+        89.0
+      ],
+      "door_face": "w",
+      "door_position": [
+        72.0,
+        84
+      ],
+      "height_m": 6.2,
+      "roof_height_m": 5,
+      "ground_y_m": 0,
+      "role": "Doctor's house and small clinic",
+      "district": "service",
+      "chapter_availability": [
+        1,
+        2
+      ],
+      "phase": 1,
+      "roof_palette": "warm_red",
+      "asset_status": "needed",
+      "source_concept": "eurydica-service-lanes-approved.png",
+      "door_route": "door_clinic",
+      "display_name": "Doctor's house and small clinic",
+      "roof_binding_note": "Owner 2026-09-28 roof category overrides historical facade roof paint; retain dimensions and internal facade ID.",
+      "yaw_deg": 0,
+      "typology": "named premises",
+      "spacing_exempt_reason": "",
+      "cluster_id": "cluster_04",
+      "roof_kit": {
+        "dormers": [],
+        "chimneys": [
+          "squat_stone"
+        ],
+        "bays": [],
+        "roof_variant": "existing",
+        "bounds_rule": "Within existing footprint, yaw and total height envelope; no new ground collision.",
+        "source": "v3/review/jrpg-gap-analysis.md / rank 2"
+      }
+    },
+    {
+      "id": "service_home_0",
+      "facade_id": "house_warm",
+      "footprint": [
+        76.0,
+        123.0,
+        84.0,
+        131.0
+      ],
+      "door_face": "e",
+      "door_position": [
+        83.93923101204884,
+        127.69459271066772
+      ],
+      "height_m": 6.2,
+      "roof_height_m": 4.4,
+      "ground_y_m": 0,
+      "role": "Service home 0",
+      "district": "service",
+      "chapter_availability": [
+        1,
+        2
+      ],
+      "phase": 1,
+      "roof_palette": "warm_red",
+      "asset_status": "needed",
+      "source_concept": "eurydica-service-lanes-approved.png",
+      "door_route": "door_service_home_0",
+      "display_name": "Service home 0",
+      "roof_binding_note": "Owner 2026-09-28 roof category overrides historical facade roof paint; retain dimensions and internal facade ID.",
+      "yaw_deg": 10,
+      "typology": "townhouse",
+      "spacing_exempt_reason": "",
+      "cluster_id": "cluster_04",
+      "roof_kit": {
+        "dormers": [],
+        "chimneys": [],
+        "bays": [],
+        "roof_variant": "existing",
+        "bounds_rule": "Within existing footprint, yaw and total height envelope; no new ground collision.",
+        "source": "v3/review/jrpg-gap-analysis.md / rank 2"
+      }
+    },
+    {
+      "id": "service_home_2",
+      "facade_id": "house_warm",
+      "footprint": [
+        78.0,
+        171.0,
+        86.0,
+        179.0
+      ],
+      "door_face": "e",
+      "door_position": [
+        85.93923101204884,
+        175.69459271066773
+      ],
+      "height_m": 6.2,
+      "roof_height_m": 4.4,
+      "ground_y_m": 0,
+      "role": "Service home 2",
+      "district": "service",
+      "chapter_availability": [
+        1,
+        2
+      ],
+      "phase": 1,
+      "roof_palette": "warm_red",
+      "asset_status": "needed",
+      "source_concept": "eurydica-service-lanes-approved.png",
+      "door_route": "door_service_home_2",
+      "display_name": "Service home 2",
+      "roof_binding_note": "Owner 2026-09-28 roof category overrides historical facade roof paint; retain dimensions and internal facade ID.",
+      "yaw_deg": 10,
+      "typology": "townhouse",
+      "spacing_exempt_reason": "",
+      "cluster_id": "cluster_08",
+      "roof_kit": {
+        "dormers": [
+          "gable"
+        ],
+        "chimneys": [
+          "squat_stone"
+        ],
+        "bays": [],
+        "roof_variant": "existing",
+        "bounds_rule": "Within existing footprint, yaw and total height envelope; no new ground collision.",
+        "source": "v3/review/jrpg-gap-analysis.md / rank 2"
+      }
+    },
+    {
+      "id": "street_home_8",
+      "facade_id": "market_bakery",
+      "footprint": [
+        -18.5,
+        113.0,
+        -9.5,
+        121.0
+      ],
+      "door_face": "n",
+      "door_position": [
+        -14.694592710667722,
+        113.06076898795116
+      ],
+      "height_m": 6.2,
+      "roof_height_m": 4.95,
+      "ground_y_m": 0,
+      "role": "Bakery",
+      "district": "arrival",
+      "chapter_availability": [
+        1,
+        2
+      ],
+      "phase": 1,
+      "roof_palette": "green",
+      "asset_status": "candidate business facade adaptation",
+      "source_concept": "eurydica-market-spine-approved.png (market-side houses)",
+      "door_route": "door_street_home_8",
+      "display_name": "Bakery",
+      "roof_binding_note": "v5 business use: green roof; original dimensions, door and yaw retained.",
+      "yaw_deg": -10,
+      "typology": "townhouse",
+      "spacing_exempt_reason": "",
+      "cluster_id": "cluster_05",
+      "roof_kit": {
+        "dormers": [
+          "gable"
+        ],
+        "chimneys": [
+          "squat_stone"
+        ],
+        "bays": [],
+        "roof_variant": "existing",
+        "bounds_rule": "Within existing footprint, yaw and total height envelope; no new ground collision.",
+        "source": "v3/review/jrpg-gap-analysis.md / rank 2"
+      }
+    },
+    {
+      "id": "infill_home_06",
+      "facade_id": "market_small_shop_east",
+      "footprint": [
+        11.0,
+        77.5,
+        17.0,
+        83.5
+      ],
+      "door_face": "n",
+      "door_position": [
+        14.0,
+        77.5
+      ],
+      "height_m": 4.4,
+      "roof_height_m": 3.3000000000000003,
+      "ground_y_m": 0,
+      "role": "Small sundries shop",
+      "district": "market",
+      "chapter_availability": [
+        1,
+        2
+      ],
+      "phase": 1,
+      "roof_palette": "green",
+      "asset_status": "candidate business facade adaptation",
+      "source_concept": "eurydica-market-building-exteriors-approved.png (03 REPAIR & SUPPLY)",
+      "door_route": "door_infill_home_06",
+      "display_name": "Small sundries shop",
+      "roof_binding_note": "v5 business use: green roof; original dimensions, door and yaw retained.",
+      "yaw_deg": 0,
+      "typology": "cottage",
+      "spacing_exempt_reason": "",
+      "cluster_id": "cluster_11",
+      "roof_kit": {
+        "dormers": [
+          "gable"
+        ],
+        "chimneys": [],
+        "bays": [
+          "recessed_upper_bay"
+        ],
+        "roof_variant": "existing",
+        "bounds_rule": "Within existing footprint, yaw and total height envelope; no new ground collision.",
+        "source": "v3/review/jrpg-gap-analysis.md / rank 2"
+      }
+    },
+    {
+      "id": "infill_home_12",
+      "facade_id": "market_provisions",
+      "footprint": [
+        -16.5,
+        67.0,
+        -11.5,
+        76.0
+      ],
+      "door_face": "e",
+      "door_position": [
+        -11.5,
+        71.5
+      ],
+      "height_m": 9.3,
+      "roof_height_m": 2.75,
+      "ground_y_m": 0,
+      "role": "Provisions shop",
+      "district": "market",
+      "chapter_availability": [
+        1,
+        2
+      ],
+      "phase": 1,
+      "roof_palette": "green",
+      "asset_status": "candidate business facade adaptation",
+      "source_concept": "eurydica-market-building-exteriors-approved.png (01 TAVERN)",
+      "door_route": "door_infill_home_12",
+      "display_name": "Provisions shop",
+      "roof_binding_note": "v5 business use: green roof; original dimensions, door and yaw retained.",
+      "yaw_deg": 0,
+      "typology": "tall narrow townhouse",
+      "spacing_exempt_reason": "",
+      "cluster_id": "cluster_09",
+      "roof_kit": {
+        "dormers": [
+          "gable"
+        ],
+        "chimneys": [],
+        "bays": [],
+        "roof_variant": "existing",
+        "bounds_rule": "Within existing footprint, yaw and total height envelope; no new ground collision.",
+        "source": "v3/review/jrpg-gap-analysis.md / rank 2"
+      }
+    },
+    {
+      "id": "infill_home_23",
+      "facade_id": "market_small_shop_south",
+      "footprint": [
+        9.0,
+        116.5,
+        19.0,
+        123.5
+      ],
+      "door_face": "w",
+      "door_position": [
+        9.07596123493896,
+        120.86824088833465
+      ],
+      "height_m": 6.2,
+      "roof_height_m": 5,
+      "ground_y_m": 0,
+      "role": "Small cloth shop",
+      "district": "arrival",
+      "chapter_availability": [
+        1,
+        2
+      ],
+      "phase": 1,
+      "roof_palette": "green",
+      "asset_status": "candidate business facade adaptation",
+      "source_concept": "eurydica-market-spine-approved.png (market-side houses)",
+      "door_route": "door_infill_home_23",
+      "display_name": "Small cloth shop",
+      "roof_binding_note": "v5 business use: green roof; original dimensions, door and yaw retained.",
+      "yaw_deg": -10,
+      "typology": "wide townhouse",
+      "spacing_exempt_reason": "",
+      "cluster_id": "cluster_15",
+      "roof_kit": {
+        "dormers": [
+          "shed"
+        ],
+        "chimneys": [],
+        "bays": [],
+        "roof_variant": "existing",
+        "bounds_rule": "Within existing footprint, yaw and total height envelope; no new ground collision.",
+        "source": "v3/review/jrpg-gap-analysis.md / rank 2"
+      }
+    }
+  ],
+  "roof_palette_bindings": {
+    "green": "roofs/green.png",
+    "warm_red": "roofs/warm_red.png"
+  }
+}

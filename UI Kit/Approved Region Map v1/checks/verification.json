@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "mockup_sizes": {
+    "mockups\\A-hylaea.png": [
+      1920,
+      1080
+    ],
+    "mockups\\B-erythra-locked.png": [
+      1920,
+      1080
+    ],
+    "mockups\\C-frontier-structure.png": [
+      1920,
+      1080
+    ],
+    "previews/hylaea.png": [
+      1600,
+      900
+    ],
+    "previews/bernmoor.png": [
+      1600,
+      900
+    ],
+    "previews/erythra.png": [
+      1600,
+      900
+    ]
+  },
+  "preserved_master_and_preview_hashes": {
+    "sources/map-master.png": "5ef3c855bc419d81d8625b0079860e835e551a35656806581b53a94a764540ba",
+    "sources/overlay-master.png": "17091e892d6ec68a6c85fb4ba9d0c14c0c7b28370166faf955ca92e5a85353d7",
+    "sources/overlay-revision.png": "1348aa0b5be98ceb1fc97ebd504d6a113eb0d650b2a7e3525dd1c493862ced85",
+    "previews/hylaea.png": "e0459e8543004b2b9a79a9dd5b0f360bc2d43a3819a35f20bad2d77c738ddd28",
+    "previews/bernmoor.png": "6d9264bfb36c39b8415f3f2f486ac6f82b759d5e78552c7d530816280a9abae1",
+    "previews/erythra.png": "ac62ec5704c71a7f53d92b712b12bec16ae9998853aaad823f19d8ee1d28db49"
+  },
+  "contrast_method": "Minimum underlying contrast at glyph pixels with alpha >=128; map-label parchment outline included; full text bounds checked for overflow.",
+  "text_count": 82,
+  "minimum_text_contrast": 5.048190461631424,
+  "overflow_count": 0,
+  "min_font_px_1080": 16,
+  "alpha": {
+    "den-oak": {
+      "transparent_pixels": 1565751,
+      "visible_pixels": 6789,
+      "bounds": [
+        438,
+        503,
+        560,
+        590
+      ]
+    },
+    "den-rock": {
+      "transparent_pixels": 1567327,
+      "visible_pixels": 5279,
+      "bounds": [
+        648,
+        578,
+        752,
+        651
+      ]
+    },
+    "landmark-stump": {
+      "transparent_pixels": 1568096,
+      "visible_pixels": 4562,
+      "bounds": [
+        623,
+        478,
+        714,
+        565
+      ]
+    },
+    "hidden-path-1": {
+      "transparent_pixels": 1564815,
+      "visible_pixels": 7547,
+      "bounds": [
+        328,
+        563,
+        477,
+        661
+      ]
+    },
+    "hidden-path-2": {
+      "transparent_pixels": 1560895,
+      "visible_pixels": 11318,
+      "bounds": [
+        478,
+        673,
+        637,
+        792
+      ]
+    }
+  },
+  "approved_sources_unchanged": 55,
+  "review_links_checked": 59,
+  "report_lines": 6,
+  "visual_review": "A/B/C 1280x720 proof, master geography and three layered previews reviewed; no clipped text. Candidate, not owner approval."
+}

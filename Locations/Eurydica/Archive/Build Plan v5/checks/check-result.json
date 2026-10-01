@@ -1,0 +1,743 @@
+{
+  "company_house_gate_distance_m": 37.202,
+  "stables_gate_distance_m": 23.431,
+  "buildings": 83,
+  "districts": 10,
+  "routes": 126,
+  "markers": 59,
+  "graph_nodes": 320,
+  "walk_distance_m": 217.808,
+  "walk_time_s": 68.065,
+  "new_facade_ids": 21,
+  "buildings_before": 124,
+  "generic_infill_before": 71,
+  "generic_infill_after": 30,
+  "median_gap_m": 2.348,
+  "non_exempt_max_gap_m": 7.127763,
+  "cluster_metrics": [
+    {
+      "id": "cluster_01",
+      "buildings": 8,
+      "median_gap_m": 2.325
+    },
+    {
+      "id": "cluster_02",
+      "buildings": 10,
+      "median_gap_m": 2.356
+    },
+    {
+      "id": "cluster_03",
+      "buildings": 2,
+      "median_gap_m": 3.202
+    },
+    {
+      "id": "cluster_04",
+      "buildings": 5,
+      "median_gap_m": 2.04
+    },
+    {
+      "id": "cluster_05",
+      "buildings": 4,
+      "median_gap_m": 2.575
+    },
+    {
+      "id": "cluster_06",
+      "buildings": 1,
+      "median_gap_m": 7.128
+    },
+    {
+      "id": "cluster_07",
+      "buildings": 2,
+      "median_gap_m": 2.356
+    },
+    {
+      "id": "cluster_08",
+      "buildings": 2,
+      "median_gap_m": 2.186
+    },
+    {
+      "id": "cluster_09",
+      "buildings": 8,
+      "median_gap_m": 2.424
+    },
+    {
+      "id": "cluster_10",
+      "buildings": 4,
+      "median_gap_m": 1.938
+    },
+    {
+      "id": "cluster_11",
+      "buildings": 2,
+      "median_gap_m": 2.5
+    },
+    {
+      "id": "cluster_12",
+      "buildings": 2,
+      "median_gap_m": 2.333
+    },
+    {
+      "id": "cluster_13",
+      "buildings": 4,
+      "median_gap_m": 2.337
+    },
+    {
+      "id": "cluster_14",
+      "buildings": 3,
+      "median_gap_m": 1.862
+    },
+    {
+      "id": "cluster_15",
+      "buildings": 8,
+      "median_gap_m": 2.352
+    },
+    {
+      "id": "cluster_16",
+      "buildings": 3,
+      "median_gap_m": 0.0
+    },
+    {
+      "id": "cluster_17",
+      "buildings": 1,
+      "median_gap_m": 5.0
+    }
+  ],
+  "spacing_rows": [
+    {
+      "id": "south_gate",
+      "nearest": "guard_shelter",
+      "gap_m": 7.127763,
+      "exempt": "gatehouse"
+    },
+    {
+      "id": "guard_shelter",
+      "nearest": "south_gate",
+      "gap_m": 7.127763,
+      "exempt": ""
+    },
+    {
+      "id": "lodging",
+      "nearest": "infill_home_22",
+      "gap_m": 2.5,
+      "exempt": ""
+    },
+    {
+      "id": "stables",
+      "nearest": "infill_home_29",
+      "gap_m": 9.289824,
+      "exempt": "working-yard structure"
+    },
+    {
+      "id": "arrival_home_1",
+      "nearest": "infill_home_18",
+      "gap_m": 2.325289,
+      "exempt": ""
+    },
+    {
+      "id": "arrival_home_2",
+      "nearest": "infill_home_03",
+      "gap_m": 2.325289,
+      "exempt": ""
+    },
+    {
+      "id": "arrival_home_3",
+      "nearest": "infill_home_25",
+      "gap_m": 1.607908,
+      "exempt": ""
+    },
+    {
+      "id": "company_house",
+      "nearest": "infill_home_11",
+      "gap_m": 2.5,
+      "exempt": ""
+    },
+    {
+      "id": "store_shed",
+      "nearest": "company_house",
+      "gap_m": 17.67767,
+      "exempt": "working-yard structure"
+    },
+    {
+      "id": "company_neighbor",
+      "nearest": "infill_home_09",
+      "gap_m": 2.5,
+      "exempt": ""
+    },
+    {
+      "id": "tavern",
+      "nearest": "infill_home_12",
+      "gap_m": 2.5,
+      "exempt": ""
+    },
+    {
+      "id": "provisions",
+      "nearest": "infill_home_27",
+      "gap_m": 2.5,
+      "exempt": ""
+    },
+    {
+      "id": "repair_supply",
+      "nearest": "infill_home_06",
+      "gap_m": 2.5,
+      "exempt": ""
+    },
+    {
+      "id": "market_home_0",
+      "nearest": "infill_home_04",
+      "gap_m": 2.340481,
+      "exempt": ""
+    },
+    {
+      "id": "market_home_1",
+      "nearest": "infill_home_28",
+      "gap_m": 2.348078,
+      "exempt": ""
+    },
+    {
+      "id": "market_home_east",
+      "nearest": "infill_home_08",
+      "gap_m": 2.348078,
+      "exempt": ""
+    },
+    {
+      "id": "market_home_violet",
+      "nearest": "infill_home_05",
+      "gap_m": 1.528893,
+      "exempt": ""
+    },
+    {
+      "id": "tool_repair",
+      "nearest": "material_sorting",
+      "gap_m": 37.0,
+      "exempt": "working-yard structure"
+    },
+    {
+      "id": "timber_containers",
+      "nearest": "infill_home_09",
+      "gap_m": 35.003571,
+      "exempt": "working-yard structure"
+    },
+    {
+      "id": "material_sorting",
+      "nearest": "store_shed",
+      "gap_m": 36.573556,
+      "exempt": "working-yard structure"
+    },
+    {
+      "id": "bulk_storehouse",
+      "nearest": "loading_shelter",
+      "gap_m": 24.0,
+      "exempt": "working-yard structure"
+    },
+    {
+      "id": "loading_shelter",
+      "nearest": "infill_home_27",
+      "gap_m": 20.651876,
+      "exempt": "working-yard structure"
+    },
+    {
+      "id": "quay_storehouse",
+      "nearest": "bulk_storehouse",
+      "gap_m": 24.0,
+      "exempt": "working-yard structure"
+    },
+    {
+      "id": "food_shop",
+      "nearest": "infill_home_24",
+      "gap_m": 2.039824,
+      "exempt": ""
+    },
+    {
+      "id": "clinic",
+      "nearest": "infill_home_13",
+      "gap_m": 2.5,
+      "exempt": ""
+    },
+    {
+      "id": "service_home_0",
+      "nearest": "infill_home_24",
+      "gap_m": 0.124384,
+      "exempt": ""
+    },
+    {
+      "id": "service_home_1",
+      "nearest": "infill_home_01",
+      "gap_m": 2.355674,
+      "exempt": ""
+    },
+    {
+      "id": "service_home_2",
+      "nearest": "infill_home_02",
+      "gap_m": 2.186468,
+      "exempt": ""
+    },
+    {
+      "id": "service_home_3",
+      "nearest": "infill_home_07",
+      "gap_m": 2.332885,
+      "exempt": ""
+    },
+    {
+      "id": "old_hall",
+      "nearest": "old_home_2",
+      "gap_m": 6.366176,
+      "exempt": "landmark"
+    },
+    {
+      "id": "watch_tower",
+      "nearest": "toll_records",
+      "gap_m": 5.0,
+      "exempt": "landmark"
+    },
+    {
+      "id": "old_home_0",
+      "nearest": "old_home_1",
+      "gap_m": 0.0,
+      "exempt": ""
+    },
+    {
+      "id": "old_home_1",
+      "nearest": "old_home_0",
+      "gap_m": 0.0,
+      "exempt": ""
+    },
+    {
+      "id": "old_home_2",
+      "nearest": "old_home_1",
+      "gap_m": 3.366176,
+      "exempt": ""
+    },
+    {
+      "id": "toll_records",
+      "nearest": "watch_tower",
+      "gap_m": 5.0,
+      "exempt": ""
+    },
+    {
+      "id": "civic_guard",
+      "nearest": "notice_shelter",
+      "gap_m": 3.201562,
+      "exempt": ""
+    },
+    {
+      "id": "notice_shelter",
+      "nearest": "civic_guard",
+      "gap_m": 3.201562,
+      "exempt": ""
+    },
+    {
+      "id": "res_home_0",
+      "nearest": "infill_home_19",
+      "gap_m": 1.861793,
+      "exempt": ""
+    },
+    {
+      "id": "res_home_1",
+      "nearest": "infill_home_17",
+      "gap_m": 2.332885,
+      "exempt": ""
+    },
+    {
+      "id": "res_home_2",
+      "nearest": "infill_home_14",
+      "gap_m": 2.340481,
+      "exempt": ""
+    },
+    {
+      "id": "res_home_3",
+      "nearest": "infill_home_19",
+      "gap_m": 3.542906,
+      "exempt": ""
+    },
+    {
+      "id": "waterkeeper",
+      "nearest": "infill_home_14",
+      "gap_m": 13.350984,
+      "exempt": "working-yard structure"
+    },
+    {
+      "id": "washing",
+      "nearest": "waterkeeper",
+      "gap_m": 26.172505,
+      "exempt": "working-yard structure"
+    },
+    {
+      "id": "cistern",
+      "nearest": "res_home_1",
+      "gap_m": 14.305768,
+      "exempt": "working-yard structure"
+    },
+    {
+      "id": "street_home_0",
+      "nearest": "infill_home_23",
+      "gap_m": 2.348078,
+      "exempt": ""
+    },
+    {
+      "id": "street_home_1",
+      "nearest": "infill_home_29",
+      "gap_m": 2.340481,
+      "exempt": ""
+    },
+    {
+      "id": "street_home_2",
+      "nearest": "infill_home_20",
+      "gap_m": 2.332885,
+      "exempt": ""
+    },
+    {
+      "id": "street_home_3",
+      "nearest": "infill_home_21",
+      "gap_m": 2.355674,
+      "exempt": ""
+    },
+    {
+      "id": "street_home_4",
+      "nearest": "infill_home_15",
+      "gap_m": 2.332885,
+      "exempt": ""
+    },
+    {
+      "id": "street_home_5",
+      "nearest": "infill_home_26",
+      "gap_m": 2.355674,
+      "exempt": ""
+    },
+    {
+      "id": "street_home_6",
+      "nearest": "infill_home_30",
+      "gap_m": 2.302501,
+      "exempt": ""
+    },
+    {
+      "id": "street_home_7",
+      "nearest": "infill_home_16",
+      "gap_m": 2.355674,
+      "exempt": ""
+    },
+    {
+      "id": "street_home_8",
+      "nearest": "infill_home_10",
+      "gap_m": 2.649797,
+      "exempt": ""
+    },
+    {
+      "id": "infill_home_01",
+      "nearest": "service_home_1",
+      "gap_m": 2.355674,
+      "exempt": ""
+    },
+    {
+      "id": "infill_home_02",
+      "nearest": "service_home_2",
+      "gap_m": 2.186468,
+      "exempt": ""
+    },
+    {
+      "id": "infill_home_03",
+      "nearest": "arrival_home_2",
+      "gap_m": 2.325289,
+      "exempt": ""
+    },
+    {
+      "id": "infill_home_04",
+      "nearest": "market_home_0",
+      "gap_m": 2.340481,
+      "exempt": ""
+    },
+    {
+      "id": "infill_home_05",
+      "nearest": "market_home_violet",
+      "gap_m": 1.528893,
+      "exempt": ""
+    },
+    {
+      "id": "infill_home_06",
+      "nearest": "repair_supply",
+      "gap_m": 2.5,
+      "exempt": ""
+    },
+    {
+      "id": "infill_home_07",
+      "nearest": "service_home_3",
+      "gap_m": 2.332885,
+      "exempt": ""
+    },
+    {
+      "id": "infill_home_08",
+      "nearest": "market_home_east",
+      "gap_m": 2.348078,
+      "exempt": ""
+    },
+    {
+      "id": "infill_home_09",
+      "nearest": "company_neighbor",
+      "gap_m": 2.5,
+      "exempt": ""
+    },
+    {
+      "id": "infill_home_10",
+      "nearest": "street_home_8",
+      "gap_m": 2.649797,
+      "exempt": ""
+    },
+    {
+      "id": "infill_home_11",
+      "nearest": "company_house",
+      "gap_m": 2.5,
+      "exempt": ""
+    },
+    {
+      "id": "infill_home_12",
+      "nearest": "tavern",
+      "gap_m": 2.5,
+      "exempt": ""
+    },
+    {
+      "id": "infill_home_13",
+      "nearest": "clinic",
+      "gap_m": 2.5,
+      "exempt": ""
+    },
+    {
+      "id": "infill_home_14",
+      "nearest": "res_home_2",
+      "gap_m": 2.340481,
+      "exempt": ""
+    },
+    {
+      "id": "infill_home_15",
+      "nearest": "street_home_4",
+      "gap_m": 2.332885,
+      "exempt": ""
+    },
+    {
+      "id": "infill_home_16",
+      "nearest": "street_home_7",
+      "gap_m": 2.355674,
+      "exempt": ""
+    },
+    {
+      "id": "infill_home_17",
+      "nearest": "res_home_1",
+      "gap_m": 2.332885,
+      "exempt": ""
+    },
+    {
+      "id": "infill_home_18",
+      "nearest": "arrival_home_1",
+      "gap_m": 2.325289,
+      "exempt": ""
+    },
+    {
+      "id": "infill_home_19",
+      "nearest": "res_home_0",
+      "gap_m": 1.861793,
+      "exempt": ""
+    },
+    {
+      "id": "infill_home_20",
+      "nearest": "street_home_2",
+      "gap_m": 2.332885,
+      "exempt": ""
+    },
+    {
+      "id": "infill_home_21",
+      "nearest": "street_home_3",
+      "gap_m": 2.355674,
+      "exempt": ""
+    },
+    {
+      "id": "infill_home_22",
+      "nearest": "lodging",
+      "gap_m": 2.5,
+      "exempt": ""
+    },
+    {
+      "id": "infill_home_23",
+      "nearest": "street_home_0",
+      "gap_m": 2.348078,
+      "exempt": ""
+    },
+    {
+      "id": "infill_home_24",
+      "nearest": "service_home_0",
+      "gap_m": 0.124384,
+      "exempt": ""
+    },
+    {
+      "id": "infill_home_25",
+      "nearest": "arrival_home_3",
+      "gap_m": 1.607908,
+      "exempt": ""
+    },
+    {
+      "id": "infill_home_26",
+      "nearest": "street_home_5",
+      "gap_m": 2.355674,
+      "exempt": ""
+    },
+    {
+      "id": "infill_home_27",
+      "nearest": "provisions",
+      "gap_m": 2.5,
+      "exempt": ""
+    },
+    {
+      "id": "infill_home_28",
+      "nearest": "market_home_1",
+      "gap_m": 2.348078,
+      "exempt": ""
+    },
+    {
+      "id": "infill_home_29",
+      "nearest": "street_home_1",
+      "gap_m": 2.340481,
+      "exempt": ""
+    },
+    {
+      "id": "infill_home_30",
+      "nearest": "street_home_6",
+      "gap_m": 2.302501,
+      "exempt": ""
+    }
+  ],
+  "rotated_buildings": 48,
+  "extent_m2": 91346.0,
+  "tower_height_m": 28,
+  "tower_position_xz": [
+    0,
+    -70
+  ],
+  "tower_ground_y_m": 2,
+  "clock_sightline_clear": true,
+  "yard_prop_counts": {
+    "quays": 20,
+    "workshop": 20
+  },
+  "allotment_beds": 10,
+  "allotment_area_m2": 1260.0,
+  "allotment_reachable_cells": 682,
+  "allotment_access_body_width_m": 1.2,
+  "market_stalls_by_cluster": {
+    "market_court": 3,
+    "market_edge": 3,
+    "market_south": 3
+  },
+  "round_1_accepted_features_unchanged": true,
+  "civic_min_centre_spacing_m": 1.8,
+  "civic_min_body_edge_spacing_m": 1.3,
+  "added_props": 79,
+  "added_markers": 23,
+  "evening_spots": 6,
+  "rest_spots": 2,
+  "plaza_polygon_changed": false,
+  "marker_connectors": {
+    "civic_terrace/leaders_1": [
+      0.0,
+      -65.6
+    ],
+    "civic_terrace/leaders_2": [
+      0.0,
+      -66.0
+    ],
+    "civic_terrace/leaders_3": [
+      0.0,
+      -66.2
+    ],
+    "civic_terrace/leaders_4": [
+      0.0,
+      -66.0
+    ],
+    "civic_terrace/leaders_5": [
+      0.0,
+      -65.6
+    ],
+    "civic_terrace/commander": [
+      0.0,
+      -63.8
+    ],
+    "civic_terrace/officers_1": [
+      -3.5999999999999996,
+      -60.0
+    ],
+    "civic_terrace/officers_2": [
+      -1.7999999999999998,
+      -60.0
+    ],
+    "civic_terrace/officers_3": [
+      0.0,
+      -61.8
+    ],
+    "civic_terrace/officers_4": [
+      1.7999999999999998,
+      -60.0
+    ],
+    "civic_terrace/officers_5": [
+      3.5999999999999996,
+      -60.0
+    ],
+    "civic_terrace/envoy": [
+      5.4,
+      -60.0
+    ],
+    "civic_terrace/camera_hint": [
+      0.0,
+      -61.1
+    ],
+    "south_gate/envoy_arrival": [
+      0.12162162162162163,
+      296.27027027027026
+    ],
+    "guild_courtyard/envoy": [
+      -27.0,
+      285.0
+    ],
+    "guild_courtyard/adventurer_evening_1": [
+      -29.0,
+      285.0
+    ],
+    "guild_courtyard/adventurer_evening_2": [
+      -25.0,
+      285.0
+    ],
+    "guild_courtyard/rest_1": [
+      -38.0,
+      285.0
+    ],
+    "guild_courtyard/rest_2": [
+      -24,
+      285
+    ]
+  },
+  "negative_controls": [
+    "building collision",
+    "route obstruction",
+    "narrow route",
+    "water marker",
+    "door disconnect",
+    "missing join",
+    "isolated north bank",
+    "wrong lodging bank",
+    "duplicate gate",
+    "grade mismatch",
+    "Guild too far from gate",
+    "stables too far from gate",
+    "missing shared room",
+    "wrong roof",
+    "retained route mutation",
+    "stall on spine",
+    "roof kit missing",
+    "ceremony figures collide",
+    "dorm reopened",
+    "evening too late",
+    "allotment across road",
+    "stall awning missing",
+    "underfilled yard",
+    "missing beds",
+    "blocked garden gate",
+    "missing market accessories",
+    "underfilled market cluster"
+  ],
+  "plan_sha256": "5bfc52f9e40090aaad31aa7766e123eddc41d6f53aa1cea843681df55f601a9d",
+  "errors": []
+}

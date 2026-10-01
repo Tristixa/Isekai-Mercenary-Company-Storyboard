@@ -1,265 +1,275 @@
 # Scene 2 - Tavern Talk
 
 ## Synopsis
+Location: Eurydica Tavern
+Time: Night
+Actors: Commander, Tristitia, Mae
+Music: tavern_night
+Staging: Commander at table_west facing east; Tristitia at table_north facing south; Mae at table_east facing west; all seated
+Special poses: Commander sit, Tristitia sit, Mae sit, Commander kneel, Commander salute_seated, Commander nod, Commander raise_mug, Tristitia raise_mug, Mae raise_mug
 
-Location: Eurydica Tavern  
-Time: Night  
-Actors: Player, Tristitia, Mae
-
-|Mae has been waiting for Tristitia at the tavern. Continue from Scene 1 with all three already seated. Three mugs are on the table.|
-
-|Camera: Shared table view showing all three characters. Mae uses a relaxed seated idle; Tristitia sits upright; Player faces into the group. Leave room beside Mae for the optional hand-kiss greeting.|
-
-Unless directed otherwise, characters hold their current idle pose.
+|Mae has been waiting for Tristitia at the tavern. Continues from Scene 1 with all three already seated. Three mugs are on the table. Leave room beside Mae for the optional hand-kiss greeting.|
 
 ---
 
-Mae:
-“Fast as usual.”
+[control: lock]
+[pose: Commander sit]
+[pose: Tristitia sit]
+[pose: Mae sit]
+[camera: shared]
+Mae (Happy):
+"Fast as usual."
 
-Mae:
-“You said you would bring slimes.”
+Mae (Base):
+"You said you would bring slimes."
 
-Tristitia:
-“I brought slimes.”
+Tristitia (Base):
+"I brought slimes."
 
-Mae:
-“Mmm.”
+Mae (Base):
+"Mmm."
 
-|Mae turns her head toward Player.|
+[face: Mae Commander]
+Mae (Happy):
+"And a person."
 
-Mae:
-“And a person.”
+Tristitia (Serious):
+"He was lost."
 
-Tristitia:
-“He was lost.”
+Mae (Laugh):
+"Mm-hmm, That is usually how people begin."
 
-Mae:
-“Mm-hmm, That is usually how people begin.”
+[camera: two-shot Tristitia Mae]
+[shake: light]
+Tristitia (Anger):
+"Mae!"
 
-|Camera: Cut closer to Tristitia, keeping Mae at the edge of the frame. Add one brief, slight camera shake as Tristitia speaks.|
+[camera: hold 0.6]
+[camera: return]
+Mae (Happy):
+"So, who is he?"
 
-Tristitia:
-“Mae!”
-
-|Briefly hold on Tristitia, then return to the shared table view. Mae remains in her relaxed seated pose.|
-
-Mae:
-“So, who is he?”
-
-Player:
+Commander:
 
 1. **[Be friendly]**
-   “I’m <name>. Nice to meet you.”
+   Commander (Happy):
+   "I'm <name>. Nice to meet you."
 
 2. **[Be shy]**
-   “<name>.”
+   Commander (Sad):
+   "<name>."
 
 3. **[Kneel and kiss her hand]**
-   |Player stands and kneels beside Mae, kissing her hand.|
-   “I’m <name>.”
-   |Player releases her hand and returns to his seat. Both return to seated idle.|
+   [move: Commander mae_side]
+   [pose: Commander kneel]
+   [emote: Mae heart]
+   Commander (Happy):
+   "I'm <name>."
+   [move: Commander table_west]
+   [pose: Commander sit]
 
 4. **[Salute]**
-   |Player salutes while seated.|
-   “<name>.”
-   |Player returns to seated idle.|
+   [pose: Commander salute_seated]
+   Commander (Serious):
+   "<name>."
+   [pose: Commander sit]
 
-Mae:
-“I’m Mae.”
+Mae (Happy):
+"I'm Mae."
 
-Tristitia:
-“I found him in the outskirts.”
+Tristitia (Base):
+"I found him in the outskirts."
 
-Mae:
-“Lucky you met her. Mosswood has been dangerous lately.”
+Mae (Serious):
+"Lucky you met her. Hylaea has been dangerous lately."
 
-“The chimera has settled in, and the bandits have become bold.”
+"The chimera has settled in, and the bandits have become bold."
 
-Tristitia:
-“The bandits won't be a problem anymore.”
+Tristitia (Serious):
+"The bandits won't be a problem anymore."
 
-|Mae turns her attention to Tristitia.|
+[face: Mae Tristitia]
+[camera: two-shot Mae Tristitia]
+Mae (Serious):
+"I thought you stopped taking works involving other humans."
 
-|Camera: Closer shared view of Mae and Tristitia, with Player’s shoulder at the edge of the frame.|
+|Tristitia lowers her gaze slightly and says nothing.|
+[camera: hold 1.0]
+Mae (Sad):
+"Just hunt monsters and I'll do the processing as always."
 
-Mae:
-“I thought you stopped taking works involving other humans.”
+Tristitia (Sad):
+"I'll keep that in mind."
 
-|Tristitia lowers her gaze slightly and says nothing. Hold the view.|
+Commander (Surprise):
+"You're not an adventurer?"
 
-Mae:
-“Just hunt monsters and I'll do the processing as always.”
+[camera: return]
+[face: Mae Commander]
+Mae (Base):
+"I used to be an adventurer like her."
 
-Tristitia:
-“I’ll keep that in mind.”
+Mae (Laugh):
+"Then I discovered that monsters are easier to deal with after they stop moving."
 
-|Tristitia returns to her usual seated idle.|
+Mae (Base):
+"Now I process what she brings back and find someone willing to pay for it."
 
-Player:
-“You’re not an adventurer?”
+Tristitia (Serious):
+"Any buyers for the previous materials?"
 
-|Camera: Return to the shared table view. Mae faces Player.|
+Mae (Base):
+"Not yet."
 
-Mae:
-“I used to be an adventurer like her.”
-“Then I discovered that monsters are easier to deal with after they stop moving.”
+"One is asking for a very low price. Another wants them delivered to the frontier. The third is just asking for an arrow to the knee."
 
-Mae:
-“Now I process what she brings back and find someone willing to pay for it.”
+Tristitia (Base):
+"And your answer?"
 
-Tristitia:
-“Any buyers for the previous materials?”
+Mae (Happy):
+"I told them I would think about it."
 
-Mae:
-“Not yet.”
+"We will find one eventually."
 
-“One is asking for a very low price. Another wants them delivered to the frontier. The third is just asking for an arrow to the knee.”
+Commander (Base):
+"Why not sell them to Adventurer's guild?"
 
-Tristitia:
-“And your answer?”
+Mae (Surprise):
+"Adventurer's guild?"
 
-Mae:
-“I told them I would think about it.”
+Commander (Base):
+"An organization that manages adventurers?"
 
-“We will find one eventually.”
+Mae (Base):
+"There's no such thing."
 
-Player:
-“Why not sell them to Adventurer’s guild?”
+"Adventurers find their own work. Some work alone, some work in groups, and some work for nobles when they can afford to wait for payment."
 
-Mae:
-“Adventurer’s guild?”
+Mae (Serious):
+"It is not exactly a steady occupation."
 
-Player:
-“An organization that manages adventurers?”
+Commander (Serious):
+"That sounds like something a guild could fix."
 
-Mae:
-“There's no such thing.”
+Tristitia (Base):
+". . . . ."
 
-“Adventurers find their own work. Some work alone, some work in groups, and some work for nobles when they can afford to wait for payment.”
+Mae (Surprise):
+"You say that as if you have seen one before."
 
-Mae:
-“It is not exactly a steady occupation.”
+Commander (Base):
+"I have some idea of how it works."
 
-Player:
-“That sounds like something a guild could fix.”
+Mae (Happy):
+"Then tell us."
 
-Tristitia:
-“. . . . .”
+[fade: out]
+> You explain what you know about Adventurer Guild.
+[fade: in]
+[camera: shared]
 
-Mae:
-“You say that as if you have seen one before.”
+Mae (Serious):
+"So it is a workplace."
 
-Player:
-“I have some idea of how it works.”
+Commander (Happy):
+"Yeah."
 
-Mae:
-“Then tell us.”
+"They connect clients with adventurers, organize jobs, establish payment, provide a base, keep records, and create a system for handling equipment and materials"
 
-**The screen slowly fades to black.**
+Mae (Serious):
+"Hmmm...."
 
-|You explain what you know about Adventurer Guild.|
+Tristitia (Base):
+"You seem interested."
 
-**The screen fades back in.**
+Mae (Serious):
+"I am considering it."
 
-|Camera: Resume the shared table view. Everyone remains seated in the same positions.|
+Mae (Happy):
+"Sounds like it will make our work easier."
 
-Mae:
-“So it is a workplace.”
+Tristitia (Base):
+"....."
 
-Player:
-“Yeah.”
-“They connect clients with adventurers, organize jobs, establish payment, provide a base, keep records, and create a system for handling equipment and materials”
+Tristitia (Serious):
+"It would benefit both sides."
 
-Mae:
-“Hmmm....”
+"Adventurers would have better work."
 
-Tristitia:
-“You seem interested.”
+"People would know where to bring their requests."
 
-Mae:
-“I am considering it.”
+"And someone would be responsible when things went wrong."
 
-Mae:
-“Sounds like it will make our work easier.”
+Mae (Serious):
+"The first step is a base."
 
-Tristitia:
-“.....”
+"Our money can cover only half of the starting cost."
 
-“It would benefit both sides.”
+Commander (Serious):
+"I can sell some of my things."
 
-“Adventurers would have better work.”
+"They'll be worth a lot."
 
-“People would know where to bring their requests.”
+"They're things you can't find anywhere."
 
-“And someone would be responsible when things went wrong.”
+Mae (Base):
+"Unfamiliar things can be valuable."
 
-Mae:
-“The first step is a base.”
+Tristitia (Serious):
+"They can also be impossible to replace."
 
-“Our money can cover only half of the starting cost.”
+Commander (Serious):
+"I'm willing to use them."
 
-Player:
-“I can sell some of my things.”
+Mae (Surprise):
+"You are willing to invest everything you have in an idea you have only just explained?"
 
-“They’ll be worth a lot.”
+Commander (Happy):
+"It's worth trying."
 
-“They’re things you can’t find anywhere.”
+[face: Tristitia Commander]
+Tristitia (Base):
+". . . . ."
 
-Mae:
-“Unfamiliar things can be valuable.”
+Tristitia (Sad):
+"Don't sell everything, hold on to things that still have attachment to you."
 
-Tristitia:
-“They can also be impossible to replace.”
+Mae (Happy):
+"You have the idea and the money. I think he should be the commander."
 
-Player:
-“I’m willing to use them.”
-
-Mae:
-“You are willing to invest everything you have in an idea you have only just explained?”
-
-Player:
-“It’s worth trying.”
-
-|Tristitia turns her head toward Player. Hold the shared view.|
-
-Tristitia:
-“. . . . .”
-“Don't sell everything, hold on to things that still have attachment to you.”
-
-Mae:
-“You have the idea and the money. I think he should be the commander.”
-
-Player:
+Commander:
 
 1. **[Nod]**
-   |Player nods.|
+   [pose: Commander nod]
+   [pose: Commander sit]
 
 2. **[Agree]**
-   “Okay.”
+   Commander (Happy):
+   "Okay."
 
 3. **[Reluctantly agree]**
-   “Sure. I can be commander, I guess.”
+   Commander (Sad):
+   "Sure. I can be commander, I guess."
 
-Mae:
-“Good. Saves us the cost of hiring one.”
+Mae (Laugh):
+"Good. Saves us the cost of hiring one."
 
-Tristitia:
-“Don't worry you're not alone.”
+Tristitia (Happy):
+"Don't worry you're not alone."
 
-|Mae raises her mug.|
+[pose: Mae raise_mug]
+Mae (Happy):
+"To our new beginning."
 
-Mae:
-“To our new beginning.”
+"Cheers."
 
-“Cheers.”
+[pose: Tristitia raise_mug]
+[pose: Commander raise_mug]
+Tristitia (Happy):
+"Cheers."
 
-|Tristitia and Player raise their mugs. Keep all three in the shared view.|
+Commander (Happy):
+"Cheers."
 
-Tristitia:
-“Cheers.”
-
-Player:
-“Cheers.”
-
-**The screen slowly fades to black before transitioning to the next scene.**
+[fade: out]
+[goto: Scene 3 - Day 1]

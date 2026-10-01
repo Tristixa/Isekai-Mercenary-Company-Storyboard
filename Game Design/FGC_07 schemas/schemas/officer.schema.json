@@ -1,0 +1,230 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "officer.schema.json",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "region": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "rev": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "gdd": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "authoring_status": {
+      "enum": [
+        "specified",
+        "incomplete"
+      ]
+    },
+    "missing_fields": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "department": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "join_event": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "payroll_g": {
+      "const": 0
+    },
+    "romanceable": {
+      "const": false
+    },
+    "bond_cap": {
+      "const": 5
+    },
+    "max_levels_per_week": {
+      "const": 1
+    },
+    "bond_thresholds": {
+      "anyOf": [
+        {
+          "type": "array",
+          "items": {
+            "type": "number",
+            "minimum": 0
+          },
+          "minItems": 5
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "bond_awards": {
+      "anyOf": [
+        {
+          "type": "object",
+          "properties": {
+            "session_by_grade": {
+              "type": "object",
+              "properties": {
+                "d": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "c": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "b": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "a": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "s": {
+                  "type": "number",
+                  "minimum": 0
+                }
+              },
+              "required": [
+                "d",
+                "c",
+                "b",
+                "a",
+                "s"
+              ],
+              "additionalProperties": false
+            },
+            "evening_talk": {
+              "type": "number",
+              "minimum": 0
+            },
+            "meal": {
+              "type": "number",
+              "minimum": 0
+            }
+          },
+          "required": [
+            "session_by_grade",
+            "evening_talk",
+            "meal"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "bond_five_story_flag": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "friendship_scene_ids": {
+      "anyOf": [
+        {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 5
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "perks": {
+      "type": "array",
+      "items": {
+        "$ref": "shared.schema.json#/$defs/perk"
+      },
+      "minItems": 2
+    },
+    "fallback_service": {
+      "anyOf": [
+        {
+          "type": "object",
+          "properties": {
+            "station_count": {
+              "const": 1
+            },
+            "duration_factor": {
+              "anyOf": [
+                {
+                  "type": "number",
+                  "minimum": 0
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "forecast_confidence": {
+              "anyOf": [
+                {
+                  "type": "number",
+                  "minimum": 0
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "required": [
+            "station_count",
+            "duration_factor",
+            "forecast_confidence"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "null"
+        }
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "region",
+    "rev",
+    "name",
+    "gdd",
+    "authoring_status",
+    "missing_fields",
+    "department",
+    "join_event",
+    "payroll_g",
+    "romanceable",
+    "bond_cap",
+    "max_levels_per_week",
+    "bond_thresholds",
+    "bond_awards",
+    "bond_five_story_flag",
+    "friendship_scene_ids",
+    "perks",
+    "fallback_service"
+  ],
+  "additionalProperties": false
+}

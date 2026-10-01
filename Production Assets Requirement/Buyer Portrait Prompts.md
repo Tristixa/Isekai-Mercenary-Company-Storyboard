@@ -16,9 +16,9 @@ Save them like the officers: `Characters/Buyers/<Name>/Base.png` plus one PNG pe
 | `Surprised.png` | Surprised, eyes widened, leaning back slightly | A strong tactic (Pristine goods, a generous bundle) |
 | `Deal.png` | Deal, satisfied, a confident smile, hand offered | Closing the deal |
 | `WalkAway.png` | Walk-away, dismissive, turning the head or shoulder away | Patience gone |
-| `Bluff.png` (**Silas Crane only**) | Mock irritation with the eyes still smiling | His fake-irritation tell |
+| `Bluff.png` (**Dietrich Vogt only**) | Mock irritation with the eyes still smiling | His fake-irritation tell |
 
-That's 8 images per buyer (9 for Silas), **41 in total**.
+That's 8 images per buyer (9 for Dietrich), **41 in total**.
 
 ## Workflow
 
@@ -52,34 +52,36 @@ Keep the attached Base portrait's exact identity, face, hair, outfit, palette, c
 A man in his mid-forties, 170 cm, wiry and restless, half-turned as if the next customer is already calling. Weathered friendly face with smile lines, sharp nose, quick bright brown eyes that seem to be doing sums, salt-and-pepper stubble, light olive skin. Salt-and-pepper curly hair under a wide-brimmed traveller's hat with a single feather. A patched long travelling coat covered in pockets, a bright mustard scarf, a crossbody satchel stuffed with papers and receipts, fingerless gloves, a ring of mismatched keys on his belt. One hand lifts his hat brim in greeting. Appeal: the lovable, well-connected fixer who never has much gold. Palette: faded brown and olive coat, mustard scarf accent, worn leather.
 ```
 
-### Silas Crane (man, the Frontier Exchange)
+### Dietrich Vogt (man, the Frontier Exchange)
 
 ```text
 A man in his early thirties, 186 cm, tall and loose-limbed, lounging even when standing. Handsome fox-like face, narrow eyes that are always smiling, wide easy grin, pale skin. Dark hair slicked back with one stray lock falling across his forehead. A sharp charcoal three-piece suit with a loosened cravat, black gloves, and a sand-coloured Frontier greatcoat worn over his shoulders like a cape. A brass pocket-watch chain twirled around one gloved finger. Appeal: the charming spectator who bets on you and enjoys the gamble a little too much, friendly and faintly unsettling (original design; the personality is inspired by a thrill-loving broker type). Palette: charcoal and sand, brass accent, black gloves.
 ```
 
-Silas's extra expression:
+Dietrich's extra expression:
 ```text
 Bluff: a mock-irritated frown and a sharp word on his lips, but his narrow eyes are still visibly smiling, as if enjoying the test.
 ```
 
-### Aldric Harrow (man, the Iron Ledger Consortium)
+### Reinhold Eisenmann (man, the Iron Ledger Consortium)
 
 ```text
 A man in his late forties, 188 cm, broad-shouldered and very upright. Strong, severe, handsome face, cool grey eyes, fair skin. Ash-blond hair combed straight back, greying at the temples, and a short, precisely trimmed beard. A long charcoal frock coat with iron-grey trim and a high collar over a dark waistcoat; a small iron-bound ledger hanging on a chain at his hip; a heavy iron signet ring. One hand rests on the ledger. Appeal: the stern gentleman whose rare approval is worth more than gold, exact and quietly fair. Palette: charcoal, iron grey, a dark oxblood waistcoat as the only warm accent. No glasses and no monocle.
 ```
 
-Aldric barely shows feeling, so draw his expressions as **small, controlled changes**: a tightened jaw, a slight narrowing of the eyes. Pleased and Surprised are subtle; Deal is the only clear smile.
+Reinhold barely shows feeling, so draw his expressions as **small, controlled changes**: a tightened jaw, a slight narrowing of the eyes. Pleased and Surprised are subtle; Deal is the only clear smile.
 
-### Madame Ottilie Valcourt (woman, House Valcourt)
+### Lady Isabeau de Chamerolles (woman, House Chamerolles)
+
+*Redesigned 2026-09-30. Attach her design image `C:/Users/Tristixa-/Pictures/IMC/Officers/V2/Candidate/Noble Lady Buyer/Lady.png` as the **design** reference (costume, hair, colours), with the style master as the **style** reference. Take only her design from it, not its rendering. The earlier Octavia portraits are superseded.*
 
 ```text
-A woman in her late twenties, 168 cm, graceful and slender. Delicate doll-like face, long lashes, bright green eyes, a sweet dimpled smile, porcelain skin. Blue-black hair in an elaborate braided updo held with a jewelled pin. An emerald and gold travelling gown with a structured riding jacket, lace gloves, pearl earrings, and a lacquered folding fan held near her face. Appeal: the glamorous noblewoman with a collector's hunger, sweet-voiced and fiercely acquisitive underneath. Palette: emerald and gold, black hair, pearl white.
+A woman in her late twenties, 168 cm, graceful and curvy. A refined, languid face with half-lidded green eyes, dark lipstick, a small beauty mark near her mouth, pale skin. Long, very full black hair falling in waves, partly gathered into a high bun tied with a dark-green ribbon and a gold-and-emerald hair ornament. A dark-green and black gothic noble gown: off-the-shoulder corset bodice with gold filigree trim and emerald clasps, layered ruffled skirt with cream petticoats, wide bell sleeves edged with black lace, an emerald choker with a gold pendant, emerald drop earrings. One hand raised near her shoulder with the fingers delicately poised, a teasing gesture; the other hand on her hip. Appeal: the glamorous noblewoman with a collector's hunger, sweet-voiced and teasing, fiercely acquisitive underneath. Palette: deep emerald and black, gold, cream lace. No crest, no emblem, no logo.
 ```
 
-Ottilie's **Considering** shows her **lowering the fan** and looking at the goods with a sharp, calculating expression. It's her real tell, so it must look clearly different from her Pleased face.
+Isabeau's **Considering** is her real tell: her poised raised hand **drops to touch her emerald choker**, her smile goes still and her eyes narrow slightly as she weighs the goods. It must look clearly different from her Pleased face (a warm smile with the hand still raised and playful). In **Pleased** and **Surprised** her warmth is exaggerated: bright eyes, and the hand gesture more animated.
 
-### Captain Sabine Duquesne (woman, the Meridian Charter Company)
+### Captain Josie Harlan (woman, the Meridian Charter Company)
 
 ```text
 A woman in her mid-thirties, 178 cm, athletic and strong. Bold open face, confident grin, dark amber eyes, freckles across sun-bronzed skin. Cropped ash-brown hair under a wide charter-captain's hat with a brass company badge. A long navy and cream charter coat with brass company buttons and rolled sleeves, a sabre at her hip, a leather map-case slung across her back, tall riding boots. One hand rests on the sabre hilt. Appeal: the dashing captain whose laugh fills the room, warm, decisive and loyal to anyone who keeps their word. Palette: navy and cream, brass, warm leather.

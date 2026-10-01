@@ -1,0 +1,96 @@
+{
+  "status": "candidate, not approved",
+  "px_per_m": 64,
+  "camera": {
+    "projection": "orthographic prop painting for perspective gameplay",
+    "down_degrees": 40,
+    "heading": "straight north"
+  },
+  "delivery": "complete billboard props; canopy tops painted in prop, no separate canopy geometry",
+  "items": {
+    "market_produce_pair": {
+      "file": "stalls/market_produce_pair.png",
+      "px": [
+        364,
+        232
+      ],
+      "anchor_px": [
+        182,
+        226
+      ],
+      "width_m": 5.5,
+      "ground_depth_m_estimate": 2.0,
+      "height_m": 2.8,
+      "projected_art_m": [
+        5.5,
+        3.4375
+      ],
+      "transparent_margin_px": 6,
+      "source": "sources\\stall-01-generated.png",
+      "source_crop": [
+        71,
+        46,
+        1632,
+        850
+      ],
+      "scale_note": "64 px/m; projected height = height*cos40 + depth*sin40. Art/footprint estimates, runtime mount review pending.",
+      "alpha_cleanup": "source alpha threshold230 removes low-opacity halo; resampled with Lanczos; no repaint"
+    },
+    "red_tree_court": {
+      "file": "stalls/red_tree_court.png",
+      "px": [
+        300,
+        248
+      ],
+      "anchor_px": [
+        150,
+        242
+      ],
+      "width_m": 4.5,
+      "ground_depth_m_estimate": 2.4,
+      "height_m": 2.8,
+      "projected_art_m": [
+        4.5,
+        3.6875
+      ],
+      "transparent_margin_px": 6,
+      "source": "sources\\stall-02-fixed.png",
+      "source_crop": [
+        158,
+        100,
+        1480,
+        883
+      ],
+      "scale_note": "64 px/m; projected height = height*cos40 + depth*sin40. Art/footprint estimates, runtime mount review pending.",
+      "alpha_cleanup": "source alpha threshold230 removes low-opacity halo; resampled with Lanczos; no repaint"
+    },
+    "market_herb_row": {
+      "file": "stalls/market_herb_row.png",
+      "px": [
+        428,
+        232
+      ],
+      "anchor_px": [
+        214,
+        226
+      ],
+      "width_m": 6.5,
+      "ground_depth_m_estimate": 2,
+      "height_m": 2.8,
+      "projected_art_m": [
+        6.5,
+        3.4375
+      ],
+      "transparent_margin_px": 6,
+      "source": "sources\\stall-03-generated.png",
+      "source_crop": [
+        65,
+        151,
+        1474,
+        841
+      ],
+      "scale_note": "64 px/m; projected height = height*cos40 + depth*sin40. Art/footprint estimates, runtime mount review pending.",
+      "alpha_cleanup": "source alpha threshold230 removes low-opacity halo; resampled with Lanczos; no repaint"
+    }
+  }
+}

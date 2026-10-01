@@ -1,0 +1,33 @@
+{
+  "id": "charcoal_burners_trail",
+  "region": "eurydica",
+  "rev": 1,
+  "name": "Charcoal Burners' Trail",
+  "gdd": [
+    "8.2"
+  ],
+  "authoring_status": "specified",
+  "missing_fields": [],
+  "area_id": "mosswood",
+  "kind": "path",
+  "weight": 3,
+  "gate": {
+    "all": [
+      {
+        "fact": "area_exploration_pct",
+        "cmp": "gte",
+        "value": 10
+      }
+    ]
+  },
+  "unique_scope": "area",
+  "monster_id": null,
+  "effects": [
+    {
+      "op": "add",
+      "target": "search_seconds",
+      "value": -300,
+      "duration_actions": null
+    }
+  ]
+}

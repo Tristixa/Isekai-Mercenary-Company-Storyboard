@@ -1,0 +1,308 @@
+{
+  "company_house": {
+    "canvas": [
+      1152,
+      1284
+    ],
+    "boxes": {
+      "n": [
+        48,
+        64,
+        528,
+        610
+      ],
+      "e": [
+        624,
+        328,
+        1104,
+        610
+      ],
+      "s": [
+        48,
+        706,
+        528,
+        1252
+      ],
+      "w": [
+        624,
+        970,
+        1104,
+        1252
+      ]
+    },
+    "concept": "D:\\Storyboards\\Isekai Mercenary Company\\Locations\\Eurydica\\concepts\\eurydica-company-edge-approved.png",
+    "notes": "The Company's small Tier 1 house: cream plaster, dark timber, grey stone base and corners, violet roof with one dormer and a chimney; a green-roofed porch on the door face (the porch roof is separate geometry, paint only the wall behind it). Short steps and a barrel by the door are props, not painted."
+  },
+  "provisions": {
+    "canvas": [
+      1216,
+      1548
+    ],
+    "boxes": {
+      "n": [
+        48,
+        64,
+        560,
+        742
+      ],
+      "e": [
+        656,
+        345,
+        1168,
+        742
+      ],
+      "s": [
+        48,
+        838,
+        560,
+        1516
+      ],
+      "w": [
+        656,
+        1119,
+        1168,
+        1516
+      ]
+    },
+    "concept": "D:\\Storyboards\\Isekai Mercenary Company\\Locations\\Eurydica\\concepts\\eurydica-market-building-exteriors-approved.png",
+    "notes": "Compact shop: selling bay opening on the door face (a wide counter opening beside the door), a side storage door on one side wall, one broad plaster repair patch."
+  },
+  "repair_supply": {
+    "canvas": [
+      1728,
+      1446
+    ],
+    "boxes": {
+      "n": [
+        112,
+        64,
+        752,
+        691
+      ],
+      "e": [
+        912,
+        384,
+        1680,
+        691
+      ],
+      "s": [
+        112,
+        787,
+        752,
+        1414
+      ],
+      "w": [
+        912,
+        1107,
+        1680,
+        1414
+      ]
+    },
+    "concept": "D:\\Storyboards\\Isekai Mercenary Company\\Locations\\Eurydica\\concepts\\eurydica-market-building-exteriors-approved.png",
+    "notes": "Broad low working building: WIDE double work doors 3.0 m wide on the door face, older grey stone base and corner quoins, one replaced door brace. Gerd's shop."
+  },
+  "lodging": {
+    "canvas": [
+      1472,
+      1548
+    ],
+    "boxes": {
+      "n": [
+        48,
+        345,
+        688,
+        742
+      ],
+      "e": [
+        848,
+        64,
+        1360,
+        742
+      ],
+      "s": [
+        48,
+        1119,
+        688,
+        1516
+      ],
+      "w": [
+        848,
+        838,
+        1360,
+        1516
+      ]
+    },
+    "concept": "D:\\Storyboards\\Isekai Mercenary Company\\Locations\\Eurydica\\concepts\\eurydica-arrival-ward-approved.png",
+    "notes": "Two-storey lodging house near the gate: cream plaster and timber, green roof, cream awning over the door (separate), wine banner beside the door (separate)."
+  },
+  "stables": {
+    "canvas": [
+      1600,
+      1016
+    ],
+    "boxes": {
+      "n": [
+        48,
+        258,
+        752,
+        476
+      ],
+      "e": [
+        1024,
+        64,
+        1376,
+        476
+      ],
+      "s": [
+        48,
+        766,
+        752,
+        984
+      ],
+      "w": [
+        1024,
+        572,
+        1376,
+        984
+      ]
+    },
+    "concept": "D:\\Storyboards\\Isekai Mercenary Company\\Locations\\Eurydica\\concepts\\eurydica-arrival-ward-approved.png",
+    "notes": "Jeb's stables: timber-boarded walls over a low stone base, a wide 3.0 m stable opening on the door face, half-doors (stall doors) along the long walls, hay-loft hatch in the gable. Work-worn but maintained."
+  },
+  "guard_shelter": {
+    "canvas": [
+      640,
+      836
+    ],
+    "boxes": {
+      "n": [
+        48,
+        64,
+        272,
+        386
+      ],
+      "e": [
+        368,
+        188,
+        592,
+        386
+      ],
+      "s": [
+        48,
+        482,
+        272,
+        804
+      ],
+      "w": [
+        368,
+        606,
+        592,
+        804
+      ]
+    },
+    "concept": "D:\\Storyboards\\Isekai Mercenary Company\\Locations\\Eurydica\\concepts\\eurydica-arrival-ward-approved.png",
+    "notes": "Small timber guard booth beside the gate, open counter window on the door face, a plain notice board (no writing) on a side wall."
+  },
+  "store_shed": {
+    "canvas": [
+      640,
+      798
+    ],
+    "boxes": {
+      "n": [
+        48,
+        188,
+        272,
+        367
+      ],
+      "e": [
+        368,
+        64,
+        592,
+        367
+      ],
+      "s": [
+        48,
+        587,
+        272,
+        766
+      ],
+      "w": [
+        368,
+        463,
+        592,
+        766
+      ]
+    },
+    "concept": "D:\\Storyboards\\Isekai Mercenary Company\\Locations\\Eurydica\\concepts\\eurydica-company-edge-approved.png",
+    "notes": "The Company's lean timber store shed: boarded walls, plank door, a patched roof of reused red and brown boards (the patchwork roof tile)."
+  },
+  "gatehouse": {
+    "canvas": [
+      1780,
+      1282
+    ],
+    "boxes": {
+      "n": [
+        48,
+        148,
+        842,
+        609
+      ],
+      "e": [
+        1258,
+        64,
+        1412,
+        609
+      ],
+      "s": [
+        48,
+        789,
+        842,
+        1250
+      ],
+      "w": [
+        1258,
+        705,
+        1412,
+        1250
+      ]
+    },
+    "concept": "D:\\Storyboards\\Isekai Mercenary Company\\Locations\\Eurydica\\concepts\\eurydica-arrival-ward-approved.png",
+    "notes": "The South Gate: pale grey dressed-stone gatehouse, ONE round-arched opening through the middle, small green roof above; the arch opening must stay fully transparent (players walk through it). Same painting on the north (city) face and the south (outskirts) face."
+  },
+  "house_violet": {
+    "canvas": [
+      1216,
+      1408
+    ],
+    "boxes": {
+      "n": [
+        48,
+        275,
+        560,
+        672
+      ],
+      "e": [
+        720,
+        64,
+        1104,
+        672
+      ],
+      "s": [
+        48,
+        979,
+        560,
+        1376
+      ],
+      "w": [
+        720,
+        768,
+        1104,
+        1376
+      ]
+    },
+    "concept": "D:\\Storyboards\\Isekai Mercenary Company\\Locations\\Eurydica\\concepts\\eurydica-company-edge-approved.png",
+    "notes": "Generic residential house (reused and stretched for many lots): cream plaster, dark timber, violet roof, simple dark windows. Keep it plainer than the named buildings."
+  }
+}

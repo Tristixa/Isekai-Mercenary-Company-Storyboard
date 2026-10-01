@@ -1,0 +1,47 @@
+{
+  "company_house": {
+    "layout": "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\company_house-layout.png",
+    "identity": "D:\\Storyboards\\Isekai Mercenary Company\\Locations\\Eurydica\\concepts\\eurydica-company-edge-approved.png",
+    "rendering": "D:/Storyboards/Isekai Mercenary Company/Environment Assets/Eurydica/Approved Finish v2/walls-A/house_green/e.png"
+  },
+  "provisions": {
+    "layout": "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\provisions-layout.png",
+    "identity": "D:\\Storyboards\\Isekai Mercenary Company\\Locations\\Eurydica\\concepts\\eurydica-market-building-exteriors-approved.png",
+    "rendering": "D:/Storyboards/Isekai Mercenary Company/Environment Assets/Eurydica/Approved Finish v2/walls-A/house_green/e.png"
+  },
+  "repair_supply": {
+    "layout": "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\repair_supply-layout.png",
+    "identity": "D:\\Storyboards\\Isekai Mercenary Company\\Locations\\Eurydica\\concepts\\eurydica-market-building-exteriors-approved.png",
+    "rendering": "D:/Storyboards/Isekai Mercenary Company/Environment Assets/Eurydica/Approved Finish v2/walls-A/house_green/e.png"
+  },
+  "lodging": {
+    "layout": "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\lodging-layout.png",
+    "identity": "D:\\Storyboards\\Isekai Mercenary Company\\Locations\\Eurydica\\concepts\\eurydica-arrival-ward-approved.png",
+    "rendering": "D:/Storyboards/Isekai Mercenary Company/Environment Assets/Eurydica/Approved Finish v2/walls-A/house_green/e.png"
+  },
+  "stables": {
+    "layout": "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\stables-layout.png",
+    "identity": "D:\\Storyboards\\Isekai Mercenary Company\\Locations\\Eurydica\\concepts\\eurydica-arrival-ward-approved.png",
+    "rendering": "D:/Storyboards/Isekai Mercenary Company/Environment Assets/Eurydica/Approved Finish v2/walls-A/house_green/e.png"
+  },
+  "guard_shelter": {
+    "layout": "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\guard_shelter-layout.png",
+    "identity": "D:\\Storyboards\\Isekai Mercenary Company\\Locations\\Eurydica\\concepts\\eurydica-arrival-ward-approved.png",
+    "rendering": "D:/Storyboards/Isekai Mercenary Company/Environment Assets/Eurydica/Approved Finish v2/walls-A/house_green/e.png"
+  },
+  "store_shed": {
+    "layout": "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\store_shed-layout.png",
+    "identity": "D:\\Storyboards\\Isekai Mercenary Company\\Locations\\Eurydica\\concepts\\eurydica-company-edge-approved.png",
+    "rendering": "D:/Storyboards/Isekai Mercenary Company/Environment Assets/Eurydica/Approved Finish v2/walls-A/house_green/e.png"
+  },
+  "gatehouse": {
+    "layout": "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\gatehouse-layout.png",
+    "identity": "D:\\Storyboards\\Isekai Mercenary Company\\Locations\\Eurydica\\concepts\\eurydica-arrival-ward-approved.png",
+    "rendering": "D:/Storyboards/Isekai Mercenary Company/Environment Assets/Eurydica/Approved Finish v2/walls-A/house_green/e.png"
+  },
+  "house_violet": {
+    "layout": "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\house_violet-layout.png",
+    "identity": "D:\\Storyboards\\Isekai Mercenary Company\\Locations\\Eurydica\\concepts\\eurydica-company-edge-approved.png",
+    "rendering": "D:/Storyboards/Isekai Mercenary Company/Environment Assets/Eurydica/Approved Finish v2/walls-A/house_green/e.png"
+  }
+}

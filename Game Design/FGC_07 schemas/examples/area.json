@@ -1,0 +1,38 @@
+{
+  "id": "mosswood",
+  "region": "eurydica",
+  "rev": 1,
+  "name": "Hylaea Forest",
+  "gdd": [
+    "7.1; 8.2; 8.5"
+  ],
+  "authoring_status": "specified",
+  "missing_fields": [],
+  "base_id": "eurydica",
+  "rank_required": "f",
+  "ordinary_ids": [
+    "moss_slime",
+    "dire_boar",
+    "forest_wolf"
+  ],
+  "landmark_ids": [
+    "dire_boar_nest",
+    "mossy_spring",
+    "howling_ridge"
+  ],
+  "path_ids": [
+    "charcoal_burners_trail",
+    "old_poachers_track"
+  ],
+  "rare_ids": [
+    "mossback_elder",
+    "silvermane"
+  ],
+  "boss_ids": [
+    "blackfang_direwolf",
+    "mosswood_chimera"
+  ],
+  "scout_injury_chance": 0.01,
+  "initial_exploration_pct": 0,
+  "route_rules": []
+}

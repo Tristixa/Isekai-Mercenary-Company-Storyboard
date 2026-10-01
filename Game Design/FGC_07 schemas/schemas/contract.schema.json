@@ -1,0 +1,128 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "contract.schema.json",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "region": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "rev": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "gdd": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "authoring_status": {
+      "enum": [
+        "specified",
+        "incomplete"
+      ]
+    },
+    "missing_fields": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "source_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "client_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "gate": {
+      "$ref": "shared.schema.json#/$defs/predicate"
+    },
+    "encounter": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "monster_id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+          },
+          "count": {
+            "type": "integer",
+            "minimum": 1
+          }
+        },
+        "required": [
+          "monster_id",
+          "count"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "approach_seconds": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "offer_duration_seconds": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "reoffer_wait_seconds": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "reward": {
+      "$ref": "shared.schema.json#/$defs/reward"
+    },
+    "completion_flag": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "accepted_failure_rep": {
+      "const": 10
+    },
+    "random_groups": {
+      "const": false
+    },
+    "random_variants": {
+      "const": false
+    }
+  },
+  "required": [
+    "id",
+    "region",
+    "rev",
+    "name",
+    "gdd",
+    "authoring_status",
+    "missing_fields",
+    "source_id",
+    "client_id",
+    "gate",
+    "encounter",
+    "approach_seconds",
+    "offer_duration_seconds",
+    "reoffer_wait_seconds",
+    "reward",
+    "completion_flag",
+    "accepted_failure_rep",
+    "random_groups",
+    "random_variants"
+  ],
+  "additionalProperties": false
+}

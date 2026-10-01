@@ -1,0 +1,218 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "commander_skill.schema.json",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "region": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "rev": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "gdd": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "authoring_status": {
+      "enum": [
+        "specified",
+        "incomplete"
+      ]
+    },
+    "missing_fields": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "officer_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+      },
+      "minItems": 1
+    },
+    "template_kinds": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+      },
+      "minItems": 1
+    },
+    "rank_thresholds": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "minItems": 5
+    },
+    "rank_cap": {
+      "const": 5
+    },
+    "eurydica_cap": {
+      "const": 2
+    },
+    "points_by_grade": {
+      "type": "object",
+      "properties": {
+        "d": {
+          "const": 1
+        },
+        "c": {
+          "const": 2
+        },
+        "b": {
+          "const": 3
+        },
+        "a": {
+          "const": 4
+        },
+        "s": {
+          "const": 5
+        }
+      },
+      "required": [
+        "d",
+        "c",
+        "b",
+        "a",
+        "s"
+      ],
+      "additionalProperties": false
+    },
+    "dialogue_points": {
+      "const": 2
+    },
+    "per_rank_effects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "op": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+          },
+          "target": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+          },
+          "value": {
+            "type": [
+              "number",
+              "string",
+              "boolean"
+            ]
+          },
+          "duration_actions": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": 1
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "op",
+          "target",
+          "value",
+          "duration_actions"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "rank_three_unlock": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "session_seconds": {
+      "const": 3600
+    },
+    "session_effects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "op": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+          },
+          "target": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+          },
+          "value": {
+            "type": [
+              "number",
+              "string",
+              "boolean"
+            ]
+          },
+          "duration_actions": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": 1
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "op",
+          "target",
+          "value",
+          "duration_actions"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    }
+  },
+  "required": [
+    "id",
+    "region",
+    "rev",
+    "name",
+    "gdd",
+    "authoring_status",
+    "missing_fields",
+    "officer_ids",
+    "template_kinds",
+    "rank_thresholds",
+    "rank_cap",
+    "eurydica_cap",
+    "points_by_grade",
+    "dialogue_points",
+    "per_rank_effects",
+    "rank_three_unlock",
+    "session_seconds",
+    "session_effects"
+  ],
+  "additionalProperties": false
+}

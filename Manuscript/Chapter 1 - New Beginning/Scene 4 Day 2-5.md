@@ -1,384 +1,503 @@
-# Scene 4 Day 1-5
+# Scene 4 - Day 2-5
 
 ## Synopsis
-This is only each characters dialogues/side arc/side quest before the next chapter 1 scene milestone.
-Request details are maintained in the Requests folder. Availability notices below add the named request to the request list only on the help/accept branch.
+Location: Eurydica (the Guild house and the city)
+Time: Days 2–5, any time unless stated
+Actors: Commander, Tristitia, Mae, Elsie, request-givers, townspeople
 
-## Gameplay dialogue staging
-
-|On interaction, Player and NPC face each other. Hold one shared dialogue view through the conversation and choices. Both remain in their ordinary idle poses. Return to gameplay when the conversation ends.|
-
-This applies to officer conversations and request-givers. Hold the same view across topics, including Tristitia's silence about her father. Elsie's look-behind joke is the exception noted below. Ambient townspeople have no bespoke staging.
+|This scene is each character's talks, side arcs and side requests before the next Chapter 1 milestone. Request details live in the Requests folder. A request is added to the request list only on its help/accept branch (`{request: …}`). Talks use the default talk staging (face each other, shared view); only Elsie's look-behind joke is specially staged. Ambient townspeople have no bespoke staging, markers, rewards or required order.|
 
 ---
 
+## Talk: Tristitia
+Where: Commander's Office
 
-# Tristitia Talk
-Tristitia: "Commander. Is there something you need?"
+Tristitia (Base):
+"Commander. Is there something you need?"
 
-### [ Ask about her]
-Player: "How do you know so much about running things."
-Tristitia: "Someone taught me well."
-Player: "Who's the guy?"
-Tristitia: "My father."
-Player: "Is he around?"
-Tristitia: "No."
+Commander:
 
-### [ Ask about Mae ]
-Player: "Mae and you seems close."
-Tristitia: "Sure, we works well together."
-Player: "How long have you met her?"
-Tristitia: "From the start of my adventuring days."
-"She's the first person I trust."
+1. **[Ask about her]** {topic}
+   Commander (Base):
+   "How do you know so much about running things."
+   Tristitia (Base):
+   "Someone taught me well."
+   Commander (Happy):
+   "Who's the guy?"
+   Tristitia (Serious):
+   "My father."
+   Commander (Base):
+   "Is he around?"
+   Tristitia (Sad):
+   "No."
 
-### [ Ask about Elsie]
-Player: "Elsie is your friend?"
-Tristitia: "Yes, it's nice being around her."
-Player: "What about me?"
-Tristitia: "......."
-Tristitia: "You are very honest."
+2. **[Ask about Mae]** {topic}
+   Commander (Base):
+   "Mae and you seems close."
+   Tristitia (Base):
+   "Sure, we works well together."
+   Commander (Base):
+   "How long have you met her?"
+   Tristitia (Base):
+   "From the start of my adventuring days."
+   Tristitia (Happy):
+   "She's the first person I trust."
 
-
----
-
-# Mae Talk
-If corpses are awaiting processing:
-Mae: "Ah, <name>. We still have something left from the last hunt, if you want me to process it."
-
-Otherwise:
-Mae: "Ah, <name>. How are things?"
-
-### [ Ask about her ]
-Player: "How long have you been doing this?"
-Mae: "Long enough to know how to process any kind of monster."
-Player: "Any kind? surely not."
-Mae: "Well I never get my hands on dragon before, or monsters from the frontier."
-
-### [ Ask about Tristitia ]
-Player: "Tristitia and you seems close."
-Mae: "We go long way back, I think I know her better than my lovers."
-Player: "You have a lover?"
-Mae: "Not anymore, I love what I do and want to focus on this guild for now."
-
-### [ Ask about Eurydica ]
-Player: "So what's the city like?"
-Mae: "It's a nice and warm place compared to other cities."
-Mae: "You will like it soon enough."
-Player: "Is there any interesting place?"
-Mae: "Try the old city streets, it have the best view."
-
-### [ Ask about The Frontier ] (unlocked after ask about her)
-Player: "What's the frontier?"
-Mae: "Hmmm I only know vague information about it."
-Mae: "Elsie know it better she used to be there."
+3. **[Ask about Elsie]** {topic}
+   Commander (Base):
+   "Elsie is your friend?"
+   Tristitia (Happy):
+   "Yes, it's nice being around her."
+   Commander (Happy):
+   "What about me?"
+   Tristitia (Base):
+   "......."
+   Tristitia (Happy):
+   "You are very honest."
 
 ---
 
-# Elsie Talk
-Elsie: "There you are. How's it going?"
+## Talk: Mae
+Where: Processing corner
 
-### [ Ask about her ]
-Player: "You used to lead people?"
-Elsie: "I do, somehow people always put me as someone in charge."
-Player: "In an army?"
-Elsie: "Yeah, In the frontier."
-Elsie: "I used to butthead with the officers there."
-Player: "Why quit?"
-Elsie: "Why indeed, you'll know when you step foot on that place."
-Elsie: "I like here more, it's not constricting."
+[if: corpses_waiting]
+Mae (Happy):
+"Ah, <name>. We still have something left from the last hunt, if you want me to process it."
+[else]
+Mae (Base):
+"Ah, <name>. How are things?"
+[end if]
 
-### [ Ask about Tristitia ]
-Player: "Tristitia and you seems close."
-Elsie: "Shhh don't let her hear that."
-"She will stab you."
-Player: "really? she seems nice to me."
-Elsie: "You think so? you don't think she's unfriendly?"
-Player: "Well, maybe she is..."
-[Sassy] "A bit sassy."
-[Rude] "A bit rude to someone."
-[Cold] "A bit cold."
-Elsie: "Uh oh, do you hear that Tristitia?"
-|When Elsie calls to Tristitia, Player turns to look behind him. Briefly show the empty space he is looking toward. Return to the previous shared view as he faces Elsie again.|
-Player: "She's not there."
-Elsie: "I'm just teasing you."
-Player: "So what's she likes to you?"
-Elsie: "Trusted friend, we understand each other."
-"she didn't talk much but she's actually nice conversation partner."
+Commander:
 
-### [ Ask about The Frontier ] (unlocked after ask about her)
-Player: "What's the frontier?"
-Elsie: "It's vast lands that remain largely unexplored."
-"Ancient ruins, dangerous creatures, forgotten roads, and remnants of an unknown civilization dot the landscape."
-Player: "So civilization only occupies fraction of the world?"
-Elsie: "Yeah, small compared to that place."
-Player: "Maybe we can send expedition there."
-Elsie: "Too dangerous, I say we stay clear."
-"People lost their lives all the time there."
-"Informations and discoveries are rumors at best."
-"Understanding the frontier will need an organization that can verify everything, and make sure folks are safe."
-Player: "Like our guild?"
-Elsie: "Well now, you do have a point."
-Player: "You're teasing me again are you?"
-Elsie: "*chuckle*, Apologize commander."
+1. **[Ask about her]** {topic}
+   Commander (Base):
+   "How long have you been doing this?"
+   Mae (Happy):
+   "Long enough to know how to process any kind of monster."
+   Commander (Surprise):
+   "Any kind? surely not."
+   Mae (Laugh):
+   "Well I never get my hands on dragon before, or monsters from the frontier."
+
+2. **[Ask about Tristitia]** {topic}
+   Commander (Base):
+   "Tristitia and you seems close."
+   Mae (Happy):
+   "We go long way back, I think I know her better than my lovers."
+   Commander (Surprise):
+   "You have a lover?"
+   Mae (Base):
+   "Not anymore, I love what I do and want to focus on this guild for now."
+
+3. **[Ask about Eurydica]** {topic}
+   Commander (Base):
+   "So what's the city like?"
+   Mae (Happy):
+   "It's a nice and warm place compared to other cities."
+   "You will like it soon enough."
+   Commander (Base):
+   "Is there any interesting place?"
+   Mae (Happy):
+   "Try the old city streets, it have the best view."
+
+4. **[Ask about The Frontier]** {topic} {after: Ask about her}
+   Commander (Base):
+   "What's the frontier?"
+   Mae (Serious):
+   "Hmmm I only know vague information about it."
+   Mae (Base):
+   "Elsie know it better she used to be there."
 
 ---
 
+## Talk: Elsie
+Where: Courtyard
 
-# Request 1 (Traveling Merchant in Market Spine) [CH1-REQ-003]
-The merchant's muttering appears when Player gets nearby, before interaction.
-Travelling Merchant:
+Elsie (Happy):
+"There you are. How's it going?"
+
+Commander:
+
+1. **[Ask about her]** {topic}
+   Commander (Base):
+   "You used to lead people?"
+   Elsie (Base):
+   "I do, somehow people always put me as someone in charge."
+   Commander (Surprise):
+   "In an army?"
+   Elsie (Serious):
+   "Yeah, In the frontier."
+   Elsie (Laugh):
+   "I used to butthead with the officers there."
+   Commander (Base):
+   "Why quit?"
+   Elsie (Serious):
+   "Why indeed, you'll know when you step foot on that place."
+   Elsie (Happy):
+   "I like here more, it's not constricting."
+
+2. **[Ask about Tristitia]** {topic}
+   Commander (Base):
+   "Tristitia and you seems close."
+   Elsie (Surprise):
+   "Shhh don't let her hear that."
+   Elsie (Laugh):
+   "She will stab you."
+   Commander (Surprise):
+   "really? she seems nice to me."
+   Elsie (Base):
+   "You think so? you don't think she's unfriendly?"
+   Commander (Serious):
+   "Well, maybe she is..."
+   Commander:
+   1. **[Sassy]**
+      Commander (Happy):
+      "A bit sassy."
+   2. **[Rude]**
+      Commander (Serious):
+      "A bit rude to someone."
+   3. **[Cold]**
+      Commander (Serious):
+      "A bit cold."
+   Elsie (Laugh):
+   "Uh oh, do you hear that Tristitia?"
+   [face: Commander back]
+   [camera: gaze Commander]
+   [pause: 1.0]
+   [emote: Commander question]
+   [face: Commander Elsie]
+   [camera: return]
+   Commander (Surprise):
+   "She's not there."
+   Elsie (Laugh):
+   "I'm just teasing you."
+   Commander (Base):
+   "So what's she likes to you?"
+   Elsie (Happy):
+   "Trusted friend, we understand each other."
+   "she didn't talk much but she's actually nice conversation partner."
+
+3. **[Ask about The Frontier]** {topic} {after: Ask about her}
+   Commander (Base):
+   "What's the frontier?"
+   Elsie (Serious):
+   "It's vast lands that remain largely unexplored."
+   "Ancient ruins, dangerous creatures, forgotten roads, and remnants of an unknown civilization dot the landscape."
+   Commander (Surprise):
+   "So civilization only occupies fraction of the world?"
+   Elsie (Base):
+   "Yeah, small compared to that place."
+   Commander (Happy):
+   "Maybe we can send expedition there."
+   Elsie (Serious):
+   "Too dangerous, I say we stay clear."
+   Elsie (Sad):
+   "People lost their lives all the time there."
+   Elsie (Serious):
+   "Informations and discoveries are rumors at best."
+   "Understanding the frontier will need an organization that can verify everything, and make sure folks are safe."
+   Commander (Happy):
+   "Like our guild?"
+   Elsie (Happy):
+   "Well now, you do have a point."
+   Commander (Base):
+   "You're teasing me again are you?"
+   [emote: Elsie laugh]
+   Elsie (Laugh):
+   "*chuckle*, Apologize commander."
+
+---
+
+## Bark: Travelling Merchant
+Trigger: nearby
 "Hmmm there's not much rare slime parts in the market..."
 "Must be because of the chimera."
 "Where can I get them, I already promised the client."
 
-|Player approaches and starts the standard shared interaction view. No staged merchant departure is needed after the conversation.|
-Player:
-[Offer help] "I can help you with that."
-[Walk away] {It's not my business.}
+## Talk: Travelling Merchant (Request 1, CH1-REQ-003)
+Where: Market Spine stall
 
-### If the Player Walk away
-the scene end.
+Commander:
 
-### If the Player Offer Help
-Travelling Merchant:
-"Oh? do you have any rare slime part?"
+1. **[Offer help]** {request: CH1-REQ-003}
+   Commander (Base):
+   "I can help you with that."
+   Travelling Merchant (Surprised):
+   "Oh? do you have any rare slime part?"
+   Commander (Base):
+   "Not yet, you can send the request to <Guild-name>."
+   "We handle any job involved with monster and adventurer."
+   "Tristitia will tell you more."
+   Travelling Merchant (Considering):
+   "Hmmm I don't have much gold but I know a lot of people."
+   Travelling Merchant (Pleased):
+   "I can spread your Guild name."
+   Commander (Happy):
+   "Sure."
+   Travelling Merchant (Deal):
+   "Thank you, I'll go to the Guild building then."
+   Commander (Base):
+   "Okay."
 
-Player:
-"Not yet, you can send the request to <Guild-name>."
-"We handle any job involved with monster and adventurer."
-"Tristitia will tell you more."
-
-Travelling Merchant:
-"Hmmm I don't have much gold but I know a lot of people."
-"I can spread your Guild name."
-
-Player:
-"Sure."
-
-Travelling Merchant:
-"Thank you, I'll go to the Guild building then."
-
-Player:
-"Okay."
-
-
-Request "Merchant's Rare Slime Order" [CH1-REQ-003] is now available.
+2. **[Walk away]**
+   Commander (Base):
+   {It's not my business.}
+   [end]
 
 ---
 
-# Request 2 (Dr. Ginger in Service Lanes) [CH1-REQ-004]
-Dr.Ginger:
+## Talk: Dr. Emmerich (Request 2, CH1-REQ-004)
+Where: Clinic, Service Lanes
+
+Dr. Emmerich (Base):
 "Hello young man, you don't have any common slime parts by chance are you?"
 
-Player:
+Commander (Base):
 "Maybe, in my Guild storage."
 
-Dr.Ginger:
+Dr. Emmerich (Happy):
 "Can I have some? I need them for my work."
 
-Player:
-[Refuse] "No way."
-[Accept] "Sure you can make the request at my Guild."
-"Tristitia will tell you more."
+Commander:
 
-### If the Player Refuse
-Dr.Ginger:
-"Well okay sonnie."
+1. **[Refuse]**
+   Commander (Serious):
+   "No way."
+   Dr. Emmerich (Sad):
+   "Well okay sonnie."
 
-### If the Player Offer Help
-Dr.Ginger:
-"Thanks boy, I'll talk to her."
-
-
-Request "Clinic Restock" [CH1-REQ-004] is now available.
-
----
-
-# Request 3 - Hollis: Winter Bedding [CH1-REQ-005]
-
-Location: Stables near the south gate.
-
-|Standard shared interaction view. Hold throughout.|
-
-Hollis: "You're with the new company, aren't you? Do your people bring back wolf pelts?"
-Player: "We could. How many do you need?"
-Hollis: "Three should do. It's for the bed out here. Whoever watches the stable at night sleeps beside the door, and the cold comes straight underneath it."
-Player: "You sleep in the stable?"
-Hollis: "Some nights. My son takes the others. He's been bringing his blanket from home, but his mother wants it back."
-Player: "Wouldn't fixing the door help?"
-Hollis: "Already did. It helped. Still need something warmer on the bed."
-
-Player:
-[Offer to arrange it] "We haven't found a place to hunt wolves yet, but we can look into it."
-[Decline] "I don't think we can help right now."
-
-### If offering
-
-Hollis: "That's fine. I'm asking before it gets cold enough for him to refuse his turn."
-Player: "Talk to Tristitia at <Guild-name>. She'll write down what you need."
-Hollis: "All right. Three pelts, and no need to hurry."
-
-Request "Winter Bedding" [CH1-REQ-005] is now available.
-
-### If declining
-
-Hollis: "Fair enough. Let me know if that changes."
-
-
-### Later visit after completion
-
-Hollis: "The bedding's finished. My son brought a pillow over yesterday, so I suppose he's staying."
+2. **[Accept]** {request: CH1-REQ-004}
+   Commander (Happy):
+   "Sure you can make the request at my Guild."
+   "Tristitia will tell you more."
+   Dr. Emmerich (Happy):
+   "Thanks boy, I'll talk to her."
 
 ---
 
-# Request 4 - Marta: Something Different for Supper [CH1-REQ-006]
+## Talk: Jeb (Request 3, CH1-REQ-005: Winter Bedding)
+Where: Stables near the South Gate
 
-Location: Food shop in the Service Lanes.
+[if: done: CH1-REQ-005]
+Jeb (Happy):
+"The bedding's finished. My son brought a pillow over yesterday, so I suppose he's staying."
+[else]
+Jeb (Base):
+"You're with the new guild, aren't you? Do your people bring back wolf pelts?"
 
-|Standard shared interaction view. Hold throughout.|
+Commander (Base):
+"We could. How many do you need?"
 
-Marta: "You're the one running that adventurer company?"
-Player: "Yes. Do you have some work for us?"
-Marta: "Possibly. If your people bring back a boar, I'd like to buy some of the meat. I've been meaning to cook something different."
-Player: "What do you usually make?"
-Marta: "Stew. It sells, so I keep making it. Then everyone asks why I always serve the same thing."
-Player: "What would you make with the boar?"
-Marta: "I was thinking a roast. Garlic, a few herbs... depends on what I can get."
+Jeb (Base):
+"Three should do. It's for the bed out here. Whoever watches the stable at night sleeps beside the door, and the cold comes straight underneath it."
 
-Player:
-[Offer to arrange it] "That sounds good. We can take the request, though it might be a while."
-[Decline] "We're not ready to take that on yet."
+Commander (Surprise):
+"You sleep in the stable?"
 
-### If offering
+Jeb (Base):
+"Some nights. My son takes the others. He's been bringing his blanket from home, but his mother wants it back."
 
-Marta: "That's all right. I haven't promised anyone anything."
-Player: "We still need to find where the boars are. You can speak to Tristitia at <Guild-name> about the order."
-Marta: "I'll come by when it's quiet."
+Commander (Base):
+"Wouldn't fixing the door help?"
 
-Request "Something Different for Supper" [CH1-REQ-006] is now available.
+Jeb (Serious):
+"Already did. It helped. Still need something warmer on the bed."
 
-### If declining
+Commander:
 
-Marta: "Well, you know where I am if you bring some back."
+1. **[Offer to arrange it]** {request: CH1-REQ-005}
+   Commander (Base):
+   "We haven't found a place to hunt wolves yet, but we can look into it."
+   Jeb (Base):
+   "That's fine. I'm asking before it gets cold enough for him to refuse his turn."
+   Commander (Base):
+   "Talk to Tristitia at <Guild-name>. She'll write down what you need."
+   Jeb (Happy):
+   "All right. Three pelts, and no need to hurry."
 
-
-### Later visit after completion
-
-Marta: "I made the roast. Sold most of it before midday."
-Player: "So they liked the change?"
-Marta: "Most of them. Someone asked where the stew was."
-
----
-
-# Request 5 - Beren: Keep the Old Ones Working [CH1-REQ-007]
-
-Location: Repair & Supply shop in the Market Spine.
-
-|Standard shared interaction view. Hold throughout.|
-
-Beren: "If your company starts hunting boars, I could use a couple of hides."
-Player: "For armor?"
-Beren: "Repairs, mostly. Straps, patches, that sort of thing. I've got people waiting on things they'd rather mend than replace."
-Player: "Are they waiting for the hides?"
-Beren: "Some are. I've enough leather for the smaller jobs. There's one pair of work boots I haven't started yet."
-Player: "Too badly damaged?"
-Beren: "He's worn through them again. I told him he ought to buy another pair, but he says these are comfortable."
-Player: "Even with holes in them?"
-Beren: "Apparently."
-
-Player:
-[Offer to arrange it] "We can take the request. We'll need to find a hunting ground first."
-[Decline] "You might have to ask someone else for now."
-
-### If offering
-
-Beren: "That's fine. Bring the request here when it's ready, or tell me who I should speak to."
-Player: "Tristitia, at <Guild-name>. She handles the arrangements."
-Beren: "All right. I'll speak to her."
-
-Request "Keep the Old Ones Working" [CH1-REQ-007] is now available.
-
-### If declining
-
-Beren: "All right. Keep me in mind if you end up with some."
-
-
-### Later visit after completion
-
-Beren: "Your hides came through. Those boots should last him a while longer."
+2. **[Decline]**
+   Commander (Sad):
+   "I don't think we can help right now."
+   Jeb (Base):
+   "Fair enough. Let me know if that changes."
+[end if]
 
 ---
 
-# Ambient Townspeople
+## Talk: Hilde (Request 4, CH1-REQ-006: Something Different for Supper)
+Where: Food shop, Service Lanes
 
-Each entry is a separate optional encounter with Player, not a conversation among NPCs. No bespoke staging, quest markers, rewards, required encounter order, or forced explanation. The three women walk separately through the city at night. Completion-dependent lines replace the corresponding ordinary line after the named request is completed.
+[if: done: CH1-REQ-006]
+Hilde (Happy):
+"I made the roast. Sold most of it before midday."
 
-## Lady in a Red Dress
+Commander (Happy):
+"So they liked the change?"
 
-Location: Market Spine, at night.
+Hilde (Laugh):
+"Most of them. Someone asked where the stew was."
+[else]
+Hilde (Base):
+"You're the one running that adventurer guild?"
 
-Lady in a Red Dress: "Have you met the woman in green? She'll ask you where you've been, who you were with... You don't have to tell her, you know."
+Commander (Base):
+"Yes. Do you have some work for us?"
 
-## Lady in a Green Dress
+Hilde (Base):
+"Possibly. If your people bring back a boar, I'd like to buy some of the meat. I've been meaning to cook something different."
 
-Location: Near the Old Bridge, at night.
+Commander (Base):
+"What do you usually make?"
 
-Lady in a Green Dress: "That woman in red said something about me, didn't she? Never mind. She says something about everyone."
+Hilde (Sad):
+"Stew. It sells, so I keep making it. Then everyone asks why I always serve the same thing."
 
-## Lady in a Black Dress
+Commander (Base):
+"What would you make with the boar?"
 
-Location: Old City, at night.
+Hilde (Happy):
+"I was thinking a roast. Garlic, a few herbs... depends on what I can get."
 
-Lady in a Black Dress: "Hello, darling. Out for a walk?"
+Commander:
 
-## Tough-Looking Worker
+1. **[Offer to arrange it]** {request: CH1-REQ-006}
+   Commander (Happy):
+   "That sounds good. We can take the request, though it might be a while."
+   Hilde (Base):
+   "That's all right. I haven't promised anyone anything."
+   Commander (Base):
+   "We still need to find where the boars are. You can speak to Tristitia at <Guild-name> about the order."
+   Hilde (Happy):
+   "I'll come by when it's quiet."
 
-Location: Outside Marta's shop.
+2. **[Decline]**
+   Commander (Sad):
+   "We're not ready to take that on yet."
+   Hilde (Base):
+   "Well, you know where I am if you bring some back."
+[end if]
 
-Tough-Looking Worker: "If you're going in, ask what she's cooking. I've been smelling it all morning, but I can't leave until the cart gets here."
+---
 
-After Marta's request is completed:
-Tough-Looking Worker: "Had the roast yesterday. Asked her to save me some today, but apparently everyone else had the same idea."
+## Talk: Gerd (Request 5, CH1-REQ-007: Keep the Old Ones Working)
+Where: Repair & Supply, Market Spine
 
-## Middle-Aged Guard
+[if: done: CH1-REQ-007]
+Gerd (Happy):
+"Your hides came through. Those boots should last him a while longer."
+[else]
+Gerd (Base):
+"If your guild starts hunting boars, I could use a couple of hides."
 
-Location: South gate, toward evening.
+Commander (Base):
+"For armor?"
 
-Middle-Aged Guard: "Heading out? Leave yourself enough light to get back. Those roots near Mosswood are hard enough to see in the daytime."
+Gerd (Base):
+"Repairs, mostly. Straps, patches, that sort of thing. I've got people waiting on things they'd rather mend than replace."
 
-## Intelligent Girl
+Commander (Base):
+"Are they waiting for the hides?"
 
-Location: Near the Old Bridge.
+Gerd (Base):
+"Some are. I've enough leather for the smaller jobs. There's one pair of work boots I haven't started yet."
 
-Intelligent Girl: "The bell sounds different here than it does up by the tower. I'm trying to find where it changes. Could you stop talking for a moment? It's nearly time."
+Commander (Surprise):
+"Too badly damaged?"
 
-## Woman with a Laundry Basket
+Gerd (Sad):
+"He's worn through them again. I told him he ought to buy another pair, but he says these are comfortable."
 
-Location: Residential streets.
+Commander (Surprise):
+"Even with holes in them?"
 
-Woman with a Laundry Basket: "I washed everything because it looked like rain yesterday. Now it looks like rain today. If I keep waiting, we won't have anything left to wear."
+Gerd (Laugh):
+"Apparently."
 
-## Well-Dressed Young Man
+Commander:
 
-Location: Outside Repair & Supply.
+1. **[Offer to arrange it]** {request: CH1-REQ-007}
+   Commander (Base):
+   "We can take the request. We'll need to find a hunting ground first."
+   Gerd (Base):
+   "That's fine. Bring the request here when it's ready, or tell me who I should speak to."
+   Commander (Base):
+   "Tristitia, at <Guild-name>. She handles the arrangements."
+   Gerd (Happy):
+   "All right. I'll speak to her."
 
-Well-Dressed Young Man: "I came to collect my boots, but I can't remember which pair I left here. I'd recognize them if he showed me."
+2. **[Decline]**
+   Commander (Sad):
+   "You might have to ask someone else for now."
+   Gerd (Base):
+   "All right. Keep me in mind if you end up with some."
+[end if]
 
-This does not establish him as the customer Beren mentioned.
+---
 
-## Older Woman
+## Ambient: Lady in a Red Dress
+Where: Market Spine
+When: Night
+Lady in a Red Dress:
+"Have you met the woman in green? She'll ask you where you've been, who you were with... You don't have to tell her, you know."
 
-Location: Old City viewpoint.
+## Ambient: Lady in a Green Dress
+Where: Near the Old Bridge
+When: Night
+Lady in a Green Dress:
+"That woman in red said something about me, didn't she? Never mind. She says something about everyone."
 
-Older Woman: "My husband always complained about the stairs. Then he'd spend an hour up here and complain when I wanted to leave."
+## Ambient: Lady in a Black Dress
+Where: Old City
+When: Night
+Lady in a Black Dress:
+"Hello, darling. Out for a walk?"
 
-Her husband's current whereabouts are not established by this line.
+## Ambient: Tough-Looking Worker
+Where: Outside Hilde's shop
+[if: done: CH1-REQ-006]
+Tough-Looking Worker:
+"Had the roast yesterday. Asked her to save me some today, but apparently everyone else had the same idea."
+[else]
+Tough-Looking Worker:
+"If you're going in, ask what she's cooking. I've been smelling it all morning, but I can't leave until the cart gets here."
+[end if]
 
-## Sleepy Stablehand
+## Ambient: Middle-Aged Guard
+Where: South Gate
+When: Evening
+Middle-Aged Guard:
+"Heading out? Leave yourself enough light to get back. Those roots near Hylaea are hard enough to see in the daytime."
 
-Location: Near the stables, in the morning.
+## Ambient: Intelligent Girl
+Where: Near the Old Bridge
+Intelligent Girl:
+"The bell sounds different here than it does up by the tower. I'm trying to find where it changes. Could you stop talking for a moment? It's nearly time."
 
-Sleepy Stablehand: "If you're looking for my father, he's inside. If he asks, I've already swept out here."
+## Ambient: Woman with a Laundry Basket
+Where: Residential streets
+Woman with a Laundry Basket:
+"I washed everything because it looked like rain yesterday. Now it looks like rain today. If I keep waiting, we won't have anything left to wear."
 
-After Hollis's request is completed:
-Sleepy Stablehand: "Father says I'm sleeping too well on watch now. He was the one who wanted better bedding."
+## Ambient: Well-Dressed Young Man
+Where: Outside Repair & Supply
+|This line does not establish him as the customer Gerd mentioned.|
+Well-Dressed Young Man:
+"I came to collect my boots, but I can't remember which pair I left here. I'd recognize them if he showed me."
+
+## Ambient: Older Woman
+Where: Old City viewpoint
+|Her husband's current whereabouts are not established by this line.|
+Older Woman:
+"My husband always complained about the stairs. Then he'd spend an hour up here and complain when I wanted to leave."
+
+## Ambient: Sleepy Stablehand
+Where: Near the stables
+When: Morning
+[if: done: CH1-REQ-005]
+Sleepy Stablehand:
+"Father says I'm sleeping too well on watch now. He was the one who wanted better bedding."
+[else]
+Sleepy Stablehand:
+"If you're looking for my father, he's inside. If he asks, I've already swept out here."
+[end if]

@@ -1,0 +1,207 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "buyer.schema.json",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "region": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "rev": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "gdd": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "authoring_status": {
+      "enum": [
+        "specified",
+        "incomplete"
+      ]
+    },
+    "missing_fields": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "persona": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "faction": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "taste_tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+      },
+      "minItems": 0
+    },
+    "ceiling_factor_range": {
+      "type": "object",
+      "properties": {
+        "min": {
+          "type": "number",
+          "minimum": 0
+        },
+        "max": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "min",
+        "max"
+      ],
+      "additionalProperties": false
+    },
+    "patience_range": {
+      "type": "object",
+      "properties": {
+        "min": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "max": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "required": [
+        "min",
+        "max"
+      ],
+      "additionalProperties": false
+    },
+    "sampling_profile": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "initial_acceptance_rule": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "tactics": {
+      "type": "array",
+      "items": {
+        "$ref": "shared.schema.json#/$defs/tactic"
+      },
+      "minItems": 5
+    },
+    "tell_mapping": {
+      "type": "object",
+      "properties": {
+        "under": {
+          "type": "string",
+          "minLength": 1
+        },
+        "near": {
+          "type": "string",
+          "minLength": 1
+        },
+        "over": {
+          "type": "string",
+          "minLength": 1
+        },
+        "near_threshold": {
+          "anyOf": [
+            {
+              "type": "number",
+              "minimum": 0
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "bluff_rule": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "under",
+        "near",
+        "over",
+        "near_threshold",
+        "bluff_rule"
+      ],
+      "additionalProperties": false
+    },
+    "allow_barter": {
+      "type": "boolean"
+    },
+    "allow_multi_item": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "id",
+    "region",
+    "rev",
+    "name",
+    "gdd",
+    "authoring_status",
+    "missing_fields",
+    "persona",
+    "faction",
+    "taste_tags",
+    "ceiling_factor_range",
+    "patience_range",
+    "sampling_profile",
+    "initial_acceptance_rule",
+    "tactics",
+    "tell_mapping",
+    "allow_barter",
+    "allow_multi_item"
+  ],
+  "additionalProperties": false
+}

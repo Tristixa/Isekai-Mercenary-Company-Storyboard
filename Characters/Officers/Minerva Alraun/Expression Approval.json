@@ -1,0 +1,30 @@
+{
+  "character": "Minerva Alraun",
+  "status": "approved as-is by user",
+  "approvalDate": "2026-10-01",
+  "userApproval": "approved put them in her portrait folder, there's some issue with the teeth but I'll fix it myself",
+  "caveat": "Teeth issue acknowledged by user. Agent made no teeth edits; user will correct manually.",
+  "placementScope": "Portrait source folder only; no Godot or runtime integration.",
+  "sourceDirectory": "D:/Codex/IMC/Officers/Minerva Alraun/Expressions v1/Native",
+  "destinationDirectory": "D:/Storyboards/Isekai Mercenary Company/Characters/Officers/Minerva Alraun",
+  "width": 1086,
+  "height": 1448,
+  "format": "8-bit RGBA PNG",
+  "copyVerification": "All seven destination files are byte-identical to approved localized source files.",
+  "base": {
+    "file": "Base.png",
+    "unchanged": true,
+    "sha256": "A11E025BF4556A9678CEC7A1C41C4A773ED4CBCCFFDA57081A7F714F05CC7DCE"
+  },
+  "files": [
+    { "file": "Happy.png", "sha256": "58397A77A3E8F2CE5D175B19E99FDF1C0D7BAC9C64D853CD70D1E66AFF491DCA" },
+    { "file": "Laugh.png", "sha256": "3CB8EE732066316A933BDF5AA4DE470F3F3811C63F9DC59049E4CCA86D072BEE" },
+    { "file": "Anger.png", "sha256": "92B6CB37112EC22A72F06C9A610C972DABD06810BA540A6D22C8EC0D65E3FBCD" },
+    { "file": "Fear.png", "sha256": "18FB4D18C92A833254C46607ED46085961F4945E2191839650603736CE5151BE" },
+    { "file": "Sad.png", "sha256": "ED3ADA3B2144059031AC2604A8307234FC41F953BADD098FF56E8D50BC123603" },
+    { "file": "Surprise.png", "sha256": "E76019F8ED00EB42B2FA2B397BCF6360DCC365F9AD2A2AA12030EF3656FBD9C7" },
+    { "file": "Serious.png", "sha256": "2713551F2D53230E01322ACA03A3FD06DE46D0FCD8800B3CC73A807362E75DD4" }
+  ],
+  "productionRecord": "D:/Codex/IMC/Officers/Minerva Alraun/Expressions v1",
+  "mastersPromptsAndQa": "Preserved in staging; not copied over approved portrait artwork."
+}

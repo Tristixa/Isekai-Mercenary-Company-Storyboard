@@ -1,0 +1,116 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "minigame_template.schema.json",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "region": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "rev": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "gdd": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "authoring_status": {
+      "enum": [
+        "specified",
+        "incomplete"
+      ]
+    },
+    "missing_fields": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "kind": {
+      "enum": [
+        "expedition_planning",
+        "counter_offer",
+        "cross_check",
+        "cutting_chart",
+        "fitting"
+      ]
+    },
+    "officer_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "skill_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "rank_min": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "rank_max": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "fields": {
+      "type": "array",
+      "items": {
+        "$ref": "shared.schema.json#/$defs/template_fields"
+      },
+      "minItems": 1
+    },
+    "generator_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "solver_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "grading_rule_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "hint_grade_cap": {
+      "const": "a"
+    },
+    "session_seconds": {
+      "const": 3600
+    }
+  },
+  "required": [
+    "id",
+    "region",
+    "rev",
+    "name",
+    "gdd",
+    "authoring_status",
+    "missing_fields",
+    "kind",
+    "officer_id",
+    "skill_id",
+    "rank_min",
+    "rank_max",
+    "fields",
+    "generator_id",
+    "solver_id",
+    "grading_rule_id",
+    "hint_grade_cap",
+    "session_seconds"
+  ],
+  "additionalProperties": false
+}

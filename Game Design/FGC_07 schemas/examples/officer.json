@@ -1,0 +1,62 @@
+{
+  "id": "fulker",
+  "region": "common",
+  "rev": 1,
+  "name": "Fulker",
+  "gdd": [
+    "5.4; 12.6; 12.8"
+  ],
+  "authoring_status": "incomplete",
+  "missing_fields": [
+    "bond_thresholds",
+    "bond_awards",
+    "friendship_scene_ids (authoring IDs pending)"
+  ],
+  "department": "workshop",
+  "join_event": "m05",
+  "payroll_g": 0,
+  "romanceable": false,
+  "bond_cap": 5,
+  "max_levels_per_week": 1,
+  "bond_thresholds": null,
+  "bond_awards": null,
+  "bond_five_story_flag": "fulker_personal_story_complete",
+  "friendship_scene_ids": null,
+  "perks": [
+    {
+      "id": "rough_patch",
+      "name": "Rough Patch",
+      "effects": [
+        {
+          "op": "multiply",
+          "target": "rework_duration",
+          "value": 0.5,
+          "duration_actions": null
+        },
+        {
+          "op": "set",
+          "target": "rework_max_quality",
+          "value": "standard",
+          "duration_actions": null
+        }
+      ]
+    },
+    {
+      "id": "masters_salvage",
+      "name": "Master's Salvage",
+      "effects": [
+        {
+          "op": "unlock",
+          "target": "rework_rule",
+          "value": "masters_salvage",
+          "duration_actions": null
+        }
+      ]
+    }
+  ],
+  "fallback_service": {
+    "station_count": 1,
+    "duration_factor": 2,
+    "forecast_confidence": null
+  }
+}

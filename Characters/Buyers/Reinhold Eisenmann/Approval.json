@@ -1,0 +1,13 @@
+{
+  "character": "Reinhold Eisenmann",
+  "version": "Base v1",
+  "status": "approved",
+  "date": "2026-09-28",
+  "userStatement": "approved",
+  "approvedFile": "D:/Storyboards/Isekai Mercenary Company/Characters/Buyers/Reinhold Eisenmann/Base.png",
+  "source": "D:/Codex/IMC/Buyers/Reinhold Eisenmann/Base v1/Base.png",
+  "sha256": "4f3a10877f2df8d45b818bf4254544f55c4fe91bcd79a83b7a108fefc7615493",
+  "master": "D:/Codex/IMC/Buyers/Reinhold Eisenmann/Base v1/Master.png",
+  "masterSHA256": "2e2e1a1cad13880f90f54674ef531375c620f11984656ce4758350c06ed7d2a8",
+  "runtimeIntegration": false
+}

@@ -1,0 +1,1963 @@
+{
+  "company_house/n.png": {
+    "source": "sources\\company_house-generated.png",
+    "source_size": [
+      1188,
+      1324
+    ],
+    "crop": [
+      45,
+      62,
+      543,
+      629
+    ],
+    "v1_windows": [
+      [
+        215,
+        155,
+        268,
+        217
+      ],
+      [
+        158,
+        366,
+        201,
+        424
+      ]
+    ],
+    "painted_windows": [
+      [
+        215,
+        156,
+        268,
+        218
+      ],
+      [
+        155,
+        364,
+        201,
+        421
+      ]
+    ],
+    "fit_command": [
+      "C:\\Users\\Tristixa-\\.codex\\skills\\sprite-gen\\.venv\\Scripts\\python.exe",
+      "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\scripts\\fit_face.py",
+      "--spec",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\facades-spec.json",
+      "--face",
+      "company_house/n.png",
+      "--source",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\crops\\company_house\\n.png",
+      "--output",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\company_house\\n.png"
+    ]
+  },
+  "company_house/e.png": {
+    "source": "sources\\company_house-generated.png",
+    "source_size": [
+      1188,
+      1324
+    ],
+    "crop": [
+      626,
+      336,
+      1144,
+      629
+    ],
+    "v1_windows": [
+      [
+        82,
+        139,
+        121,
+        174
+      ],
+      [
+        359,
+        139,
+        399,
+        174
+      ]
+    ],
+    "painted_windows": [
+      [
+        82,
+        132,
+        115,
+        172
+      ],
+      [
+        362,
+        132,
+        395,
+        172
+      ]
+    ],
+    "fit_command": [
+      "C:\\Users\\Tristixa-\\.codex\\skills\\sprite-gen\\.venv\\Scripts\\python.exe",
+      "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\scripts\\fit_face.py",
+      "--spec",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\facades-spec.json",
+      "--face",
+      "company_house/e.png",
+      "--source",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\crops\\company_house\\e.png",
+      "--output",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\company_house\\e.png"
+    ]
+  },
+  "company_house/s.png": {
+    "source": "sources\\company_house-generated.png",
+    "source_size": [
+      1188,
+      1324
+    ],
+    "crop": [
+      45,
+      708,
+      546,
+      1264
+    ],
+    "v1_windows": [
+      [
+        212,
+        155,
+        265,
+        217
+      ],
+      [
+        277,
+        366,
+        320,
+        424
+      ]
+    ],
+    "painted_windows": [
+      [
+        213,
+        157,
+        266,
+        220
+      ],
+      [
+        291,
+        358,
+        337,
+        416
+      ]
+    ],
+    "fit_command": [
+      "C:\\Users\\Tristixa-\\.codex\\skills\\sprite-gen\\.venv\\Scripts\\python.exe",
+      "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\scripts\\fit_face.py",
+      "--spec",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\facades-spec.json",
+      "--face",
+      "company_house/s.png",
+      "--source",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\crops\\company_house\\s.png",
+      "--output",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\company_house\\s.png"
+    ]
+  },
+  "company_house/w.png": {
+    "source": "sources\\company_house-generated.png",
+    "source_size": [
+      1188,
+      1324
+    ],
+    "crop": [
+      626,
+      972,
+      1144,
+      1264
+    ],
+    "v1_windows": [
+      [
+        117,
+        110,
+        159,
+        157
+      ],
+      [
+        323,
+        110,
+        364,
+        157
+      ]
+    ],
+    "painted_windows": [
+      [
+        322,
+        108,
+        361,
+        158
+      ],
+      [
+        118,
+        109,
+        157,
+        157
+      ]
+    ],
+    "fit_command": [
+      "C:\\Users\\Tristixa-\\.codex\\skills\\sprite-gen\\.venv\\Scripts\\python.exe",
+      "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\scripts\\fit_face.py",
+      "--spec",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\facades-spec.json",
+      "--face",
+      "company_house/w.png",
+      "--source",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\crops\\company_house\\w.png",
+      "--output",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\company_house\\w.png"
+    ]
+  },
+  "provisions/n.png": {
+    "source": "sources\\provisions-generated.png",
+    "source_size": [
+      1111,
+      1415
+    ],
+    "crop": [
+      42,
+      58,
+      513,
+      680
+    ],
+    "v1_windows": [
+      [
+        232,
+        161,
+        287,
+        231
+      ],
+      [
+        323,
+        365,
+        380,
+        432
+      ],
+      [
+        138,
+        377,
+        166,
+        427
+      ],
+      [
+        364,
+        547,
+        394,
+        579
+      ]
+    ],
+    "painted_windows": [
+      [
+        231,
+        161,
+        284,
+        223
+      ],
+      [
+        323,
+        363,
+        382,
+        428
+      ],
+      [
+        125,
+        364,
+        171,
+        426
+      ],
+      [
+        357,
+        542,
+        395,
+        577
+      ]
+    ],
+    "fit_command": [
+      "C:\\Users\\Tristixa-\\.codex\\skills\\sprite-gen\\.venv\\Scripts\\python.exe",
+      "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\scripts\\fit_face.py",
+      "--spec",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\facades-spec.json",
+      "--face",
+      "provisions/n.png",
+      "--source",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\crops\\provisions\\n.png",
+      "--output",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\provisions\\n.png"
+    ]
+  },
+  "provisions/e.png": {
+    "source": "sources\\provisions-generated.png",
+    "source_size": [
+      1111,
+      1415
+    ],
+    "crop": [
+      598,
+      314,
+      1069,
+      680
+    ],
+    "v1_windows": [
+      [
+        390,
+        94,
+        425,
+        158
+      ],
+      [
+        238,
+        98,
+        266,
+        146
+      ]
+    ],
+    "painted_windows": [
+      [
+        219,
+        89,
+        260,
+        146
+      ],
+      [
+        383,
+        89,
+        423,
+        145
+      ]
+    ],
+    "fit_command": [
+      "C:\\Users\\Tristixa-\\.codex\\skills\\sprite-gen\\.venv\\Scripts\\python.exe",
+      "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\scripts\\fit_face.py",
+      "--spec",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\facades-spec.json",
+      "--face",
+      "provisions/e.png",
+      "--source",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\crops\\provisions\\e.png",
+      "--output",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\provisions\\e.png"
+    ]
+  },
+  "provisions/s.png": {
+    "source": "sources\\provisions-generated.png",
+    "source_size": [
+      1111,
+      1415
+    ],
+    "crop": [
+      42,
+      764,
+      512,
+      1386
+    ],
+    "v1_windows": [
+      [
+        224,
+        161,
+        278,
+        231
+      ],
+      [
+        234,
+        378,
+        270,
+        430
+      ],
+      [
+        232,
+        549,
+        271,
+        585
+      ]
+    ],
+    "painted_windows": [
+      [
+        226,
+        162,
+        281,
+        232
+      ],
+      [
+        231,
+        362,
+        282,
+        416
+      ],
+      [
+        231,
+        540,
+        282,
+        578
+      ]
+    ],
+    "fit_command": [
+      "C:\\Users\\Tristixa-\\.codex\\skills\\sprite-gen\\.venv\\Scripts\\python.exe",
+      "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\scripts\\fit_face.py",
+      "--spec",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\facades-spec.json",
+      "--face",
+      "provisions/s.png",
+      "--source",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\crops\\provisions\\s.png",
+      "--output",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\provisions\\s.png"
+    ]
+  },
+  "provisions/w.png": {
+    "source": "sources\\provisions-generated.png",
+    "source_size": [
+      1111,
+      1415
+    ],
+    "crop": [
+      598,
+      1021,
+      1069,
+      1386
+    ],
+    "v1_windows": [
+      [
+        311,
+        94,
+        364,
+        158
+      ],
+      [
+        124,
+        97,
+        151,
+        145
+      ],
+      [
+        310,
+        260,
+        370,
+        303
+      ],
+      [
+        115,
+        264,
+        143,
+        294
+      ]
+    ],
+    "painted_windows": [
+      [
+        310,
+        84,
+        366,
+        141
+      ],
+      [
+        108,
+        88,
+        145,
+        136
+      ],
+      [
+        108,
+        258,
+        145,
+        293
+      ],
+      [
+        309,
+        259,
+        367,
+        298
+      ]
+    ],
+    "fit_command": [
+      "C:\\Users\\Tristixa-\\.codex\\skills\\sprite-gen\\.venv\\Scripts\\python.exe",
+      "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\scripts\\fit_face.py",
+      "--spec",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\facades-spec.json",
+      "--face",
+      "provisions/w.png",
+      "--source",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\crops\\provisions\\w.png",
+      "--output",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\provisions\\w.png"
+    ]
+  },
+  "repair_supply/n.png": {
+    "source": "sources\\repair_supply-generated.png",
+    "source_size": [
+      1371,
+      1147
+    ],
+    "crop": [
+      88,
+      48,
+      595,
+      549
+    ],
+    "v1_windows": [
+      [
+        288,
+        188,
+        354,
+        272
+      ],
+      [
+        400,
+        420,
+        430,
+        463
+      ],
+      [
+        439,
+        420,
+        470,
+        463
+      ],
+      [
+        172,
+        429,
+        208,
+        494
+      ],
+      [
+        400,
+        472,
+        430,
+        513
+      ],
+      [
+        439,
+        472,
+        470,
+        513
+      ]
+    ],
+    "painted_windows": [
+      [
+        288,
+        188,
+        356,
+        274
+      ],
+      [
+        400,
+        418,
+        472,
+        513
+      ],
+      [
+        169,
+        425,
+        211,
+        496
+      ]
+    ],
+    "fit_command": [
+      "C:\\Users\\Tristixa-\\.codex\\skills\\sprite-gen\\.venv\\Scripts\\python.exe",
+      "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\scripts\\fit_face.py",
+      "--spec",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\facades-spec.json",
+      "--face",
+      "repair_supply/n.png",
+      "--source",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\crops\\repair_supply\\n.png",
+      "--output",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\repair_supply\\n.png"
+    ]
+  },
+  "repair_supply/e.png": {
+    "source": "sources\\repair_supply-generated.png",
+    "source_size": [
+      1371,
+      1147
+    ],
+    "crop": [
+      722,
+      301,
+      1334,
+      549
+    ],
+    "v1_windows": [
+      [
+        596,
+        97,
+        629,
+        150
+      ],
+      [
+        139,
+        98,
+        172,
+        151
+      ]
+    ],
+    "painted_windows": [
+      [
+        136,
+        100,
+        172,
+        153
+      ],
+      [
+        592,
+        100,
+        628,
+        153
+      ]
+    ],
+    "fit_command": [
+      "C:\\Users\\Tristixa-\\.codex\\skills\\sprite-gen\\.venv\\Scripts\\python.exe",
+      "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\scripts\\fit_face.py",
+      "--spec",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\facades-spec.json",
+      "--face",
+      "repair_supply/e.png",
+      "--source",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\crops\\repair_supply\\e.png",
+      "--output",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\repair_supply\\e.png"
+    ]
+  },
+  "repair_supply/s.png": {
+    "source": "sources\\repair_supply-generated.png",
+    "source_size": [
+      1371,
+      1147
+    ],
+    "crop": [
+      88,
+      622,
+      595,
+      1121
+    ],
+    "v1_windows": [
+      [
+        287,
+        188,
+        353,
+        226
+      ],
+      [
+        287,
+        235,
+        353,
+        272
+      ],
+      [
+        170,
+        420,
+        201,
+        463
+      ],
+      [
+        210,
+        420,
+        240,
+        463
+      ],
+      [
+        431,
+        429,
+        469,
+        494
+      ],
+      [
+        170,
+        472,
+        201,
+        513
+      ],
+      [
+        210,
+        472,
+        241,
+        513
+      ]
+    ],
+    "painted_windows": [
+      [
+        288,
+        187,
+        355,
+        274
+      ],
+      [
+        169,
+        419,
+        242,
+        513
+      ],
+      [
+        431,
+        426,
+        472,
+        493
+      ]
+    ],
+    "fit_command": [
+      "C:\\Users\\Tristixa-\\.codex\\skills\\sprite-gen\\.venv\\Scripts\\python.exe",
+      "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\scripts\\fit_face.py",
+      "--spec",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\facades-spec.json",
+      "--face",
+      "repair_supply/s.png",
+      "--source",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\crops\\repair_supply\\s.png",
+      "--output",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\repair_supply\\s.png"
+    ]
+  },
+  "repair_supply/w.png": {
+    "source": "sources\\repair_supply-generated.png",
+    "source_size": [
+      1371,
+      1147
+    ],
+    "crop": [
+      722,
+      872,
+      1334,
+      1122
+    ],
+    "v1_windows": [
+      [
+        128,
+        107,
+        160,
+        158
+      ],
+      [
+        608,
+        107,
+        640,
+        158
+      ]
+    ],
+    "painted_windows": [
+      [
+        126,
+        103,
+        161,
+        156
+      ],
+      [
+        604,
+        106,
+        640,
+        159
+      ]
+    ],
+    "fit_command": [
+      "C:\\Users\\Tristixa-\\.codex\\skills\\sprite-gen\\.venv\\Scripts\\python.exe",
+      "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\scripts\\fit_face.py",
+      "--spec",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\facades-spec.json",
+      "--face",
+      "repair_supply/w.png",
+      "--source",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\crops\\repair_supply\\w.png",
+      "--output",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\repair_supply\\w.png"
+    ]
+  },
+  "lodging/n.png": {
+    "source": "sources\\lodging-fixed.png",
+    "source_size": [
+      1223,
+      1286
+    ],
+    "crop": [
+      42,
+      284,
+      571,
+      616
+    ],
+    "v1_windows": [
+      [
+        287,
+        87,
+        351,
+        159
+      ],
+      [
+        110,
+        95,
+        142,
+        145
+      ],
+      [
+        496,
+        95,
+        527,
+        145
+      ],
+      [
+        287,
+        255,
+        350,
+        308
+      ],
+      [
+        110,
+        260,
+        142,
+        296
+      ],
+      [
+        496,
+        260,
+        527,
+        296
+      ]
+    ],
+    "painted_windows": [
+      [
+        286,
+        91,
+        352,
+        147
+      ],
+      [
+        108,
+        95,
+        144,
+        152
+      ],
+      [
+        494,
+        95,
+        530,
+        151
+      ],
+      [
+        285,
+        256,
+        352,
+        306
+      ],
+      [
+        108,
+        259,
+        143,
+        299
+      ],
+      [
+        495,
+        259,
+        529,
+        300
+      ]
+    ],
+    "fit_command": [
+      "C:\\Users\\Tristixa-\\.codex\\skills\\sprite-gen\\.venv\\Scripts\\python.exe",
+      "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\scripts\\fit_face.py",
+      "--spec",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\facades-spec.json",
+      "--face",
+      "lodging/n.png",
+      "--source",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\crops\\lodging\\n.png",
+      "--output",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\lodging\\n.png"
+    ]
+  },
+  "lodging/e.png": {
+    "source": "sources\\lodging-fixed.png",
+    "source_size": [
+      1223,
+      1286
+    ],
+    "crop": [
+      703,
+      51,
+      1128,
+      616
+    ],
+    "v1_windows": [
+      [
+        235,
+        169,
+        284,
+        232
+      ],
+      [
+        133,
+        366,
+        173,
+        430
+      ],
+      [
+        340,
+        366,
+        382,
+        430
+      ],
+      [
+        340,
+        539,
+        382,
+        583
+      ],
+      [
+        133,
+        540,
+        173,
+        583
+      ]
+    ],
+    "painted_windows": [
+      [
+        233,
+        173,
+        284,
+        226
+      ],
+      [
+        129,
+        369,
+        173,
+        422
+      ],
+      [
+        341,
+        369,
+        383,
+        432
+      ],
+      [
+        129,
+        536,
+        173,
+        586
+      ],
+      [
+        341,
+        536,
+        383,
+        586
+      ]
+    ],
+    "fit_command": [
+      "C:\\Users\\Tristixa-\\.codex\\skills\\sprite-gen\\.venv\\Scripts\\python.exe",
+      "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\scripts\\fit_face.py",
+      "--spec",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\facades-spec.json",
+      "--face",
+      "lodging/e.png",
+      "--source",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\crops\\lodging\\e.png",
+      "--output",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\lodging\\e.png"
+    ]
+  },
+  "lodging/s.png": {
+    "source": "sources\\lodging-fixed.png",
+    "source_size": [
+      1223,
+      1286
+    ],
+    "crop": [
+      42,
+      926,
+      571,
+      1259
+    ],
+    "v1_windows": [
+      [
+        290,
+        87,
+        353,
+        159
+      ],
+      [
+        113,
+        95,
+        144,
+        145
+      ],
+      [
+        501,
+        95,
+        531,
+        145
+      ],
+      [
+        290,
+        255,
+        354,
+        308
+      ],
+      [
+        113,
+        260,
+        143,
+        296
+      ],
+      [
+        501,
+        260,
+        531,
+        296
+      ]
+    ],
+    "painted_windows": [
+      [
+        290,
+        91,
+        353,
+        155
+      ],
+      [
+        108,
+        95,
+        145,
+        141
+      ],
+      [
+        495,
+        95,
+        530,
+        152
+      ],
+      [
+        288,
+        253,
+        354,
+        299
+      ],
+      [
+        108,
+        256,
+        145,
+        299
+      ],
+      [
+        495,
+        256,
+        530,
+        299
+      ]
+    ],
+    "fit_command": [
+      "C:\\Users\\Tristixa-\\.codex\\skills\\sprite-gen\\.venv\\Scripts\\python.exe",
+      "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\scripts\\fit_face.py",
+      "--spec",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\facades-spec.json",
+      "--face",
+      "lodging/s.png",
+      "--source",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\crops\\lodging\\s.png",
+      "--output",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\lodging\\s.png"
+    ]
+  },
+  "lodging/w.png": {
+    "source": "sources\\lodging-fixed.png",
+    "source_size": [
+      1223,
+      1286
+    ],
+    "crop": [
+      703,
+      694,
+      1128,
+      1259
+    ],
+    "v1_windows": [
+      [
+        223,
+        169,
+        287,
+        232
+      ],
+      [
+        124,
+        366,
+        161,
+        430
+      ],
+      [
+        347,
+        366,
+        384,
+        430
+      ],
+      [
+        106,
+        524,
+        133,
+        566
+      ],
+      [
+        378,
+        524,
+        406,
+        566
+      ]
+    ],
+    "painted_windows": [
+      [
+        229,
+        172,
+        283,
+        226
+      ],
+      [
+        122,
+        367,
+        160,
+        429
+      ],
+      [
+        347,
+        367,
+        384,
+        429
+      ],
+      [
+        107,
+        531,
+        138,
+        572
+      ],
+      [
+        393,
+        531,
+        425,
+        572
+      ]
+    ],
+    "fit_command": [
+      "C:\\Users\\Tristixa-\\.codex\\skills\\sprite-gen\\.venv\\Scripts\\python.exe",
+      "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\scripts\\fit_face.py",
+      "--spec",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\facades-spec.json",
+      "--face",
+      "lodging/w.png",
+      "--source",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\crops\\lodging\\w.png",
+      "--output",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\lodging\\w.png"
+    ]
+  },
+  "stables/n.png": {
+    "source": "sources\\stables-generated.png",
+    "source_size": [
+      1574,
+      999
+    ],
+    "crop": [
+      47,
+      251,
+      741,
+      468
+    ],
+    "v1_windows": [],
+    "painted_windows": [],
+    "fit_command": [
+      "C:\\Users\\Tristixa-\\.codex\\skills\\sprite-gen\\.venv\\Scripts\\python.exe",
+      "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\scripts\\fit_face.py",
+      "--spec",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\facades-spec.json",
+      "--face",
+      "stables/n.png",
+      "--source",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\crops\\stables\\n.png",
+      "--output",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\stables\\n.png"
+    ]
+  },
+  "stables/e.png": {
+    "source": "sources\\stables-generated.png",
+    "source_size": [
+      1574,
+      999
+    ],
+    "crop": [
+      1004,
+      63,
+      1356,
+      468
+    ],
+    "v1_windows": [],
+    "painted_windows": [],
+    "fit_command": [
+      "C:\\Users\\Tristixa-\\.codex\\skills\\sprite-gen\\.venv\\Scripts\\python.exe",
+      "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\scripts\\fit_face.py",
+      "--spec",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\facades-spec.json",
+      "--face",
+      "stables/e.png",
+      "--source",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\crops\\stables\\e.png",
+      "--output",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\stables\\e.png"
+    ]
+  },
+  "stables/s.png": {
+    "source": "sources\\stables-generated.png",
+    "source_size": [
+      1574,
+      999
+    ],
+    "crop": [
+      47,
+      749,
+      741,
+      967
+    ],
+    "v1_windows": [],
+    "painted_windows": [],
+    "fit_command": [
+      "C:\\Users\\Tristixa-\\.codex\\skills\\sprite-gen\\.venv\\Scripts\\python.exe",
+      "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\scripts\\fit_face.py",
+      "--spec",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\facades-spec.json",
+      "--face",
+      "stables/s.png",
+      "--source",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\crops\\stables\\s.png",
+      "--output",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\stables\\s.png"
+    ]
+  },
+  "stables/w.png": {
+    "source": "sources\\stables-generated.png",
+    "source_size": [
+      1574,
+      999
+    ],
+    "crop": [
+      1002,
+      561,
+      1357,
+      967
+    ],
+    "v1_windows": [],
+    "painted_windows": [],
+    "fit_command": [
+      "C:\\Users\\Tristixa-\\.codex\\skills\\sprite-gen\\.venv\\Scripts\\python.exe",
+      "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\scripts\\fit_face.py",
+      "--spec",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\facades-spec.json",
+      "--face",
+      "stables/w.png",
+      "--source",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\crops\\stables\\w.png",
+      "--output",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\stables\\w.png"
+    ]
+  },
+  "guard_shelter/n.png": {
+    "source": "sources\\guard_shelter-generated.png",
+    "source_size": [
+      1097,
+      1434
+    ],
+    "crop": [
+      81,
+      110,
+      465,
+      662
+    ],
+    "v1_windows": [
+      [
+        99,
+        199,
+        127,
+        240
+      ]
+    ],
+    "painted_windows": [
+      [
+        98,
+        198,
+        127,
+        240
+      ]
+    ],
+    "fit_command": [
+      "C:\\Users\\Tristixa-\\.codex\\skills\\sprite-gen\\.venv\\Scripts\\python.exe",
+      "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\scripts\\fit_face.py",
+      "--spec",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\facades-spec.json",
+      "--face",
+      "guard_shelter/n.png",
+      "--source",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\crops\\guard_shelter\\n.png",
+      "--output",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\guard_shelter\\n.png"
+    ]
+  },
+  "guard_shelter/e.png": {
+    "source": "sources\\guard_shelter-generated.png",
+    "source_size": [
+      1097,
+      1434
+    ],
+    "crop": [
+      629,
+      318,
+      1016,
+      662
+    ],
+    "v1_windows": [
+      [
+        176,
+        69,
+        191,
+        102
+      ]
+    ],
+    "painted_windows": [
+      [
+        175,
+        72,
+        189,
+        103
+      ]
+    ],
+    "fit_command": [
+      "C:\\Users\\Tristixa-\\.codex\\skills\\sprite-gen\\.venv\\Scripts\\python.exe",
+      "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\scripts\\fit_face.py",
+      "--spec",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\facades-spec.json",
+      "--face",
+      "guard_shelter/e.png",
+      "--source",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\crops\\guard_shelter\\e.png",
+      "--output",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\guard_shelter\\e.png"
+    ]
+  },
+  "guard_shelter/s.png": {
+    "source": "sources\\guard_shelter-generated.png",
+    "source_size": [
+      1097,
+      1434
+    ],
+    "crop": [
+      81,
+      825,
+      465,
+      1378
+    ],
+    "v1_windows": [
+      [
+        97,
+        200,
+        126,
+        240
+      ]
+    ],
+    "painted_windows": [
+      [
+        97,
+        198,
+        127,
+        240
+      ]
+    ],
+    "fit_command": [
+      "C:\\Users\\Tristixa-\\.codex\\skills\\sprite-gen\\.venv\\Scripts\\python.exe",
+      "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\scripts\\fit_face.py",
+      "--spec",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\facades-spec.json",
+      "--face",
+      "guard_shelter/s.png",
+      "--source",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\crops\\guard_shelter\\s.png",
+      "--output",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\guard_shelter\\s.png"
+    ]
+  },
+  "guard_shelter/w.png": {
+    "source": "sources\\guard_shelter-generated.png",
+    "source_size": [
+      1097,
+      1434
+    ],
+    "crop": [
+      628,
+      1033,
+      1016,
+      1378
+    ],
+    "v1_windows": [],
+    "painted_windows": [],
+    "fit_command": [
+      "C:\\Users\\Tristixa-\\.codex\\skills\\sprite-gen\\.venv\\Scripts\\python.exe",
+      "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\scripts\\fit_face.py",
+      "--spec",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\facades-spec.json",
+      "--face",
+      "guard_shelter/w.png",
+      "--source",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\crops\\guard_shelter\\w.png",
+      "--output",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\guard_shelter\\w.png"
+    ]
+  },
+  "store_shed/n.png": {
+    "source": "sources\\store_shed-generated.png",
+    "source_size": [
+      1123,
+      1401
+    ],
+    "crop": [
+      83,
+      326,
+      479,
+      645
+    ],
+    "v1_windows": [],
+    "painted_windows": [],
+    "fit_command": [
+      "C:\\Users\\Tristixa-\\.codex\\skills\\sprite-gen\\.venv\\Scripts\\python.exe",
+      "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\scripts\\fit_face.py",
+      "--spec",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\facades-spec.json",
+      "--face",
+      "store_shed/n.png",
+      "--source",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\crops\\store_shed\\n.png",
+      "--output",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\store_shed\\n.png"
+    ]
+  },
+  "store_shed/e.png": {
+    "source": "sources\\store_shed-generated.png",
+    "source_size": [
+      1123,
+      1401
+    ],
+    "crop": [
+      643,
+      114,
+      1038,
+      645
+    ],
+    "v1_windows": [],
+    "painted_windows": [],
+    "fit_command": [
+      "C:\\Users\\Tristixa-\\.codex\\skills\\sprite-gen\\.venv\\Scripts\\python.exe",
+      "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\scripts\\fit_face.py",
+      "--spec",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\facades-spec.json",
+      "--face",
+      "store_shed/e.png",
+      "--source",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\crops\\store_shed\\e.png",
+      "--output",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\store_shed\\e.png"
+    ]
+  },
+  "store_shed/s.png": {
+    "source": "sources\\store_shed-generated.png",
+    "source_size": [
+      1123,
+      1401
+    ],
+    "crop": [
+      83,
+      1027,
+      479,
+      1343
+    ],
+    "v1_windows": [],
+    "painted_windows": [],
+    "fit_command": [
+      "C:\\Users\\Tristixa-\\.codex\\skills\\sprite-gen\\.venv\\Scripts\\python.exe",
+      "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\scripts\\fit_face.py",
+      "--spec",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\facades-spec.json",
+      "--face",
+      "store_shed/s.png",
+      "--source",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\crops\\store_shed\\s.png",
+      "--output",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\store_shed\\s.png"
+    ]
+  },
+  "store_shed/w.png": {
+    "source": "sources\\store_shed-generated.png",
+    "source_size": [
+      1123,
+      1401
+    ],
+    "crop": [
+      644,
+      814,
+      1039,
+      1343
+    ],
+    "v1_windows": [],
+    "painted_windows": [],
+    "fit_command": [
+      "C:\\Users\\Tristixa-\\.codex\\skills\\sprite-gen\\.venv\\Scripts\\python.exe",
+      "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\scripts\\fit_face.py",
+      "--spec",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\facades-spec.json",
+      "--face",
+      "store_shed/w.png",
+      "--source",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\crops\\store_shed\\w.png",
+      "--output",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\store_shed\\w.png"
+    ]
+  },
+  "gatehouse/n.png": {
+    "source": "sources\\gatehouse-generated.png",
+    "source_size": [
+      1478,
+      1064
+    ],
+    "crop": [
+      39,
+      123,
+      701,
+      506
+    ],
+    "v1_windows": [],
+    "painted_windows": [
+      [
+        118,
+        163,
+        131,
+        217
+      ],
+      [
+        660,
+        167,
+        673,
+        217
+      ]
+    ],
+    "fit_command": [
+      "C:\\Users\\Tristixa-\\.codex\\skills\\sprite-gen\\.venv\\Scripts\\python.exe",
+      "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\scripts\\fit_face.py",
+      "--spec",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\facades-spec.json",
+      "--face",
+      "gatehouse/n.png",
+      "--source",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\crops\\gatehouse\\n.png",
+      "--output",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\gatehouse\\n.png"
+    ]
+  },
+  "gatehouse/e.png": {
+    "source": "sources\\gatehouse-generated.png",
+    "source_size": [
+      1478,
+      1064
+    ],
+    "crop": [
+      1045,
+      51,
+      1172,
+      506
+    ],
+    "v1_windows": [],
+    "painted_windows": [],
+    "fit_command": [
+      "C:\\Users\\Tristixa-\\.codex\\skills\\sprite-gen\\.venv\\Scripts\\python.exe",
+      "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\scripts\\fit_face.py",
+      "--spec",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\facades-spec.json",
+      "--face",
+      "gatehouse/e.png",
+      "--source",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\crops\\gatehouse\\e.png",
+      "--output",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\gatehouse\\e.png"
+    ]
+  },
+  "gatehouse/s.png": {
+    "source": "sources\\gatehouse-generated.png",
+    "source_size": [
+      1478,
+      1064
+    ],
+    "crop": [
+      39,
+      654,
+      701,
+      1038
+    ],
+    "v1_windows": [],
+    "painted_windows": [],
+    "fit_command": [
+      "C:\\Users\\Tristixa-\\.codex\\skills\\sprite-gen\\.venv\\Scripts\\python.exe",
+      "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\scripts\\fit_face.py",
+      "--spec",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\facades-spec.json",
+      "--face",
+      "gatehouse/s.png",
+      "--source",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\crops\\gatehouse\\s.png",
+      "--output",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\gatehouse\\s.png"
+    ]
+  },
+  "gatehouse/w.png": {
+    "source": "sources\\gatehouse-generated.png",
+    "source_size": [
+      1478,
+      1064
+    ],
+    "crop": [
+      1045,
+      584,
+      1172,
+      1038
+    ],
+    "v1_windows": [],
+    "painted_windows": [],
+    "fit_command": [
+      "C:\\Users\\Tristixa-\\.codex\\skills\\sprite-gen\\.venv\\Scripts\\python.exe",
+      "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\scripts\\fit_face.py",
+      "--spec",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\facades-spec.json",
+      "--face",
+      "gatehouse/w.png",
+      "--source",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\crops\\gatehouse\\w.png",
+      "--output",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\gatehouse\\w.png"
+    ]
+  },
+  "house_violet/n.png": {
+    "source": "sources\\house_violet-generated.png",
+    "source_size": [
+      1165,
+      1350
+    ],
+    "crop": [
+      46,
+      251,
+      538,
+      644
+    ],
+    "v1_windows": [
+      [
+        317,
+        82,
+        373,
+        153
+      ],
+      [
+        120,
+        88,
+        148,
+        135
+      ],
+      [
+        317,
+        255,
+        373,
+        307
+      ],
+      [
+        118,
+        262,
+        146,
+        295
+      ]
+    ],
+    "painted_windows": [
+      [
+        318,
+        86,
+        378,
+        155
+      ],
+      [
+        118,
+        91,
+        148,
+        142
+      ],
+      [
+        316,
+        257,
+        378,
+        308
+      ],
+      [
+        116,
+        262,
+        146,
+        297
+      ]
+    ],
+    "fit_command": [
+      "C:\\Users\\Tristixa-\\.codex\\skills\\sprite-gen\\.venv\\Scripts\\python.exe",
+      "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\scripts\\fit_face.py",
+      "--spec",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\facades-spec.json",
+      "--face",
+      "house_violet/n.png",
+      "--source",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\crops\\house_violet\\n.png",
+      "--output",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\house_violet\\n.png"
+    ]
+  },
+  "house_violet/e.png": {
+    "source": "sources\\house_violet-generated.png",
+    "source_size": [
+      1165,
+      1350
+    ],
+    "crop": [
+      683,
+      42,
+      1063,
+      644
+    ],
+    "v1_windows": [
+      [
+        173,
+        118,
+        212,
+        169
+      ],
+      [
+        240,
+        289,
+        284,
+        363
+      ],
+      [
+        91,
+        298,
+        111,
+        346
+      ],
+      [
+        240,
+        466,
+        284,
+        519
+      ],
+      [
+        89,
+        471,
+        110,
+        504
+      ]
+    ],
+    "painted_windows": [
+      [
+        171,
+        133,
+        210,
+        184
+      ],
+      [
+        234,
+        296,
+        286,
+        364
+      ],
+      [
+        90,
+        302,
+        116,
+        352
+      ],
+      [
+        234,
+        468,
+        286,
+        519
+      ],
+      [
+        89,
+        473,
+        116,
+        510
+      ]
+    ],
+    "fit_command": [
+      "C:\\Users\\Tristixa-\\.codex\\skills\\sprite-gen\\.venv\\Scripts\\python.exe",
+      "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\scripts\\fit_face.py",
+      "--spec",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\facades-spec.json",
+      "--face",
+      "house_violet/e.png",
+      "--source",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\crops\\house_violet\\e.png",
+      "--output",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\house_violet\\e.png"
+    ]
+  },
+  "house_violet/s.png": {
+    "source": "sources\\house_violet-generated.png",
+    "source_size": [
+      1165,
+      1350
+    ],
+    "crop": [
+      44,
+      915,
+      542,
+      1313
+    ],
+    "v1_windows": [
+      [
+        331,
+        82,
+        383,
+        153
+      ],
+      [
+        118,
+        88,
+        143,
+        135
+      ],
+      [
+        108,
+        259,
+        133,
+        293
+      ],
+      [
+        382,
+        259,
+        408,
+        293
+      ]
+    ],
+    "painted_windows": [
+      [
+        319,
+        84,
+        383,
+        147
+      ],
+      [
+        113,
+        87,
+        143,
+        136
+      ],
+      [
+        104,
+        253,
+        133,
+        292
+      ],
+      [
+        376,
+        253,
+        405,
+        293
+      ]
+    ],
+    "fit_command": [
+      "C:\\Users\\Tristixa-\\.codex\\skills\\sprite-gen\\.venv\\Scripts\\python.exe",
+      "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\scripts\\fit_face.py",
+      "--spec",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\facades-spec.json",
+      "--face",
+      "house_violet/s.png",
+      "--source",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\crops\\house_violet\\s.png",
+      "--output",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\house_violet\\s.png"
+    ]
+  },
+  "house_violet/w.png": {
+    "source": "sources\\house_violet-generated.png",
+    "source_size": [
+      1165,
+      1350
+    ],
+    "crop": [
+      682,
+      713,
+      1063,
+      1313
+    ],
+    "v1_windows": [
+      [
+        171,
+        118,
+        211,
+        169
+      ],
+      [
+        238,
+        289,
+        282,
+        363
+      ],
+      [
+        92,
+        298,
+        113,
+        346
+      ],
+      [
+        238,
+        466,
+        282,
+        519
+      ],
+      [
+        91,
+        471,
+        112,
+        504
+      ]
+    ],
+    "painted_windows": [
+      [
+        172,
+        130,
+        211,
+        182
+      ],
+      [
+        236,
+        293,
+        285,
+        360
+      ],
+      [
+        91,
+        299,
+        117,
+        347
+      ],
+      [
+        236,
+        463,
+        283,
+        513
+      ],
+      [
+        91,
+        466,
+        116,
+        505
+      ]
+    ],
+    "fit_command": [
+      "C:\\Users\\Tristixa-\\.codex\\skills\\sprite-gen\\.venv\\Scripts\\python.exe",
+      "D:\\Godot Projects\\IMC-Companion-Skill-Environment\\scripts\\fit_face.py",
+      "--spec",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\facades-spec.json",
+      "--face",
+      "house_violet/w.png",
+      "--source",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\sources\\crops\\house_violet\\w.png",
+      "--output",
+      "D:\\Codex\\IMC\\runs\\facades-v2\\house_violet\\w.png"
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "character": "Reinhold Eisenmann",
+  "version": "Expressions v1",
+  "status": "approved",
+  "date": "2026-09-28",
+  "userStatement": "approved",
+  "scope": "All seven delivered expression portraits, including selected revised Doubtful and Irritated; initial alternatives excluded.",
+  "files": [
+    {
+      "file": "Pleased.png",
+      "sha256": "93804193a52e6c27414484c4008b45d8e4ef73b7e28e7f0cb454a4ee600a0ac3",
+      "source": "D:/Codex/IMC/Buyers/Reinhold Eisenmann/Expressions v1/Pleased.png",
+      "master": "D:/Codex/IMC/Buyers/Reinhold Eisenmann/Expressions v1/Masters/Pleased.png",
+      "masterSHA256": "3f5bba96f4e69684367a55e22e60cc3fb1f003d99be5b4f55dfd38946576a9b7"
+    },
+    {
+      "file": "Considering.png",
+      "sha256": "7d08b68ffb3052cde58d37b7d76218a87e908e6f9888921e8adf61f7b1eeb03e",
+      "source": "D:/Codex/IMC/Buyers/Reinhold Eisenmann/Expressions v1/Considering.png",
+      "master": "D:/Codex/IMC/Buyers/Reinhold Eisenmann/Expressions v1/Masters/Considering.png",
+      "masterSHA256": "8c25ce6b6ca015f101e9305cd617ef59fa426f2e2ec577dddceb9d20e6306fbd"
+    },
+    {
+      "file": "Doubtful.png",
+      "sha256": "8ef9d811b26fb32c9a4dc1da6543bb01a1ea7a71c54242414626dd04ccff24c4",
+      "source": "D:/Codex/IMC/Buyers/Reinhold Eisenmann/Expressions v1/Doubtful.png",
+      "master": "D:/Codex/IMC/Buyers/Reinhold Eisenmann/Expressions v1/Masters/Doubtful.png",
+      "masterSHA256": "b434b540296f7d5e9171c312b7067a199e20efab8e87333d89d79252f0524aac"
+    },
+    {
+      "file": "Irritated.png",
+      "sha256": "7c9007791026c31f9204190af011ac786b89357d869678c7d92acc4ecb5a7a91",
+      "source": "D:/Codex/IMC/Buyers/Reinhold Eisenmann/Expressions v1/Irritated.png",
+      "master": "D:/Codex/IMC/Buyers/Reinhold Eisenmann/Expressions v1/Masters/Irritated.png",
+      "masterSHA256": "85d3fbf9a3b1d87d06d8d9e802231e59f3c28218aab4216b2b75406604374960"
+    },
+    {
+      "file": "Surprised.png",
+      "sha256": "095ebe597e0d7c30d69efd740064943b8123e289790e43f7f3adc25289fb835f",
+      "source": "D:/Codex/IMC/Buyers/Reinhold Eisenmann/Expressions v1/Surprised.png",
+      "master": "D:/Codex/IMC/Buyers/Reinhold Eisenmann/Expressions v1/Masters/Surprised.png",
+      "masterSHA256": "9a3e5d21534a820a33ffec7659779e54a06766028dea78d19c0a00de91a4f3e3"
+    },
+    {
+      "file": "Deal.png",
+      "sha256": "45db7c7278fc1cb6b7c9979aaca67de1fecf07216995792b0e68b3b1ac1332dc",
+      "source": "D:/Codex/IMC/Buyers/Reinhold Eisenmann/Expressions v1/Deal.png",
+      "master": "D:/Codex/IMC/Buyers/Reinhold Eisenmann/Expressions v1/Masters/Deal.png",
+      "masterSHA256": "39c890e28466f3be2cfc1837fa2926b2d4151efa57b1feaebc9b0b6555f2164b"
+    },
+    {
+      "file": "WalkAway.png",
+      "sha256": "cd8a4f942251afd4bdff00bcc27bd908c7abc87269ec51dbaca46aeb7a6654da",
+      "source": "D:/Codex/IMC/Buyers/Reinhold Eisenmann/Expressions v1/WalkAway.png",
+      "master": "D:/Codex/IMC/Buyers/Reinhold Eisenmann/Expressions v1/Masters/WalkAway.png",
+      "masterSHA256": "73267dfabaa863bce159ea939d0ed66040ef495441ac15e33ad4440ded7a7c6c"
+    }
+  ],
+  "runtimeIntegration": false
+}

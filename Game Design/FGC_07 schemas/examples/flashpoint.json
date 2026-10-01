@@ -1,0 +1,56 @@
+{
+  "id": "mosswood_chimera_flashpoint",
+  "region": "eurydica",
+  "rev": 1,
+  "name": "Hylaea Chimera",
+  "gdd": [
+    "11.4"
+  ],
+  "authoring_status": "specified",
+  "missing_fields": [],
+  "gate": {
+    "all": [
+      {
+        "fact": "chapter",
+        "cmp": "gte",
+        "value": 2
+      },
+      {
+        "fact": "guild_rank",
+        "cmp": "gte",
+        "value": "e"
+      },
+      {
+        "fact": "reputation",
+        "cmp": "gte",
+        "value": 300
+      }
+    ]
+  },
+  "boss_id": "mosswood_chimera",
+  "approach_seconds": 1800,
+  "reward": {
+    "gold": 900,
+    "reputation": 250,
+    "effects": []
+  },
+  "completion_flag": "chimera_cleared",
+  "aftermath": [
+    {
+      "op": "set",
+      "target": "mosswood_scout_base_risk",
+      "value": 0.005,
+      "duration_actions": null
+    },
+    {
+      "op": "set",
+      "target": "mosswood_target_share",
+      "value": 0.85,
+      "duration_actions": null
+    }
+  ],
+  "offer_duration_seconds": null,
+  "failure_rep": 0,
+  "repeat_reward": false,
+  "guest_ids": []
+}

@@ -1,0 +1,156 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "hq_upgrade.schema.json",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "region": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "rev": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "gdd": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "authoring_status": {
+      "enum": [
+        "specified",
+        "incomplete"
+      ]
+    },
+    "missing_fields": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "preview_gate": {
+      "$ref": "shared.schema.json#/$defs/predicate"
+    },
+    "purchase_gate": {
+      "$ref": "shared.schema.json#/$defs/predicate"
+    },
+    "inputs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "item_id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+          },
+          "quantity": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "min_quality": {
+            "enum": [
+              "unsellable",
+              "damaged",
+              "standard",
+              "pristine"
+            ]
+          }
+        },
+        "required": [
+          "item_id",
+          "quantity",
+          "min_quality"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "fee_g": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "duration_seconds": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "effects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "op": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+          },
+          "target": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+          },
+          "value": {
+            "type": [
+              "number",
+              "string",
+              "boolean"
+            ]
+          },
+          "duration_actions": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": 1
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "op",
+          "target",
+          "value",
+          "duration_actions"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "unique": {
+      "const": true
+    },
+    "refund_before_completion": {
+      "const": true
+    }
+  },
+  "required": [
+    "id",
+    "region",
+    "rev",
+    "name",
+    "gdd",
+    "authoring_status",
+    "missing_fields",
+    "preview_gate",
+    "purchase_gate",
+    "inputs",
+    "fee_g",
+    "duration_seconds",
+    "effects",
+    "unique",
+    "refund_before_completion"
+  ],
+  "additionalProperties": false
+}

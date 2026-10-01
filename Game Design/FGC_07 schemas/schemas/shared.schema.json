@@ -1,0 +1,703 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "shared.schema.json",
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "stats": {
+      "type": "object",
+      "properties": {
+        "hp": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "atk": {
+          "type": "number",
+          "minimum": 0
+        },
+        "def": {
+          "type": "number",
+          "minimum": 0
+        },
+        "rate": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      },
+      "required": [
+        "hp",
+        "atk",
+        "def",
+        "rate"
+      ],
+      "additionalProperties": false
+    },
+    "quality": {
+      "enum": [
+        "unsellable",
+        "damaged",
+        "standard",
+        "pristine"
+      ]
+    },
+    "amount": {
+      "type": "object",
+      "properties": {
+        "item_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+        },
+        "quantity": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "min_quality": {
+          "enum": [
+            "unsellable",
+            "damaged",
+            "standard",
+            "pristine"
+          ]
+        }
+      },
+      "required": [
+        "item_id",
+        "quantity",
+        "min_quality"
+      ],
+      "additionalProperties": false
+    },
+    "effect": {
+      "type": "object",
+      "properties": {
+        "op": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+        },
+        "target": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+        },
+        "value": {
+          "type": [
+            "number",
+            "string",
+            "boolean"
+          ]
+        },
+        "duration_actions": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "op",
+        "target",
+        "value",
+        "duration_actions"
+      ],
+      "additionalProperties": false
+    },
+    "predicate": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "all": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/predicate"
+              },
+              "minItems": 0
+            }
+          },
+          "required": [
+            "all"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "any": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/predicate"
+              },
+              "minItems": 1
+            }
+          },
+          "required": [
+            "any"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "fact": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+            },
+            "cmp": {
+              "enum": [
+                "eq",
+                "gte",
+                "lte",
+                "contains",
+                "not_contains"
+              ]
+            },
+            "value": {
+              "type": [
+                "string",
+                "number",
+                "boolean"
+              ]
+            }
+          },
+          "required": [
+            "fact",
+            "cmp",
+            "value"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "reward": {
+      "type": "object",
+      "properties": {
+        "gold": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "reputation": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "effects": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "op": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+              },
+              "target": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+              },
+              "value": {
+                "type": [
+                  "number",
+                  "string",
+                  "boolean"
+                ]
+              },
+              "duration_actions": {
+                "anyOf": [
+                  {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "op",
+              "target",
+              "value",
+              "duration_actions"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "gold",
+        "reputation",
+        "effects"
+      ],
+      "additionalProperties": false
+    },
+    "footprint": {
+      "type": "object",
+      "properties": {
+        "width": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "rotatable": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "width",
+        "height",
+        "rotatable"
+      ],
+      "additionalProperties": false
+    },
+    "skill": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "meter_role": {
+          "enum": [
+            "attacker",
+            "defender",
+            "mage"
+          ]
+        },
+        "target": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+        },
+        "coefficient": {
+          "type": "number",
+          "minimum": 0
+        },
+        "effects": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "op": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+              },
+              "target": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+              },
+              "value": {
+                "type": [
+                  "number",
+                  "string",
+                  "boolean"
+                ]
+              },
+              "duration_actions": {
+                "anyOf": [
+                  {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "op",
+              "target",
+              "value",
+              "duration_actions"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "name",
+        "meter_role",
+        "target",
+        "coefficient",
+        "effects"
+      ],
+      "additionalProperties": false
+    },
+    "perk": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "effects": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "op": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+              },
+              "target": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+              },
+              "value": {
+                "type": [
+                  "number",
+                  "string",
+                  "boolean"
+                ]
+              },
+              "duration_actions": {
+                "anyOf": [
+                  {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "op",
+              "target",
+              "value",
+              "duration_actions"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "effects"
+      ],
+      "additionalProperties": false
+    },
+    "transition": {
+      "type": "object",
+      "properties": {
+        "from": {
+          "enum": [
+            "hidden",
+            "offered",
+            "accepted",
+            "completed",
+            "expired",
+            "failed"
+          ]
+        },
+        "trigger": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+        },
+        "to": {
+          "enum": [
+            "hidden",
+            "offered",
+            "accepted",
+            "completed",
+            "expired",
+            "failed"
+          ]
+        },
+        "guard": {
+          "$ref": "#/$defs/predicate"
+        },
+        "effects": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "op": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+              },
+              "target": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+              },
+              "value": {
+                "type": [
+                  "number",
+                  "string",
+                  "boolean"
+                ]
+              },
+              "duration_actions": {
+                "anyOf": [
+                  {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "op",
+              "target",
+              "value",
+              "duration_actions"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "from",
+        "trigger",
+        "to",
+        "guard",
+        "effects"
+      ],
+      "additionalProperties": false
+    },
+    "alternative": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+        },
+        "eligible": {
+          "$ref": "#/$defs/predicate"
+        },
+        "inputs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "item_id": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+              },
+              "quantity": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "min_quality": {
+                "enum": [
+                  "unsellable",
+                  "damaged",
+                  "standard",
+                  "pristine"
+                ]
+              }
+            },
+            "required": [
+              "item_id",
+              "quantity",
+              "min_quality"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 1
+        },
+        "release_normal_reservation": {
+          "type": "boolean"
+        },
+        "once": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id",
+        "eligible",
+        "inputs",
+        "release_normal_reservation",
+        "once"
+      ],
+      "additionalProperties": false
+    },
+    "template_fields": {
+      "type": "object",
+      "properties": {
+        "field": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+        },
+        "value_type": {
+          "enum": [
+            "integer",
+            "number",
+            "string",
+            "boolean",
+            "array",
+            "object"
+          ]
+        },
+        "required": {
+          "type": "boolean"
+        },
+        "constraint": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "field",
+        "value_type",
+        "required",
+        "constraint"
+      ],
+      "additionalProperties": false
+    },
+    "modifier_choice": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+        },
+        "track": {
+          "enum": [
+            "power",
+            "toughness",
+            "speed",
+            "focus"
+          ]
+        },
+        "rank": {
+          "enum": [
+            1,
+            2
+          ]
+        },
+        "required_level": {
+          "enum": [
+            5,
+            8
+          ]
+        },
+        "requires": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "effects": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "op": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+              },
+              "target": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+              },
+              "value": {
+                "type": [
+                  "number",
+                  "string",
+                  "boolean"
+                ]
+              },
+              "duration_actions": {
+                "anyOf": [
+                  {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "op",
+              "target",
+              "value",
+              "duration_actions"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "id",
+        "track",
+        "rank",
+        "required_level",
+        "requires",
+        "effects"
+      ],
+      "additionalProperties": false
+    },
+    "tactic": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+        },
+        "eligible": {
+          "$ref": "#/$defs/predicate"
+        },
+        "effective_when": {
+          "$ref": "#/$defs/predicate"
+        },
+        "acceptance_delta": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "patience_cost": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 0
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "eligible",
+        "effective_when",
+        "acceptance_delta",
+        "patience_cost"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

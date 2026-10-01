@@ -50,7 +50,7 @@ Information, logistics, preparation, timing, morale, trust, and ordinary work ma
 ### Stable world facts
 
 - Eurydica is the central settlement and parent world/map layer.
-- The established playable regions are Mosswood Forest, Amber Marsh, and Redstone Highlands.
+- The established playable regions are Hylaea Forest, Bernmoor, and Erythra Highlands.
 - Eurydica has markets, no adventurer's guild (the gap the Company fills), couriers, gates, food service, water and garden keepers, patrols, small businesses, and regional supply routes.
 - The Company headquarters is a physical working building with command, preparation, processing, information, commerce, workshop, contract, rest, and meal spaces.
 - Officers represent departments: Tristitia for command/company vice, Elsie for adventurers and expeditions, Steady Mae for processing, Fulker for the workshop, Liliana for information, and Valerie for commerce.
@@ -84,7 +84,7 @@ The world itself takes causality seriously. Actions have consequences, instituti
 
 The camera is selective. Show the effects of hardship more often than graphic suffering: empty farms, closed inns, scarce food, tired hunters, repaired fences, delayed shipments, or people waiting for someone to return. IMC can acknowledge darkness without lingering on cruelty. The focus should remain on how ordinary people continue living within the world.
 
-Institutions should be understood through purpose before legal detail. In the later Frontier phase, the Company/Guild's important function becomes preserving trustworthy knowledge of the Frontier. Terms such as **Guild Verified**, **relay record**, **certified route**, and **trusted report** should enter ordinary conversation only after the Chapter 7 transition, when the Alliance of Nations gives the Company responsibility for exploration and verification. During the Eurydica phase, do not treat these terms as an established Company authority or assume one institution controls reliable knowledge. The player should understand what verification means before receiving a lecture about the laws behind it.
+Institutions should be understood through purpose before legal detail. In the later Frontier phase, the Company/Guild's important function becomes preserving trustworthy knowledge of the Frontier. Terms such as **Guild Verified**, **relay record**, **certified route**, and **trusted report** should enter ordinary conversation only after the later Frontier transition, when the Alliance of Nations gives the Company responsibility for exploration and verification. During the Eurydica phase, do not treat these terms as an established Company authority or assume one institution controls reliable knowledge. The player should understand what verification means before receiving a lecture about the laws behind it.
 
 Use the worldbuilding direction's “imply, don't explain” rule. Details may remain unexplored when explaining them would not create an interesting scene, meaningful gameplay, stronger identity, support an important mechanic, or deepen a recurring character or institution. A believable world is not one where every question has an answer; it is one where every answer feels like it belongs.
 
@@ -102,9 +102,9 @@ Early Access should stay centered on Eurydica first. The Company is being formed
 
 Do not make the early-access story feel like it is impatient to leave Eurydica. The local phase is not a prologue to the real game; it is where the Company becomes emotionally and institutionally meaningful.
 
-#### Future transition: around Chapter 6 or 7
+#### Future transition: Chapter 3 (the move to the Frontier)
 
-The frontier is a future story horizon, not a fully explored current setting. Around Chapter 6 or 7, subject to revision, the Company may move its base to a city near the frontier. The Alliance of Nations can then direct the Company toward becoming an organization responsible for the exploration and verification of the Frontier. Beginning around Chapter 7, the Company/Guild can start becoming the sole recognized verification source for the Frontier. This is when standardized terms such as **Guild Verified**, **certified route**, **relay record**, and **trusted report** should begin entering common institutional language.
+The frontier is a future story horizon, not a fully explored current setting. Eurydica is Chapters 1–2 (owner, 2026-09-28). At the start of Chapter 3 the Company moves its base to a city near the frontier. The Alliance of Nations can then direct the Company toward becoming an organization responsible for the exploration and verification of the Frontier. In a later Frontier chapter (to be placed when the Frontier story is planned), the Company/Guild can start becoming the sole recognized verification source for the Frontier. This is when standardized terms such as **Guild Verified**, **certified route**, **relay record**, and **trusted report** should begin entering common institutional language.
 
 This is a change in scale, not a replacement of identity. The Company moves from proving that it can function in Eurydica to proving that it can be trusted with uncertain territory, incomplete maps, dangerous routes, and competing interests.
 
@@ -308,7 +308,7 @@ Humor must be character-specific. Do not give every officer the same quick bante
 
 **Avoid:** Cowboy slang, bubbly encouragement, constant teasing, or making her cold because she does not care.
 
-### IMC Elsie
+### Elsie Rodger
 
 **Status:** Explicit user correction plus working identity; do not merge with Chasm of Hope Elsie.
 
@@ -332,7 +332,7 @@ Humor must be character-specific. Do not give every officer the same quick bante
 
 **Avoid absolutely:** “Partner,” “pardner,” western drawl, bounty-hunter identity, gunslinger swagger, and copying Chasm Elsie's exact voice. Transferable warmth, restrained sincerity, and companion-like attachment must be expressed through IMC Elsie's army history, freedom ethic, and expedition responsibility.
 
-### Steady Mae
+### Steady Mae (Mae Tanner)
 
 **Status:** Early concept with a strong identity foundation.
 
@@ -384,15 +384,15 @@ Humor must be character-specific. Do not give every officer the same quick bante
 
 **Dialogue test:** If she sounds merely timid, add intelligence. If she sounds like a flawless expert, add the communication stumble. If she sounds like a fool, rewrite.
 
-### Fulker
+### Sigrid Fulker (called Fulker)
 
 **Status:** Role established; personality not yet canonized in the current character sheet.
 
-**Role:** Chief of Craftsman / workshop chief. Fulker is a woman (owner, 2026-09-28).
+**Role:** Chief of Craftsman / workshop chief. Fulker is a woman (owner, 2026-09-28). Her full name is Sigrid Fulker, but she prefers her surname, so everyone, and every nameplate, calls her Fulker.
 
 **Current rule:** Keep her functionally grounded until her identity is defined. He can discuss tools, material limits, repairs, production time, and workshop standards, but do not invent a stable humor style, backstory, or emotional arc and present it as settled.
 
-### Valerie
+### Valerie Kaufmann
 
 **Status:** Role established; personality not yet canonized in the current character sheet.
 

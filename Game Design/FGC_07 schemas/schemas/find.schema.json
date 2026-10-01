@@ -1,0 +1,142 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "find.schema.json",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "region": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "rev": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "gdd": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "authoring_status": {
+      "enum": [
+        "specified",
+        "incomplete"
+      ]
+    },
+    "missing_fields": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "area_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "kind": {
+      "enum": [
+        "path",
+        "den",
+        "landmark",
+        "hint",
+        "rare_sighting"
+      ]
+    },
+    "weight": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "gate": {
+      "$ref": "shared.schema.json#/$defs/predicate"
+    },
+    "unique_scope": {
+      "enum": [
+        "area",
+        "unidentified_species",
+        "active_or_reserved_sighting"
+      ]
+    },
+    "monster_id": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "effects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "op": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+          },
+          "target": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+          },
+          "value": {
+            "type": [
+              "number",
+              "string",
+              "boolean"
+            ]
+          },
+          "duration_actions": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": 1
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "op",
+          "target",
+          "value",
+          "duration_actions"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    }
+  },
+  "required": [
+    "id",
+    "region",
+    "rev",
+    "name",
+    "gdd",
+    "authoring_status",
+    "missing_fields",
+    "area_id",
+    "kind",
+    "weight",
+    "gate",
+    "unique_scope",
+    "monster_id",
+    "effects"
+  ],
+  "additionalProperties": false
+}

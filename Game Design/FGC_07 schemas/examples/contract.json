@@ -1,0 +1,50 @@
+{
+  "id": "eur_sub_02",
+  "region": "eurydica",
+  "rev": 1,
+  "name": "Damaged deliveries",
+  "gdd": [
+    "11.3"
+  ],
+  "authoring_status": "specified",
+  "missing_fields": [],
+  "source_id": "EUR-SUB-02",
+  "client_id": "beren",
+  "gate": {
+    "all": [
+      {
+        "fact": "m08",
+        "cmp": "eq",
+        "value": true
+      },
+      {
+        "fact": "guild_rank",
+        "cmp": "gte",
+        "value": "f"
+      },
+      {
+        "fact": "known_species",
+        "cmp": "contains",
+        "value": "dire_boar"
+      }
+    ]
+  },
+  "encounter": [
+    {
+      "monster_id": "dire_boar",
+      "count": 2
+    }
+  ],
+  "approach_seconds": 1800,
+  "offer_duration_seconds": 259200,
+  "reoffer_wait_seconds": 604800,
+  "reward": {
+    "gold": 140,
+    "reputation": 20,
+    "effects": []
+  },
+  "completion_flag": "eur_sub_02_completed",
+  "accepted_failure_rep": 10,
+  "random_groups": false,
+  "random_variants": false
+}

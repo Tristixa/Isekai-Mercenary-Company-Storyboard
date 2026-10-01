@@ -1,0 +1,278 @@
+[
+  {
+    "name": "grass-tuft-a",
+    "atlas_rect_xywh": [
+      0,
+      0,
+      384,
+      341
+    ],
+    "content_bbox_local": [
+      80,
+      131,
+      320,
+      306
+    ],
+    "width_m": 0.55,
+    "height_m": 0.24,
+    "anchor_local": [
+      200,
+      306
+    ],
+    "camera_pitch_deg": 40,
+    "shadow": "none"
+  },
+  {
+    "name": "grass-tuft-b",
+    "atlas_rect_xywh": [
+      384,
+      0,
+      384,
+      341
+    ],
+    "content_bbox_local": [
+      66,
+      127,
+      298,
+      311
+    ],
+    "width_m": 0.6,
+    "height_m": 0.25,
+    "anchor_local": [
+      182,
+      311
+    ],
+    "camera_pitch_deg": 40,
+    "shadow": "none"
+  },
+  {
+    "name": "moss-patch-a",
+    "atlas_rect_xywh": [
+      768,
+      0,
+      384,
+      341
+    ],
+    "content_bbox_local": [
+      18,
+      150,
+      330,
+      309
+    ],
+    "width_m": 0.8,
+    "height_m": 0.035,
+    "anchor_local": [
+      174,
+      309
+    ],
+    "camera_pitch_deg": 40,
+    "shadow": "none"
+  },
+  {
+    "name": "moss-patch-b",
+    "atlas_rect_xywh": [
+      1152,
+      0,
+      384,
+      341
+    ],
+    "content_bbox_local": [
+      11,
+      158,
+      333,
+      327
+    ],
+    "width_m": 0.85,
+    "height_m": 0.035,
+    "anchor_local": [
+      172,
+      327
+    ],
+    "camera_pitch_deg": 40,
+    "shadow": "none"
+  },
+  {
+    "name": "pebbles-a",
+    "atlas_rect_xywh": [
+      0,
+      341,
+      384,
+      341
+    ],
+    "content_bbox_local": [
+      79,
+      109,
+      328,
+      267
+    ],
+    "width_m": 0.6,
+    "height_m": 0.06,
+    "anchor_local": [
+      204,
+      267
+    ],
+    "camera_pitch_deg": 40,
+    "shadow": "none"
+  },
+  {
+    "name": "pebbles-b",
+    "atlas_rect_xywh": [
+      384,
+      341,
+      384,
+      341
+    ],
+    "content_bbox_local": [
+      56,
+      117,
+      306,
+      262
+    ],
+    "width_m": 0.65,
+    "height_m": 0.06,
+    "anchor_local": [
+      181,
+      262
+    ],
+    "camera_pitch_deg": 40,
+    "shadow": "none"
+  },
+  {
+    "name": "weed-clover",
+    "atlas_rect_xywh": [
+      768,
+      341,
+      384,
+      341
+    ],
+    "content_bbox_local": [
+      25,
+      112,
+      337,
+      276
+    ],
+    "width_m": 0.65,
+    "height_m": 0.04,
+    "anchor_local": [
+      181,
+      276
+    ],
+    "camera_pitch_deg": 40,
+    "shadow": "none"
+  },
+  {
+    "name": "weed-rosette",
+    "atlas_rect_xywh": [
+      1152,
+      341,
+      384,
+      341
+    ],
+    "content_bbox_local": [
+      33,
+      89,
+      295,
+      277
+    ],
+    "width_m": 0.5,
+    "height_m": 0.15,
+    "anchor_local": [
+      164,
+      277
+    ],
+    "camera_pitch_deg": 40,
+    "shadow": "none"
+  },
+  {
+    "name": "leaves-rust",
+    "atlas_rect_xywh": [
+      0,
+      682,
+      384,
+      342
+    ],
+    "content_bbox_local": [
+      89,
+      82,
+      338,
+      242
+    ],
+    "width_m": 0.6,
+    "height_m": 0.015,
+    "anchor_local": [
+      214,
+      242
+    ],
+    "camera_pitch_deg": 40,
+    "shadow": "none"
+  },
+  {
+    "name": "leaves-olive",
+    "atlas_rect_xywh": [
+      384,
+      682,
+      384,
+      342
+    ],
+    "content_bbox_local": [
+      52,
+      80,
+      310,
+      251
+    ],
+    "width_m": 0.65,
+    "height_m": 0.015,
+    "anchor_local": [
+      181,
+      251
+    ],
+    "camera_pitch_deg": 40,
+    "shadow": "none"
+  },
+  {
+    "name": "paving-chips-a",
+    "atlas_rect_xywh": [
+      768,
+      682,
+      384,
+      342
+    ],
+    "content_bbox_local": [
+      50,
+      98,
+      319,
+      244
+    ],
+    "width_m": 0.6,
+    "height_m": 0.04,
+    "anchor_local": [
+      184,
+      244
+    ],
+    "camera_pitch_deg": 40,
+    "shadow": "none"
+  },
+  {
+    "name": "paving-chips-b",
+    "atlas_rect_xywh": [
+      1152,
+      682,
+      384,
+      342
+    ],
+    "content_bbox_local": [
+      49,
+      96,
+      283,
+      248
+    ],
+    "width_m": 0.7,
+    "height_m": 0.04,
+    "anchor_local": [
+      166,
+      248
+    ],
+    "camera_pitch_deg": 40,
+    "shadow": "none"
+  }
+]

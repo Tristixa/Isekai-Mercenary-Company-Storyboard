@@ -1,0 +1,1 @@
+PASS: facade_spec.mjs independently reproduced sizes, face types, wall/gable heights, doors and arches for all 44 faces; delivered v1 spec remains byte-identical.

@@ -1,0 +1,127 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "material.schema.json",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "region": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "rev": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "gdd": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "authoring_status": {
+      "enum": [
+        "specified",
+        "incomplete"
+      ]
+    },
+    "missing_fields": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "base_value_g": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "qualities": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "unsellable",
+          "damaged",
+          "standard",
+          "pristine"
+        ]
+      },
+      "minItems": 1
+    },
+    "quality_multipliers": {
+      "type": "object",
+      "properties": {
+        "unsellable": {
+          "const": 0
+        },
+        "damaged": {
+          "const": 0.5
+        },
+        "standard": {
+          "const": 1
+        },
+        "pristine": {
+          "const": 1.25
+        }
+      },
+      "required": [
+        "unsellable",
+        "damaged",
+        "standard",
+        "pristine"
+      ],
+      "additionalProperties": false
+    },
+    "part_kind": {
+      "enum": [
+        "common",
+        "rare",
+        "elite",
+        "boss_common",
+        "boss_rare",
+        "refinement"
+      ]
+    },
+    "source_monster_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+      },
+      "minItems": 0
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    }
+  },
+  "required": [
+    "id",
+    "region",
+    "rev",
+    "name",
+    "gdd",
+    "authoring_status",
+    "missing_fields",
+    "base_value_g",
+    "qualities",
+    "quality_multipliers",
+    "part_kind",
+    "source_monster_ids",
+    "aliases"
+  ],
+  "additionalProperties": false
+}

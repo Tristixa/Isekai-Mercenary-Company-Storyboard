@@ -1,0 +1,48 @@
+{
+  "id": "dorm_annex",
+  "region": "eurydica",
+  "rev": 1,
+  "name": "Dorm Annex",
+  "gdd": [
+    "12.7"
+  ],
+  "authoring_status": "specified",
+  "missing_fields": [],
+  "preview_gate": {
+    "all": [
+      {
+        "fact": "m02",
+        "cmp": "eq",
+        "value": true
+      }
+    ]
+  },
+  "purchase_gate": {
+    "all": [
+      {
+        "fact": "first_hunt_returned",
+        "cmp": "eq",
+        "value": true
+      }
+    ]
+  },
+  "inputs": [
+    {
+      "item_id": "boar_hide",
+      "quantity": 6,
+      "min_quality": "standard"
+    }
+  ],
+  "fee_g": 600,
+  "duration_seconds": 86400,
+  "effects": [
+    {
+      "op": "add",
+      "target": "beds",
+      "value": 2,
+      "duration_actions": null
+    }
+  ],
+  "unique": true,
+  "refund_before_completion": true
+}

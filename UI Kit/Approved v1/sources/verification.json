@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "registered_pieces": 427,
+  "icons": 62,
+  "icon_files": 186,
+  "controls": 21,
+  "control_state_files": 105,
+  "emotes": 11,
+  "nine_slice_tests": 143,
+  "white_alpha_masks": 11,
+  "proof_mockups": 6,
+  "required_sheets": 6,
+  "extra_layer_sheet": 1,
+  "minimum_measured_text_contrast": 5.224019390865418,
+  "source_hashes_verified": 42,
+  "negative_control": "Missing battle_party_card rejected",
+  "limitations": [
+    "Static artwork/layout verification, no Godot runtime integration",
+    "Input bindings and transient quantities in mockups are visual fixtures"
+  ]
+}

@@ -1,0 +1,572 @@
+﻿{
+    "status":  "candidate",
+    "camera":  {
+                   "orientation":  "straight north",
+                   "elevation_degrees":  40,
+                   "movement":  "fixed"
+               },
+    "width_note":  "Crimson creeper width is prescribed. Other widths are provisional, inferred from painted aspect at 40 degrees; owner may tune footprints.",
+    "emission":  "8-bit grayscale PNG: white emissive, black non-emissive, antialiased silhouette coverage. No light baked into cutouts.",
+    "plants":  [
+                   {
+                       "name":  "emberseed-a",
+                       "species":  "emberseed",
+                       "variant":  "a",
+                       "status":  "candidate",
+                       "file":  "plants/emberseed-a.png",
+                       "height_m":  0.7,
+                       "width_m":  0.935,
+                       "anchor":  {
+                                      "normalized":  [
+                                                         0.5,
+                                                         1
+                                                     ],
+                                      "origin":  "top-left; bottom edge is y=height",
+                                      "pixels":  [
+                                                     662.5,
+                                                     759
+                                                 ]
+                                  },
+                       "has_glow":  true,
+                       "glow_file":  "plants/emberseed-a-glow.png",
+                       "size_px":  [
+                                       1325,
+                                       759
+                                   ],
+                       "source":  "sources/emberseed-a.png",
+                       "source_crop_inclusive":  [
+                                                     129,
+                                                     171,
+                                                     1437,
+                                                     921
+                                                 ],
+                       "padding_px":  {
+                                          "left":  8,
+                                          "right":  8,
+                                          "bottom":  0,
+                                          "top":  8
+                                      },
+                       "mask_nonzero_pixels":  62590
+                   },
+                   {
+                       "name":  "emberseed-b",
+                       "species":  "emberseed",
+                       "variant":  "b",
+                       "status":  "candidate",
+                       "file":  "plants/emberseed-b.png",
+                       "height_m":  0.7,
+                       "width_m":  0.824,
+                       "anchor":  {
+                                      "normalized":  [
+                                                         0.5,
+                                                         1
+                                                     ],
+                                      "origin":  "top-left; bottom edge is y=height",
+                                      "pixels":  [
+                                                     666,
+                                                     864
+                                                 ]
+                                  },
+                       "has_glow":  true,
+                       "glow_file":  "plants/emberseed-b-glow.png",
+                       "size_px":  [
+                                       1332,
+                                       864
+                                   ],
+                       "source":  "sources/emberseed-b.png",
+                       "source_crop_inclusive":  [
+                                                     100,
+                                                     107,
+                                                     1415,
+                                                     962
+                                                 ],
+                       "padding_px":  {
+                                          "left":  8,
+                                          "right":  8,
+                                          "bottom":  0,
+                                          "top":  8
+                                      },
+                       "mask_nonzero_pixels":  30302
+                   },
+                   {
+                       "name":  "stormfern-a",
+                       "species":  "stormfern",
+                       "variant":  "a",
+                       "status":  "candidate",
+                       "file":  "plants/stormfern-a.png",
+                       "height_m":  0.8,
+                       "width_m":  0.836,
+                       "anchor":  {
+                                      "normalized":  [
+                                                         0.5,
+                                                         1
+                                                     ],
+                                      "origin":  "top-left; bottom edge is y=height",
+                                      "pixels":  [
+                                                     674,
+                                                     984
+                                                 ]
+                                  },
+                       "has_glow":  true,
+                       "glow_file":  "plants/stormfern-a-glow.png",
+                       "size_px":  [
+                                       1348,
+                                       984
+                                   ],
+                       "source":  "sources/stormfern-a.png",
+                       "source_crop_inclusive":  [
+                                                     36,
+                                                     90,
+                                                     1367,
+                                                     1065
+                                                 ],
+                       "padding_px":  {
+                                          "left":  8,
+                                          "right":  8,
+                                          "bottom":  0,
+                                          "top":  8
+                                      },
+                       "mask_nonzero_pixels":  140838
+                   },
+                   {
+                       "name":  "stormfern-b",
+                       "species":  "stormfern",
+                       "variant":  "b",
+                       "status":  "candidate",
+                       "file":  "plants/stormfern-b.png",
+                       "height_m":  0.8,
+                       "width_m":  1.028,
+                       "anchor":  {
+                                      "normalized":  [
+                                                         0.5,
+                                                         1
+                                                     ],
+                                      "origin":  "top-left; bottom edge is y=height",
+                                      "pixels":  [
+                                                     743,
+                                                     884
+                                                 ]
+                                  },
+                       "has_glow":  true,
+                       "glow_file":  "plants/stormfern-b-glow.png",
+                       "size_px":  [
+                                       1486,
+                                       884
+                                   ],
+                       "source":  "sources/stormfern-b.png",
+                       "source_crop_inclusive":  [
+                                                     31,
+                                                     82,
+                                                     1500,
+                                                     957
+                                                 ],
+                       "padding_px":  {
+                                          "left":  8,
+                                          "right":  8,
+                                          "bottom":  0,
+                                          "top":  8
+                                      },
+                       "mask_nonzero_pixels":  106178
+                   },
+                   {
+                       "name":  "lantern-cap-a",
+                       "species":  "lantern-cap",
+                       "variant":  "a",
+                       "status":  "candidate",
+                       "file":  "plants/lantern-cap-a.png",
+                       "height_m":  0.35,
+                       "width_m":  0.334,
+                       "anchor":  {
+                                      "normalized":  [
+                                                         0.5,
+                                                         1
+                                                     ],
+                                      "origin":  "top-left; bottom edge is y=height",
+                                      "pixels":  [
+                                                     619.5,
+                                                     990
+                                                 ]
+                                  },
+                       "has_glow":  true,
+                       "glow_file":  "plants/lantern-cap-a-glow.png",
+                       "size_px":  [
+                                       1239,
+                                       990
+                                   ],
+                       "source":  "sources/lantern-cap-a.png",
+                       "source_crop_inclusive":  [
+                                                     95,
+                                                     81,
+                                                     1317,
+                                                     1062
+                                                 ],
+                       "padding_px":  {
+                                          "left":  8,
+                                          "right":  8,
+                                          "bottom":  0,
+                                          "top":  8
+                                      },
+                       "mask_nonzero_pixels":  485085
+                   },
+                   {
+                       "name":  "lantern-cap-b",
+                       "species":  "lantern-cap",
+                       "variant":  "b",
+                       "status":  "candidate",
+                       "file":  "plants/lantern-cap-b.png",
+                       "height_m":  0.35,
+                       "width_m":  0.337,
+                       "anchor":  {
+                                      "normalized":  [
+                                                         0.5,
+                                                         1
+                                                     ],
+                                      "origin":  "top-left; bottom edge is y=height",
+                                      "pixels":  [
+                                                     568.5,
+                                                     901
+                                                 ]
+                                  },
+                       "has_glow":  true,
+                       "glow_file":  "plants/lantern-cap-b-glow.png",
+                       "size_px":  [
+                                       1137,
+                                       901
+                                   ],
+                       "source":  "sources/lantern-cap-b.png",
+                       "source_crop_inclusive":  [
+                                                     225,
+                                                     125,
+                                                     1345,
+                                                     1017
+                                                 ],
+                       "padding_px":  {
+                                          "left":  8,
+                                          "right":  8,
+                                          "bottom":  0,
+                                          "top":  8
+                                      },
+                       "mask_nonzero_pixels":  244776
+                   },
+                   {
+                       "name":  "silverleaf-herb-a",
+                       "species":  "silverleaf-herb",
+                       "variant":  "a",
+                       "status":  "candidate",
+                       "file":  "plants/silverleaf-herb-a.png",
+                       "height_m":  0.6,
+                       "width_m":  0.489,
+                       "anchor":  {
+                                      "normalized":  [
+                                                         0.5,
+                                                         1
+                                                     ],
+                                      "origin":  "top-left; bottom edge is y=height",
+                                      "pixels":  [
+                                                     574,
+                                                     1073
+                                                 ]
+                                  },
+                       "has_glow":  false,
+                       "glow_file":  null,
+                       "size_px":  [
+                                       1148,
+                                       1073
+                                   ],
+                       "source":  "sources/silverleaf-herb-a.png",
+                       "source_crop_inclusive":  [
+                                                     123,
+                                                     65,
+                                                     1254,
+                                                     1129
+                                                 ],
+                       "padding_px":  {
+                                          "left":  8,
+                                          "right":  8,
+                                          "bottom":  0,
+                                          "top":  8
+                                      },
+                       "mask_nonzero_pixels":  0
+                   },
+                   {
+                       "name":  "silverleaf-herb-b",
+                       "species":  "silverleaf-herb",
+                       "variant":  "b",
+                       "status":  "candidate",
+                       "file":  "plants/silverleaf-herb-b.png",
+                       "height_m":  0.6,
+                       "width_m":  0.519,
+                       "anchor":  {
+                                      "normalized":  [
+                                                         0.5,
+                                                         1
+                                                     ],
+                                      "origin":  "top-left; bottom edge is y=height",
+                                      "pixels":  [
+                                                     626,
+                                                     1103
+                                                 ]
+                                  },
+                       "has_glow":  false,
+                       "glow_file":  null,
+                       "size_px":  [
+                                       1252,
+                                       1103
+                                   ],
+                       "source":  "sources/silverleaf-herb-b.png",
+                       "source_crop_inclusive":  [
+                                                     67,
+                                                     28,
+                                                     1302,
+                                                     1122
+                                                 ],
+                       "padding_px":  {
+                                          "left":  8,
+                                          "right":  8,
+                                          "bottom":  0,
+                                          "top":  8
+                                      },
+                       "mask_nonzero_pixels":  0
+                   },
+                   {
+                       "name":  "crimson-creeper-a",
+                       "species":  "crimson-creeper",
+                       "variant":  "a",
+                       "status":  "candidate",
+                       "file":  "plants/crimson-creeper-a.png",
+                       "height_m":  1,
+                       "width_m":  1.2,
+                       "anchor":  {
+                                      "normalized":  [
+                                                         0.5,
+                                                         1
+                                                     ],
+                                      "origin":  "top-left; bottom edge is y=height",
+                                      "pixels":  [
+                                                     644.5,
+                                                     992
+                                                 ]
+                                  },
+                       "has_glow":  false,
+                       "glow_file":  null,
+                       "size_px":  [
+                                       1289,
+                                       992
+                                   ],
+                       "source":  "sources/crimson-creeper-a.png",
+                       "source_crop_inclusive":  [
+                                                     49,
+                                                     91,
+                                                     1321,
+                                                     1074
+                                                 ],
+                       "padding_px":  {
+                                          "left":  8,
+                                          "right":  8,
+                                          "bottom":  0,
+                                          "top":  8
+                                      },
+                       "mask_nonzero_pixels":  0
+                   },
+                   {
+                       "name":  "crimson-creeper-b",
+                       "species":  "crimson-creeper",
+                       "variant":  "b",
+                       "status":  "candidate",
+                       "file":  "plants/crimson-creeper-b.png",
+                       "height_m":  1,
+                       "width_m":  1.2,
+                       "anchor":  {
+                                      "normalized":  [
+                                                         0.5,
+                                                         1
+                                                     ],
+                                      "origin":  "top-left; bottom edge is y=height",
+                                      "pixels":  [
+                                                     676.5,
+                                                     1042
+                                                 ]
+                                  },
+                       "has_glow":  false,
+                       "glow_file":  null,
+                       "size_px":  [
+                                       1353,
+                                       1042
+                                   ],
+                       "source":  "sources/crimson-creeper-b.png",
+                       "source_crop_inclusive":  [
+                                                     20,
+                                                     51,
+                                                     1356,
+                                                     1084
+                                                 ],
+                       "padding_px":  {
+                                          "left":  8,
+                                          "right":  8,
+                                          "bottom":  0,
+                                          "top":  8
+                                      },
+                       "mask_nonzero_pixels":  0
+                   },
+                   {
+                       "name":  "skybell-a",
+                       "species":  "skybell",
+                       "variant":  "a",
+                       "status":  "candidate",
+                       "file":  "plants/skybell-a.png",
+                       "height_m":  1.1,
+                       "width_m":  0.781,
+                       "anchor":  {
+                                      "normalized":  [
+                                                         0.5,
+                                                         1
+                                                     ],
+                                      "origin":  "top-left; bottom edge is y=height",
+                                      "pixels":  [
+                                                     519,
+                                                     1111
+                                                 ]
+                                  },
+                       "has_glow":  false,
+                       "glow_file":  null,
+                       "size_px":  [
+                                       1038,
+                                       1111
+                                   ],
+                       "source":  "sources/skybell-a.png",
+                       "source_crop_inclusive":  [
+                                                     176,
+                                                     53,
+                                                     1197,
+                                                     1155
+                                                 ],
+                       "padding_px":  {
+                                          "left":  8,
+                                          "right":  8,
+                                          "bottom":  0,
+                                          "top":  8
+                                      },
+                       "mask_nonzero_pixels":  0
+                   },
+                   {
+                       "name":  "skybell-b",
+                       "species":  "skybell",
+                       "variant":  "b",
+                       "status":  "candidate",
+                       "file":  "plants/skybell-b.png",
+                       "height_m":  1.1,
+                       "width_m":  0.603,
+                       "anchor":  {
+                                      "normalized":  [
+                                                         0.5,
+                                                         1
+                                                     ],
+                                      "origin":  "top-left; bottom edge is y=height",
+                                      "pixels":  [
+                                                     441,
+                                                     1219
+                                                 ]
+                                  },
+                       "has_glow":  false,
+                       "glow_file":  null,
+                       "size_px":  [
+                                       882,
+                                       1219
+                                   ],
+                       "source":  "sources/skybell-b.png",
+                       "source_crop_inclusive":  [
+                                                     209,
+                                                     0,
+                                                     1074,
+                                                     1210
+                                                 ],
+                       "padding_px":  {
+                                          "left":  8,
+                                          "right":  8,
+                                          "bottom":  0,
+                                          "top":  8
+                                      },
+                       "mask_nonzero_pixels":  0
+                   },
+                   {
+                       "name":  "glassreed-a",
+                       "species":  "glassreed",
+                       "variant":  "a",
+                       "status":  "candidate",
+                       "file":  "plants/glassreed-a.png",
+                       "height_m":  1,
+                       "width_m":  0.89,
+                       "anchor":  {
+                                      "normalized":  [
+                                                         0.5,
+                                                         1
+                                                     ],
+                                      "origin":  "top-left; bottom edge is y=height",
+                                      "pixels":  [
+                                                     565,
+                                                     967
+                                                 ]
+                                  },
+                       "has_glow":  true,
+                       "glow_file":  "plants/glassreed-a-glow.png",
+                       "size_px":  [
+                                       1130,
+                                       967
+                                   ],
+                       "source":  "sources/glassreed-a.png",
+                       "source_crop_inclusive":  [
+                                                     125,
+                                                     104,
+                                                     1238,
+                                                     1062
+                                                 ],
+                       "padding_px":  {
+                                          "left":  8,
+                                          "right":  8,
+                                          "bottom":  0,
+                                          "top":  8
+                                      },
+                       "mask_nonzero_pixels":  13009
+                   },
+                   {
+                       "name":  "glassreed-b",
+                       "species":  "glassreed",
+                       "variant":  "b",
+                       "status":  "candidate",
+                       "file":  "plants/glassreed-b.png",
+                       "height_m":  1,
+                       "width_m":  0.858,
+                       "anchor":  {
+                                      "normalized":  [
+                                                         0.5,
+                                                         1
+                                                     ],
+                                      "origin":  "top-left; bottom edge is y=height",
+                                      "pixels":  [
+                                                     616.5,
+                                                     1094
+                                                 ]
+                                  },
+                       "has_glow":  true,
+                       "glow_file":  "plants/glassreed-b-glow.png",
+                       "size_px":  [
+                                       1233,
+                                       1094
+                                   ],
+                       "source":  "sources/glassreed-b.png",
+                       "source_crop_inclusive":  [
+                                                     62,
+                                                     72,
+                                                     1278,
+                                                     1157
+                                                 ],
+                       "padding_px":  {
+                                          "left":  8,
+                                          "right":  8,
+                                          "bottom":  0,
+                                          "top":  8
+                                      },
+                       "mask_nonzero_pixels":  23824
+                   }
+               ]
+}

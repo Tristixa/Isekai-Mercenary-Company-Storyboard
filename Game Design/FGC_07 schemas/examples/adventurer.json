@@ -1,0 +1,183 @@
+{
+  "id": "rowan",
+  "region": "eurydica",
+  "rev": 1,
+  "name": "Anselm Voigt",
+  "gdd": [
+    "6.1; 6.2b; 6.2c; 12.6"
+  ],
+  "authoring_status": "specified",
+  "missing_fields": [],
+  "specialty": "vanguard",
+  "stats": {
+    "hp": 180,
+    "atk": 18,
+    "def": 10,
+    "rate": 1
+  },
+  "reach": "melee",
+  "meter_role": "defender",
+  "traits": [
+    "Steadfast",
+    "Shield-trained"
+  ],
+  "passive_id": "shieldbearer",
+  "signature": {
+    "name": "Phalanx",
+    "meter_role": "defender",
+    "target": "self",
+    "coefficient": 0,
+    "effects": [
+      {
+        "op": "multiply",
+        "target": "def",
+        "value": 1.5,
+        "duration_actions": 3
+      }
+    ]
+  },
+  "modifier_choices": [
+    {
+      "id": "rowan_power_1",
+      "track": "power",
+      "rank": 1,
+      "required_level": 5,
+      "requires": null,
+      "effects": [
+        {
+          "op": "set",
+          "target": "phalanx_retaliation_atk_coefficient",
+          "value": 0.5,
+          "duration_actions": null
+        }
+      ]
+    },
+    {
+      "id": "rowan_power_2",
+      "track": "power",
+      "rank": 2,
+      "required_level": 8,
+      "requires": "rowan_power_1",
+      "effects": [
+        {
+          "op": "set",
+          "target": "phalanx_retaliation_atk_coefficient",
+          "value": 1,
+          "duration_actions": null
+        }
+      ]
+    },
+    {
+      "id": "rowan_toughness_1",
+      "track": "toughness",
+      "rank": 1,
+      "required_level": 5,
+      "requires": null,
+      "effects": [
+        {
+          "op": "set",
+          "target": "phalanx_def_multiplier",
+          "value": 1.75,
+          "duration_actions": null
+        }
+      ]
+    },
+    {
+      "id": "rowan_toughness_2",
+      "track": "toughness",
+      "rank": 2,
+      "required_level": 8,
+      "requires": "rowan_toughness_1",
+      "effects": [
+        {
+          "op": "heal_max_hp_fraction",
+          "target": "self_on_phalanx",
+          "value": 0.15,
+          "duration_actions": null
+        }
+      ]
+    },
+    {
+      "id": "rowan_speed_1",
+      "track": "speed",
+      "rank": 1,
+      "required_level": 5,
+      "requires": null,
+      "effects": [
+        {
+          "op": "set",
+          "target": "phalanx_duration_actions",
+          "value": 5,
+          "duration_actions": null
+        }
+      ]
+    },
+    {
+      "id": "rowan_speed_2",
+      "track": "speed",
+      "rank": 2,
+      "required_level": 8,
+      "requires": "rowan_speed_1",
+      "effects": [
+        {
+          "op": "set",
+          "target": "fight_start_meter",
+          "value": 50,
+          "duration_actions": null
+        }
+      ]
+    },
+    {
+      "id": "rowan_focus_1",
+      "track": "focus",
+      "rank": 1,
+      "required_level": 5,
+      "requires": null,
+      "effects": [
+        {
+          "op": "multiply",
+          "target": "other_living_front_allies_def_on_phalanx",
+          "value": 1.25,
+          "duration_actions": 3
+        }
+      ]
+    },
+    {
+      "id": "rowan_focus_2",
+      "track": "focus",
+      "rank": 2,
+      "required_level": 8,
+      "requires": "rowan_focus_1",
+      "effects": [
+        {
+          "op": "provoke_while_phalanx",
+          "target": "all_enemies",
+          "value": true,
+          "duration_actions": null
+        }
+      ]
+    }
+  ],
+  "hire_g": 250,
+  "weekly_wage_g": 90,
+  "gate": {
+    "all": [
+      {
+        "fact": "m02",
+        "cmp": "eq",
+        "value": true
+      },
+      {
+        "fact": "free_beds",
+        "cmp": "gte",
+        "value": 1
+      }
+    ]
+  },
+  "initial_tracks": {
+    "power": 1,
+    "toughness": 1,
+    "speed": 1,
+    "focus": 1
+  }
+}

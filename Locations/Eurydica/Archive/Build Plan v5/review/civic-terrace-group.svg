@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1550" height="1060"><rect width="100%" height="100%" fill="#faf8f0"/>
+<text x="45.00" y="58.56" font-family="Arial" font-size="34" fill="#273f3b" font-weight="700">CIVIC TERRACE / ALLIANCE APPOINTMENT</text>
+<text x="45.00" y="95.96" font-family="Arial" font-size="19" fill="#273f3b" font-weight="400">12 figures in the unchanged clock plaza. Diagram shows 0.5 m body discs and facing directions.</text>
+<text x="45.00" y="1038.76" font-family="Arial" font-size="14" fill="#273f3b" font-weight="400">CANDIDATE | JSON geometry authoritative | SHA-256 5bfc52f9e40090aaad31aa7766e123eddc41d6f53aa1cea843681df55f601a9d</text>
+<defs><clipPath id="clip4"><rect x="40.0" y="170" width="1020" height="496"/></clipPath></defs>
+<g clip-path="url(#clip4)">
+<polygon points="-2874.29,-1112.29 4120.00,-1112.29 4120.00,1219.14 -2874.29,1219.14" fill="#d9dad0" stroke="#d9dad0" stroke-width="1"/>
+<polygon points="-542.86,-471.14 1205.71,-471.14 1205.71,1219.14 -542.86,1219.14" fill="#d9dad0" stroke="#d9dad0" stroke-width="1"/>
+<polygon points="127.43,82.57 535.43,82.57 564.57,519.71 477.14,607.14 185.71,607.14 98.29,519.71" fill="#d9dad0" stroke="#d9dad0" stroke-width="1"/>
+<polygon points="841.43,199.14 1016.29,170.00 1074.57,315.71 987.14,432.29 841.43,374.00" fill="#b7c898" stroke="#b7c898" stroke-width="1"/>
+<polygon points="448.00,1073.43 448.00,636.29 214.86,636.29 214.86,1073.43" fill="#ebe3d2" stroke="#ebe3d2" stroke-width="1"/>
+<polygon points="331.43,563.43 -834.29,563.43 -834.29,709.14 331.43,709.14" fill="#ebe3d2" stroke="#ebe3d2" stroke-width="1"/>
+<polygon points="331.43,709.14 1497.14,709.14 1497.14,563.43 331.43,563.43" fill="#ebe3d2" stroke="#ebe3d2" stroke-width="1"/>
+<polygon points="375.14,636.29 375.14,432.29 287.71,432.29 287.71,636.29" fill="#ebe3d2" stroke="#ebe3d2" stroke-width="1"/>
+<polygon points="754.00,636.29 754.00,403.14 666.57,403.14 666.57,636.29" fill="#ebe3d2" stroke="#ebe3d2" stroke-width="1"/>
+<polygon points="987.14,636.29 987.14,548.86 899.71,548.86 899.71,636.29" fill="#ebe3d2" stroke="#ebe3d2" stroke-width="1"/>
+<polygon points="127.43,82.57 535.43,82.57 564.57,519.71 477.14,607.14 185.71,607.14 98.29,519.71" fill="#f3e8ce" stroke="#ba9a60" stroke-width="2"/>
+<polygon points="448.00,1073.43 448.00,636.29 214.86,636.29 214.86,1073.43" fill="#ddd8cb" stroke="#beb7a5" stroke-width="1"/>
+<polygon points="331.43,563.43 -834.29,563.43 -834.29,709.14 331.43,709.14" fill="#ddd8cb" stroke="#beb7a5" stroke-width="1"/>
+<polygon points="331.43,709.14 1497.14,709.14 1497.14,563.43 331.43,563.43" fill="#ddd8cb" stroke="#beb7a5" stroke-width="1"/>
+<polygon points="375.14,636.29 375.14,432.29 287.71,432.29 287.71,636.29" fill="#ddd8cb" stroke="#beb7a5" stroke-width="1"/>
+<polygon points="754.00,636.29 754.00,403.14 666.57,403.14 666.57,636.29" fill="#ddd8cb" stroke="#beb7a5" stroke-width="1"/>
+<polygon points="987.14,636.29 987.14,548.86 899.71,548.86 899.71,636.29" fill="#ddd8cb" stroke="#beb7a5" stroke-width="1"/>
+<polyline points="127.43,82.57 535.43,82.57 564.57,519.71 477.14,607.14 185.71,607.14 98.29,519.71 127.43,82.57" fill="none" stroke="#ba9a60" stroke-width="3"/>
+<polygon points="244.00,257.43 418.86,257.43 418.86,432.29 244.00,432.29" fill="#477d62" stroke="#4c5147" stroke-width="2"/>
+<circle cx="331.43" cy="432.29" r="5.25" fill="#fff6cc" stroke="#384d42"/>
+<polygon points="-134.86,199.14 98.29,199.14 98.29,432.29 -134.86,432.29" fill="#477d62" stroke="#4c5147" stroke-width="2"/>
+<circle cx="-18.29" cy="432.29" r="5.25" fill="#fff6cc" stroke="#384d42"/>
+<polygon points="608.29,170.00 812.29,170.00 812.29,403.14 608.29,403.14" fill="#477d62" stroke="#4c5147" stroke-width="2"/>
+<circle cx="710.29" cy="403.14" r="5.25" fill="#fff6cc" stroke="#384d42"/>
+<polygon points="885.14,461.43 1001.71,461.43 1001.71,548.86 885.14,548.86" fill="#477d62" stroke="#4c5147" stroke-width="2"/>
+<circle cx="943.43" cy="548.86" r="5.25" fill="#fff6cc" stroke="#384d42"/>
+<circle cx="226.51" cy="473.09" r="7.29" fill="#e8bf59" stroke="#384d42"/>
+<polyline points="226.51,473.09 226.51,490.57" fill="none" stroke="#e8bf59" stroke-width="3"/>
+<circle cx="278.97" cy="461.43" r="7.29" fill="#e8bf59" stroke="#384d42"/>
+<polyline points="278.97,461.43 278.97,478.91" fill="none" stroke="#e8bf59" stroke-width="3"/>
+<circle cx="331.43" cy="455.60" r="7.29" fill="#e8bf59" stroke="#384d42"/>
+<polyline points="331.43,455.60 331.43,473.09" fill="none" stroke="#e8bf59" stroke-width="3"/>
+<circle cx="383.89" cy="461.43" r="7.29" fill="#e8bf59" stroke="#384d42"/>
+<polyline points="383.89,461.43 383.89,478.91" fill="none" stroke="#e8bf59" stroke-width="3"/>
+<circle cx="436.34" cy="473.09" r="7.29" fill="#e8bf59" stroke="#384d42"/>
+<polyline points="436.34,473.09 436.34,490.57" fill="none" stroke="#e8bf59" stroke-width="3"/>
+<circle cx="331.43" cy="525.54" r="7.29" fill="#ba604a" stroke="#384d42"/>
+<polyline points="331.43,525.54 331.43,508.06" fill="none" stroke="#ba604a" stroke-width="3"/>
+<circle cx="226.51" cy="583.83" r="7.29" fill="#416c91" stroke="#384d42"/>
+<polyline points="226.51,583.83 226.51,566.34" fill="none" stroke="#416c91" stroke-width="3"/>
+<circle cx="278.97" cy="583.83" r="7.29" fill="#416c91" stroke="#384d42"/>
+<polyline points="278.97,583.83 278.97,566.34" fill="none" stroke="#416c91" stroke-width="3"/>
+<circle cx="331.43" cy="583.83" r="7.29" fill="#416c91" stroke="#384d42"/>
+<polyline points="331.43,583.83 331.43,566.34" fill="none" stroke="#416c91" stroke-width="3"/>
+<circle cx="383.89" cy="583.83" r="7.29" fill="#416c91" stroke="#384d42"/>
+<polyline points="383.89,583.83 383.89,566.34" fill="none" stroke="#416c91" stroke-width="3"/>
+<circle cx="436.34" cy="583.83" r="7.29" fill="#416c91" stroke="#384d42"/>
+<polyline points="436.34,583.83 436.34,566.34" fill="none" stroke="#416c91" stroke-width="3"/>
+<circle cx="488.80" cy="487.66" r="7.29" fill="#ba604a" stroke="#384d42"/>
+<polyline points="488.80,487.66 488.80,505.14" fill="none" stroke="#ba604a" stroke-width="3"/>
+<circle cx="331.43" cy="604.23" r="7.29" fill="#745588" stroke="#384d42"/>
+<polyline points="331.43,604.23 331.43,586.74" fill="none" stroke="#745588" stroke-width="3"/>
+</g>
+<polyline points="40.00,170.00 1060.00,170.00 1060.00,666.00 40.00,666.00 40.00,170.00" fill="none" stroke="#b9b4a8" stroke-width="2"/>
+<text x="50.00" y="195.12" font-family="Arial" font-size="18" fill="#273f3b" font-weight="700">N ^</text>
+<polyline points="55.00,638.00 113.29,638.00" fill="none" stroke="#273f3b" stroke-width="3"/>
+<text x="55.00" y="627.28" font-family="Arial" font-size="17" fill="#273f3b" font-weight="400">2 m</text>
+<text x="216.51" y="462.79" font-family="Arial" font-size="17" fill="#273f3b" font-weight="700">L1</text>
+<text x="268.97" y="451.14" font-family="Arial" font-size="17" fill="#273f3b" font-weight="700">L2</text>
+<text x="321.43" y="445.31" font-family="Arial" font-size="17" fill="#273f3b" font-weight="700">L3</text>
+<text x="373.89" y="451.14" font-family="Arial" font-size="17" fill="#273f3b" font-weight="700">L4</text>
+<text x="426.34" y="462.79" font-family="Arial" font-size="17" fill="#273f3b" font-weight="700">L5</text>
+<text x="321.43" y="515.25" font-family="Arial" font-size="17" fill="#273f3b" font-weight="700">C</text>
+<text x="216.51" y="573.54" font-family="Arial" font-size="17" fill="#273f3b" font-weight="700">O1</text>
+<text x="268.97" y="573.54" font-family="Arial" font-size="17" fill="#273f3b" font-weight="700">O2</text>
+<text x="321.43" y="573.54" font-family="Arial" font-size="17" fill="#273f3b" font-weight="700">O3</text>
+<text x="373.89" y="573.54" font-family="Arial" font-size="17" fill="#273f3b" font-weight="700">O4</text>
+<text x="426.34" y="573.54" font-family="Arial" font-size="17" fill="#273f3b" font-weight="700">O5</text>
+<text x="478.80" y="477.37" font-family="Arial" font-size="17" fill="#273f3b" font-weight="700">E</text>
+<text x="321.43" y="593.94" font-family="Arial" font-size="17" fill="#273f3b" font-weight="700">cam</text>
+<text x="1090.00" y="195.12" font-family="Arial" font-size="18" fill="#273f3b" font-weight="400">L1-L5: leaders, facing south</text>
+<text x="1090.00" y="226.12" font-family="Arial" font-size="18" fill="#273f3b" font-weight="400">C: Commander, facing north</text>
+<text x="1090.00" y="257.12" font-family="Arial" font-size="18" fill="#273f3b" font-weight="400">O1-O5: officers behind Commander</text>
+<text x="1090.00" y="288.12" font-family="Arial" font-size="18" fill="#273f3b" font-weight="400">E: envoy beside leaders</text>
+<text x="1090.00" y="319.12" font-family="Arial" font-size="18" fill="#273f3b" font-weight="400">cam: push-in ground anchor</text>
+<text x="1090.00" y="350.12" font-family="Arial" font-size="18" fill="#273f3b" font-weight="400"></text>
+<text x="1090.00" y="381.12" font-family="Arial" font-size="18" fill="#273f3b" font-weight="400">Minimum centre distance: 1.80 m</text>
+<text x="1090.00" y="412.12" font-family="Arial" font-size="18" fill="#273f3b" font-weight="400">Minimum body-edge gap: 1.30 m</text>
+<text x="1090.00" y="443.12" font-family="Arial" font-size="18" fill="#273f3b" font-weight="400">Tower / notice shelter remain clear.</text>
+<text x="1090.00" y="474.12" font-family="Arial" font-size="18" fill="#273f3b" font-weight="400">All anchors on walkable plaza ground.</text>
+<text x="1090.00" y="505.12" font-family="Arial" font-size="18" fill="#273f3b" font-weight="400">All outdoor markers reach the routes.</text>
+<text x="1090.00" y="536.12" font-family="Arial" font-size="18" fill="#273f3b" font-weight="400"></text>
+<text x="1090.00" y="567.12" font-family="Arial" font-size="18" fill="#273f3b" font-weight="400">Camera anchor is nonphysical.</text>
+<text x="1090.00" y="598.12" font-family="Arial" font-size="18" fill="#273f3b" font-weight="400">Story staging is temporary.</text>
+<text x="1090.00" y="629.12" font-family="Arial" font-size="18" fill="#273f3b" font-weight="400">No plaza or building changes needed.</text>
+<text x="65.00" y="877.64" font-family="Arial" font-size="21" fill="#273f3b" font-weight="400">Clock tower: footprint x -3..3, z -73..-67. Notice shelter: x 19..23, z -66..-63.</text>
+<text x="65.00" y="920.64" font-family="Arial" font-size="21" fill="#273f3b" font-weight="400">Gold outline: approved plaza. Grey strips: existing approaches. North is negative z.</text>
+</svg>

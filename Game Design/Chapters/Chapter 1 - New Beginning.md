@@ -44,7 +44,7 @@ Implementation needs:
 - Location transitions.
 - Eurydica establishing presentation.
 
-The Mosswood Forest expedition area does not need to be playable yet. It is only referenced by the story at this stage.
+The Hylaea Forest expedition area does not need to be playable yet. It is only referenced by the story at this stage.
 
 ### Scene 2 - Tavern Talk
 
@@ -61,7 +61,7 @@ Required sequence:
 4. The conversation establishes:
    - Tristitia has completed a bandit hunt.
    - Mae processes materials from Tristitia's hunts.
-   - Mosswood has become more dangerous because of a chimera and bolder bandits.
+   - Hylaea has become more dangerous because of a chimera and bolder bandits.
    - Eurydica has no organization that manages adventurers.
    - Adventurers currently find work independently.
    - Selling materials reliably is difficult.
@@ -162,7 +162,7 @@ Required spaces:
 
 The main room and courtyard are directly used in Scene 3. The Commander room and dormitory should exist for exploration and visual continuity, but they do not need advanced interactions yet.
 
-### Mosswood Forest
+### Hylaea Forest
 
 - Mentioned during the story.
 - Does not need to be playable through Scene 3.
@@ -256,7 +256,7 @@ The following items are intentionally on hold:
 - The operational Company Menu and its closeout option.
 - Day summary.
 - Adventurer management, training, backpacks, and resting.
-- Mosswood Forest hunting expeditions.
+- Hylaea Forest hunting expeditions.
 - Scouting.
 - Mae's playable processing orders and quality results.
 - Chapter 1 completion conditions.

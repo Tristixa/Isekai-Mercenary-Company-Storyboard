@@ -1,0 +1,18 @@
+{
+  "character": "Dietrich Vogt",
+  "version": "Base v2",
+  "status": "approved",
+  "date": "2026-09-28",
+  "userStatement": "approved",
+  "approvedFile": "D:/Storyboards/Isekai Mercenary Company/Characters/Buyers/Dietrich Vogt/Base.png",
+  "source": "D:/Codex/IMC/Buyers/Dietrich Vogt/Base v2/Base.png",
+  "sha256": "4991d95788072ae07dc69463d81d128d5663cd8d10eaad8305981492728395cb",
+  "master": "D:/Codex/IMC/Buyers/Dietrich Vogt/Base v2/Master.png",
+  "runtimeIntegration": false,
+  "expressions": {
+    "status": "approved",
+    "date": "2026-09-28",
+    "count": 8,
+    "manifest": "Expression Approval.json"
+  }
+}

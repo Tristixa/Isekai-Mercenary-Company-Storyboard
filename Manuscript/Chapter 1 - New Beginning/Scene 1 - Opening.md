@@ -1,203 +1,252 @@
-# Scene 1 — Opening
+# Scene 1 - Opening
 
-## Context
-
-{Text in braces is internal monologue.}
-|Text between vertical bars is camera or action direction.|
-
-Dialogue options are mostly flavor for the player to better own their character, similar to Steambot Chronicle. Text inside square brackets is the intent shown to the player. The quoted line beneath it is spoken after the option is selected. The options are intentionally simple, such as “be pensive,” “be angry,” or “ask for help.”
-
+## Synopsis
 Location: Eurydica Outskirts
 Time: Night
-Actors: Player, Tristitia.
+Actors: Commander, Tristitia
+Music: outskirts_night
+Staging: Commander at tree_rest facing south, lying down; Tristitia offstage
+Special poses: Commander lie, Commander sit, Commander kneel, Commander salute, Commander salute_seated, Commander think_seated, Commander nod, Tristitia point
 
-Unless specified otherwise, characters remain in their current idle pose. Camera views continue across dialogue and choices. The Player’s bag remains equipped throughout the scene.
+|Dialogue options are mostly flavour, so the player can own their character, as in Steambot Chronicles. The bracketed label is the intent shown to the player; the quoted line under it is spoken after it's chosen. The Commander's bag stays equipped all scene.|
 
 ---
 
 ## Awakening
 
-|Camera: Medium-wide view of the Player lying near a tree.|
+[control: lock]
+[camera: push-in Commander]
+[pose: Commander lie]
+Commander (Base):
+". . . . ."
 
-Player:
-“. . . . .”
-“!!!”
+[shake: light]
+[emote: Commander exclaim]
+Commander (Surprise):
+"!!!"
 
-|Player gets up. Hold the same camera view.|
+[pose: Commander idle]
+Commander (Fear):
+"Where am I?"
 
-Player:
-“Where am I?”
-“I was…”
+Commander (Serious):
+"I was…"
 
-1. [In a library.] “Reading a book in the library.”
-2. [Returning home.] “Walking down the road to home.”
-3. [Playing a game.] “Playing a game, then I fell asleep.”
-4. [Dying.] “On the floor… dying from overwork…”
+1. **[In a library.]**
+   "Reading a book in the library."
 
-Player:
-“And then I remember a bright light…”
-“. . . . . . .”
-“I need to find someone—or at least somewhere safe to rest.”
+2. **[Returning home.]**
+   "Walking down the road to home."
 
-|Player turns toward someone nearby.|
+3. **[Playing a game.]**
+   "Playing a game, then I fell asleep."
 
-|Camera: Cut to a shared view of Player and Tristitia. She is already standing nearby, watching him. Her sword and the resting place beside the tree are visible. Both remain in standing idle.|
+4. **[Dying.]**
+   "On the floor… dying from overwork…"
 
-Player:
-{I didn’t realize someone was there. Is that a real sword?}
+Commander (Sad):
+"And then I remember a bright light…"
 
-Tristitia:
-“You’re awake.”
-“Good. I have no intention of carrying you.”
-“You have the look of a rookie on a battlefield.”
-“lost, exhausted, and standing where they shouldn't have.”
-“Do you remember your name?”
+Commander:
+". . . . . . ."
 
-**Enter name screen. After the name is entered and accepted:**
+Commander (Serious):
+"I need to find someone—or at least somewhere safe to rest."
+
+[enter: Tristitia tris_watch]
+[face: Commander Tristitia]
+[camera: two-shot Commander Tristitia]
+[emote: Commander exclaim]
+Commander (Surprise):
+{I didn't realize someone was there. Is that a real sword?}
+
+Tristitia (Serious):
+"You're awake."
+
+"Good. I have no intention of carrying you."
+
+"You have the look of a rookie on a battlefield."
+
+"lost, exhausted, and standing where they shouldn't have."
+
+"Do you remember your name?"
+
+[name-entry]
+Commander:
 
 1. **[Answer unsure]**
-   “<name>… I think my name is <name>.”
+   Commander (Fear):
+   "<name>… I think my name is <name>."
 
 2. **[Answer friendly]**
-   “I’m <name>. Nice to meet you.”
+   Commander (Happy):
+   "I'm <name>. Nice to meet you."
 
 3. **[Kneel and kiss her hand]**
-   |Player kneels and kisses her hand.|
-   “<name>.”
-   |Player releases her hand and returns to standing idle.|
+   [pose: Commander kneel]
+   Commander (Happy):
+   "<name>."
+   [pose: Commander idle]
 
 4. **[Salute]**
-   |Player salutes.|
-   “<name>.”
-   |Player returns to standing idle.|
+   [pose: Commander salute]
+   Commander (Serious):
+   "<name>."
+   [pose: Commander idle]
 
-Tristitia:
-“. . . . .”
-“Tristitia.”
+Tristitia (Base):
+". . . . ."
 
-|Tristitia briefly points toward the resting place beside the tree.|
+"Tristitia."
 
-Tristitia:
-“Rest there. You are about to collapse.”
+[pose: Tristitia point]
+Tristitia (Serious):
+"Rest there. You are about to collapse."
 
-|Tristitia returns to idle.|
+[pose: Tristitia idle]
+Commander (Base):
+"Okay."
 
-Player:
-“Okay.”
-
-|Player sits beside the tree. Keep both characters in the shared view.|
+[pose: Commander sit]
+[camera: shared]
 
 ## Waiting
 
-Tristitia:
-“The area is safe enough for now.”
-“Stay there, and watch yourself. The smaller monsters are more nuisance than threat, but they still bite.”
+Tristitia (Serious):
+"The area is safe enough for now."
 
-Player:
+"Stay there, and watch yourself. The smaller monsters are more nuisance than threat, but they still bite."
+
+[emote: Commander question]
+Commander (Surprise):
 {What did she mean by monster?}
 
-1. [Ask for assistance] “Can you help me? I’m lost.”
-2. [Be demanding] “You’re leaving me here? I’m lost and exhausted. You should help me.”
-3. [Be pensive] {I should ask her for help.}
-   “Can you help me? I’m lost.”
+1. **[Ask for assistance]**
+   Commander (Base):
+   "Can you help me? I'm lost."
 
-Tristitia:
-“I’m in the middle of a hunt.”
-“The sort that notices when it is being followed.”
-“Wait here until it is done.”
+2. **[Be demanding]**
+   Commander (Anger):
+   "You're leaving me here? I'm lost and exhausted. You should help me."
 
-Player:
+3. **[Be pensive]**
+   Commander (Serious):
+   {I should ask her for help.}
+   "Can you help me? I'm lost."
+
+Tristitia (Serious):
+"I'm in the middle of a hunt."
+
+"The sort that notices when it is being followed."
+
+"Wait here until it is done."
+
+Commander:
 
 1. **[Nod]**
-   |Player nods.|
-   “I’ll wait here.”
+   [pose: Commander nod]
+   Commander (Base):
+   "I'll wait here."
+   [pose: Commander sit]
 
 2. **[Salute]**
-   |Player salutes while seated.|
-   “I’ll wait here.”
-   |Player returns to seated idle.|
+   [pose: Commander salute_seated]
+   Commander (Serious):
+   "I'll wait here."
+   [pose: Commander sit]
 
 3. **[Say goodbye]**
-   “I’ll wait here. Goodbye Tristitia.”
+   Commander (Happy):
+   "I'll wait here. Goodbye Tristitia."
 
 4. **[Thank her]**
-   “I’ll wait here. Thank you Tristitia.”
+   Commander (Happy):
+   "I'll wait here. Thank you Tristitia."
 
-Tristitia:
-“Stay out of sight. I’ll be back within the hour.”
-“If you hear anything, stay where you are. Curiosity is not a survival skill.”
+Tristitia (Serious):
+"Stay out of sight. I'll be back within the hour."
 
-|Tristitia turns and walks deeper into the woods. The camera stays with the seated Player.|
+"If you hear anything, stay where you are. Curiosity is not a survival skill."
 
-Player:
-“. . . . .”
+[exit: Tristitia woods_edge]
+[camera: push-in Commander]
+Commander (Base):
+". . . . ."
+
 {I think I still have food and water in my bag.}
 
-**The screen slowly fades to black.**
+[fade: out]
 
 ## One hour later
 
-|Fade back to the same shared camera view. Player is still seated in the same place. Tristitia walks into view and stops near him.|
+[fade: in]
+[camera: shared]
+[enter: Tristitia tris_watch]
+Tristitia (Base):
+"You stayed."
 
-Tristitia:
-“You stayed.”
+Commander (Base):
+"You told me to."
 
-Player:
-“You told me to.”
+Tristitia (Happy):
+"Most people hear instructions as a challenge."
 
-Tristitia:
-“Most people hear instructions as a challenge.”
+Commander (Serious):
+"Where have you been?"
 
-Player:
-“Where have you been?”
+Tristitia (Serious):
+"Finishing the hunt."
 
-Tristitia:
-“Finishing the hunt.”
+Commander (Surprise):
+"At night?"
 
-Player:
-“At night?”
+Tristitia (Serious):
+"That is when the target feels safest."
 
-Tristitia:
-“That is when the target feels safest.”
-“The talking kind. Two legs, a knife, and a habit of taking money from travelers.”
+"The talking kind. Two legs, a knife, and a habit of taking money from travelers."
 
-|Player: Seated thinking pose—head lowered, one arm raised with his hand at his chin. Hold through the following choice.|
+[pose: Commander think_seated]
+Commander (Serious):
+"It's a..."
 
-Player:
-“It's a...”
+1. **[Bandit]**
+   "Bandit?"
 
-1. [Bandit] “Bandit?”
-2. [Goblin] “Goblin?”
-3. [Dragon with a knife] “Dragon? with a knife.”
+2. **[Goblin]**
+   "Goblin?"
 
-|Player returns to seated idle. Keep the shared camera view.|
+3. **[Dragon with a knife]**
+   Commander (Surprise):
+   "Dragon? with a knife."
 
-Tristitia:
-“Could be.”
+[pose: Commander sit]
+Tristitia (Base):
+"Could be."
 
-Player:
-“Did you catch him?”
+Commander (Base):
+"Did you catch him?"
 
-Tristitia:
-“You ask a lot.”
-“Come. Eurydica is ten minutes away.”
-“Try not to collapse before we reach the gate.”
+Tristitia (Serious):
+"You ask a lot."
 
-|Player stands.|
+"Come. Eurydica is ten minutes away."
 
-Player:
-“I’ll follow along.”
+"Try not to collapse before we reach the gate."
 
-|Tristitia walks toward Eurydica. Player follows.|
+[pose: Commander idle]
+Commander (Base):
+"I'll follow along."
 
-**The screen slowly fades to black.**
+[move: Tristitia road_gate]
+[move: Commander road_gate]
+[fade: out]
 
 ## Arrival in Eurydica
 
-|Control remains locked.|
-
-|Camera: Wide view of Eurydica’s gate and the street beyond. Tristitia and Player enter through the gate and continue toward the tavern.|
-
-|Cut to a shared view inside the tavern. Mae is already seated at a table. Tristitia and Player approach and sit.|
-
-|Hold the three-character view for the beginning of Scene 2.|
+[location: Eurydica South Gate]
+[fade: in]
+[camera: pan main_street]
+[move: Tristitia main_street]
+[move: Commander main_street]
+[fade: out]
+[goto: Scene 2 - Tavern Talk]

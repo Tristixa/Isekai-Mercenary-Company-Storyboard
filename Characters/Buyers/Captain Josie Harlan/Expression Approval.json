@@ -1,0 +1,53 @@
+{
+  "character": "Captain Josie Harlan",
+  "version": "Expressions v1",
+  "status": "approved",
+  "date": "2026-09-28",
+  "userStatement": "approved, now for Reinhold what's the design?",
+  "scope": "All seven delivered expression portraits",
+  "files": [
+    {
+      "file": "Pleased.png",
+      "sha256": "acabde9d3a395900ede114bd32b9e0c267d3dcd5547be51ca1924b3eb593120b",
+      "source": "D:/Codex/IMC/Buyers/Captain Josie Harlan/Expressions v1/Pleased.png",
+      "master": "D:/Codex/IMC/Buyers/Captain Josie Harlan/Expressions v1/Masters/Pleased.png"
+    },
+    {
+      "file": "Considering.png",
+      "sha256": "f72161512c95b55cda7713e33bd8febee956f23617486e3d512b5e2dd7cc5f2a",
+      "source": "D:/Codex/IMC/Buyers/Captain Josie Harlan/Expressions v1/Considering.png",
+      "master": "D:/Codex/IMC/Buyers/Captain Josie Harlan/Expressions v1/Masters/Considering.png"
+    },
+    {
+      "file": "Doubtful.png",
+      "sha256": "a7e97aec727e7a4cc108d5f20bf78207fd77ae21e360ee803ca7e86498e05ba0",
+      "source": "D:/Codex/IMC/Buyers/Captain Josie Harlan/Expressions v1/Doubtful.png",
+      "master": "D:/Codex/IMC/Buyers/Captain Josie Harlan/Expressions v1/Masters/Doubtful.png"
+    },
+    {
+      "file": "Irritated.png",
+      "sha256": "8ab74416ffdf71edf218f2fe52410311b6127ad102d1fde579343fd83b7047d6",
+      "source": "D:/Codex/IMC/Buyers/Captain Josie Harlan/Expressions v1/Irritated.png",
+      "master": "D:/Codex/IMC/Buyers/Captain Josie Harlan/Expressions v1/Masters/Irritated.png"
+    },
+    {
+      "file": "Surprised.png",
+      "sha256": "9877a04d956517527c6af67e8cb64b4c4537ba738092b3613de0b407fb5a8c20",
+      "source": "D:/Codex/IMC/Buyers/Captain Josie Harlan/Expressions v1/Surprised.png",
+      "master": "D:/Codex/IMC/Buyers/Captain Josie Harlan/Expressions v1/Masters/Surprised.png"
+    },
+    {
+      "file": "Deal.png",
+      "sha256": "60ed49436143c34763c863d880303a28274b8d58c0bc29040831f725373c1be0",
+      "source": "D:/Codex/IMC/Buyers/Captain Josie Harlan/Expressions v1/Deal.png",
+      "master": "D:/Codex/IMC/Buyers/Captain Josie Harlan/Expressions v1/Masters/Deal.png"
+    },
+    {
+      "file": "WalkAway.png",
+      "sha256": "84a076c6f702fceb59c7981ae82ff99bbc2ecfbc75e421df1f23cb007607c337",
+      "source": "D:/Codex/IMC/Buyers/Captain Josie Harlan/Expressions v1/WalkAway.png",
+      "master": "D:/Codex/IMC/Buyers/Captain Josie Harlan/Expressions v1/Masters/WalkAway.png"
+    }
+  ],
+  "runtimeIntegration": false
+}

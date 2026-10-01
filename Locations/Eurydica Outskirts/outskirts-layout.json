@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "location_id": "eurydica_outskirts",
+  "revision": "candidate-v1",
+  "units": "metres",
+  "coordinates": {"axes": ["east", "north"], "godot_mapping": "(east, height, -north)", "ground_height_m": 0},
+  "bounds_m": {"west": -15, "east": 15, "south": 0, "north": 40},
+  "camera": {"projection": "perspective", "heading": "north", "offset_xyz_m": [0,18.4,21.8], "vertical_fov_deg":30, "viewport_px":[1280,800], "target_en_m":[-1,14], "actor_height_m":1.68, "actor_target_height_px_approx":93, "actor_geometry":"screen-facing billboard", "movement":"Fixed conversation staging, authored push-in/two-shot; short follow during road walk"},
+  "markers": {
+    "tree_rest": {"position_m":[-4.4,12.2],"facing":"south initially", "purpose":"Lie, sit, kneel and stand on clear south root pad", "plan_label_offset_px":[-102,18]},
+    "tris_watch": {"position_m":[-1.3,12.6],"facing":"tree_rest", "purpose":"Enter and speak; return here after fade", "plan_label_offset_px":[10,-23]},
+    "woods_edge": {"position_m":[-12,17],"facing":"west", "purpose":"Offstage hunt exit/return portal", "plan_label_offset_px":[-62,-34]},
+    "road_gate": {"position_m":[5,22],"facing":"north", "purpose":"Walk cue and fade to separate South Gate scene", "plan_label_offset_px":[12,-24]}
+  },
+  "rest_pad": {"bounds_m":[-6.1,10.6,-2.6,13.1],"keep_clear":true},
+  "road": {"width_m":5,"centerline_m":[[5,0],[5,22],[5,40]],"destination":"Eurydica South Gate beyond local plot"},
+  "routes": [
+    {"id":"woods_return","width_m":2.4,"points_m":[[-1.3,12.6],[-1,18],[-9,18],[-12,17]],"bidirectional":true},
+    {"id":"to_road","width_m":3,"points_m":[[-4.4,12.2],[-1.3,12.6],[2,15],[5,17],[5,22]]},
+    {"id":"north_continuation","width_m":5,"points_m":[[5,22],[5,40]],"ends_at_scene_boundary":true}
+  ],
+  "scenery_zones": [
+    {"id":"west_south","polygon_m":[[-15,0],[-11,0],[-11,14],[-15,14]]},
+    {"id":"west_north","polygon_m":[[-15,20],[-11,20],[-11,40],[-15,40]]},
+    {"id":"east_edge","polygon_m":[[13,0],[15,0],[15,40],[13,40]]}
+  ],
+  "objects": [
+    {"id":"waking_tree","asset":"objects/tree-broad.png","position_m":[-5,15],"height_m":6.8,"collision_radius_m":1.3,"canopy_radius_m":3.4,"anchor":"bottom-centre; inspect roots","occlusion":"Canopy alpha fade during close shots; Commander rests south of trunk"},
+    {"id":"west_tree_1","asset":"objects/tree-tall.png","position_m":[-13,8],"height_m":7.5,"collision_radius_m":0.8},
+    {"id":"west_tree_2","asset":"objects/tree-leaning.png","position_m":[-13,24],"height_m":6.5,"collision_radius_m":0.9},
+    {"id":"west_tree_3","asset":"objects/mid-broad.png","position_m":[-13,33],"height_m":6,"collision_radius_m":0.8},
+    {"id":"east_tree_1","asset":"objects/tree-young.png","position_m":[14,28],"height_m":4,"collision_radius_m":0.55},
+    {"id":"east_rock","asset":"objects/rock-medium.png","position_m":[14,11],"height_m":0.8,"collision_radius_m":0.55},
+    {"id":"west_fern","asset":"objects/fern-wide.png","position_m":[-13,12],"height_m":0.7,"collision_radius_m":0.4}
+  ],
+  "distant_context": {"direction":"north","gate_alignment_east_m":5,"local_position_m":null,"representation":"Independent non-colliding wall/gate scenic matte outside playable metric plane; schematic plan strip not to scale", "journey":"Ten minutes by dialogue; local 40 m does not model journey length", "camera_caveat":"True flat-world horizon is outside 40-degree-down FOV; skyline must be an art-directed scenic card, validated later in engine"},
+  "lighting": {"time":"night","key":"broad moonlight preview","runtime_owned":["Guild lighting","emission","light pools","shadows","bloom"],"baked_light_pools":false},
+  "status":"Candidate layout only; no runtime installation"
+}

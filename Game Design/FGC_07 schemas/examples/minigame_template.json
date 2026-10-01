@@ -1,0 +1,77 @@
+{
+  "id": "eurydica_expedition_planning",
+  "region": "eurydica",
+  "rev": 1,
+  "name": "Expedition Planning field contract",
+  "gdd": [
+    "5a.2a"
+  ],
+  "authoring_status": "specified",
+  "missing_fields": [],
+  "kind": "expedition_planning",
+  "officer_id": "elsie",
+  "skill_id": "leadership",
+  "rank_min": 0,
+  "rank_max": 2,
+  "fields": [
+    {
+      "field": "grid",
+      "value_type": "array",
+      "required": true,
+      "constraint": "9 columns x 7 rows; terrain road=1, grass=2, forest=3, marsh=4 hours; cliff/deep_water impassable"
+    },
+    {
+      "field": "start",
+      "value_type": "object",
+      "required": true,
+      "constraint": "integer x,y in bounds"
+    },
+    {
+      "field": "goal",
+      "value_type": "object",
+      "required": true,
+      "constraint": "integer x,y in bounds; reachable by solver"
+    },
+    {
+      "field": "water",
+      "value_type": "array",
+      "required": true,
+      "constraint": "cell coordinates"
+    },
+    {
+      "field": "rest_spots",
+      "value_type": "array",
+      "required": true,
+      "constraint": "cell coordinates; rest allowed here or beside water"
+    },
+    {
+      "field": "threat_zones",
+      "value_type": "array",
+      "required": true,
+      "constraint": "cells; each crossed costs 1 stamina"
+    },
+    {
+      "field": "time_budget_hours",
+      "value_type": "integer",
+      "required": true,
+      "constraint": "12"
+    },
+    {
+      "field": "stamina_budget",
+      "value_type": "integer",
+      "required": true,
+      "constraint": "10"
+    },
+    {
+      "field": "rest_limit",
+      "value_type": "integer",
+      "required": true,
+      "constraint": "2; each costs 2 hours and restores 3 stamina"
+    }
+  ],
+  "generator_id": "planning_v1",
+  "solver_id": "planning_optimal_v1",
+  "grading_rule_id": "planning_grade_v1",
+  "hint_grade_cap": "a",
+  "session_seconds": 3600
+}

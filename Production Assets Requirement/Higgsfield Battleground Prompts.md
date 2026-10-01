@@ -1,6 +1,6 @@
-# Higgsfield prompts: Mosswood battleground and area kit
+# Higgsfield prompts: Hylaea battleground and area kit
 
-Updated 2026-09-27. This revision preserves the proof-2 asset-handling contract and expands the prompts for reusable Mosswood scenery. It supersedes the earlier chat prompts that offered transparent backgrounds, neutral lighting for all objects, and only a loosely pixel-like appearance.
+Updated 2026-09-27. This revision preserves the proof-2 asset-handling contract and expands the prompts for reusable Hylaea scenery. It supersedes the earlier chat prompts that offered transparent backgrounds, neutral lighting for all objects, and only a loosely pixel-like appearance.
 
 The five core outputs remain:
 
@@ -27,16 +27,16 @@ The far panorama, the mid tree line and the canopy must loop horizontally (their
 - **Isolation:** individual props need complete silhouettes, usable ground-contact bases, and generous empty margins. Nothing touches another object or crosses a sheet cell. The continuous mid-tree and canopy layers have their own intentional edge-cropping rules.
 - **No characters, animals, text, UI, grid lines, borders, signatures, or watermark.** Small ordinary mushrooms and wildflowers remain allowed where specifically listed; no giant or glowing fantasy ornaments.
 
-Attach the proposed Mosswood concept as a **material, palette, foliage, and woodland-identity reference**. Do not copy its characters, HUD, complete arena layout, baked sunlight, or blur. The rules above take precedence over the concept's smooth rendering and over the previous chat prompts. Once one sheet is selected, use it as an additional pixel-style reference for later sheets.
+Attach the proposed Hylaea concept as a **material, palette, foliage, and woodland-identity reference**. Do not copy its characters, HUD, complete arena layout, baked sunlight, or blur. The rules above take precedence over the concept's smooth rendering and over the previous chat prompts. Once one sheet is selected, use it as an additional pixel-style reference for later sheets.
 
-Save the generated outputs in `Environment Assets/Mosswood/` with the names below. Keep the core filenames unchanged. Supplementary filenames are proposed additions for manual cutting and placement; this document does not establish automatic runtime loading for them.
+Save the generated outputs in `Environment Assets/Hylaea/` with the names below. Keep the core filenames unchanged. Supplementary filenames are proposed additions for manual cutting and placement; this document does not establish automatic runtime loading for them.
 
 Suggested working canvases: 3072×1024 for 3:1 layers, 1024×1024 for ground tiles, 2048×2048 for four-object sheets, and 3072×2048 for larger sheets. Use a supported size and preserve the intended ratio; final dimensions should be multiples of eight. These are output targets, not verified Higgsfield model capabilities. Each prompt below is self-contained.
 
 ## 1. Far background panorama → `Far Background.png`
 
 ```text
-Create one wide panoramic pixel-art background for Mosswood, an ancient moss-covered forest in an HD-2D JRPG. Use the attached Mosswood concept only for woodland identity, material colours, and foliage shapes.
+Create one wide panoramic pixel-art background for Hylaea, an ancient moss-covered forest in an HD-2D JRPG. Use the attached Hylaea concept only for woodland identity, material colours, and foliage shapes.
 
 Use a sparse composition with only two or three uneven tree groups, concentrated toward the outer portions of the panorama. Leave roughly half or more of the frame as broad, low-contrast openings of pale cool-green distant woodland, with just a few faint slender tree silhouettes. Make the largest opening slightly off-centre and include smaller openings elsewhere. Avoid evenly spaced columns, a continuous overhead foliage roof, and a solid shrub wall. Preserve depth with separated silhouettes and colour, not by filling every gap with more trees. Do not draw a literal path or floor into the openings.
 
@@ -50,7 +50,7 @@ True pixel art: every art pixel is an exact 8×8 image-pixel block on one consis
 ## 2. Mid background tree line → `Mid Trees.png`
 
 ```text
-Create one continuous wide pixel-art mid-distance tree-line layer for Mosswood, an HD-2D JRPG forest. Use the attached concept for mossy bark, irregular foliage clusters, and woodland palette.
+Create one continuous wide pixel-art mid-distance tree-line layer for Hylaea, an HD-2D JRPG forest. Use the attached concept for mossy bark, irregular foliage clusters, and woodland palette.
 
 Include 5 to 6 large old forest trees arranged in uneven groups. Vary their diameter, lean, branching, and spacing. Some trunks overlap within groups, while several irregular openings reveal the empty background between groups. Avoid a solid hedge and a regular fence-like row. Thick mossy trunks have readable root flares, low branches, and grouped leaves; a few modest ferns and bushes gather around selected bases without sealing every gap.
 
@@ -64,7 +64,7 @@ Every empty area, including gaps inside foliage, is perfectly flat solid magenta
 ## 3. Ground texture → `Ground Tile.png`
 
 ```text
-Create one square seamless top-down pixel-art ground texture for the Mosswood battle floor: packed muted brown earth mixed with restrained irregular moss and short-grass patches, sparse brown and gold fallen leaves, a few small pebbles, tiny twigs, and occasional clover.
+Create one square seamless top-down pixel-art ground texture for the Hylaea battle floor: packed muted brown earth mixed with restrained irregular moss and short-grass patches, sparse brown and gold fallen leaves, a few small pebbles, tiny twigs, and occasional clover.
 
 Use broad quiet areas between details so combatants remain readable. No single dominant feature, large roots, tall plants, or recognisable repeated landmark. The texture is an edge-to-edge surface material, not a scene: no clearing outline, oval arena, path shape, border, horizon, or perspective.
 
@@ -76,7 +76,7 @@ Tile seamlessly across left/right and top/bottom edges. Opaque material across t
 ## 4. Foreground props sheet → `Props.png`
 
 ```text
-Create one pixel-art prop sheet for Mosswood, an HD-2D JRPG forest. Use the attached concept for material colours and object design. Arrange exactly 15 separate complete objects in five columns and three rows, with generous empty gutters and no drawn grid:
+Create one pixel-art prop sheet for Hylaea, an HD-2D JRPG forest. Use the attached concept for material colours and object design. Arrange exactly 15 separate complete objects in five columns and three rows, with generous empty gutters and no drawn grid:
 
 Row 1: three leafy bushes with distinct silhouettes and sizes; two different fern clumps.
 Row 2: three mossy boulders, small, medium, and large; one fallen mossy log; one old moss-covered stump.
@@ -92,7 +92,7 @@ All empty space is perfectly flat solid magenta #FF00FF, including holes between
 ## 5. Canopy overlay (optional) → `Canopy.png`
 
 ```text
-Create one wide continuous pixel-art canopy overlay for a Mosswood HD-2D JRPG battle scene. Close leafy branches and a few hanging vines extend down from the top edge, seen from below. Dark green grouped leaves have restrained warm late-afternoon highlights from the upper left.
+Create one wide continuous pixel-art canopy overlay for a Hylaea HD-2D JRPG battle scene. Close leafy branches and a few hanging vines extend down from the top edge, seen from below. Dark green grouped leaves have restrained warm late-afternoon highlights from the upper left.
 
 About 3:1 composition. Occupy only the upper quarter overall, thicker at the left and right corners and thinner through the centre. Keep the remaining lower area empty. Use an uneven organic silhouette with gaps between branches and foliage. Branches may intentionally continue beyond the upper and side edges. This is one framing layer, not a sheet of separate trees. The left and right edges must join seamlessly: anything crossing the right edge continues from the left edge at the same height, so the layer can repeat sideways without a visible seam.
 
@@ -101,7 +101,7 @@ All empty space is flat solid magenta #FF00FF, including foliage gaps. No sky, f
 Every art pixel is exactly an 8×8 image-pixel block, with hard grid-aligned edges and no anti-aliasing. No characters, animals, text, UI, borders, or watermark.
 ```
 
-## Supplementary sheets for the wider Mosswood area
+## Supplementary sheets for the wider Hylaea area
 
 The five core images cover the initial assembly. These seven additional sheets provide reusable pieces for trail bends, dense groves, root-heavy clearings, rocky verges, and deadwood pockets. They are optional additions, not replacements for the original filenames.
 
@@ -110,7 +110,7 @@ Keep the fighting floor open. Place banks, roots, trees, and rocks mainly around
 ### 6. Individual trees → `Tree Variants.png`
 
 ```text
-Create a Mosswood pixel-art cutout sheet with exactly four complete trees in a 2×2 layout: a broad asymmetrical old hardwood, a tall narrow hardwood, a gently leaning tree, and a smaller forked young tree. Include complete crowns and root flares, without cropping. Use irregular branching, visible foliage gaps, moss concentrated at the lower trunks, and different recognisable silhouettes. No surrounding scenery or ground islands. Match the attached forest reference and existing battle camera: slight three-quarter side view at approximately human eye height.
+Create a Hylaea pixel-art cutout sheet with exactly four complete trees in a 2×2 layout: a broad asymmetrical old hardwood, a tall narrow hardwood, a gently leaning tree, and a smaller forked young tree. Include complete crowns and root flares, without cropping. Use irregular branching, visible foliage gaps, moss concentrated at the lower trunks, and different recognisable silhouettes. No surrounding scenery or ground islands. Match the attached forest reference and existing battle camera: slight three-quarter side view at approximately human eye height.
 
 Warm late-afternoon light from the upper left; restrained right-side form shading. Every art pixel an exact 8×8 image-pixel block, no anti-aliasing or blur. Generous margins between all objects. Perfectly flat solid magenta #FF00FF in all empty areas and internal gaps; no transparency, checkerboard, gradient, floor, ground line, cast shadows, or magenta spill. No sunbeams, fog, bloom, characters, animals, text, UI, grid lines, or watermark.
 ```
@@ -118,7 +118,7 @@ Warm late-afternoon light from the upper left; restrained right-side form shadin
 ### 7. Landmark trunks → `Ancient Trunks.png`
 
 ```text
-Create a Mosswood pixel-art cutout sheet with exactly four ancient lower-trunk modules in a 2×2 layout: a massive buttressed trunk, a twisted trunk with a small dark hollow, paired trunks sharing one root system, and a leaning trunk with a long lateral root. Each has complete roots, readable bark ridges, and restrained moss growth. These are trunk modules without crowns; leave each upper end visible inside its cell for later concealment behind canopy. No extra scenery, pedestal, or soil island. Match the attached reference and the battle's slight three-quarter side view at approximately human eye height.
+Create a Hylaea pixel-art cutout sheet with exactly four ancient lower-trunk modules in a 2×2 layout: a massive buttressed trunk, a twisted trunk with a small dark hollow, paired trunks sharing one root system, and a leaning trunk with a long lateral root. Each has complete roots, readable bark ridges, and restrained moss growth. These are trunk modules without crowns; leave each upper end visible inside its cell for later concealment behind canopy. No extra scenery, pedestal, or soil island. Match the attached reference and the battle's slight three-quarter side view at approximately human eye height.
 
 Warm late-afternoon upper-left light and restrained right-side form shading. Exact 8×8 image-pixel blocks on one grid, no anti-aliasing or blur. Wide gutters and complete root silhouettes. Flat solid magenta #FF00FF in all empty areas: no transparency, checkerboard, gradient, floor, ground line, cast shadows, or magenta spill. No sunbeams, fog, bloom, characters, animals, text, UI, grid lines, or watermark.
 ```
@@ -126,7 +126,7 @@ Warm late-afternoon upper-left light and restrained right-side form shading. Exa
 ### 8. Understory variations → `Understory.png`
 
 ```text
-Create a Mosswood pixel-art cutout sheet of exactly six plant groups in three columns and two rows: a low wide shrub, a taller open-branched shrub, a broad fern, a compact asymmetric fern, a sparse short grass clump, and a low broad-leaf woodland plant. Give each a distinct silhouette with visible empty gaps between stems and fronds. Use grouped olive and deep-green leaves rather than photographic fine detail. Complete bases, no pots, soil disks, rocks, or extra scenery. Match the attached reference and the battle's slight three-quarter side view at approximately human eye height.
+Create a Hylaea pixel-art cutout sheet of exactly six plant groups in three columns and two rows: a low wide shrub, a taller open-branched shrub, a broad fern, a compact asymmetric fern, a sparse short grass clump, and a low broad-leaf woodland plant. Give each a distinct silhouette with visible empty gaps between stems and fronds. Use grouped olive and deep-green leaves rather than photographic fine detail. Complete bases, no pots, soil disks, rocks, or extra scenery. Match the attached reference and the battle's slight three-quarter side view at approximately human eye height.
 
 Warm late-afternoon light from the upper left, restrained right-side shading. Exact 8×8 image-pixel blocks, no anti-aliasing or blur. Separate all objects with generous margins. Empty areas are perfectly flat solid magenta #FF00FF: no transparency, checkerboard, gradient, floor, ground line, cast shadows, or magenta reflections. No sunbeams, fog, bloom, characters, animals, text, UI, grid lines, or watermark.
 ```
@@ -134,7 +134,7 @@ Warm late-afternoon light from the upper left, restrained right-side shading. Ex
 ### 9. Rocks and boulders → `Rock Variants.png`
 
 ```text
-Create a Mosswood pixel-art cutout sheet of exactly six stone objects in three columns and two rows: a large angular mossy boulder, a low rounded boulder, a taller split rock, three naturally touching small stones as one group, a long low boundary rock, and a broad embedded-looking rock cluster. Clear stone planes, subdued gray-brown colours, and irregular moss coverage with exposed stone on every object. Complete stable bases without ground platforms. Match the attached reference and the battle's slight three-quarter side view at approximately human eye height.
+Create a Hylaea pixel-art cutout sheet of exactly six stone objects in three columns and two rows: a large angular mossy boulder, a low rounded boulder, a taller split rock, three naturally touching small stones as one group, a long low boundary rock, and a broad embedded-looking rock cluster. Clear stone planes, subdued gray-brown colours, and irregular moss coverage with exposed stone on every object. Complete stable bases without ground platforms. Match the attached reference and the battle's slight three-quarter side view at approximately human eye height.
 
 Warm late-afternoon light from the upper left, restrained right-side shading. Exact 8×8 image-pixel blocks, no anti-aliasing or blur. Generous empty gutters. Perfectly flat solid magenta #FF00FF in every empty area: no transparency, checkerboard, gradient, floor, ground line, cast shadows, or magenta spill. No sunbeams, fog, bloom, characters, animals, text, UI, grid lines, or watermark.
 ```
@@ -142,7 +142,7 @@ Warm late-afternoon light from the upper left, restrained right-side shading. Ex
 ### 10. Low terrain edges → `Roots and Banks.png`
 
 ```text
-Create a Mosswood pixel-art cutout sheet of exactly six shallow terrain-edge modules in three columns and two rows: a low straight mossy earth bank, an inward-curving bank, an outward-curving bank, an exposed-root bank, a shallow mossy rock rise, and a tapering earth-and-root edge. Show a shallow front face and a modest visible upper surface, consistent with the battle's slight three-quarter side view at approximately human eye height. Organic tapering ends should allow overlap during assembly. These are low perimeter pieces, not tall cliffs or floating islands. No trees, bushes, paths, or surrounding floor.
+Create a Hylaea pixel-art cutout sheet of exactly six shallow terrain-edge modules in three columns and two rows: a low straight mossy earth bank, an inward-curving bank, an outward-curving bank, an exposed-root bank, a shallow mossy rock rise, and a tapering earth-and-root edge. Show a shallow front face and a modest visible upper surface, consistent with the battle's slight three-quarter side view at approximately human eye height. Organic tapering ends should allow overlap during assembly. These are low perimeter pieces, not tall cliffs or floating islands. No trees, bushes, paths, or surrounding floor.
 
 Warm late-afternoon upper-left light and restrained right-side shading. Exact 8×8 image-pixel blocks, no anti-aliasing or blur. Complete separate silhouettes with generous gutters. Flat solid magenta #FF00FF in all empty areas: no transparency, checkerboard, gradient, ground line outside each object, cast shadows, or magenta spill. No sunbeams, fog, bloom, water, characters, animals, text, UI, grid lines, or watermark.
 ```
@@ -150,7 +150,7 @@ Warm late-afternoon upper-left light and restrained right-side shading. Exact 8�
 ### 11. Deadwood variations → `Deadwood.png`
 
 ```text
-Create a Mosswood pixel-art cutout sheet of exactly six deadwood objects in three columns and two rows: a long fallen mossy trunk, a short hollow log, a broad broken stump, a small weathered stump, one long crooked branch, and a modest two-branch cluster. Distinct silhouettes, readable wood grain, believable thickness and broken ends, restrained decay, and selective moss. Vary object orientation while retaining the same slight three-quarter side-view battle camera at approximately human eye height. Complete objects, no cropping, soil islands, or attached scenery.
+Create a Hylaea pixel-art cutout sheet of exactly six deadwood objects in three columns and two rows: a long fallen mossy trunk, a short hollow log, a broad broken stump, a small weathered stump, one long crooked branch, and a modest two-branch cluster. Distinct silhouettes, readable wood grain, believable thickness and broken ends, restrained decay, and selective moss. Vary object orientation while retaining the same slight three-quarter side-view battle camera at approximately human eye height. Complete objects, no cropping, soil islands, or attached scenery.
 
 Warm late-afternoon upper-left illumination with restrained right-side shading. Exact 8×8 image-pixel blocks, no anti-aliasing or blur. Wide empty gutters. Flat solid magenta #FF00FF everywhere outside the objects: no transparency, checkerboard, gradient, floor, ground line, cast shadows, or magenta spill. No sunbeams, fog, bloom, characters, animals, text, UI, grid lines, or watermark.
 ```
@@ -158,7 +158,7 @@ Warm late-afternoon upper-left illumination with restrained right-side shading. 
 ### 12. Ground transitions → `Ground Scatter.png`
 
 ```text
-Create a Mosswood pixel-art cutout sheet of exactly six thin ground-cover patches in three columns and two rows: an irregular moss fringe, a sparse short-grass fringe, a broad broken leaf-litter patch, a compact moss patch with holes, a sparse small-pebble scatter, and a sparse leaf-and-twig patch.
+Create a Hylaea pixel-art cutout sheet of exactly six thin ground-cover patches in three columns and two rows: an irregular moss fringe, a sparse short-grass fringe, a broad broken leaf-litter patch, a compact moss patch with holes, a sparse small-pebble scatter, and a sparse leaf-and-twig patch.
 
 These pieces will lie flat against the 3D ground: view directly overhead with no perspective. Give each a broken organic outline and empty gaps so it can blend across dirt and moss surfaces. No rectangular backing, raised terrain, large roots, or standing scenery. Even flat lighting without directional shadows, using the forest's warm-compatible palette.
 
@@ -172,19 +172,19 @@ Keep `Ground Tile.png` as the default mixed floor. Generate these as separate op
 ### 13. Quiet trail material → `Ground Dirt.png`
 
 ```text
-Create one square seamless top-down pixel-art material for Mosswood: muted warm brown compacted forest earth with broad quiet variation, very sparse tiny pebbles, and occasional small leaf fragments. Mostly clear dirt, no grass border or path outline. Direct overhead orthographic view, even flat illumination, no directional highlights or shadows. No dominant landmark, roots, scenery, horizon, perspective, vignette, or blur. Match the attached concept's material palette without its lighting effects. Opaque surface across the entire image; no magenta or transparency. Tile seamlessly on all four edges. Every art pixel exactly an 8×8 image-pixel block, no anti-aliasing. No characters, animals, text, UI, or watermark.
+Create one square seamless top-down pixel-art material for Hylaea: muted warm brown compacted forest earth with broad quiet variation, very sparse tiny pebbles, and occasional small leaf fragments. Mostly clear dirt, no grass border or path outline. Direct overhead orthographic view, even flat illumination, no directional highlights or shadows. No dominant landmark, roots, scenery, horizon, perspective, vignette, or blur. Match the attached concept's material palette without its lighting effects. Opaque surface across the entire image; no magenta or transparency. Tile seamlessly on all four edges. Every art pixel exactly an 8×8 image-pixel block, no anti-aliasing. No characters, animals, text, UI, or watermark.
 ```
 
 ### 14. Mossy grove material → `Ground Moss.png`
 
 ```text
-Create one square seamless top-down pixel-art material for Mosswood: dense muted olive and deep-green moss in broad irregular cushions, with occasional small gaps of subdued brown soil. Restrained clustered detail without bright speckling. Direct overhead orthographic view, even flat illumination, no directional highlights or shadows. No standing plants, rocks, roots, path outlines, scenery, horizon, perspective, vignette, or blur. Match the attached concept's material palette without its lighting effects. Opaque surface across the entire image; no magenta or transparency. Tile seamlessly on all four edges. Every art pixel exactly an 8×8 image-pixel block, no anti-aliasing. No characters, animals, text, UI, or watermark.
+Create one square seamless top-down pixel-art material for Hylaea: dense muted olive and deep-green moss in broad irregular cushions, with occasional small gaps of subdued brown soil. Restrained clustered detail without bright speckling. Direct overhead orthographic view, even flat illumination, no directional highlights or shadows. No standing plants, rocks, roots, path outlines, scenery, horizon, perspective, vignette, or blur. Match the attached concept's material palette without its lighting effects. Opaque surface across the entire image; no magenta or transparency. Tile seamlessly on all four edges. Every art pixel exactly an 8×8 image-pixel block, no anti-aliasing. No characters, animals, text, UI, or watermark.
 ```
 
 ### 15. Shaded woodland material → `Ground Leaf Litter.png`
 
 ```text
-Create one square seamless top-down pixel-art material for Mosswood: thin irregular coverage of subdued brown and dull-gold fallen leaves with a few tiny twigs over dark forest soil. Leave broad quiet soil patches between leaf clusters. No thick piles or repeated dominant leaf motif. Direct overhead orthographic view, even flat illumination, no directional highlights or shadows. No standing plants, large branches, roots, rocks, path outlines, scenery, horizon, perspective, vignette, or blur. Match the attached concept's material palette without its lighting effects. Opaque surface across the entire image; no magenta or transparency. Tile seamlessly on all four edges. Every art pixel exactly an 8×8 image-pixel block, no anti-aliasing. No characters, animals, text, UI, or watermark.
+Create one square seamless top-down pixel-art material for Hylaea: thin irregular coverage of subdued brown and dull-gold fallen leaves with a few tiny twigs over dark forest soil. Leave broad quiet soil patches between leaf clusters. No thick piles or repeated dominant leaf motif. Direct overhead orthographic view, even flat illumination, no directional highlights or shadows. No standing plants, large branches, roots, rocks, path outlines, scenery, horizon, perspective, vignette, or blur. Match the attached concept's material palette without its lighting effects. Opaque surface across the entire image; no magenta or transparency. Tile seamlessly on all four edges. Every art pixel exactly an 8×8 image-pixel block, no anti-aliasing. No characters, animals, text, UI, or watermark.
 ```
 
 ## Placement and acceptance

@@ -1,0 +1,119 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "region.schema.json",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "region": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+    },
+    "rev": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "gdd": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "authoring_status": {
+      "enum": [
+        "specified",
+        "incomplete"
+      ]
+    },
+    "missing_fields": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "area_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+      },
+      "minItems": 1
+    },
+    "chapter_start": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "operating_base": {
+      "type": "boolean"
+    },
+    "track_cap": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "lifetime_xp_cap": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "enhancement_cap": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "staff_rank_cap": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "commander_skill_cap": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "rank_ceiling": {
+      "enum": [
+        "f",
+        "e",
+        "d",
+        "c",
+        "b",
+        "a",
+        "s"
+      ]
+    },
+    "local_generators": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "id",
+    "region",
+    "rev",
+    "name",
+    "gdd",
+    "authoring_status",
+    "missing_fields",
+    "area_ids",
+    "chapter_start",
+    "operating_base",
+    "track_cap",
+    "lifetime_xp_cap",
+    "enhancement_cap",
+    "staff_rank_cap",
+    "commander_skill_cap",
+    "rank_ceiling",
+    "local_generators"
+  ],
+  "additionalProperties": false
+}

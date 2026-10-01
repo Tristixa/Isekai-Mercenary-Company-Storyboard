@@ -1,0 +1,28 @@
+{
+  "result": "reviewed_candidate",
+  "owner_approval": false,
+  "plan_sha256": "8e11a66429a94a8e61110bd51e0071d4aba664647e1e64a7ea0080c63eeb87b5",
+  "images": {
+    "bird-view-sketch-v7c.png": "40da25751830f8808c8bcc268f8fc5dc584251817291529531b27fe4825436e8",
+    "cluster-map-v7c.png": "4c39732d3220ce8a0bab1db7fc9ad70652dacf0db584b5058a37e35c1e79dd78",
+    "v7b-vs-v7c.png": "a6261d4eec4d92c2277e3670311caf71fd33f76f74095ab7d2b7b130ecd666ce"
+  },
+  "reference": {
+    "path": "D:/Storyboards/Isekai Mercenary Company/Research/Eurydica City References/f03 illustrated.jpg",
+    "role": "Road bends, cluster spacing and grouped foliage",
+    "sha256": "7809dc46033e498ca992dcd5af2ef97bf3a62bf344462201abf71bf25515b883"
+  },
+  "observations": [
+    "Viewed all three final images. The main road now has alternating bends clearly visible in both plan and north-facing massing; gate and bridge ends remain fixed.",
+    "Compared at identical scale: removed quay-to-main, service-to-arrival and old-park returns are visible; the new north circuit and shared yard connector remain explicit. The 35 percent road-reduction aim is not reached and is disclosed in the report.",
+    "Dense overlapping canopy clumps replace the even single-tree distribution; broad open meadow is visible between groups, with a few accents beside the HQ and main road.",
+    "Civic paving follows an irregular boundary around the tower, with two trees in an eastern planted island. Blue appointment dots remain visibly on paving.",
+    "The south-east enclosure has a broken irregular hedge, staggered household bed groups and compact stacked fence stock by the tool shed. Legacy allotment uses are preserved.",
+    "Cluster numbers, legends, titles, scale bars and comparison captions are readable and fit the canvases. The oblique image shows retained roof palettes and is labelled as a geometry study."
+  ],
+  "limits": [
+    "Candidate only: owner approval pending.",
+    "35 percent road length/area aim not achieved.",
+    "Not a Godot capture or runtime occlusion test."
+  ]
+}

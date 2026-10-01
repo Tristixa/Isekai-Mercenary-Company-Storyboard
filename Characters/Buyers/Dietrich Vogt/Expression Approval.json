@@ -1,0 +1,59 @@
+{
+  "character": "Dietrich Vogt",
+  "version": "Expressions v1",
+  "status": "approved",
+  "date": "2026-09-28",
+  "userStatement": "approved",
+  "scope": "All eight expression portraits following the previously approved Base v2",
+  "files": [
+    {
+      "file": "Pleased.png",
+      "sha256": "32e4f82f000c65b3ac0a34d46ad501e3d48db39b950f8e5efbab8d67cbf95578",
+      "source": "D:/Codex/IMC/Buyers/Dietrich Vogt/Expressions v1/Pleased.png",
+      "master": "D:/Codex/IMC/Buyers/Dietrich Vogt/Expressions v1/Masters/Pleased.png"
+    },
+    {
+      "file": "Considering.png",
+      "sha256": "094c79bd8cbc224e26801cfeb7cb268a31a1f8df4f86c1976754380458cd7fb5",
+      "source": "D:/Codex/IMC/Buyers/Dietrich Vogt/Expressions v1/Considering.png",
+      "master": "D:/Codex/IMC/Buyers/Dietrich Vogt/Expressions v1/Masters/Considering.png"
+    },
+    {
+      "file": "Doubtful.png",
+      "sha256": "72c4692313c88209b8ef54623359d20fa1314fd19c85ee783def2704f5c6deb5",
+      "source": "D:/Codex/IMC/Buyers/Dietrich Vogt/Expressions v1/Doubtful.png",
+      "master": "D:/Codex/IMC/Buyers/Dietrich Vogt/Expressions v1/Masters/Doubtful.png"
+    },
+    {
+      "file": "Irritated.png",
+      "sha256": "eda50a506140f991f16e702a83be1467640b28f7dea5d8e9f5d0128422ad11e0",
+      "source": "D:/Codex/IMC/Buyers/Dietrich Vogt/Expressions v1/Irritated.png",
+      "master": "D:/Codex/IMC/Buyers/Dietrich Vogt/Expressions v1/Masters/Irritated.png"
+    },
+    {
+      "file": "Surprised.png",
+      "sha256": "ef77a441ad5fc4c3b71f0fb3c124a92d44ff26fd89a1f9d611ee1989944dface",
+      "source": "D:/Codex/IMC/Buyers/Dietrich Vogt/Expressions v1/Surprised.png",
+      "master": "D:/Codex/IMC/Buyers/Dietrich Vogt/Expressions v1/Masters/Surprised.png"
+    },
+    {
+      "file": "Deal.png",
+      "sha256": "e9f11094f730c7f828ccd249c8f836edccdb9aa98c368e8178259150d76ac0c2",
+      "source": "D:/Codex/IMC/Buyers/Dietrich Vogt/Expressions v1/Deal.png",
+      "master": "D:/Codex/IMC/Buyers/Dietrich Vogt/Expressions v1/Masters/Deal.png"
+    },
+    {
+      "file": "WalkAway.png",
+      "sha256": "45bb084f847d4a268108b7459bd159e22039b24800c433b67b1c8850014aeecc",
+      "source": "D:/Codex/IMC/Buyers/Dietrich Vogt/Expressions v1/WalkAway.png",
+      "master": "D:/Codex/IMC/Buyers/Dietrich Vogt/Expressions v1/Masters/WalkAway.png"
+    },
+    {
+      "file": "Bluff.png",
+      "sha256": "fbf18e60af0022204823ae4d67cb5b56ceb3f79239f8c396ece789729ff4c4c3",
+      "source": "D:/Codex/IMC/Buyers/Dietrich Vogt/Expressions v1/Bluff.png",
+      "master": "D:/Codex/IMC/Buyers/Dietrich Vogt/Expressions v1/Masters/Bluff.png"
+    }
+  ],
+  "runtimeIntegration": false
+}

@@ -1,0 +1,108 @@
+{
+  "id": "travelling_merchant",
+  "region": "eurydica",
+  "rev": 1,
+  "name": "Travelling Merchant",
+  "gdd": [
+    "5a.2a Counter-offer"
+  ],
+  "authoring_status": "incomplete",
+  "missing_fields": [
+    "sampling_profile",
+    "initial_acceptance_rule",
+    "tactics[].acceptance_delta",
+    "tactics[].patience_cost",
+    "tell_mapping.near_threshold"
+  ],
+  "persona": "honest",
+  "faction": null,
+  "taste_tags": [],
+  "ceiling_factor_range": {
+    "min": 0.8,
+    "max": 1.4
+  },
+  "patience_range": {
+    "min": 3,
+    "max": 5
+  },
+  "sampling_profile": null,
+  "initial_acceptance_rule": null,
+  "tactics": [
+    {
+      "id": "hold_firm",
+      "eligible": {
+        "all": []
+      },
+      "effective_when": {
+        "all": []
+      },
+      "acceptance_delta": null,
+      "patience_cost": null
+    },
+    {
+      "id": "show_quality",
+      "eligible": {
+        "all": []
+      },
+      "effective_when": {
+        "all": [
+          {
+            "fact": "quality",
+            "cmp": "gte",
+            "value": "standard"
+          }
+        ]
+      },
+      "acceptance_delta": null,
+      "patience_cost": null
+    },
+    {
+      "id": "add_a_unit",
+      "eligible": {
+        "all": [
+          {
+            "fact": "additional_available_units",
+            "cmp": "gte",
+            "value": 1
+          }
+        ]
+      },
+      "effective_when": {
+        "all": []
+      },
+      "acceptance_delta": null,
+      "patience_cost": null
+    },
+    {
+      "id": "mention_another_buyer",
+      "eligible": {
+        "all": []
+      },
+      "effective_when": {
+        "all": []
+      },
+      "acceptance_delta": null,
+      "patience_cost": null
+    },
+    {
+      "id": "give_ground",
+      "eligible": {
+        "all": []
+      },
+      "effective_when": {
+        "all": []
+      },
+      "acceptance_delta": null,
+      "patience_cost": null
+    }
+  ],
+  "tell_mapping": {
+    "under": "warm",
+    "near": "neutral",
+    "over": "irritated",
+    "near_threshold": null,
+    "bluff_rule": null
+  },
+  "allow_barter": false,
+  "allow_multi_item": false
+}

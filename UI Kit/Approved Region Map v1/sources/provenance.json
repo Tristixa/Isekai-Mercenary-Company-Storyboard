@@ -1,0 +1,332 @@
+[
+  {
+    "key": "paper",
+    "source": "D:/Storyboards/Isekai Mercenary Company/UI Kit/Approved v1/kit/layers/paper.png",
+    "file": "sources/reused/paper.png",
+    "sha256": "505d6e3411bbf7a0626c7d2f2704576769fdfe0fc1063326168f9569cefbc1c2"
+  },
+  {
+    "key": "stain_1",
+    "source": "D:/Storyboards/Isekai Mercenary Company/UI Kit/Approved v1/kit/layers/stain_1.png",
+    "file": "sources/reused/stain_1.png",
+    "sha256": "b457b1da3ada2e05a04cdc21022e7970c5a65d438bc8733161340eb7352d0a01"
+  },
+  {
+    "key": "stain_3",
+    "source": "D:/Storyboards/Isekai Mercenary Company/UI Kit/Approved v1/kit/layers/stain_3.png",
+    "file": "sources/reused/stain_3.png",
+    "sha256": "965122f6e59092964d30c2030da7ef39d831c0a0b233bf70b70c83880bb156ed"
+  },
+  {
+    "key": "watermark",
+    "source": "D:/Storyboards/Isekai Mercenary Company/UI Kit/Approved v1/kit/layers/watermark.png",
+    "file": "sources/reused/watermark.png",
+    "sha256": "b98db71d365e7b2dd318a37c9f0472bcd167ea5e19dc4836a3315f5cbea9f56a"
+  },
+  {
+    "key": "parchment_map_frame",
+    "source": "D:/Storyboards/Isekai Mercenary Company/UI Kit/Approved v1/kit/tier2/parchment_map_frame.png",
+    "file": "sources/reused/parchment_map_frame.png",
+    "sha256": "233dafc7540b5e7e261cbfedf80b85f0b2b993bd11e3d706a7b68777c658a942"
+  },
+  {
+    "key": "card_frame_light",
+    "source": "D:/Storyboards/Isekai Mercenary Company/UI Kit/Approved v1/kit/tier2/card_frame_light.png",
+    "file": "sources/reused/card_frame_light.png",
+    "sha256": "bfb17b7cc38dab312b8bfaaf670c4e427b891377bca4b9ab0ef37767021204f1"
+  },
+  {
+    "key": "card_frame_heavy",
+    "source": "D:/Storyboards/Isekai Mercenary Company/UI Kit/Approved v1/kit/tier2/card_frame_heavy.png",
+    "file": "sources/reused/card_frame_heavy.png",
+    "sha256": "3684ffa5e287e4836d85dcef751895629181f7f39d0af9b7a8c14b61977975cd"
+  },
+  {
+    "key": "header_band",
+    "source": "D:/Storyboards/Isekai Mercenary Company/UI Kit/Approved v1/kit/tier2/header_band.png",
+    "file": "sources/reused/header_band.png",
+    "sha256": "44422ff1bc091bf9c2ad56c27f90f24093e87d76e125886c708e3bbe5904f7b4"
+  },
+  {
+    "key": "header_medallion",
+    "source": "D:/Storyboards/Isekai Mercenary Company/UI Kit/Approved v1/kit/tier2/header_medallion.png",
+    "file": "sources/reused/header_medallion.png",
+    "sha256": "6b1cd4b9abeb4837a8de7d939d1edbcb6ce52a0a1e2431a339700d3ec83929e9"
+  },
+  {
+    "key": "title_ribbon_short",
+    "source": "D:/Storyboards/Isekai Mercenary Company/UI Kit/Approved v1/kit/tier1/title_ribbon_short.png",
+    "file": "sources/reused/title_ribbon_short.png",
+    "sha256": "b2af26bfc8074207c70fddf9462e718f3eff050e085503639d2f14a55235b977"
+  },
+  {
+    "key": "diamond_tab_selected",
+    "source": "D:/Storyboards/Isekai Mercenary Company/UI Kit/Approved v1/kit/controls/diamond_tab_selected.png",
+    "file": "sources/reused/diamond_tab_selected.png",
+    "sha256": "16fc0d8dda34c111970e7f248372ab25fc0737a4dd9b4c85520184153f6d7c8c"
+  },
+  {
+    "key": "diamond_tab_idle",
+    "source": "D:/Storyboards/Isekai Mercenary Company/UI Kit/Approved v1/kit/controls/diamond_tab_idle.png",
+    "file": "sources/reused/diamond_tab_idle.png",
+    "sha256": "c110ead4e9892fe066e852191232f6b7a4dac6893bbde1aa3dcdcaa68689eff8"
+  },
+  {
+    "key": "diamond_tab_disabled",
+    "source": "D:/Storyboards/Isekai Mercenary Company/UI Kit/Approved v1/kit/controls/diamond_tab_disabled.png",
+    "file": "sources/reused/diamond_tab_disabled.png",
+    "sha256": "e1c62af22f4d402f7c5592c8f91a47e03595537f3ecba226fa44e5eefd4ff8dd"
+  },
+  {
+    "key": "primary_button_idle",
+    "source": "D:/Storyboards/Isekai Mercenary Company/UI Kit/Approved v1/kit/controls/primary_button_idle.png",
+    "file": "sources/reused/primary_button_idle.png",
+    "sha256": "b064b6765cd2fa607b9910cde35b850b22396ad001187a5af22b34313d3af56b"
+  },
+  {
+    "key": "secondary_button_idle",
+    "source": "D:/Storyboards/Isekai Mercenary Company/UI Kit/Approved v1/kit/controls/secondary_button_idle.png",
+    "file": "sources/reused/secondary_button_idle.png",
+    "sha256": "42e64b4458fdecf50792ece531257b11001dbd40529b902b2ed2fb95757995f7"
+  },
+  {
+    "key": "primary_button_disabled",
+    "source": "D:/Storyboards/Isekai Mercenary Company/UI Kit/Approved v1/kit/controls/primary_button_disabled.png",
+    "file": "sources/reused/primary_button_disabled.png",
+    "sha256": "f07e50fecb3473c628abcee3511f9e6c7a14fb0f6adca41df28e0a994ac32c7f"
+  },
+  {
+    "key": "secondary_button_disabled",
+    "source": "D:/Storyboards/Isekai Mercenary Company/UI Kit/Approved v1/kit/controls/secondary_button_disabled.png",
+    "file": "sources/reused/secondary_button_disabled.png",
+    "sha256": "f07e50fecb3473c628abcee3511f9e6c7a14fb0f6adca41df28e0a994ac32c7f"
+  },
+  {
+    "key": "progress_track_idle",
+    "source": "D:/Storyboards/Isekai Mercenary Company/UI Kit/Approved v1/kit/controls/progress_track_idle.png",
+    "file": "sources/reused/progress_track_idle.png",
+    "sha256": "c92ee44837ea5232e28d71947ea279ee8062553e1d66806ba529d8bb26c89dfa"
+  },
+  {
+    "key": "progress_fill_idle",
+    "source": "D:/Storyboards/Isekai Mercenary Company/UI Kit/Approved v1/kit/controls/progress_fill_idle.png",
+    "file": "sources/reused/progress_fill_idle.png",
+    "sha256": "01a12fee45b9f01c6c75252dd03afbe1e050a2ae13169d8b0d24d987038aab4b"
+  },
+  {
+    "key": "face_backing_idle",
+    "source": "D:/Storyboards/Isekai Mercenary Company/UI Kit/Approved v1/kit/controls/face_backing_idle.png",
+    "file": "sources/reused/face_backing_idle.png",
+    "sha256": "888fc0a8c0716f5b76822017fab2723fd41f704e5dd87d05069fbbe09bc46631"
+  },
+  {
+    "key": "help_ribbon",
+    "source": "D:/Storyboards/Isekai Mercenary Company/UI Kit/Approved v1/kit/tier3/help_ribbon.png",
+    "file": "sources/reused/help_ribbon.png",
+    "sha256": "92e03728eae1bc9034c842f1de1d75b7e1e4ae004a2c10b3580b5a04b4f4c84d"
+  },
+  {
+    "key": "button_hint_keyboard",
+    "source": "D:/Storyboards/Isekai Mercenary Company/UI Kit/Approved v1/kit/tier3/button_hint_keyboard.png",
+    "file": "sources/reused/button_hint_keyboard.png",
+    "sha256": "812dfcf2de99acb59d7741e338673dc3a3b7fddff045fd364b6de12c60277353"
+  },
+  {
+    "key": "key_esc",
+    "source": "D:/Storyboards/Isekai Mercenary Company/UI Kit/Approved v1/kit/tier3/key_esc.png",
+    "file": "sources/reused/key_esc.png",
+    "sha256": "1bb89d8156ad5c9fa5663fb3b0e61cbf8d28fddece7f657dc926e609b4c7e768"
+  },
+  {
+    "key": "key_enter",
+    "source": "D:/Storyboards/Isekai Mercenary Company/UI Kit/Approved v1/kit/tier3/key_enter.png",
+    "file": "sources/reused/key_enter.png",
+    "sha256": "213e7c5cd1324bcc13855874255ee53e352ec2285b54b68dd4bfafacc97e9ee1"
+  },
+  {
+    "key": "key_q",
+    "source": "D:/Storyboards/Isekai Mercenary Company/UI Kit/Approved v1/kit/tier3/key_q.png",
+    "file": "sources/reused/key_q.png",
+    "sha256": "757f291e3a28492a917ea8df28617856b1ab72ef970ba3b8e7a10a4402b2a657"
+  },
+  {
+    "key": "key_e",
+    "source": "D:/Storyboards/Isekai Mercenary Company/UI Kit/Approved v1/kit/tier3/key_e.png",
+    "file": "sources/reused/key_e.png",
+    "sha256": "d46738f45077fb4117166b588b7c270e5c6721ba35e1629b0b512c65aab2456f"
+  },
+  {
+    "key": "rank_f_48",
+    "source": "D:/Storyboards/Isekai Mercenary Company/UI Kit/Approved v1/kit/icons/rank_f_48.png",
+    "file": "sources/reused/rank_f_48.png",
+    "sha256": "c9acd23d19cd8fe3079ea3ee13a455682591858012372b45c5935bc3076c1bb1"
+  },
+  {
+    "key": "rank_e_48",
+    "source": "D:/Storyboards/Isekai Mercenary Company/UI Kit/Approved v1/kit/icons/rank_e_48.png",
+    "file": "sources/reused/rank_e_48.png",
+    "sha256": "94d4d449917131f8b4b3c400fddfe4c48220a4feea8124693de3bdc1bd242040"
+  },
+  {
+    "key": "rank_d_48",
+    "source": "D:/Storyboards/Isekai Mercenary Company/UI Kit/Approved v1/kit/icons/rank_d_48.png",
+    "file": "sources/reused/rank_d_48.png",
+    "sha256": "b5ea587325e0574cf2e93b52905917629749d1db4c3a6fa8e901d0e02026bad8"
+  },
+  {
+    "key": "lock_48",
+    "source": "D:/Storyboards/Isekai Mercenary Company/UI Kit/Approved v1/kit/icons/lock_48.png",
+    "file": "sources/reused/lock_48.png",
+    "sha256": "8d5236c291988a10b10200ff674ba71c20573e5874954f87da9b2bf79aa91cac"
+  },
+  {
+    "key": "information_32",
+    "source": "D:/Storyboards/Isekai Mercenary Company/UI Kit/Approved v1/kit/icons/information_32.png",
+    "file": "sources/reused/information_32.png",
+    "sha256": "2638445e141b0239de2f739c1795d4f2769c7ff561f58fc9459c6c8a62604b14"
+  },
+  {
+    "key": "objective_32",
+    "source": "D:/Storyboards/Isekai Mercenary Company/UI Kit/Approved v1/kit/icons/objective_32.png",
+    "file": "sources/reused/objective_32.png",
+    "sha256": "1e1e3e9c0b2bbe5941c9e4c99033b9c21a13d67873c0c9cf0d22b230fb5571a3"
+  },
+  {
+    "key": "ordinary_32",
+    "source": "D:/Storyboards/Isekai Mercenary Company/UI Kit/Approved v1/kit/icons/ordinary_32.png",
+    "file": "sources/reused/ordinary_32.png",
+    "sha256": "2ebe2f19eacb094a9a288b786f8cb5abf236995361b610ea8c74f701a50356b3"
+  },
+  {
+    "key": "roster_32",
+    "source": "D:/Storyboards/Isekai Mercenary Company/UI Kit/Approved v1/kit/icons/roster_32.png",
+    "file": "sources/reused/roster_32.png",
+    "sha256": "0a415188213f49a0da21c62ccf1a83f0cc3ac2d80221437dffc87da935213550"
+  },
+  {
+    "key": "rare_32",
+    "source": "D:/Storyboards/Isekai Mercenary Company/UI Kit/Approved v1/kit/icons/rare_32.png",
+    "file": "sources/reused/rare_32.png",
+    "sha256": "02c723b6c00436d6075878c32c0d98ab9c5062c3a328a58b0b095566385ae1fb"
+  },
+  {
+    "key": "row_divider",
+    "source": "D:/Storyboards/Isekai Mercenary Company/UI Kit/Approved v1/kit/controls/row_divider.png",
+    "file": "sources/reused/row_divider.png",
+    "sha256": "1c143c33da48e56081626f254ff291e7e40668e746ea8eb8c9976584d663ee5f"
+  },
+  {
+    "key": "quill_selected",
+    "source": "D:/Storyboards/Isekai Mercenary Company/UI Kit/Approved v1/kit/controls/quill_selected.png",
+    "file": "sources/reused/quill_selected.png",
+    "sha256": "0502a8bd9a29790f3e416dd1f166fad0e428439ecb7b3106ba6fd507a39830d2"
+  },
+  {
+    "key": "selected_row_glow_selected",
+    "source": "D:/Storyboards/Isekai Mercenary Company/UI Kit/Approved v1/kit/controls/selected_row_glow_selected.png",
+    "file": "sources/reused/selected_row_glow_selected.png",
+    "sha256": "6fd20279ddf77997ef381e75b7fb2fac6f1cd43b30e6f2f6ac94c851ae3809a7"
+  },
+  {
+    "key": "elsie",
+    "source": "D:/Storyboards/Isekai Mercenary Company/Characters/Officers/Elsie/Base.png",
+    "file": "sources/reused/elsie.png",
+    "sha256": "ad31656a99473d752f6b8ab18e8aaa03144e142d6bc56b264e992c311607e731"
+  },
+  {
+    "key": "hylaea_far",
+    "source": "D:/Storyboards/Isekai Mercenary Company/Environment Assets/Hylaea/Far Background - Approved Source.png",
+    "file": "sources/reused/hylaea_far.png",
+    "sha256": "209e9db26f4d4198d03d770a631098f1043c3c6147b5db827f36593e534798c7"
+  },
+  {
+    "key": "hylaea_ground",
+    "source": "D:/Storyboards/Isekai Mercenary Company/Environment Assets/Hylaea/Approved Calibration v1/clean/Ground Tile.png",
+    "file": "sources/reused/hylaea_ground.png",
+    "sha256": "f8b2b0e7474e66bc4a249e796dd7de16fe04434651efb5dc029b06b6a4860274"
+  },
+  {
+    "key": "h_mid-tall-left",
+    "source": "D:/Storyboards/Isekai Mercenary Company/Environment Assets/Hylaea/Approved Calibration v1/objects/mid-tall-left.png",
+    "file": "sources/reused/h_mid-tall-left.png",
+    "sha256": "9d490462e2c590acad9bbae116899c6ac46b9b9d37876652f45276112345ecf5"
+  },
+  {
+    "key": "h_mid-broad",
+    "source": "D:/Storyboards/Isekai Mercenary Company/Environment Assets/Hylaea/Approved Calibration v1/objects/mid-broad.png",
+    "file": "sources/reused/h_mid-broad.png",
+    "sha256": "89d42e0581e2a0ea411f27a75de330fd50d7737e8b2501c3962b66bf9d3bcc52"
+  },
+  {
+    "key": "h_canopy-left",
+    "source": "D:/Storyboards/Isekai Mercenary Company/Environment Assets/Hylaea/Approved Calibration v1/objects/canopy-left.png",
+    "file": "sources/reused/h_canopy-left.png",
+    "sha256": "04b727b7eca05a5aa1c3915543d254bec378d2c4b53f091107e9dde32070b634"
+  },
+  {
+    "key": "h_canopy-right",
+    "source": "D:/Storyboards/Isekai Mercenary Company/Environment Assets/Hylaea/Approved Calibration v1/objects/canopy-right.png",
+    "file": "sources/reused/h_canopy-right.png",
+    "sha256": "793cf1ae527a0d12a44e7ebaf36e193012213a4f6ad5418d5bc15d7da78821b6"
+  },
+  {
+    "key": "h_fern-wide",
+    "source": "D:/Storyboards/Isekai Mercenary Company/Environment Assets/Hylaea/Approved Calibration v1/objects/fern-wide.png",
+    "file": "sources/reused/h_fern-wide.png",
+    "sha256": "6b667ea13233f35f38c5009e8fe150270f0e2e18e7ad2101aff462bcf4b50bb4"
+  },
+  {
+    "key": "h_bush-low",
+    "source": "D:/Storyboards/Isekai Mercenary Company/Environment Assets/Hylaea/Approved Calibration v1/objects/bush-low.png",
+    "file": "sources/reused/h_bush-low.png",
+    "sha256": "85c8713ef045caa5d4f6949bfbd23f90ef51049af0d84acc6f3a93f0977c833f"
+  },
+  {
+    "key": "bernmoor_far",
+    "source": "D:/Storyboards/Isekai Mercenary Company/Environment Assets/Bernmoor/Far Background - Approved Source.png",
+    "file": "sources/reused/bernmoor_far.png",
+    "sha256": "65e494dc7443209b6f61ca7ba0ef2a601c50d064c5ab2e6a027cbf3c273edd38"
+  },
+  {
+    "key": "bernmoor_ground",
+    "source": "D:/Storyboards/Isekai Mercenary Company/Environment Assets/Bernmoor/Ground Tile - Approved Source.png",
+    "file": "sources/reused/bernmoor_ground.png",
+    "sha256": "d457de4273b87f5cdd0cc8871743bfc7d1daffc7dc4d3308e49329e31ebb4e42"
+  },
+  {
+    "key": "bernmoor_mid",
+    "source": "D:/Storyboards/Isekai Mercenary Company/Environment Assets/Bernmoor/Mid Layer - Approved Source.png",
+    "file": "sources/reused/bernmoor_mid.png",
+    "sha256": "b5fe8e4c2ecf3adc6d7eabe1e89f09155cd193896e3bd622a96f2ede3418c193"
+  },
+  {
+    "key": "bernmoor_foreground",
+    "source": "D:/Storyboards/Isekai Mercenary Company/Environment Assets/Bernmoor/Foreground - Approved Source.png",
+    "file": "sources/reused/bernmoor_foreground.png",
+    "sha256": "3b2151ee056fe897de6ef10d23dbbe168dcac5c08919aa4e651b7f07639e4bc1"
+  },
+  {
+    "key": "erythra_far",
+    "source": "D:/Storyboards/Isekai Mercenary Company/Environment Assets/Erythra Highlands/Far Background - Approved Source.png",
+    "file": "sources/reused/erythra_far.png",
+    "sha256": "4c0d18e62354b4392bda1d80ba9c8ee64622331aa4eb7c31952fd1635a9e197d"
+  },
+  {
+    "key": "erythra_ground",
+    "source": "D:/Storyboards/Isekai Mercenary Company/Environment Assets/Erythra Highlands/Ground Tile - Approved Source.png",
+    "file": "sources/reused/erythra_ground.png",
+    "sha256": "98aa4ec6c51da1b9e016ee8283175e5f70f86a59a4edd63eda5da9d983d90479"
+  },
+  {
+    "key": "erythra_mid",
+    "source": "D:/Storyboards/Isekai Mercenary Company/Environment Assets/Erythra Highlands/Mid Layer - Approved Source.png",
+    "file": "sources/reused/erythra_mid.png",
+    "sha256": "72d44e595bd0301c88fb6545b1be7c2e96df8736f21826774fe724c2ba9c3cef"
+  },
+  {
+    "key": "erythra_foreground",
+    "source": "D:/Storyboards/Isekai Mercenary Company/Environment Assets/Erythra Highlands/Foreground - Approved Source.png",
+    "file": "sources/reused/erythra_foreground.png",
+    "sha256": "9ef62567cb36a276743664740e3fe6398a8a65c3a6fc024efda039614df4452c"
+  }
+]

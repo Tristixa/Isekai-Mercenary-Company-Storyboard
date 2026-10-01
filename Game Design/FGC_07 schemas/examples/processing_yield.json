@@ -1,0 +1,31 @@
+{
+  "id": "dire_boar_yield",
+  "region": "eurydica",
+  "rev": 1,
+  "name": "Dire Boar processing",
+  "gdd": [
+    "10.1; 10.5"
+  ],
+  "authoring_status": "specified",
+  "missing_fields": [],
+  "monster_id": "dire_boar",
+  "duration_seconds": 2700,
+  "common": [
+    {
+      "item_id": "boar_meat",
+      "quantity": 2
+    },
+    {
+      "item_id": "boar_hide",
+      "quantity": 1
+    }
+  ],
+  "rare": {
+    "item_id": "boar_tusk",
+    "quantity": 1,
+    "chance": 0.2
+  },
+  "guaranteed": [],
+  "quality_roll_scope": "corpse",
+  "raw_reference_g": 36
+}

@@ -1,10 +1,12 @@
 # IMC Environment Rendering Standard
 
+> **Superseded (2026-10-01).** This 3D-era "simplified game appearance" standard is no longer the art style. The current style is the painted Unicorn Overlord-style storybook finish: see `Game Design/IMC GDD.md` §2.4 and `Environment Assets/Eurydica/Approved Finish v2/`. The Market Spine image this page linked was removed from the project; it is kept here only as history.
+
 Approved by the user on 2026-09-20 for future IMC places.
 
 ## Approved reference
 
-[Approved Eurydica Market Spine](../Locations/Eurydica/concepts/eurydica-market-spine-approved.png) establishes the desired rendering appearance. The user accepted it and asked to preserve this style for every new place instead of illustration.
+[Approved Eurydica Market Spine](../Locations/Eurydica/Art%20Direction/eurydica-market-spine-approved.png) establishes the desired rendering appearance. The user accepted it and asked to preserve this style for every new place instead of illustration.
 
 The active reusable instructions are in [IMC Environment Art Direction](<C:/Users/Tristixa-/.codex/skills/imc-environment-art-direction/SKILL.md>), with the detailed [approved appearance guide](<C:/Users/Tristixa-/.codex/skills/imc-environment-art-direction/references/game-appearance.md>). Both the approved image and the supporting actual game screenshot are retained inside that skill.
 

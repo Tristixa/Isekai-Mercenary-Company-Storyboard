@@ -1,0 +1,149 @@
+{
+  "id": "ch1_req_003",
+  "region": "eurydica",
+  "rev": 1,
+  "name": "Rare Slime Order",
+  "gdd": [
+    "11.1; 11.2"
+  ],
+  "authoring_status": "specified",
+  "missing_fields": [],
+  "source_id": "CH1-REQ-003",
+  "client_id": "travelling_merchant",
+  "offer_event": "rare_slime_order_offer_branch",
+  "inputs": [
+    {
+      "item_id": "rare_slime_part",
+      "quantity": 2,
+      "min_quality": "unsellable"
+    }
+  ],
+  "reward": {
+    "gold": 25,
+    "reputation": 100,
+    "effects": [
+      {
+        "op": "set",
+        "target": "rare_slime_order_completed",
+        "value": true,
+        "duration_actions": null
+      }
+    ]
+  },
+  "deadline_seconds": 172800,
+  "deadline_origin": "first_offer",
+  "accepted_failure_rep": 10,
+  "chapter_end_withdrawal": true,
+  "completion_access": "client_then_courier",
+  "alternatives": [
+    {
+      "id": "gel_instead_of_cores",
+      "eligible": {
+        "all": [
+          {
+            "fact": "request_state",
+            "cmp": "eq",
+            "value": "accepted"
+          }
+        ]
+      },
+      "inputs": [
+        {
+          "item_id": "common_slime_part",
+          "quantity": 15,
+          "min_quality": "unsellable"
+        }
+      ],
+      "release_normal_reservation": true,
+      "once": true
+    }
+  ],
+  "transitions": [
+    {
+      "from": "hidden",
+      "trigger": "offer_branch",
+      "to": "offered",
+      "guard": {
+        "all": []
+      },
+      "effects": []
+    },
+    {
+      "from": "offered",
+      "trigger": "accept",
+      "to": "accepted",
+      "guard": {
+        "all": []
+      },
+      "effects": []
+    },
+    {
+      "from": "offered",
+      "trigger": "deadline",
+      "to": "expired",
+      "guard": {
+        "all": []
+      },
+      "effects": []
+    },
+    {
+      "from": "offered",
+      "trigger": "chapter_end",
+      "to": "expired",
+      "guard": {
+        "all": []
+      },
+      "effects": []
+    },
+    {
+      "from": "accepted",
+      "trigger": "deliver",
+      "to": "completed",
+      "guard": {
+        "all": []
+      },
+      "effects": []
+    },
+    {
+      "from": "accepted",
+      "trigger": "deliver_alternative",
+      "to": "completed",
+      "guard": {
+        "all": []
+      },
+      "effects": []
+    },
+    {
+      "from": "accepted",
+      "trigger": "deadline",
+      "to": "expired",
+      "guard": {
+        "all": []
+      },
+      "effects": [
+        {
+          "op": "add",
+          "target": "reputation",
+          "value": -10,
+          "duration_actions": null
+        }
+      ]
+    },
+    {
+      "from": "accepted",
+      "trigger": "abandon",
+      "to": "failed",
+      "guard": {
+        "all": []
+      },
+      "effects": [
+        {
+          "op": "add",
+          "target": "reputation",
+          "value": -10,
+          "duration_actions": null
+        }
+      ]
+    }
+  ]
+}
