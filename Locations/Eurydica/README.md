@@ -40,10 +40,10 @@ The South Gate's inner face is 130.8 m from the river.
 
 ## The approved art (elsewhere)
 
-The art style is the **painted Unicorn Overlord-style storybook finish** (GDD §2.4). The 3D-era "simplified game appearance" district paintings were removed on 2026-10-01 (they remain in git history only); don't use them as references.
+The art style is **Proof 1's pixel art** (owner, 2026-10-01): buildings, roofs and ground drawn in code at 25 px per metre, with Codex-generated pixel trees, props and the red tree. It replaces the painted storybook finish (Approved Facades v1–v3, Finish v2), which stays as history. The 3D-era district paintings were removed on 2026-10-01 (git history only).
 
-- **The finish anchors:** `Environment Assets/Eurydica/Approved Finish v2/` (storybook walls, detailed-texture roofs).
-- **Environment pieces:** `Environment Assets/Eurydica/`: Approved Ground v1, Approved Red Tree v1, Approved Facades v3 (current; v1–v2 are earlier) and Approved Fantasy Plants v1.
+- **The pixel art:** `Environment Assets/Eurydica/Approved Pixel v1/` (trees, the red tree, 49 props) and `Environment Assets/Hylaea/Approved Pixel v1/` (battle objects).
+- **Earlier painted sets (history, design references):** `Environment Assets/Eurydica/`: Approved Ground v1, Approved Red Tree v1, Approved Facades v1–v3, Approved Finish v2, Approved Fantasy Plants v1 (the plants were dropped from the town by the owner).
 - **Atmosphere** (Kingdoms of Amalur mood: warm sun, blue haze, red trees, lanterns, smoke): `Research/Atmosphere - Kingdoms of Amalur/`.
 - **Layout references:** `Research/Eurydica City References/` (the owner's f01–f04 and six real towns).
 - **Next to the town:** `Locations/Eurydica Outskirts/` (Scene 1).

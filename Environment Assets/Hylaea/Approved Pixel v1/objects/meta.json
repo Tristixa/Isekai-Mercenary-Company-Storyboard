@@ -1,0 +1,2029 @@
+{
+  "art_pixels_per_metre": 25,
+  "art_pixel_metres": 0.04,
+  "coordinate_origin": "top-left, zero-based grid pixels",
+  "rounding": "nearest whole pixel, exact half rounded up; maximum dimensional error 0.02m",
+  "palette_limit_including_transparency": 64,
+  "objects": {
+    "tree-broad": {
+      "grid_size_px": [
+        258,
+        225
+      ],
+      "anchor_px": [
+        101,
+        224
+      ],
+      "anchor_kind": "centre of lowest occupied row (half pixel rounded up)",
+      "real_size_m": 9,
+      "real_size_axis": "height",
+      "represented_size_m": 9.0,
+      "occupied_size_px": [
+        258,
+        225
+      ],
+      "colour_count": 63,
+      "rgba_colour_count": 64,
+      "accepted_attempt": "masters/attempts/tree-broad-01.png",
+      "generation_record": "tree-broad",
+      "master_sha256": "0d922d8cb707e59353b4e520588fbb4405914b77de2dffeabf95576ddc80fafe",
+      "master_size_px": [
+        1342,
+        1172
+      ],
+      "board_region_xyxy": [
+        0,
+        0,
+        1342,
+        1172
+      ],
+      "keyed_crop_in_region_xyxy": [
+        19,
+        20,
+        1325,
+        1161
+      ],
+      "retained_extremal_pixels": [],
+      "source_identity": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Hylaea\\Approved Calibration v1\\objects\\tree-broad.png",
+      "master_note": "Untouched full generation board; extraction region identifies this object.",
+      "lighting": "upper left",
+      "view": "side"
+    },
+    "tree-tall": {
+      "grid_size_px": [
+        158,
+        250
+      ],
+      "anchor_px": [
+        87,
+        249
+      ],
+      "anchor_kind": "centre of lowest occupied row (half pixel rounded up)",
+      "real_size_m": 10,
+      "real_size_axis": "height",
+      "represented_size_m": 10.0,
+      "occupied_size_px": [
+        158,
+        250
+      ],
+      "colour_count": 63,
+      "rgba_colour_count": 64,
+      "accepted_attempt": "masters/attempts/tree-tall-01.png",
+      "generation_record": "tree-tall",
+      "master_sha256": "3122a2f35d223bab599ccbf6c5440bcb1db313fcddc0a69d01f93b6d8d900a77",
+      "master_size_px": [
+        1024,
+        1536
+      ],
+      "board_region_xyxy": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "keyed_crop_in_region_xyxy": [
+        46,
+        24,
+        988,
+        1510
+      ],
+      "retained_extremal_pixels": [],
+      "source_identity": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Hylaea\\Approved Calibration v1\\objects\\tree-tall.png",
+      "master_note": "Untouched full generation board; extraction region identifies this object.",
+      "lighting": "upper left",
+      "view": "side"
+    },
+    "tree-leaning": {
+      "grid_size_px": [
+        246,
+        213
+      ],
+      "anchor_px": [
+        109,
+        212
+      ],
+      "anchor_kind": "centre of lowest occupied row (half pixel rounded up)",
+      "real_size_m": 8.5,
+      "real_size_axis": "height",
+      "represented_size_m": 8.52,
+      "occupied_size_px": [
+        246,
+        213
+      ],
+      "colour_count": 63,
+      "rgba_colour_count": 64,
+      "accepted_attempt": "masters/attempts/tree-leaning-01.png",
+      "generation_record": "tree-leaning",
+      "master_sha256": "25eb4ac10c29aaabf4e7d0cac5f8a62859ae660b09f7e178fb4ece78f21cf66d",
+      "master_size_px": [
+        1361,
+        1156
+      ],
+      "board_region_xyxy": [
+        0,
+        0,
+        1361,
+        1156
+      ],
+      "keyed_crop_in_region_xyxy": [
+        39,
+        13,
+        1335,
+        1136
+      ],
+      "retained_extremal_pixels": [],
+      "source_identity": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Hylaea\\Approved Calibration v1\\objects\\tree-leaning.png",
+      "master_note": "Untouched full generation board; extraction region identifies this object.",
+      "lighting": "upper left",
+      "view": "side"
+    },
+    "tree-young": {
+      "grid_size_px": [
+        106,
+        138
+      ],
+      "anchor_px": [
+        58,
+        137
+      ],
+      "anchor_kind": "centre of lowest occupied row (half pixel rounded up)",
+      "real_size_m": 5.5,
+      "real_size_axis": "height",
+      "represented_size_m": 5.52,
+      "occupied_size_px": [
+        106,
+        138
+      ],
+      "colour_count": 63,
+      "rgba_colour_count": 64,
+      "accepted_attempt": "masters/attempts/tree-young-01.png",
+      "generation_record": "tree-young",
+      "master_sha256": "2f52a8728fce5c57487fd98cd501058eb85c1124c4aa315f8b950471fb4ccb5a",
+      "master_size_px": [
+        1080,
+        1456
+      ],
+      "board_region_xyxy": [
+        0,
+        0,
+        1080,
+        1456
+      ],
+      "keyed_crop_in_region_xyxy": [
+        24,
+        41,
+        1052,
+        1382
+      ],
+      "retained_extremal_pixels": [],
+      "source_identity": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Hylaea\\Approved Calibration v1\\objects\\tree-young.png",
+      "master_note": "Untouched full generation board; extraction region identifies this object.",
+      "lighting": "upper left",
+      "view": "side"
+    },
+    "mid-broad": {
+      "grid_size_px": [
+        174,
+        175
+      ],
+      "anchor_px": [
+        84,
+        174
+      ],
+      "anchor_kind": "centre of lowest occupied row (half pixel rounded up)",
+      "real_size_m": 7,
+      "real_size_axis": "height",
+      "represented_size_m": 7.0,
+      "occupied_size_px": [
+        174,
+        175
+      ],
+      "colour_count": 63,
+      "rgba_colour_count": 64,
+      "accepted_attempt": "masters/attempts/mid-broad-01.png",
+      "generation_record": "mid-broad",
+      "master_sha256": "b8c8d6fb1316dd65c5d3d18294967663b4958cafa35d4c912bf00fc6ee40f030",
+      "master_size_px": [
+        1254,
+        1254
+      ],
+      "board_region_xyxy": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "keyed_crop_in_region_xyxy": [
+        43,
+        34,
+        1210,
+        1209
+      ],
+      "retained_extremal_pixels": [],
+      "source_identity": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Hylaea\\Approved Calibration v1\\objects\\mid-broad.png",
+      "master_note": "Untouched full generation board; extraction region identifies this object.",
+      "lighting": "upper left",
+      "view": "side"
+    },
+    "mid-tall-left": {
+      "grid_size_px": [
+        121,
+        200
+      ],
+      "anchor_px": [
+        39,
+        199
+      ],
+      "anchor_kind": "centre of lowest occupied row (half pixel rounded up)",
+      "real_size_m": 8,
+      "real_size_axis": "height",
+      "represented_size_m": 8.0,
+      "occupied_size_px": [
+        121,
+        200
+      ],
+      "colour_count": 63,
+      "rgba_colour_count": 64,
+      "accepted_attempt": "masters/attempts/mid-tall-left-01.png",
+      "generation_record": "mid-tall-left",
+      "master_sha256": "03c228c4bfbef98a6d354be447f990080442c74a797a354d7d64c7d55957b58d",
+      "master_size_px": [
+        1024,
+        1536
+      ],
+      "board_region_xyxy": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "keyed_crop_in_region_xyxy": [
+        66,
+        47,
+        931,
+        1472
+      ],
+      "retained_extremal_pixels": [],
+      "source_identity": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Hylaea\\Approved Calibration v1\\objects\\mid-tall-left.png",
+      "master_note": "Untouched full generation board; extraction region identifies this object.",
+      "lighting": "upper left",
+      "view": "side"
+    },
+    "mid-young": {
+      "grid_size_px": [
+        170,
+        175
+      ],
+      "anchor_px": [
+        72,
+        174
+      ],
+      "anchor_kind": "centre of lowest occupied row (half pixel rounded up)",
+      "real_size_m": 7,
+      "real_size_axis": "height",
+      "represented_size_m": 7.0,
+      "occupied_size_px": [
+        170,
+        175
+      ],
+      "colour_count": 63,
+      "rgba_colour_count": 64,
+      "accepted_attempt": "masters/attempts/mid-young-01.png",
+      "generation_record": "mid-young",
+      "master_sha256": "0c936034f14a99542138780067c7c5e508c4f76f90e1a7b46a3d1c89d7eb13f4",
+      "master_size_px": [
+        1217,
+        1292
+      ],
+      "board_region_xyxy": [
+        0,
+        0,
+        1217,
+        1292
+      ],
+      "keyed_crop_in_region_xyxy": [
+        64,
+        89,
+        1161,
+        1218
+      ],
+      "retained_extremal_pixels": [],
+      "source_identity": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Hylaea\\Approved Calibration v1\\objects\\mid-young.png",
+      "master_note": "Untouched full generation board; extraction region identifies this object.",
+      "lighting": "upper left",
+      "view": "side"
+    },
+    "mid-leaning": {
+      "grid_size_px": [
+        192,
+        175
+      ],
+      "anchor_px": [
+        79,
+        174
+      ],
+      "anchor_kind": "centre of lowest occupied row (half pixel rounded up)",
+      "real_size_m": 7,
+      "real_size_axis": "height",
+      "represented_size_m": 7.0,
+      "occupied_size_px": [
+        192,
+        175
+      ],
+      "colour_count": 63,
+      "rgba_colour_count": 64,
+      "accepted_attempt": "masters/attempts/mid-leaning-01.png",
+      "generation_record": "mid-leaning",
+      "master_sha256": "2ec01f4b407195e1cd5275de2ae1d1ae50a3c810eee6fbf15362d198c54c2019",
+      "master_size_px": [
+        1303,
+        1207
+      ],
+      "board_region_xyxy": [
+        0,
+        0,
+        1303,
+        1207
+      ],
+      "keyed_crop_in_region_xyxy": [
+        29,
+        35,
+        1273,
+        1167
+      ],
+      "retained_extremal_pixels": [],
+      "source_identity": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Hylaea\\Approved Calibration v1\\objects\\mid-leaning.png",
+      "master_note": "Untouched full generation board; extraction region identifies this object.",
+      "lighting": "upper left",
+      "view": "side"
+    },
+    "mid-tall-right": {
+      "grid_size_px": [
+        116,
+        200
+      ],
+      "anchor_px": [
+        40,
+        199
+      ],
+      "anchor_kind": "centre of lowest occupied row (half pixel rounded up)",
+      "real_size_m": 8,
+      "real_size_axis": "height",
+      "represented_size_m": 8.0,
+      "occupied_size_px": [
+        116,
+        200
+      ],
+      "colour_count": 63,
+      "rgba_colour_count": 64,
+      "accepted_attempt": "masters/attempts/mid-tall-right-01.png",
+      "generation_record": "mid-tall-right",
+      "master_sha256": "8963944f9655f5958c03b1d104273c4ff04c01f311c547b5a0df27b5d1ac29e3",
+      "master_size_px": [
+        971,
+        1619
+      ],
+      "board_region_xyxy": [
+        0,
+        0,
+        971,
+        1619
+      ],
+      "keyed_crop_in_region_xyxy": [
+        59,
+        58,
+        915,
+        1538
+      ],
+      "retained_extremal_pixels": [],
+      "source_identity": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Hylaea\\Approved Calibration v1\\objects\\mid-tall-right.png",
+      "master_note": "Untouched full generation board; extraction region identifies this object.",
+      "lighting": "upper left",
+      "view": "side"
+    },
+    "canopy-left": {
+      "grid_size_px": [
+        150,
+        93
+      ],
+      "anchor_px": [
+        28,
+        17
+      ],
+      "anchor_kind": "centre of upper-left woody attachment end",
+      "real_size_m": 6,
+      "real_size_axis": "width",
+      "represented_size_m": 6.0,
+      "occupied_size_px": [
+        150,
+        93
+      ],
+      "colour_count": 63,
+      "rgba_colour_count": 64,
+      "accepted_attempt": "masters/attempts/canopy-left-01.png",
+      "generation_record": "canopy-left",
+      "master_sha256": "8eaa3aadeea000e14989743ee160537411d560ddb6189d73c37b0f9c7bfc2c85",
+      "master_size_px": [
+        1575,
+        999
+      ],
+      "board_region_xyxy": [
+        0,
+        0,
+        1575,
+        999
+      ],
+      "keyed_crop_in_region_xyxy": [
+        58,
+        46,
+        1523,
+        951
+      ],
+      "retained_extremal_pixels": [
+        [
+          130,
+          92
+        ],
+        [
+          0,
+          65
+        ]
+      ],
+      "source_identity": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Hylaea\\Approved Calibration v1\\objects\\canopy-left.png",
+      "master_note": "Untouched full generation board; extraction region identifies this object.",
+      "lighting": "upper left",
+      "view": "side"
+    },
+    "canopy-right": {
+      "grid_size_px": [
+        150,
+        95
+      ],
+      "anchor_px": [
+        143,
+        15
+      ],
+      "anchor_kind": "centre of upper-right woody attachment end",
+      "real_size_m": 6,
+      "real_size_axis": "width",
+      "represented_size_m": 6.0,
+      "occupied_size_px": [
+        150,
+        95
+      ],
+      "colour_count": 63,
+      "rgba_colour_count": 64,
+      "accepted_attempt": "masters/attempts/canopy-right-01.png",
+      "generation_record": "canopy-right",
+      "master_sha256": "999060db72487f6c6e8417a2574e51100d9603a9e81038d4ac02b0b31614baaa",
+      "master_size_px": [
+        1536,
+        1024
+      ],
+      "board_region_xyxy": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "keyed_crop_in_region_xyxy": [
+        65,
+        59,
+        1471,
+        954
+      ],
+      "retained_extremal_pixels": [],
+      "source_identity": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Hylaea\\Approved Calibration v1\\objects\\canopy-right.png",
+      "master_note": "Untouched full generation board; extraction region identifies this object.",
+      "lighting": "upper left",
+      "view": "side"
+    },
+    "bush-low": {
+      "grid_size_px": [
+        33,
+        18
+      ],
+      "anchor_px": [
+        15,
+        17
+      ],
+      "anchor_kind": "centre of lowest occupied row (half pixel rounded up)",
+      "real_size_m": 0.7,
+      "real_size_axis": "height",
+      "represented_size_m": 0.72,
+      "occupied_size_px": [
+        33,
+        18
+      ],
+      "colour_count": 63,
+      "rgba_colour_count": 64,
+      "accepted_attempt": "masters/attempts/bush-low-01.png",
+      "generation_record": "batch-bushes",
+      "master_sha256": "5f03d341685501c7cac3545969c671b4a581739b549e937224ca800e925a5fcc",
+      "master_size_px": [
+        1774,
+        887
+      ],
+      "board_region_xyxy": [
+        0,
+        0,
+        887,
+        887
+      ],
+      "keyed_crop_in_region_xyxy": [
+        49,
+        365,
+        840,
+        791
+      ],
+      "retained_extremal_pixels": [],
+      "source_identity": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Hylaea\\Approved Calibration v1\\objects\\bush-low.png",
+      "master_note": "Untouched full generation board; extraction region identifies this object.",
+      "lighting": "upper left",
+      "view": "side"
+    },
+    "bush-open": {
+      "grid_size_px": [
+        32,
+        28
+      ],
+      "anchor_px": [
+        16,
+        27
+      ],
+      "anchor_kind": "centre of lowest occupied row (half pixel rounded up)",
+      "real_size_m": 1.1,
+      "real_size_axis": "height",
+      "represented_size_m": 1.12,
+      "occupied_size_px": [
+        32,
+        28
+      ],
+      "colour_count": 63,
+      "rgba_colour_count": 64,
+      "accepted_attempt": "masters/attempts/bush-open-01.png",
+      "generation_record": "batch-open-fern",
+      "master_sha256": "0639f43dc980ac2dd4d5c24437ebf19530df2855669e60721326231364ea9c1b",
+      "master_size_px": [
+        1874,
+        839
+      ],
+      "board_region_xyxy": [
+        0,
+        0,
+        937,
+        839
+      ],
+      "keyed_crop_in_region_xyxy": [
+        42,
+        46,
+        900,
+        799
+      ],
+      "retained_extremal_pixels": [],
+      "source_identity": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Hylaea\\Approved Calibration v1\\objects\\bush-open.png",
+      "master_note": "Untouched full generation board; extraction region identifies this object.",
+      "lighting": "upper left",
+      "view": "side"
+    },
+    "bush-round": {
+      "grid_size_px": [
+        35,
+        30
+      ],
+      "anchor_px": [
+        18,
+        29
+      ],
+      "anchor_kind": "centre of lowest occupied row (half pixel rounded up)",
+      "real_size_m": 1.2,
+      "real_size_axis": "height",
+      "represented_size_m": 1.2,
+      "occupied_size_px": [
+        35,
+        30
+      ],
+      "colour_count": 63,
+      "rgba_colour_count": 64,
+      "accepted_attempt": "masters/attempts/bush-round-01.png",
+      "generation_record": "batch-bushes",
+      "master_sha256": "5f03d341685501c7cac3545969c671b4a581739b549e937224ca800e925a5fcc",
+      "master_size_px": [
+        1774,
+        887
+      ],
+      "board_region_xyxy": [
+        887,
+        0,
+        1774,
+        887
+      ],
+      "keyed_crop_in_region_xyxy": [
+        62,
+        142,
+        829,
+        792
+      ],
+      "retained_extremal_pixels": [],
+      "source_identity": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Hylaea\\Approved Calibration v1\\objects\\bush-round.png",
+      "master_note": "Untouched full generation board; extraction region identifies this object.",
+      "lighting": "upper left",
+      "view": "side"
+    },
+    "fern-upright": {
+      "grid_size_px": [
+        25,
+        23
+      ],
+      "anchor_px": [
+        6,
+        22
+      ],
+      "anchor_kind": "centre of lowest occupied row (half pixel rounded up)",
+      "real_size_m": 0.9,
+      "real_size_axis": "height",
+      "represented_size_m": 0.92,
+      "occupied_size_px": [
+        25,
+        23
+      ],
+      "colour_count": 62,
+      "rgba_colour_count": 63,
+      "accepted_attempt": "masters/attempts/fern-upright-01.png",
+      "generation_record": "batch-open-fern",
+      "master_sha256": "0639f43dc980ac2dd4d5c24437ebf19530df2855669e60721326231364ea9c1b",
+      "master_size_px": [
+        1874,
+        839
+      ],
+      "board_region_xyxy": [
+        937,
+        0,
+        1874,
+        839
+      ],
+      "keyed_crop_in_region_xyxy": [
+        156,
+        129,
+        894,
+        817
+      ],
+      "retained_extremal_pixels": [],
+      "source_identity": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Hylaea\\Approved Calibration v1\\objects\\fern-upright.png",
+      "master_note": "Untouched full generation board; extraction region identifies this object.",
+      "lighting": "upper left",
+      "view": "side"
+    },
+    "fern-wide": {
+      "grid_size_px": [
+        28,
+        18
+      ],
+      "anchor_px": [
+        18,
+        17
+      ],
+      "anchor_kind": "centre of lowest occupied row (half pixel rounded up)",
+      "real_size_m": 0.7,
+      "real_size_axis": "height",
+      "represented_size_m": 0.72,
+      "occupied_size_px": [
+        28,
+        18
+      ],
+      "colour_count": 63,
+      "rgba_colour_count": 64,
+      "accepted_attempt": "masters/attempts/fern-wide-01.png",
+      "generation_record": "batch-fern-rock",
+      "master_sha256": "f38f81f15f45fedf5d007c89313cd98906848602e2687f679d090de91c468a3a",
+      "master_size_px": [
+        1774,
+        887
+      ],
+      "board_region_xyxy": [
+        0,
+        0,
+        970,
+        887
+      ],
+      "keyed_crop_in_region_xyxy": [
+        40,
+        145,
+        970,
+        734
+      ],
+      "retained_extremal_pixels": [],
+      "source_identity": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Hylaea\\Approved Calibration v1\\objects\\fern-wide.png",
+      "master_note": "Untouched full generation board; extraction region identifies this object.",
+      "lighting": "upper left",
+      "view": "side"
+    },
+    "grass-short": {
+      "grid_size_px": [
+        17,
+        8
+      ],
+      "anchor_px": [
+        9,
+        7
+      ],
+      "anchor_kind": "centre of lowest occupied row (half pixel rounded up)",
+      "real_size_m": 0.3,
+      "real_size_axis": "height",
+      "represented_size_m": 0.32,
+      "occupied_size_px": [
+        17,
+        8
+      ],
+      "colour_count": 54,
+      "rgba_colour_count": 55,
+      "accepted_attempt": "masters/attempts/grass-short-01.png",
+      "generation_record": "batch-grasses",
+      "master_sha256": "4c4bd2294b5320092883d09443a88da224e669b4bbb3c8db5d8f4a7d04c612ba",
+      "master_size_px": [
+        2172,
+        724
+      ],
+      "board_region_xyxy": [
+        0,
+        0,
+        1086,
+        724
+      ],
+      "keyed_crop_in_region_xyxy": [
+        210,
+        320,
+        871,
+        636
+      ],
+      "retained_extremal_pixels": [
+        [
+          0,
+          4
+        ]
+      ],
+      "source_identity": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Hylaea\\Approved Calibration v1\\objects\\grass-short.png",
+      "master_note": "Untouched full generation board; extraction region identifies this object.",
+      "lighting": "upper left",
+      "view": "side"
+    },
+    "grass-leaning": {
+      "grid_size_px": [
+        16,
+        10
+      ],
+      "anchor_px": [
+        9,
+        9
+      ],
+      "anchor_kind": "centre of lowest occupied row (half pixel rounded up)",
+      "real_size_m": 0.4,
+      "real_size_axis": "height",
+      "represented_size_m": 0.4,
+      "occupied_size_px": [
+        16,
+        10
+      ],
+      "colour_count": 56,
+      "rgba_colour_count": 57,
+      "accepted_attempt": "masters/attempts/grass-leaning-01.png",
+      "generation_record": "batch-grasses",
+      "master_sha256": "4c4bd2294b5320092883d09443a88da224e669b4bbb3c8db5d8f4a7d04c612ba",
+      "master_size_px": [
+        2172,
+        724
+      ],
+      "board_region_xyxy": [
+        1086,
+        0,
+        2172,
+        724
+      ],
+      "keyed_crop_in_region_xyxy": [
+        206,
+        165,
+        957,
+        640
+      ],
+      "retained_extremal_pixels": [],
+      "source_identity": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Hylaea\\Approved Calibration v1\\objects\\grass-leaning.png",
+      "master_note": "Untouched full generation board; extraction region identifies this object.",
+      "lighting": "upper left",
+      "view": "side"
+    },
+    "grass-tall": {
+      "grid_size_px": [
+        14,
+        13
+      ],
+      "anchor_px": [
+        7,
+        12
+      ],
+      "anchor_kind": "centre of lowest occupied row (half pixel rounded up)",
+      "real_size_m": 0.5,
+      "real_size_axis": "height",
+      "represented_size_m": 0.52,
+      "occupied_size_px": [
+        14,
+        13
+      ],
+      "colour_count": 58,
+      "rgba_colour_count": 59,
+      "accepted_attempt": "masters/attempts/grass-tall-01.png",
+      "generation_record": "batch-grass-flowers",
+      "master_sha256": "2b8419fcec4047f78eb505765d0f46e0a243db683189546ce7bcf3335582e3b9",
+      "master_size_px": [
+        1774,
+        887
+      ],
+      "board_region_xyxy": [
+        0,
+        0,
+        887,
+        887
+      ],
+      "keyed_crop_in_region_xyxy": [
+        75,
+        122,
+        829,
+        813
+      ],
+      "retained_extremal_pixels": [
+        [
+          13,
+          8
+        ]
+      ],
+      "source_identity": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Hylaea\\Approved Calibration v1\\objects\\grass-tall.png",
+      "master_note": "Untouched full generation board; extraction region identifies this object.",
+      "lighting": "upper left",
+      "view": "side"
+    },
+    "wildflowers": {
+      "grid_size_px": [
+        11,
+        10
+      ],
+      "anchor_px": [
+        5,
+        9
+      ],
+      "anchor_kind": "centre of lowest occupied row (half pixel rounded up)",
+      "real_size_m": 0.4,
+      "real_size_axis": "height",
+      "represented_size_m": 0.4,
+      "occupied_size_px": [
+        11,
+        10
+      ],
+      "colour_count": 49,
+      "rgba_colour_count": 50,
+      "accepted_attempt": "masters/attempts/wildflowers-01.png",
+      "generation_record": "batch-grass-flowers",
+      "master_sha256": "2b8419fcec4047f78eb505765d0f46e0a243db683189546ce7bcf3335582e3b9",
+      "master_size_px": [
+        1774,
+        887
+      ],
+      "board_region_xyxy": [
+        887,
+        0,
+        1774,
+        887
+      ],
+      "keyed_crop_in_region_xyxy": [
+        114,
+        195,
+        824,
+        832
+      ],
+      "retained_extremal_pixels": [
+        [
+          10,
+          4
+        ]
+      ],
+      "source_identity": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Hylaea\\Approved Calibration v1\\objects\\wildflowers.png",
+      "master_note": "Untouched full generation board; extraction region identifies this object.",
+      "lighting": "upper left",
+      "view": "side"
+    },
+    "mushrooms": {
+      "grid_size_px": [
+        11,
+        8
+      ],
+      "anchor_px": [
+        5,
+        7
+      ],
+      "anchor_kind": "centre of lowest occupied row (half pixel rounded up)",
+      "real_size_m": 0.3,
+      "real_size_axis": "height",
+      "represented_size_m": 0.32,
+      "occupied_size_px": [
+        11,
+        8
+      ],
+      "colour_count": 42,
+      "rgba_colour_count": 43,
+      "accepted_attempt": "masters/attempts/mushrooms-01.png",
+      "generation_record": "batch-mushrooms",
+      "master_sha256": "7204bbb09659308a777526e01e4f1a24aba86de8feabc14b7f121f1fd014b1ec",
+      "master_size_px": [
+        1536,
+        1024
+      ],
+      "board_region_xyxy": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "keyed_crop_in_region_xyxy": [
+        326,
+        195,
+        1191,
+        851
+      ],
+      "retained_extremal_pixels": [
+        [
+          0,
+          5
+        ]
+      ],
+      "source_identity": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Hylaea\\Approved Calibration v1\\objects\\mushrooms.png",
+      "master_note": "Untouched full generation board; extraction region identifies this object.",
+      "lighting": "upper left",
+      "view": "side"
+    },
+    "log": {
+      "grid_size_px": [
+        63,
+        27
+      ],
+      "anchor_px": [
+        5,
+        26
+      ],
+      "anchor_kind": "centre of lowest occupied row (half pixel rounded up)",
+      "real_size_m": 2.5,
+      "real_size_axis": "width",
+      "represented_size_m": 2.52,
+      "occupied_size_px": [
+        63,
+        27
+      ],
+      "colour_count": 63,
+      "rgba_colour_count": 64,
+      "accepted_attempt": "masters/attempts/log-01.png",
+      "generation_record": "batch-wood",
+      "master_sha256": "bbcf0305b07bd003aaffd71733e9300f77a2490a5fbf1285b83b0c24e174f6ba",
+      "master_size_px": [
+        2079,
+        756
+      ],
+      "board_region_xyxy": [
+        0,
+        0,
+        1186,
+        756
+      ],
+      "keyed_crop_in_region_xyxy": [
+        76,
+        180,
+        1186,
+        654
+      ],
+      "retained_extremal_pixels": [
+        [
+          62,
+          12
+        ]
+      ],
+      "source_identity": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Hylaea\\Approved Calibration v1\\objects\\log.png",
+      "master_note": "Untouched full generation board; extraction region identifies this object.",
+      "lighting": "upper left",
+      "view": "side"
+    },
+    "stump": {
+      "grid_size_px": [
+        20,
+        18
+      ],
+      "anchor_px": [
+        17,
+        17
+      ],
+      "anchor_kind": "centre of lowest occupied row (half pixel rounded up)",
+      "real_size_m": 0.7,
+      "real_size_axis": "height",
+      "represented_size_m": 0.72,
+      "occupied_size_px": [
+        20,
+        18
+      ],
+      "colour_count": 61,
+      "rgba_colour_count": 62,
+      "accepted_attempt": "masters/attempts/stump-01.png",
+      "generation_record": "batch-wood",
+      "master_sha256": "bbcf0305b07bd003aaffd71733e9300f77a2490a5fbf1285b83b0c24e174f6ba",
+      "master_size_px": [
+        2079,
+        756
+      ],
+      "board_region_xyxy": [
+        1186,
+        0,
+        2079,
+        756
+      ],
+      "keyed_crop_in_region_xyxy": [
+        184,
+        98,
+        841,
+        692
+      ],
+      "retained_extremal_pixels": [
+        [
+          0,
+          14
+        ]
+      ],
+      "source_identity": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Hylaea\\Approved Calibration v1\\objects\\stump.png",
+      "master_note": "Untouched full generation board; extraction region identifies this object.",
+      "lighting": "upper left",
+      "view": "side"
+    },
+    "rock-large": {
+      "grid_size_px": [
+        54,
+        35
+      ],
+      "anchor_px": [
+        25,
+        34
+      ],
+      "anchor_kind": "centre of lowest occupied row (half pixel rounded up)",
+      "real_size_m": 1.4,
+      "real_size_axis": "height",
+      "represented_size_m": 1.4,
+      "occupied_size_px": [
+        54,
+        35
+      ],
+      "colour_count": 61,
+      "rgba_colour_count": 62,
+      "accepted_attempt": "masters/attempts/rock-large-01.png",
+      "generation_record": "batch-rocks",
+      "master_sha256": "3fcf1f21fd6f7c45ba57eff810be6266cca4407c7994993954ded686f5095c52",
+      "master_size_px": [
+        1774,
+        887
+      ],
+      "board_region_xyxy": [
+        0,
+        0,
+        995,
+        887
+      ],
+      "keyed_crop_in_region_xyxy": [
+        35,
+        141,
+        995,
+        768
+      ],
+      "retained_extremal_pixels": [],
+      "source_identity": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Hylaea\\Approved Calibration v1\\objects\\rock-large.png",
+      "master_note": "Untouched full generation board; extraction region identifies this object.",
+      "lighting": "upper left",
+      "view": "side"
+    },
+    "rock-medium": {
+      "grid_size_px": [
+        23,
+        20
+      ],
+      "anchor_px": [
+        11,
+        19
+      ],
+      "anchor_kind": "centre of lowest occupied row (half pixel rounded up)",
+      "real_size_m": 0.8,
+      "real_size_axis": "height",
+      "represented_size_m": 0.8,
+      "occupied_size_px": [
+        23,
+        20
+      ],
+      "colour_count": 59,
+      "rgba_colour_count": 60,
+      "accepted_attempt": "masters/attempts/rock-medium-01.png",
+      "generation_record": "batch-rocks",
+      "master_sha256": "3fcf1f21fd6f7c45ba57eff810be6266cca4407c7994993954ded686f5095c52",
+      "master_size_px": [
+        1774,
+        887
+      ],
+      "board_region_xyxy": [
+        995,
+        0,
+        1774,
+        887
+      ],
+      "keyed_crop_in_region_xyxy": [
+        159,
+        291,
+        729,
+        780
+      ],
+      "retained_extremal_pixels": [],
+      "source_identity": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Hylaea\\Approved Calibration v1\\objects\\rock-medium.png",
+      "master_note": "Untouched full generation board; extraction region identifies this object.",
+      "lighting": "upper left",
+      "view": "side"
+    },
+    "rock-small": {
+      "grid_size_px": [
+        15,
+        10
+      ],
+      "anchor_px": [
+        7,
+        9
+      ],
+      "anchor_kind": "centre of lowest occupied row (half pixel rounded up)",
+      "real_size_m": 0.4,
+      "real_size_axis": "height",
+      "represented_size_m": 0.4,
+      "occupied_size_px": [
+        15,
+        10
+      ],
+      "colour_count": 56,
+      "rgba_colour_count": 57,
+      "accepted_attempt": "masters/attempts/rock-small-01.png",
+      "generation_record": "batch-fern-rock",
+      "master_sha256": "f38f81f15f45fedf5d007c89313cd98906848602e2687f679d090de91c468a3a",
+      "master_size_px": [
+        1774,
+        887
+      ],
+      "board_region_xyxy": [
+        970,
+        0,
+        1774,
+        887
+      ],
+      "keyed_crop_in_region_xyxy": [
+        183,
+        371,
+        722,
+        730
+      ],
+      "retained_extremal_pixels": [],
+      "source_identity": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Hylaea\\Approved Calibration v1\\objects\\rock-small.png",
+      "master_note": "Untouched full generation board; extraction region identifies this object.",
+      "lighting": "upper left",
+      "view": "side"
+    }
+  },
+  "reviews": {
+    "trees": {
+      "file": "review-trees.png",
+      "scale": 4,
+      "background_rgb": [
+        128,
+        128,
+        128
+      ],
+      "entries": [
+        {
+          "name": "tree-broad",
+          "pixel_local_xy": [
+            16,
+            60
+          ],
+          "painted_local_xy": [
+            1072,
+            60
+          ],
+          "painted_size_px": [
+            1038,
+            900
+          ],
+          "actor_local_xy": [
+            2134,
+            792
+          ],
+          "tile_origin_xy": [
+            0,
+            0
+          ]
+        },
+        {
+          "name": "tree-tall",
+          "pixel_local_xy": [
+            16,
+            60
+          ],
+          "painted_local_xy": [
+            672,
+            60
+          ],
+          "painted_size_px": [
+            664,
+            1000
+          ],
+          "actor_local_xy": [
+            1360,
+            892
+          ],
+          "tile_origin_xy": [
+            2258,
+            0
+          ]
+        },
+        {
+          "name": "tree-leaning",
+          "pixel_local_xy": [
+            16,
+            60
+          ],
+          "painted_local_xy": [
+            1024,
+            60
+          ],
+          "painted_size_px": [
+            899,
+            852
+          ],
+          "actor_local_xy": [
+            1947,
+            744
+          ],
+          "tile_origin_xy": [
+            0,
+            1100
+          ]
+        },
+        {
+          "name": "tree-young",
+          "pixel_local_xy": [
+            16,
+            60
+          ],
+          "painted_local_xy": [
+            464,
+            60
+          ],
+          "painted_size_px": [
+            481,
+            552
+          ],
+          "actor_local_xy": [
+            969,
+            444
+          ],
+          "tile_origin_xy": [
+            2258,
+            1100
+          ]
+        },
+        {
+          "name": "mid-broad",
+          "pixel_local_xy": [
+            16,
+            60
+          ],
+          "painted_local_xy": [
+            736,
+            60
+          ],
+          "painted_size_px": [
+            700,
+            700
+          ],
+          "actor_local_xy": [
+            1460,
+            592
+          ],
+          "tile_origin_xy": [
+            0,
+            2200
+          ]
+        },
+        {
+          "name": "mid-tall-left",
+          "pixel_local_xy": [
+            16,
+            60
+          ],
+          "painted_local_xy": [
+            524,
+            60
+          ],
+          "painted_size_px": [
+            495,
+            800
+          ],
+          "actor_local_xy": [
+            1043,
+            692
+          ],
+          "tile_origin_xy": [
+            2258,
+            2200
+          ]
+        },
+        {
+          "name": "mid-young",
+          "pixel_local_xy": [
+            16,
+            60
+          ],
+          "painted_local_xy": [
+            720,
+            60
+          ],
+          "painted_size_px": [
+            654,
+            700
+          ],
+          "actor_local_xy": [
+            1398,
+            592
+          ],
+          "tile_origin_xy": [
+            0,
+            3300
+          ]
+        },
+        {
+          "name": "mid-leaning",
+          "pixel_local_xy": [
+            16,
+            60
+          ],
+          "painted_local_xy": [
+            808,
+            60
+          ],
+          "painted_size_px": [
+            761,
+            700
+          ],
+          "actor_local_xy": [
+            1593,
+            592
+          ],
+          "tile_origin_xy": [
+            2258,
+            3300
+          ]
+        },
+        {
+          "name": "mid-tall-right",
+          "pixel_local_xy": [
+            16,
+            60
+          ],
+          "painted_local_xy": [
+            504,
+            60
+          ],
+          "painted_size_px": [
+            482,
+            800
+          ],
+          "actor_local_xy": [
+            1010,
+            692
+          ],
+          "tile_origin_xy": [
+            0,
+            4400
+          ]
+        }
+      ]
+    },
+    "ground": {
+      "file": "review-ground.png",
+      "scale": 4,
+      "background_rgb": [
+        128,
+        128,
+        128
+      ],
+      "entries": [
+        {
+          "name": "bush-low",
+          "pixel_local_xy": [
+            16,
+            156
+          ],
+          "painted_local_xy": [
+            172,
+            156
+          ],
+          "painted_size_px": [
+            118,
+            72
+          ],
+          "actor_local_xy": [
+            314,
+            60
+          ],
+          "tile_origin_xy": [
+            0,
+            0
+          ]
+        },
+        {
+          "name": "bush-open",
+          "pixel_local_xy": [
+            16,
+            116
+          ],
+          "painted_local_xy": [
+            168,
+            116
+          ],
+          "painted_size_px": [
+            110,
+            112
+          ],
+          "actor_local_xy": [
+            302,
+            60
+          ],
+          "tile_origin_xy": [
+            692,
+            0
+          ]
+        },
+        {
+          "name": "bush-round",
+          "pixel_local_xy": [
+            16,
+            108
+          ],
+          "painted_local_xy": [
+            180,
+            108
+          ],
+          "painted_size_px": [
+            139,
+            120
+          ],
+          "actor_local_xy": [
+            343,
+            60
+          ],
+          "tile_origin_xy": [
+            1384,
+            0
+          ]
+        },
+        {
+          "name": "fern-upright",
+          "pixel_local_xy": [
+            16,
+            136
+          ],
+          "painted_local_xy": [
+            140,
+            136
+          ],
+          "painted_size_px": [
+            93,
+            92
+          ],
+          "actor_local_xy": [
+            257,
+            60
+          ],
+          "tile_origin_xy": [
+            0,
+            268
+          ]
+        },
+        {
+          "name": "fern-wide",
+          "pixel_local_xy": [
+            16,
+            156
+          ],
+          "painted_local_xy": [
+            152,
+            156
+          ],
+          "painted_size_px": [
+            113,
+            72
+          ],
+          "actor_local_xy": [
+            289,
+            60
+          ],
+          "tile_origin_xy": [
+            692,
+            268
+          ]
+        },
+        {
+          "name": "grass-short",
+          "pixel_local_xy": [
+            16,
+            196
+          ],
+          "painted_local_xy": [
+            130,
+            196
+          ],
+          "painted_size_px": [
+            62,
+            32
+          ],
+          "actor_local_xy": [
+            244,
+            60
+          ],
+          "tile_origin_xy": [
+            1384,
+            268
+          ]
+        },
+        {
+          "name": "grass-leaning",
+          "pixel_local_xy": [
+            16,
+            188
+          ],
+          "painted_local_xy": [
+            130,
+            188
+          ],
+          "painted_size_px": [
+            62,
+            40
+          ],
+          "actor_local_xy": [
+            244,
+            60
+          ],
+          "tile_origin_xy": [
+            0,
+            536
+          ]
+        },
+        {
+          "name": "grass-tall",
+          "pixel_local_xy": [
+            16,
+            176
+          ],
+          "painted_local_xy": [
+            130,
+            176
+          ],
+          "painted_size_px": [
+            67,
+            52
+          ],
+          "actor_local_xy": [
+            244,
+            60
+          ],
+          "tile_origin_xy": [
+            692,
+            536
+          ]
+        },
+        {
+          "name": "wildflowers",
+          "pixel_local_xy": [
+            16,
+            188
+          ],
+          "painted_local_xy": [
+            130,
+            188
+          ],
+          "painted_size_px": [
+            46,
+            40
+          ],
+          "actor_local_xy": [
+            244,
+            60
+          ],
+          "tile_origin_xy": [
+            1384,
+            536
+          ]
+        },
+        {
+          "name": "mushrooms",
+          "pixel_local_xy": [
+            16,
+            196
+          ],
+          "painted_local_xy": [
+            130,
+            196
+          ],
+          "painted_size_px": [
+            50,
+            32
+          ],
+          "actor_local_xy": [
+            244,
+            60
+          ],
+          "tile_origin_xy": [
+            0,
+            804
+          ]
+        },
+        {
+          "name": "log",
+          "pixel_local_xy": [
+            16,
+            120
+          ],
+          "painted_local_xy": [
+            292,
+            118
+          ],
+          "painted_size_px": [
+            252,
+            110
+          ],
+          "actor_local_xy": [
+            568,
+            60
+          ],
+          "tile_origin_xy": [
+            692,
+            804
+          ]
+        },
+        {
+          "name": "stump",
+          "pixel_local_xy": [
+            16,
+            156
+          ],
+          "painted_local_xy": [
+            130,
+            156
+          ],
+          "painted_size_px": [
+            77,
+            72
+          ],
+          "actor_local_xy": [
+            244,
+            60
+          ],
+          "tile_origin_xy": [
+            1384,
+            804
+          ]
+        },
+        {
+          "name": "rock-large",
+          "pixel_local_xy": [
+            16,
+            88
+          ],
+          "painted_local_xy": [
+            256,
+            88
+          ],
+          "painted_size_px": [
+            226,
+            140
+          ],
+          "actor_local_xy": [
+            506,
+            60
+          ],
+          "tile_origin_xy": [
+            0,
+            1072
+          ]
+        },
+        {
+          "name": "rock-medium",
+          "pixel_local_xy": [
+            16,
+            148
+          ],
+          "painted_local_xy": [
+            132,
+            148
+          ],
+          "painted_size_px": [
+            97,
+            80
+          ],
+          "actor_local_xy": [
+            253,
+            60
+          ],
+          "tile_origin_xy": [
+            692,
+            1072
+          ]
+        },
+        {
+          "name": "rock-small",
+          "pixel_local_xy": [
+            16,
+            188
+          ],
+          "painted_local_xy": [
+            130,
+            188
+          ],
+          "painted_size_px": [
+            56,
+            40
+          ],
+          "actor_local_xy": [
+            244,
+            60
+          ],
+          "tile_origin_xy": [
+            1384,
+            1072
+          ]
+        }
+      ]
+    },
+    "canopy": {
+      "file": "review-canopy.png",
+      "scale": 4,
+      "background_rgb": [
+        128,
+        128,
+        128
+      ],
+      "entries": [
+        {
+          "name": "canopy-left",
+          "pixel_local_xy": [
+            16,
+            60
+          ],
+          "painted_local_xy": [
+            640,
+            72
+          ],
+          "painted_size_px": [
+            600,
+            360
+          ],
+          "actor_local_xy": [
+            1264,
+            264
+          ],
+          "tile_origin_xy": [
+            0,
+            0
+          ]
+        },
+        {
+          "name": "canopy-right",
+          "pixel_local_xy": [
+            16,
+            60
+          ],
+          "painted_local_xy": [
+            640,
+            66
+          ],
+          "painted_size_px": [
+            600,
+            374
+          ],
+          "actor_local_xy": [
+            1264,
+            272
+          ],
+          "tile_origin_xy": [
+            1388,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  "generation_provider": "built-in image_gen",
+  "contact": {
+    "scale": 2,
+    "entries": [
+      {
+        "name": "tree-broad",
+        "xy": [
+          16,
+          74
+        ]
+      },
+      {
+        "name": "tree-tall",
+        "xy": [
+          564,
+          24
+        ]
+      },
+      {
+        "name": "tree-leaning",
+        "xy": [
+          912,
+          98
+        ]
+      },
+      {
+        "name": "tree-young",
+        "xy": [
+          1436,
+          248
+        ]
+      },
+      {
+        "name": "mid-broad",
+        "xy": [
+          1680,
+          174
+        ]
+      },
+      {
+        "name": "mid-tall-left",
+        "xy": [
+          16,
+          584
+        ]
+      },
+      {
+        "name": "mid-young",
+        "xy": [
+          290,
+          634
+        ]
+      },
+      {
+        "name": "mid-leaning",
+        "xy": [
+          662,
+          634
+        ]
+      },
+      {
+        "name": "mid-tall-right",
+        "xy": [
+          1078,
+          584
+        ]
+      },
+      {
+        "name": "canopy-left",
+        "xy": [
+          16,
+          1048
+        ]
+      },
+      {
+        "name": "canopy-right",
+        "xy": [
+          348,
+          1044
+        ]
+      },
+      {
+        "name": "bush-low",
+        "xy": [
+          52,
+          1318
+        ]
+      },
+      {
+        "name": "bush-open",
+        "xy": [
+          223,
+          1298
+        ]
+      },
+      {
+        "name": "bush-round",
+        "xy": [
+          390,
+          1294
+        ]
+      },
+      {
+        "name": "fern-upright",
+        "xy": [
+          570,
+          1308
+        ]
+      },
+      {
+        "name": "fern-wide",
+        "xy": [
+          737,
+          1318
+        ]
+      },
+      {
+        "name": "grass-short",
+        "xy": [
+          918,
+          1338
+        ]
+      },
+      {
+        "name": "grass-leaning",
+        "xy": [
+          1089,
+          1334
+        ]
+      },
+      {
+        "name": "grass-tall",
+        "xy": [
+          1261,
+          1328
+        ]
+      },
+      {
+        "name": "wildflowers",
+        "xy": [
+          1434,
+          1334
+        ]
+      },
+      {
+        "name": "mushrooms",
+        "xy": [
+          1604,
+          1338
+        ]
+      },
+      {
+        "name": "log",
+        "xy": [
+          1722,
+          1300
+        ]
+      },
+      {
+        "name": "stump",
+        "xy": [
+          1935,
+          1318
+        ]
+      },
+      {
+        "name": "rock-large",
+        "xy": [
+          31,
+          1414
+        ]
+      },
+      {
+        "name": "rock-medium",
+        "xy": [
+          232,
+          1444
+        ]
+      },
+      {
+        "name": "rock-small",
+        "xy": [
+          410,
+          1464
+        ]
+      }
+    ],
+    "background_rgb": [
+      128,
+      128,
+      128
+    ]
+  },
+  "tristitia": {
+    "source": "D:/Storyboards/Isekai Mercenary Company/HD-2D Proof/out/atlas-gtris-x4.png",
+    "normalization_source": "D:/Codex/IMC/runs/pixel-trees-v1/tristitia-grid.png",
+    "height_m": 1.68,
+    "grid_height_px": 42,
+    "review_height_px": 168
+  },
+  "unmet_requirements": [
+    "Untouched masters are near-magenta, not exact flat #FF00FF"
+  ],
+  "supplemental_chroma_copies": "chroma-normalized/<name>.png: processed, exact #FF00FF, original artwork pixels preserved"
+}

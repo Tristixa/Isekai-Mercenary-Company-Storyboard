@@ -1,0 +1,114 @@
+{
+  "art_pixel_metres": 0.04,
+  "art_pixels_per_metre": 25,
+  "enlargement": 4,
+  "coordinate_origin": "top-left; zero-based pixels",
+  "trees": {
+    "broad": {
+      "grid_size_px": [
+        194,
+        212
+      ],
+      "trunk_base_px": [
+        98,
+        211
+      ],
+      "trunk_base_definition": "centre of bottom root spread, lowest occupied ground row",
+      "real_height_m": 8.48,
+      "colour_count": 63,
+      "colour_count_with_transparency": 64,
+      "source_crop_xyxy": [
+        24,
+        23,
+        1176,
+        1279
+      ],
+      "master_size_px": [
+        1196,
+        1315
+      ],
+      "master_sha256": "9c18f6be0295e33fbb449efb1d8e5366abe2dd0194bab528c6108d36dc5b346c",
+      "accepted_attempt": "masters/attempts/broad-01.png"
+    },
+    "tall": {
+      "grid_size_px": [
+        132,
+        238
+      ],
+      "trunk_base_px": [
+        62,
+        237
+      ],
+      "trunk_base_definition": "centre of bottom root spread, lowest occupied ground row",
+      "real_height_m": 9.52,
+      "colour_count": 63,
+      "colour_count_with_transparency": 64,
+      "source_crop_xyxy": [
+        181,
+        22,
+        956,
+        1418
+      ],
+      "master_size_px": [
+        1086,
+        1448
+      ],
+      "master_sha256": "f5be0769861c21faab50230fb778b7ed390521628c3a550e614303dbc9fc0bee",
+      "accepted_attempt": "masters/attempts/tall-01.png"
+    },
+    "young": {
+      "grid_size_px": [
+        109,
+        138
+      ],
+      "trunk_base_px": [
+        59,
+        137
+      ],
+      "trunk_base_definition": "centre of bottom root spread, lowest occupied ground row",
+      "real_height_m": 5.52,
+      "colour_count": 63,
+      "colour_count_with_transparency": 64,
+      "source_crop_xyxy": [
+        55,
+        47,
+        1080,
+        1342
+      ],
+      "master_size_px": [
+        1123,
+        1401
+      ],
+      "master_sha256": "267e3cd5da7d7cc56b4af94e96621b1b2818ee6228bafcc1fec42248d9d8e726",
+      "accepted_attempt": "masters/attempts/young-01.png"
+    }
+  },
+  "review": {
+    "order": [
+      "broad",
+      "tall",
+      "young",
+      "Tristitia"
+    ],
+    "background_rgb": [
+      128,
+      128,
+      128
+    ],
+    "display_pixels_per_metre": 100,
+    "tristitia_height_m": 1.68,
+    "tristitia_grid_height_px": 42,
+    "tristitia_source": "D:\\Storyboards\\Isekai Mercenary Company\\HD-2D Proof\\out\\atlas-gtris-x4.png",
+    "tristitia_source_cell_xyxy": [
+      0,
+      0,
+      160,
+      240
+    ],
+    "tristitia_source_visible_size_px": [
+      108,
+      208
+    ],
+    "note": "Atlas is already x4; crop normalized to 42 art pixels tall then enlarged exactly x4 for matching physical scale."
+  }
+}

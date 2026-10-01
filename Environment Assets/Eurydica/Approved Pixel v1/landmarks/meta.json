@@ -1,0 +1,139 @@
+{
+  "art_pixel_metres": 0.04,
+  "art_pixels_per_metre": 25,
+  "enlargement": 4,
+  "coordinate_origin": "top-left, zero-based",
+  "assets": {
+    "red-tree": {
+      "grid_size_px": [
+        319,
+        325
+      ],
+      "x4_size_px": [
+        1276,
+        1300
+      ],
+      "master_size_px": [
+        1254,
+        1254
+      ],
+      "source_crop_xyxy": [
+        13,
+        0,
+        1242,
+        1254
+      ],
+      "colour_count": 63,
+      "colour_count_with_transparency": 64,
+      "accepted_attempt": "masters/attempts/red-tree-01.png",
+      "master_sha256": "cf6705f368f5f1a6789ee313be51e5235607b966a6d7b0c3df58546f32522ff7",
+      "real_height_m": 13,
+      "real_width_m": 12.76,
+      "trunk_base_px": [
+        121.0,
+        324
+      ],
+      "trunk_base_definition": "midpoint of min/max occupied x on the lowest occupied row"
+    },
+    "leaf-ring": {
+      "grid_size_px": [
+        250,
+        250
+      ],
+      "x4_size_px": [
+        1000,
+        1000
+      ],
+      "master_size_px": [
+        1254,
+        1254
+      ],
+      "source_crop_xyxy": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "colour_count": 63,
+      "colour_count_with_transparency": 64,
+      "accepted_attempt": "masters/attempts/leaf-ring-01.png",
+      "master_sha256": "73839e4f252c2488d157ccd8786dbb80f1dac6f201b922834f3f31bdfae575b7",
+      "real_size_m": [
+        10,
+        10
+      ],
+      "trunk_hole_diameter_m": 1.6,
+      "centre_px": [
+        124.5,
+        124.5
+      ]
+    }
+  },
+  "review": {
+    "order": [
+      "red-tree",
+      "broad",
+      "Tristitia",
+      "approved-painted-red-tree"
+    ],
+    "background_rgb": [
+      128,
+      128,
+      128
+    ],
+    "display_pixels_per_metre": 100,
+    "tristitia_height_m": 1.68,
+    "placements": [
+      {
+        "name": "red-tree",
+        "xy": [
+          40,
+          40
+        ],
+        "size": [
+          1276,
+          1300
+        ],
+        "base_y": 1339
+      },
+      {
+        "name": "broad",
+        "xy": [
+          1376,
+          492
+        ],
+        "size": [
+          776,
+          848
+        ],
+        "base_y": 1339
+      },
+      {
+        "name": "Tristitia",
+        "xy": [
+          2212,
+          1172
+        ],
+        "size": [
+          88,
+          168
+        ],
+        "base_y": 1339
+      },
+      {
+        "name": "approved-painted-red-tree",
+        "xy": [
+          2360,
+          40
+        ],
+        "size": [
+          1297,
+          1300
+        ],
+        "base_y": 1339
+      }
+    ],
+    "painted_reference": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Eurydica\\Approved Red Tree v1\\red-tree.png",
+    "painted_reference_display_height_px": 1300
+  }
+}

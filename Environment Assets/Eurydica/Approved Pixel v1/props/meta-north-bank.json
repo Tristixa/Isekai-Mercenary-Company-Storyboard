@@ -1,0 +1,280 @@
+{
+  "art_pixels_per_metre": 25,
+  "art_pixel_metres": 0.04,
+  "coordinate_origin": "top-left, zero-based",
+  "rounding": "nearest whole pixel; half upward (1.5 m = 38 px, 1.8 m = 45 px)",
+  "generation_mode": "built-in image_gen",
+  "approval_status": "candidate; not owner-approved or installed",
+  "notes": [
+    "Clock 65 px across includes stone surround. Face centre measured separately.",
+    "Horizontal requested lengths map to occupied image width, as in pixel-props-v1; other dimensions preserve master proportions except explicit width/height pairs.",
+    "Requested v3 civic/clock identity files absent: v3 README lists seven residential/shop facades. Pale dressed stone follows task description; approved v2 green roof attached.",
+    "All artwork generated; processing only crops, keys magenta, samples the requested grid, and quantizes. No code-drawn replacement art."
+  ],
+  "props": {
+    "clock_face": {
+      "grid_size_px": [
+        65,
+        65
+      ],
+      "anchor_px": [
+        32,
+        32
+      ],
+      "anchor_definition": "centre of round clock face at iron hand hub; master board hub (213,279)",
+      "real_size_m": 2.6,
+      "real_size_dimension": "width",
+      "real_height_m": null,
+      "colour_count": 61,
+      "colour_count_with_transparency": 62,
+      "accepted_attempt": "masters/attempts/clock_face-01.png",
+      "batch": "north-bank",
+      "source_board": "masters/attempts/board-01.png",
+      "board_crop_xyxy": [
+        20,
+        85,
+        405,
+        480
+      ],
+      "keyed_content_crop_xyxy": [
+        24,
+        24,
+        363,
+        364
+      ],
+      "master_sha256": "490f84d19d353c0c2d25098bf8da6d24e528d0437f9656a35452083adc482f9e",
+      "source_board_sha256": "af96edc9ad485f65a88636c69a098528138fb26f2e18756c2149904eb4be8f42"
+    },
+    "belfry_bell": {
+      "grid_size_px": [
+        32,
+        35
+      ],
+      "anchor_px": [
+        15.5,
+        2
+      ],
+      "anchor_definition": "top centre of timber yoke, below the raised iron bands",
+      "real_size_m": 1.4,
+      "real_size_dimension": "height",
+      "real_height_m": 1.4,
+      "colour_count": 63,
+      "colour_count_with_transparency": 64,
+      "accepted_attempt": "masters/attempts/belfry_bell-01.png",
+      "batch": "north-bank",
+      "source_board": "masters/attempts/board-01.png",
+      "board_crop_xyxy": [
+        430,
+        140,
+        735,
+        465
+      ],
+      "keyed_content_crop_xyxy": [
+        26,
+        22,
+        278,
+        300
+      ],
+      "master_sha256": "907b5ee9f2a49efb289cffce2a17d447d8333f938e9b26a74a0a0ddb19ab994e",
+      "source_board_sha256": "af96edc9ad485f65a88636c69a098528138fb26f2e18756c2149904eb4be8f42"
+    },
+    "mooring_post": {
+      "grid_size_px": [
+        19,
+        25
+      ],
+      "anchor_px": [
+        10.5,
+        24
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 1.0,
+      "real_size_dimension": "height",
+      "real_height_m": 1.0,
+      "colour_count": 63,
+      "colour_count_with_transparency": 64,
+      "accepted_attempt": "masters/attempts/mooring_post-01.png",
+      "batch": "north-bank",
+      "source_board": "masters/attempts/board-01.png",
+      "board_crop_xyxy": [
+        795,
+        190,
+        1005,
+        470
+      ],
+      "keyed_content_crop_xyxy": [
+        26,
+        22,
+        195,
+        245
+      ],
+      "master_sha256": "e4728b6b2ad312db306d12dbf680e1eb22047479d38220e9f010c87aa1c08a45",
+      "source_board_sha256": "af96edc9ad485f65a88636c69a098528138fb26f2e18756c2149904eb4be8f42"
+    },
+    "rowboat": {
+      "grid_size_px": [
+        80,
+        52
+      ],
+      "anchor_px": [
+        17.0,
+        49
+      ],
+      "anchor_definition": "centre of lowest occupied hull row for waterline placement; loose mooring rope in columns 0-13 excluded",
+      "real_size_m": 3.2,
+      "real_size_dimension": "width",
+      "real_height_m": null,
+      "colour_count": 63,
+      "colour_count_with_transparency": 64,
+      "accepted_attempt": "masters/attempts/rowboat-01.png",
+      "batch": "north-bank",
+      "source_board": "masters/attempts/board-01.png",
+      "board_crop_xyxy": [
+        1025,
+        140,
+        1536,
+        485
+      ],
+      "keyed_content_crop_xyxy": [
+        18,
+        20,
+        476,
+        318
+      ],
+      "master_sha256": "1ac454505f6e750125b5dfd2276883bb42580ede1d747d03ac55f8a3dee056e9",
+      "source_board_sha256": "af96edc9ad485f65a88636c69a098528138fb26f2e18756c2149904eb4be8f42"
+    },
+    "fishing_net": {
+      "grid_size_px": [
+        60,
+        45
+      ],
+      "anchor_px": [
+        30.5,
+        44
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 2.4,
+      "real_size_dimension": "width",
+      "real_height_m": 1.8,
+      "colour_count": 63,
+      "colour_count_with_transparency": 64,
+      "accepted_attempt": "masters/attempts/fishing_net-01.png",
+      "batch": "north-bank",
+      "source_board": "masters/attempts/board-01.png",
+      "board_crop_xyxy": [
+        20,
+        525,
+        410,
+        930
+      ],
+      "keyed_content_crop_xyxy": [
+        14,
+        22,
+        369,
+        382
+      ],
+      "master_sha256": "79153727c360d8a55ad8724e77c1ca6b4811f55dd2a082b4fc974fdfc1ae00f4",
+      "source_board_sha256": "af96edc9ad485f65a88636c69a098528138fb26f2e18756c2149904eb4be8f42"
+    },
+    "water_pump": {
+      "grid_size_px": [
+        27,
+        38
+      ],
+      "anchor_px": [
+        7.5,
+        37
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 1.5,
+      "real_size_dimension": "height",
+      "real_height_m": 1.5,
+      "colour_count": 63,
+      "colour_count_with_transparency": 64,
+      "accepted_attempt": "masters/attempts/water_pump-01.png",
+      "batch": "north-bank",
+      "source_board": "masters/attempts/board-01.png",
+      "board_crop_xyxy": [
+        420,
+        525,
+        700,
+        930
+      ],
+      "keyed_content_crop_xyxy": [
+        19,
+        29,
+        265,
+        381
+      ],
+      "master_sha256": "9f4eb987759b4eba0744e041aabb43180e0a08d964086092025f47e491acfd40",
+      "source_board_sha256": "af96edc9ad485f65a88636c69a098528138fb26f2e18756c2149904eb4be8f42"
+    },
+    "washing_line": {
+      "grid_size_px": [
+        75,
+        50
+      ],
+      "anchor_px": [
+        37.5,
+        49
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 3.0,
+      "real_size_dimension": "width",
+      "real_height_m": 2.0,
+      "colour_count": 62,
+      "colour_count_with_transparency": 63,
+      "accepted_attempt": "masters/attempts/washing_line-01.png",
+      "batch": "north-bank",
+      "source_board": "masters/attempts/board-01.png",
+      "board_crop_xyxy": [
+        710,
+        545,
+        1120,
+        930
+      ],
+      "keyed_content_crop_xyxy": [
+        14,
+        26,
+        397,
+        362
+      ],
+      "master_sha256": "f9495678532d663c860be6d2b7543253cdd9ae81153a4549e29d5d630145bba8",
+      "source_board_sha256": "af96edc9ad485f65a88636c69a098528138fb26f2e18756c2149904eb4be8f42"
+    },
+    "flower_cart": {
+      "grid_size_px": [
+        45,
+        38
+      ],
+      "anchor_px": [
+        9.0,
+        37
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 1.8,
+      "real_size_dimension": "width",
+      "real_height_m": null,
+      "colour_count": 63,
+      "colour_count_with_transparency": 64,
+      "accepted_attempt": "masters/attempts/flower_cart-01.png",
+      "batch": "north-bank",
+      "source_board": "masters/attempts/board-01.png",
+      "board_crop_xyxy": [
+        1125,
+        565,
+        1536,
+        935
+      ],
+      "keyed_content_crop_xyxy": [
+        21,
+        33,
+        391,
+        347
+      ],
+      "master_sha256": "e7a915e9accd550339614a8821948a0d3695d32d7e5d2e6b9340408c55dba31c",
+      "source_board_sha256": "af96edc9ad485f65a88636c69a098528138fb26f2e18756c2149904eb4be8f42"
+    }
+  }
+}

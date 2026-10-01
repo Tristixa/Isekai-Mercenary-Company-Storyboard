@@ -36,7 +36,7 @@
 | | S1 | Clock, operations, combat | A hunt and a scout resolve headless, deterministic and golden-tested | S0 |
 | | S2 | Economy and requests | A week of processing, crafting, selling, requests and payroll resolves headless | S1 |
 | | S3 | Saves, story, Commander, transfer | A scripted Chapter 1 week runs headless, saves and reloads identically | S2 |
-| **M2: HD-2D presentation** | S4 | The world | Walk the Chapter 1 part of Eurydica with the approved facades and the concept-like ground | S3, build plan approved |
+| **M2: HD-2D presentation** | S4 | The world | Walk all of Eurydica in the approved pixel look (Proof 1) | S3, build plan approved |
 | | S5 | Dialogue and UI | Scenes play from the manuscript; the core management screens work on the real sim | S4 |
 | | S6 | Field and battle view | Watch a hunt from dispatch to the Resolution | S5 |
 | **M3: Chapter 1 slice** | S7 | Chapter 1 content | Scene 1 to the chapter's end, with days 2–5 play, the night and sleep | S6 + owner's scenes |
@@ -180,8 +180,8 @@
 
 | Needed by | Item | Who |
 |---|---|---|
-| S4 | **Eurydica build plan**: done: v5 approved 2026-09-29, replaced by v7c (clustered) approved 2026-10-01 (`Locations/Eurydica/Build Plan/`); the Godot rebuild from v7c is pending | Codex draft, Claude review, owner approval |
-| S4 | Ground tiles, blend masks, edge props; new facades from the plan's asset list | Codex (environment skill); owner approval |
+| S4 | **Eurydica build plan**: done: v5 approved 2026-09-29, replaced by v7c (clustered) approved 2026-10-01 (`Locations/Eurydica/Build Plan/`); the Godot town was rebuilt from v7c on 2026-10-01 and moved to the pixel look the owner approved the same day (S4 done) | Codex draft, Claude review, owner approval |
+| S4 | Pixel art: trees, the red tree, 49 props, the Hylaea battle objects (`Approved Pixel v1`); buildings, roofs and ground drawn in code | Codex (generated pixel art), Claude (code); owner approval 2026-10-01 |
 | S5 | **Eurydica region map** painting, drawn from a reference image: the parchment base and a painted vignette per area (hand-drawn, not vector), plus the ink layers for landmarks, dens and paths revealed by discovery (FGC_08 §5.9) | Codex; owner approval |
 | S5 | Emote icons (11, format §5) | Codex or owner |
 | S5 | Special sprite poses from the scene headers (sit, kneel, salute, point, nod, think, raise mug, stand up from a chair…) | Owner (Gemini) |

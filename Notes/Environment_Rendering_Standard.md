@@ -1,6 +1,6 @@
 # IMC Environment Rendering Standard
 
-> **Superseded (2026-10-01).** This 3D-era "simplified game appearance" standard is no longer the art style. The current style is the painted Unicorn Overlord-style storybook finish: see `Game Design/IMC GDD.md` §2.4 and `Environment Assets/Eurydica/Approved Finish v2/`. The Market Spine image this page linked was removed from the project; it is kept here only as history.
+> **Superseded (2026-10-01).** This 3D-era "simplified game appearance" standard is no longer the art style, and neither is the painted storybook finish that followed it. The current look is **Proof 1's pixel art**: buildings, roofs and ground drawn in code at 25 px per metre, Codex-generated pixel trees and props (`Environment Assets/Eurydica/Approved Pixel v1`, `Environment Assets/Hylaea/Approved Pixel v1`), a close low camera, depth blur and a wide bloom. See `Game Design/FGC_07_Implementation_Spec.md` §10.
 
 Approved by the user on 2026-09-20 for future IMC places.
 

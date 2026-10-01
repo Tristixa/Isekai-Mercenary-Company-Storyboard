@@ -592,21 +592,21 @@ The old `imc-playground` format/schema 1–5 is **not** this format. Port checks
 
 # 10. HD-2D presentation
 
-Each number below comes from proof 4 (`town.html`) and GDD 2 / proof 4 results unless marked.
+Each number below comes from proof 4 (`town.html`) and GDD 2 / proof 4 results unless marked. **2026-10-01 (owner): the look moved to Proof 1's** (the courtyard, `HD-2D Proof/src/page.html`): crisp pixel art at 25 px per metre, a closer and lower camera, depth blur and a wide bloom. The numbers marked *(pixel look)* replace proof 4's.
 
 ## 10.1 World scenes
-- `scenes/worlds/eurydica_town.tscn` is the Chapter 1 slice first, then the full south bank per `Locations/Eurydica/` (layout corrections from the GDD audit apply: lodging east of the spine, the clinic and food shop placed per the plan).
+- `scenes/worlds/eurydica_town.tscn` is built from `Locations/Eurydica/Build Plan/eurydica-plan.json` (plan v7c, the clustered city) by `tools/plan_import.gd`.
 - The HQ (`hq_tier1.tscn`) and interiors are separate scenes, linked by door markers.
 - **Coordinates:** 1 unit = 1 m; +x east, +z south. The camera looks north.
 - **Markers:** `Marker3D` nodes named exactly as in `markers.md`, grouped under `Markers/`.
 
 ## 10.2 CameraRig (`presentation/camera/camera_rig.gd`)
-- **Exploration:** perspective, **FOV 30°**, offset **(0, 18.4, 21.8)** from the followed actor (about 40° down), straight-north heading, eased follow (lerp 0.12 per 60 Hz frame, made frame-rate independent). Near 0.5, far 200.
+- **Exploration** *(pixel look)*: perspective, **FOV 24°**, offset **(0, 8.4, 19.5)** from the followed actor (about 23° down, Proof 1's shot; proof 4 used FOV 30° at (0, 18.4, 21.8)), straight-north heading, eased follow (lerp 0.12 per 60 Hz frame, made frame-rate independent). Near 0.5, far 200.
 - **Dialogue shots (GDD 2.6):**
 
 | Shot | Behaviour |
 |---|---|
-| `shared` | Frames all scene actors: target = actor centroid; the distance is solved so every actor fits within 70% of the frame height; pitch eases from 40° to **30°** |
+| `shared` | Frames all scene actors: target = actor centroid; the distance is solved so every actor fits within 70% of the frame height; pitch eases from the exploration pitch to **30°** |
 | `push-in X` | Target X at 30° pitch, at 55% of the exploration distance |
 | `two-shot A B` | Frames both at 30° pitch, with 15% side padding |
 | `gaze X` | Pans to a point 4 m along X's facing, at X's eye height |
@@ -620,12 +620,12 @@ Each number below comes from proof 4 (`town.html`) and GDD 2 / proof 4 results u
 ## 10.3 Post stack (`presentation/post/`)
 - **Tilt-shift depth of field:** a full-screen post shader on a camera-attached quad (`tilt_shift.gdshader`, `hint_screen_texture` + `hint_depth_texture`), ported from the proof's DoF shader:
   - focus distance = the camera-to-target distance;
-  - range 16 m;
-  - maximum blur radius 4 px;
+  - range 9 m *(pixel look; proof 4: 16 m)*;
+  - maximum blur radius 5.5 px *(pixel look; proof 4: 4 px)*;
   - tilt band from `smoothstep(0.30, 0.55, |uv.y − 0.47|)`.
 
-  [spec decision] The engine's `CameraAttributesPractical` DoF stays off.
-- **Bloom:** `Environment` glow, intensity 0.25, bloom threshold 0.9 (proof 4: UnrealBloom strength 0.25, threshold 0.9).
+  *(pixel look)* plus the engine's `CameraAttributesPractical` depth blur around the followed actor (`PostStack.make_dof`): sharp from 6 m before to 4 m beyond the focus, amount 0.09.
+- **Bloom** *(pixel look; owner: "very HD-2D, Square Enix quality")*: Proof 1's wide soft halo. `Environment` glow, normalized levels 0 / 0.4 / 0.8 / 1 / 1 / 0.8 / 0.6, intensity 1.0, strength 1.25, bloom 0.06, HDR threshold 0.78, HDR scale 2, screen blend (Proof 1: UnrealBloom strength 0.6, radius 0.5, threshold 0.82; proof 4 used 0.25 / 0.9).
 - **Grade:** ACES tone mapping at exposure 1.08, plus a colour-correction LUT built from the proof's grade (shadows toward cool, highlights toward warm, vignette 0.9). The LUT is generated once by `tools/make_grade_lut.gd`.
 - **Sun:** a DirectionalLight3D from the upper left of the screen (north-west), soft shadows, shadow distance 60 m, following the camera.
 
@@ -651,20 +651,22 @@ Each number below comes from proof 4 (`town.html`) and GDD 2 / proof 4 results u
   - the roof is a generated ArrayMesh: two curved slopes, 0.45 m overhang, flared eaves (+0.2 m), UVs in 8 m units, and a ridge cap;
   - the gatehouse has piers, a lintel and a vault, leaving an open passage.
 - **Collision:** a StaticBody3D box per footprint (the gatehouse piers only).
-- **Textures:** from `assets/facades/<id>/<face>.webp` (§10.8). A missing face uses a flat plaster colour and logs a warning.
+- **Textures** *(pixel look)*: walls, roofs and ground are drawn in code at 25 px per metre (`presentation/world/pixel_art.gd`: timber frame, plaster, plank and stone walls, windows with a glow mask, doors, flower boxes, ivy, shingle roofs, flagstones, grass, earth, water), shown with nearest filtering and lit by the scene. Wall lanterns and pictogram shop signs hang beside doors. The painted facades (`assets/facades/`) remain only as a fallback when the pixel look is off.
+- **Pixel art from Codex:** trees, the red tree, props and the Hylaea objects are generated pixel art (`Environment Assets/*/Approved Pixel v1`, synced to `res://assets/pixel/`), shown as north-facing cards (not billboards, so their shadows stay on the trunk) and anchored by their `meta` anchors.
 
 ## 10.6 Cutaway
-Every 0.1 s, rays run from the camera to the Commander and to every actor within 9 m, at four heights (0.3, 1.0 ±0.3 m, 1.6 m). Every mesh of a building hit by a ray fades as a group to **22%** opacity, using an alpha material override with a depth pre-pass. It is restored when no longer hit. The fade eases over 0.25 s. [spec decision]
+Every 0.1 s, rays run from the camera to the Commander and to every actor within 9 m, at four heights (0.3, 1.0 ±0.3 m, 1.6 m). Buildings, trees and tall props (over 2.5 m) take part; flat cards get a volume half their width deep. Every mesh of a building hit by a ray fades as a group to **22%** opacity, using an alpha material override with a depth pre-pass. It is restored when no longer hit. The fade eases over 0.25 s. [spec decision]
 
 ## 10.7 Time of day
-The sun colour and intensity follow four bands (Morning / Day / Evening / Night) keyed to the clock. The night uses a cool moonlight and lamp OmniLights on the painted lamp posts, which are unlit in the paint. NPC schedules use the same bands (§09.3).
+The sun colour and intensity follow four bands (Morning / Day / Evening / Night) keyed to the clock. *(pixel look)* From the evening, street lamps, wall lanterns (warm OmniLights) and windows (an emission mask) light up, and lamp glass glows into the bloom; the evening has a low warm sun from the west and a dusky haze. The river drifts in whole-art-pixel steps (`water_pixel.gdshader`). NPC schedules use the same bands (§09.3).
 
 ## 10.8 Assets and sync
 - `tools/sync_assets.gd` copies **approved sources only**, listed in `tools/asset_manifest.json`, from the storyboard repo into `res://assets/`:
   - sprite atlases;
   - portraits;
   - monster stills;
-  - facades, roof and wall tiles, attachments, props;
+  - the approved pixel art (`assets/pixel/`: trees, landmarks, props, Hylaea objects);
+  - facades, roof and wall tiles, attachments, props (painted; fallback only);
   - the Hylaea set;
   - fonts.
 - Painted art is converted to lossless WebP with alpha. Pixel sprites stay PNG.
