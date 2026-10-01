@@ -28,6 +28,9 @@ Named positions that scene scripts use in `Staging:` and in cues (`move`, `enter
 - `office_door_west`: Tristitia's stop west of the open Commander-room doorway, facing east, leaving the passage clear.
 - `office_door_east`: the Commander's stop east of the doorway, facing west, leaving the passage clear.
 - `unfinished_west`: camera target on the west part of the unfinished main room, close enough to keep the Commander in frame.
+- `table_east`: Elsie's seat on the east side of the meeting table, facing west (Scene 6).
+- `table_west`: Mae's seat on the west side of the meeting table, facing east (Scene 6).
+- `processing_corner`: Mae's processing corner in the east part of the main room (Scene 4 talks, Scene 6).
 - `unfinished_east`: camera target on the east part of the unfinished main room, completing the slow sweep.
 
 ## Guild house (Tier 1) courtyard (Scene 3)

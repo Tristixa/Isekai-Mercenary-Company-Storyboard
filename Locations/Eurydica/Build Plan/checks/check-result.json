@@ -1,5 +1,5 @@
 {
-  "graph_nodes": 443,
+  "graph_nodes": 448,
   "gate_market_walk_m": 100.337,
   "gate_market_walk_s_at_3_2": 31.355,
   "gate_market_stroll_s_at_2": 50.169,
@@ -44,20 +44,20 @@
     {
       "id": "company_house",
       "cluster": "guild_compound",
-      "nearest": "store_shed",
-      "gap_m": 1.0
+      "nearest": "stables",
+      "gap_m": 0.203345
     },
     {
       "id": "store_shed",
       "cluster": "guild_compound",
       "nearest": "stables",
-      "gap_m": 0.5
+      "gap_m": 0.725204
     },
     {
       "id": "stables",
       "cluster": "guild_compound",
-      "nearest": "store_shed",
-      "gap_m": 0.5
+      "nearest": "company_house",
+      "gap_m": 0.203345
     },
     {
       "id": "lodging",
@@ -534,8 +534,8 @@
       "gap_m": 0.843365
     }
   ],
-  "median_cluster_wall_gap_m": 0.732,
-  "green_area_m2": 7666.55,
+  "median_cluster_wall_gap_m": 0.7301,
+  "green_area_m2": 7663.56,
   "green_locations": [
     {
       "id": "red_tree_bed",
@@ -615,7 +615,7 @@
     {
       "id": "arrival_south_garden",
       "name": "Arrival and Guild garden",
-      "area_m2": 305.86
+      "area_m2": 302.86
     },
     {
       "id": "arrival_east_orchard",
@@ -668,7 +668,7 @@
   "v5_gate_market_walk_m": 217.808,
   "v5_gate_market_walk_s": 68.065,
   "v5_all_nearest_median_m": 2.3557,
-  "v7_all_nearest_median_m": 0.732,
+  "v7_all_nearest_median_m": 0.7301,
   "v5_nonlandmarks_with_neighbour_at_2m": 10,
   "v7_nonlandmarks_with_neighbour_at_2m": 84,
   "nonlandmark_population_before": 81,
@@ -677,7 +677,7 @@
   "named_green_spaces": 25,
   "extent_area_m2": 65217.0,
   "v5_extent_area_m2": 91346.0,
-  "building_area_m2": 6519.010000000001,
+  "building_area_m2": 6646.910000000001,
   "v5_building_area_m2": 6375.009999999996,
   "north_green_area_m2": 2547.052063451696,
   "v5_gate_river_m": 308.8,
@@ -690,12 +690,12 @@
     "door_length_m": 774.0
   },
   "roads_after": {
-    "length_m": 1900.417,
-    "summed_strip_area_m2": 6682.22,
-    "union_area_m2": 6237.66,
+    "length_m": 1920.761,
+    "summed_strip_area_m2": 6722.91,
+    "union_area_m2": 6278.84,
     "union_sample_m": 0.1,
-    "routes": 131,
-    "door_length_m": 340.921
+    "routes": 132,
+    "door_length_m": 341.315
   },
   "roads_v7b": {
     "length_m": 2057.752,
@@ -705,8 +705,8 @@
     "routes": 126,
     "door_length_m": 472.497
   },
-  "road_length_reduction_percent": 23.55,
-  "road_area_reduction_percent": 23.87,
+  "road_length_reduction_percent": 22.73,
+  "road_area_reduction_percent": 23.37,
   "door_spur_max_m": 10.636,
   "door_spur_median_m": 3.324,
   "bounded_route_faces": 2,
@@ -718,11 +718,11 @@
     10,
     15
   ],
-  "angled_nonlandmarks": 72,
+  "angled_nonlandmarks": 70,
   "green_irregularity": {
     "definition": "1 - polygon area / axis-aligned bounding-box area; 0 means rectangle",
     "before_mean": 0.3442,
-    "after_mean": 0.3449,
+    "after_mean": 0.3451,
     "concave_groves": 21,
     "groves": 21
   },
@@ -742,13 +742,13 @@
   "road_35_percent_target_met": false,
   "road_target_note": "35 percent is the handoff aim; report any shortfall explicitly, never remove spurs/alleys/bridge from the totals.",
   "storeyard_irregularity": 0.1656,
-  "plan_sha256": "8e11a66429a94a8e61110bd51e0071d4aba664647e1e64a7ea0080c63eeb87b5",
+  "plan_sha256": "3c517bbd2faa674d10f90da0fe744b4ef4a6784b2b22fd3461cb56eadaf9e0f7",
   "errors": [],
   "checker_sources": {
-    "check_plan_v7c.py": "cddf8a5b8a9e76d931197f2cbeb57e5d6124b8adc22ec5fc9219cfad742228ef",
-    "detail_checks_v7c.py": "d32bb3569192bd637073e947abe0b9db966ed99096cebaf80b6e50b8628174a7",
+    "check_plan_v7c.py": "92fcbf497e511f6eeb35f337ec0f1913e51807d0440f3b8bc2f874c095c3a27b",
+    "detail_checks_v7c.py": "00143ca53a4fafe0cfa4f721992c9969494fd4f5a4d73f87f861065b9226d468",
     "refinements_v7c.py": "46076a3e63226bf3b0ca29582306473377b9298a22e58881a41225f51ff1c152",
     "geometry_v7b.py": "06429af7fbbc118604da1a1d112885085749c593538753cd554e28c124436919",
-    "inherited_checks.py": "f58861f41140112b7b4c4710649ca219abc09c709520fe956ae512d636eccca1"
+    "inherited_checks.py": "b8311bde542f3ed356530bcaffbc6c8228257449150d057543fe3a8ccd39c971"
   }
 }

@@ -1,0 +1,1568 @@
+{
+  "art_pixels_per_metre": 25,
+  "art_pixel_metres": 0.04,
+  "coordinate_origin": "top-left zero-based",
+  "rounding": "nearest integer, halves upward",
+  "props": {
+    "meeting_table": {
+      "batch": "A",
+      "grid_size_px": [
+        60,
+        20
+      ],
+      "anchor_px": [
+        29.5,
+        19
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 2.4,
+      "real_size_dimension": "width",
+      "real_width_m": 2.4,
+      "real_height_m": 0.8,
+      "real_depth_m": 1.2,
+      "projection": null,
+      "colour_count": 63,
+      "colour_count_with_transparency": 64,
+      "accepted_attempt": "masters/attempts/meeting_table-02.png",
+      "source_board": "masters/attempts/A2-01.png",
+      "board_crop_xyxy": [
+        0,
+        0,
+        420,
+        350
+      ],
+      "keyed_content_crop_xyxy": [
+        32,
+        89,
+        378,
+        303
+      ],
+      "master_sha256": "409f5cd1adfd73ead20593ba5f70b70cc5e8520b7a1d1bbdbdefc23f383ad575",
+      "source_board_sha256": "642c01c20862b74a4c811143e35eb51d6ebbda10ed153d706dcd9b704bd635b1",
+      "approved_design": null
+    },
+    "chair_front": {
+      "batch": "A",
+      "grid_size_px": [
+        14,
+        25
+      ],
+      "anchor_px": [
+        6.5,
+        24
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 1,
+      "real_size_dimension": "height",
+      "real_width_m": null,
+      "real_height_m": 1,
+      "real_depth_m": null,
+      "projection": null,
+      "colour_count": 63,
+      "colour_count_with_transparency": 64,
+      "accepted_attempt": "masters/attempts/chair_front-01.png",
+      "source_board": "masters/attempts/A1-01.png",
+      "board_crop_xyxy": [
+        460,
+        0,
+        730,
+        355
+      ],
+      "keyed_content_crop_xyxy": [
+        76,
+        117,
+        192,
+        318
+      ],
+      "master_sha256": "743293ea286c24d715084562a956dc82fb2079ff3da6ae4244bcd3443562a0b1",
+      "source_board_sha256": "8bd90cb59616be7941879be8f898f96f586f7fdf449d9dc422750fbba20838f4",
+      "approved_design": null
+    },
+    "chair_back": {
+      "batch": "A",
+      "grid_size_px": [
+        15,
+        25
+      ],
+      "anchor_px": [
+        7.0,
+        24
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 1,
+      "real_size_dimension": "height",
+      "real_width_m": null,
+      "real_height_m": 1,
+      "real_depth_m": null,
+      "projection": null,
+      "colour_count": 62,
+      "colour_count_with_transparency": 63,
+      "accepted_attempt": "masters/attempts/chair_back-01.png",
+      "source_board": "masters/attempts/A1-01.png",
+      "board_crop_xyxy": [
+        730,
+        0,
+        1000,
+        355
+      ],
+      "keyed_content_crop_xyxy": [
+        69,
+        119,
+        188,
+        318
+      ],
+      "master_sha256": "9b68afee1503c4d20364645351af47659175368d510ddc33ffe6e1e1c4b32671",
+      "source_board_sha256": "8bd90cb59616be7941879be8f898f96f586f7fdf449d9dc422750fbba20838f4",
+      "approved_design": null
+    },
+    "hearth": {
+      "batch": "A",
+      "grid_size_px": [
+        50,
+        50
+      ],
+      "anchor_px": [
+        26.0,
+        49
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 2,
+      "real_size_dimension": "width",
+      "real_width_m": 2,
+      "real_height_m": 2,
+      "real_depth_m": null,
+      "projection": null,
+      "colour_count": 63,
+      "colour_count_with_transparency": 64,
+      "accepted_attempt": "masters/attempts/hearth-01.png",
+      "source_board": "masters/attempts/A1-01.png",
+      "board_crop_xyxy": [
+        1000,
+        0,
+        1448,
+        355
+      ],
+      "keyed_content_crop_xyxy": [
+        25,
+        34,
+        410,
+        333
+      ],
+      "master_sha256": "73334a0d50dea92efe145e3d9f3b74fa0ceec1c431402e241b7727c19930d5f8",
+      "source_board_sha256": "8bd90cb59616be7941879be8f898f96f586f7fdf449d9dc422750fbba20838f4",
+      "approved_design": null
+    },
+    "bed_commander": {
+      "batch": "A",
+      "grid_size_px": [
+        25,
+        23
+      ],
+      "anchor_px": [
+        12.0,
+        22
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 1,
+      "real_size_dimension": "width",
+      "real_width_m": 1,
+      "real_height_m": 0.9,
+      "real_depth_m": null,
+      "projection": null,
+      "colour_count": 61,
+      "colour_count_with_transparency": 62,
+      "accepted_attempt": "masters/attempts/bed_commander-01.png",
+      "source_board": "masters/attempts/A1-01.png",
+      "board_crop_xyxy": [
+        0,
+        355,
+        362,
+        680
+      ],
+      "keyed_content_crop_xyxy": [
+        82,
+        35,
+        319,
+        299
+      ],
+      "master_sha256": "7b1ded79bd6c4e5697d2569c93c06b9abe64354b0705419af2984d402d252762",
+      "source_board_sha256": "8bd90cb59616be7941879be8f898f96f586f7fdf449d9dc422750fbba20838f4",
+      "approved_design": null
+    },
+    "bed_officer_a": {
+      "batch": "A",
+      "grid_size_px": [
+        25,
+        23
+      ],
+      "anchor_px": [
+        12.0,
+        22
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 1,
+      "real_size_dimension": "width",
+      "real_width_m": 1,
+      "real_height_m": 0.9,
+      "real_depth_m": null,
+      "projection": null,
+      "colour_count": 61,
+      "colour_count_with_transparency": 62,
+      "accepted_attempt": "masters/attempts/bed_officer_a-01.png",
+      "source_board": "masters/attempts/A1-01.png",
+      "board_crop_xyxy": [
+        362,
+        355,
+        724,
+        680
+      ],
+      "keyed_content_crop_xyxy": [
+        67,
+        35,
+        305,
+        299
+      ],
+      "master_sha256": "6f36b8e727e5b1cca2a2b4fde95ac4e1169137485ba8b648457596da59b8676c",
+      "source_board_sha256": "8bd90cb59616be7941879be8f898f96f586f7fdf449d9dc422750fbba20838f4",
+      "approved_design": null
+    },
+    "bed_officer_b": {
+      "batch": "A",
+      "grid_size_px": [
+        25,
+        23
+      ],
+      "anchor_px": [
+        12.0,
+        22
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 1,
+      "real_size_dimension": "width",
+      "real_width_m": 1,
+      "real_height_m": 0.9,
+      "real_depth_m": null,
+      "projection": null,
+      "colour_count": 63,
+      "colour_count_with_transparency": 64,
+      "accepted_attempt": "masters/attempts/bed_officer_b-01.png",
+      "source_board": "masters/attempts/A1-01.png",
+      "board_crop_xyxy": [
+        724,
+        355,
+        1086,
+        680
+      ],
+      "keyed_content_crop_xyxy": [
+        55,
+        35,
+        293,
+        299
+      ],
+      "master_sha256": "98d9254572332059d96782c528b4036bf1783bb94d255486ae16afc06674be96",
+      "source_board_sha256": "8bd90cb59616be7941879be8f898f96f586f7fdf449d9dc422750fbba20838f4",
+      "approved_design": null
+    },
+    "bed_officer_c": {
+      "batch": "A",
+      "grid_size_px": [
+        25,
+        23
+      ],
+      "anchor_px": [
+        12.0,
+        22
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 1,
+      "real_size_dimension": "width",
+      "real_width_m": 1,
+      "real_height_m": 0.9,
+      "real_depth_m": null,
+      "projection": null,
+      "colour_count": 59,
+      "colour_count_with_transparency": 60,
+      "accepted_attempt": "masters/attempts/bed_officer_c-01.png",
+      "source_board": "masters/attempts/A1-01.png",
+      "board_crop_xyxy": [
+        1086,
+        355,
+        1448,
+        680
+      ],
+      "keyed_content_crop_xyxy": [
+        43,
+        35,
+        280,
+        299
+      ],
+      "master_sha256": "7641457b3e178700387c6fdb129b5823b16b8222c08f43ca5a143a132bed4376",
+      "source_board_sha256": "8bd90cb59616be7941879be8f898f96f586f7fdf449d9dc422750fbba20838f4",
+      "approved_design": null
+    },
+    "desk": {
+      "batch": "A",
+      "grid_size_px": [
+        35,
+        30
+      ],
+      "anchor_px": [
+        17.0,
+        29
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 1.4,
+      "real_size_dimension": "width",
+      "real_width_m": 1.4,
+      "real_height_m": null,
+      "real_depth_m": null,
+      "projection": null,
+      "colour_count": 63,
+      "colour_count_with_transparency": 64,
+      "accepted_attempt": "masters/attempts/desk-01.png",
+      "source_board": "masters/attempts/A1-01.png",
+      "board_crop_xyxy": [
+        0,
+        680,
+        420,
+        1086
+      ],
+      "keyed_content_crop_xyxy": [
+        62,
+        49,
+        389,
+        327
+      ],
+      "master_sha256": "80103dcd95cf009f0a7976d8b9550917a15265cf0e4bd137185aa1f5ab415315",
+      "source_board_sha256": "8bd90cb59616be7941879be8f898f96f586f7fdf449d9dc422750fbba20838f4",
+      "approved_design": null
+    },
+    "objective_board": {
+      "batch": "A",
+      "grid_size_px": [
+        20,
+        18
+      ],
+      "anchor_px": [
+        9.5,
+        17
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 0.8,
+      "real_size_dimension": "width",
+      "real_width_m": 0.8,
+      "real_height_m": null,
+      "real_depth_m": null,
+      "projection": null,
+      "colour_count": 62,
+      "colour_count_with_transparency": 62,
+      "accepted_attempt": "masters/attempts/objective_board-01.png",
+      "source_board": "masters/attempts/A1-01.png",
+      "board_crop_xyxy": [
+        420,
+        680,
+        725,
+        1086
+      ],
+      "keyed_content_crop_xyxy": [
+        37,
+        77,
+        260,
+        273
+      ],
+      "master_sha256": "b3f5e3311a219a10e2e065bcd6ee6f8559b28ae7e5d6351b05643310ab87eb85",
+      "source_board_sha256": "8bd90cb59616be7941879be8f898f96f586f7fdf449d9dc422750fbba20838f4",
+      "approved_design": null
+    },
+    "wardrobe": {
+      "batch": "A",
+      "grid_size_px": [
+        30,
+        50
+      ],
+      "anchor_px": [
+        14.5,
+        49
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 1.2,
+      "real_size_dimension": "width",
+      "real_width_m": 1.2,
+      "real_height_m": 2,
+      "real_depth_m": null,
+      "projection": null,
+      "colour_count": 62,
+      "colour_count_with_transparency": 63,
+      "accepted_attempt": "masters/attempts/wardrobe-01.png",
+      "source_board": "masters/attempts/A1-01.png",
+      "board_crop_xyxy": [
+        725,
+        680,
+        1086,
+        1086
+      ],
+      "keyed_content_crop_xyxy": [
+        55,
+        14,
+        299,
+        343
+      ],
+      "master_sha256": "2abf29418c6c7ef34d6467a31f19f62da5cf13662201791fb65de4b0b5649fbf",
+      "source_board_sha256": "8bd90cb59616be7941879be8f898f96f586f7fdf449d9dc422750fbba20838f4",
+      "approved_design": null
+    },
+    "chest": {
+      "batch": "A",
+      "grid_size_px": [
+        23,
+        17
+      ],
+      "anchor_px": [
+        11.0,
+        16
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 0.9,
+      "real_size_dimension": "width",
+      "real_width_m": 0.9,
+      "real_height_m": null,
+      "real_depth_m": null,
+      "projection": null,
+      "colour_count": 62,
+      "colour_count_with_transparency": 63,
+      "accepted_attempt": "masters/attempts/chest-01.png",
+      "source_board": "masters/attempts/A1-01.png",
+      "board_crop_xyxy": [
+        1086,
+        680,
+        1448,
+        1086
+      ],
+      "keyed_content_crop_xyxy": [
+        57,
+        131,
+        284,
+        298
+      ],
+      "master_sha256": "ad013740fbc4c558a4c3f94766f920ab4612311428e02808acbfd6cadf9d66ac",
+      "source_board_sha256": "8bd90cb59616be7941879be8f898f96f586f7fdf449d9dc422750fbba20838f4",
+      "approved_design": null
+    },
+    "side_table": {
+      "batch": "A",
+      "grid_size_px": [
+        15,
+        18
+      ],
+      "anchor_px": [
+        7.0,
+        17
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 0.6,
+      "real_size_dimension": "width",
+      "real_width_m": 0.6,
+      "real_height_m": null,
+      "real_depth_m": null,
+      "projection": null,
+      "colour_count": 62,
+      "colour_count_with_transparency": 63,
+      "accepted_attempt": "masters/attempts/side_table-01.png",
+      "source_board": "masters/attempts/A2-01.png",
+      "board_crop_xyxy": [
+        420,
+        0,
+        690,
+        350
+      ],
+      "keyed_content_crop_xyxy": [
+        48,
+        118,
+        200,
+        303
+      ],
+      "master_sha256": "423d2407928bf052be56d75931fc0f2176dff0ccfc9447cafb821dd3717a91ca",
+      "source_board_sha256": "642c01c20862b74a4c811143e35eb51d6ebbda10ed153d706dcd9b704bd635b1",
+      "approved_design": null
+    },
+    "processing_table": {
+      "batch": "A",
+      "grid_size_px": [
+        45,
+        26
+      ],
+      "anchor_px": [
+        21.5,
+        25
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 1.8,
+      "real_size_dimension": "width",
+      "real_width_m": 1.8,
+      "real_height_m": null,
+      "real_depth_m": null,
+      "projection": null,
+      "colour_count": 63,
+      "colour_count_with_transparency": 64,
+      "accepted_attempt": "masters/attempts/processing_table-01.png",
+      "source_board": "masters/attempts/A2-01.png",
+      "board_crop_xyxy": [
+        690,
+        0,
+        1080,
+        350
+      ],
+      "keyed_content_crop_xyxy": [
+        25,
+        115,
+        370,
+        313
+      ],
+      "master_sha256": "65dccaf31c981c908d11eec26d2250105b68c627925b8dfa02504cf7ea279df4",
+      "source_board_sha256": "642c01c20862b74a4c811143e35eb51d6ebbda10ed153d706dcd9b704bd635b1",
+      "approved_design": null
+    },
+    "hanging_hooks": {
+      "batch": "A",
+      "grid_size_px": [
+        40,
+        55
+      ],
+      "anchor_px": [
+        19.5,
+        2
+      ],
+      "anchor_definition": "rail centre top, below projecting end brackets",
+      "real_size_m": 1.6,
+      "real_size_dimension": "width",
+      "real_width_m": 1.6,
+      "real_height_m": 2.2,
+      "real_depth_m": null,
+      "projection": null,
+      "colour_count": 63,
+      "colour_count_with_transparency": 64,
+      "accepted_attempt": "masters/attempts/hanging_hooks-01.png",
+      "source_board": "masters/attempts/A2-01.png",
+      "board_crop_xyxy": [
+        1080,
+        0,
+        1448,
+        350
+      ],
+      "keyed_content_crop_xyxy": [
+        34,
+        53,
+        341,
+        335
+      ],
+      "master_sha256": "da205f0ed93ffdbf78335faee4fe728f01e09d94faa58f692202a7666b1a6f91",
+      "source_board_sha256": "642c01c20862b74a4c811143e35eb51d6ebbda10ed153d706dcd9b704bd635b1",
+      "approved_design": null
+    },
+    "wash_tub": {
+      "batch": "A",
+      "grid_size_px": [
+        25,
+        16
+      ],
+      "anchor_px": [
+        12.0,
+        15
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 1,
+      "real_size_dimension": "width",
+      "real_width_m": 1,
+      "real_height_m": null,
+      "real_depth_m": null,
+      "projection": null,
+      "colour_count": 63,
+      "colour_count_with_transparency": 64,
+      "accepted_attempt": "masters/attempts/wash_tub-01.png",
+      "source_board": "masters/attempts/A2-01.png",
+      "board_crop_xyxy": [
+        0,
+        350,
+        362,
+        730
+      ],
+      "keyed_content_crop_xyxy": [
+        65,
+        133,
+        328,
+        299
+      ],
+      "master_sha256": "baaef5386a5e0d61e760938c8244ef2b0c99adc4fe8818d5101b78e901f823e0",
+      "source_board_sha256": "642c01c20862b74a4c811143e35eb51d6ebbda10ed153d706dcd9b704bd635b1",
+      "approved_design": null
+    },
+    "sheeted_furniture": {
+      "batch": "A",
+      "grid_size_px": [
+        40,
+        24
+      ],
+      "anchor_px": [
+        19.5,
+        23
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 1.6,
+      "real_size_dimension": "width",
+      "real_width_m": 1.6,
+      "real_height_m": null,
+      "real_depth_m": null,
+      "projection": null,
+      "colour_count": 63,
+      "colour_count_with_transparency": 64,
+      "accepted_attempt": "masters/attempts/sheeted_furniture-01.png",
+      "source_board": "masters/attempts/A2-01.png",
+      "board_crop_xyxy": [
+        362,
+        350,
+        724,
+        730
+      ],
+      "keyed_content_crop_xyxy": [
+        15,
+        101,
+        355,
+        308
+      ],
+      "master_sha256": "cd53672214688703da783f6e97efb332596b928c6fd16803b2ac2d6a6b74e7cf",
+      "source_board_sha256": "642c01c20862b74a4c811143e35eb51d6ebbda10ed153d706dcd9b704bd635b1",
+      "approved_design": null
+    },
+    "ladder": {
+      "batch": "A",
+      "grid_size_px": [
+        21,
+        63
+      ],
+      "anchor_px": [
+        10.0,
+        62
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 2.5,
+      "real_size_dimension": "height",
+      "real_width_m": null,
+      "real_height_m": 2.5,
+      "real_depth_m": null,
+      "projection": null,
+      "colour_count": 63,
+      "colour_count_with_transparency": 64,
+      "accepted_attempt": "masters/attempts/ladder-01.png",
+      "source_board": "masters/attempts/A2-01.png",
+      "board_crop_xyxy": [
+        724,
+        350,
+        1086,
+        730
+      ],
+      "keyed_content_crop_xyxy": [
+        112,
+        10,
+        228,
+        353
+      ],
+      "master_sha256": "99d5046b59088a55c17e9712057dbdb5b53f4212dc016278e22c17db11b7a861",
+      "source_board_sha256": "642c01c20862b74a4c811143e35eb51d6ebbda10ed153d706dcd9b704bd635b1",
+      "approved_design": null
+    },
+    "stair_up": {
+      "batch": "A",
+      "grid_size_px": [
+        75,
+        75
+      ],
+      "anchor_px": [
+        5.0,
+        74
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 3,
+      "real_size_dimension": "width",
+      "real_width_m": 3,
+      "real_height_m": 3,
+      "real_depth_m": null,
+      "projection": null,
+      "colour_count": 63,
+      "colour_count_with_transparency": 64,
+      "accepted_attempt": "masters/attempts/stair_up-01.png",
+      "source_board": "masters/attempts/A2-01.png",
+      "board_crop_xyxy": [
+        1086,
+        350,
+        1448,
+        730
+      ],
+      "keyed_content_crop_xyxy": [
+        12,
+        27,
+        330,
+        343
+      ],
+      "master_sha256": "73587649b4055de47f2ccde9f54f922e6e5bf565c4a94153c560fb8a92a55e38",
+      "source_board_sha256": "642c01c20862b74a4c811143e35eb51d6ebbda10ed153d706dcd9b704bd635b1",
+      "approved_design": null
+    },
+    "wall_lamp": {
+      "batch": "A",
+      "grid_size_px": [
+        7,
+        13
+      ],
+      "anchor_px": [
+        5,
+        3
+      ],
+      "anchor_definition": "centre of upper-right wall mounting plate; visually identified",
+      "real_size_m": 0.5,
+      "real_size_dimension": "height",
+      "real_width_m": null,
+      "real_height_m": 0.5,
+      "real_depth_m": null,
+      "projection": null,
+      "colour_count": 52,
+      "colour_count_with_transparency": 53,
+      "accepted_attempt": "masters/attempts/wall_lamp-01.png",
+      "source_board": "masters/attempts/A2-01.png",
+      "board_crop_xyxy": [
+        0,
+        730,
+        320,
+        1086
+      ],
+      "keyed_content_crop_xyxy": [
+        123,
+        48,
+        242,
+        275
+      ],
+      "master_sha256": "ca14966ee9321669a479da72b1419396d5227e7986cc6c2714993e585dec5708",
+      "source_board_sha256": "642c01c20862b74a4c811143e35eb51d6ebbda10ed153d706dcd9b704bd635b1",
+      "approved_design": null
+    },
+    "rug": {
+      "batch": "A",
+      "grid_size_px": [
+        60,
+        17
+      ],
+      "anchor_px": [
+        29.5,
+        8.0
+      ],
+      "anchor_definition": "canvas centre",
+      "real_size_m": 2.4,
+      "real_size_dimension": "width",
+      "real_width_m": 2.4,
+      "real_height_m": 0.68,
+      "real_depth_m": 1.6,
+      "projection": "1.6m depth * sin(25deg) = 0.676m screen extent",
+      "colour_count": 63,
+      "colour_count_with_transparency": 64,
+      "accepted_attempt": "masters/attempts/rug-01.png",
+      "source_board": "masters/attempts/A2-01.png",
+      "board_crop_xyxy": [
+        320,
+        730,
+        770,
+        1086
+      ],
+      "keyed_content_crop_xyxy": [
+        34,
+        75,
+        417,
+        249
+      ],
+      "master_sha256": "65abd18f3e37d3f0bc1a776bc59b5cac69a6673d98e4f017801c7ca858e7ed6b",
+      "source_board_sha256": "642c01c20862b74a4c811143e35eb51d6ebbda10ed153d706dcd9b704bd635b1",
+      "approved_design": null
+    },
+    "forge": {
+      "batch": "B",
+      "grid_size_px": [
+        55,
+        65
+      ],
+      "anchor_px": [
+        32.0,
+        64
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 2.2,
+      "real_size_dimension": "width",
+      "real_width_m": 2.2,
+      "real_height_m": 2.6,
+      "real_depth_m": null,
+      "projection": null,
+      "colour_count": 63,
+      "colour_count_with_transparency": 64,
+      "accepted_attempt": "masters/attempts/forge-01.png",
+      "source_board": "masters/attempts/B1-01.png",
+      "board_crop_xyxy": [
+        0,
+        0,
+        435,
+        550
+      ],
+      "keyed_content_crop_xyxy": [
+        32,
+        42,
+        413,
+        528
+      ],
+      "master_sha256": "4b9f6b910806f3a7607d105e0b6a2a6ddbc9d528ebff2f1889dd14313bad85f8",
+      "source_board_sha256": "4d7956a1616d6f08ba8e4ee3cdafb201a19f75b6316d2263af6f5d2a891daf5f",
+      "approved_design": null
+    },
+    "anvil": {
+      "batch": "B",
+      "grid_size_px": [
+        20,
+        22
+      ],
+      "anchor_px": [
+        9.5,
+        21
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 0.8,
+      "real_size_dimension": "width",
+      "real_width_m": 0.8,
+      "real_height_m": null,
+      "real_depth_m": null,
+      "projection": null,
+      "colour_count": 62,
+      "colour_count_with_transparency": 63,
+      "accepted_attempt": "masters/attempts/anvil-01.png",
+      "source_board": "masters/attempts/B1-01.png",
+      "board_crop_xyxy": [
+        435,
+        0,
+        695,
+        550
+      ],
+      "keyed_content_crop_xyxy": [
+        27,
+        310,
+        230,
+        532
+      ],
+      "master_sha256": "78539582c8956044ae04d474452832497d77d2827bda63919fb6d0fc06ca8f6a",
+      "source_board_sha256": "4d7956a1616d6f08ba8e4ee3cdafb201a19f75b6316d2263af6f5d2a891daf5f",
+      "approved_design": null
+    },
+    "workbench_craft": {
+      "batch": "B",
+      "grid_size_px": [
+        50,
+        36
+      ],
+      "anchor_px": [
+        25.5,
+        35
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 2,
+      "real_size_dimension": "width",
+      "real_width_m": 2,
+      "real_height_m": null,
+      "real_depth_m": null,
+      "projection": null,
+      "colour_count": 63,
+      "colour_count_with_transparency": 64,
+      "accepted_attempt": "masters/attempts/workbench_craft-01.png",
+      "source_board": "masters/attempts/B1-01.png",
+      "board_crop_xyxy": [
+        695,
+        0,
+        1140,
+        550
+      ],
+      "keyed_content_crop_xyxy": [
+        16,
+        236,
+        419,
+        529
+      ],
+      "master_sha256": "e205387646f2c833195537a7fc260d5be758d54e72ecb917d91ae3bb410c40d8",
+      "source_board_sha256": "4d7956a1616d6f08ba8e4ee3cdafb201a19f75b6316d2263af6f5d2a891daf5f",
+      "approved_design": null
+    },
+    "craftsman_bench": {
+      "batch": "B",
+      "grid_size_px": [
+        45,
+        36
+      ],
+      "anchor_px": [
+        22.0,
+        35
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 1.8,
+      "real_size_dimension": "width",
+      "real_width_m": 1.8,
+      "real_height_m": null,
+      "real_depth_m": null,
+      "projection": null,
+      "colour_count": 63,
+      "colour_count_with_transparency": 64,
+      "accepted_attempt": "masters/attempts/craftsman_bench-01.png",
+      "source_board": "masters/attempts/B1-01.png",
+      "board_crop_xyxy": [
+        1140,
+        0,
+        1536,
+        550
+      ],
+      "keyed_content_crop_xyxy": [
+        22,
+        248,
+        368,
+        527
+      ],
+      "master_sha256": "fb4d204b1de1fb63eda2e45887df0983afac71ed5441e751d8b49fe288ba81b6",
+      "source_board_sha256": "4d7956a1616d6f08ba8e4ee3cdafb201a19f75b6316d2263af6f5d2a891daf5f",
+      "approved_design": null
+    },
+    "staff_processing_table": {
+      "batch": "B",
+      "grid_size_px": [
+        40,
+        27
+      ],
+      "anchor_px": [
+        19.0,
+        26
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 1.6,
+      "real_size_dimension": "width",
+      "real_width_m": 1.6,
+      "real_height_m": null,
+      "real_depth_m": null,
+      "projection": null,
+      "colour_count": 63,
+      "colour_count_with_transparency": 64,
+      "accepted_attempt": "masters/attempts/staff_processing_table-01.png",
+      "source_board": "masters/attempts/B1-01.png",
+      "board_crop_xyxy": [
+        0,
+        550,
+        425,
+        1024
+      ],
+      "keyed_content_crop_xyxy": [
+        26,
+        142,
+        403,
+        393
+      ],
+      "master_sha256": "6b872efe34ef012eb95390b62d7df22c42cd3e74dfbf2c750e221f3626ee52bc",
+      "source_board_sha256": "4d7956a1616d6f08ba8e4ee3cdafb201a19f75b6316d2263af6f5d2a891daf5f",
+      "approved_design": null
+    },
+    "cold_store": {
+      "batch": "B",
+      "grid_size_px": [
+        30,
+        27
+      ],
+      "anchor_px": [
+        14.5,
+        26
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 1.2,
+      "real_size_dimension": "width",
+      "real_width_m": 1.2,
+      "real_height_m": null,
+      "real_depth_m": null,
+      "projection": null,
+      "colour_count": 63,
+      "colour_count_with_transparency": 64,
+      "accepted_attempt": "masters/attempts/cold_store-01.png",
+      "source_board": "masters/attempts/B1-01.png",
+      "board_crop_xyxy": [
+        425,
+        550,
+        745,
+        1024
+      ],
+      "keyed_content_crop_xyxy": [
+        16,
+        130,
+        299,
+        386
+      ],
+      "master_sha256": "d0acb4c1767a034d5adaee215115058c0d5b66b1c6b6ff07aa36538f49751f9f",
+      "source_board_sha256": "4d7956a1616d6f08ba8e4ee3cdafb201a19f75b6316d2263af6f5d2a891daf5f",
+      "approved_design": null
+    },
+    "material_shelves": {
+      "batch": "B",
+      "grid_size_px": [
+        50,
+        50
+      ],
+      "anchor_px": [
+        24.5,
+        49
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 2,
+      "real_size_dimension": "width",
+      "real_width_m": 2,
+      "real_height_m": 2,
+      "real_depth_m": null,
+      "projection": null,
+      "colour_count": 63,
+      "colour_count_with_transparency": 64,
+      "accepted_attempt": "masters/attempts/material_shelves-01.png",
+      "source_board": "masters/attempts/B1-01.png",
+      "board_crop_xyxy": [
+        745,
+        550,
+        1140,
+        1024
+      ],
+      "keyed_content_crop_xyxy": [
+        29,
+        24,
+        375,
+        416
+      ],
+      "master_sha256": "5ad9ee0216ac137d43c2e8c222bc1ebb6f0951b0d6d8dbc41d571e8f2f08b4e5",
+      "source_board_sha256": "4d7956a1616d6f08ba8e4ee3cdafb201a19f75b6316d2263af6f5d2a891daf5f",
+      "approved_design": null
+    },
+    "tool_rack": {
+      "batch": "B",
+      "grid_size_px": [
+        35,
+        22
+      ],
+      "anchor_px": [
+        29.5,
+        21
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 1.4,
+      "real_size_dimension": "width",
+      "real_width_m": 1.4,
+      "real_height_m": null,
+      "real_depth_m": null,
+      "projection": null,
+      "colour_count": 63,
+      "colour_count_with_transparency": 64,
+      "accepted_attempt": "masters/attempts/tool_rack-01.png",
+      "source_board": "masters/attempts/B1-01.png",
+      "board_crop_xyxy": [
+        1140,
+        550,
+        1536,
+        1024
+      ],
+      "keyed_content_crop_xyxy": [
+        24,
+        127,
+        364,
+        342
+      ],
+      "master_sha256": "43791df55d9cbddcc972e481cbaaeee999fadeb3b35cd422b2ff4ce93c26432e",
+      "source_board_sha256": "4d7956a1616d6f08ba8e4ee3cdafb201a19f75b6316d2263af6f5d2a891daf5f",
+      "approved_design": null
+    },
+    "trading_counter": {
+      "batch": "B",
+      "grid_size_px": [
+        60,
+        34
+      ],
+      "anchor_px": [
+        29.5,
+        33
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 2.4,
+      "real_size_dimension": "width",
+      "real_width_m": 2.4,
+      "real_height_m": null,
+      "real_depth_m": null,
+      "projection": null,
+      "colour_count": 63,
+      "colour_count_with_transparency": 64,
+      "accepted_attempt": "masters/attempts/trading_counter-02.png",
+      "source_board": "masters/attempts/B3-01.png",
+      "board_crop_xyxy": [
+        0,
+        0,
+        760,
+        683
+      ],
+      "keyed_content_crop_xyxy": [
+        75,
+        179,
+        742,
+        559
+      ],
+      "master_sha256": "8c4c7566e4895647769e0ab3e40e88fab1eb8cb63d92dcf6917978e476c4cc9e",
+      "source_board_sha256": "654394f8073b00663ca24e0297fce58343565ba21cc2a922b4b2986fc75bb381",
+      "approved_design": null
+    },
+    "goods_shelves": {
+      "batch": "B",
+      "grid_size_px": [
+        45,
+        50
+      ],
+      "anchor_px": [
+        22.0,
+        49
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 1.8,
+      "real_size_dimension": "width",
+      "real_width_m": 1.8,
+      "real_height_m": 2,
+      "real_depth_m": null,
+      "projection": null,
+      "colour_count": 63,
+      "colour_count_with_transparency": 64,
+      "accepted_attempt": "masters/attempts/goods_shelves-01.png",
+      "source_board": "masters/attempts/B2-01.png",
+      "board_crop_xyxy": [
+        600,
+        0,
+        1024,
+        550
+      ],
+      "keyed_content_crop_xyxy": [
+        29,
+        57,
+        378,
+        493
+      ],
+      "master_sha256": "f840fc2961aad6d81e9fde7c337c9439123e5a9e2a54510217efc4493ef64f5f",
+      "source_board_sha256": "0664fa113a98a2bba09f8a443389980ee1b1ae34272b6528de9e3941b77b2c72",
+      "approved_design": null
+    },
+    "info_desk": {
+      "batch": "B",
+      "grid_size_px": [
+        40,
+        21
+      ],
+      "anchor_px": [
+        19.5,
+        20
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 1.6,
+      "real_size_dimension": "width",
+      "real_width_m": 1.6,
+      "real_height_m": null,
+      "real_depth_m": null,
+      "projection": null,
+      "colour_count": 63,
+      "colour_count_with_transparency": 64,
+      "accepted_attempt": "masters/attempts/info_desk-02.png",
+      "source_board": "masters/attempts/B3-01.png",
+      "board_crop_xyxy": [
+        810,
+        0,
+        1600,
+        724
+      ],
+      "keyed_content_crop_xyxy": [
+        79,
+        264,
+        653,
+        559
+      ],
+      "master_sha256": "6ab91f4af16f66c41677e6e979e29c296e85cdfacbc24ccd88062f0993f04b6b",
+      "source_board_sha256": "654394f8073b00663ca24e0297fce58343565ba21cc2a922b4b2986fc75bb381",
+      "approved_design": null
+    },
+    "map_wall": {
+      "batch": "B",
+      "grid_size_px": [
+        60,
+        40
+      ],
+      "anchor_px": [
+        29.5,
+        39
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 2.4,
+      "real_size_dimension": "width",
+      "real_width_m": 2.4,
+      "real_height_m": null,
+      "real_depth_m": null,
+      "projection": null,
+      "colour_count": 63,
+      "colour_count_with_transparency": 64,
+      "accepted_attempt": "masters/attempts/map_wall-01.png",
+      "source_board": "masters/attempts/B2-01.png",
+      "board_crop_xyxy": [
+        0,
+        550,
+        650,
+        1024
+      ],
+      "keyed_content_crop_xyxy": [
+        73,
+        28,
+        597,
+        376
+      ],
+      "master_sha256": "e75a4b17f83d060d46154eeb9b185aadd01764f5d9e91218c430f4f4408458bb",
+      "source_board_sha256": "0664fa113a98a2bba09f8a443389980ee1b1ae34272b6528de9e3941b77b2c72",
+      "approved_design": null
+    },
+    "rumour_board": {
+      "batch": "B",
+      "grid_size_px": [
+        30,
+        22
+      ],
+      "anchor_px": [
+        14.5,
+        21
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 1.2,
+      "real_size_dimension": "width",
+      "real_width_m": 1.2,
+      "real_height_m": null,
+      "real_depth_m": null,
+      "projection": null,
+      "colour_count": 61,
+      "colour_count_with_transparency": 61,
+      "accepted_attempt": "masters/attempts/rumour_board-02.png",
+      "source_board": "masters/attempts/B3-01.png",
+      "board_crop_xyxy": [
+        1600,
+        0,
+        2172,
+        724
+      ],
+      "keyed_content_crop_xyxy": [
+        54,
+        188,
+        488,
+        513
+      ],
+      "master_sha256": "dd1a95dbcc5eb49a2c161c600dd05b9000f49ffe7248c77aeb13678a3bafcdcb",
+      "source_board_sha256": "654394f8073b00663ca24e0297fce58343565ba21cc2a922b4b2986fc75bb381",
+      "approved_design": null
+    },
+    "stool": {
+      "batch": "B",
+      "grid_size_px": [
+        15,
+        18
+      ],
+      "anchor_px": [
+        7.5,
+        17
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 0.6,
+      "real_size_dimension": "width",
+      "real_width_m": 0.6,
+      "real_height_m": null,
+      "real_depth_m": null,
+      "projection": null,
+      "colour_count": 62,
+      "colour_count_with_transparency": 63,
+      "accepted_attempt": "masters/attempts/stool-01.png",
+      "source_board": "masters/attempts/B2-01.png",
+      "board_crop_xyxy": [
+        1024,
+        550,
+        1536,
+        1024
+      ],
+      "keyed_content_crop_xyxy": [
+        187,
+        167,
+        319,
+        329
+      ],
+      "master_sha256": "bb84f733e577429b832bd952a27b5cdded90456ecbdbbbbc727757992d75ed5e",
+      "source_board_sha256": "0664fa113a98a2bba09f8a443389980ee1b1ae34272b6528de9e3941b77b2c72",
+      "approved_design": null
+    },
+    "bar_counter": {
+      "batch": "C",
+      "grid_size_px": [
+        75,
+        46
+      ],
+      "anchor_px": [
+        37.0,
+        45
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 3,
+      "real_size_dimension": "width",
+      "real_width_m": 3,
+      "real_height_m": null,
+      "real_depth_m": null,
+      "projection": null,
+      "colour_count": 63,
+      "colour_count_with_transparency": 64,
+      "accepted_attempt": "masters/attempts/bar_counter-01.png",
+      "source_board": "masters/attempts/C1-01.png",
+      "board_crop_xyxy": [
+        0,
+        0,
+        450,
+        550
+      ],
+      "keyed_content_crop_xyxy": [
+        24,
+        192,
+        437,
+        448
+      ],
+      "master_sha256": "57eea1ed9bef4e544290af24076f4fa3245face4a1a89838e85d1c94b9312177",
+      "source_board_sha256": "57de345e14f0b27e1dfdfb0097139d5811ede7007358786e4fa3bfe452624dad",
+      "approved_design": null
+    },
+    "bar_shelves": {
+      "batch": "C",
+      "grid_size_px": [
+        75,
+        55
+      ],
+      "anchor_px": [
+        36.5,
+        54
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 3,
+      "real_size_dimension": "width",
+      "real_width_m": 3,
+      "real_height_m": 2.2,
+      "real_depth_m": null,
+      "projection": null,
+      "colour_count": 63,
+      "colour_count_with_transparency": 64,
+      "accepted_attempt": "masters/attempts/bar_shelves-01.png",
+      "source_board": "masters/attempts/C1-01.png",
+      "board_crop_xyxy": [
+        450,
+        0,
+        840,
+        550
+      ],
+      "keyed_content_crop_xyxy": [
+        13,
+        142,
+        374,
+        450
+      ],
+      "master_sha256": "7c324a9ee890c7472ec9d0768f4db5ce214abe786eebe8d5df2e47320085e2d7",
+      "source_board_sha256": "57de345e14f0b27e1dfdfb0097139d5811ede7007358786e4fa3bfe452624dad",
+      "approved_design": null
+    },
+    "tavern_table": {
+      "batch": "C",
+      "grid_size_px": [
+        30,
+        26
+      ],
+      "anchor_px": [
+        14.5,
+        25
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 1.2,
+      "real_size_dimension": "width",
+      "real_width_m": 1.2,
+      "real_height_m": null,
+      "real_depth_m": null,
+      "projection": null,
+      "colour_count": 63,
+      "colour_count_with_transparency": 64,
+      "accepted_attempt": "masters/attempts/tavern_table-01.png",
+      "source_board": "masters/attempts/C1-01.png",
+      "board_crop_xyxy": [
+        840,
+        0,
+        1140,
+        550
+      ],
+      "keyed_content_crop_xyxy": [
+        18,
+        241,
+        263,
+        453
+      ],
+      "master_sha256": "8cf6f64be2f74a91b201ca67e64a6a930d8fc904cc3217b0b560da85ff0fcab1",
+      "source_board_sha256": "57de345e14f0b27e1dfdfb0097139d5811ede7007358786e4fa3bfe452624dad",
+      "approved_design": null
+    },
+    "tavern_bench": {
+      "batch": "C",
+      "grid_size_px": [
+        40,
+        15
+      ],
+      "anchor_px": [
+        19.0,
+        14
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 1.6,
+      "real_size_dimension": "width",
+      "real_width_m": 1.6,
+      "real_height_m": null,
+      "real_depth_m": null,
+      "projection": null,
+      "colour_count": 63,
+      "colour_count_with_transparency": 64,
+      "accepted_attempt": "masters/attempts/tavern_bench-01.png",
+      "source_board": "masters/attempts/C1-01.png",
+      "board_crop_xyxy": [
+        1140,
+        0,
+        1536,
+        550
+      ],
+      "keyed_content_crop_xyxy": [
+        15,
+        301,
+        367,
+        432
+      ],
+      "master_sha256": "4872c31e78e85af14b25886095faf48037969942598a2dd1733980c5e872ca9d",
+      "source_board_sha256": "57de345e14f0b27e1dfdfb0097139d5811ede7007358786e4fa3bfe452624dad",
+      "approved_design": "D:/Storyboards/Isekai Mercenary Company/Environment Assets/Eurydica/Approved Facades v2/props/bench.png"
+    },
+    "bar_stool": {
+      "batch": "C",
+      "grid_size_px": [
+        11,
+        20
+      ],
+      "anchor_px": [
+        4.5,
+        19
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 0.8,
+      "real_size_dimension": "height",
+      "real_width_m": null,
+      "real_height_m": 0.8,
+      "real_depth_m": null,
+      "projection": null,
+      "colour_count": 62,
+      "colour_count_with_transparency": 63,
+      "accepted_attempt": "masters/attempts/bar_stool-01.png",
+      "source_board": "masters/attempts/C1-01.png",
+      "board_crop_xyxy": [
+        0,
+        550,
+        400,
+        1024
+      ],
+      "keyed_content_crop_xyxy": [
+        149,
+        89,
+        280,
+        324
+      ],
+      "master_sha256": "69ca8b000c426536099b687f0245d91652ba146895e9fe74032361a9dd004a48",
+      "source_board_sha256": "57de345e14f0b27e1dfdfb0097139d5811ede7007358786e4fa3bfe452624dad",
+      "approved_design": null
+    },
+    "hanging_lantern": {
+      "batch": "C",
+      "grid_size_px": [
+        8,
+        18
+      ],
+      "anchor_px": [
+        3.5,
+        0
+      ],
+      "anchor_definition": "centre of top hook at highest occupied row",
+      "real_size_m": 0.7,
+      "real_size_dimension": "height",
+      "real_width_m": null,
+      "real_height_m": 0.7,
+      "real_depth_m": null,
+      "projection": null,
+      "colour_count": 59,
+      "colour_count_with_transparency": 60,
+      "accepted_attempt": "masters/attempts/hanging_lantern-01.png",
+      "source_board": "masters/attempts/C1-01.png",
+      "board_crop_xyxy": [
+        400,
+        550,
+        760,
+        1024
+      ],
+      "keyed_content_crop_xyxy": [
+        118,
+        43,
+        230,
+        297
+      ],
+      "master_sha256": "29361c2dfa0829d5e9a1f311c0421925fa5582b261fceae0e573103851551c92",
+      "source_board_sha256": "57de345e14f0b27e1dfdfb0097139d5811ede7007358786e4fa3bfe452624dad",
+      "approved_design": null
+    },
+    "keg_stack": {
+      "batch": "C",
+      "grid_size_px": [
+        35,
+        35
+      ],
+      "anchor_px": [
+        17.0,
+        34
+      ],
+      "anchor_definition": "centre of lowest occupied row",
+      "real_size_m": 1.4,
+      "real_size_dimension": "width",
+      "real_width_m": 1.4,
+      "real_height_m": null,
+      "real_depth_m": null,
+      "projection": null,
+      "colour_count": 62,
+      "colour_count_with_transparency": 63,
+      "accepted_attempt": "masters/attempts/keg_stack-01.png",
+      "source_board": "masters/attempts/C1-01.png",
+      "board_crop_xyxy": [
+        760,
+        550,
+        1140,
+        1024
+      ],
+      "keyed_content_crop_xyxy": [
+        54,
+        46,
+        333,
+        326
+      ],
+      "master_sha256": "7dee373fe30fa187a6d73d4250560db0182224d2709c3c0fe1bad520244addf1",
+      "source_board_sha256": "57de345e14f0b27e1dfdfb0097139d5811ede7007358786e4fa3bfe452624dad",
+      "approved_design": null
+    }
+  },
+  "notes": [
+    "New interior designs: approved pixel exterior props are rendering anchors, not identical furniture designs.",
+    "Unspecified secondary dimensions preserve generated aspect; requested explicit extents map to occupied pixel bounds.",
+    "Rug screen depth is 1.6m * sin(25deg), rounded to 17px.",
+    "Fixed mounting anchors visually selected; standing props use centre of lowest occupied row."
+  ]
+}

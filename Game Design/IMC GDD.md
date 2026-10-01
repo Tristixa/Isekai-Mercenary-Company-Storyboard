@@ -146,13 +146,13 @@ HD-2D staging inside the diorama, as in Octopath Traveler II. Not Steambot-style
 6. At 20:00, finish due events, close operations, show Resolution, then Day Summary. Settle payroll on its weekly dates.
 7. Advance the night to 07:00. Start the next operating day paused.
 
-**Visible projects.** Show recipe cards before the Workshop opens, material sources on known hunting grounds, Hilde and Gerd's repeat orders after their first deliveries, and the Dorm Annex with Severa and Otto waiting beside its quote. The player can pin up to three projects; the Day Summary shows progress, remaining goods/gold, source and next action. Suggest one nearly done, one being funded and one beyond current reach; never replace the player's pins automatically.
+**Visible projects.** Show recipe cards before the Workshop opens, material sources on known hunting grounds, Hilde and Gerd's repeat orders after their first deliveries, and Guild House Tier 2 once the first Guild meeting sets it. The player can pin up to three projects; the Day Summary shows progress, remaining goods/gold, source and next action. Suggest one nearly done, one being funded and one beyond current reach; never replace the player's pins automatically.
 
 **Pacing examples are goals for a proof, not day-locked promises.**
 
 | Checkpoint | Intended choice and lasting prize | Stamina and progression check |
 |---|---|---|
-| Day 3 | Finish slime orders or scout toward boars; preview the Vest, Bow and Annex | One dispatch per day can be sustained by overnight sleep. Starting at 4, two dispatches leave 2, sleep gives 3; another two leave 1 and the second is fatigued. A rest day restores 4 at 20:00. |
+| Day 3 | Finish slime orders or scout toward boars; preview the Vest and Bow | One dispatch per day can be sustained by overnight sleep. Starting at 4, two dispatches leave 2, sleep gives 3; another two leave 1 and the second is fatigued. A rest day restores 4 at 20:00. |
 | Day 10 | Turn boars into Hilde/Gerd deliveries, first gear or beds; pursue wolves for Jeb | With four hires, stagger rest and use a three-person hunt plus one scout. A 100-XP hunt takes 14 successful hunts to fund one level-5 track; calendar timing depends on outcomes and scouting. |
 | Day 25 | Aim at the charter and Frontier readiness, or already be in the Frontier; retain useful Eurydica customers while preparing | Eurydica targets a strongest track around level 5–6, Rank C and initial Boarhide/Reed/Ridge gear. It must not require maxing every track or waiting until a fixed day. Night sleep and optional rest days govern readiness throughout. |
 
@@ -206,8 +206,12 @@ Process the 11-hour night in chronological timer order, including injury expiry 
 ## 5. Guild, HQ and officers - Carried over (Adventurer Office proven)
 
 ### 5.1 HQ
-- **The HQ grows with the story** (decided 2026-09-27). Chapter 1 uses the small Tier 1 Guild house on **Guild Edge**, beside the South Gate. It has a main room, the Commander room, **one shared officers' room** (Tristitia, Mae and Elsie, from the start; owner 2026-09-28), a small courtyard and a two-bed dormitory, with the expansion yard beside it. Departments open as officers join in Chapter 1, and the yard is built up with paid capacity (12.7). The courtyard has no training targets.
-- HQ is room-based. Each officer owns a department, and the Commander walks to them. Never gather every officer in one room.
+- **The HQ grows with the story** (decided 2026-09-27; Eurydica rooms per Scene 6, owner 2026-10-01). Chapter 1 uses the small Tier 1 Guild house on **Guild Edge**, beside the South Gate:
+  - **Tier 1:** a main room with the big meeting table (Tristitia's working place) and **Mae's processing corner**; the Commander's room, which is also his office; **one shared officers' room** (Tristitia, Mae and Elsie); a small courtyard where **Elsie** works from her bench; and a **dormitory for 4 staff** from the start.
+  - **Tier 2** (objective C1S6-1, set at the first Guild meeting in Scene 6): an annex on the reserved plot beside the Guild yard with a **second officers' room** (Fulker, Valerie, Liliana), **one Workshop for processing and crafting** with four tables (Mae, Fulker, one processing staff, one craftsman; Mae moves here) and **one Commerce + Information room** (Valerie and Liliana). It unlocks the dormitory expansion to 8.
+  - **"Staff"** means recruitables (adventurers and workers); they all sleep in the dormitory. **Officers** are Tristitia, Mae and the other chiefs. The player never sees the dormitory interior.
+  - Design: `Locations/Eurydica/Interiors/Guild House Interiors.md`. The courtyard has no training targets.
+- **Separate department rooms per officer, and the HQ kitchen, are Frontier content.** In Eurydica the officers share the rooms above; the Commander still walks to each officer's spot.
 - Proof 4 proved walking through Eurydica (grey-box); the HQ interior follows the same method.
 
 ### 5.2 Officers
@@ -293,7 +297,7 @@ The Commander never fights and never joins an expedition (owner decision, 2026-0
   - Eating any meal makes him **Fed** for 8 Guild hours.
   - After that he's **Hungry**: he can't run until he eats. There is no other penalty.
 - **Meals:**
-  - the HQ table is free once the kitchen is running (Chapter 1);
+  - the HQ kitchen is Frontier content (owner, 2026-10-01); in Eurydica the Commander eats at the tavern or food stalls;
   - the tavern costs 8G;
   - food stalls cost 5G;
   - in the Frontier, settlement cookhouses.
@@ -1055,7 +1059,7 @@ Clinic allotments reset at the start of each Guild week (days 1, 8, 15…), neve
 
 **Rare-core safeguards.** Accepting CH1-REQ-003 exposes a one-time alternative in that request's panel: 15 Slime Gel of any condition satisfy its two cores directly. No physical tradeable cores are issued. CH1-REQ-002 gains the same alternative when its final 24 hours begin and fewer than two cores have been obtained/reserved for it; acceptance during that window enables it immediately. Choosing the full gel alternative releases any core reservation. Each alternative consumes 15 gel once, is exclusive with ordinary core delivery, grants only the request's stated reward, and earns no sales Reputation. The request panel remains accessible at every base. Explain the alternative before acceptance; it removes rare-drop dependence, not the need to gather common goods.
 
-Two Standard boar corpses yield four meat and two hides: enough for Hilde and Gerd together, paying 100G and 40 Rep initially. That competes with 36G generic walk-up value for the same six Standard common units, with gear and with the Annex. Rare parts/quality are extra, not assumed in that comparison.
+Two Standard boar corpses yield four meat and two hides: enough for Hilde and Gerd together, paying 100G and 40 Rep initially. That competes with 36G generic walk-up value for the same six Standard common units, with gear and with the HQ upgrades. Rare parts/quality are extra, not assumed in that comparison.
 
 | Repeat customer ID | Goods / reward | Availability |
 |---|---|---|
@@ -1186,14 +1190,14 @@ Each morning show one uncompleted opportunity from discovered-region data: mater
 |---|---|---|---|
 | Anselm | 250G | 90G | M02; first pair; free adventurer bed |
 | Nell | 250G | 90G | M02; first pair; free adventurer bed |
-| Severa | 300G | 105G | Visible at M02; Annex complete; free bed |
-| Otto | 325G | 110G | Visible at M02; Annex complete; free bed |
+| Severa | 300G | 105G | Visible at M02; free bed |
+| Otto | 325G | 110G | Visible at M02; free bed |
 | Chloris | 400G | 120G | Chapter 2, E, free bed |
-| Konrad, processor | 150G | 60G | Preview at M02; Processing open and free staffed station |
-| Cassia, clerk | 150G | 60G | Information open and free clerk station |
-| Ulrich, craftsman | 200G | 75G | M05 and free staffed workbench |
+| Konrad, processor | 150G | 60G | Preview at M02; free processing staff station (Tier 2) and free bed |
+| Cassia, clerk | 150G | 60G | Liliana joined (after C1S7-1); free bed |
+| Ulrich, craftsman | 200G | 75G | M05; free craftsman station (Tier 2) and free bed |
 
-Authored candidates never vanish for being unaffordable; no random duplicates. Officers join through story for no hiring charge and have no separate payroll in this baseline. Routine staff are distinct from those officers; they use stations, not adventurer beds.
+Authored candidates never vanish for being unaffordable; no random duplicates. Officers join through story for no hiring charge and have no separate payroll in this baseline. Routine staff are distinct from those officers; they use stations and sleep in the dormitory like the adventurers.
 
 | Staff rank | Promotion condition and cost | Processing/crafting duration factor | Weekly wage factor |
 |---|---|---|---|
@@ -1228,18 +1232,15 @@ This is the quality strategy's engine (5.4).
 
 ### 12.7 HQ capacity and construction — Designed, not yet proven
 
-Start with two adventurer beds and service corners opened free by their story introductions. Named workers require an unlocked free station; no bed. All three Chapter 1 departments work from these corners immediately; later rooms improve presentation/capacity, not their first availability.
+Start with **four dormitory beds** (owner, 2026-10-01) and service corners opened free by their story introductions. Every recruitable (adventurer or worker) needs a free bed; workers also need a free station. All Chapter 1 departments work from their corners immediately; Tier 2 moves processing and crafting into the Workshop and adds the second staff stations.
 
 | Upgrade | Preview / prerequisite | Cost / calendar duration | Effect |
 |---|---|---|---|
-| Dorm Annex | Preview at founding with Severa and Otto; first hunt returned | 600G + 6 Standard+ Boar Hides / 24 hours | Beds 2→4 |
-| Larger Dorm | Preview at E; Annex + E | 1,000G + 8 Standard+ Wolf Pelts / 48 hours | Beds 4→5, room for Chloris |
-| Second Processing Table | Processing open; 10 corpses completed | 350G + 2 Standard+ Boar Hides / 24 hours | 2 simultaneous processing stations |
-| Second Workbench | Fulker joined; E | 600G + 4 Standard+ Crawler Plates / 24 hours | 2 Workshop stations; materials visibly require Erythra |
+| Guild House Tier 2 | Objective C1S6-1 (Scene 6, the first Guild meeting) | 1,000G + 6 Standard+ Boar Hides / 48 hours | The annex: second officers' room (Fulker, Valerie, Liliana), the Workshop with 4 tables (2 processing: Mae + a staff station; 2 crafting: Fulker + a craftsman station), the Commerce + Information room; unlocks Dorm Expansion |
+| Dorm Expansion | Guild House Tier 2 complete | 1,000G + 8 Standard+ Wolf Pelts / 48 hours | Beds 4→8: room for the starter workers (processing, craftsman, information) and Chloris |
 | Trading Shelves | Valerie joined | 300G + 4 Standard+ Boar Hides / 24 hours | +2 listing slots |
-| Officers' Quarters II | Valerie, Fulker and Liliana all joined | 500G + 4 Standard+ Boar Hides / 24 hours | A second shared officers' room for Valerie, Liliana and Fulker; they move in and keep their evening routines at the Guild house |
 
-Larger Dorm gives five beds rather than the audit's six; only five adventurers are authored for Eurydica. More beds and a roster beyond those five belong to the Frontier. No implicit sixth recruit. Four people can run a three-person hunt plus one scout, or two modest two-person hunts; two safe boar teams are not promised. Simultaneous operations have no extra slot currency.
+*(2026-10-01: Tier 2 and Dorm Expansion replace the Dorm Annex, Larger Dorm, Second Processing Table, Second Workbench and Officers' Quarters II. The sim's HQ upgrade data follows in a later sprint.)* Eight beds hold the five authored adventurers and the three starter workers; more belong to the Frontier. No implicit sixth adventurer. Four people can run a three-person hunt plus one scout, or two modest two-person hunts; two safe boar teams are not promised. Simultaneous operations have no extra slot currency.
 
 One construction job at a time; consume quoted inputs at start, complete through calendar time including night, and refund fully on cancellation before completion. No duplicate upgrade or recurring upkeep. Apply capacity at the completion tick; update room visuals at the next safe transition. Optional HQ spending is blocked while debt is overdue, not ordinary income-producing dispatch/material processing.
 
@@ -1288,7 +1289,7 @@ B/A/S thresholds and fees continue the opening curve as unproven starting values
 
 Gold/XP/Rep rewards are committed once with their event ID. Sources are hunt/contract corpses, successful scouts, completed requests/contracts/flashpoints, and cumulative net sales. An accepted optional failure debits 10 once; story failures do not. Refunds, exchanges and borrowing do not manufacture sales Reputation.
 
-Starting-cash example: Anselm + Nell + Konrad cost 650G, leaving 1,850G. Four initial adventurers plus three rank-1 workers cost 1,625G and 590G/week; adding the 600G Annex leaves 275G before earnings, below that full weekly bill. This is a warning to stage investment, not a claim that hiring everyone immediately is viable. It excludes Chloris and the Larger Dorm.
+Starting-cash example: Anselm + Nell + Konrad cost 650G, leaving 1,850G. Four initial adventurers fill the four starting beds (1,125G). Workers need Tier 2 stations and the Dorm Expansion, so they come later. This is a warning to stage investment, not a claim that hiring everyone immediately is viable.
 
 ### 13.4 Debt and the Eurydica charter — Designed, not yet proven
 
@@ -1313,7 +1314,7 @@ Services open through once-only event predicates, not fixed days or mandatory nu
 
 | Milestone / event | Predicate | Result |
 |---|---|---|
-| M02 | Chapter 1 arrival walk complete; returned to Tristitia for the 14:00 meeting; recruitment scene acknowledged | Anselm/Nell hiring, Severa/Otto/Annex preview; CH1-REQ-001/002 offers |
+| M02 | Chapter 1 arrival walk complete; returned to Tristitia for the 14:00 meeting; recruitment scene acknowledged | Anselm/Nell hiring, Severa/Otto preview; CH1-REQ-001/002 offers |
 | M03 | M02; at least one hire; Elsie's dispatch explanation acknowledged | Hunting; Mae's baseline Processing opens alongside it |
 | M06 | Opens with M03 (owner, 2026-09-30: Elsie suggests hunting and scouting together in Scene 5) | Scouting, from the first expedition; Scout Map fallback |
 | M05 / Fulker joins | Boar material seen in inventory or a discovered material-source card; speak to Fulker | Crafting officer joins in Chapter 1; Workshop corner works immediately |
@@ -1377,7 +1378,7 @@ Elsie's preparation screen can save two named formation/loadout templates. Apply
 - **Codex helper:** heavy batch jobs and drafts run on Codex in `D:\Codex\IMC`; only checked results are copied into the project.
 - **Next proof (5): a Chapter 1 economy slice.** It proves the "tomorrow I want to" hooks and balances this document's starting values:
   - two recruits, the seven requests and the two repeat customers;
-  - recipes, processing and the Dorm Annex;
+  - recipes, processing and Guild House Tier 2;
   - the 07:00–20:00 day and the night;
   - one working session of each kind.
 
@@ -1484,6 +1485,7 @@ No unresolved numeric system rule is parked here. Balance values throughout rema
 |---|---|
 | 2026-09-29 | **The move to the Frontier is story-driven** (14, 16a): 3 days after Crownstone an Alliance envoy summons the Commander to the Civic Terrace; the Alliance of Nations appoints the Guild the sole institution that verifies information and pays for the move (no 1,500G fee). Verification authority starts at the appointment. Rank C is no longer a gate; the player still picks the departure day and must have no debt. |
 | 2026-09-29 | **Bonds are capped at level 1 in Eurydica** (5.4); banked points carry over to the Frontier under the weekly limit. |
+| 2026-10-01 | **Eurydica HQ per Scene 6** (owner): Tier 1 (main room with meeting table and Mae's processing corner, Commander's room = office, shared officers' room, Elsie in the courtyard, **dormitory for 4 staff from the start**) and **Guild House Tier 2** (C1S6-1; 1,000G + 6 Standard+ Boar Hides / 48 h: officers' room II, a 4-table Workshop for processing and crafting, one Commerce + Information room), then **Dorm Expansion 4→8**. Staff (recruitables) sleep in the dorm. Per-officer department rooms and the HQ kitchen are Frontier content. Replaces Dorm Annex, Larger Dorm, Second Processing Table, Second Workbench and Officers' Quarters II. **Environment style:** pixel art (Proof 1), §2.4. |
 | 2026-09-29 | Owner decisions after S2: **enhancement removed** (12.3; Refinement becomes the Demondrug line); **consumables** made a heavy expedition requirement, tier 1 bought in Eurydica (new 6.6a: Potion, Demondrug, Armorskin, Lure, Map), tiers 1–5 from a Frontier Research Department; the Workshop crafts gear only; **crafted gear** gets market demand per item at (inputs + fee) × 1.25; abandoned or failed repeats return after 2 days; the demand schedule covers today + 3 days; the Negotiation gold bonus rounds down. |
 | 2026-09-28 | UI finish locked from style test v5 (owner): fonts Cormorant Garamond SemiBold + Alegreya with lining figures, all-caps card headers; the 2.5 colour tokens stay (parchment and navy); the FGC_08 §2.2 tier and layer model; the owner's watermark emblem. |
 | 2026-09-28 | UI decisions from FGC_08 (owner): the top bar becomes a top-left HUD cluster around a clock medallion (§15); the battle HUD party row becomes a semi-transparent card column on the right, and the battle log moves to the bottom left (§9). Processing odds stay visible as §12.1/§15 say, so the rank-3 Know-how ability **Trained eye** becomes a passive: processing never produces Unsellable, and that chance moves to Damaged (§5a.2, §5.4 perk arithmetic). |
@@ -1509,7 +1511,7 @@ Internal IDs are unchanged. |
 - Jeb's stables and the guard shelter stay at the gate.
 - The arrival route is now Outskirts → South Gate → Guild Edge → Arrival Ward → Market Spine.
 
-**Rooms:** the Tier 1 Guild house has one shared officers' room (Tristitia, Mae, Elsie) from the start. The new HQ upgrade *Officers' Quarters II* (Valerie, Liliana, Fulker) comes after all three have joined. Roof colours are a guide by building group: green for businesses and public buildings, plum for homes (including the Guild house), brown for work buildings, warm red for Service Lanes and old homes. |
+**Rooms:** the Tier 1 Guild house has one shared officers' room (Tristitia, Mae, Elsie) from the start. *(Superseded 2026-10-01: the second officers' room comes with Guild House Tier 2, §5.1 and §12.7.)* Roof colours are a guide by building group: green for businesses and public buildings, plum for homes, brown for work buildings, warm red for Service Lanes and old homes, and **slate blue for the Guild only** (the Guild hall and its Tier 2 annex; owner 2026-10-01, so the Guild reads as its own landmark). |
 | 2026-09-28 | Fixes from the implementation-spec review:
 - **Workshop inputs** are reserved when a job starts (12.2 matches 12.2a).
 - **Reworking** ignores Morale (Morale is processing only).

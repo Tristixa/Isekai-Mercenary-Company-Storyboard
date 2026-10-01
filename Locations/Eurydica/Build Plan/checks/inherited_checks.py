@@ -123,12 +123,12 @@ def validate(P,external=True):
   metrics[id+'_gate_distance_m']=round(d,3)
   need(d<=limit,id+' exceeds gate proximity limit')
   need(b['footprint'][3]<300.4,id+' must be inside south wall')
- need(lookup['company_house']['display_name']=='Guild house','Guild display name')
+ need(lookup['company_house']['display_name'] in ('Guild house','Guild hall'),'Guild display name')
  need(next(d for d in P['districts'] if d['id']=='company')['name']=='Guild Edge','Guild district name')
  need(lookup['lodging']['district']=='arrival' and 112<centre(lookup['lodging'])[1]<205,'lodging not at former Guild latitude')
  need(P['arrival_route']['names']==['Outskirts','South Gate','Guild Edge','Arrival Ward','Market Spine','Old Bridge'],'v2 arrival route order')
  for b in P['buildings']:
-  expected='warm_red' if b['district']=='service' or b['id'].startswith(('old_home_','res_home_')) or ('home' in b['id'] and b['district'] in ('old_city','residential')) else 'brown' if b['district'] in ('quays','workshops') or b['id'] in ('stables','store_shed','waterkeeper','washing') else 'plum' if 'home' in b['id'] or b['id'] in ('company_house','company_neighbor') else 'green'
+  expected='slate_blue' if b['id'] in ('company_house','guild_annex') else 'warm_red' if b['district']=='service' or b['id'].startswith(('old_home_','res_home_')) or ('home' in b['id'] and b['district'] in ('old_city','residential')) else 'brown' if b['district'] in ('quays','workshops') or b['id'] in ('stables','store_shed','waterkeeper','washing') else 'plum' if 'home' in b['id'] or b['id'] in ('company_house','company_neighbor') else 'green'
   if b['id'] in ('infill_home_12','infill_home_06','street_home_8','infill_home_23') and b['facade_id'].startswith('market_'):expected='green'
   need(b['roof_palette']==expected,'roof colour rule '+b['id'])
  it=next(i for i in P['interiors'] if i['id']=='guild_interior')

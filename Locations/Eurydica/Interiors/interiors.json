@@ -1,0 +1,2112 @@
+{
+  "note": "Interior layouts. guild_house is version 2 (Guild House Redesign v2.md, owner-approved 2026-10-01): kit = 3D furniture built in code (FurnitureKit), pieces = Codex pixel pieces. guild_annex and tavern are still v1 (redesign pending). Interior-local metres: +x east, +z south; the south side is open to the camera. Walls: a to b, height h (full 3.0 or half 1.2), doors as [from_m, to_m] along the wall, windows as centre distances along the wall. Furniture uses the approved pixel pieces (Environment Assets/Eurydica/Approved Pixel v1/interiors and props); y lifts wall-mounted pieces; solid is a collision box [width, depth]. Markers replace the plan's older 7 x 7 m interior positions.",
+  "interiors": {
+    "guild_house": {
+      "display_name": "Guild hall (Tier 1)",
+      "version": 2,
+      "size": [
+        28,
+        16
+      ],
+      "floors": [
+        {
+          "rect": [
+            -7,
+            -8,
+            7,
+            9
+          ],
+          "material": "dressed_stone"
+        },
+        {
+          "rect": [
+            -14,
+            -8,
+            -7,
+            0
+          ],
+          "material": "oak"
+        },
+        {
+          "rect": [
+            -14,
+            0,
+            -7,
+            8
+          ],
+          "material": "stone"
+        },
+        {
+          "rect": [
+            7,
+            -8,
+            14,
+            0
+          ],
+          "material": "oak"
+        },
+        {
+          "rect": [
+            7,
+            0,
+            14,
+            9
+          ],
+          "material": "dressed_stone"
+        }
+      ],
+      "walls": [
+        {
+          "a": [
+            -7,
+            -8
+          ],
+          "b": [
+            7,
+            -8
+          ],
+          "h": 6.8
+        },
+        {
+          "a": [
+            -14,
+            -8
+          ],
+          "b": [
+            -7,
+            -8
+          ],
+          "h": 3.4
+        },
+        {
+          "a": [
+            7,
+            -8
+          ],
+          "b": [
+            14,
+            -8
+          ],
+          "h": 3.4
+        },
+        {
+          "a": [
+            -14,
+            -8
+          ],
+          "b": [
+            -14,
+            8
+          ],
+          "h": 3.4
+        },
+        {
+          "a": [
+            14,
+            -8
+          ],
+          "b": [
+            14,
+            0
+          ],
+          "h": 3.4
+        },
+        {
+          "a": [
+            14,
+            0
+          ],
+          "b": [
+            14,
+            8
+          ],
+          "h": 6.8
+        },
+        {
+          "a": [
+            -7,
+            -8
+          ],
+          "b": [
+            -7,
+            0
+          ],
+          "h": 3.4,
+          "doors": [
+            [
+              5.4,
+              6.8
+            ]
+          ]
+        },
+        {
+          "a": [
+            -7,
+            0
+          ],
+          "b": [
+            -7,
+            8
+          ],
+          "h": 3.4,
+          "doors": [
+            [
+              1.6,
+              3
+            ]
+          ]
+        },
+        {
+          "a": [
+            7,
+            -8
+          ],
+          "b": [
+            7,
+            0
+          ],
+          "h": 3.4,
+          "doors": [
+            [
+              5.4,
+              6.8
+            ]
+          ]
+        },
+        {
+          "a": [
+            -14,
+            0
+          ],
+          "b": [
+            -7,
+            0
+          ],
+          "h": 3.4,
+          "room_front": "office"
+        },
+        {
+          "a": [
+            7,
+            0
+          ],
+          "b": [
+            14,
+            0
+          ],
+          "h": 3.4,
+          "room_front": "officers"
+        },
+        {
+          "a": [
+            -14,
+            8
+          ],
+          "b": [
+            -7,
+            8
+          ],
+          "h": 3.4,
+          "doors": [
+            [
+              1.6,
+              2.9
+            ]
+          ],
+          "room_front": "processing"
+        }
+      ],
+      "rooms": {
+        "office": {
+          "rect": [
+            -14,
+            -8,
+            -7,
+            0
+          ]
+        },
+        "officers": {
+          "rect": [
+            7,
+            -8,
+            14,
+            0
+          ]
+        },
+        "processing": {
+          "rect": [
+            -14,
+            0,
+            -7,
+            8
+          ]
+        }
+      },
+      "kit": [
+        {
+          "kit": "hearth",
+          "size": [
+            6.8
+          ],
+          "at": [
+            -4.6,
+            -7.55
+          ],
+          "rot": 0,
+          "solid": [
+            2.8,
+            1
+          ],
+          "fire": true
+        },
+        {
+          "kit": "window",
+          "size": [
+            1.7,
+            2.7
+          ],
+          "at": [
+            0.6,
+            -7.92
+          ],
+          "y": 0.9
+        },
+        {
+          "kit": "window",
+          "size": [
+            1.7,
+            2.7
+          ],
+          "at": [
+            4.6,
+            -7.92
+          ],
+          "y": 0.9
+        },
+        {
+          "kit": "window",
+          "size": [
+            1.2,
+            1.4
+          ],
+          "at": [
+            0.6,
+            -7.92
+          ],
+          "y": 4.6
+        },
+        {
+          "kit": "window",
+          "size": [
+            1.2,
+            1.4
+          ],
+          "at": [
+            4.6,
+            -7.92
+          ],
+          "y": 4.6
+        },
+        {
+          "kit": "window",
+          "size": [
+            1.2,
+            1.4
+          ],
+          "at": [
+            -4.6,
+            -7.92
+          ],
+          "y": 4.9,
+          "skip_if_blocked": true
+        },
+        {
+          "kit": "gallery",
+          "size": [
+            14,
+            1.5,
+            3.4
+          ],
+          "at": [
+            0,
+            -6.5
+          ],
+          "rot": 0
+        },
+        {
+          "kit": "post",
+          "size": [
+            3.4
+          ],
+          "at": [
+            -3,
+            -6.5
+          ]
+        },
+        {
+          "kit": "post",
+          "size": [
+            3.4
+          ],
+          "at": [
+            2.6,
+            -6.5
+          ]
+        },
+        {
+          "kit": "rug",
+          "size": [
+            3.4,
+            2.4
+          ],
+          "colour": "oxblood",
+          "at": [
+            -4.6,
+            -4.9
+          ]
+        },
+        {
+          "kit": "armchair",
+          "colour": "sage",
+          "at": [
+            -5.7,
+            -4.4
+          ],
+          "rot": 3.491592653589793,
+          "solid": [
+            0.9,
+            0.9
+          ]
+        },
+        {
+          "kit": "armchair",
+          "colour": "navy",
+          "at": [
+            -3.5,
+            -4.4
+          ],
+          "rot": 2.791592653589793,
+          "solid": [
+            0.9,
+            0.9
+          ]
+        },
+        {
+          "kit": "low_table",
+          "at": [
+            -4.6,
+            -5.6
+          ],
+          "solid": [
+            1.1,
+            0.6
+          ]
+        },
+        {
+          "kit": "table",
+          "size": [
+            3.6,
+            1.2,
+            0.78
+          ],
+          "at": [
+            2.6,
+            -4.2
+          ],
+          "solid": [
+            3.6,
+            1.2
+          ]
+        },
+        {
+          "kit": "chair",
+          "at": [
+            1.7,
+            -5.15
+          ],
+          "rot": 0
+        },
+        {
+          "kit": "chair",
+          "at": [
+            3.5,
+            -5.15
+          ],
+          "rot": 0
+        },
+        {
+          "kit": "chair",
+          "at": [
+            1.7,
+            -3.25
+          ],
+          "rot": 3.141592653589793
+        },
+        {
+          "kit": "chair",
+          "at": [
+            3.5,
+            -3.25
+          ],
+          "rot": 3.141592653589793
+        },
+        {
+          "kit": "chair",
+          "at": [
+            0.35,
+            -4.2
+          ],
+          "rot": 1.5707963267948966
+        },
+        {
+          "kit": "chair",
+          "at": [
+            4.85,
+            -4.2
+          ],
+          "rot": -1.5707963267948966
+        },
+        {
+          "kit": "rug",
+          "size": [
+            5,
+            3.2
+          ],
+          "colour": "navy",
+          "at": [
+            0.2,
+            2.2
+          ]
+        },
+        {
+          "kit": "counter",
+          "size": [
+            3.2
+          ],
+          "at": [
+            4.4,
+            3.4
+          ],
+          "rot": 0,
+          "solid": [
+            3.3,
+            0.8
+          ]
+        },
+        {
+          "kit": "notice_board",
+          "at": [
+            6.3,
+            0.4
+          ],
+          "rot": 0,
+          "solid": [
+            1.6,
+            0.3
+          ]
+        },
+        {
+          "kit": "chest",
+          "at": [
+            -6.3,
+            5.6
+          ],
+          "rot": 1.5707963267948966,
+          "solid": [
+            0.6,
+            0.95
+          ]
+        },
+        {
+          "kit": "desk",
+          "at": [
+            -10.4,
+            -6.7
+          ],
+          "rot": 0,
+          "solid": [
+            1.5,
+            0.7
+          ]
+        },
+        {
+          "kit": "chair",
+          "at": [
+            -10.6,
+            -6.05
+          ],
+          "rot": 3.141592653589793
+        },
+        {
+          "kit": "bookcase",
+          "size": [
+            1.6,
+            2.2
+          ],
+          "at": [
+            -12.8,
+            -7.75
+          ],
+          "rot": 0,
+          "solid": [
+            1.6,
+            0.45
+          ]
+        },
+        {
+          "kit": "bookcase",
+          "size": [
+            1.4,
+            2.2
+          ],
+          "at": [
+            -8.1,
+            -7.75
+          ],
+          "rot": 0,
+          "solid": [
+            1.4,
+            0.45
+          ]
+        },
+        {
+          "kit": "window",
+          "size": [
+            1.2,
+            1.8
+          ],
+          "at": [
+            -13.92,
+            -4
+          ],
+          "y": 0.9,
+          "rot": 1.5707963267948966
+        },
+        {
+          "kit": "bed",
+          "colour": "navy",
+          "at": [
+            -12.9,
+            -2.6
+          ],
+          "rot": 1.5707963267948966,
+          "solid": [
+            2.1,
+            1.1
+          ]
+        },
+        {
+          "kit": "chest",
+          "at": [
+            -10.9,
+            -1
+          ],
+          "rot": 3.141592653589793,
+          "solid": [
+            0.95,
+            0.6
+          ]
+        },
+        {
+          "kit": "rug",
+          "size": [
+            2.6,
+            1.8
+          ],
+          "colour": "navy",
+          "at": [
+            -10.2,
+            -4
+          ]
+        },
+        {
+          "kit": "table",
+          "size": [
+            2,
+            1,
+            0.86
+          ],
+          "wood": "oak",
+          "at": [
+            -10.5,
+            2.6
+          ],
+          "solid": [
+            2,
+            1
+          ]
+        },
+        {
+          "kit": "hook_rail",
+          "size": [
+            1.8
+          ],
+          "at": [
+            -11.6,
+            0.12
+          ],
+          "y": 2.6,
+          "rot": 0
+        },
+        {
+          "kit": "tub",
+          "at": [
+            -8.2,
+            2.2
+          ],
+          "solid": [
+            1,
+            1
+          ]
+        },
+        {
+          "kit": "crate",
+          "size": [
+            0.9
+          ],
+          "at": [
+            -13.3,
+            3.4
+          ],
+          "solid": [
+            0.9,
+            0.9
+          ]
+        },
+        {
+          "kit": "crate",
+          "size": [
+            0.7
+          ],
+          "at": [
+            -13.3,
+            4.5
+          ],
+          "solid": [
+            0.7,
+            0.7
+          ]
+        },
+        {
+          "kit": "barrel",
+          "at": [
+            -8,
+            6.9
+          ],
+          "solid": [
+            0.7,
+            0.7
+          ]
+        },
+        {
+          "kit": "barrel",
+          "at": [
+            -8.8,
+            7
+          ],
+          "solid": [
+            0.7,
+            0.7
+          ]
+        },
+        {
+          "kit": "bookcase",
+          "size": [
+            1.4,
+            1.8
+          ],
+          "at": [
+            -13.65,
+            6.2
+          ],
+          "rot": 1.5707963267948966,
+          "solid": [
+            0.45,
+            1.4
+          ]
+        },
+        {
+          "kit": "bed",
+          "colour": "oxblood",
+          "at": [
+            8.7,
+            -6.8
+          ],
+          "rot": 0,
+          "solid": [
+            1.1,
+            2.1
+          ]
+        },
+        {
+          "kit": "bed",
+          "colour": "sage",
+          "at": [
+            10.6,
+            -6.8
+          ],
+          "rot": 0,
+          "solid": [
+            1.1,
+            2.1
+          ]
+        },
+        {
+          "kit": "bed",
+          "colour": "cream",
+          "at": [
+            12.5,
+            -6.8
+          ],
+          "rot": 0,
+          "solid": [
+            1.1,
+            2.1
+          ]
+        },
+        {
+          "kit": "chest",
+          "at": [
+            8.7,
+            -5.3
+          ],
+          "rot": 0,
+          "solid": [
+            0.95,
+            0.6
+          ]
+        },
+        {
+          "kit": "chest",
+          "at": [
+            10.6,
+            -5.3
+          ],
+          "rot": 0,
+          "solid": [
+            0.95,
+            0.6
+          ]
+        },
+        {
+          "kit": "chest",
+          "at": [
+            12.5,
+            -5.3
+          ],
+          "rot": 0,
+          "solid": [
+            0.95,
+            0.6
+          ]
+        },
+        {
+          "kit": "wardrobe",
+          "at": [
+            13.6,
+            -2.4
+          ],
+          "rot": -1.5707963267948966,
+          "solid": [
+            0.65,
+            1.25
+          ]
+        },
+        {
+          "kit": "table",
+          "size": [
+            1,
+            0.8,
+            0.74
+          ],
+          "at": [
+            9.2,
+            -1.8
+          ],
+          "solid": [
+            1,
+            0.8
+          ]
+        },
+        {
+          "kit": "chair",
+          "at": [
+            9.2,
+            -1.1
+          ],
+          "rot": 3.141592653589793
+        },
+        {
+          "kit": "window",
+          "size": [
+            1.2,
+            1.8
+          ],
+          "at": [
+            13.92,
+            -4.2
+          ],
+          "y": 0.9,
+          "rot": -1.5707963267948966
+        },
+        {
+          "kit": "rug",
+          "size": [
+            3,
+            1.6
+          ],
+          "colour": "sage",
+          "at": [
+            10.6,
+            -3.6
+          ]
+        },
+        {
+          "kit": "stairs",
+          "size": [
+            5.1,
+            3.4,
+            1.5
+          ],
+          "at": [
+            8.2,
+            6.1
+          ],
+          "solid_stairs": true
+        },
+        {
+          "kit": "crate",
+          "size": [
+            0.7
+          ],
+          "at": [
+            8.8,
+            7.6
+          ],
+          "solid": [
+            0.7,
+            0.7
+          ]
+        },
+        {
+          "kit": "barrel",
+          "at": [
+            9.7,
+            7.7
+          ],
+          "solid": [
+            0.7,
+            0.7
+          ]
+        }
+      ],
+      "pieces": [
+        {
+          "piece": "chandelier",
+          "at": [
+            0.4,
+            1.2
+          ],
+          "y": 5.6,
+          "light": [
+            1,
+            0.82,
+            0.6,
+            1.4,
+            9
+          ],
+          "light_y": 4.6
+        },
+        {
+          "piece": "cloth_hanging",
+          "at": [
+            -1.2,
+            -6.4
+          ],
+          "y": 3.2
+        },
+        {
+          "piece": "cloth_hanging",
+          "at": [
+            6.4,
+            -6.4
+          ],
+          "y": 3.2
+        },
+        {
+          "piece": "hanging_ivy",
+          "at": [
+            -3,
+            -6.25
+          ],
+          "y": 3.15
+        },
+        {
+          "piece": "hanging_ivy",
+          "at": [
+            2.6,
+            -6.25
+          ],
+          "y": 3.15
+        },
+        {
+          "piece": "potted_palm",
+          "at": [
+            -6.3,
+            -7.3
+          ]
+        },
+        {
+          "piece": "potted_palm",
+          "at": [
+            6.4,
+            -7.3
+          ]
+        },
+        {
+          "piece": "potted_fern",
+          "at": [
+            -1.6,
+            -7.5
+          ]
+        },
+        {
+          "piece": "potted_fern",
+          "at": [
+            -6.4,
+            7.6
+          ]
+        },
+        {
+          "piece": "potted_fern",
+          "at": [
+            6.4,
+            7.4
+          ]
+        },
+        {
+          "piece": "potted_fern",
+          "at": [
+            2.7,
+            4.3
+          ]
+        },
+        {
+          "piece": "potted_fern",
+          "at": [
+            -13.4,
+            -7.4
+          ]
+        },
+        {
+          "piece": "potted_fern",
+          "at": [
+            13.4,
+            -0.6
+          ]
+        },
+        {
+          "piece": "hanging_ivy",
+          "at": [
+            -8.6,
+            -0.3
+          ],
+          "y": 3.2
+        },
+        {
+          "piece": "hearth_fire",
+          "at": [
+            -4.6,
+            -7.2
+          ],
+          "y": 0.16,
+          "light": [
+            1,
+            0.6,
+            0.3,
+            2,
+            7
+          ],
+          "light_y": 0.8
+        },
+        {
+          "piece": "papers_pinned",
+          "at": [
+            6.3,
+            0.45
+          ],
+          "y": 1.3
+        },
+        {
+          "piece": "ledger_open",
+          "at": [
+            4,
+            3.4
+          ],
+          "y": 1.07
+        },
+        {
+          "piece": "candle_cluster",
+          "at": [
+            5.2,
+            3.35
+          ],
+          "y": 1.07,
+          "light": [
+            1,
+            0.75,
+            0.45,
+            0.6,
+            3
+          ],
+          "light_y": 1.4
+        },
+        {
+          "piece": "mugs_plates",
+          "at": [
+            2,
+            -4.25
+          ],
+          "y": 0.78
+        },
+        {
+          "piece": "candle_cluster",
+          "at": [
+            3.3,
+            -4.25
+          ],
+          "y": 0.78,
+          "light": [
+            1,
+            0.75,
+            0.45,
+            0.5,
+            3
+          ],
+          "light_y": 1.1
+        },
+        {
+          "piece": "scroll_case",
+          "at": [
+            3.9,
+            -4.1
+          ],
+          "y": 0.78
+        },
+        {
+          "piece": "sill_plants",
+          "at": [
+            0.6,
+            -7.8
+          ],
+          "y": 0.82
+        },
+        {
+          "piece": "sill_plants",
+          "at": [
+            4.6,
+            -7.8
+          ],
+          "y": 0.82
+        },
+        {
+          "piece": "wall_lamp_v2",
+          "at": [
+            -1.6,
+            -7.85
+          ],
+          "y": 2.3,
+          "light": [
+            1,
+            0.78,
+            0.5,
+            0.8,
+            5
+          ]
+        },
+        {
+          "piece": "wall_lamp_v2",
+          "at": [
+            6.85,
+            2.2
+          ],
+          "y": 2.3,
+          "light": [
+            1,
+            0.78,
+            0.5,
+            0.8,
+            5
+          ]
+        },
+        {
+          "piece": "potted_olive",
+          "at": [
+            -6.3,
+            2.4
+          ]
+        },
+        {
+          "piece": "potted_flowers",
+          "at": [
+            -2,
+            -5.5
+          ]
+        },
+        {
+          "piece": "basket_produce",
+          "at": [
+            -4.6,
+            -5.6
+          ],
+          "y": 0.45
+        },
+        {
+          "piece": "weapon_rack_items",
+          "at": [
+            -6,
+            4.8
+          ],
+          "y": 2.2
+        },
+        {
+          "piece": "papers_pinned",
+          "at": [
+            -10.4,
+            -7.85
+          ],
+          "y": 1.55
+        },
+        {
+          "piece": "ledger_open",
+          "at": [
+            -10.6,
+            -6.75
+          ],
+          "y": 0.78
+        },
+        {
+          "piece": "candle_cluster",
+          "at": [
+            -9.9,
+            -6.85
+          ],
+          "y": 0.78,
+          "light": [
+            1,
+            0.75,
+            0.45,
+            0.6,
+            3.5
+          ],
+          "light_y": 1.1
+        },
+        {
+          "piece": "wall_sconce",
+          "at": [
+            -13.85,
+            -1.4
+          ],
+          "y": 1.9,
+          "light": [
+            1,
+            0.75,
+            0.45,
+            0.5,
+            3.5
+          ]
+        },
+        {
+          "piece": "hanging_cuts",
+          "at": [
+            -11.6,
+            0.18
+          ],
+          "y": 2.55
+        },
+        {
+          "piece": "knife_roll",
+          "at": [
+            -10.3,
+            2.6
+          ],
+          "y": 0.86
+        },
+        {
+          "piece": "pelt_stack",
+          "at": [
+            -12.9,
+            6.9
+          ]
+        },
+        {
+          "piece": "hanging_herbs",
+          "at": [
+            -8.6,
+            0.18
+          ],
+          "y": 2.7
+        },
+        {
+          "piece": "wall_lamp_v2",
+          "at": [
+            -7.15,
+            5.4
+          ],
+          "y": 2.3,
+          "light": [
+            1,
+            0.78,
+            0.5,
+            0.9,
+            5
+          ]
+        },
+        {
+          "piece": "candle_cluster",
+          "at": [
+            9.2,
+            -1.8
+          ],
+          "y": 0.74,
+          "light": [
+            1,
+            0.75,
+            0.45,
+            0.5,
+            3.5
+          ],
+          "light_y": 1
+        },
+        {
+          "piece": "potted_flowers",
+          "at": [
+            7.8,
+            -7.6
+          ]
+        },
+        {
+          "piece": "wall_sconce",
+          "at": [
+            13.85,
+            -6
+          ],
+          "y": 1.9,
+          "light": [
+            1,
+            0.75,
+            0.45,
+            0.5,
+            3.5
+          ]
+        }
+      ],
+      "markers": {
+        "table_north": [
+          1.7,
+          -5.15,
+          "south"
+        ],
+        "table_south": [
+          1.7,
+          -3.25,
+          "north"
+        ],
+        "table_east": [
+          4.85,
+          -4.2,
+          "west"
+        ],
+        "table_west": [
+          0.35,
+          -4.2,
+          "east"
+        ],
+        "courtyard_door": [
+          0,
+          8.6,
+          "north"
+        ],
+        "office_door_west": [
+          -6,
+          -2.6,
+          "west"
+        ],
+        "office_door_east": [
+          -5.4,
+          -1.4,
+          "west"
+        ],
+        "officers_room_door": [
+          6.2,
+          -1.9,
+          "east"
+        ],
+        "processing_corner": [
+          -10.5,
+          3.7,
+          "north"
+        ],
+        "reception": [
+          4.4,
+          2.6,
+          "south"
+        ],
+        "unfinished_west": [
+          -4.6,
+          4.5,
+          "south"
+        ],
+        "unfinished_east": [
+          4.4,
+          6,
+          "south"
+        ],
+        "scene4_line_13": [
+          -10.4,
+          -5,
+          "south"
+        ],
+        "adventurer_evening_1": [
+          -4.6,
+          -3.4,
+          "north"
+        ],
+        "adventurer_evening_2": [
+          2.6,
+          6.5,
+          "south"
+        ]
+      },
+      "exit": "courtyard_door",
+      "lighting": {
+        "ambient": [
+          0.9,
+          0.92,
+          0.95
+        ],
+        "ambient_energy": 0.5,
+        "window_light": [
+          0.85,
+          0.9,
+          1,
+          1.3,
+          8
+        ]
+      }
+    },
+    "guild_annex": {
+      "display_name": "Guild hall annex (Tier 2)",
+      "size": [
+        14,
+        10
+      ],
+      "floor": "planks",
+      "wall_style": "warm",
+      "walls": [
+        {
+          "a": [
+            -7,
+            -5
+          ],
+          "b": [
+            7,
+            -5
+          ],
+          "h": 3.2,
+          "windows": [
+            10.5
+          ]
+        },
+        {
+          "a": [
+            -7,
+            -5
+          ],
+          "b": [
+            -7,
+            5
+          ],
+          "h": 3.2,
+          "windows": [
+            7.5
+          ]
+        },
+        {
+          "a": [
+            7,
+            -5
+          ],
+          "b": [
+            7,
+            5
+          ],
+          "h": 3.2,
+          "doors": [
+            [
+              7,
+              8.4
+            ]
+          ]
+        },
+        {
+          "a": [
+            -7,
+            1
+          ],
+          "b": [
+            7,
+            1
+          ],
+          "h": 1.2,
+          "doors": [
+            [
+              6.4,
+              7.4
+            ],
+            [
+              10,
+              11
+            ]
+          ]
+        },
+        {
+          "a": [
+            1,
+            -5
+          ],
+          "b": [
+            1,
+            1
+          ],
+          "h": 3.2
+        },
+        {
+          "a": [
+            -1,
+            1
+          ],
+          "b": [
+            -1,
+            5
+          ],
+          "h": 1.2,
+          "doors": [
+            [
+              1.5,
+              2.5
+            ]
+          ]
+        }
+      ],
+      "furniture": [
+        {
+          "piece": "forge",
+          "at": [
+            -5.6,
+            -4.3
+          ],
+          "solid": [
+            2.2,
+            1
+          ],
+          "light": [
+            1,
+            0.55,
+            0.25,
+            2.2,
+            6
+          ],
+          "light_y": 1
+        },
+        {
+          "piece": "anvil",
+          "at": [
+            -4.2,
+            -2.7
+          ],
+          "solid": [
+            0.8,
+            0.5
+          ]
+        },
+        {
+          "piece": "workbench_craft",
+          "at": [
+            -2.7,
+            -4.3
+          ],
+          "solid": [
+            2,
+            0.8
+          ]
+        },
+        {
+          "piece": "tool_rack",
+          "at": [
+            -2.7,
+            -4.95
+          ],
+          "y": 2
+        },
+        {
+          "piece": "craftsman_bench",
+          "at": [
+            -0.4,
+            -4.3
+          ],
+          "solid": [
+            1.8,
+            0.8
+          ]
+        },
+        {
+          "piece": "material_shelves",
+          "at": [
+            -0.2,
+            -2.3
+          ],
+          "solid": [
+            2,
+            0.6
+          ]
+        },
+        {
+          "piece": "processing_table",
+          "at": [
+            -5.4,
+            -0.6
+          ],
+          "solid": [
+            1.8,
+            0.8
+          ]
+        },
+        {
+          "piece": "staff_processing_table",
+          "at": [
+            -3,
+            -0.6
+          ],
+          "solid": [
+            1.6,
+            0.8
+          ]
+        },
+        {
+          "piece": "hanging_hooks",
+          "at": [
+            -6.6,
+            -1.6
+          ],
+          "y": 2.4
+        },
+        {
+          "piece": "cold_store",
+          "at": [
+            -1.3,
+            -0.5
+          ],
+          "solid": [
+            1.2,
+            0.7
+          ]
+        },
+        {
+          "piece": "wall_lamp",
+          "at": [
+            -6.9,
+            -3
+          ],
+          "y": 2.3,
+          "light": [
+            1,
+            0.74,
+            0.45,
+            1,
+            5.5
+          ]
+        },
+        {
+          "piece": "goods_shelves",
+          "at": [
+            2.6,
+            -4.6
+          ],
+          "solid": [
+            1.8,
+            0.5
+          ]
+        },
+        {
+          "piece": "trading_counter",
+          "at": [
+            3,
+            -2
+          ],
+          "solid": [
+            2.4,
+            0.8
+          ]
+        },
+        {
+          "piece": "info_desk",
+          "at": [
+            5.6,
+            -2.4
+          ],
+          "solid": [
+            1.6,
+            0.7
+          ]
+        },
+        {
+          "piece": "stool",
+          "at": [
+            5.6,
+            -1.6
+          ]
+        },
+        {
+          "piece": "map_wall",
+          "at": [
+            5.4,
+            -4.95
+          ],
+          "y": 1.2
+        },
+        {
+          "piece": "rumour_board",
+          "at": [
+            4.1,
+            -4.95
+          ],
+          "y": 1.4
+        },
+        {
+          "piece": "wall_lamp",
+          "at": [
+            6.9,
+            -1
+          ],
+          "y": 2.3,
+          "light": [
+            1,
+            0.74,
+            0.45,
+            1,
+            5.5
+          ]
+        },
+        {
+          "piece": "bed_officer_a",
+          "at": [
+            -6.1,
+            1.5
+          ],
+          "solid": [
+            1,
+            1.9
+          ]
+        },
+        {
+          "piece": "bed_officer_b",
+          "at": [
+            -4.7,
+            1.5
+          ],
+          "solid": [
+            1,
+            1.9
+          ]
+        },
+        {
+          "piece": "bed_officer_c",
+          "at": [
+            -3.3,
+            1.5
+          ],
+          "solid": [
+            1,
+            1.9
+          ]
+        },
+        {
+          "piece": "wardrobe",
+          "at": [
+            -1.8,
+            1.4
+          ],
+          "solid": [
+            1.2,
+            0.6
+          ]
+        },
+        {
+          "piece": "chest",
+          "at": [
+            -5.4,
+            4.3
+          ],
+          "solid": [
+            0.9,
+            0.5
+          ]
+        },
+        {
+          "piece": "wall_lamp",
+          "at": [
+            -1.1,
+            3.6
+          ],
+          "y": 2.2,
+          "light": [
+            1,
+            0.74,
+            0.45,
+            0.8,
+            4
+          ]
+        },
+        {
+          "piece": "stair_up",
+          "at": [
+            4.4,
+            2.6
+          ],
+          "solid": [
+            3,
+            2.2
+          ]
+        },
+        {
+          "piece": "crate_stack",
+          "at": [
+            1.6,
+            4.2
+          ],
+          "solid": [
+            1,
+            0.8
+          ]
+        },
+        {
+          "piece": "barrel_group",
+          "at": [
+            0.2,
+            4.4
+          ],
+          "solid": [
+            1.6,
+            0.8
+          ]
+        }
+      ],
+      "markers": {
+        "annex_door": [
+          6.4,
+          3,
+          "west"
+        ],
+        "mae_station": [
+          -5.4,
+          0.15,
+          "north"
+        ],
+        "fulker_station": [
+          -4.2,
+          -1.95,
+          "north"
+        ],
+        "processing_staff_station": [
+          -3,
+          0.15,
+          "north"
+        ],
+        "craftsman_station": [
+          -0.4,
+          -3.55,
+          "north"
+        ],
+        "valerie_counter": [
+          3,
+          -2.75,
+          "south"
+        ],
+        "liliana_desk": [
+          5.6,
+          -1.6,
+          "north"
+        ],
+        "officers_room_2_door": [
+          -0.4,
+          3,
+          "west"
+        ]
+      },
+      "exit": "annex_door"
+    },
+    "tavern": {
+      "display_name": "The tavern",
+      "size": [
+        10,
+        8
+      ],
+      "floor": "planks",
+      "wall_style": "warm",
+      "walls": [
+        {
+          "a": [
+            -5,
+            -4
+          ],
+          "b": [
+            5,
+            -4
+          ],
+          "h": 3.2
+        },
+        {
+          "a": [
+            -5,
+            -4
+          ],
+          "b": [
+            -5,
+            4
+          ],
+          "h": 3.2,
+          "windows": [
+            6
+          ]
+        },
+        {
+          "a": [
+            5,
+            -4
+          ],
+          "b": [
+            5,
+            4
+          ],
+          "h": 3.2,
+          "doors": [
+            [
+              6.4,
+              7.6
+            ]
+          ],
+          "windows": [
+            2
+          ]
+        }
+      ],
+      "furniture": [
+        {
+          "piece": "bar_shelves",
+          "at": [
+            0,
+            -3.9
+          ],
+          "solid": [
+            3,
+            0.4
+          ]
+        },
+        {
+          "piece": "bar_counter",
+          "at": [
+            0,
+            -2.5
+          ],
+          "solid": [
+            3,
+            0.8
+          ]
+        },
+        {
+          "piece": "bar_stool",
+          "at": [
+            -1,
+            -1.8
+          ]
+        },
+        {
+          "piece": "bar_stool",
+          "at": [
+            0,
+            -1.8
+          ]
+        },
+        {
+          "piece": "bar_stool",
+          "at": [
+            1,
+            -1.8
+          ]
+        },
+        {
+          "piece": "keg_stack",
+          "at": [
+            -3.8,
+            -3.3
+          ],
+          "solid": [
+            1.4,
+            1
+          ]
+        },
+        {
+          "piece": "stair_up",
+          "at": [
+            3.5,
+            -2.6
+          ],
+          "solid": [
+            3,
+            2.6
+          ]
+        },
+        {
+          "piece": "hearth",
+          "at": [
+            -4,
+            0.2
+          ],
+          "solid": [
+            2,
+            0.6
+          ],
+          "light": [
+            1,
+            0.6,
+            0.3,
+            1.8,
+            6
+          ],
+          "light_y": 0.8
+        },
+        {
+          "piece": "tavern_table",
+          "at": [
+            -2.2,
+            1.6
+          ],
+          "solid": [
+            1.2,
+            1
+          ]
+        },
+        {
+          "piece": "tavern_table",
+          "at": [
+            1.8,
+            1
+          ],
+          "solid": [
+            1.2,
+            1
+          ]
+        },
+        {
+          "piece": "tavern_bench",
+          "at": [
+            1.8,
+            1.8
+          ]
+        },
+        {
+          "piece": "tavern_table",
+          "at": [
+            3.4,
+            2.9
+          ],
+          "solid": [
+            1.2,
+            1
+          ]
+        },
+        {
+          "piece": "tavern_bench",
+          "at": [
+            0.6,
+            3.3
+          ]
+        },
+        {
+          "piece": "hanging_lantern",
+          "at": [
+            -2.2,
+            1.6
+          ],
+          "y": 2.9,
+          "light": [
+            1,
+            0.72,
+            0.42,
+            1.2,
+            5
+          ]
+        },
+        {
+          "piece": "hanging_lantern",
+          "at": [
+            1.8,
+            0.4
+          ],
+          "y": 2.9,
+          "light": [
+            1,
+            0.72,
+            0.42,
+            1,
+            5
+          ]
+        },
+        {
+          "piece": "hanging_lantern",
+          "at": [
+            3.4,
+            2.6
+          ],
+          "y": 2.9,
+          "light": [
+            1,
+            0.72,
+            0.42,
+            1,
+            5
+          ]
+        }
+      ],
+      "markers": {
+        "table_west": [
+          -3,
+          1.6,
+          "east"
+        ],
+        "table_north": [
+          -2.2,
+          0.85,
+          "south"
+        ],
+        "table_east": [
+          -1.4,
+          1.6,
+          "west"
+        ],
+        "mae_side": [
+          -0.7,
+          2.2,
+          "west"
+        ],
+        "tavern_door": [
+          4.4,
+          3,
+          "west"
+        ]
+      },
+      "exit": "tavern_door"
+    }
+  }
+}

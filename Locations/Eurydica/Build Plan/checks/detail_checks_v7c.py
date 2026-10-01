@@ -84,6 +84,7 @@ def validate(p,old,full=True):
  oldmarks={m['id']:m for m in old['markers']}
  guild=[m for m in p['markers'] if m.get('place_binding')=='guild_compound']
  for m in guild:
+  if m['id']=='city/interior_door':continue # v7d: moves with the Guild hall's front door (owner 2026-10-01)
   om=oldmarks[m['id']];need(math.dist(m['position'],[om['position'][0],om['position'][1]-175])<1e-5 and m['height_m']==.6,'Guild staging relation '+m['id'])
  bench=next(a for a in p['props'] if a['id']=='equipment_bench')['position']
  need(ms['city/bench_east']['position'][0]>bench[0] and ms['city/bench_west']['position'][0]<bench[0] and ms['city/bench_south']['position'][1]>bench[1],'Guild bench orientation')

@@ -46,10 +46,17 @@ def validate(p,full=True):
  need(p['status']=='candidate','candidate status required');need(p['schema_version']==OLD['schema_version'],'base schema version changed')
  for key in ('buildings','markers','npc_spots','props','routes','clusters','ground_zones'):
   ids=[a['id'] for a in p[key]];need(len(ids)==len(set(ids)),'duplicate IDs '+key)
+ # Owner-approved v7d deviations (Guild House Redesign v2, 2026-10-01): the Guild house becomes the larger Guild hall (new facade, size, height, roof and kit).
+ V7D_REMOVED=set();V7D_REDESIGNED={'company_house'}
  for id,o in old.items():
+  if id in V7D_REMOVED:
+   need(id not in b,'v7d removed building returned '+id);continue
   need(id in b,'missing building '+id)
   if id not in b:continue
   q=b[id]
+  if id in V7D_REDESIGNED:
+   need(q.get('role')==o.get('role') and q.get('chapter_availability')==o.get('chapter_availability'),'Guild hall role changed')
+   continue
   for k in ('facade_id','role','display_name','height_m','roof_height_m','roof_palette','roof_kit','chapter_availability'):
    need(q.get(k)==o.get(k),'identity/use/roof changed '+id+' '+k)
   need(all(abs(a-c)<EPS for a,c in zip([q['footprint'][2]-q['footprint'][0],q['footprint'][3]-q['footprint'][1]],[o['footprint'][2]-o['footprint'][0],o['footprint'][3]-o['footprint'][1]])),'building resized '+id)
