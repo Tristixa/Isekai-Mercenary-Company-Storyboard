@@ -60,7 +60,7 @@ Elsie (Happy):
 "Yes, I've checked them, and they're all fit for departure."
 "They are waiting for your instruction."
 
-Elsie (Base):
+Elsie (Happy):
 "I suggest we send someone to hunt and someone to scout."
 "But the decision is yours."
 [complete: C1S5-2]

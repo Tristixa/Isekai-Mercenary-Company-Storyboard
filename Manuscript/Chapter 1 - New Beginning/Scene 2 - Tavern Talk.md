@@ -56,7 +56,7 @@ Commander:
    "I'm <name>. Nice to meet you."
 
 2. **[Be shy]**
-   Commander (Sad):
+   Commander (Base):
    "<name>."
 
 3. **[Kneel and kiss her hand]**
@@ -80,7 +80,7 @@ Mae (Happy):
 Tristitia (Base):
 "I found him in the outskirts."
 
-Mae (Serious):
+Mae (Surprise):
 "Lucky you met her. Hylaea has been dangerous lately."
 
 "The chimera has settled in, and the bandits have become bold."
@@ -98,10 +98,10 @@ Mae (Serious):
 Mae (Sad):
 "Just hunt monsters and I'll do the processing as always."
 
-Tristitia (Sad):
+Tristitia (Base):
 "I'll keep that in mind."
 
-Commander (Surprise):
+Commander (Base):
 "You're not an adventurer?"
 
 [camera: return]
@@ -148,7 +148,7 @@ Mae (Base):
 Mae (Serious):
 "It is not exactly a steady occupation."
 
-Commander (Serious):
+Commander (Laugh):
 "That sounds like something a guild could fix."
 
 Tristitia (Base):
@@ -171,7 +171,7 @@ Mae (Happy):
 Mae (Serious):
 "So it is a workplace."
 
-Commander (Happy):
+Commander (Base):
 "Yeah."
 
 "They connect clients with adventurers, organize jobs, establish payment, provide a base, keep records, and create a system for handling equipment and materials"
@@ -205,7 +205,7 @@ Mae (Serious):
 
 "Our money can cover only half of the starting cost."
 
-Commander (Serious):
+Commander (Happy):
 "I can sell some of my things."
 
 "They'll be worth a lot."
@@ -218,7 +218,7 @@ Mae (Base):
 Tristitia (Serious):
 "They can also be impossible to replace."
 
-Commander (Serious):
+Commander (Base):
 "I'm willing to use them."
 
 Mae (Surprise):
@@ -248,7 +248,7 @@ Commander:
    "Okay."
 
 3. **[Reluctantly agree]**
-   Commander (Sad):
+   Commander (Base):
    "Sure. I can be commander, I guess."
 
 Mae (Laugh):
@@ -258,7 +258,7 @@ Tristitia (Happy):
 "Don't worry you're not alone."
 
 [pose: Mae raise_mug]
-Mae (Happy):
+Mae (Laugh):
 "To our new beginning."
 
 "Cheers."
@@ -268,7 +268,7 @@ Mae (Happy):
 Tristitia (Happy):
 "Cheers."
 
-Commander (Happy):
+Commander (Laugh):
 "Cheers."
 
 [fade: out]

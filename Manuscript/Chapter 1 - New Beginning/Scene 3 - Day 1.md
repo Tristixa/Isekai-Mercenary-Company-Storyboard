@@ -106,14 +106,14 @@ Tristitia (Base):
 
 [face: Elsie Commander]
 [pose: Elsie idle]
-Elsie (Base):
+Elsie (Happy):
 "So this is the Commander."
 
 Tristitia (Base):
 "<name>, this is Elsie."
 "She will hold the position of Chief of Adventurers."
 
-Elsie (Base):
+Elsie (Laugh):
 "Considering."
 "She left that part out."
 
@@ -122,7 +122,7 @@ Commander (Base):
 1. **[Be friendly]**
    Commander (Happy):
    "I’m <name>. Nice to meet you."
-   Elsie (Happy):
+   Elsie (Laugh):
    "Elsie. Good to meet you, Commander."
 
 2. **[Be polite]**
@@ -137,7 +137,7 @@ Commander (Base):
    Commander (Happy):
    "I’m <name>."
    [pose: Elsie withdraw_hand]
-   Elsie (Base):
+   Elsie (Laugh):
    "You can stand."
    "I’m not anyone you need to bow to."
    [pose: Commander stand_from_kneel]
@@ -194,16 +194,16 @@ Commander (Serious):
    [camera: two-shot Elsie Commander]
    Commander (Serious):
    "I’d ask why. They might know something we don’t."
-   Elsie (Happy):
+   Elsie (Laugh):
    "Exactly."
-   Elsie (Serious):
+   Elsie (Happy):
    "People on the road may notice something we missed from behind a desk."
 
 3. **[Be firm]**
    [camera: two-shot Elsie Commander]
    Commander (Serious):
    "If they already accepted it, they owe us an explanation."
-   Elsie (Serious):
+   Elsie (Base):
    "Fair."
    "They may refuse the work, but they don’t get to waste everyone else’s time."
 
@@ -211,7 +211,7 @@ Commander (Serious):
    [camera: two-shot Elsie Commander]
    Commander (Base):
    "I don’t know yet. What would you do?"
-   Elsie (Serious):
+   Elsie (Happy):
    "I’d ask why."
    "Then I’d decide whether they need better preparation, or we need a better request."
 
@@ -220,24 +220,25 @@ Elsie (Happy):
 "I can work with you."
 
 [camera: return]
-Tristitia (Base):
+Tristitia (Surprise):
 "That was a shorter interview than mine."
+Tristitia (Base):
 "Then I assume the position is settled."
 
-Elsie (Base):
+Elsie (Happy):
 "It is."
 
 [face: Elsie Commander]
 Elsie (Happy):
 "I’ll handle training, preparation, and the expeditions."
 
-Elsie (Serious):
+Elsie (Happy):
 "If someone isn’t ready to leave, I’ll tell you."
 
-Commander (Serious):
+Commander (Base):
 "And the decision is still mine?"
 
-Elsie (Serious):
+Elsie (Laugh):
 "It is."
 "I’m only asking you to listen before you make it."
 
@@ -245,7 +246,7 @@ Commander (Happy):
 "I can do that."
 "I’m counting on you, Elsie."
 
-Elsie (Happy):
+Elsie (Laugh):
 "Then we understand each other."
 
 Tristitia (Base):
@@ -257,14 +258,14 @@ Elsie (Base):
 Commander (Surprise):
 "Is it all that bad?"
 
-Elsie (Happy):
+Elsie (Laugh):
 "No. Some of it might survive until lunch."
 
 Tristitia (Base):
 "Make a list."
 
-Elsie (Base):
-"I already started one."
+Elsie (Happy):
+"Already on it."
 
 [face: Elsie west]
 [move: Tristitia interior_door]
@@ -314,7 +315,7 @@ Tristitia (Base):
 Commander (Base):
 "What do I do first?"
 
-Tristitia (Serious):
+Tristitia (Base):
 "Learn the city."
 "Start with the market and the gate."
 "Find out where people gather and share informations."
@@ -326,10 +327,10 @@ Tristitia (Serious):
 "Talk to them, yes."
 "But look around before you begin asking questions. You will learn more that way."
 
-Commander (Base):
+Commander (HappY):
 "All right. I can do that."
 
-Tristitia (Serious):
+Tristitia (Happy):
 "Be back by two."
 "I should have our first request by then, and someone interested in joining."
 
@@ -347,13 +348,7 @@ Commander (Base):
    Commander (Happy):
    "Two o’clock. See you later."
 
-4. **[Salute]**
-   [pose: Commander salute]
-   Commander (Serious):
-   "Understood."
-   [pose: Commander idle]
-
-Tristitia (Serious):
+Tristitia (Base):
 "While you're out, think of a name for the Guild."
 "We've postponed it long enough."
 

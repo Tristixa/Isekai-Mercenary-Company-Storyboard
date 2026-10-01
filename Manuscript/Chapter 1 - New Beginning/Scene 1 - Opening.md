@@ -17,7 +17,7 @@ Special poses: Commander lie, Commander sit, Commander kneel, Commander salute, 
 [control: lock]
 [camera: push-in Commander]
 [pose: Commander lie]
-Commander (Base):
+Commander (Surprise):
 ". . . . ."
 
 [shake: light]
@@ -29,7 +29,7 @@ Commander (Surprise):
 Commander (Fear):
 "Where am I?"
 
-Commander (Serious):
+Commander (Fear):
 "I was…"
 
 1. **[In a library.]**
@@ -60,7 +60,7 @@ Commander (Serious):
 Commander (Surprise):
 {I didn't realize someone was there. Is that a real sword?}
 
-Tristitia (Serious):
+Tristitia (Base):
 "You're awake."
 
 "Good. I have no intention of carrying you."
@@ -75,7 +75,7 @@ Tristitia (Serious):
 Commander:
 
 1. **[Answer unsure]**
-   Commander (Fear):
+   Commander (Base):
    "<name>… I think my name is <name>."
 
 2. **[Answer friendly]**
@@ -100,7 +100,7 @@ Tristitia (Base):
 "Tristitia."
 
 [pose: Tristitia point]
-Tristitia (Serious):
+Tristitia (Base):
 "Rest there. You are about to collapse."
 
 [pose: Tristitia idle]
@@ -122,7 +122,7 @@ Commander (Surprise):
 {What did she mean by monster?}
 
 1. **[Ask for assistance]**
-   Commander (Base):
+   Commander (Sad):
    "Can you help me? I'm lost."
 
 2. **[Be demanding]**
@@ -130,7 +130,7 @@ Commander (Surprise):
    "You're leaving me here? I'm lost and exhausted. You should help me."
 
 3. **[Be pensive]**
-   Commander (Serious):
+   Commander (Sad):
    {I should ask her for help.}
    "Can you help me? I'm lost."
 
@@ -149,17 +149,11 @@ Commander:
    "I'll wait here."
    [pose: Commander sit]
 
-2. **[Salute]**
-   [pose: Commander salute_seated]
-   Commander (Serious):
-   "I'll wait here."
-   [pose: Commander sit]
-
-3. **[Say goodbye]**
+2. **[Say goodbye]**
    Commander (Happy):
    "I'll wait here. Goodbye Tristitia."
 
-4. **[Thank her]**
+3. **[Thank her]**
    Commander (Happy):
    "I'll wait here. Thank you Tristitia."
 
@@ -182,7 +176,7 @@ Commander (Base):
 [fade: in]
 [camera: shared]
 [enter: Tristitia tris_watch]
-Tristitia (Base):
+Tristitia (Surprise):
 "You stayed."
 
 Commander (Base):
@@ -191,10 +185,10 @@ Commander (Base):
 Tristitia (Happy):
 "Most people hear instructions as a challenge."
 
-Commander (Serious):
+Commander (Base):
 "Where have you been?"
 
-Tristitia (Serious):
+Tristitia (Base):
 "Finishing the hunt."
 
 Commander (Surprise):
@@ -206,7 +200,7 @@ Tristitia (Serious):
 "The talking kind. Two legs, a knife, and a habit of taking money from travelers."
 
 [pose: Commander think_seated]
-Commander (Serious):
+Commander (Base):
 "It's a..."
 
 1. **[Bandit]**
@@ -216,7 +210,7 @@ Commander (Serious):
    "Goblin?"
 
 3. **[Dragon with a knife]**
-   Commander (Surprise):
+   Commander (Laugh):
    "Dragon? with a knife."
 
 [pose: Commander sit]
@@ -229,7 +223,7 @@ Commander (Base):
 Tristitia (Serious):
 "You ask a lot."
 
-"Come. Eurydica is ten minutes away."
+"Come. Eurydica is close."
 
 "Try not to collapse before we reach the gate."
 

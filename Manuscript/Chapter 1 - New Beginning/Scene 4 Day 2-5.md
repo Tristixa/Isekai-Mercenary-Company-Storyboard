@@ -18,27 +18,27 @@ Tristitia (Base):
 Commander:
 
 1. **[Ask about her]** {topic}
-   Commander (Base):
+   Commander (Surprise):
    "How do you know so much about running things."
-   Tristitia (Base):
+   Tristitia (Surprise):
    "Someone taught me well."
-   Commander (Happy):
+   Commander (Base):
    "Who's the guy?"
-   Tristitia (Serious):
+   Tristitia (Surprise):
    "My father."
    Commander (Base):
    "Is he around?"
-   Tristitia (Sad):
+   Tristitia (Base):
    "No."
 
 2. **[Ask about Mae]** {topic}
    Commander (Base):
    "Mae and you seems close."
-   Tristitia (Base):
+   Tristitia (Surprise):
    "Sure, we works well together."
    Commander (Base):
    "How long have you met her?"
-   Tristitia (Base):
+   Tristitia (Surprise):
    "From the start of my adventuring days."
    Tristitia (Happy):
    "She's the first person I trust."
@@ -46,13 +46,13 @@ Commander:
 3. **[Ask about Elsie]** {topic}
    Commander (Base):
    "Elsie is your friend?"
-   Tristitia (Happy):
+   Tristitia (Surprise):
    "Yes, it's nice being around her."
    Commander (Happy):
    "What about me?"
-   Tristitia (Base):
+   Tristitia (Surprise):
    "......."
-   Tristitia (Happy):
+   Tristitia (Surprise):
    "You are very honest."
 
 ---
@@ -88,13 +88,13 @@ Commander:
    Commander (Surprise):
    "You have a lover?"
    Mae (Base):
-   "Not anymore, I love what I do and want to focus on this guild for now."
+   "Not anymore, I love what I do and this guild is my focus for now."
 
 3. **[Ask about Eurydica]** {topic}
    Commander (Base):
    "So what's the city like?"
    Mae (Happy):
-   "It's a nice and warm place compared to other cities."
+   "It's a nice place compared to other cities."
    "You will like it soon enough."
    Commander (Base):
    "Is there any interesting place?"
@@ -107,7 +107,7 @@ Commander:
    Mae (Serious):
    "Hmmm I only know vague information about it."
    Mae (Base):
-   "Elsie know it better she used to be there."
+   "Elsie should know it better, she used to be there."
 
 ---
 
@@ -122,43 +122,43 @@ Commander:
 1. **[Ask about her]** {topic}
    Commander (Base):
    "You used to lead people?"
-   Elsie (Base):
+   Elsie (Happy):
    "I do, somehow people always put me as someone in charge."
    Commander (Surprise):
    "In an army?"
-   Elsie (Serious):
+   Elsie (Happy):
    "Yeah, In the frontier."
    Elsie (Laugh):
-   "I used to butthead with the officers there."
+   "I used to argue all the time with the officers there."
    Commander (Base):
    "Why quit?"
-   Elsie (Serious):
+   Elsie (Happy):
    "Why indeed, you'll know when you step foot on that place."
    Elsie (Happy):
-   "I like here more, it's not constricting."
+   "I like it here more, it's not constricting."
 
 2. **[Ask about Tristitia]** {topic}
    Commander (Base):
-   "Tristitia and you seems close."
+   "Tristitia and you seems really close."
    Elsie (Surprise):
    "Shhh don't let her hear that."
-   Elsie (Laugh):
-   "She will stab you."
+   Elsie (Fear):
+   "She will stab you, if you ask her that."
    Commander (Surprise):
    "really? she seems nice to me."
-   Elsie (Base):
+   Elsie (Surprise):
    "You think so? you don't think she's unfriendly?"
-   Commander (Serious):
+   Commander (Base):
    "Well, maybe she is..."
    Commander:
    1. **[Sassy]**
-      Commander (Happy):
+      Commander (Laugh):
       "A bit sassy."
    2. **[Rude]**
-      Commander (Serious):
+      Commander (Laugh):
       "A bit rude to someone."
    3. **[Cold]**
-      Commander (Serious):
+      Commander (Laugh):
       "A bit cold."
    Elsie (Laugh):
    "Uh oh, do you hear that Tristitia?"
@@ -181,14 +181,14 @@ Commander:
 3. **[Ask about The Frontier]** {topic} {after: Ask about her}
    Commander (Base):
    "What's the frontier?"
-   Elsie (Serious):
-   "It's vast lands that remain largely unexplored."
+   Elsie (Base):
+   "It's a vast lands that remain largely unexplored."
    "Ancient ruins, dangerous creatures, forgotten roads, and remnants of an unknown civilization dot the landscape."
    Commander (Surprise):
    "So civilization only occupies fraction of the world?"
    Elsie (Base):
    "Yeah, small compared to that place."
-   Commander (Happy):
+   Commander (Laugh):
    "Maybe we can send expedition there."
    Elsie (Serious):
    "Too dangerous, I say we stay clear."
@@ -197,11 +197,11 @@ Commander:
    Elsie (Serious):
    "Informations and discoveries are rumors at best."
    "Understanding the frontier will need an organization that can verify everything, and make sure folks are safe."
-   Commander (Happy):
+   Commander (Surprise):
    "Like our guild?"
-   Elsie (Happy):
+   Elsie (Laugh):
    "Well now, you do have a point."
-   Commander (Base):
+   Commander (Surprise):
    "You're teasing me again are you?"
    [emote: Elsie laugh]
    Elsie (Laugh):
