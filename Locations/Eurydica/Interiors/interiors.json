@@ -308,19 +308,6 @@
           "y": 4.6
         },
         {
-          "kit": "window",
-          "size": [
-            1.2,
-            1.4
-          ],
-          "at": [
-            -4.6,
-            -7.92
-          ],
-          "y": 4.9,
-          "skip_if_blocked": true
-        },
-        {
           "kit": "gallery",
           "size": [
             14,
@@ -949,7 +936,7 @@
           "y": 3.2
         },
         {
-          "piece": "hanging_ivy",
+          "piece": "hanging_creeper",
           "at": [
             -3,
             -6.25
@@ -957,7 +944,7 @@
           "y": 3.15
         },
         {
-          "piece": "hanging_ivy",
+          "piece": "hanging_creeper",
           "at": [
             2.6,
             -6.25
@@ -965,63 +952,63 @@
           "y": 3.15
         },
         {
-          "piece": "potted_palm",
+          "piece": "planter_stormfern",
           "at": [
             -6.3,
             -7.3
           ]
         },
         {
-          "piece": "potted_palm",
+          "piece": "planter_stormfern",
           "at": [
             6.4,
             -7.3
           ]
         },
         {
-          "piece": "potted_fern",
+          "piece": "planter_skybell",
           "at": [
             -1.6,
             -7.5
           ]
         },
         {
-          "piece": "potted_fern",
+          "piece": "planter_emberseed",
           "at": [
             -6.4,
             7.6
           ]
         },
         {
-          "piece": "potted_fern",
+          "piece": "planter_stormfern",
           "at": [
             6.4,
             7.4
           ]
         },
         {
-          "piece": "potted_fern",
+          "piece": "planter_skybell",
           "at": [
             2.7,
             4.3
           ]
         },
         {
-          "piece": "potted_fern",
+          "piece": "planter_emberseed",
           "at": [
             -13.4,
             -7.4
           ]
         },
         {
-          "piece": "potted_fern",
+          "piece": "planter_stormfern",
           "at": [
             13.4,
             -0.6
           ]
         },
         {
-          "piece": "hanging_ivy",
+          "piece": "hanging_creeper",
           "at": [
             -8.6,
             -0.3
@@ -1109,7 +1096,7 @@
           "y": 0.78
         },
         {
-          "piece": "sill_plants",
+          "piece": "sill_flowers",
           "at": [
             0.6,
             -7.8
@@ -1117,7 +1104,7 @@
           "y": 0.82
         },
         {
-          "piece": "sill_plants",
+          "piece": "sill_flowers",
           "at": [
             4.6,
             -7.8
@@ -1125,7 +1112,7 @@
           "y": 0.82
         },
         {
-          "piece": "wall_lamp_v2",
+          "piece": "wall_lamp",
           "at": [
             -1.6,
             -7.85
@@ -1140,7 +1127,7 @@
           ]
         },
         {
-          "piece": "wall_lamp_v2",
+          "piece": "wall_lamp",
           "at": [
             6.85,
             2.2
@@ -1155,14 +1142,14 @@
           ]
         },
         {
-          "piece": "potted_olive",
+          "piece": "potted_tree",
           "at": [
             -6.3,
             2.4
           ]
         },
         {
-          "piece": "potted_flowers",
+          "piece": "planter_emberseed",
           "at": [
             -2,
             -5.5
@@ -1209,7 +1196,7 @@
           "light_y": 1.1
         },
         {
-          "piece": "wall_sconce",
+          "piece": "wall_lamp",
           "at": [
             -13.85,
             -1.4
@@ -1255,7 +1242,7 @@
           "y": 2.7
         },
         {
-          "piece": "wall_lamp_v2",
+          "piece": "wall_lamp",
           "at": [
             -7.15,
             5.4
@@ -1286,14 +1273,14 @@
           "light_y": 1
         },
         {
-          "piece": "potted_flowers",
+          "piece": "planter_emberseed",
           "at": [
             7.8,
             -7.6
           ]
         },
         {
-          "piece": "wall_sconce",
+          "piece": "wall_lamp",
           "at": [
             13.85,
             -6
@@ -1392,13 +1379,107 @@
           0.92,
           0.95
         ],
-        "ambient_energy": 0.5,
+        "ambient_energy": 0.4,
         "window_light": [
           0.85,
           0.9,
           1,
           1.3,
           8
+        ],
+        "sun": [
+          1,
+          0.93,
+          0.8,
+          1.6,
+          -32,
+          155
+        ],
+        "shaft_energy": 3,
+        "shaft_density": 0.006
+      },
+      "outside": {
+        "north": -8.1,
+        "trees": [
+          [
+            -3,
+            -3.5,
+            "broad"
+          ],
+          [
+            3.6,
+            -4.5,
+            "tall"
+          ],
+          [
+            8.8,
+            -3.2,
+            "young"
+          ],
+          [
+            -9.5,
+            -4,
+            "tall"
+          ],
+          [
+            11.5,
+            -5,
+            "broad"
+          ],
+          [
+            -12.5,
+            -3,
+            "young"
+          ]
+        ],
+        "roofs": [
+          [
+            -6,
+            13.5,
+            9,
+            "warm_red"
+          ],
+          [
+            5.5,
+            14,
+            10,
+            "plum"
+          ],
+          [
+            16,
+            12.5,
+            8,
+            "green"
+          ]
+        ],
+        "ceilings": [
+          [
+            [
+              -7,
+              -8,
+              7,
+              9
+            ],
+            6.8
+          ],
+          [
+            [
+              -14,
+              -8,
+              -7,
+              8
+            ],
+            3.4
+          ],
+          [
+            [
+              7,
+              -8,
+              14,
+              9
+            ],
+            3.4
+          ]
         ]
       }
     },
