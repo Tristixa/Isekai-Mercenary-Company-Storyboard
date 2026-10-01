@@ -1032,7 +1032,7 @@
           "light_y": 0.8
         },
         {
-          "piece": "papers_pinned",
+          "piece": "notices",
           "at": [
             6.3,
             0.45
@@ -1040,7 +1040,7 @@
           "y": 1.3
         },
         {
-          "piece": "ledger_open",
+          "piece": "book_closed",
           "at": [
             4,
             3.4
@@ -1048,7 +1048,7 @@
           "y": 1.07
         },
         {
-          "piece": "candle_cluster",
+          "piece": "candle",
           "at": [
             5.2,
             3.35
@@ -1064,7 +1064,7 @@
           "light_y": 1.4
         },
         {
-          "piece": "mugs_plates",
+          "piece": "bread_plate",
           "at": [
             2,
             -4.25
@@ -1072,7 +1072,7 @@
           "y": 0.78
         },
         {
-          "piece": "candle_cluster",
+          "piece": "candle",
           "at": [
             3.3,
             -4.25
@@ -1088,7 +1088,7 @@
           "light_y": 1.1
         },
         {
-          "piece": "scroll_case",
+          "piece": "map_roll",
           "at": [
             3.9,
             -4.1
@@ -1164,7 +1164,7 @@
           "y": 0.45
         },
         {
-          "piece": "papers_pinned",
+          "piece": "notices",
           "at": [
             -10.4,
             -7.85
@@ -1172,7 +1172,7 @@
           "y": 1.55
         },
         {
-          "piece": "ledger_open",
+          "piece": "book_closed",
           "at": [
             -10.6,
             -6.75
@@ -1180,7 +1180,7 @@
           "y": 0.78
         },
         {
-          "piece": "candle_cluster",
+          "piece": "candle",
           "at": [
             -9.9,
             -6.85
@@ -1219,7 +1219,7 @@
           "y": 2.55
         },
         {
-          "piece": "knife_roll",
+          "piece": "cleaver",
           "at": [
             -10.3,
             2.6
@@ -1257,7 +1257,7 @@
           ]
         },
         {
-          "piece": "candle_cluster",
+          "piece": "candle",
           "at": [
             9.2,
             -1.8
@@ -1292,6 +1292,44 @@
             0.45,
             0.5,
             3.5
+          ]
+        },
+        {
+          "piece": "quill_ink",
+          "at": [
+            -10,
+            -6.7
+          ],
+          "y": 0.78
+        },
+        {
+          "piece": "coin_pouch",
+          "at": [
+            5,
+            3.3
+          ],
+          "y": 1.07
+        },
+        {
+          "piece": "tankard",
+          "at": [
+            3.2,
+            -4.4
+          ],
+          "y": 0.78
+        },
+        {
+          "piece": "lantern_cap_pot",
+          "at": [
+            -13.3,
+            -1.6
+          ]
+        },
+        {
+          "piece": "silverleaf_pot",
+          "at": [
+            -8.4,
+            4.6
           ]
         }
       ],
