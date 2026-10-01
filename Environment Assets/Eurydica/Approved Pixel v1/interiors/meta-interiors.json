@@ -1,1568 +1,3830 @@
 {
-  "art_pixels_per_metre": 25,
-  "art_pixel_metres": 0.04,
-  "coordinate_origin": "top-left zero-based",
-  "rounding": "nearest integer, halves upward",
   "props": {
-    "meeting_table": {
-      "batch": "A",
+    "planter_skybell": {
       "grid_size_px": [
-        60,
-        20
+        26,
+        35
       ],
       "anchor_px": [
-        29.5,
-        19
+        12.5,
+        34
       ],
-      "anchor_definition": "centre of lowest occupied row",
-      "real_size_m": 2.4,
-      "real_size_dimension": "width",
-      "real_width_m": 2.4,
-      "real_height_m": 0.8,
-      "real_depth_m": 1.2,
-      "projection": null,
-      "colour_count": 63,
-      "colour_count_with_transparency": 64,
-      "accepted_attempt": "masters/attempts/meeting_table-02.png",
-      "source_board": "masters/attempts/A2-01.png",
-      "board_crop_xyxy": [
-        0,
-        0,
-        420,
-        350
-      ],
-      "keyed_content_crop_xyxy": [
-        32,
-        89,
-        378,
-        303
-      ],
-      "master_sha256": "409f5cd1adfd73ead20593ba5f70b70cc5e8520b7a1d1bbdbdefc23f383ad575",
-      "source_board_sha256": "642c01c20862b74a4c811143e35eb51d6ebbda10ed153d706dcd9b704bd635b1",
-      "approved_design": null
+      "anchor_kind": "lowest_occupied_row_centre",
+      "real_size_m": {
+        "height": 1.4
+      },
+      "size_assumption": "Unspecified single dimension interpreted as height for standing/hanging objects, width for tabletop objects. Half-pixel sizes rounded half-up.",
+      "colour_count": 23,
+      "checker": {
+        "passed": true,
+        "exit_code": 0,
+        "colours": 23,
+        "isolated_share": 0.359,
+        "outline_coverage": 0.756,
+        "components": 1,
+        "main_share": 1,
+        "output": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\grid\\planter_skybell.png: 26x35, colours 23/64, isolated 0.359, outline 0.756, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+        "limits": {
+          "budget": 64,
+          "isolated": 0.38,
+          "outline": 0.75
+        }
+      },
+      "selected_attempt": "attempt-04-p24",
+      "accepted_attempt": "attempt-04-p24",
+      "status": "candidate_for_owner_review",
+      "identity_reference": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Eurydica\\Approved Fantasy Plants v1\\plants\\skybell-a.png",
+      "processing": {
+        "attempt": 4,
+        "cell": 0,
+        "source_box": [
+          0,
+          0,
+          1170,
+          1344
+        ],
+        "grid_xy": [
+          20.125000000000114,
+          20.200000000000117
+        ],
+        "phase_xy": [
+          10.26615527806887,
+          5.114801493948359
+        ],
+        "periodicity_xy": [
+          0.7335512371887973,
+          0.5326172676928648
+        ],
+        "snapped_size": [
+          41,
+          57
+        ],
+        "grid_size_px": [
+          26,
+          35
+        ],
+        "passed": true,
+        "export": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-04-p24\\planter_skybell.png",
+        "processing": "magenta key; detected block-centre samples; nearest size fit; nondithered 64-colour palette indexing; no smoothing, area resampling, edge repainting or despeckling",
+        "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-04-p24\\planter_skybell.png: 26x35, colours 23/64, isolated 0.359, outline 0.756, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+        "spec": {
+          "height": 1.4,
+          "organic": true
+        }
+      },
+      "glance_verdict": {
+        "passed": true,
+        "note": "Blue drooping bells, green stalks and stone urn remain distinguishable on all three swatches.",
+        "swatches": [
+          "grey stone",
+          "warm wood",
+          "pale plaster"
+        ],
+        "blur_radius_native_px": 1.5,
+        "reviewed_pages": "review-page-1.png through review-page-4.png"
+      },
+      "owner_approval": "not requested; candidates only",
+      "sha256": "139e243499bd4c2271b3d1a903d9ee9c03a31f27c21ce64e4e7950de6181e16c",
+      "source_run": "pixel-guild-organic-v2"
     },
-    "chair_front": {
-      "batch": "A",
+    "planter_stormfern": {
       "grid_size_px": [
-        14,
-        25
+        28,
+        28
       ],
       "anchor_px": [
-        6.5,
-        24
+        13,
+        27
       ],
-      "anchor_definition": "centre of lowest occupied row",
-      "real_size_m": 1,
-      "real_size_dimension": "height",
-      "real_width_m": null,
-      "real_height_m": 1,
-      "real_depth_m": null,
-      "projection": null,
-      "colour_count": 63,
-      "colour_count_with_transparency": 64,
-      "accepted_attempt": "masters/attempts/chair_front-01.png",
-      "source_board": "masters/attempts/A1-01.png",
-      "board_crop_xyxy": [
-        460,
-        0,
-        730,
-        355
-      ],
-      "keyed_content_crop_xyxy": [
-        76,
-        117,
-        192,
-        318
-      ],
-      "master_sha256": "743293ea286c24d715084562a956dc82fb2079ff3da6ae4244bcd3443562a0b1",
-      "source_board_sha256": "8bd90cb59616be7941879be8f898f96f586f7fdf449d9dc422750fbba20838f4",
-      "approved_design": null
+      "anchor_kind": "lowest_occupied_row_centre",
+      "real_size_m": {
+        "height": 1.1
+      },
+      "size_assumption": "Unspecified single dimension interpreted as height for standing/hanging objects, width for tabletop objects. Half-pixel sizes rounded half-up.",
+      "colour_count": 32,
+      "checker": {
+        "passed": false,
+        "exit_code": 1,
+        "colours": 32,
+        "isolated_share": 0.447,
+        "outline_coverage": 0.77,
+        "components": 1,
+        "main_share": 1,
+        "output": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\grid\\planter_stormfern.png: 28x28, colours 32/64, isolated 0.447, outline 0.770, components 1 (main 1.00)\nPROP_CHECK_FAIL isolated share 0.447 > 0.38\n",
+        "limits": {
+          "budget": 64,
+          "isolated": 0.38,
+          "outline": 0.75
+        }
+      },
+      "selected_attempt": "attempt-05-p32",
+      "accepted_attempt": null,
+      "status": "rejected",
+      "identity_reference": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Eurydica\\Approved Fantasy Plants v1\\plants\\stormfern-a.png",
+      "processing": {
+        "attempt": 5,
+        "cell": 0,
+        "source_box": [
+          0,
+          0,
+          627,
+          627
+        ],
+        "grid_xy": [
+          10.925000000000042,
+          10.85000000000004
+        ],
+        "phase_xy": [
+          3.3832830440679427,
+          3.1633657606130554
+        ],
+        "periodicity_xy": [
+          0.6480316192536868,
+          0.5410746561983812
+        ],
+        "snapped_size": [
+          51,
+          52
+        ],
+        "grid_size_px": [
+          28,
+          28
+        ],
+        "passed": false,
+        "export": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-05-p32\\planter_stormfern.png",
+        "processing": "magenta key; detected block-centre samples; nearest size fit; nondithered 64-colour palette indexing; no smoothing, area resampling, edge repainting or despeckling",
+        "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-05-p32\\planter_stormfern.png: 28x28, colours 32/64, isolated 0.447, outline 0.770, components 1 (main 1.00)\nPROP_CHECK_FAIL isolated share 0.447 > 0.38\n",
+        "spec": {
+          "height": 1.1,
+          "organic": true
+        }
+      },
+      "glance_verdict": {
+        "passed": false,
+        "note": "Arching silhouette survives, but blurred violet tips read as flowers; frond identity is weak.",
+        "swatches": [
+          "grey stone",
+          "warm wood",
+          "pale plaster"
+        ],
+        "blur_radius_native_px": 1.5,
+        "reviewed_pages": "review-page-1.png through review-page-4.png"
+      },
+      "owner_approval": "not requested; candidates only",
+      "sha256": "e6e1588ea1f1c88551e0b7a7d37f468c5017021d2e69ec0db7507cf995829f76",
+      "source_run": "pixel-guild-organic-v2"
     },
-    "chair_back": {
-      "batch": "A",
+    "planter_emberseed": {
       "grid_size_px": [
-        15,
-        25
-      ],
-      "anchor_px": [
-        7.0,
-        24
-      ],
-      "anchor_definition": "centre of lowest occupied row",
-      "real_size_m": 1,
-      "real_size_dimension": "height",
-      "real_width_m": null,
-      "real_height_m": 1,
-      "real_depth_m": null,
-      "projection": null,
-      "colour_count": 62,
-      "colour_count_with_transparency": 63,
-      "accepted_attempt": "masters/attempts/chair_back-01.png",
-      "source_board": "masters/attempts/A1-01.png",
-      "board_crop_xyxy": [
-        730,
-        0,
-        1000,
-        355
-      ],
-      "keyed_content_crop_xyxy": [
-        69,
-        119,
-        188,
-        318
-      ],
-      "master_sha256": "9b68afee1503c4d20364645351af47659175368d510ddc33ffe6e1e1c4b32671",
-      "source_board_sha256": "8bd90cb59616be7941879be8f898f96f586f7fdf449d9dc422750fbba20838f4",
-      "approved_design": null
-    },
-    "hearth": {
-      "batch": "A",
-      "grid_size_px": [
-        50,
-        50
-      ],
-      "anchor_px": [
-        26.0,
-        49
-      ],
-      "anchor_definition": "centre of lowest occupied row",
-      "real_size_m": 2,
-      "real_size_dimension": "width",
-      "real_width_m": 2,
-      "real_height_m": 2,
-      "real_depth_m": null,
-      "projection": null,
-      "colour_count": 63,
-      "colour_count_with_transparency": 64,
-      "accepted_attempt": "masters/attempts/hearth-01.png",
-      "source_board": "masters/attempts/A1-01.png",
-      "board_crop_xyxy": [
-        1000,
-        0,
-        1448,
-        355
-      ],
-      "keyed_content_crop_xyxy": [
-        25,
-        34,
-        410,
-        333
-      ],
-      "master_sha256": "73334a0d50dea92efe145e3d9f3b74fa0ceec1c431402e241b7727c19930d5f8",
-      "source_board_sha256": "8bd90cb59616be7941879be8f898f96f586f7fdf449d9dc422750fbba20838f4",
-      "approved_design": null
-    },
-    "bed_commander": {
-      "batch": "A",
-      "grid_size_px": [
-        25,
+        21,
         23
       ],
       "anchor_px": [
-        12.0,
+        9.5,
         22
       ],
-      "anchor_definition": "centre of lowest occupied row",
-      "real_size_m": 1,
-      "real_size_dimension": "width",
-      "real_width_m": 1,
-      "real_height_m": 0.9,
-      "real_depth_m": null,
-      "projection": null,
-      "colour_count": 61,
-      "colour_count_with_transparency": 62,
-      "accepted_attempt": "masters/attempts/bed_commander-01.png",
-      "source_board": "masters/attempts/A1-01.png",
-      "board_crop_xyxy": [
-        0,
-        355,
-        362,
-        680
-      ],
-      "keyed_content_crop_xyxy": [
-        82,
-        35,
-        319,
-        299
-      ],
-      "master_sha256": "7b1ded79bd6c4e5697d2569c93c06b9abe64354b0705419af2984d402d252762",
-      "source_board_sha256": "8bd90cb59616be7941879be8f898f96f586f7fdf449d9dc422750fbba20838f4",
-      "approved_design": null
+      "anchor_kind": "lowest_occupied_row_centre",
+      "real_size_m": {
+        "height": 0.9
+      },
+      "size_assumption": "Unspecified single dimension interpreted as height for standing/hanging objects, width for tabletop objects. Half-pixel sizes rounded half-up.",
+      "colour_count": 31,
+      "checker": {
+        "passed": false,
+        "exit_code": 1,
+        "colours": 31,
+        "isolated_share": 0.548,
+        "outline_coverage": 0.805,
+        "components": 1,
+        "main_share": 1,
+        "output": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\grid\\planter_emberseed.png: 21x23, colours 31/64, isolated 0.548, outline 0.805, components 1 (main 1.00)\nPROP_CHECK_FAIL isolated share 0.548 > 0.38\n",
+        "limits": {
+          "budget": 64,
+          "isolated": 0.38,
+          "outline": 0.75
+        }
+      },
+      "selected_attempt": "attempt-08-p32",
+      "accepted_attempt": null,
+      "status": "rejected",
+      "identity_reference": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Eurydica\\Approved Fantasy Plants v1\\plants\\emberseed-a.png",
+      "processing": {
+        "attempt": 8,
+        "cell": 1,
+        "source_box": [
+          512,
+          0,
+          1024,
+          512
+        ],
+        "grid_xy": [
+          13.675000000000052,
+          13.175000000000045
+        ],
+        "phase_xy": [
+          7.342540593807688,
+          2.3769354443126662
+        ],
+        "periodicity_xy": [
+          0.6840468772974083,
+          0.44007503052758107
+        ],
+        "snapped_size": [
+          28,
+          32
+        ],
+        "grid_size_px": [
+          21,
+          23
+        ],
+        "passed": false,
+        "export": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-08-p32\\planter_emberseed.png",
+        "processing": "magenta key; detected block-centre samples; nearest size fit; nondithered 64-colour palette indexing; no smoothing, area resampling, edge repainting or despeckling",
+        "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-08-p32\\planter_emberseed.png: 21x23, colours 31/64, isolated 0.548, outline 0.805, components 1 (main 1.00)\nPROP_CHECK_FAIL isolated share 0.548 > 0.38\n",
+        "spec": {
+          "height": 0.9,
+          "organic": true
+        }
+      },
+      "glance_verdict": {
+        "passed": true,
+        "note": "Three orange pod masses remain separate above copper planter.",
+        "swatches": [
+          "grey stone",
+          "warm wood",
+          "pale plaster"
+        ],
+        "blur_radius_native_px": 1.5,
+        "reviewed_pages": "review-page-1.png through review-page-4.png"
+      },
+      "owner_approval": "not requested; candidates only",
+      "sha256": "a28adad6ea4f972904250bc2d76bba6ab7ab406e56f9ebf080d95a222384a122",
+      "source_run": "pixel-guild-organic-v2"
     },
-    "bed_officer_a": {
-      "batch": "A",
-      "grid_size_px": [
-        25,
-        23
-      ],
-      "anchor_px": [
-        12.0,
-        22
-      ],
-      "anchor_definition": "centre of lowest occupied row",
-      "real_size_m": 1,
-      "real_size_dimension": "width",
-      "real_width_m": 1,
-      "real_height_m": 0.9,
-      "real_depth_m": null,
-      "projection": null,
-      "colour_count": 61,
-      "colour_count_with_transparency": 62,
-      "accepted_attempt": "masters/attempts/bed_officer_a-01.png",
-      "source_board": "masters/attempts/A1-01.png",
-      "board_crop_xyxy": [
-        362,
-        355,
-        724,
-        680
-      ],
-      "keyed_content_crop_xyxy": [
-        67,
-        35,
-        305,
-        299
-      ],
-      "master_sha256": "6f36b8e727e5b1cca2a2b4fde95ac4e1169137485ba8b648457596da59b8676c",
-      "source_board_sha256": "8bd90cb59616be7941879be8f898f96f586f7fdf449d9dc422750fbba20838f4",
-      "approved_design": null
-    },
-    "bed_officer_b": {
-      "batch": "A",
-      "grid_size_px": [
-        25,
-        23
-      ],
-      "anchor_px": [
-        12.0,
-        22
-      ],
-      "anchor_definition": "centre of lowest occupied row",
-      "real_size_m": 1,
-      "real_size_dimension": "width",
-      "real_width_m": 1,
-      "real_height_m": 0.9,
-      "real_depth_m": null,
-      "projection": null,
-      "colour_count": 63,
-      "colour_count_with_transparency": 64,
-      "accepted_attempt": "masters/attempts/bed_officer_b-01.png",
-      "source_board": "masters/attempts/A1-01.png",
-      "board_crop_xyxy": [
-        724,
-        355,
-        1086,
-        680
-      ],
-      "keyed_content_crop_xyxy": [
-        55,
-        35,
-        293,
-        299
-      ],
-      "master_sha256": "98d9254572332059d96782c528b4036bf1783bb94d255486ae16afc06674be96",
-      "source_board_sha256": "8bd90cb59616be7941879be8f898f96f586f7fdf449d9dc422750fbba20838f4",
-      "approved_design": null
-    },
-    "bed_officer_c": {
-      "batch": "A",
-      "grid_size_px": [
-        25,
-        23
-      ],
-      "anchor_px": [
-        12.0,
-        22
-      ],
-      "anchor_definition": "centre of lowest occupied row",
-      "real_size_m": 1,
-      "real_size_dimension": "width",
-      "real_width_m": 1,
-      "real_height_m": 0.9,
-      "real_depth_m": null,
-      "projection": null,
-      "colour_count": 59,
-      "colour_count_with_transparency": 60,
-      "accepted_attempt": "masters/attempts/bed_officer_c-01.png",
-      "source_board": "masters/attempts/A1-01.png",
-      "board_crop_xyxy": [
-        1086,
-        355,
-        1448,
-        680
-      ],
-      "keyed_content_crop_xyxy": [
-        43,
-        35,
-        280,
-        299
-      ],
-      "master_sha256": "7641457b3e178700387c6fdb129b5823b16b8222c08f43ca5a143a132bed4376",
-      "source_board_sha256": "8bd90cb59616be7941879be8f898f96f586f7fdf449d9dc422750fbba20838f4",
-      "approved_design": null
-    },
-    "desk": {
-      "batch": "A",
-      "grid_size_px": [
-        35,
-        30
-      ],
-      "anchor_px": [
-        17.0,
-        29
-      ],
-      "anchor_definition": "centre of lowest occupied row",
-      "real_size_m": 1.4,
-      "real_size_dimension": "width",
-      "real_width_m": 1.4,
-      "real_height_m": null,
-      "real_depth_m": null,
-      "projection": null,
-      "colour_count": 63,
-      "colour_count_with_transparency": 64,
-      "accepted_attempt": "masters/attempts/desk-01.png",
-      "source_board": "masters/attempts/A1-01.png",
-      "board_crop_xyxy": [
-        0,
-        680,
-        420,
-        1086
-      ],
-      "keyed_content_crop_xyxy": [
-        62,
-        49,
-        389,
-        327
-      ],
-      "master_sha256": "80103dcd95cf009f0a7976d8b9550917a15265cf0e4bd137185aa1f5ab415315",
-      "source_board_sha256": "8bd90cb59616be7941879be8f898f96f586f7fdf449d9dc422750fbba20838f4",
-      "approved_design": null
-    },
-    "objective_board": {
-      "batch": "A",
+    "planter_silverleaf": {
       "grid_size_px": [
         20,
         18
       ],
       "anchor_px": [
-        9.5,
+        10,
         17
       ],
-      "anchor_definition": "centre of lowest occupied row",
-      "real_size_m": 0.8,
-      "real_size_dimension": "width",
-      "real_width_m": 0.8,
-      "real_height_m": null,
-      "real_depth_m": null,
-      "projection": null,
-      "colour_count": 62,
-      "colour_count_with_transparency": 62,
-      "accepted_attempt": "masters/attempts/objective_board-01.png",
-      "source_board": "masters/attempts/A1-01.png",
-      "board_crop_xyxy": [
-        420,
-        680,
-        725,
-        1086
-      ],
-      "keyed_content_crop_xyxy": [
-        37,
-        77,
-        260,
-        273
-      ],
-      "master_sha256": "b3f5e3311a219a10e2e065bcd6ee6f8559b28ae7e5d6351b05643310ab87eb85",
-      "source_board_sha256": "8bd90cb59616be7941879be8f898f96f586f7fdf449d9dc422750fbba20838f4",
-      "approved_design": null
+      "anchor_kind": "lowest_occupied_row_centre",
+      "real_size_m": {
+        "width": 0.8
+      },
+      "size_assumption": "Unspecified single dimension interpreted as height for standing/hanging objects, width for tabletop objects. Half-pixel sizes rounded half-up.",
+      "colour_count": 31,
+      "checker": {
+        "passed": false,
+        "exit_code": 1,
+        "colours": 31,
+        "isolated_share": 0.487,
+        "outline_coverage": 0.679,
+        "components": 1,
+        "main_share": 1,
+        "output": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\grid\\planter_silverleaf.png: 20x18, colours 31/64, isolated 0.487, outline 0.679, components 1 (main 1.00)\nPROP_CHECK_FAIL isolated share 0.487 > 0.38; outline coverage 0.679 < 0.75\n",
+        "limits": {
+          "budget": 64,
+          "isolated": 0.38,
+          "outline": 0.75
+        }
+      },
+      "selected_attempt": "attempt-05-p32",
+      "accepted_attempt": null,
+      "status": "rejected",
+      "identity_reference": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Eurydica\\Approved Fantasy Plants v1\\plants\\silverleaf-herb-a.png",
+      "processing": {
+        "attempt": 5,
+        "cell": 2,
+        "source_box": [
+          0,
+          627,
+          627,
+          1254
+        ],
+        "grid_xy": [
+          10.925000000000042,
+          11.57500000000005
+        ],
+        "phase_xy": [
+          3.312098346849918,
+          11.27145174900454
+        ],
+        "periodicity_xy": [
+          0.5420951743339204,
+          0.5033123384812235
+        ],
+        "snapped_size": [
+          53,
+          46
+        ],
+        "grid_size_px": [
+          20,
+          18
+        ],
+        "passed": false,
+        "export": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-05-p32\\planter_silverleaf.png",
+        "processing": "magenta key; detected block-centre samples; nearest size fit; nondithered 64-colour palette indexing; no smoothing, area resampling, edge repainting or despeckling",
+        "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-05-p32\\planter_silverleaf.png: 20x18, colours 31/64, isolated 0.487, outline 0.679, components 1 (main 1.00)\nPROP_CHECK_FAIL isolated share 0.487 > 0.38; outline coverage 0.679 < 0.75\n",
+        "spec": {
+          "width": 0.8,
+          "organic": true
+        }
+      },
+      "glance_verdict": {
+        "passed": false,
+        "note": "Silver foliage becomes a low pale mass; upright shoots lose definition.",
+        "swatches": [
+          "grey stone",
+          "warm wood",
+          "pale plaster"
+        ],
+        "blur_radius_native_px": 1.5,
+        "reviewed_pages": "review-page-1.png through review-page-4.png"
+      },
+      "owner_approval": "not requested; candidates only",
+      "sha256": "4c0f027a05e76a1ec76b552bb05e37318c697b4d15a9ecdb51e34a5795e15ee6",
+      "source_run": "pixel-guild-organic-v2"
     },
-    "wardrobe": {
-      "batch": "A",
+    "planter_lantern_cap": {
+      "grid_size_px": [
+        12,
+        13
+      ],
+      "anchor_px": [
+        5.5,
+        12
+      ],
+      "anchor_kind": "lowest_occupied_row_centre",
+      "real_size_m": {
+        "height": 0.5
+      },
+      "size_assumption": "Unspecified single dimension interpreted as height for standing/hanging objects, width for tabletop objects. Half-pixel sizes rounded half-up.",
+      "colour_count": 22,
+      "checker": {
+        "passed": false,
+        "exit_code": 1,
+        "colours": 22,
+        "isolated_share": 0.438,
+        "outline_coverage": 0.7,
+        "components": 1,
+        "main_share": 1,
+        "output": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\grid\\planter_lantern_cap.png: 12x13, colours 22/64, isolated 0.438, outline 0.700, components 1 (main 1.00)\nPROP_CHECK_FAIL isolated share 0.438 > 0.38; outline coverage 0.700 < 0.75\n",
+        "limits": {
+          "budget": 64,
+          "isolated": 0.38,
+          "outline": 0.75
+        }
+      },
+      "selected_attempt": "attempt-10-p24-edge",
+      "accepted_attempt": null,
+      "status": "rejected",
+      "identity_reference": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Eurydica\\Approved Fantasy Plants v1\\plants\\lantern-cap-a.png",
+      "processing": {
+        "attempt": 10,
+        "cell": 0,
+        "source_box": [
+          0,
+          0,
+          1346,
+          1168
+        ],
+        "grid_xy": [
+          39.99999999999886,
+          40.44999999999884
+        ],
+        "phase_xy": [
+          33.67034583953836,
+          36.22578098018168
+        ],
+        "periodicity_xy": [
+          0.9282304155544556,
+          0.9417578357771421
+        ],
+        "snapped_size": [
+          22,
+          23
+        ],
+        "grid_size_px": [
+          12,
+          13
+        ],
+        "passed": false,
+        "export": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-10-p24-edge\\planter_lantern_cap.png",
+        "palette_budget": 24,
+        "fit": "endpoint-aligned nearest",
+        "processing": "magenta key; detected block-centre samples; nearest size fit; nondithered 24-colour palette indexing; no smoothing, area resampling, edge repainting or despeckling",
+        "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-10-p24-edge\\planter_lantern_cap.png: 12x13, colours 22/64, isolated 0.438, outline 0.700, components 1 (main 1.00)\nPROP_CHECK_FAIL isolated share 0.438 > 0.38; outline coverage 0.700 < 0.75\n",
+        "spec": {
+          "height": 0.5,
+          "organic": true
+        }
+      },
+      "glance_verdict": {
+        "passed": false,
+        "note": "At 13 pixels high the caps and box merge into a gold/brown blob after required blur.",
+        "swatches": [
+          "grey stone",
+          "warm wood",
+          "pale plaster"
+        ],
+        "blur_radius_native_px": 1.5,
+        "reviewed_pages": "review-page-1.png through review-page-4.png"
+      },
+      "owner_approval": "not requested; candidates only",
+      "sha256": "32b4bfd026b9190e63b05aeb4f779f93dfb92cf06e071bef58aa48f552b1b050",
+      "source_run": "pixel-guild-organic-v2"
+    },
+    "potted_tree": {
+      "grid_size_px": [
+        46,
+        48
+      ],
+      "anchor_px": [
+        20,
+        47
+      ],
+      "anchor_kind": "lowest_occupied_row_centre",
+      "real_size_m": {
+        "height": 1.9
+      },
+      "size_assumption": "Unspecified single dimension interpreted as height for standing/hanging objects, width for tabletop objects. Half-pixel sizes rounded half-up.",
+      "colour_count": 32,
+      "checker": {
+        "passed": false,
+        "exit_code": 1,
+        "colours": 32,
+        "isolated_share": 0.486,
+        "outline_coverage": 0.86,
+        "components": 1,
+        "main_share": 1,
+        "output": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\grid\\potted_tree.png: 46x48, colours 32/64, isolated 0.486, outline 0.860, components 1 (main 1.00)\nPROP_CHECK_FAIL isolated share 0.486 > 0.38\n",
+        "limits": {
+          "budget": 64,
+          "isolated": 0.38,
+          "outline": 0.75
+        }
+      },
+      "selected_attempt": "attempt-06-p32",
+      "accepted_attempt": null,
+      "status": "rejected",
+      "identity_reference": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Eurydica\\Approved Pixel v1\\landmarks\\red-tree.png",
+      "processing": {
+        "attempt": 6,
+        "cell": 0,
+        "source_box": [
+          0,
+          0,
+          315,
+          340
+        ],
+        "grid_xy": [
+          5.875000000000027,
+          6.025000000000029
+        ],
+        "phase_xy": [
+          4.622304496587244,
+          2.107905042077085
+        ],
+        "periodicity_xy": [
+          0.37794232072301504,
+          0.3148992612473564
+        ],
+        "snapped_size": [
+          50,
+          50
+        ],
+        "grid_size_px": [
+          46,
+          48
+        ],
+        "passed": false,
+        "export": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-06-p32\\potted_tree.png",
+        "processing": "magenta key; detected block-centre samples; nearest size fit; nondithered 64-colour palette indexing; no smoothing, area resampling, edge repainting or despeckling",
+        "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-06-p32\\potted_tree.png: 46x48, colours 32/64, isolated 0.486, outline 0.860, components 1 (main 1.00)\nPROP_CHECK_FAIL isolated share 0.486 > 0.38\n",
+        "spec": {
+          "height": 1.9,
+          "organic": true
+        }
+      },
+      "glance_verdict": {
+        "passed": true,
+        "note": "Branched red canopy and wooden tub retain clear tree silhouette.",
+        "swatches": [
+          "grey stone",
+          "warm wood",
+          "pale plaster"
+        ],
+        "blur_radius_native_px": 1.5,
+        "reviewed_pages": "review-page-1.png through review-page-4.png"
+      },
+      "owner_approval": "not requested; candidates only",
+      "sha256": "a113502251bc287a3cf361e81be274b9737200336a9a2280322da0789e1cf5be",
+      "source_run": "pixel-guild-organic-v2"
+    },
+    "sill_flowers": {
+      "grid_size_px": [
+        23,
+        22
+      ],
+      "anchor_px": [
+        11.5,
+        21
+      ],
+      "anchor_kind": "lowest_occupied_row_centre",
+      "real_size_m": {
+        "width": 0.9
+      },
+      "size_assumption": "Unspecified single dimension interpreted as height for standing/hanging objects, width for tabletop objects. Half-pixel sizes rounded half-up.",
+      "colour_count": 29,
+      "checker": {
+        "passed": false,
+        "exit_code": 1,
+        "colours": 29,
+        "isolated_share": 0.399,
+        "outline_coverage": 0.708,
+        "components": 2,
+        "main_share": 0.92,
+        "output": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\grid\\sill_flowers.png: 23x22, colours 29/64, isolated 0.399, outline 0.708, components 2 (main 0.92)\nPROP_CHECK_FAIL isolated share 0.399 > 0.38; outline coverage 0.708 < 0.75\n",
+        "limits": {
+          "budget": 64,
+          "isolated": 0.38,
+          "outline": 0.75
+        }
+      },
+      "selected_attempt": "attempt-07-p32",
+      "accepted_attempt": null,
+      "status": "rejected",
+      "identity_reference": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Eurydica\\Approved Fantasy Plants v1\\plants\\skybell-b.png",
+      "processing": {
+        "attempt": 7,
+        "cell": 4,
+        "source_box": [
+          483,
+          543,
+          965,
+          1086
+        ],
+        "grid_xy": [
+          8.250000000000004,
+          8.825000000000012
+        ],
+        "phase_xy": [
+          2.0697432404554212,
+          7.135277079936039
+        ],
+        "periodicity_xy": [
+          0.33254079898234706,
+          0.3550481079864719
+        ],
+        "snapped_size": [
+          51,
+          46
+        ],
+        "grid_size_px": [
+          23,
+          22
+        ],
+        "passed": false,
+        "export": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-07-p32\\sill_flowers.png",
+        "processing": "magenta key; detected block-centre samples; nearest size fit; nondithered 64-colour palette indexing; no smoothing, area resampling, edge repainting or despeckling",
+        "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-07-p32\\sill_flowers.png: 23x22, colours 29/64, isolated 0.399, outline 0.708, components 2 (main 0.92)\nPROP_CHECK_FAIL isolated share 0.399 > 0.38; outline coverage 0.708 < 0.75\n",
+        "spec": {
+          "width": 0.9,
+          "organic": true
+        }
+      },
+      "glance_verdict": {
+        "passed": false,
+        "note": "Box is readable, but Skybell shapes collapse into generic pale spots.",
+        "swatches": [
+          "grey stone",
+          "warm wood",
+          "pale plaster"
+        ],
+        "blur_radius_native_px": 1.5,
+        "reviewed_pages": "review-page-1.png through review-page-4.png"
+      },
+      "owner_approval": "not requested; candidates only",
+      "sha256": "e9439835e91cb0930c415acb41a6cb0ba7c354776b82b9221155a6bf188f84f5",
+      "source_run": "pixel-guild-organic-v2"
+    },
+    "hanging_creeper": {
+      "grid_size_px": [
+        19,
+        30
+      ],
+      "anchor_px": [
+        9,
+        0
+      ],
+      "anchor_kind": "hook",
+      "real_size_m": {
+        "height": 1.2
+      },
+      "size_assumption": "Unspecified single dimension interpreted as height for standing/hanging objects, width for tabletop objects. Half-pixel sizes rounded half-up.",
+      "colour_count": 32,
+      "checker": {
+        "passed": false,
+        "exit_code": 1,
+        "colours": 32,
+        "isolated_share": 0.657,
+        "outline_coverage": 0.626,
+        "components": 6,
+        "main_share": 0.95,
+        "output": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\grid\\hanging_creeper.png: 19x30, colours 32/64, isolated 0.657, outline 0.626, components 6 (main 0.95)\nPROP_CHECK_FAIL isolated share 0.657 > 0.38; outline coverage 0.626 < 0.75\n",
+        "limits": {
+          "budget": 64,
+          "isolated": 0.38,
+          "outline": 0.75
+        }
+      },
+      "selected_attempt": "attempt-06-p32",
+      "accepted_attempt": null,
+      "status": "rejected",
+      "identity_reference": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Eurydica\\Approved Fantasy Plants v1\\plants\\crimson-creeper-b.png",
+      "processing": {
+        "attempt": 6,
+        "cell": 2,
+        "source_box": [
+          660,
+          0,
+          950,
+          400
+        ],
+        "grid_xy": [
+          5.775000000000025,
+          5.7250000000000245
+        ],
+        "phase_xy": [
+          4.663397946522483,
+          3.6339033846953863
+        ],
+        "periodicity_xy": [
+          0.363370480099906,
+          0.406770750160972
+        ],
+        "snapped_size": [
+          41,
+          63
+        ],
+        "grid_size_px": [
+          19,
+          30
+        ],
+        "passed": false,
+        "export": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-06-p32\\hanging_creeper.png",
+        "processing": "magenta key; detected block-centre samples; nearest size fit; nondithered 64-colour palette indexing; no smoothing, area resampling, edge repainting or despeckling",
+        "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-06-p32\\hanging_creeper.png: 19x30, colours 32/64, isolated 0.657, outline 0.626, components 6 (main 0.95)\nPROP_CHECK_FAIL isolated share 0.657 > 0.38; outline coverage 0.626 < 0.75\n",
+        "spec": {
+          "height": 1.2,
+          "organic": true,
+          "anchor": "hook"
+        }
+      },
+      "glance_verdict": {
+        "passed": true,
+        "note": "Suspended red foliage and two trailing lobes survive blur; native chain has fragmentation.",
+        "swatches": [
+          "grey stone",
+          "warm wood",
+          "pale plaster"
+        ],
+        "blur_radius_native_px": 1.5,
+        "reviewed_pages": "review-page-1.png through review-page-4.png"
+      },
+      "owner_approval": "not requested; candidates only",
+      "sha256": "04d43b0ee908f00eb937d61467d208022f7ac4715d3b19254c435f21bdba762a",
+      "source_run": "pixel-guild-organic-v2"
+    },
+    "hearth_fire": {
+      "grid_size_px": [
+        25,
+        21
+      ],
+      "anchor_px": [
+        9.5,
+        20
+      ],
+      "anchor_kind": "lowest_occupied_row_centre",
+      "real_size_m": {
+        "width": 1
+      },
+      "size_assumption": "Unspecified single dimension interpreted as height for standing/hanging objects, width for tabletop objects. Half-pixel sizes rounded half-up.",
+      "colour_count": 32,
+      "checker": {
+        "passed": false,
+        "exit_code": 1,
+        "colours": 32,
+        "isolated_share": 0.56,
+        "outline_coverage": 0.622,
+        "components": 1,
+        "main_share": 1,
+        "output": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\grid\\hearth_fire.png: 25x21, colours 32/64, isolated 0.560, outline 0.622, components 1 (main 1.00)\nPROP_CHECK_FAIL isolated share 0.560 > 0.32; outline coverage 0.622 < 0.75\n",
+        "limits": {
+          "budget": 64,
+          "isolated": 0.32,
+          "outline": 0.75
+        }
+      },
+      "selected_attempt": "attempt-06-p32",
+      "accepted_attempt": null,
+      "status": "rejected",
+      "identity_reference": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\references\\context.png",
+      "processing": {
+        "attempt": 6,
+        "cell": 3,
+        "source_box": [
+          960,
+          65,
+          1261,
+          340
+        ],
+        "grid_xy": [
+          5.825000000000026,
+          5.6500000000000234
+        ],
+        "phase_xy": [
+          3.4426494785552477,
+          3.5740918492571225
+        ],
+        "periodicity_xy": [
+          0.49459000801207387,
+          0.4885696570983316
+        ],
+        "snapped_size": [
+          44,
+          39
+        ],
+        "grid_size_px": [
+          25,
+          21
+        ],
+        "passed": false,
+        "export": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-06-p32\\hearth_fire.png",
+        "processing": "magenta key; detected block-centre samples; nearest size fit; nondithered 64-colour palette indexing; no smoothing, area resampling, edge repainting or despeckling",
+        "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-06-p32\\hearth_fire.png: 25x21, colours 32/64, isolated 0.560, outline 0.622, components 1 (main 1.00)\nPROP_CHECK_FAIL isolated share 0.560 > 0.32; outline coverage 0.622 < 0.75\n",
+        "spec": {
+          "width": 1
+        }
+      },
+      "glance_verdict": {
+        "passed": true,
+        "note": "Three flame masses above dark logs remain recognizable.",
+        "swatches": [
+          "grey stone",
+          "warm wood",
+          "pale plaster"
+        ],
+        "blur_radius_native_px": 1.5,
+        "reviewed_pages": "review-page-1.png through review-page-4.png"
+      },
+      "owner_approval": "not requested; candidates only",
+      "sha256": "26934eef7bf946dae8a8a086fb181dfb845952e6a8bb39c1335fd054d58fc23b",
+      "source_run": "pixel-guild-organic-v2"
+    },
+    "chandelier": {
+      "grid_size_px": [
+        40,
+        37
+      ],
+      "anchor_px": [
+        19.5,
+        0
+      ],
+      "anchor_kind": "chain_top",
+      "real_size_m": {
+        "width": 1.6
+      },
+      "size_assumption": "Unspecified single dimension interpreted as height for standing/hanging objects, width for tabletop objects. Half-pixel sizes rounded half-up.",
+      "colour_count": 32,
+      "checker": {
+        "passed": false,
+        "exit_code": 1,
+        "colours": 32,
+        "isolated_share": 0.43,
+        "outline_coverage": 0.774,
+        "components": 4,
+        "main_share": 0.88,
+        "output": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\grid\\chandelier.png: 40x37, colours 32/64, isolated 0.430, outline 0.774, components 4 (main 0.88)\nPROP_CHECK_FAIL isolated share 0.430 > 0.32\n",
+        "limits": {
+          "budget": 64,
+          "isolated": 0.32,
+          "outline": 0.75
+        }
+      },
+      "selected_attempt": "attempt-06-p32",
+      "accepted_attempt": null,
+      "status": "rejected",
+      "identity_reference": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\references\\context.png",
+      "processing": {
+        "attempt": 6,
+        "cell": 4,
+        "source_box": [
+          0,
+          340,
+          315,
+          630
+        ],
+        "grid_xy": [
+          6.82500000000004,
+          6.025000000000029
+        ],
+        "phase_xy": [
+          3.8245641107654715,
+          2.051384909914495
+        ],
+        "periodicity_xy": [
+          0.205550442373857,
+          0.2679643710094376
+        ],
+        "snapped_size": [
+          41,
+          42
+        ],
+        "grid_size_px": [
+          40,
+          37
+        ],
+        "passed": false,
+        "export": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-06-p32\\chandelier.png",
+        "processing": "magenta key; detected block-centre samples; nearest size fit; nondithered 64-colour palette indexing; no smoothing, area resampling, edge repainting or despeckling",
+        "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-06-p32\\chandelier.png: 40x37, colours 32/64, isolated 0.430, outline 0.774, components 4 (main 0.88)\nPROP_CHECK_FAIL isolated share 0.430 > 0.32\n",
+        "spec": {
+          "width": 1.6,
+          "anchor": "chain_top"
+        }
+      },
+      "glance_verdict": {
+        "passed": true,
+        "note": "Suspension triangle and elliptical ring remain recognizable; six cups visible in master, less distinct natively.",
+        "swatches": [
+          "grey stone",
+          "warm wood",
+          "pale plaster"
+        ],
+        "blur_radius_native_px": 1.5,
+        "reviewed_pages": "review-page-1.png through review-page-4.png"
+      },
+      "owner_approval": "not requested; candidates only",
+      "sha256": "17d14b002e290d85ec512e5f7ba23166f811da344a5314ec0a623812905e6660",
+      "source_run": "pixel-guild-organic-v2"
+    },
+    "wall_lamp": {
+      "grid_size_px": [
+        14,
+        18
+      ],
+      "anchor_px": [
+        1,
+        3
+      ],
+      "anchor_kind": "wall_mount",
+      "real_size_m": {
+        "height": 0.7
+      },
+      "size_assumption": "Unspecified single dimension interpreted as height for standing/hanging objects, width for tabletop objects. Half-pixel sizes rounded half-up.",
+      "colour_count": 24,
+      "checker": {
+        "passed": false,
+        "exit_code": 1,
+        "colours": 24,
+        "isolated_share": 0.515,
+        "outline_coverage": 0.845,
+        "components": 1,
+        "main_share": 1,
+        "output": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\grid\\wall_lamp.png: 14x18, colours 24/64, isolated 0.515, outline 0.845, components 1 (main 1.00)\nPROP_CHECK_FAIL isolated share 0.515 > 0.32\n",
+        "limits": {
+          "budget": 64,
+          "isolated": 0.32,
+          "outline": 0.75
+        }
+      },
+      "selected_attempt": "attempt-09-p24",
+      "accepted_attempt": null,
+      "status": "rejected",
+      "identity_reference": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\references\\context.png",
+      "processing": {
+        "attempt": 9,
+        "cell": 6,
+        "source_box": [
+          0,
+          836,
+          418,
+          1254
+        ],
+        "grid_xy": [
+          10.450000000000006,
+          10
+        ],
+        "phase_xy": [
+          1.365525554599221,
+          7.565042520739802
+        ],
+        "periodicity_xy": [
+          0.4300109500692143,
+          0.14221257151033803
+        ],
+        "snapped_size": [
+          24,
+          32
+        ],
+        "grid_size_px": [
+          14,
+          18
+        ],
+        "passed": false,
+        "export": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-09-p24\\wall_lamp.png",
+        "processing": "magenta key; detected block-centre samples; nearest size fit; nondithered 64-colour palette indexing; no smoothing, area resampling, edge repainting or despeckling",
+        "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-09-p24\\wall_lamp.png: 14x18, colours 24/64, isolated 0.515, outline 0.845, components 1 (main 1.00)\nPROP_CHECK_FAIL isolated share 0.515 > 0.32\n",
+        "spec": {
+          "height": 0.7,
+          "anchor": "wall_mount"
+        }
+      },
+      "glance_verdict": {
+        "passed": true,
+        "note": "Bright glass box beneath dark hood and offset mount remain identifiable.",
+        "swatches": [
+          "grey stone",
+          "warm wood",
+          "pale plaster"
+        ],
+        "blur_radius_native_px": 1.5,
+        "reviewed_pages": "review-page-1.png through review-page-4.png"
+      },
+      "owner_approval": "not requested; candidates only",
+      "sha256": "cf6029ea874fdbee58a3428b42df4102ea8e4cc93b8255b5caf843eefe34607d",
+      "source_run": "pixel-guild-organic-v2"
+    },
+    "candle_cluster": {
+      "grid_size_px": [
+        8,
+        6
+      ],
+      "anchor_px": [
+        3.5,
+        5
+      ],
+      "anchor_kind": "lowest_occupied_row_centre",
+      "real_size_m": {
+        "height": 0.25
+      },
+      "size_assumption": "Unspecified single dimension interpreted as height for standing/hanging objects, width for tabletop objects. Half-pixel sizes rounded half-up.",
+      "colour_count": 24,
+      "checker": {
+        "passed": false,
+        "exit_code": 1,
+        "colours": 24,
+        "isolated_share": 0.75,
+        "outline_coverage": 0.643,
+        "components": 1,
+        "main_share": 1,
+        "output": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\grid\\candle_cluster.png: 8x6, colours 24/64, isolated 0.750, outline 0.643, components 1 (main 1.00)\nPROP_CHECK_FAIL isolated share 0.750 > 0.32; outline coverage 0.643 < 0.75\n",
+        "limits": {
+          "budget": 64,
+          "isolated": 0.32,
+          "outline": 0.75
+        }
+      },
+      "selected_attempt": "attempt-09-p24",
+      "accepted_attempt": null,
+      "status": "rejected",
+      "identity_reference": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\references\\context.png",
+      "processing": {
+        "attempt": 9,
+        "cell": 7,
+        "source_box": [
+          418,
+          836,
+          836,
+          1254
+        ],
+        "grid_xy": [
+          10,
+          11.650000000000023
+        ],
+        "phase_xy": [
+          8.50926324689281,
+          9.639971744833382
+        ],
+        "periodicity_xy": [
+          0.5731688360613387,
+          0.23485545425094106
+        ],
+        "snapped_size": [
+          25,
+          22
+        ],
+        "grid_size_px": [
+          8,
+          6
+        ],
+        "passed": false,
+        "export": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-09-p24\\candle_cluster.png",
+        "processing": "magenta key; detected block-centre samples; nearest size fit; nondithered 64-colour palette indexing; no smoothing, area resampling, edge repainting or despeckling",
+        "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-09-p24\\candle_cluster.png: 8x6, colours 24/64, isolated 0.750, outline 0.643, components 1 (main 1.00)\nPROP_CHECK_FAIL isolated share 0.750 > 0.32; outline coverage 0.643 < 0.75\n",
+        "spec": {
+          "height": 0.25
+        }
+      },
+      "glance_verdict": {
+        "passed": false,
+        "note": "Six-pixel height does not retain three candle stalks; blurred result is a bright spot.",
+        "swatches": [
+          "grey stone",
+          "warm wood",
+          "pale plaster"
+        ],
+        "blur_radius_native_px": 1.5,
+        "reviewed_pages": "review-page-1.png through review-page-4.png"
+      },
+      "owner_approval": "not requested; candidates only",
+      "sha256": "7608da0cac606a039858facb621d603d4351fdccd4a3e4b50b3c10dd055b108a",
+      "source_run": "pixel-guild-organic-v2"
+    },
+    "cloth_hanging": {
+      "grid_size_px": [
+        23,
+        65
+      ],
+      "anchor_px": [
+        11,
+        2
+      ],
+      "anchor_kind": "rod_centre",
+      "real_size_m": {
+        "width": 0.9,
+        "height": 2.6
+      },
+      "size_assumption": "Unspecified single dimension interpreted as height for standing/hanging objects, width for tabletop objects. Half-pixel sizes rounded half-up.",
+      "colour_count": 32,
+      "checker": {
+        "passed": true,
+        "exit_code": 0,
+        "colours": 32,
+        "isolated_share": 0.042,
+        "outline_coverage": 0.966,
+        "components": 1,
+        "main_share": 1,
+        "output": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\grid\\cloth_hanging.png: 23x65, colours 32/64, isolated 0.042, outline 0.966, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+        "limits": {
+          "budget": 64,
+          "isolated": 0.32,
+          "outline": 0.75
+        }
+      },
+      "selected_attempt": "attempt-06-p32",
+      "accepted_attempt": "attempt-06-p32",
+      "status": "candidate_for_owner_review",
+      "identity_reference": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\references\\context.png",
+      "processing": {
+        "attempt": 6,
+        "cell": 7,
+        "source_box": [
+          960,
+          340,
+          1261,
+          640
+        ],
+        "grid_xy": [
+          6.925000000000042,
+          5.625000000000023
+        ],
+        "phase_xy": [
+          6.801584622872178,
+          1.0768958881885666
+        ],
+        "periodicity_xy": [
+          0.5056187899273297,
+          0.5709474954374165
+        ],
+        "snapped_size": [
+          29,
+          47
+        ],
+        "grid_size_px": [
+          23,
+          65
+        ],
+        "passed": true,
+        "export": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-06-p32\\cloth_hanging.png",
+        "processing": "magenta key; detected block-centre samples; nearest size fit; nondithered 64-colour palette indexing; no smoothing, area resampling, edge repainting or despeckling",
+        "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-06-p32\\cloth_hanging.png: 23x65, colours 32/64, isolated 0.042, outline 0.966, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+        "spec": {
+          "width": 0.9,
+          "height": 2.6,
+          "anchor": "rod_centre"
+        }
+      },
+      "glance_verdict": {
+        "passed": true,
+        "note": "Long navy cloth, sage edge and cream stripe remain clear on all swatches.",
+        "swatches": [
+          "grey stone",
+          "warm wood",
+          "pale plaster"
+        ],
+        "blur_radius_native_px": 1.5,
+        "reviewed_pages": "review-page-1.png through review-page-4.png"
+      },
+      "owner_approval": "not requested; candidates only",
+      "sha256": "a30901baef539b6ba7f8d15d2d0e9bf90fa61384709039848c1e90f9101f1c36",
+      "source_run": "pixel-guild-organic-v2"
+    },
+    "ledger_open": {
+      "grid_size_px": [
+        13,
+        9
+      ],
+      "anchor_px": [
+        6,
+        8
+      ],
+      "anchor_kind": "lowest_occupied_row_centre",
+      "real_size_m": {
+        "width": 0.5
+      },
+      "size_assumption": "Unspecified single dimension interpreted as height for standing/hanging objects, width for tabletop objects. Half-pixel sizes rounded half-up.",
+      "colour_count": 24,
+      "checker": {
+        "passed": false,
+        "exit_code": 1,
+        "colours": 24,
+        "isolated_share": 0.484,
+        "outline_coverage": 0.848,
+        "components": 1,
+        "main_share": 1,
+        "output": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\grid\\ledger_open.png: 13x9, colours 24/64, isolated 0.484, outline 0.848, components 1 (main 1.00)\nPROP_CHECK_FAIL isolated share 0.484 > 0.32\n",
+        "limits": {
+          "budget": 64,
+          "isolated": 0.32,
+          "outline": 0.75
+        }
+      },
+      "selected_attempt": "attempt-09-p24",
+      "accepted_attempt": null,
+      "status": "rejected",
+      "identity_reference": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\references\\context.png",
+      "processing": {
+        "attempt": 9,
+        "cell": 0,
+        "source_box": [
+          0,
+          0,
+          418,
+          418
+        ],
+        "grid_xy": [
+          10,
+          10.075000000000001
+        ],
+        "phase_xy": [
+          7.711308060228084,
+          2.1133512844263227
+        ],
+        "periodicity_xy": [
+          0.31092102780646996,
+          0.1932200536205575
+        ],
+        "snapped_size": [
+          31,
+          25
+        ],
+        "grid_size_px": [
+          13,
+          9
+        ],
+        "passed": false,
+        "export": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-09-p24\\ledger_open.png",
+        "processing": "magenta key; detected block-centre samples; nearest size fit; nondithered 64-colour palette indexing; no smoothing, area resampling, edge repainting or despeckling",
+        "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-09-p24\\ledger_open.png: 13x9, colours 24/64, isolated 0.484, outline 0.848, components 1 (main 1.00)\nPROP_CHECK_FAIL isolated share 0.484 > 0.32\n",
+        "spec": {
+          "width": 0.5
+        }
+      },
+      "glance_verdict": {
+        "passed": false,
+        "note": "Open V shape is visible sharply but the central fold vanishes in blur.",
+        "swatches": [
+          "grey stone",
+          "warm wood",
+          "pale plaster"
+        ],
+        "blur_radius_native_px": 1.5,
+        "reviewed_pages": "review-page-1.png through review-page-4.png"
+      },
+      "owner_approval": "not requested; candidates only",
+      "sha256": "d7c42f7b38bfbc05f5b728422f7c8e256088c28b41e84bce2d75141860cde0c2",
+      "source_run": "pixel-guild-organic-v2"
+    },
+    "papers_pinned": {
       "grid_size_px": [
         30,
-        50
+        16
       ],
       "anchor_px": [
         14.5,
-        49
+        7.5
       ],
-      "anchor_definition": "centre of lowest occupied row",
-      "real_size_m": 1.2,
-      "real_size_dimension": "width",
-      "real_width_m": 1.2,
-      "real_height_m": 2,
-      "real_depth_m": null,
-      "projection": null,
-      "colour_count": 62,
-      "colour_count_with_transparency": 63,
-      "accepted_attempt": "masters/attempts/wardrobe-01.png",
-      "source_board": "masters/attempts/A1-01.png",
-      "board_crop_xyxy": [
-        725,
-        680,
-        1086,
+      "anchor_kind": "centre",
+      "real_size_m": {
+        "width": 1.2
+      },
+      "size_assumption": "Unspecified single dimension interpreted as height for standing/hanging objects, width for tabletop objects. Half-pixel sizes rounded half-up.",
+      "colour_count": 24,
+      "checker": {
+        "passed": true,
+        "exit_code": 0,
+        "colours": 24,
+        "isolated_share": 0.246,
+        "outline_coverage": 1,
+        "components": 1,
+        "main_share": 1,
+        "output": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\grid\\papers_pinned.png: 30x16, colours 24/64, isolated 0.246, outline 1.000, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+        "limits": {
+          "budget": 64,
+          "isolated": 0.32,
+          "outline": 0.75
+        }
+      },
+      "selected_attempt": "attempt-09-p24",
+      "accepted_attempt": "attempt-09-p24",
+      "status": "candidate_for_owner_review",
+      "identity_reference": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\references\\context.png",
+      "processing": {
+        "attempt": 9,
+        "cell": 1,
+        "source_box": [
+          418,
+          0,
+          836,
+          418
+        ],
+        "grid_xy": [
+          10.275000000000004,
+          10.275000000000004
+        ],
+        "phase_xy": [
+          6.013053520179593,
+          6.241064824712174
+        ],
+        "periodicity_xy": [
+          0.28257133431369474,
+          0.43506932040105745
+        ],
+        "snapped_size": [
+          40,
+          22
+        ],
+        "grid_size_px": [
+          30,
+          16
+        ],
+        "passed": true,
+        "export": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-09-p24\\papers_pinned.png",
+        "processing": "magenta key; detected block-centre samples; nearest size fit; nondithered 64-colour palette indexing; no smoothing, area resampling, edge repainting or despeckling",
+        "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-09-p24\\papers_pinned.png: 30x16, colours 24/64, isolated 0.246, outline 1.000, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+        "spec": {
+          "width": 1.2,
+          "anchor": "centre"
+        }
+      },
+      "glance_verdict": {
+        "passed": true,
+        "note": "Overlapping pale notices against dark board remain identifiable as a notice group.",
+        "swatches": [
+          "grey stone",
+          "warm wood",
+          "pale plaster"
+        ],
+        "blur_radius_native_px": 1.5,
+        "reviewed_pages": "review-page-1.png through review-page-4.png"
+      },
+      "owner_approval": "not requested; candidates only",
+      "sha256": "e412a166791a4e900b5224775c9052a4d04ee1b8cb508b4e1240a71b418cbced",
+      "source_run": "pixel-guild-organic-v2"
+    },
+    "mugs_plates": {
+      "grid_size_px": [
+        13,
+        10
+      ],
+      "anchor_px": [
+        4.5,
+        9
+      ],
+      "anchor_kind": "lowest_occupied_row_centre",
+      "real_size_m": {
+        "width": 0.5
+      },
+      "size_assumption": "Unspecified single dimension interpreted as height for standing/hanging objects, width for tabletop objects. Half-pixel sizes rounded half-up.",
+      "colour_count": 24,
+      "checker": {
+        "passed": false,
+        "exit_code": 1,
+        "colours": 24,
+        "isolated_share": 0.538,
+        "outline_coverage": 0.667,
+        "components": 1,
+        "main_share": 1,
+        "output": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\grid\\mugs_plates.png: 13x10, colours 24/64, isolated 0.538, outline 0.667, components 1 (main 1.00)\nPROP_CHECK_FAIL isolated share 0.538 > 0.32; outline coverage 0.667 < 0.75\n",
+        "limits": {
+          "budget": 64,
+          "isolated": 0.32,
+          "outline": 0.75
+        }
+      },
+      "selected_attempt": "attempt-09-p24",
+      "accepted_attempt": null,
+      "status": "rejected",
+      "identity_reference": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\references\\context.png",
+      "processing": {
+        "attempt": 9,
+        "cell": 2,
+        "source_box": [
+          836,
+          0,
+          1254,
+          418
+        ],
+        "grid_xy": [
+          10.375000000000005,
+          10
+        ],
+        "phase_xy": [
+          5.463781477705119,
+          7.805704647131
+        ],
+        "periodicity_xy": [
+          0.2510661858365046,
+          0.2273381173198817
+        ],
+        "snapped_size": [
+          31,
+          25
+        ],
+        "grid_size_px": [
+          13,
+          10
+        ],
+        "passed": false,
+        "export": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-09-p24\\mugs_plates.png",
+        "processing": "magenta key; detected block-centre samples; nearest size fit; nondithered 64-colour palette indexing; no smoothing, area resampling, edge repainting or despeckling",
+        "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-09-p24\\mugs_plates.png: 13x10, colours 24/64, isolated 0.538, outline 0.667, components 1 (main 1.00)\nPROP_CHECK_FAIL isolated share 0.538 > 0.32; outline coverage 0.667 < 0.75\n",
+        "spec": {
+          "width": 0.5
+        }
+      },
+      "glance_verdict": {
+        "passed": false,
+        "note": "Mug handles and plate rims vanish into one brown/cream oblong.",
+        "swatches": [
+          "grey stone",
+          "warm wood",
+          "pale plaster"
+        ],
+        "blur_radius_native_px": 1.5,
+        "reviewed_pages": "review-page-1.png through review-page-4.png"
+      },
+      "owner_approval": "not requested; candidates only",
+      "sha256": "cff572ea7375fa6f3be62a2fa528d34470877ffb37c101a492c259f04cda6aac",
+      "source_run": "pixel-guild-organic-v2"
+    },
+    "basket_produce": {
+      "grid_size_px": [
+        13,
+        12
+      ],
+      "anchor_px": [
+        6,
+        11
+      ],
+      "anchor_kind": "lowest_occupied_row_centre",
+      "real_size_m": {
+        "width": 0.5
+      },
+      "size_assumption": "Unspecified single dimension interpreted as height for standing/hanging objects, width for tabletop objects. Half-pixel sizes rounded half-up.",
+      "colour_count": 24,
+      "checker": {
+        "passed": false,
+        "exit_code": 1,
+        "colours": 24,
+        "isolated_share": 0.764,
+        "outline_coverage": 0.714,
+        "components": 1,
+        "main_share": 1,
+        "output": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\grid\\basket_produce.png: 13x12, colours 24/64, isolated 0.764, outline 0.714, components 1 (main 1.00)\nPROP_CHECK_FAIL isolated share 0.764 > 0.38; outline coverage 0.714 < 0.75\n",
+        "limits": {
+          "budget": 64,
+          "isolated": 0.38,
+          "outline": 0.75
+        }
+      },
+      "selected_attempt": "attempt-09-p24",
+      "accepted_attempt": null,
+      "status": "rejected",
+      "identity_reference": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\references\\context.png",
+      "processing": {
+        "attempt": 9,
+        "cell": 3,
+        "source_box": [
+          0,
+          418,
+          418,
+          836
+        ],
+        "grid_xy": [
+          10,
+          10.025
+        ],
+        "phase_xy": [
+          3.697924612232167,
+          7.51357877634762
+        ],
+        "periodicity_xy": [
+          0.18740579978970726,
+          0.16625617055105804
+        ],
+        "snapped_size": [
+          33,
+          31
+        ],
+        "grid_size_px": [
+          13,
+          12
+        ],
+        "passed": false,
+        "export": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-09-p24\\basket_produce.png",
+        "processing": "magenta key; detected block-centre samples; nearest size fit; nondithered 64-colour palette indexing; no smoothing, area resampling, edge repainting or despeckling",
+        "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-09-p24\\basket_produce.png: 13x12, colours 24/64, isolated 0.764, outline 0.714, components 1 (main 1.00)\nPROP_CHECK_FAIL isolated share 0.764 > 0.38; outline coverage 0.714 < 0.75\n",
+        "spec": {
+          "width": 0.5,
+          "organic": true
+        }
+      },
+      "glance_verdict": {
+        "passed": false,
+        "note": "Bright produce survives as a color mass but basket construction disappears.",
+        "swatches": [
+          "grey stone",
+          "warm wood",
+          "pale plaster"
+        ],
+        "blur_radius_native_px": 1.5,
+        "reviewed_pages": "review-page-1.png through review-page-4.png"
+      },
+      "owner_approval": "not requested; candidates only",
+      "sha256": "d7e336597131a013bb7c1adf379f109fb208867e3c9891231103578c7e178445",
+      "source_run": "pixel-guild-organic-v2"
+    },
+    "scroll_case": {
+      "grid_size_px": [
+        7,
+        15
+      ],
+      "anchor_px": [
+        1.5,
+        14
+      ],
+      "anchor_kind": "lowest_occupied_row_centre",
+      "real_size_m": {
+        "height": 0.6
+      },
+      "size_assumption": "Unspecified single dimension interpreted as height for standing/hanging objects, width for tabletop objects. Half-pixel sizes rounded half-up.",
+      "colour_count": 24,
+      "checker": {
+        "passed": false,
+        "exit_code": 1,
+        "colours": 24,
+        "isolated_share": 0.481,
+        "outline_coverage": 0.842,
+        "components": 1,
+        "main_share": 1,
+        "output": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\grid\\scroll_case.png: 7x15, colours 24/64, isolated 0.481, outline 0.842, components 1 (main 1.00)\nPROP_CHECK_FAIL isolated share 0.481 > 0.32\n",
+        "limits": {
+          "budget": 64,
+          "isolated": 0.32,
+          "outline": 0.75
+        }
+      },
+      "selected_attempt": "attempt-09-p24",
+      "accepted_attempt": null,
+      "status": "rejected",
+      "identity_reference": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\references\\context.png",
+      "processing": {
+        "attempt": 9,
+        "cell": 4,
+        "source_box": [
+          418,
+          418,
+          836,
+          836
+        ],
+        "grid_xy": [
+          10,
+          10.65000000000001
+        ],
+        "phase_xy": [
+          7.185536586877215,
+          3.2972426683699174
+        ],
+        "periodicity_xy": [
+          0.4516317796379805,
+          0.22255514768634568
+        ],
+        "snapped_size": [
+          18,
+          35
+        ],
+        "grid_size_px": [
+          7,
+          15
+        ],
+        "passed": false,
+        "export": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-09-p24\\scroll_case.png",
+        "processing": "magenta key; detected block-centre samples; nearest size fit; nondithered 64-colour palette indexing; no smoothing, area resampling, edge repainting or despeckling",
+        "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-09-p24\\scroll_case.png: 7x15, colours 24/64, isolated 0.481, outline 0.842, components 1 (main 1.00)\nPROP_CHECK_FAIL isolated share 0.481 > 0.32\n",
+        "spec": {
+          "height": 0.6
+        }
+      },
+      "glance_verdict": {
+        "passed": false,
+        "note": "Reads as a narrow brown container; rolled paper identity does not survive blur.",
+        "swatches": [
+          "grey stone",
+          "warm wood",
+          "pale plaster"
+        ],
+        "blur_radius_native_px": 1.5,
+        "reviewed_pages": "review-page-1.png through review-page-4.png"
+      },
+      "owner_approval": "not requested; candidates only",
+      "sha256": "d0d85dcdd09afb851a315af120c696afe39cd15017ddfb00fdfd13bb0b57745a",
+      "source_run": "pixel-guild-organic-v2"
+    },
+    "hanging_cuts": {
+      "grid_size_px": [
+        35,
+        40
+      ],
+      "anchor_px": [
+        18,
+        0
+      ],
+      "anchor_kind": "hook_line_top",
+      "real_size_m": {
+        "width": 1.4,
+        "height": 1.6
+      },
+      "size_assumption": "Unspecified single dimension interpreted as height for standing/hanging objects, width for tabletop objects. Half-pixel sizes rounded half-up.",
+      "colour_count": 32,
+      "checker": {
+        "passed": true,
+        "exit_code": 0,
+        "colours": 32,
+        "isolated_share": 0.35,
+        "outline_coverage": 0.868,
+        "components": 1,
+        "main_share": 1,
+        "output": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\grid\\hanging_cuts.png: 35x40, colours 32/64, isolated 0.350, outline 0.868, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+        "limits": {
+          "budget": 64,
+          "isolated": 0.38,
+          "outline": 0.75
+        }
+      },
+      "selected_attempt": "attempt-06-p32",
+      "accepted_attempt": "attempt-06-p32",
+      "status": "candidate_for_owner_review",
+      "identity_reference": "D:\\Storyboards\\Isekai Mercenary Company\\Research\\Atmosphere - Kingdoms of Amalur\\Interiors\\Guild 1.jpg",
+      "processing": {
+        "attempt": 6,
+        "cell": 13,
+        "source_box": [
+          320,
+          885,
+          650,
+          1247
+        ],
+        "grid_xy": [
+          5.750000000000025,
+          5.700000000000024
+        ],
+        "phase_xy": [
+          0.48215736182882774,
+          4.575359872862144
+        ],
+        "periodicity_xy": [
+          0.4110423072418526,
+          0.43801348277173496
+        ],
+        "snapped_size": [
+          52,
+          56
+        ],
+        "grid_size_px": [
+          35,
+          40
+        ],
+        "passed": true,
+        "export": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-06-p32\\hanging_cuts.png",
+        "processing": "magenta key; detected block-centre samples; nearest size fit; nondithered 64-colour palette indexing; no smoothing, area resampling, edge repainting or despeckling",
+        "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-06-p32\\hanging_cuts.png: 35x40, colours 32/64, isolated 0.350, outline 0.868, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+        "spec": {
+          "width": 1.4,
+          "height": 1.6,
+          "organic": true,
+          "anchor": "hook_line_top"
+        }
+      },
+      "glance_verdict": {
+        "passed": true,
+        "note": "Hook rail, two cuts and pelt with legs remain identifiable across all swatches.",
+        "swatches": [
+          "grey stone",
+          "warm wood",
+          "pale plaster"
+        ],
+        "blur_radius_native_px": 1.5,
+        "reviewed_pages": "review-page-1.png through review-page-4.png"
+      },
+      "owner_approval": "not requested; candidates only",
+      "sha256": "72d33b7193dd1c7af6dc338361c28d7bf91ba70cfe71c8bb35e647660d00c471",
+      "source_run": "pixel-guild-organic-v2"
+    },
+    "pelt_stack": {
+      "grid_size_px": [
+        20,
+        22
+      ],
+      "anchor_px": [
+        10,
+        21
+      ],
+      "anchor_kind": "lowest_occupied_row_centre",
+      "real_size_m": {
+        "width": 0.8
+      },
+      "size_assumption": "Unspecified single dimension interpreted as height for standing/hanging objects, width for tabletop objects. Half-pixel sizes rounded half-up.",
+      "colour_count": 32,
+      "checker": {
+        "passed": false,
+        "exit_code": 1,
+        "colours": 32,
+        "isolated_share": 0.524,
+        "outline_coverage": 0.761,
+        "components": 1,
+        "main_share": 1,
+        "output": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\grid\\pelt_stack.png: 20x22, colours 32/64, isolated 0.524, outline 0.761, components 1 (main 1.00)\nPROP_CHECK_FAIL isolated share 0.524 > 0.38\n",
+        "limits": {
+          "budget": 64,
+          "isolated": 0.38,
+          "outline": 0.75
+        }
+      },
+      "selected_attempt": "attempt-06-p32",
+      "accepted_attempt": null,
+      "status": "rejected",
+      "identity_reference": "D:\\Storyboards\\Isekai Mercenary Company\\Research\\Atmosphere - Kingdoms of Amalur\\Interiors\\Guild 1.jpg",
+      "processing": {
+        "attempt": 6,
+        "cell": 14,
+        "source_box": [
+          660,
+          885,
+          950,
+          1247
+        ],
+        "grid_xy": [
+          5.775000000000025,
+          5.700000000000024
+        ],
+        "phase_xy": [
+          3.985903779341161,
+          4.7759959782017685
+        ],
+        "periodicity_xy": [
+          0.5522047168860954,
+          0.4181232019707531
+        ],
+        "snapped_size": [
+          44,
+          49
+        ],
+        "grid_size_px": [
+          20,
+          22
+        ],
+        "passed": false,
+        "export": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-06-p32\\pelt_stack.png",
+        "processing": "magenta key; detected block-centre samples; nearest size fit; nondithered 64-colour palette indexing; no smoothing, area resampling, edge repainting or despeckling",
+        "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-06-p32\\pelt_stack.png: 20x22, colours 32/64, isolated 0.524, outline 0.761, components 1 (main 1.00)\nPROP_CHECK_FAIL isolated share 0.524 > 0.38\n",
+        "spec": {
+          "width": 0.8,
+          "organic": true
+        }
+      },
+      "glance_verdict": {
+        "passed": false,
+        "note": "Loose fur silhouette is visible but two stacked pelts do not read immediately.",
+        "swatches": [
+          "grey stone",
+          "warm wood",
+          "pale plaster"
+        ],
+        "blur_radius_native_px": 1.5,
+        "reviewed_pages": "review-page-1.png through review-page-4.png"
+      },
+      "owner_approval": "not requested; candidates only",
+      "sha256": "5a7b3a94a233f348ec41185d0c6e4fb55aa96e346a2e990b2409a60a10287534",
+      "source_run": "pixel-guild-organic-v2"
+    },
+    "knife_roll": {
+      "grid_size_px": [
+        15,
+        12
+      ],
+      "anchor_px": [
+        10.5,
+        11
+      ],
+      "anchor_kind": "lowest_occupied_row_centre",
+      "real_size_m": {
+        "width": 0.6
+      },
+      "size_assumption": "Unspecified single dimension interpreted as height for standing/hanging objects, width for tabletop objects. Half-pixel sizes rounded half-up.",
+      "colour_count": 24,
+      "checker": {
+        "passed": false,
+        "exit_code": 1,
+        "colours": 24,
+        "isolated_share": 0.426,
+        "outline_coverage": 0.69,
+        "components": 1,
+        "main_share": 1,
+        "output": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\grid\\knife_roll.png: 15x12, colours 24/64, isolated 0.426, outline 0.690, components 1 (main 1.00)\nPROP_CHECK_FAIL isolated share 0.426 > 0.32; outline coverage 0.690 < 0.75\n",
+        "limits": {
+          "budget": 64,
+          "isolated": 0.32,
+          "outline": 0.75
+        }
+      },
+      "selected_attempt": "attempt-09-p24",
+      "accepted_attempt": null,
+      "status": "rejected",
+      "identity_reference": "D:\\Storyboards\\Isekai Mercenary Company\\Research\\Atmosphere - Kingdoms of Amalur\\Interiors\\Guild 1.jpg",
+      "processing": {
+        "attempt": 9,
+        "cell": 5,
+        "source_box": [
+          836,
+          418,
+          1254,
+          836
+        ],
+        "grid_xy": [
+          10.65000000000001,
+          10.225000000000003
+        ],
+        "phase_xy": [
+          6.1329336113098725,
+          9.32615056949264
+        ],
+        "periodicity_xy": [
+          0.16924275232500488,
+          0.4821847420426344
+        ],
+        "snapped_size": [
+          35,
+          30
+        ],
+        "grid_size_px": [
+          15,
+          12
+        ],
+        "passed": false,
+        "export": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-09-p24\\knife_roll.png",
+        "processing": "magenta key; detected block-centre samples; nearest size fit; nondithered 64-colour palette indexing; no smoothing, area resampling, edge repainting or despeckling",
+        "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-09-p24\\knife_roll.png: 15x12, colours 24/64, isolated 0.426, outline 0.690, components 1 (main 1.00)\nPROP_CHECK_FAIL isolated share 0.426 > 0.32; outline coverage 0.690 < 0.75\n",
+        "spec": {
+          "width": 0.6
+        }
+      },
+      "glance_verdict": {
+        "passed": false,
+        "note": "Three blade highlights are clear sharply but disappear after required blur.",
+        "swatches": [
+          "grey stone",
+          "warm wood",
+          "pale plaster"
+        ],
+        "blur_radius_native_px": 1.5,
+        "reviewed_pages": "review-page-1.png through review-page-4.png"
+      },
+      "owner_approval": "not requested; candidates only",
+      "sha256": "44b877f65ad46f22d583edbe057505ddfcb6f9cb37e74bb9eeb73cf625a11856",
+      "source_run": "pixel-guild-organic-v2"
+    },
+    "hanging_herbs": {
+      "grid_size_px": [
+        21,
+        20
+      ],
+      "anchor_px": [
+        10,
+        1
+      ],
+      "anchor_kind": "string_top",
+      "real_size_m": {
+        "height": 0.8
+      },
+      "size_assumption": "Unspecified single dimension interpreted as height for standing/hanging objects, width for tabletop objects. Half-pixel sizes rounded half-up.",
+      "colour_count": 29,
+      "checker": {
+        "passed": false,
+        "exit_code": 1,
+        "colours": 29,
+        "isolated_share": 0.671,
+        "outline_coverage": 0.7,
+        "components": 1,
+        "main_share": 1,
+        "output": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\grid\\hanging_herbs.png: 21x20, colours 29/64, isolated 0.671, outline 0.700, components 1 (main 1.00)\nPROP_CHECK_FAIL isolated share 0.671 > 0.38; outline coverage 0.700 < 0.75\n",
+        "limits": {
+          "budget": 64,
+          "isolated": 0.38,
+          "outline": 0.75
+        }
+      },
+      "selected_attempt": "attempt-07-p32",
+      "accepted_attempt": null,
+      "status": "rejected",
+      "identity_reference": "D:\\Storyboards\\Isekai Mercenary Company\\Environment Assets\\Eurydica\\Approved Fantasy Plants v1\\plants\\silverleaf-herb-a.png",
+      "processing": {
+        "attempt": 7,
+        "cell": 5,
+        "source_box": [
+          965,
+          543,
+          1448,
+          1086
+        ],
+        "grid_xy": [
+          8.150000000000002,
+          8.800000000000011
+        ],
+        "phase_xy": [
+          4.8215262838293,
+          7.688839201144795
+        ],
+        "periodicity_xy": [
+          0.27678920251128514,
+          0.28528403062299507
+        ],
+        "snapped_size": [
+          55,
+          48
+        ],
+        "grid_size_px": [
+          21,
+          20
+        ],
+        "passed": false,
+        "export": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-07-p32\\hanging_herbs.png",
+        "processing": "magenta key; detected block-centre samples; nearest size fit; nondithered 64-colour palette indexing; no smoothing, area resampling, edge repainting or despeckling",
+        "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-guild-organic-v2\\attempts\\attempt-07-p32\\hanging_herbs.png: 21x20, colours 29/64, isolated 0.671, outline 0.700, components 1 (main 1.00)\nPROP_CHECK_FAIL isolated share 0.671 > 0.38; outline coverage 0.700 < 0.75\n",
+        "spec": {
+          "height": 0.8,
+          "organic": true,
+          "anchor": "string_top"
+        }
+      },
+      "glance_verdict": {
+        "passed": true,
+        "note": "Three tied hanging bunches remain distinguishable; string and foliage have weak edges.",
+        "swatches": [
+          "grey stone",
+          "warm wood",
+          "pale plaster"
+        ],
+        "blur_radius_native_px": 1.5,
+        "reviewed_pages": "review-page-1.png through review-page-4.png"
+      },
+      "owner_approval": "not requested; candidates only",
+      "sha256": "eef7e7fc93a34872f8678c0946d887b1955a84b5eadfe518179592ab688519f7",
+      "source_run": "pixel-guild-organic-v2"
+    },
+    "tankard": {
+      "attempt": 5,
+      "source_box": [
+        0,
+        0,
+        724,
+        543
+      ],
+      "grid_xy": [
+        18.325000000000188,
+        18.850000000000197
+      ],
+      "phase_xy": [
+        12.677568400556028,
+        13.557707070588187
+      ],
+      "periodicity_xy": [
+        0.7170647314799241,
+        0.59516472663352
+      ],
+      "snapped_size": [
+        24,
+        22
+      ],
+      "grid_size_px": [
+        16,
+        15
+      ],
+      "passed": true,
+      "export": "D:\\Codex\\IMC\\runs\\pixel-annex-tavern-v1\\attempts\\attempt-05-p12-v2\\tankard.png",
+      "palette_budget": 12,
+      "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-annex-tavern-v1\\attempts\\attempt-05-p12-v2\\tankard.png: 16x15, colours 12/64, isolated 0.107, outline 0.814, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+      "real_size_m": 0.4,
+      "size_axis": "height",
+      "scale_exaggeration": 1.5,
+      "anchor_px": [
+        6,
+        14
+      ],
+      "anchor_kind": "centre of lowest occupied row",
+      "colour_count": 12,
+      "checker_numbers": {
+        "isolated": 0.107,
+        "outline": 0.814,
+        "components": 1,
+        "main_share": 1
+      },
+      "checker_result": "PROP_CHECK_PASS",
+      "accepted_attempt": "attempt-05-p12-v2",
+      "approval": "candidate",
+      "glance_test": "PASS: pale lid, broad wooden body and separate right loop read as a tankard; loop interior softens under blur. Clear improvement over small-v1.",
+      "display_extent_m": [
+        0.64,
+        0.6
+      ],
+      "source_run": "pixel-annex-tavern-v1"
+    },
+    "bread_plate": {
+      "grid_size_px": [
+        13,
+        10
+      ],
+      "anchor_px": [
+        7,
+        9
+      ],
+      "anchor_kind": "lowest_occupied_row_centre",
+      "real_size_m": {
+        "width": 0.5
+      },
+      "size_note": "Task sizes already include oversized treatment; 25 px/m rounded half-up. Unspecified axis interpreted as height for standing props.",
+      "colour_count": 12,
+      "checker": {
+        "passed": true,
+        "colours": 12,
+        "isolated_share": 0.455,
+        "outline_coverage": 0.893,
+        "components": 1,
+        "main_share": 1,
+        "output": "D:\\Codex\\IMC\\runs\\pixel-guild-small-v1\\grid\\bread_plate.png: 13x10, colours 12/64, isolated 0.455, outline 0.893, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+        "limits": {
+          "budget": 64,
+          "isolated": 0.48,
+          "outline": 0.7
+        }
+      },
+      "selected_attempt": "attempt-02-p12",
+      "accepted_attempt": "attempt-02-p12",
+      "status": "candidate_for_owner_review",
+      "glance_verdict": {
+        "passed": true,
+        "note": "Round golden loaf over a broad dark board remains distinct on all three swatches; scoring softens."
+      },
+      "processing": {
+        "attempt": 2,
+        "cell": 1,
+        "source_box": [
+          371,
+          114,
+          711,
+          388
+        ],
+        "grid_xy": [
+          13.42500000000012,
+          12.72500000000011
+        ],
+        "phase_xy": [
+          11.3409127164959,
+          11.382997131445528
+        ],
+        "periodicity_xy": [
+          0.8190989909100744,
+          0.8696204057917035
+        ],
+        "snapped_size": [
+          24,
+          20
+        ],
+        "grid_size_px": [
+          13,
+          10
+        ],
+        "passed": true,
+        "export": "D:\\Codex\\IMC\\runs\\pixel-guild-small-v1\\attempts\\attempt-02-p12\\bread_plate.png",
+        "palette_budget": 12,
+        "processing": "magenta key; detected block-centre samples; nearest size fit; nondithered palette indexing; no area resampling or despeckle",
+        "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-guild-small-v1\\attempts\\attempt-02-p12\\bread_plate.png: 13x10, colours 12/64, isolated 0.455, outline 0.893, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+        "spec": {
+          "width": 0.5,
+          "old": "mugs_plates",
+          "organic": true
+        },
+        "nearest_fit": "endpoint-preserving"
+      },
+      "comparison_v2": "mugs_plates",
+      "comparison_note": "replacement",
+      "identity_reference": "references/room.png",
+      "owner_approval": "pending; candidates only",
+      "source_run": "pixel-guild-small-v1"
+    },
+    "candle": {
+      "grid_size_px": [
+        9,
+        10
+      ],
+      "anchor_px": [
+        4,
+        9
+      ],
+      "anchor_kind": "lowest_occupied_row_centre",
+      "real_size_m": {
+        "height": 0.4
+      },
+      "size_note": "Task sizes already include oversized treatment; 25 px/m rounded half-up. Unspecified axis interpreted as height for standing props.",
+      "colour_count": 11,
+      "checker": {
+        "passed": true,
+        "colours": 11,
+        "isolated_share": 0.312,
+        "outline_coverage": 0.727,
+        "components": 1,
+        "main_share": 1,
+        "output": "D:\\Codex\\IMC\\runs\\pixel-guild-small-v1\\grid\\candle.png: 9x10, colours 11/64, isolated 0.312, outline 0.727, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+        "limits": {
+          "budget": 64,
+          "isolated": 0.4,
+          "outline": 0.7
+        }
+      },
+      "selected_attempt": "attempt-04-p12",
+      "accepted_attempt": "attempt-04-p12",
+      "status": "candidate_for_owner_review",
+      "glance_verdict": {
+        "passed": true,
+        "note": "Single upright warm light mass and broad brass base survive blur; clear improvement over the old cluster."
+      },
+      "processing": {
+        "attempt": 4,
+        "cell": 0,
+        "source_box": [
+          110,
+          112,
+          422,
+          464
+        ],
+        "grid_xy": [
+          15.625000000000151,
+          13.575000000000122
+        ],
+        "phase_xy": [
+          6.664786068241466,
+          3.057839711504408
+        ],
+        "periodicity_xy": [
+          0.5226114611185102,
+          0.558079483910725
+        ],
+        "snapped_size": [
+          19,
+          24
+        ],
+        "grid_size_px": [
+          9,
+          10
+        ],
+        "passed": true,
+        "export": "D:\\Codex\\IMC\\runs\\pixel-guild-small-v1\\attempts\\attempt-04-p12\\candle.png",
+        "palette_budget": 12,
+        "processing": "magenta key; detected block-centre samples; nearest size fit; nondithered palette indexing; no area resampling or despeckle",
+        "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-guild-small-v1\\attempts\\attempt-04-p12\\candle.png: 9x10, colours 11/64, isolated 0.312, outline 0.727, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+        "spec": {
+          "height": 0.4,
+          "old": "candle_cluster"
+        },
+        "nearest_fit": "endpoint-preserving"
+      },
+      "comparison_v2": "candle_cluster",
+      "comparison_note": "replacement",
+      "identity_reference": "references/room.png",
+      "owner_approval": "pending; candidates only",
+      "source_run": "pixel-guild-small-v1"
+    },
+    "book_closed": {
+      "grid_size_px": [
+        11,
+        6
+      ],
+      "anchor_px": [
+        5,
+        5
+      ],
+      "anchor_kind": "lowest_occupied_row_centre",
+      "real_size_m": {
+        "width": 0.45
+      },
+      "size_note": "Task sizes already include oversized treatment; 25 px/m rounded half-up. Unspecified axis interpreted as height for standing props.",
+      "colour_count": 22,
+      "checker": {
+        "passed": true,
+        "colours": 22,
+        "isolated_share": 0.206,
+        "outline_coverage": 0.862,
+        "components": 1,
+        "main_share": 1,
+        "output": "D:\\Codex\\IMC\\runs\\pixel-guild-small-v1\\grid\\book_closed.png: 11x6, colours 22/64, isolated 0.206, outline 0.862, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+        "limits": {
+          "budget": 64,
+          "isolated": 0.4,
+          "outline": 0.7
+        }
+      },
+      "selected_attempt": "attempt-04-p24-centre",
+      "accepted_attempt": "attempt-04-p24-centre",
+      "status": "candidate_for_owner_review",
+      "glance_verdict": {
+        "passed": true,
+        "note": "Horizontal navy cover and pale page band retain the closed-book mass; tiny hardware is visible only sharply."
+      },
+      "processing": {
+        "attempt": 4,
+        "cell": 0,
+        "source_box": [
+          570,
+          208,
+          966,
+          437
+        ],
+        "grid_xy": [
+          15.650000000000151,
+          15.075000000000143
+        ],
+        "phase_xy": [
+          10.355041294937529,
+          9.908544993094697
+        ],
+        "periodicity_xy": [
+          0.932375165092393,
+          0.8843149587454979
+        ],
+        "snapped_size": [
+          24,
+          14
+        ],
+        "grid_size_px": [
+          11,
+          6
+        ],
+        "passed": true,
+        "export": "D:\\Codex\\IMC\\runs\\pixel-guild-small-v1\\attempts\\attempt-04-p24-centre\\book_closed.png",
+        "palette_budget": 24,
+        "processing": "magenta key; detected block-centre samples; nearest size fit; nondithered palette indexing; no area resampling or despeckle",
+        "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-guild-small-v1\\attempts\\attempt-04-p24-centre\\book_closed.png: 11x6, colours 22/64, isolated 0.206, outline 0.862, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+        "spec": {
+          "width": 0.45,
+          "old": "ledger_open"
+        },
+        "nearest_fit": "centre-aligned"
+      },
+      "comparison_v2": "ledger_open",
+      "comparison_note": "replacement",
+      "identity_reference": "references/room.png",
+      "owner_approval": "pending; candidates only",
+      "source_run": "pixel-guild-small-v1"
+    },
+    "quill_ink": {
+      "grid_size_px": [
+        8,
+        10
+      ],
+      "anchor_px": [
+        5,
+        9
+      ],
+      "anchor_kind": "lowest_occupied_row_centre",
+      "real_size_m": {
+        "height": 0.4
+      },
+      "size_note": "Task sizes already include oversized treatment; 25 px/m rounded half-up. Unspecified axis interpreted as height for standing props.",
+      "colour_count": 12,
+      "checker": {
+        "passed": true,
+        "colours": 12,
+        "isolated_share": 0.356,
+        "outline_coverage": 0.917,
+        "components": 1,
+        "main_share": 1,
+        "output": "D:\\Codex\\IMC\\runs\\pixel-guild-small-v1\\grid\\quill_ink.png: 8x10, colours 12/64, isolated 0.356, outline 0.917, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+        "limits": {
+          "budget": 64,
+          "isolated": 0.4,
+          "outline": 0.7
+        }
+      },
+      "selected_attempt": "attempt-04-p12-centre",
+      "accepted_attempt": "attempt-04-p12-centre",
+      "status": "candidate_for_owner_review",
+      "glance_verdict": {
+        "passed": true,
+        "note": "Broad diagonal ivory feather and dark blue inkpot remain separate value masses; fine barbs are omitted."
+      },
+      "processing": {
+        "attempt": 4,
+        "cell": 3,
+        "source_box": [
+          72,
+          527,
+          399,
+          946
+        ],
+        "grid_xy": [
+          15.350000000000147,
+          14.575000000000136
+        ],
+        "phase_xy": [
+          9.416787183967593,
+          10.307769448077977
+        ],
+        "periodicity_xy": [
+          0.8224417795809347,
+          0.4800862155125191
+        ],
+        "snapped_size": [
+          20,
+          27
+        ],
+        "grid_size_px": [
+          8,
+          10
+        ],
+        "passed": true,
+        "export": "D:\\Codex\\IMC\\runs\\pixel-guild-small-v1\\attempts\\attempt-04-p12-centre\\quill_ink.png",
+        "palette_budget": 12,
+        "processing": "magenta key; detected block-centre samples; nearest size fit; nondithered palette indexing; no area resampling or despeckle",
+        "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-guild-small-v1\\attempts\\attempt-04-p12-centre\\quill_ink.png: 8x10, colours 12/64, isolated 0.356, outline 0.917, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+        "spec": {
+          "height": 0.4,
+          "old": "ledger_open",
+          "comparison": "related writing prop; additional item"
+        },
+        "nearest_fit": "centre-aligned"
+      },
+      "comparison_v2": "ledger_open",
+      "comparison_note": "related writing prop; additional item",
+      "identity_reference": "references/room.png",
+      "owner_approval": "pending; candidates only",
+      "source_run": "pixel-guild-small-v1"
+    },
+    "map_roll": {
+      "grid_size_px": [
+        15,
+        8
+      ],
+      "anchor_px": [
+        9,
+        7
+      ],
+      "anchor_kind": "lowest_occupied_row_centre",
+      "real_size_m": {
+        "width": 0.6
+      },
+      "size_note": "Task sizes already include oversized treatment; 25 px/m rounded half-up. Unspecified axis interpreted as height for standing props.",
+      "colour_count": 12,
+      "checker": {
+        "passed": true,
+        "colours": 12,
+        "isolated_share": 0.301,
+        "outline_coverage": 0.781,
+        "components": 1,
+        "main_share": 1,
+        "output": "D:\\Codex\\IMC\\runs\\pixel-guild-small-v1\\grid\\map_roll.png: 15x8, colours 12/64, isolated 0.301, outline 0.781, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+        "limits": {
+          "budget": 64,
+          "isolated": 0.4,
+          "outline": 0.7
+        }
+      },
+      "selected_attempt": "attempt-02-p12",
+      "accepted_attempt": "attempt-02-p12",
+      "status": "candidate_for_owner_review",
+      "glance_verdict": {
+        "passed": true,
+        "note": "Horizontal pale roll, dark curled end and central red tie remain separated after blur."
+      },
+      "processing": {
+        "attempt": 2,
+        "cell": 5,
+        "source_box": [
+          340,
+          497,
+          711,
+          711
+        ],
+        "grid_xy": [
+          11.700000000000095,
+          12.100000000000101
+        ],
+        "phase_xy": [
+          9.971207705944135,
+          10.523403355925852
+        ],
+        "periodicity_xy": [
+          0.6492424907894137,
+          0.7660096038942124
+        ],
+        "snapped_size": [
+          30,
+          16
+        ],
+        "grid_size_px": [
+          15,
+          8
+        ],
+        "passed": true,
+        "export": "D:\\Codex\\IMC\\runs\\pixel-guild-small-v1\\attempts\\attempt-02-p12\\map_roll.png",
+        "palette_budget": 12,
+        "processing": "magenta key; detected block-centre samples; nearest size fit; nondithered palette indexing; no area resampling or despeckle",
+        "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-guild-small-v1\\attempts\\attempt-02-p12\\map_roll.png: 15x8, colours 12/64, isolated 0.301, outline 0.781, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+        "spec": {
+          "width": 0.6,
+          "old": "scroll_case"
+        },
+        "nearest_fit": "endpoint-preserving"
+      },
+      "comparison_v2": "scroll_case",
+      "comparison_note": "replacement",
+      "identity_reference": "references/room.png",
+      "owner_approval": "pending; candidates only",
+      "source_run": "pixel-guild-small-v1"
+    },
+    "cleaver": {
+      "grid_size_px": [
+        13,
+        6
+      ],
+      "anchor_px": [
+        3.5,
+        5
+      ],
+      "anchor_kind": "lowest_occupied_row_centre",
+      "real_size_m": {
+        "width": 0.5
+      },
+      "size_note": "Task sizes already include oversized treatment; 25 px/m rounded half-up. Unspecified axis interpreted as height for standing props.",
+      "colour_count": 11,
+      "checker": {
+        "passed": true,
+        "colours": 11,
+        "isolated_share": 0.113,
+        "outline_coverage": 0.966,
+        "components": 1,
+        "main_share": 1,
+        "output": "D:\\Codex\\IMC\\runs\\pixel-guild-small-v1\\grid\\cleaver.png: 13x6, colours 11/64, isolated 0.113, outline 0.966, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+        "limits": {
+          "budget": 64,
+          "isolated": 0.4,
+          "outline": 0.7
+        }
+      },
+      "selected_attempt": "attempt-03-p12",
+      "accepted_attempt": "attempt-03-p12",
+      "status": "candidate_for_owner_review",
+      "glance_verdict": {
+        "passed": true,
+        "note": "Broad bright rectangular blade and short dark handle remain distinct after blur on every swatch."
+      },
+      "processing": {
+        "attempt": 3,
+        "cell": 3,
+        "source_box": [
+          512,
+          512,
+          1024,
+          1024
+        ],
+        "grid_xy": [
+          7.975000000000042,
+          15.850000000000154
+        ],
+        "phase_xy": [
+          1.2889118266861106,
+          12.847322657798925
+        ],
+        "periodicity_xy": [
+          0.7355506318602499,
+          0.7330444959844552
+        ],
+        "snapped_size": [
+          54,
+          13
+        ],
+        "grid_size_px": [
+          13,
+          6
+        ],
+        "passed": true,
+        "export": "D:\\Codex\\IMC\\runs\\pixel-guild-small-v1\\attempts\\attempt-03-p12\\cleaver.png",
+        "palette_budget": 12,
+        "processing": "magenta key; detected block-centre samples; nearest size fit; nondithered palette indexing; no area resampling or despeckle",
+        "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-guild-small-v1\\attempts\\attempt-03-p12\\cleaver.png: 13x6, colours 11/64, isolated 0.113, outline 0.966, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+        "spec": {
+          "width": 0.5,
+          "old": "knife_roll"
+        },
+        "nearest_fit": "endpoint-preserving"
+      },
+      "comparison_v2": "knife_roll",
+      "comparison_note": "replacement",
+      "identity_reference": "references/room.png",
+      "owner_approval": "pending; candidates only",
+      "source_run": "pixel-guild-small-v1"
+    },
+    "lantern_cap_pot": {
+      "grid_size_px": [
+        21,
+        13
+      ],
+      "anchor_px": [
+        11,
+        12
+      ],
+      "anchor_kind": "lowest_occupied_row_centre",
+      "real_size_m": {
+        "height": 0.5
+      },
+      "size_note": "Task sizes already include oversized treatment; 25 px/m rounded half-up. Unspecified axis interpreted as height for standing props.",
+      "colour_count": 12,
+      "checker": {
+        "passed": true,
+        "colours": 12,
+        "isolated_share": 0.379,
+        "outline_coverage": 0.797,
+        "components": 1,
+        "main_share": 1,
+        "output": "D:\\Codex\\IMC\\runs\\pixel-guild-small-v1\\grid\\lantern_cap_pot.png: 21x13, colours 12/64, isolated 0.379, outline 0.797, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+        "limits": {
+          "budget": 64,
+          "isolated": 0.48,
+          "outline": 0.7
+        }
+      },
+      "selected_attempt": "attempt-05-p12",
+      "accepted_attempt": "attempt-05-p12",
+      "status": "candidate_for_owner_review",
+      "glance_verdict": {
+        "passed": true,
+        "note": "Wide offset gold caps, pale stems and clay base survive as distinct masses; small cap is softer on plaster."
+      },
+      "processing": {
+        "attempt": 5,
+        "cell": 1,
+        "source_box": [
+          624,
+          53,
+          1426,
+          563
+        ],
+        "grid_xy": [
+          10.67500000000008,
+          17.950000000000184
+        ],
+        "phase_xy": [
+          9.005181656660154,
+          11.872848305882556
+        ],
+        "periodicity_xy": [
+          0.5487422454473452,
+          0.6433734660355632
+        ],
+        "snapped_size": [
+          73,
+          27
+        ],
+        "grid_size_px": [
+          21,
+          13
+        ],
+        "passed": true,
+        "export": "D:\\Codex\\IMC\\runs\\pixel-guild-small-v1\\attempts\\attempt-05-p12\\lantern_cap_pot.png",
+        "palette_budget": 12,
+        "processing": "magenta key; detected block-centre samples; nearest size fit; nondithered palette indexing; no area resampling or despeckle",
+        "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-guild-small-v1\\attempts\\attempt-05-p12\\lantern_cap_pot.png: 21x13, colours 12/64, isolated 0.379, outline 0.797, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+        "spec": {
+          "height": 0.5,
+          "old": "planter_lantern_cap",
+          "organic": true
+        },
+        "nearest_fit": "endpoint-preserving"
+      },
+      "comparison_v2": "planter_lantern_cap",
+      "comparison_note": "replacement",
+      "identity_reference": "references/v2-style-identity.png",
+      "owner_approval": "pending; candidates only",
+      "source_run": "pixel-guild-small-v1"
+    },
+    "silverleaf_pot": {
+      "grid_size_px": [
+        14,
+        15
+      ],
+      "anchor_px": [
+        7,
+        14
+      ],
+      "anchor_kind": "lowest_occupied_row_centre",
+      "real_size_m": {
+        "height": 0.6
+      },
+      "size_note": "Task sizes already include oversized treatment; 25 px/m rounded half-up. Unspecified axis interpreted as height for standing props.",
+      "colour_count": 12,
+      "checker": {
+        "passed": true,
+        "colours": 12,
+        "isolated_share": 0.276,
+        "outline_coverage": 0.86,
+        "components": 1,
+        "main_share": 1,
+        "output": "D:\\Codex\\IMC\\runs\\pixel-guild-small-v1\\grid\\silverleaf_pot.png: 14x15, colours 12/64, isolated 0.276, outline 0.860, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+        "limits": {
+          "budget": 64,
+          "isolated": 0.48,
+          "outline": 0.7
+        }
+      },
+      "selected_attempt": "attempt-02-p12",
+      "accepted_attempt": "attempt-02-p12",
+      "status": "candidate_for_owner_review",
+      "glance_verdict": {
+        "passed": true,
+        "note": "Three broad silver leaves retain a lobed pale crown above the darker clay pot; leaf tips soften."
+      },
+      "processing": {
+        "attempt": 2,
+        "cell": 8,
+        "source_box": [
+          12,
+          723,
+          341,
+          1067
+        ],
+        "grid_xy": [
+          12.0500000000001,
+          12.0750000000001
+        ],
+        "phase_xy": [
+          9.248461277001866,
+          8.683559305757072
+        ],
+        "periodicity_xy": [
+          0.6554613594575297,
+          0.6463123094525345
+        ],
+        "snapped_size": [
+          26,
+          27
+        ],
+        "grid_size_px": [
+          14,
+          15
+        ],
+        "passed": true,
+        "export": "D:\\Codex\\IMC\\runs\\pixel-guild-small-v1\\attempts\\attempt-02-p12\\silverleaf_pot.png",
+        "palette_budget": 12,
+        "processing": "magenta key; detected block-centre samples; nearest size fit; nondithered palette indexing; no area resampling or despeckle",
+        "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-guild-small-v1\\attempts\\attempt-02-p12\\silverleaf_pot.png: 14x15, colours 12/64, isolated 0.276, outline 0.860, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+        "spec": {
+          "height": 0.6,
+          "old": "planter_silverleaf",
+          "organic": true
+        },
+        "nearest_fit": "endpoint-preserving"
+      },
+      "comparison_v2": "planter_silverleaf",
+      "comparison_note": "replacement",
+      "identity_reference": "references/v2-style-identity.png",
+      "owner_approval": "pending; candidates only",
+      "source_run": "pixel-guild-small-v1"
+    },
+    "notices": {
+      "grid_size_px": [
+        30,
+        14
+      ],
+      "anchor_px": [
+        14.5,
+        6.5
+      ],
+      "anchor_kind": "centre",
+      "real_size_m": {
+        "width": 1.2
+      },
+      "size_note": "Task sizes already include oversized treatment; 25 px/m rounded half-up. Unspecified axis interpreted as height for standing props.",
+      "colour_count": 12,
+      "checker": {
+        "passed": true,
+        "colours": 12,
+        "isolated_share": 0.156,
+        "outline_coverage": 0.78,
+        "components": 1,
+        "main_share": 1,
+        "output": "D:\\Codex\\IMC\\runs\\pixel-guild-small-v1\\grid\\notices.png: 30x14, colours 12/64, isolated 0.156, outline 0.780, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+        "limits": {
+          "budget": 64,
+          "isolated": 0.4,
+          "outline": 0.7
+        }
+      },
+      "selected_attempt": "attempt-04-p12",
+      "accepted_attempt": "attempt-04-p12",
+      "status": "candidate_for_owner_review",
+      "glance_verdict": {
+        "passed": true,
+        "note": "Three individual cream rectangles remain separated by dark boundaries after blur; pins and string soften."
+      },
+      "processing": {
+        "attempt": 4,
+        "cell": 5,
+        "source_box": [
+          963,
+          631,
+          1513,
+          891
+        ],
+        "grid_xy": [
+          12.0500000000001,
+          11.800000000000097
+        ],
+        "phase_xy": [
+          10.012356834602647,
+          0.6173591182714508
+        ],
+        "periodicity_xy": [
+          0.6603272447509206,
+          0.3476751320298379
+        ],
+        "snapped_size": [
+          44,
+          20
+        ],
+        "grid_size_px": [
+          30,
+          14
+        ],
+        "passed": true,
+        "export": "D:\\Codex\\IMC\\runs\\pixel-guild-small-v1\\attempts\\attempt-04-p12\\notices.png",
+        "palette_budget": 12,
+        "processing": "magenta key; detected block-centre samples; nearest size fit; nondithered palette indexing; no area resampling or despeckle",
+        "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-guild-small-v1\\attempts\\attempt-04-p12\\notices.png: 30x14, colours 12/64, isolated 0.156, outline 0.780, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+        "spec": {
+          "width": 1.2,
+          "old": "papers_pinned",
+          "anchor": "centre"
+        },
+        "nearest_fit": "endpoint-preserving"
+      },
+      "comparison_v2": "papers_pinned",
+      "comparison_note": "replacement",
+      "identity_reference": "references/room.png",
+      "owner_approval": "pending; candidates only",
+      "source_run": "pixel-guild-small-v1"
+    },
+    "seal_letter": {
+      "attempt": 1,
+      "source_box": [
+        768,
+        0,
+        1536,
+        512
+      ],
+      "grid_xy": [
+        12.125000000000101,
+        11.600000000000094
+      ],
+      "phase_xy": [
+        11.242641608835402,
+        5.669274680708031
+      ],
+      "periodicity_xy": [
+        0.6521629454375999,
+        0.6810861171793251
+      ],
+      "snapped_size": [
+        29,
+        17
+      ],
+      "grid_size_px": [
+        15,
+        9
+      ],
+      "passed": true,
+      "export": "D:\\Codex\\IMC\\runs\\pixel-annex-tavern-v1\\attempts\\attempt-01-p12\\seal_letter.png",
+      "palette_budget": 12,
+      "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-annex-tavern-v1\\attempts\\attempt-01-p12\\seal_letter.png: 15x9, colours 12/64, isolated 0.176, outline 1.000, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+      "real_size_m": 0.4,
+      "size_axis": "width",
+      "scale_exaggeration": 1.5,
+      "anchor_px": [
+        7,
+        8
+      ],
+      "anchor_kind": "centre of lowest occupied row",
+      "colour_count": 12,
+      "checker_numbers": {
+        "isolated": 0.176,
+        "outline": 1,
+        "components": 1,
+        "main_share": 1
+      },
+      "checker_result": "PROP_CHECK_PASS",
+      "accepted_attempt": "attempt-01-p12",
+      "approval": "candidate",
+      "glance_test": "PASS: horizontal cream rectangle and large red centre remain distinct under blur. Clear improvement over old square icon.",
+      "display_extent_m": [
+        0.6,
+        0.36
+      ],
+      "source_run": "pixel-annex-tavern-v1"
+    },
+    "coin_pouch": {
+      "grid_size_px": [
+        14,
+        9
+      ],
+      "anchor_px": [
+        8,
+        8
+      ],
+      "anchor_kind": "lowest_occupied_row_centre",
+      "real_size_m": {
+        "height": 0.35
+      },
+      "size_note": "Task sizes already include oversized treatment; 25 px/m rounded half-up. Unspecified axis interpreted as height for standing props.",
+      "colour_count": 8,
+      "checker": {
+        "passed": true,
+        "colours": 8,
+        "isolated_share": 0.366,
+        "outline_coverage": 0.839,
+        "components": 1,
+        "main_share": 1,
+        "output": "D:\\Codex\\IMC\\runs\\pixel-guild-small-v1\\grid\\coin_pouch.png: 14x9, colours 8/64, isolated 0.366, outline 0.839, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+        "limits": {
+          "budget": 64,
+          "isolated": 0.4,
+          "outline": 0.7
+        }
+      },
+      "selected_attempt": "attempt-05-p8",
+      "accepted_attempt": "attempt-05-p8",
+      "status": "candidate_for_owner_review",
+      "glance_verdict": {
+        "passed": true,
+        "note": "Broad brown sack and offset gold spill stay distinct after blur; drawstring details disappear as expected."
+      },
+      "processing": {
+        "attempt": 5,
+        "cell": 1,
+        "source_box": [
+          690,
+          584,
+          1404,
+          1050
+        ],
+        "grid_xy": [
+          21.67500000000024,
+          16.575000000000166
+        ],
+        "phase_xy": [
+          8.996007273752312,
+          8.082340399370931
+        ],
+        "periodicity_xy": [
+          0.5118133733772599,
+          0.4429792019960219
+        ],
+        "snapped_size": [
+          32,
+          27
+        ],
+        "grid_size_px": [
+          14,
+          9
+        ],
+        "passed": true,
+        "export": "D:\\Codex\\IMC\\runs\\pixel-guild-small-v1\\attempts\\attempt-05-p8\\coin_pouch.png",
+        "palette_budget": 8,
+        "processing": "magenta key; detected block-centre samples; nearest size fit; nondithered palette indexing; no area resampling or despeckle",
+        "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-guild-small-v1\\attempts\\attempt-05-p8\\coin_pouch.png: 14x9, colours 8/64, isolated 0.366, outline 0.839, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+        "spec": {
+          "height": 0.35,
+          "old": "mugs_plates",
+          "comparison": "tabletop clutter comparison; additional item"
+        },
+        "nearest_fit": "endpoint-preserving"
+      },
+      "comparison_v2": "mugs_plates",
+      "comparison_note": "tabletop clutter comparison; additional item",
+      "identity_reference": "references/room.png",
+      "owner_approval": "pending; candidates only",
+      "source_run": "pixel-guild-small-v1"
+    },
+    "scale": {
+      "attempt": 1,
+      "source_box": [
+        0,
+        512,
+        768,
+        1024
+      ],
+      "grid_xy": [
+        11.800000000000097,
+        11.850000000000097
+      ],
+      "phase_xy": [
+        5.831923232461737,
+        1.292261474939848
+      ],
+      "periodicity_xy": [
+        0.7376686419837328,
+        0.49485077858227383
+      ],
+      "snapped_size": [
+        44,
+        36
+      ],
+      "grid_size_px": [
+        19,
+        16
+      ],
+      "passed": true,
+      "export": "D:\\Codex\\IMC\\runs\\pixel-annex-tavern-v1\\attempts\\attempt-01-p12\\scale.png",
+      "palette_budget": 12,
+      "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-annex-tavern-v1\\attempts\\attempt-01-p12\\scale.png: 19x16, colours 12/64, isolated 0.355, outline 0.792, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+      "real_size_m": 0.5,
+      "size_axis": "width",
+      "scale_exaggeration": 1.5,
+      "anchor_px": [
+        9,
+        15
+      ],
+      "anchor_kind": "centre of lowest occupied row",
+      "colour_count": 12,
+      "checker_numbers": {
+        "isolated": 0.355,
+        "outline": 0.792,
+        "components": 1,
+        "main_share": 1
+      },
+      "checker_result": "PROP_CHECK_PASS",
+      "accepted_attempt": "attempt-01-p12",
+      "approval": "candidate",
+      "glance_test": "PASS: central stem with two balanced side pans retains the balance silhouette.",
+      "display_extent_m": [
+        0.76,
+        0.64
+      ],
+      "source_run": "pixel-annex-tavern-v1"
+    },
+    "ledger_stack": {
+      "attempt": 1,
+      "source_box": [
+        768,
+        512,
+        1536,
+        1024
+      ],
+      "grid_xy": [
+        11.500000000000092,
+        11.600000000000094
+      ],
+      "phase_xy": [
+        2.6473823842087354,
+        7.713081216132968
+      ],
+      "periodicity_xy": [
+        0.5058794604781168,
+        0.6814526888475716
+      ],
+      "snapped_size": [
+        42,
+        34
+      ],
+      "grid_size_px": [
+        17,
+        14
+      ],
+      "passed": true,
+      "export": "D:\\Codex\\IMC\\runs\\pixel-annex-tavern-v1\\attempts\\attempt-01-p12\\ledger_stack.png",
+      "palette_budget": 12,
+      "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-annex-tavern-v1\\attempts\\attempt-01-p12\\ledger_stack.png: 17x14, colours 12/64, isolated 0.316, outline 0.804, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+      "real_size_m": 0.45,
+      "size_axis": "width",
+      "scale_exaggeration": 1.5,
+      "anchor_px": [
+        10,
+        13
+      ],
+      "anchor_kind": "centre of lowest occupied row",
+      "colour_count": 12,
+      "checker_numbers": {
+        "isolated": 0.316,
+        "outline": 0.804,
+        "components": 1,
+        "main_share": 1
+      },
+      "checker_result": "PROP_CHECK_PASS",
+      "accepted_attempt": "attempt-01-p12",
+      "approval": "candidate",
+      "glance_test": "PASS: stepped rectangular book mass and pale page edges remain; individual cover colours soften.",
+      "display_extent_m": [
+        0.68,
+        0.56
+      ],
+      "source_run": "pixel-annex-tavern-v1"
+    },
+    "bottle_row": {
+      "attempt": 2,
+      "source_box": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "grid_xy": [
+        6.450000000000021,
+        6.075000000000015
+      ],
+      "phase_xy": [
+        3.7287642555942195,
+        1.5159965722347788
+      ],
+      "periodicity_xy": [
+        0.40868471255858174,
+        0.4564018534383237
+      ],
+      "snapped_size": [
+        62,
+        50
+      ],
+      "grid_size_px": [
+        23,
+        19
+      ],
+      "passed": true,
+      "export": "D:\\Codex\\IMC\\runs\\pixel-annex-tavern-v1\\attempts\\attempt-02-p12\\bottle_row.png",
+      "palette_budget": 12,
+      "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-annex-tavern-v1\\attempts\\attempt-02-p12\\bottle_row.png: 23x19, colours 12/64, isolated 0.361, outline 0.747, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+      "real_size_m": 0.9,
+      "size_axis": "width",
+      "scale_exaggeration": 1,
+      "anchor_px": [
+        11,
+        18
+      ],
+      "anchor_kind": "centre of lowest occupied row",
+      "colour_count": 12,
+      "checker_numbers": {
+        "isolated": 0.361,
+        "outline": 0.747,
+        "components": 1,
+        "main_share": 1
+      },
+      "checker_result": "PROP_CHECK_PASS",
+      "accepted_attempt": "attempt-02-p12",
+      "approval": "candidate",
+      "glance_test": "PASS: four unequal necks and colored bodies read as a bottle row.",
+      "display_extent_m": [
+        0.92,
+        0.76
+      ],
+      "source_run": "pixel-annex-tavern-v1"
+    },
+    "potion_row": {
+      "attempt": 6,
+      "source_box": [
+        648,
+        0,
+        1297,
+        590
+      ],
+      "grid_xy": [
+        13.987500000000137,
+        16.26250000000017
+      ],
+      "phase_xy": [
+        10.293500098745806,
+        4.159769575796686
+      ],
+      "periodicity_xy": [
+        0.2863222021060029,
+        0.3742638567529096
+      ],
+      "snapped_size": [
+        40,
+        23
+      ],
+      "grid_size_px": [
+        23,
+        15
+      ],
+      "passed": true,
+      "export": "D:\\Codex\\IMC\\runs\\pixel-annex-tavern-v1\\attempts\\attempt-06-p12-v3\\potion_row.png",
+      "palette_budget": 12,
+      "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-annex-tavern-v1\\attempts\\attempt-06-p12-v3\\potion_row.png: 23x15, colours 12/64, isolated 0.258, outline 0.897, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+      "real_size_m": 0.9,
+      "size_axis": "width",
+      "scale_exaggeration": 1,
+      "anchor_px": [
+        14,
+        14
+      ],
+      "anchor_kind": "centre of lowest occupied row",
+      "colour_count": 12,
+      "checker_numbers": {
+        "isolated": 0.258,
+        "outline": 0.897,
+        "components": 1,
+        "main_share": 1
+      },
+      "checker_result": "PROP_CHECK_PASS",
+      "accepted_attempt": "attempt-06-p12-v3",
+      "approval": "candidate",
+      "glance_test": "PASS: four necks over red, blue, green and amber bulbs remain; glass highlights soften.",
+      "display_extent_m": [
+        0.92,
+        0.6
+      ],
+      "source_run": "pixel-annex-tavern-v1"
+    },
+    "ingot_row": {
+      "attempt": 5,
+      "source_box": [
+        724,
+        0,
+        1448,
+        543
+      ],
+      "grid_xy": [
+        18.800000000000196,
+        18.45000000000019
+      ],
+      "phase_xy": [
+        4.188633910876126,
+        0.03476175227414887
+      ],
+      "periodicity_xy": [
+        0.45260700689673494,
+        0.6030550276031715
+      ],
+      "snapped_size": [
+        31,
+        19
+      ],
+      "grid_size_px": [
+        23,
+        14
+      ],
+      "passed": true,
+      "export": "D:\\Codex\\IMC\\runs\\pixel-annex-tavern-v1\\attempts\\attempt-05-p12-v2\\ingot_row.png",
+      "palette_budget": 12,
+      "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-annex-tavern-v1\\attempts\\attempt-05-p12-v2\\ingot_row.png: 23x14, colours 11/64, isolated 0.124, outline 0.870, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+      "real_size_m": 0.9,
+      "size_axis": "width",
+      "scale_exaggeration": 1,
+      "anchor_px": [
+        12,
+        13
+      ],
+      "anchor_kind": "centre of lowest occupied row",
+      "colour_count": 11,
+      "checker_numbers": {
+        "isolated": 0.124,
+        "outline": 0.87,
+        "components": 1,
+        "main_share": 1
+      },
+      "checker_result": "PROP_CHECK_PASS",
+      "accepted_attempt": "attempt-05-p12-v2",
+      "approval": "candidate",
+      "glance_test": "PASS: chunky stacked trapezoids retain separate silver and copper value masses.",
+      "display_extent_m": [
+        0.92,
+        0.56
+      ],
+      "source_run": "pixel-annex-tavern-v1"
+    },
+    "hide_bundle_row": {
+      "attempt": 5,
+      "source_box": [
+        0,
+        543,
+        724,
         1086
       ],
-      "keyed_content_crop_xyxy": [
-        55,
-        14,
-        299,
-        343
+      "grid_xy": [
+        18.1950000000002,
+        18.2700000000002
       ],
-      "master_sha256": "2abf29418c6c7ef34d6467a31f19f62da5cf13662201791fb65de4b0b5649fbf",
-      "source_board_sha256": "8bd90cb59616be7941879be8f898f96f586f7fdf449d9dc422750fbba20838f4",
-      "approved_design": null
-    },
-    "chest": {
-      "batch": "A",
+      "phase_xy": [
+        17.655779127692764,
+        13.726512241332587
+      ],
+      "periodicity_xy": [
+        0.6947480651779327,
+        0.34732508289212327
+      ],
+      "snapped_size": [
+        31,
+        23
+      ],
       "grid_size_px": [
         23,
         17
       ],
-      "anchor_px": [
-        11.0,
-        16
-      ],
-      "anchor_definition": "centre of lowest occupied row",
+      "passed": true,
+      "export": "D:\\Codex\\IMC\\runs\\pixel-annex-tavern-v1\\attempts\\attempt-05-p12-v2\\hide_bundle_row.png",
+      "palette_budget": 12,
+      "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-annex-tavern-v1\\attempts\\attempt-05-p12-v2\\hide_bundle_row.png: 23x17, colours 12/64, isolated 0.254, outline 0.965, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
       "real_size_m": 0.9,
-      "real_size_dimension": "width",
-      "real_width_m": 0.9,
-      "real_height_m": null,
-      "real_depth_m": null,
-      "projection": null,
-      "colour_count": 62,
-      "colour_count_with_transparency": 63,
-      "accepted_attempt": "masters/attempts/chest-01.png",
-      "source_board": "masters/attempts/A1-01.png",
-      "board_crop_xyxy": [
-        1086,
-        680,
-        1448,
-        1086
-      ],
-      "keyed_content_crop_xyxy": [
-        57,
-        131,
-        284,
-        298
-      ],
-      "master_sha256": "ad013740fbc4c558a4c3f94766f920ab4612311428e02808acbfd6cadf9d66ac",
-      "source_board_sha256": "8bd90cb59616be7941879be8f898f96f586f7fdf449d9dc422750fbba20838f4",
-      "approved_design": null
-    },
-    "side_table": {
-      "batch": "A",
-      "grid_size_px": [
-        15,
-        18
-      ],
+      "size_axis": "width",
+      "scale_exaggeration": 1,
       "anchor_px": [
-        7.0,
-        17
-      ],
-      "anchor_definition": "centre of lowest occupied row",
-      "real_size_m": 0.6,
-      "real_size_dimension": "width",
-      "real_width_m": 0.6,
-      "real_height_m": null,
-      "real_depth_m": null,
-      "projection": null,
-      "colour_count": 62,
-      "colour_count_with_transparency": 63,
-      "accepted_attempt": "masters/attempts/side_table-01.png",
-      "source_board": "masters/attempts/A2-01.png",
-      "board_crop_xyxy": [
-        420,
-        0,
-        690,
-        350
-      ],
-      "keyed_content_crop_xyxy": [
-        48,
-        118,
-        200,
-        303
-      ],
-      "master_sha256": "423d2407928bf052be56d75931fc0f2176dff0ccfc9447cafb821dd3717a91ca",
-      "source_board_sha256": "642c01c20862b74a4c811143e35eb51d6ebbda10ed153d706dcd9b704bd635b1",
-      "approved_design": null
-    },
-    "processing_table": {
-      "batch": "A",
-      "grid_size_px": [
-        45,
-        26
-      ],
-      "anchor_px": [
-        21.5,
-        25
-      ],
-      "anchor_definition": "centre of lowest occupied row",
-      "real_size_m": 1.8,
-      "real_size_dimension": "width",
-      "real_width_m": 1.8,
-      "real_height_m": null,
-      "real_depth_m": null,
-      "projection": null,
-      "colour_count": 63,
-      "colour_count_with_transparency": 64,
-      "accepted_attempt": "masters/attempts/processing_table-01.png",
-      "source_board": "masters/attempts/A2-01.png",
-      "board_crop_xyxy": [
-        690,
-        0,
-        1080,
-        350
-      ],
-      "keyed_content_crop_xyxy": [
-        25,
-        115,
-        370,
-        313
-      ],
-      "master_sha256": "65dccaf31c981c908d11eec26d2250105b68c627925b8dfa02504cf7ea279df4",
-      "source_board_sha256": "642c01c20862b74a4c811143e35eb51d6ebbda10ed153d706dcd9b704bd635b1",
-      "approved_design": null
-    },
-    "hanging_hooks": {
-      "batch": "A",
-      "grid_size_px": [
-        40,
-        55
-      ],
-      "anchor_px": [
-        19.5,
-        2
-      ],
-      "anchor_definition": "rail centre top, below projecting end brackets",
-      "real_size_m": 1.6,
-      "real_size_dimension": "width",
-      "real_width_m": 1.6,
-      "real_height_m": 2.2,
-      "real_depth_m": null,
-      "projection": null,
-      "colour_count": 63,
-      "colour_count_with_transparency": 64,
-      "accepted_attempt": "masters/attempts/hanging_hooks-01.png",
-      "source_board": "masters/attempts/A2-01.png",
-      "board_crop_xyxy": [
-        1080,
-        0,
-        1448,
-        350
-      ],
-      "keyed_content_crop_xyxy": [
-        34,
-        53,
-        341,
-        335
-      ],
-      "master_sha256": "da205f0ed93ffdbf78335faee4fe728f01e09d94faa58f692202a7666b1a6f91",
-      "source_board_sha256": "642c01c20862b74a4c811143e35eb51d6ebbda10ed153d706dcd9b704bd635b1",
-      "approved_design": null
-    },
-    "wash_tub": {
-      "batch": "A",
-      "grid_size_px": [
-        25,
+        12,
         16
       ],
-      "anchor_px": [
-        12.0,
-        15
+      "anchor_kind": "centre of lowest occupied row",
+      "colour_count": 12,
+      "checker_numbers": {
+        "isolated": 0.254,
+        "outline": 0.965,
+        "components": 1,
+        "main_share": 1
+      },
+      "checker_result": "PROP_CHECK_PASS",
+      "accepted_attempt": "attempt-05-p12-v2",
+      "approval": "candidate",
+      "glance_test": "PASS: three tan/brown rolls form a bundled hide mass; cord detail is sharp-only.",
+      "display_extent_m": [
+        0.92,
+        0.68
       ],
-      "anchor_definition": "centre of lowest occupied row",
-      "real_size_m": 1,
-      "real_size_dimension": "width",
-      "real_width_m": 1,
-      "real_height_m": null,
-      "real_depth_m": null,
-      "projection": null,
-      "colour_count": 63,
-      "colour_count_with_transparency": 64,
-      "accepted_attempt": "masters/attempts/wash_tub-01.png",
-      "source_board": "masters/attempts/A2-01.png",
-      "board_crop_xyxy": [
-        0,
-        350,
-        362,
-        730
-      ],
-      "keyed_content_crop_xyxy": [
-        65,
-        133,
-        328,
-        299
-      ],
-      "master_sha256": "baaef5386a5e0d61e760938c8244ef2b0c99adc4fe8818d5101b78e901f823e0",
-      "source_board_sha256": "642c01c20862b74a4c811143e35eb51d6ebbda10ed153d706dcd9b704bd635b1",
-      "approved_design": null
+      "source_run": "pixel-annex-tavern-v1"
     },
-    "sheeted_furniture": {
-      "batch": "A",
-      "grid_size_px": [
+    "jar_row": {
+      "attempt": 6,
+      "source_box": [
+        0,
+        610,
+        648,
+        1213
+      ],
+      "grid_xy": [
+        15.216250000000155,
+        15.59125000000016
+      ],
+      "phase_xy": [
+        9.05373903384772,
+        0.7838155876302783
+      ],
+      "periodicity_xy": [
+        0.40387056001134836,
+        0.4125066584324085
+      ],
+      "snapped_size": [
         40,
-        24
-      ],
-      "anchor_px": [
-        19.5,
-        23
-      ],
-      "anchor_definition": "centre of lowest occupied row",
-      "real_size_m": 1.6,
-      "real_size_dimension": "width",
-      "real_width_m": 1.6,
-      "real_height_m": null,
-      "real_depth_m": null,
-      "projection": null,
-      "colour_count": 63,
-      "colour_count_with_transparency": 64,
-      "accepted_attempt": "masters/attempts/sheeted_furniture-01.png",
-      "source_board": "masters/attempts/A2-01.png",
-      "board_crop_xyxy": [
-        362,
-        350,
-        724,
-        730
-      ],
-      "keyed_content_crop_xyxy": [
-        15,
-        101,
-        355,
-        308
-      ],
-      "master_sha256": "cd53672214688703da783f6e97efb332596b928c6fd16803b2ac2d6a6b74e7cf",
-      "source_board_sha256": "642c01c20862b74a4c811143e35eb51d6ebbda10ed153d706dcd9b704bd635b1",
-      "approved_design": null
-    },
-    "ladder": {
-      "batch": "A",
-      "grid_size_px": [
-        21,
-        63
-      ],
-      "anchor_px": [
-        10.0,
-        62
-      ],
-      "anchor_definition": "centre of lowest occupied row",
-      "real_size_m": 2.5,
-      "real_size_dimension": "height",
-      "real_width_m": null,
-      "real_height_m": 2.5,
-      "real_depth_m": null,
-      "projection": null,
-      "colour_count": 63,
-      "colour_count_with_transparency": 64,
-      "accepted_attempt": "masters/attempts/ladder-01.png",
-      "source_board": "masters/attempts/A2-01.png",
-      "board_crop_xyxy": [
-        724,
-        350,
-        1086,
-        730
-      ],
-      "keyed_content_crop_xyxy": [
-        112,
-        10,
-        228,
-        353
-      ],
-      "master_sha256": "99d5046b59088a55c17e9712057dbdb5b53f4212dc016278e22c17db11b7a861",
-      "source_board_sha256": "642c01c20862b74a4c811143e35eb51d6ebbda10ed153d706dcd9b704bd635b1",
-      "approved_design": null
-    },
-    "stair_up": {
-      "batch": "A",
-      "grid_size_px": [
-        75,
-        75
-      ],
-      "anchor_px": [
-        5.0,
-        74
-      ],
-      "anchor_definition": "centre of lowest occupied row",
-      "real_size_m": 3,
-      "real_size_dimension": "width",
-      "real_width_m": 3,
-      "real_height_m": 3,
-      "real_depth_m": null,
-      "projection": null,
-      "colour_count": 63,
-      "colour_count_with_transparency": 64,
-      "accepted_attempt": "masters/attempts/stair_up-01.png",
-      "source_board": "masters/attempts/A2-01.png",
-      "board_crop_xyxy": [
-        1086,
-        350,
-        1448,
-        730
-      ],
-      "keyed_content_crop_xyxy": [
-        12,
-        27,
-        330,
-        343
-      ],
-      "master_sha256": "73587649b4055de47f2ccde9f54f922e6e5bf565c4a94153c560fb8a92a55e38",
-      "source_board_sha256": "642c01c20862b74a4c811143e35eb51d6ebbda10ed153d706dcd9b704bd635b1",
-      "approved_design": null
-    },
-    "wall_lamp": {
-      "batch": "A",
-      "grid_size_px": [
-        7,
-        13
-      ],
-      "anchor_px": [
-        5,
-        3
-      ],
-      "anchor_definition": "centre of upper-right wall mounting plate; visually identified",
-      "real_size_m": 0.5,
-      "real_size_dimension": "height",
-      "real_width_m": null,
-      "real_height_m": 0.5,
-      "real_depth_m": null,
-      "projection": null,
-      "colour_count": 52,
-      "colour_count_with_transparency": 53,
-      "accepted_attempt": "masters/attempts/wall_lamp-01.png",
-      "source_board": "masters/attempts/A2-01.png",
-      "board_crop_xyxy": [
-        0,
-        730,
-        320,
-        1086
-      ],
-      "keyed_content_crop_xyxy": [
-        123,
-        48,
-        242,
-        275
-      ],
-      "master_sha256": "ca14966ee9321669a479da72b1419396d5227e7986cc6c2714993e585dec5708",
-      "source_board_sha256": "642c01c20862b74a4c811143e35eb51d6ebbda10ed153d706dcd9b704bd635b1",
-      "approved_design": null
-    },
-    "rug": {
-      "batch": "A",
-      "grid_size_px": [
-        60,
-        17
-      ],
-      "anchor_px": [
-        29.5,
-        8.0
-      ],
-      "anchor_definition": "canvas centre",
-      "real_size_m": 2.4,
-      "real_size_dimension": "width",
-      "real_width_m": 2.4,
-      "real_height_m": 0.68,
-      "real_depth_m": 1.6,
-      "projection": "1.6m depth * sin(25deg) = 0.676m screen extent",
-      "colour_count": 63,
-      "colour_count_with_transparency": 64,
-      "accepted_attempt": "masters/attempts/rug-01.png",
-      "source_board": "masters/attempts/A2-01.png",
-      "board_crop_xyxy": [
-        320,
-        730,
-        770,
-        1086
-      ],
-      "keyed_content_crop_xyxy": [
-        34,
-        75,
-        417,
-        249
-      ],
-      "master_sha256": "65abd18f3e37d3f0bc1a776bc59b5cac69a6673d98e4f017801c7ca858e7ed6b",
-      "source_board_sha256": "642c01c20862b74a4c811143e35eb51d6ebbda10ed153d706dcd9b704bd635b1",
-      "approved_design": null
-    },
-    "forge": {
-      "batch": "B",
-      "grid_size_px": [
-        55,
-        65
-      ],
-      "anchor_px": [
-        32.0,
-        64
-      ],
-      "anchor_definition": "centre of lowest occupied row",
-      "real_size_m": 2.2,
-      "real_size_dimension": "width",
-      "real_width_m": 2.2,
-      "real_height_m": 2.6,
-      "real_depth_m": null,
-      "projection": null,
-      "colour_count": 63,
-      "colour_count_with_transparency": 64,
-      "accepted_attempt": "masters/attempts/forge-01.png",
-      "source_board": "masters/attempts/B1-01.png",
-      "board_crop_xyxy": [
-        0,
-        0,
-        435,
-        550
-      ],
-      "keyed_content_crop_xyxy": [
-        32,
-        42,
-        413,
-        528
-      ],
-      "master_sha256": "4b9f6b910806f3a7607d105e0b6a2a6ddbc9d528ebff2f1889dd14313bad85f8",
-      "source_board_sha256": "4d7956a1616d6f08ba8e4ee3cdafb201a19f75b6316d2263af6f5d2a891daf5f",
-      "approved_design": null
-    },
-    "anvil": {
-      "batch": "B",
-      "grid_size_px": [
-        20,
-        22
-      ],
-      "anchor_px": [
-        9.5,
-        21
-      ],
-      "anchor_definition": "centre of lowest occupied row",
-      "real_size_m": 0.8,
-      "real_size_dimension": "width",
-      "real_width_m": 0.8,
-      "real_height_m": null,
-      "real_depth_m": null,
-      "projection": null,
-      "colour_count": 62,
-      "colour_count_with_transparency": 63,
-      "accepted_attempt": "masters/attempts/anvil-01.png",
-      "source_board": "masters/attempts/B1-01.png",
-      "board_crop_xyxy": [
-        435,
-        0,
-        695,
-        550
-      ],
-      "keyed_content_crop_xyxy": [
-        27,
-        310,
-        230,
-        532
-      ],
-      "master_sha256": "78539582c8956044ae04d474452832497d77d2827bda63919fb6d0fc06ca8f6a",
-      "source_board_sha256": "4d7956a1616d6f08ba8e4ee3cdafb201a19f75b6316d2263af6f5d2a891daf5f",
-      "approved_design": null
-    },
-    "workbench_craft": {
-      "batch": "B",
-      "grid_size_px": [
-        50,
-        36
-      ],
-      "anchor_px": [
-        25.5,
-        35
-      ],
-      "anchor_definition": "centre of lowest occupied row",
-      "real_size_m": 2,
-      "real_size_dimension": "width",
-      "real_width_m": 2,
-      "real_height_m": null,
-      "real_depth_m": null,
-      "projection": null,
-      "colour_count": 63,
-      "colour_count_with_transparency": 64,
-      "accepted_attempt": "masters/attempts/workbench_craft-01.png",
-      "source_board": "masters/attempts/B1-01.png",
-      "board_crop_xyxy": [
-        695,
-        0,
-        1140,
-        550
-      ],
-      "keyed_content_crop_xyxy": [
-        16,
-        236,
-        419,
-        529
-      ],
-      "master_sha256": "e205387646f2c833195537a7fc260d5be758d54e72ecb917d91ae3bb410c40d8",
-      "source_board_sha256": "4d7956a1616d6f08ba8e4ee3cdafb201a19f75b6316d2263af6f5d2a891daf5f",
-      "approved_design": null
-    },
-    "craftsman_bench": {
-      "batch": "B",
-      "grid_size_px": [
-        45,
-        36
-      ],
-      "anchor_px": [
-        22.0,
-        35
-      ],
-      "anchor_definition": "centre of lowest occupied row",
-      "real_size_m": 1.8,
-      "real_size_dimension": "width",
-      "real_width_m": 1.8,
-      "real_height_m": null,
-      "real_depth_m": null,
-      "projection": null,
-      "colour_count": 63,
-      "colour_count_with_transparency": 64,
-      "accepted_attempt": "masters/attempts/craftsman_bench-01.png",
-      "source_board": "masters/attempts/B1-01.png",
-      "board_crop_xyxy": [
-        1140,
-        0,
-        1536,
-        550
-      ],
-      "keyed_content_crop_xyxy": [
-        22,
-        248,
-        368,
-        527
-      ],
-      "master_sha256": "fb4d204b1de1fb63eda2e45887df0983afac71ed5441e751d8b49fe288ba81b6",
-      "source_board_sha256": "4d7956a1616d6f08ba8e4ee3cdafb201a19f75b6316d2263af6f5d2a891daf5f",
-      "approved_design": null
-    },
-    "staff_processing_table": {
-      "batch": "B",
-      "grid_size_px": [
-        40,
-        27
-      ],
-      "anchor_px": [
-        19.0,
-        26
-      ],
-      "anchor_definition": "centre of lowest occupied row",
-      "real_size_m": 1.6,
-      "real_size_dimension": "width",
-      "real_width_m": 1.6,
-      "real_height_m": null,
-      "real_depth_m": null,
-      "projection": null,
-      "colour_count": 63,
-      "colour_count_with_transparency": 64,
-      "accepted_attempt": "masters/attempts/staff_processing_table-01.png",
-      "source_board": "masters/attempts/B1-01.png",
-      "board_crop_xyxy": [
-        0,
-        550,
-        425,
-        1024
-      ],
-      "keyed_content_crop_xyxy": [
-        26,
-        142,
-        403,
-        393
-      ],
-      "master_sha256": "6b872efe34ef012eb95390b62d7df22c42cd3e74dfbf2c750e221f3626ee52bc",
-      "source_board_sha256": "4d7956a1616d6f08ba8e4ee3cdafb201a19f75b6316d2263af6f5d2a891daf5f",
-      "approved_design": null
-    },
-    "cold_store": {
-      "batch": "B",
-      "grid_size_px": [
-        30,
-        27
-      ],
-      "anchor_px": [
-        14.5,
-        26
-      ],
-      "anchor_definition": "centre of lowest occupied row",
-      "real_size_m": 1.2,
-      "real_size_dimension": "width",
-      "real_width_m": 1.2,
-      "real_height_m": null,
-      "real_depth_m": null,
-      "projection": null,
-      "colour_count": 63,
-      "colour_count_with_transparency": 64,
-      "accepted_attempt": "masters/attempts/cold_store-01.png",
-      "source_board": "masters/attempts/B1-01.png",
-      "board_crop_xyxy": [
-        425,
-        550,
-        745,
-        1024
-      ],
-      "keyed_content_crop_xyxy": [
-        16,
-        130,
-        299,
-        386
-      ],
-      "master_sha256": "d0acb4c1767a034d5adaee215115058c0d5b66b1c6b6ff07aa36538f49751f9f",
-      "source_board_sha256": "4d7956a1616d6f08ba8e4ee3cdafb201a19f75b6316d2263af6f5d2a891daf5f",
-      "approved_design": null
-    },
-    "material_shelves": {
-      "batch": "B",
-      "grid_size_px": [
-        50,
-        50
-      ],
-      "anchor_px": [
-        24.5,
-        49
-      ],
-      "anchor_definition": "centre of lowest occupied row",
-      "real_size_m": 2,
-      "real_size_dimension": "width",
-      "real_width_m": 2,
-      "real_height_m": 2,
-      "real_depth_m": null,
-      "projection": null,
-      "colour_count": 63,
-      "colour_count_with_transparency": 64,
-      "accepted_attempt": "masters/attempts/material_shelves-01.png",
-      "source_board": "masters/attempts/B1-01.png",
-      "board_crop_xyxy": [
-        745,
-        550,
-        1140,
-        1024
-      ],
-      "keyed_content_crop_xyxy": [
-        29,
-        24,
-        375,
-        416
-      ],
-      "master_sha256": "5ad9ee0216ac137d43c2e8c222bc1ebb6f0951b0d6d8dbc41d571e8f2f08b4e5",
-      "source_board_sha256": "4d7956a1616d6f08ba8e4ee3cdafb201a19f75b6316d2263af6f5d2a891daf5f",
-      "approved_design": null
-    },
-    "tool_rack": {
-      "batch": "B",
-      "grid_size_px": [
-        35,
-        22
-      ],
-      "anchor_px": [
-        29.5,
-        21
-      ],
-      "anchor_definition": "centre of lowest occupied row",
-      "real_size_m": 1.4,
-      "real_size_dimension": "width",
-      "real_width_m": 1.4,
-      "real_height_m": null,
-      "real_depth_m": null,
-      "projection": null,
-      "colour_count": 63,
-      "colour_count_with_transparency": 64,
-      "accepted_attempt": "masters/attempts/tool_rack-01.png",
-      "source_board": "masters/attempts/B1-01.png",
-      "board_crop_xyxy": [
-        1140,
-        550,
-        1536,
-        1024
-      ],
-      "keyed_content_crop_xyxy": [
-        24,
-        127,
-        364,
-        342
-      ],
-      "master_sha256": "43791df55d9cbddcc972e481cbaaeee999fadeb3b35cd422b2ff4ce93c26432e",
-      "source_board_sha256": "4d7956a1616d6f08ba8e4ee3cdafb201a19f75b6316d2263af6f5d2a891daf5f",
-      "approved_design": null
-    },
-    "trading_counter": {
-      "batch": "B",
-      "grid_size_px": [
-        60,
-        34
-      ],
-      "anchor_px": [
-        29.5,
-        33
-      ],
-      "anchor_definition": "centre of lowest occupied row",
-      "real_size_m": 2.4,
-      "real_size_dimension": "width",
-      "real_width_m": 2.4,
-      "real_height_m": null,
-      "real_depth_m": null,
-      "projection": null,
-      "colour_count": 63,
-      "colour_count_with_transparency": 64,
-      "accepted_attempt": "masters/attempts/trading_counter-02.png",
-      "source_board": "masters/attempts/B3-01.png",
-      "board_crop_xyxy": [
-        0,
-        0,
-        760,
-        683
-      ],
-      "keyed_content_crop_xyxy": [
-        75,
-        179,
-        742,
-        559
-      ],
-      "master_sha256": "8c4c7566e4895647769e0ab3e40e88fab1eb8cb63d92dcf6917978e476c4cc9e",
-      "source_board_sha256": "654394f8073b00663ca24e0297fce58343565ba21cc2a922b4b2986fc75bb381",
-      "approved_design": null
-    },
-    "goods_shelves": {
-      "batch": "B",
-      "grid_size_px": [
-        45,
-        50
-      ],
-      "anchor_px": [
-        22.0,
-        49
-      ],
-      "anchor_definition": "centre of lowest occupied row",
-      "real_size_m": 1.8,
-      "real_size_dimension": "width",
-      "real_width_m": 1.8,
-      "real_height_m": 2,
-      "real_depth_m": null,
-      "projection": null,
-      "colour_count": 63,
-      "colour_count_with_transparency": 64,
-      "accepted_attempt": "masters/attempts/goods_shelves-01.png",
-      "source_board": "masters/attempts/B2-01.png",
-      "board_crop_xyxy": [
-        600,
-        0,
-        1024,
-        550
-      ],
-      "keyed_content_crop_xyxy": [
-        29,
-        57,
-        378,
-        493
-      ],
-      "master_sha256": "f840fc2961aad6d81e9fde7c337c9439123e5a9e2a54510217efc4493ef64f5f",
-      "source_board_sha256": "0664fa113a98a2bba09f8a443389980ee1b1ae34272b6528de9e3941b77b2c72",
-      "approved_design": null
-    },
-    "info_desk": {
-      "batch": "B",
-      "grid_size_px": [
-        40,
-        21
-      ],
-      "anchor_px": [
-        19.5,
-        20
-      ],
-      "anchor_definition": "centre of lowest occupied row",
-      "real_size_m": 1.6,
-      "real_size_dimension": "width",
-      "real_width_m": 1.6,
-      "real_height_m": null,
-      "real_depth_m": null,
-      "projection": null,
-      "colour_count": 63,
-      "colour_count_with_transparency": 64,
-      "accepted_attempt": "masters/attempts/info_desk-02.png",
-      "source_board": "masters/attempts/B3-01.png",
-      "board_crop_xyxy": [
-        810,
-        0,
-        1600,
-        724
-      ],
-      "keyed_content_crop_xyxy": [
-        79,
-        264,
-        653,
-        559
-      ],
-      "master_sha256": "6ab91f4af16f66c41677e6e979e29c296e85cdfacbc24ccd88062f0993f04b6b",
-      "source_board_sha256": "654394f8073b00663ca24e0297fce58343565ba21cc2a922b4b2986fc75bb381",
-      "approved_design": null
-    },
-    "map_wall": {
-      "batch": "B",
-      "grid_size_px": [
-        60,
-        40
-      ],
-      "anchor_px": [
-        29.5,
-        39
-      ],
-      "anchor_definition": "centre of lowest occupied row",
-      "real_size_m": 2.4,
-      "real_size_dimension": "width",
-      "real_width_m": 2.4,
-      "real_height_m": null,
-      "real_depth_m": null,
-      "projection": null,
-      "colour_count": 63,
-      "colour_count_with_transparency": 64,
-      "accepted_attempt": "masters/attempts/map_wall-01.png",
-      "source_board": "masters/attempts/B2-01.png",
-      "board_crop_xyxy": [
-        0,
-        550,
-        650,
-        1024
-      ],
-      "keyed_content_crop_xyxy": [
-        73,
-        28,
-        597,
-        376
-      ],
-      "master_sha256": "e75a4b17f83d060d46154eeb9b185aadd01764f5d9e91218c430f4f4408458bb",
-      "source_board_sha256": "0664fa113a98a2bba09f8a443389980ee1b1ae34272b6528de9e3941b77b2c72",
-      "approved_design": null
-    },
-    "rumour_board": {
-      "batch": "B",
-      "grid_size_px": [
-        30,
-        22
-      ],
-      "anchor_px": [
-        14.5,
-        21
-      ],
-      "anchor_definition": "centre of lowest occupied row",
-      "real_size_m": 1.2,
-      "real_size_dimension": "width",
-      "real_width_m": 1.2,
-      "real_height_m": null,
-      "real_depth_m": null,
-      "projection": null,
-      "colour_count": 61,
-      "colour_count_with_transparency": 61,
-      "accepted_attempt": "masters/attempts/rumour_board-02.png",
-      "source_board": "masters/attempts/B3-01.png",
-      "board_crop_xyxy": [
-        1600,
-        0,
-        2172,
-        724
-      ],
-      "keyed_content_crop_xyxy": [
-        54,
-        188,
-        488,
-        513
-      ],
-      "master_sha256": "dd1a95dbcc5eb49a2c161c600dd05b9000f49ffe7248c77aeb13678a3bafcdcb",
-      "source_board_sha256": "654394f8073b00663ca24e0297fce58343565ba21cc2a922b4b2986fc75bb381",
-      "approved_design": null
-    },
-    "stool": {
-      "batch": "B",
-      "grid_size_px": [
-        15,
-        18
-      ],
-      "anchor_px": [
-        7.5,
-        17
-      ],
-      "anchor_definition": "centre of lowest occupied row",
-      "real_size_m": 0.6,
-      "real_size_dimension": "width",
-      "real_width_m": 0.6,
-      "real_height_m": null,
-      "real_depth_m": null,
-      "projection": null,
-      "colour_count": 62,
-      "colour_count_with_transparency": 63,
-      "accepted_attempt": "masters/attempts/stool-01.png",
-      "source_board": "masters/attempts/B2-01.png",
-      "board_crop_xyxy": [
-        1024,
-        550,
-        1536,
-        1024
-      ],
-      "keyed_content_crop_xyxy": [
-        187,
-        167,
-        319,
-        329
-      ],
-      "master_sha256": "bb84f733e577429b832bd952a27b5cdded90456ecbdbbbbc727757992d75ed5e",
-      "source_board_sha256": "0664fa113a98a2bba09f8a443389980ee1b1ae34272b6528de9e3941b77b2c72",
-      "approved_design": null
-    },
-    "bar_counter": {
-      "batch": "C",
-      "grid_size_px": [
-        75,
-        46
-      ],
-      "anchor_px": [
-        37.0,
-        45
-      ],
-      "anchor_definition": "centre of lowest occupied row",
-      "real_size_m": 3,
-      "real_size_dimension": "width",
-      "real_width_m": 3,
-      "real_height_m": null,
-      "real_depth_m": null,
-      "projection": null,
-      "colour_count": 63,
-      "colour_count_with_transparency": 64,
-      "accepted_attempt": "masters/attempts/bar_counter-01.png",
-      "source_board": "masters/attempts/C1-01.png",
-      "board_crop_xyxy": [
-        0,
-        0,
-        450,
-        550
-      ],
-      "keyed_content_crop_xyxy": [
-        24,
-        192,
-        437,
-        448
-      ],
-      "master_sha256": "57eea1ed9bef4e544290af24076f4fa3245face4a1a89838e85d1c94b9312177",
-      "source_board_sha256": "57de345e14f0b27e1dfdfb0097139d5811ede7007358786e4fa3bfe452624dad",
-      "approved_design": null
-    },
-    "bar_shelves": {
-      "batch": "C",
-      "grid_size_px": [
-        75,
-        55
-      ],
-      "anchor_px": [
-        36.5,
-        54
-      ],
-      "anchor_definition": "centre of lowest occupied row",
-      "real_size_m": 3,
-      "real_size_dimension": "width",
-      "real_width_m": 3,
-      "real_height_m": 2.2,
-      "real_depth_m": null,
-      "projection": null,
-      "colour_count": 63,
-      "colour_count_with_transparency": 64,
-      "accepted_attempt": "masters/attempts/bar_shelves-01.png",
-      "source_board": "masters/attempts/C1-01.png",
-      "board_crop_xyxy": [
-        450,
-        0,
-        840,
-        550
-      ],
-      "keyed_content_crop_xyxy": [
-        13,
-        142,
-        374,
-        450
-      ],
-      "master_sha256": "7c324a9ee890c7472ec9d0768f4db5ce214abe786eebe8d5df2e47320085e2d7",
-      "source_board_sha256": "57de345e14f0b27e1dfdfb0097139d5811ede7007358786e4fa3bfe452624dad",
-      "approved_design": null
-    },
-    "tavern_table": {
-      "batch": "C",
-      "grid_size_px": [
-        30,
-        26
-      ],
-      "anchor_px": [
-        14.5,
         25
       ],
-      "anchor_definition": "centre of lowest occupied row",
-      "real_size_m": 1.2,
-      "real_size_dimension": "width",
-      "real_width_m": 1.2,
-      "real_height_m": null,
-      "real_depth_m": null,
-      "projection": null,
-      "colour_count": 63,
-      "colour_count_with_transparency": 64,
-      "accepted_attempt": "masters/attempts/tavern_table-01.png",
-      "source_board": "masters/attempts/C1-01.png",
-      "board_crop_xyxy": [
-        840,
-        0,
-        1140,
-        550
-      ],
-      "keyed_content_crop_xyxy": [
-        18,
-        241,
-        263,
-        453
-      ],
-      "master_sha256": "8cf6f64be2f74a91b201ca67e64a6a930d8fc904cc3217b0b560da85ff0fcab1",
-      "source_board_sha256": "57de345e14f0b27e1dfdfb0097139d5811ede7007358786e4fa3bfe452624dad",
-      "approved_design": null
-    },
-    "tavern_bench": {
-      "batch": "C",
       "grid_size_px": [
-        40,
-        15
-      ],
-      "anchor_px": [
-        19.0,
+        23,
         14
       ],
-      "anchor_definition": "centre of lowest occupied row",
-      "real_size_m": 1.6,
-      "real_size_dimension": "width",
-      "real_width_m": 1.6,
-      "real_height_m": null,
-      "real_depth_m": null,
-      "projection": null,
-      "colour_count": 63,
-      "colour_count_with_transparency": 64,
-      "accepted_attempt": "masters/attempts/tavern_bench-01.png",
-      "source_board": "masters/attempts/C1-01.png",
-      "board_crop_xyxy": [
-        1140,
-        0,
-        1536,
-        550
-      ],
-      "keyed_content_crop_xyxy": [
+      "passed": true,
+      "export": "D:\\Codex\\IMC\\runs\\pixel-annex-tavern-v1\\attempts\\attempt-06-p12-v3\\jar_row.png",
+      "palette_budget": 12,
+      "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-annex-tavern-v1\\attempts\\attempt-06-p12-v3\\jar_row.png: 23x14, colours 12/64, isolated 0.368, outline 0.817, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+      "real_size_m": 0.9,
+      "size_axis": "width",
+      "scale_exaggeration": 1,
+      "anchor_px": [
         15,
-        301,
-        367,
-        432
+        13
       ],
-      "master_sha256": "4872c31e78e85af14b25886095faf48037969942598a2dd1733980c5e872ca9d",
-      "source_board_sha256": "57de345e14f0b27e1dfdfb0097139d5811ede7007358786e4fa3bfe452624dad",
-      "approved_design": "D:/Storyboards/Isekai Mercenary Company/Environment Assets/Eurydica/Approved Facades v2/props/bench.png"
+      "anchor_kind": "centre of lowest occupied row",
+      "colour_count": 12,
+      "checker_numbers": {
+        "isolated": 0.368,
+        "outline": 0.817,
+        "components": 1,
+        "main_share": 1
+      },
+      "checker_result": "PROP_CHECK_PASS",
+      "accepted_attempt": "attempt-06-p12-v3",
+      "approval": "candidate",
+      "glance_test": "PASS: four bright cloth caps above terracotta bodies distinguish the jar row.",
+      "display_extent_m": [
+        0.92,
+        0.56
+      ],
+      "source_run": "pixel-annex-tavern-v1"
     },
-    "bar_stool": {
-      "batch": "C",
+    "bellows": {
+      "attempt": 5,
+      "source_box": [
+        724,
+        543,
+        1448,
+        1086
+      ],
+      "grid_xy": [
+        9.475000000000064,
+        9.525000000000064
+      ],
+      "phase_xy": [
+        2.2522432324536017,
+        4.456949160801578
+      ],
+      "periodicity_xy": [
+        0.5717693670680679,
+        0.48350620806834194
+      ],
+      "snapped_size": [
+        66,
+        43
+      ],
       "grid_size_px": [
-        11,
+        20,
+        13
+      ],
+      "passed": true,
+      "export": "D:\\Codex\\IMC\\runs\\pixel-annex-tavern-v1\\attempts\\attempt-05-p12-v2\\bellows.png",
+      "palette_budget": 12,
+      "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-annex-tavern-v1\\attempts\\attempt-05-p12-v2\\bellows.png: 20x13, colours 12/64, isolated 0.218, outline 0.735, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+      "real_size_m": 0.8,
+      "size_axis": "width",
+      "scale_exaggeration": 1,
+      "anchor_px": [
+        2,
+        12
+      ],
+      "anchor_kind": "centre of lowest occupied row",
+      "colour_count": 12,
+      "checker_numbers": {
+        "isolated": 0.218,
+        "outline": 0.735,
+        "components": 1,
+        "main_share": 1
+      },
+      "checker_result": "PROP_CHECK_PASS",
+      "accepted_attempt": "attempt-05-p12-v2",
+      "approval": "candidate",
+      "glance_test": "PASS: pointed nozzle, broad pear-shaped leather body and two handles retain the bellows silhouette; fine pleats omitted for readability.",
+      "display_extent_m": [
+        0.8,
+        0.52
+      ],
+      "source_run": "pixel-annex-tavern-v1"
+    },
+    "forge_fire": {
+      "attempt": 8,
+      "source_box": [
+        0,
+        512,
+        768,
+        1024
+      ],
+      "grid_xy": [
+        12.850000000000112,
+        13.075000000000115
+      ],
+      "phase_xy": [
+        4.788367899888141,
+        10.770926764437776
+      ],
+      "periodicity_xy": [
+        0.5166921506836373,
+        0.5459591677813375
+      ],
+      "snapped_size": [
+        45,
+        26
+      ],
+      "grid_size_px": [
+        25,
+        15
+      ],
+      "passed": true,
+      "export": "D:\\Codex\\IMC\\runs\\pixel-annex-tavern-v1\\attempts\\attempt-08-p10-v2\\forge_fire.png",
+      "palette_budget": 10,
+      "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-annex-tavern-v1\\attempts\\attempt-08-p10-v2\\forge_fire.png: 25x15, colours 10/64, isolated 0.350, outline 0.952, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+      "real_size_m": 1,
+      "size_axis": "width",
+      "scale_exaggeration": 1,
+      "anchor_px": [
+        12,
+        14
+      ],
+      "anchor_kind": "centre of lowest occupied row",
+      "colour_count": 10,
+      "checker_numbers": {
+        "isolated": 0.35,
+        "outline": 0.952,
+        "components": 1,
+        "main_share": 1
+      },
+      "checker_result": "PROP_CHECK_PASS",
+      "accepted_attempt": "attempt-08-p10-v2",
+      "approval": "candidate",
+      "glance_test": "PASS: low flame tongues over a broad black coal bed read as forge fire, without masonry.",
+      "display_extent_m": [
+        1,
+        0.6
+      ],
+      "source_run": "pixel-annex-tavern-v1"
+    },
+    "tongs_hammer": {
+      "attempt": 8,
+      "source_box": [
+        0,
+        0,
+        768,
+        512
+      ],
+      "grid_xy": [
+        12.100000000000101,
+        12.925000000000113
+      ],
+      "phase_xy": [
+        5.757489382387039,
+        11.464692077127689
+      ],
+      "periodicity_xy": [
+        0.4575116871042608,
+        0.5598692937409204
+      ],
+      "snapped_size": [
+        35,
+        30
+      ],
+      "grid_size_px": [
+        22,
         20
       ],
+      "passed": true,
+      "export": "D:\\Codex\\IMC\\runs\\pixel-annex-tavern-v1\\attempts\\attempt-08-p12-v2\\tongs_hammer.png",
+      "palette_budget": 12,
+      "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-annex-tavern-v1\\attempts\\attempt-08-p12-v2\\tongs_hammer.png: 22x20, colours 12/64, isolated 0.375, outline 0.857, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+      "real_size_m": 0.6,
+      "size_axis": "width",
+      "scale_exaggeration": 1.5,
       "anchor_px": [
-        4.5,
+        13,
         19
       ],
-      "anchor_definition": "centre of lowest occupied row",
-      "real_size_m": 0.8,
-      "real_size_dimension": "height",
-      "real_width_m": null,
-      "real_height_m": 0.8,
-      "real_depth_m": null,
-      "projection": null,
-      "colour_count": 62,
-      "colour_count_with_transparency": 63,
-      "accepted_attempt": "masters/attempts/bar_stool-01.png",
-      "source_board": "masters/attempts/C1-01.png",
-      "board_crop_xyxy": [
+      "anchor_kind": "centre of lowest occupied row",
+      "colour_count": 12,
+      "checker_numbers": {
+        "isolated": 0.375,
+        "outline": 0.857,
+        "components": 1,
+        "main_share": 1
+      },
+      "checker_result": "PROP_CHECK_PASS",
+      "accepted_attempt": "attempt-08-p12-v2",
+      "approval": "candidate",
+      "glance_test": "PASS: broad hammer head and forked tongs remain a crossed-tool silhouette; drawn 1.5x nominal size for readability.",
+      "display_extent_m": [
+        0.88,
+        0.8
+      ],
+      "source_run": "pixel-annex-tavern-v1"
+    },
+    "hanging_tools": {
+      "attempt": 3,
+      "source_box": [
         0,
-        550,
-        400,
+        512,
+        768,
         1024
       ],
-      "keyed_content_crop_xyxy": [
-        149,
-        89,
-        280,
-        324
+      "grid_xy": [
+        6.7250000000000245,
+        6.750000000000025
       ],
-      "master_sha256": "69ca8b000c426536099b687f0245d91652ba146895e9fe74032361a9dd004a48",
-      "source_board_sha256": "57de345e14f0b27e1dfdfb0097139d5811ede7007358786e4fa3bfe452624dad",
-      "approved_design": null
-    },
-    "hanging_lantern": {
-      "batch": "C",
+      "phase_xy": [
+        6.488525278324594,
+        3.4051754254326583
+      ],
+      "periodicity_xy": [
+        0.4331326092194552,
+        0.6833361247627491
+      ],
+      "snapped_size": [
+        88,
+        64
+      ],
       "grid_size_px": [
-        8,
-        18
+        30,
+        22
       ],
+      "passed": true,
+      "export": "D:\\Codex\\IMC\\runs\\pixel-annex-tavern-v1\\attempts\\attempt-03-p24\\hanging_tools.png",
+      "palette_budget": 24,
+      "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-annex-tavern-v1\\attempts\\attempt-03-p24\\hanging_tools.png: 30x22, colours 24/64, isolated 0.395, outline 0.704, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+      "real_size_m": 1.2,
+      "size_axis": "width",
+      "scale_exaggeration": 1,
       "anchor_px": [
-        3.5,
+        14,
         0
       ],
-      "anchor_definition": "centre of top hook at highest occupied row",
-      "real_size_m": 0.7,
-      "real_size_dimension": "height",
-      "real_width_m": null,
-      "real_height_m": 0.7,
-      "real_depth_m": null,
-      "projection": null,
-      "colour_count": 59,
-      "colour_count_with_transparency": 60,
-      "accepted_attempt": "masters/attempts/hanging_lantern-01.png",
-      "source_board": "masters/attempts/C1-01.png",
-      "board_crop_xyxy": [
-        400,
-        550,
-        760,
-        1024
+      "anchor_kind": "rail centre top",
+      "colour_count": 24,
+      "checker_numbers": {
+        "isolated": 0.395,
+        "outline": 0.704,
+        "components": 1,
+        "main_share": 1
+      },
+      "checker_result": "PROP_CHECK_PASS",
+      "accepted_attempt": "attempt-03-p24",
+      "approval": "candidate",
+      "glance_test": "PASS: horizontal rail with unequal hanging tools remains clear; saw teeth and precise tool details soften.",
+      "display_extent_m": [
+        1.2,
+        0.88
       ],
-      "keyed_content_crop_xyxy": [
-        118,
-        43,
-        230,
-        297
-      ],
-      "master_sha256": "29361c2dfa0829d5e9a1f311c0421925fa5582b261fceae0e573103851551c92",
-      "source_board_sha256": "57de345e14f0b27e1dfdfb0097139d5811ede7007358786e4fa3bfe452624dad",
-      "approved_design": null
+      "source_run": "pixel-annex-tavern-v1"
     },
-    "keg_stack": {
-      "batch": "C",
-      "grid_size_px": [
-        35,
-        35
-      ],
-      "anchor_px": [
-        17.0,
-        34
-      ],
-      "anchor_definition": "centre of lowest occupied row",
-      "real_size_m": 1.4,
-      "real_size_dimension": "width",
-      "real_width_m": 1.4,
-      "real_height_m": null,
-      "real_depth_m": null,
-      "projection": null,
-      "colour_count": 62,
-      "colour_count_with_transparency": 63,
-      "accepted_attempt": "masters/attempts/keg_stack-01.png",
-      "source_board": "masters/attempts/C1-01.png",
-      "board_crop_xyxy": [
-        760,
-        550,
-        1140,
+    "map_pinned": {
+      "attempt": 8,
+      "source_box": [
+        768,
+        512,
+        1536,
         1024
       ],
-      "keyed_content_crop_xyxy": [
-        54,
-        46,
-        333,
-        326
+      "grid_xy": [
+        9.87500000000007,
+        9.775000000000068
       ],
-      "master_sha256": "7dee373fe30fa187a6d73d4250560db0182224d2709c3c0fe1bad520244addf1",
-      "source_board_sha256": "57de345e14f0b27e1dfdfb0097139d5811ede7007358786e4fa3bfe452624dad",
-      "approved_design": null
+      "phase_xy": [
+        7.062891526586743,
+        9.59558851123283
+      ],
+      "periodicity_xy": [
+        0.40686246742382065,
+        0.5488522471009228
+      ],
+      "snapped_size": [
+        65,
+        41
+      ],
+      "grid_size_px": [
+        40,
+        25
+      ],
+      "passed": true,
+      "export": "D:\\Codex\\IMC\\runs\\pixel-annex-tavern-v1\\attempts\\attempt-08-p12-v2\\map_pinned.png",
+      "palette_budget": 12,
+      "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-annex-tavern-v1\\attempts\\attempt-08-p12-v2\\map_pinned.png: 40x25, colours 12/64, isolated 0.128, outline 1.000, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+      "real_size_m": 1.6,
+      "size_axis": "width",
+      "scale_exaggeration": 1,
+      "anchor_px": [
+        19,
+        12
+      ],
+      "anchor_kind": "centre",
+      "colour_count": 12,
+      "checker_numbers": {
+        "isolated": 0.128,
+        "outline": 1,
+        "components": 1,
+        "main_share": 1
+      },
+      "checker_result": "PROP_CHECK_PASS",
+      "accepted_attempt": "attempt-08-p12-v2",
+      "approval": "candidate",
+      "glance_test": "PASS: framed pale map, blue coast and green/brown geographic masses remain; red route stays an accent, pin details are sharp-only.",
+      "display_extent_m": [
+        1.6,
+        1
+      ],
+      "source_run": "pixel-annex-tavern-v1"
+    },
+    "tavern_fire": {
+      "attempt": 6,
+      "source_box": [
+        710,
+        610,
+        1297,
+        1213
+      ],
+      "grid_xy": [
+        14.675000000000137,
+        15.725000000000152
+      ],
+      "phase_xy": [
+        11.398696396917764,
+        14.007478455726195
+      ],
+      "periodicity_xy": [
+        0.6570963009427573,
+        0.7326034448048594
+      ],
+      "snapped_size": [
+        31,
+        31
+      ],
+      "grid_size_px": [
+        25,
+        27
+      ],
+      "passed": true,
+      "export": "D:\\Codex\\IMC\\runs\\pixel-annex-tavern-v1\\attempts\\attempt-06-p12-v3\\tavern_fire.png",
+      "palette_budget": 12,
+      "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-annex-tavern-v1\\attempts\\attempt-06-p12-v3\\tavern_fire.png: 25x27, colours 12/64, isolated 0.237, outline 0.948, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+      "real_size_m": 1,
+      "size_axis": "width",
+      "scale_exaggeration": 1,
+      "anchor_px": [
+        12,
+        26
+      ],
+      "anchor_kind": "centre of lowest occupied row",
+      "colour_count": 12,
+      "checker_numbers": {
+        "isolated": 0.237,
+        "outline": 0.948,
+        "components": 1,
+        "main_share": 1
+      },
+      "checker_result": "PROP_CHECK_PASS",
+      "accepted_attempt": "attempt-06-p12-v3",
+      "approval": "candidate",
+      "glance_test": "PASS: tall warm flame and crossed logs remain immediately readable.",
+      "display_extent_m": [
+        1,
+        1.08
+      ],
+      "source_run": "pixel-annex-tavern-v1"
+    },
+    "keg_tap": {
+      "attempt": 7,
+      "source_box": [
+        627,
+        0,
+        1254,
+        580
+      ],
+      "grid_xy": [
+        11.175000000000088,
+        11.650000000000095
+      ],
+      "phase_xy": [
+        6.993141792796304,
+        6.899981173243465
+      ],
+      "periodicity_xy": [
+        0.5288204590129661,
+        0.6157214849790156
+      ],
+      "snapped_size": [
+        38,
+        39
+      ],
+      "grid_size_px": [
+        23,
+        25
+      ],
+      "passed": true,
+      "export": "D:\\Codex\\IMC\\runs\\pixel-annex-tavern-v1\\attempts\\attempt-07-p12-v2\\keg_tap.png",
+      "palette_budget": 12,
+      "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-annex-tavern-v1\\attempts\\attempt-07-p12-v2\\keg_tap.png: 23x25, colours 12/64, isolated 0.297, outline 0.807, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+      "real_size_m": 0.9,
+      "size_axis": "width",
+      "scale_exaggeration": 1,
+      "anchor_px": [
+        15,
+        24
+      ],
+      "anchor_kind": "centre of lowest occupied row",
+      "colour_count": 12,
+      "checker_numbers": {
+        "isolated": 0.297,
+        "outline": 0.807,
+        "components": 1,
+        "main_share": 1
+      },
+      "checker_result": "PROP_CHECK_PASS",
+      "accepted_attempt": "attempt-07-p12-v2",
+      "approval": "candidate",
+      "glance_test": "PASS: round keg, stand legs and projecting golden tap remain visible; wood texture softens.",
+      "display_extent_m": [
+        0.92,
+        1
+      ],
+      "source_run": "pixel-annex-tavern-v1"
+    },
+    "stew_pot": {
+      "attempt": 7,
+      "source_box": [
+        0,
+        600,
+        627,
+        1254
+      ],
+      "grid_xy": [
+        11.37500000000009,
+        11.775000000000096
+      ],
+      "phase_xy": [
+        5.853320266864894,
+        4.921449749158905
+      ],
+      "periodicity_xy": [
+        0.5613409716282639,
+        0.7231757253681764
+      ],
+      "snapped_size": [
+        30,
+        47
+      ],
+      "grid_size_px": [
+        15,
+        25
+      ],
+      "passed": true,
+      "export": "D:\\Codex\\IMC\\runs\\pixel-annex-tavern-v1\\attempts\\attempt-07-p12-v2\\stew_pot.png",
+      "palette_budget": 12,
+      "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-annex-tavern-v1\\attempts\\attempt-07-p12-v2\\stew_pot.png: 15x25, colours 12/64, isolated 0.268, outline 0.859, components 2 (main 0.99)\nPROP_CHECK_PASS\n",
+      "real_size_m": 0.6,
+      "size_axis": "width",
+      "scale_exaggeration": 1,
+      "anchor_px": [
+        7,
+        0
+      ],
+      "anchor_kind": "hook",
+      "colour_count": 12,
+      "checker_numbers": {
+        "isolated": 0.268,
+        "outline": 0.859,
+        "components": 2,
+        "main_share": 0.99
+      },
+      "checker_result": "PROP_CHECK_PASS",
+      "accepted_attempt": "attempt-07-p12-v2",
+      "approval": "candidate",
+      "glance_test": "PASS: dark round pot, overhead hook/handle and pale steam mass remain identifiable.",
+      "display_extent_m": [
+        0.6,
+        1
+      ],
+      "source_run": "pixel-annex-tavern-v1"
+    },
+    "hanging_lantern": {
+      "attempt": 8,
+      "source_box": [
+        768,
+        0,
+        1536,
+        512
+      ],
+      "grid_xy": [
+        12.875000000000112,
+        11.025000000000086
+      ],
+      "phase_xy": [
+        6.983568192131745,
+        6.083698615798955
+      ],
+      "periodicity_xy": [
+        0.4979009806936083,
+        0.535803619288513
+      ],
+      "snapped_size": [
+        17,
+        40
+      ],
+      "grid_size_px": [
+        9,
+        20
+      ],
+      "passed": true,
+      "export": "D:\\Codex\\IMC\\runs\\pixel-annex-tavern-v1\\attempts\\attempt-08-p12-v2\\hanging_lantern.png",
+      "palette_budget": 12,
+      "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-annex-tavern-v1\\attempts\\attempt-08-p12-v2\\hanging_lantern.png: 9x20, colours 12/64, isolated 0.256, outline 0.907, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+      "real_size_m": 0.8,
+      "size_axis": "height",
+      "scale_exaggeration": 1,
+      "anchor_px": [
+        4,
+        0
+      ],
+      "anchor_kind": "top of chain",
+      "colour_count": 12,
+      "checker_numbers": {
+        "isolated": 0.256,
+        "outline": 0.907,
+        "components": 1,
+        "main_share": 1
+      },
+      "checker_result": "PROP_CHECK_PASS",
+      "accepted_attempt": "attempt-08-p12-v2",
+      "approval": "candidate",
+      "glance_test": "PASS: warm glass within dark lantern body and top chain remain readable.",
+      "display_extent_m": [
+        0.36,
+        0.8
+      ],
+      "source_run": "pixel-annex-tavern-v1"
+    },
+    "tavern_sign_inside": {
+      "attempt": 4,
+      "source_box": [
+        512,
+        512,
+        1024,
+        1024
+      ],
+      "grid_xy": [
+        6.000000000000014,
+        6.3750000000000195
+      ],
+      "phase_xy": [
+        3.896491897259515,
+        3.51291796069355
+      ],
+      "periodicity_xy": [
+        0.3864079679763063,
+        0.4648872270322697
+      ],
+      "snapped_size": [
+        64,
+        60
+      ],
+      "grid_size_px": [
+        25,
+        23
+      ],
+      "passed": true,
+      "export": "D:\\Codex\\IMC\\runs\\pixel-annex-tavern-v1\\attempts\\attempt-04-p12\\tavern_sign_inside.png",
+      "palette_budget": 12,
+      "checker_stdout": "D:\\Codex\\IMC\\runs\\pixel-annex-tavern-v1\\attempts\\attempt-04-p12\\tavern_sign_inside.png: 25x23, colours 12/64, isolated 0.282, outline 0.838, components 1 (main 1.00)\nPROP_CHECK_PASS\n",
+      "real_size_m": 1,
+      "size_axis": "width",
+      "scale_exaggeration": 1,
+      "anchor_px": [
+        12,
+        0
+      ],
+      "anchor_kind": "top centre",
+      "colour_count": 12,
+      "checker_numbers": {
+        "isolated": 0.282,
+        "outline": 0.838,
+        "components": 1,
+        "main_share": 1
+      },
+      "checker_result": "PROP_CHECK_PASS",
+      "accepted_attempt": "attempt-04-p12",
+      "approval": "candidate",
+      "glance_test": "PASS: two-chain hanging board and pale tankard pictogram remain; handle detail softens in blur.",
+      "display_extent_m": [
+        1,
+        0.92
+      ],
+      "source_run": "pixel-annex-tavern-v1"
     }
-  },
-  "notes": [
-    "New interior designs: approved pixel exterior props are rendering anchors, not identical furniture designs.",
-    "Unspecified secondary dimensions preserve generated aspect; requested explicit extents map to occupied pixel bounds.",
-    "Rug screen depth is 1.6m * sin(25deg), rounded to 17px.",
-    "Fixed mounting anchors visually selected; standing props use centre of lowest occupied row."
-  ]
+  }
 }
