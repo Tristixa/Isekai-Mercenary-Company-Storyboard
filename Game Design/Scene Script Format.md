@@ -96,6 +96,7 @@ A cue sits on **its own line in square brackets**, before the dialogue line it b
 | `[pause: 1.0]` | Wait with no text box |
 | `[sfx: door_open]` | Play a sound effect |
 | `[music: tavern_evening]` / `[music: stop]` | Change or stop the music |
+| `[vignette: ominous]` / `[vignette: off]` | A dark screen vignette for a menacing beat (added for Scene 6); `off` eases it away |
 
 ### Sprites (acting in the diorama)
 
@@ -138,6 +139,7 @@ Commander:
   - a story flag (`[if: met_mae]`);
   - a request's state (`[if: done: CH1-REQ-005]`);
   - a named game state (`[if: corpses_waiting]`), where the name must be one the game defines. The converter lists unknown names.
+- **Must-pick-all menus:** `[choices: all]` on the line before `Commander:` makes the menu return after each option until every option has been picked; picked options are greyed. The dialogue continues after the last one (added for Scene 6's Guild meeting).
 - **Long branches:** when an option's reply is long, keep it nested under the option, however long it gets. The dialogue rejoins automatically after the last option, so no "rejoins here" heading is needed.
 - **Endings:** `[end]` finishes the scene early; otherwise it ends at the last line. `[goto: Scene 3 - Day 1]` chains straight into the next scene.
 

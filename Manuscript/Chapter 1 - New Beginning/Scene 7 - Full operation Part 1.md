@@ -11,7 +11,7 @@ Actors: Commander, Tristitia, Elsie, Mae, Fulker
 
 Commander and Tristitia in the Guild house, suddenly a black haired girl(Fulker) enter the premise.
 
-[She looks around(turn left then right then back at The two)]
+[She looks around(turn idle left then idle right then back at The two)]
 Fulker(Base):
 "Is this <Guild-name>? Saw your poster outside."
 "I'm here to apply."
@@ -21,12 +21,14 @@ Tristitia(Base):
 
 Fulker(Fear):
 "Um... Yeah."
+
 Fulker(Laugh):
-"I've read it all."
 "You're looking for someone to make gears right?"
+"I live, eat, and breath in smithy since I was little."
+"And your poster just pull me in, I feel like I can evolve my skill here."
 
 Commander(Laugh):
-"Yeah so you want to be the chief of craftsman?"
+"Great! so you want to be the chief of craftsman?"
 
 Fulker(Surprise):
 "Huh!? I'm gonna be the chief?"
@@ -46,8 +48,45 @@ Commander(Laugh):
 Fulker(Laugh):
 "Okay."
 
-[Scene move to guild workshop]
+[Scene moves to guild workshop, time become 08:30]
 
+[Play fulker work animation twice, Commander and all the other officers is present and watching her.]
+Fulker(Happy):
+"Here you go."
+
+Commander(Surprise):
+"That was fast!"
+
+Tristitia(Base):
+"how is the quality Els?"
+
+Elsie(Laugh):
+"I do declare, that's a pretty solid gear!"
+
+Mae(Happy):
+"She's a natural."
+"With this many talented people here, <guild-name> is truly blessed."
+
+Fulker(Laugh):
+"Thanks."
+
+Commander(Laugh):
+"She's definetely the right person for the position."
+"What do you think Tristitia?"
+
+Tristitia(Base):
+"She will do."
+"I'll train her how to be a good officer."
+
+Fulker(Surprise):
+"Can it be someone else who train me?"
+
+Tristitia(Laugh):
+"NO."
+
+[Fulker sprite do the panic sweat emote and then just nod as to resigned to her fate.]
+
+[Screen goes black and everyone goes back to their station including fulker, player is teleported to the Main building]
 
 
 [objectives: C1S7-1]
@@ -57,7 +96,7 @@ Prereq: C1S6-1 is completed.
 [end objectives]
 
 
-talk to fulker will have her explain how crafting works.
+Talk to fulker will have her explain how crafting works.
 
 
 C1S7-2 immediately active after C1S7-1 is completed.
