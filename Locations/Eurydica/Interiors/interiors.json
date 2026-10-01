@@ -1,5 +1,5 @@
 {
-  "note": "Interior layouts. guild_house is version 2 (Guild House Redesign v2.md, owner-approved 2026-10-01): kit = 3D furniture built in code (FurnitureKit), pieces = Codex pixel pieces. guild_annex and tavern are still v1 (redesign pending). Interior-local metres: +x east, +z south; the south side is open to the camera. Walls: a to b, height h (full 3.0 or half 1.2), doors as [from_m, to_m] along the wall, windows as centre distances along the wall. Furniture uses the approved pixel pieces (Environment Assets/Eurydica/Approved Pixel v1/interiors and props); y lifts wall-mounted pieces; solid is a collision box [width, depth]. Markers replace the plan's older 7 x 7 m interior positions.",
+  "note": "Interior layouts. guild_house is version 2 (Guild House Redesign v2.md, owner-approved 2026-10-01): kit = 3D furniture built in code (FurnitureKit), pieces = Codex pixel pieces. guild_annex and tavern are version 2 too (2026-10-01). Interior-local metres: +x east, +z south; the south side is open to the camera. Walls: a to b, height h (full 3.0 or half 1.2), doors as [from_m, to_m] along the wall, windows as centre distances along the wall. Furniture uses the approved pixel pieces (Environment Assets/Eurydica/Approved Pixel v1/interiors and props); y lifts wall-mounted pieces; solid is a collision box [width, depth]. Markers replace the plan's older 7 x 7 m interior positions.",
   "interiors": {
     "guild_house": {
       "display_name": "Guild hall (Tier 1)",
@@ -1523,716 +1523,1665 @@
     },
     "guild_annex": {
       "display_name": "Guild hall annex (Tier 2)",
+      "version": 2,
       "size": [
-        14,
-        10
+        24,
+        14
       ],
-      "floor": "planks",
-      "wall_style": "warm",
+      "floors": [
+        {
+          "rect": [
+            -12,
+            -7,
+            2,
+            8
+          ],
+          "material": "stone"
+        },
+        {
+          "rect": [
+            2,
+            -7,
+            12,
+            -1
+          ],
+          "material": "oak"
+        },
+        {
+          "rect": [
+            2,
+            -1,
+            12,
+            8
+          ],
+          "material": "oak"
+        }
+      ],
       "walls": [
         {
           "a": [
-            -7,
-            -5
+            -12,
+            -7
           ],
           "b": [
-            7,
-            -5
+            12,
+            -7
           ],
-          "h": 3.2,
-          "windows": [
-            10.5
-          ]
+          "h": 5.2
         },
         {
           "a": [
-            -7,
-            -5
+            -12,
+            -7
           ],
           "b": [
-            -7,
-            5
+            -12,
+            7
           ],
-          "h": 3.2,
-          "windows": [
-            7.5
-          ]
+          "h": 5.2
         },
         {
           "a": [
-            7,
-            -5
+            12,
+            -7
           ],
           "b": [
-            7,
-            5
+            12,
+            7
           ],
-          "h": 3.2,
+          "h": 5.2
+        },
+        {
+          "a": [
+            2,
+            -7
+          ],
+          "b": [
+            2,
+            -1
+          ],
+          "h": 3.6
+        },
+        {
+          "a": [
+            2,
+            -1
+          ],
+          "b": [
+            12,
+            -1
+          ],
+          "h": 3.6,
           "doors": [
             [
-              7,
-              8.4
+              1.2,
+              2.6
             ]
-          ]
+          ],
+          "room_front": "officers2"
         },
         {
           "a": [
-            -7,
-            1
+            2,
+            -1
           ],
           "b": [
-            7,
-            1
+            2,
+            7
           ],
           "h": 1.2,
           "doors": [
             [
-              6.4,
-              7.4
-            ],
-            [
-              10,
-              11
-            ]
-          ]
-        },
-        {
-          "a": [
-            1,
-            -5
-          ],
-          "b": [
-            1,
-            1
-          ],
-          "h": 3.2
-        },
-        {
-          "a": [
-            -1,
-            1
-          ],
-          "b": [
-            -1,
-            5
-          ],
-          "h": 1.2,
-          "doors": [
-            [
-              1.5,
-              2.5
+              2,
+              3.6
             ]
           ]
         }
       ],
-      "furniture": [
+      "rooms": {
+        "officers2": {
+          "rect": [
+            2,
+            -7,
+            12,
+            -1
+          ]
+        }
+      },
+      "kit": [
         {
-          "piece": "forge",
+          "kit": "forge",
+          "size": [
+            5
+          ],
+          "at": [
+            -9.8,
+            -6.3
+          ],
+          "rot": 0,
+          "solid": [
+            2.4,
+            1.3
+          ],
+          "fire": true
+        },
+        {
+          "kit": "anvil",
+          "at": [
+            -8.2,
+            -4.2
+          ],
+          "solid": [
+            0.7,
+            0.5
+          ]
+        },
+        {
+          "kit": "workbench",
+          "size": [
+            2.2
+          ],
           "at": [
             -5.6,
-            -4.3
+            -6.25
+          ],
+          "rot": 0,
+          "solid": [
+            2.2,
+            0.8
+          ]
+        },
+        {
+          "kit": "workbench",
+          "size": [
+            2
+          ],
+          "at": [
+            -2,
+            -6.25
+          ],
+          "rot": 0,
+          "solid": [
+            2,
+            0.8
+          ]
+        },
+        {
+          "kit": "shelves",
+          "size": [
+            1.8,
+            2.2,
+            3
+          ],
+          "at": [
+            0.6,
+            -6.75
+          ],
+          "rot": 0,
+          "solid": [
+            1.8,
+            0.45
+          ]
+        },
+        {
+          "kit": "table",
+          "size": [
+            2.2,
+            1,
+            0.86
+          ],
+          "wood": "oak",
+          "at": [
+            -8.6,
+            2.2
           ],
           "solid": [
             2.2,
             1
-          ],
-          "light": [
+          ]
+        },
+        {
+          "kit": "table",
+          "size": [
+            2,
             1,
-            0.55,
-            0.25,
-            2.2,
-            6
+            0.86
           ],
-          "light_y": 1
-        },
-        {
-          "piece": "anvil",
+          "wood": "oak",
           "at": [
-            -4.2,
-            -2.7
-          ],
-          "solid": [
-            0.8,
-            0.5
-          ]
-        },
-        {
-          "piece": "workbench_craft",
-          "at": [
-            -2.7,
-            -4.3
+            -4.8,
+            2.2
           ],
           "solid": [
             2,
-            0.8
+            1
           ]
         },
         {
-          "piece": "tool_rack",
+          "kit": "tub",
           "at": [
-            -2.7,
-            -4.95
-          ],
-          "y": 2
-        },
-        {
-          "piece": "craftsman_bench",
-          "at": [
-            -0.4,
-            -4.3
+            -6.7,
+            3.8
           ],
           "solid": [
-            1.8,
-            0.8
+            1,
+            1
           ]
         },
         {
-          "piece": "material_shelves",
-          "at": [
-            -0.2,
-            -2.3
+          "kit": "hook_rail",
+          "size": [
+            2
           ],
-          "solid": [
-            2,
+          "at": [
+            -11.85,
             0.6
-          ]
+          ],
+          "y": 2.6,
+          "rot": 1.5707963267948966
         },
         {
-          "piece": "processing_table",
-          "at": [
-            -5.4,
-            -0.6
-          ],
-          "solid": [
-            1.8,
-            0.8
-          ]
-        },
-        {
-          "piece": "staff_processing_table",
-          "at": [
-            -3,
-            -0.6
-          ],
-          "solid": [
+          "kit": "shelves",
+          "size": [
             1.6,
-            0.8
-          ]
-        },
-        {
-          "piece": "hanging_hooks",
-          "at": [
-            -6.6,
-            -1.6
+            2,
+            3
           ],
-          "y": 2.4
-        },
-        {
-          "piece": "cold_store",
           "at": [
-            -1.3,
-            -0.5
+            -1.2,
+            4
           ],
+          "rot": -1.5707963267948966,
           "solid": [
-            1.2,
-            0.7
-          ]
-        },
-        {
-          "piece": "wall_lamp",
-          "at": [
-            -6.9,
-            -3
-          ],
-          "y": 2.3,
-          "light": [
-            1,
-            0.74,
             0.45,
-            1,
-            5.5
+            1.6
           ]
         },
         {
-          "piece": "goods_shelves",
+          "kit": "crate",
+          "size": [
+            0.9
+          ],
           "at": [
-            2.6,
-            -4.6
+            -1,
+            6.6
           ],
           "solid": [
-            1.8,
-            0.5
+            0.9,
+            0.9
           ]
         },
         {
-          "piece": "trading_counter",
+          "kit": "barrel",
           "at": [
-            3,
-            -2
+            -2.2,
+            6.7
           ],
           "solid": [
-            2.4,
-            0.8
-          ]
-        },
-        {
-          "piece": "info_desk",
-          "at": [
-            5.6,
-            -2.4
-          ],
-          "solid": [
-            1.6,
+            0.7,
             0.7
           ]
         },
         {
-          "piece": "stool",
-          "at": [
-            5.6,
-            -1.6
-          ]
-        },
-        {
-          "piece": "map_wall",
-          "at": [
-            5.4,
-            -4.95
+          "kit": "window",
+          "size": [
+            1.6,
+            2.4
           ],
-          "y": 1.2
-        },
-        {
-          "piece": "rumour_board",
           "at": [
-            4.1,
-            -4.95
+            -4,
+            -6.92
           ],
           "y": 1.4
         },
         {
-          "piece": "wall_lamp",
-          "at": [
-            6.9,
-            -1
+          "kit": "window",
+          "size": [
+            1.6,
+            2.4
           ],
-          "y": 2.3,
-          "light": [
-            1,
-            0.74,
-            0.45,
-            1,
-            5.5
+          "at": [
+            -0.4,
+            -6.92
+          ],
+          "y": 1.4,
+          "skip_if_blocked": true
+        },
+        {
+          "kit": "bed",
+          "colour": "oxblood",
+          "at": [
+            3.4,
+            -5.8
+          ],
+          "rot": 0,
+          "solid": [
+            1.1,
+            2.1
           ]
         },
         {
-          "piece": "bed_officer_a",
+          "kit": "bed",
+          "colour": "sage",
           "at": [
-            -6.1,
-            1.5
+            5.2,
+            -5.8
           ],
+          "rot": 0,
           "solid": [
-            1,
-            1.9
+            1.1,
+            2.1
           ]
         },
         {
-          "piece": "bed_officer_b",
+          "kit": "bed",
+          "colour": "navy",
           "at": [
-            -4.7,
-            1.5
+            7,
+            -5.8
           ],
+          "rot": 0,
           "solid": [
-            1,
-            1.9
+            1.1,
+            2.1
           ]
         },
         {
-          "piece": "bed_officer_c",
+          "kit": "chest",
           "at": [
-            -3.3,
-            1.5
+            3.4,
+            -4.3
           ],
+          "rot": 0,
           "solid": [
-            1,
-            1.9
-          ]
-        },
-        {
-          "piece": "wardrobe",
-          "at": [
-            -1.8,
-            1.4
-          ],
-          "solid": [
-            1.2,
+            0.95,
             0.6
           ]
         },
         {
-          "piece": "chest",
+          "kit": "chest",
           "at": [
-            -5.4,
-            4.3
+            5.2,
+            -4.3
           ],
+          "rot": 0,
           "solid": [
-            0.9,
-            0.5
+            0.95,
+            0.6
+          ]
+        },
+        {
+          "kit": "chest",
+          "at": [
+            7,
+            -4.3
+          ],
+          "rot": 0,
+          "solid": [
+            0.95,
+            0.6
+          ]
+        },
+        {
+          "kit": "wardrobe",
+          "at": [
+            11.3,
+            -4.4
+          ],
+          "rot": -1.5707963267948966,
+          "solid": [
+            0.65,
+            1.25
+          ]
+        },
+        {
+          "kit": "window",
+          "size": [
+            1.4,
+            2.2
+          ],
+          "at": [
+            9.4,
+            -6.92
+          ],
+          "y": 1
+        },
+        {
+          "kit": "rug",
+          "size": [
+            3,
+            1.6
+          ],
+          "colour": "sage",
+          "at": [
+            5.2,
+            -2.6
+          ]
+        },
+        {
+          "kit": "counter",
+          "size": [
+            3.2
+          ],
+          "at": [
+            5,
+            2.4
+          ],
+          "rot": 0,
+          "solid": [
+            3.3,
+            0.8
+          ]
+        },
+        {
+          "kit": "stool",
+          "at": [
+            4.3,
+            3.2
+          ]
+        },
+        {
+          "kit": "stool",
+          "at": [
+            5.7,
+            3.2
+          ]
+        },
+        {
+          "kit": "shelves",
+          "size": [
+            2,
+            2.2,
+            3
+          ],
+          "at": [
+            11.75,
+            0.8
+          ],
+          "rot": -1.5707963267948966,
+          "solid": [
+            0.45,
+            2
+          ]
+        },
+        {
+          "kit": "shelves",
+          "size": [
+            2,
+            2.2,
+            3
+          ],
+          "at": [
+            11.75,
+            3.2
+          ],
+          "rot": -1.5707963267948966,
+          "solid": [
+            0.45,
+            2
+          ]
+        },
+        {
+          "kit": "desk",
+          "at": [
+            8.8,
+            0.6
+          ],
+          "rot": 0,
+          "solid": [
+            1.5,
+            0.7
+          ]
+        },
+        {
+          "kit": "chair",
+          "at": [
+            8.8,
+            1.25
+          ],
+          "rot": 3.141592653589793
+        },
+        {
+          "kit": "rug",
+          "size": [
+            3.2,
+            2
+          ],
+          "colour": "navy",
+          "at": [
+            7,
+            3
+          ]
+        },
+        {
+          "kit": "stairs",
+          "size": [
+            3.6,
+            3.4,
+            1.3
+          ],
+          "at": [
+            7.4,
+            6.6
+          ],
+          "solid_stairs": true
+        }
+      ],
+      "pieces": [
+        {
+          "piece": "forge_fire",
+          "at": [
+            -9.8,
+            -6
+          ],
+          "y": 0.95,
+          "light": [
+            1,
+            0.55,
+            0.25,
+            2.4,
+            7
+          ],
+          "light_y": 1.2
+        },
+        {
+          "piece": "tongs_hammer",
+          "at": [
+            -5.6,
+            -6.2
+          ],
+          "y": 0.86
+        },
+        {
+          "piece": "bellows",
+          "at": [
+            -11.3,
+            -5.8
+          ]
+        },
+        {
+          "piece": "hanging_tools",
+          "at": [
+            -5.6,
+            -6.88
+          ],
+          "y": 2.3
+        },
+        {
+          "piece": "ingot_row",
+          "at": [
+            0.6,
+            -6.6
+          ],
+          "y": 0.84
+        },
+        {
+          "piece": "hide_bundle_row",
+          "at": [
+            0.6,
+            -6.6
+          ],
+          "y": 1.54
+        },
+        {
+          "piece": "cleaver",
+          "at": [
+            -8.6,
+            2.2
+          ],
+          "y": 0.86
+        },
+        {
+          "piece": "hanging_cuts",
+          "at": [
+            -11.8,
+            0.6
+          ],
+          "y": 2.55
+        },
+        {
+          "piece": "pelt_stack",
+          "at": [
+            -11,
+            5.6
+          ]
+        },
+        {
+          "piece": "jar_row",
+          "at": [
+            -1.1,
+            4
+          ],
+          "y": 0.78
+        },
+        {
+          "piece": "planter_stormfern",
+          "at": [
+            -11.2,
+            -1.6
           ]
         },
         {
           "piece": "wall_lamp",
           "at": [
-            -1.1,
-            3.6
+            -1.6,
+            -6.92
+          ],
+          "y": 2.4,
+          "light": [
+            1,
+            0.78,
+            0.5,
+            0.8,
+            5
+          ]
+        },
+        {
+          "piece": "scale",
+          "at": [
+            4.4,
+            2.4
+          ],
+          "y": 1.07
+        },
+        {
+          "piece": "coin_pouch",
+          "at": [
+            5.8,
+            2.4
+          ],
+          "y": 1.07
+        },
+        {
+          "piece": "potion_row",
+          "at": [
+            11.6,
+            0.8
+          ],
+          "y": 0.84
+        },
+        {
+          "piece": "bottle_row",
+          "at": [
+            11.6,
+            0.8
+          ],
+          "y": 1.54
+        },
+        {
+          "piece": "jar_row",
+          "at": [
+            11.6,
+            3.2
+          ],
+          "y": 0.84
+        },
+        {
+          "piece": "hide_bundle_row",
+          "at": [
+            11.6,
+            3.2
+          ],
+          "y": 1.54
+        },
+        {
+          "piece": "map_pinned",
+          "at": [
+            6.8,
+            -0.88
+          ],
+          "y": 1.3
+        },
+        {
+          "piece": "ledger_stack",
+          "at": [
+            8.4,
+            0.6
+          ],
+          "y": 0.78
+        },
+        {
+          "piece": "seal_letter",
+          "at": [
+            9.1,
+            0.7
+          ],
+          "y": 0.78
+        },
+        {
+          "piece": "candle",
+          "at": [
+            9.4,
+            0.5
+          ],
+          "y": 0.78,
+          "light": [
+            1,
+            0.75,
+            0.45,
+            0.6,
+            3.5
+          ],
+          "light_y": 1.1
+        },
+        {
+          "piece": "planter_skybell",
+          "at": [
+            2.6,
+            6.6
+          ]
+        },
+        {
+          "piece": "planter_emberseed",
+          "at": [
+            11.4,
+            -0.4
+          ]
+        },
+        {
+          "piece": "hanging_creeper",
+          "at": [
+            3,
+            -1.1
+          ],
+          "y": 3
+        },
+        {
+          "piece": "wall_lamp",
+          "at": [
+            11.85,
+            5.4
+          ],
+          "y": 2.3,
+          "light": [
+            1,
+            0.78,
+            0.5,
+            0.8,
+            5
+          ]
+        },
+        {
+          "piece": "candle",
+          "at": [
+            5.2,
+            -4.3
+          ],
+          "y": 0.54,
+          "light": [
+            1,
+            0.75,
+            0.45,
+            0.5,
+            3.5
+          ],
+          "light_y": 0.8
+        },
+        {
+          "piece": "wall_lamp",
+          "at": [
+            11.85,
+            -2.6
           ],
           "y": 2.2,
           "light": [
             1,
-            0.74,
-            0.45,
-            0.8,
+            0.78,
+            0.5,
+            0.6,
             4
-          ]
-        },
-        {
-          "piece": "stair_up",
-          "at": [
-            4.4,
-            2.6
-          ],
-          "solid": [
-            3,
-            2.2
-          ]
-        },
-        {
-          "piece": "crate_stack",
-          "at": [
-            1.6,
-            4.2
-          ],
-          "solid": [
-            1,
-            0.8
-          ]
-        },
-        {
-          "piece": "barrel_group",
-          "at": [
-            0.2,
-            4.4
-          ],
-          "solid": [
-            1.6,
-            0.8
           ]
         }
       ],
       "markers": {
         "annex_door": [
-          6.4,
-          3,
-          "west"
+          -11.4,
+          3.5,
+          "east"
         ],
         "mae_station": [
-          -5.4,
-          0.15,
+          -8.6,
+          3,
           "north"
         ],
         "fulker_station": [
-          -4.2,
-          -1.95,
+          -8.2,
+          -3.4,
           "north"
         ],
         "processing_staff_station": [
-          -3,
-          0.15,
+          -4.8,
+          3,
           "north"
         ],
         "craftsman_station": [
-          -0.4,
-          -3.55,
+          -2,
+          -5.5,
           "north"
         ],
         "valerie_counter": [
-          3,
-          -2.75,
+          5,
+          1.6,
           "south"
         ],
         "liliana_desk": [
-          5.6,
-          -1.6,
+          8.8,
+          1.25,
           "north"
         ],
         "officers_room_2_door": [
+          3.9,
           -0.4,
-          3,
-          "west"
+          "north"
         ]
       },
-      "exit": "annex_door"
+      "exit": "annex_door",
+      "outside": {
+        "north": -7.1,
+        "trees": [
+          [
+            -6,
+            -3.5,
+            "broad"
+          ],
+          [
+            4,
+            -4,
+            "tall"
+          ],
+          [
+            10,
+            -3,
+            "young"
+          ]
+        ],
+        "roofs": [
+          [
+            -2,
+            13,
+            9,
+            "warm_red"
+          ],
+          [
+            9,
+            14,
+            8,
+            "plum"
+          ]
+        ],
+        "ceilings": [
+          [
+            [
+              -12,
+              -7,
+              12,
+              8
+            ],
+            5.2
+          ]
+        ]
+      },
+      "lighting": {
+        "ambient": [
+          0.9,
+          0.92,
+          0.95
+        ],
+        "ambient_energy": 0.4,
+        "window_light": [
+          0.85,
+          0.9,
+          1,
+          1.2,
+          8
+        ],
+        "sun": [
+          1,
+          0.93,
+          0.8,
+          1.6,
+          -32,
+          155
+        ],
+        "shaft_energy": 3,
+        "shaft_density": 0.006
+      }
     },
     "tavern": {
       "display_name": "The tavern",
+      "version": 2,
       "size": [
-        10,
-        8
+        20,
+        14
       ],
-      "floor": "planks",
       "wall_style": "warm",
+      "floors": [
+        {
+          "rect": [
+            -10,
+            -7,
+            10,
+            8
+          ],
+          "material": "oak"
+        }
+      ],
       "walls": [
         {
           "a": [
-            -5,
-            -4
+            -10,
+            -7
           ],
           "b": [
-            5,
-            -4
+            10,
+            -7
           ],
-          "h": 3.2
+          "h": 5.4
         },
         {
           "a": [
-            -5,
-            -4
+            -10,
+            -7
           ],
           "b": [
-            -5,
-            4
+            -10,
+            7
           ],
-          "h": 3.2,
-          "windows": [
-            6
-          ]
+          "h": 5.4
         },
         {
           "a": [
-            5,
-            -4
+            10,
+            -7
           ],
           "b": [
-            5,
-            4
+            10,
+            7
           ],
-          "h": 3.2,
+          "h": 5.4,
           "doors": [
             [
-              6.4,
-              7.6
+              9.2,
+              10.8
             ]
-          ],
-          "windows": [
-            2
           ]
         }
       ],
-      "furniture": [
+      "kit": [
         {
-          "piece": "bar_shelves",
-          "at": [
-            0,
-            -3.9
+          "kit": "bar",
+          "size": [
+            6
           ],
-          "solid": [
-            3,
-            0.4
-          ]
-        },
-        {
-          "piece": "bar_counter",
           "at": [
-            0,
-            -2.5
+            2,
+            -4
           ],
+          "rot": 0,
           "solid": [
-            3,
+            6.1,
             0.8
           ]
         },
         {
-          "piece": "bar_stool",
+          "kit": "shelves",
+          "size": [
+            2.4,
+            2.2,
+            3
+          ],
           "at": [
-            -1,
-            -1.8
+            0.6,
+            -6.75
+          ],
+          "rot": 0,
+          "solid": [
+            2.4,
+            0.45
           ]
         },
         {
-          "piece": "bar_stool",
+          "kit": "shelves",
+          "size": [
+            2.4,
+            2.2,
+            3
+          ],
+          "at": [
+            3.6,
+            -6.75
+          ],
+          "rot": 0,
+          "solid": [
+            2.4,
+            0.45
+          ]
+        },
+        {
+          "kit": "stool",
           "at": [
             0,
-            -1.8
+            -3.1
           ]
         },
         {
-          "piece": "bar_stool",
+          "kit": "stool",
           "at": [
-            1,
-            -1.8
-          ]
-        },
-        {
-          "piece": "keg_stack",
-          "at": [
-            -3.8,
-            -3.3
-          ],
-          "solid": [
             1.4,
+            -3.1
+          ]
+        },
+        {
+          "kit": "stool",
+          "at": [
+            2.8,
+            -3.1
+          ]
+        },
+        {
+          "kit": "stool",
+          "at": [
+            4.2,
+            -3.1
+          ]
+        },
+        {
+          "kit": "hearth",
+          "size": [
+            5.4
+          ],
+          "at": [
+            -7.4,
+            -6.55
+          ],
+          "rot": 0,
+          "solid": [
+            2.8,
             1
           ]
         },
         {
-          "piece": "stair_up",
-          "at": [
-            3.5,
-            -2.6
+          "kit": "gallery",
+          "size": [
+            20,
+            1.4,
+            3.6
           ],
-          "solid": [
-            3,
-            2.6
+          "at": [
+            0,
+            -5.6
+          ],
+          "rot": 0
+        },
+        {
+          "kit": "post",
+          "size": [
+            3.6
+          ],
+          "at": [
+            -4,
+            -5.6
           ]
         },
         {
-          "piece": "hearth",
+          "kit": "post",
+          "size": [
+            3.6
+          ],
           "at": [
-            -4,
-            0.2
+            6.6,
+            -5.6
+          ]
+        },
+        {
+          "kit": "rug",
+          "size": [
+            3.6,
+            3
+          ],
+          "colour": "oxblood",
+          "at": [
+            -6.2,
+            -0.6
+          ]
+        },
+        {
+          "kit": "table",
+          "size": [
+            1.6,
+            1.1,
+            0.78
+          ],
+          "at": [
+            -6.2,
+            -0.6
           ],
           "solid": [
-            2,
-            0.6
+            1.6,
+            1.1
+          ]
+        },
+        {
+          "kit": "high_chair",
+          "colour": "oxblood",
+          "at": [
+            -7.45,
+            -0.6
           ],
+          "rot": 1.5707963267948966
+        },
+        {
+          "kit": "high_chair",
+          "colour": "oxblood",
+          "at": [
+            -6.2,
+            -1.6
+          ],
+          "rot": 0
+        },
+        {
+          "kit": "high_chair",
+          "colour": "oxblood",
+          "at": [
+            -4.95,
+            -0.6
+          ],
+          "rot": -1.5707963267948966
+        },
+        {
+          "kit": "round_table",
+          "at": [
+            -1,
+            2.6
+          ],
+          "solid": [
+            1.2,
+            1.2
+          ]
+        },
+        {
+          "kit": "high_chair",
+          "colour": "sage",
+          "at": [
+            -1,
+            1.7
+          ],
+          "rot": 0
+        },
+        {
+          "kit": "high_chair",
+          "colour": "sage",
+          "at": [
+            -1,
+            3.5
+          ],
+          "rot": 3.141592653589793
+        },
+        {
+          "kit": "round_table",
+          "at": [
+            4.6,
+            2
+          ],
+          "solid": [
+            1.2,
+            1.2
+          ]
+        },
+        {
+          "kit": "high_chair",
+          "colour": "navy",
+          "at": [
+            3.7,
+            2
+          ],
+          "rot": 1.5707963267948966
+        },
+        {
+          "kit": "high_chair",
+          "colour": "navy",
+          "at": [
+            5.5,
+            2
+          ],
+          "rot": -1.5707963267948966
+        },
+        {
+          "kit": "table",
+          "size": [
+            3.2,
+            1,
+            0.78
+          ],
+          "at": [
+            -5.4,
+            4.8
+          ],
+          "solid": [
+            3.2,
+            1
+          ]
+        },
+        {
+          "kit": "bench",
+          "size": [
+            3
+          ],
+          "at": [
+            -5.4,
+            4.1
+          ],
+          "rot": 0
+        },
+        {
+          "kit": "bench",
+          "size": [
+            3
+          ],
+          "at": [
+            -5.4,
+            5.5
+          ],
+          "rot": 3.141592653589793
+        },
+        {
+          "kit": "stairs",
+          "size": [
+            4.2,
+            3.6,
+            1.3
+          ],
+          "at": [
+            5.2,
+            5.6
+          ],
+          "solid_stairs": true
+        },
+        {
+          "kit": "barrel",
+          "at": [
+            8.8,
+            -6.2
+          ],
+          "solid": [
+            0.7,
+            0.7
+          ]
+        },
+        {
+          "kit": "barrel",
+          "at": [
+            8,
+            -6.3
+          ],
+          "solid": [
+            0.7,
+            0.7
+          ]
+        },
+        {
+          "kit": "window",
+          "size": [
+            1.4,
+            2.2
+          ],
+          "at": [
+            -2.6,
+            -6.92
+          ],
+          "y": 1
+        },
+        {
+          "kit": "window",
+          "size": [
+            1.4,
+            2.2
+          ],
+          "at": [
+            7.2,
+            -6.92
+          ],
+          "y": 1
+        },
+        {
+          "kit": "window",
+          "size": [
+            1.4,
+            2.2
+          ],
+          "at": [
+            -9.92,
+            3.2
+          ],
+          "y": 1,
+          "rot": 1.5707963267948966
+        }
+      ],
+      "pieces": [
+        {
+          "piece": "tavern_fire",
+          "at": [
+            -7.4,
+            -6.2
+          ],
+          "y": 0.16,
           "light": [
             1,
             0.6,
             0.3,
-            1.8,
-            6
+            2.2,
+            8
           ],
-          "light_y": 0.8
+          "light_y": 0.9
         },
         {
-          "piece": "tavern_table",
+          "piece": "stew_pot",
           "at": [
-            -2.2,
-            1.6
+            -7.4,
+            -6
           ],
-          "solid": [
-            1.2,
-            1
-          ]
+          "y": 0.16
         },
         {
-          "piece": "tavern_table",
+          "piece": "keg_tap",
           "at": [
-            1.8,
-            1
+            5.6,
+            -4
           ],
-          "solid": [
-            1.2,
-            1
-          ]
+          "y": 1.07
         },
         {
-          "piece": "tavern_bench",
-          "at": [
-            1.8,
-            1.8
-          ]
-        },
-        {
-          "piece": "tavern_table",
-          "at": [
-            3.4,
-            2.9
-          ],
-          "solid": [
-            1.2,
-            1
-          ]
-        },
-        {
-          "piece": "tavern_bench",
+          "piece": "bottle_row",
           "at": [
             0.6,
-            3.3
-          ]
+            -6.6
+          ],
+          "y": 0.84
+        },
+        {
+          "piece": "bottle_row",
+          "at": [
+            0.6,
+            -6.6
+          ],
+          "y": 1.54
+        },
+        {
+          "piece": "jar_row",
+          "at": [
+            3.6,
+            -6.6
+          ],
+          "y": 0.84
+        },
+        {
+          "piece": "bottle_row",
+          "at": [
+            3.6,
+            -6.6
+          ],
+          "y": 1.54
+        },
+        {
+          "piece": "tankard",
+          "at": [
+            -6.6,
+            -0.6
+          ],
+          "y": 0.78
+        },
+        {
+          "piece": "tankard",
+          "at": [
+            -5.8,
+            -0.4
+          ],
+          "y": 0.78
+        },
+        {
+          "piece": "tankard",
+          "at": [
+            -6.2,
+            -1
+          ],
+          "y": 0.78
+        },
+        {
+          "piece": "tankard",
+          "at": [
+            1,
+            -4
+          ],
+          "y": 1.07
+        },
+        {
+          "piece": "bread_plate",
+          "at": [
+            -1,
+            2.6
+          ],
+          "y": 0.78
+        },
+        {
+          "piece": "tankard",
+          "at": [
+            4.6,
+            2
+          ],
+          "y": 0.78
+        },
+        {
+          "piece": "candle",
+          "at": [
+            -5.4,
+            4.8
+          ],
+          "y": 0.78,
+          "light": [
+            1,
+            0.75,
+            0.45,
+            0.6,
+            3.5
+          ],
+          "light_y": 1.1
         },
         {
           "piece": "hanging_lantern",
           "at": [
-            -2.2,
-            1.6
+            -6.2,
+            -0.6
           ],
-          "y": 2.9,
+          "y": 3.4,
           "light": [
             1,
             0.72,
             0.42,
             1.2,
-            5
-          ]
+            5.5
+          ],
+          "light_y": 2.6
         },
         {
           "piece": "hanging_lantern",
           "at": [
             1.8,
-            0.4
+            2.3
           ],
-          "y": 2.9,
+          "y": 3.4,
           "light": [
             1,
             0.72,
             0.42,
-            1,
-            5
-          ]
+            1.1,
+            5.5
+          ],
+          "light_y": 2.6
         },
         {
           "piece": "hanging_lantern",
           "at": [
-            3.4,
-            2.6
+            -5.4,
+            4.8
           ],
-          "y": 2.9,
+          "y": 3.4,
           "light": [
             1,
             0.72,
             0.42,
             1,
-            5
+            5.5
+          ],
+          "light_y": 2.6
+        },
+        {
+          "piece": "tavern_sign_inside",
+          "at": [
+            2,
+            -5.6
+          ],
+          "y": 3.3
+        },
+        {
+          "piece": "cloth_hanging",
+          "at": [
+            -1.8,
+            -5.5
+          ],
+          "y": 3.6
+        },
+        {
+          "piece": "cloth_hanging",
+          "at": [
+            9.2,
+            -5.5
+          ],
+          "y": 3.6
+        },
+        {
+          "piece": "planter_emberseed",
+          "at": [
+            9.2,
+            6.4
           ]
+        },
+        {
+          "piece": "planter_stormfern",
+          "at": [
+            -9.2,
+            6.4
+          ]
+        },
+        {
+          "piece": "hanging_creeper",
+          "at": [
+            -4,
+            -5.4
+          ],
+          "y": 3.5
+        },
+        {
+          "piece": "hanging_creeper",
+          "at": [
+            6.6,
+            -5.4
+          ],
+          "y": 3.5
         }
       ],
       "markers": {
         "table_west": [
-          -3,
-          1.6,
+          -7.45,
+          -0.6,
           "east"
         ],
         "table_north": [
-          -2.2,
-          0.85,
+          -6.2,
+          -1.6,
           "south"
         ],
         "table_east": [
-          -1.4,
-          1.6,
+          -4.95,
+          -0.6,
           "west"
         ],
         "mae_side": [
-          -0.7,
-          2.2,
+          -4.95,
+          0.4,
           "west"
         ],
         "tavern_door": [
-          4.4,
+          9.2,
           3,
           "west"
         ]
       },
-      "exit": "tavern_door"
+      "exit": "tavern_door",
+      "outside": {
+        "north": -7.1,
+        "trees": [
+          [
+            -5,
+            -3.5,
+            "broad"
+          ],
+          [
+            6,
+            -4,
+            "tall"
+          ]
+        ],
+        "roofs": [
+          [
+            0,
+            13,
+            10,
+            "plum"
+          ],
+          [
+            -14,
+            6,
+            6,
+            "warm_red"
+          ]
+        ],
+        "ceilings": [
+          [
+            [
+              -10,
+              -7,
+              10,
+              8
+            ],
+            5.4
+          ]
+        ]
+      },
+      "lighting": {
+        "ambient": [
+          0.95,
+          0.85,
+          0.72
+        ],
+        "ambient_energy": 0.32,
+        "window_light": [
+          0.85,
+          0.9,
+          1,
+          1,
+          7
+        ],
+        "sun": [
+          1,
+          0.9,
+          0.75,
+          1.3,
+          -30,
+          150
+        ],
+        "shaft_energy": 2.5,
+        "shaft_density": 0.006
+      }
     }
   }
 }
