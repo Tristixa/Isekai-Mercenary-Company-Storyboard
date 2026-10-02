@@ -1,0 +1,117 @@
+[
+  {
+    "source": "D:/Codex/IMC/runs/ui-kit-v1/sources/reused/clock.png",
+    "file": "sources/reused/clock.png",
+    "sha256": "d5681977240394c9f0b74bb8ea52c4a001e5ea55cf5f49cbed8ab517804cdfb6"
+  },
+  {
+    "source": "D:/Codex/IMC/runs/ui-kit-v1/sources/reused/mask_header_flourish.png",
+    "file": "sources/reused/mask_header_flourish.png",
+    "sha256": "e888600f8a63f91124c8585a75d8c6fe4435637d96e4180b45acb54189871304"
+  },
+  {
+    "source": "D:/Codex/IMC/runs/ui-kit-v1/sources/reused/mask_corner_small.png",
+    "file": "sources/reused/mask_corner_small.png",
+    "sha256": "662799678650b68b1811db0055dee085109792ccdbdf200aa88fac5fcd9d5a1d"
+  },
+  {
+    "source": "D:/Codex/IMC/runs/ui-kit-v1/sources/reused/stain_1.png",
+    "file": "sources/reused/stain_1.png",
+    "sha256": "b16afd2e839eaa0248d3d43afe5202a1382ff16e8c14d78cf4446f77ba120e9c"
+  },
+  {
+    "source": "D:/Codex/IMC/runs/battle-ui-mockup-v2/bg.png",
+    "file": "sources/reused/bg.png",
+    "sha256": "39cb2cd018796ae3f45f643dedd7025754eefb0001cb8b81b39c6cff6f54a117"
+  },
+  {
+    "source": "D:/Codex/IMC/runs/battle-ui-mockup-v2/boar.png",
+    "file": "sources/reused/boar.png",
+    "sha256": "c3b83a035bfe2779efc0a1113db64af8e79bdde4db2ce5212b4968ec759dff9f"
+  },
+  {
+    "source": "D:/Codex/IMC/runs/battle-ui-mockup-v2/bust0.png",
+    "file": "sources/reused/bust0.png",
+    "sha256": "f9064e4dc77d4dfcc61a22b67e5a39bbf99a5a8ae0d15b83bef383b131bb1f1e"
+  },
+  {
+    "source": "D:/Codex/IMC/runs/battle-ui-mockup-v2/bust1.png",
+    "file": "sources/reused/bust1.png",
+    "sha256": "2d230dff5352b3d8c4c09a044b5277c002fa2766e8c6f9b6099a923c77cb5e25"
+  },
+  {
+    "source": "D:/Codex/IMC/runs/battle-ui-mockup-v2/bust2.png",
+    "file": "sources/reused/bust2.png",
+    "sha256": "1ad7bd5de6cbf7db29f82204304e3ab90dfe0c305fd5e142ce1300645433cf94"
+  },
+  {
+    "source": "D:/Codex/IMC/runs/ui-kit-v1/sources/fonts/CormorantGaramond-SemiBold.otf",
+    "file": "sources/fonts/CormorantGaramond-SemiBold.otf",
+    "sha256": "0b9472d08822a316e26d3ac90b1c12c2552fbaea60d433b0b969fa74b6202b84"
+  },
+  {
+    "source": "D:/Codex/IMC/runs/ui-kit-v1/sources/fonts/Alegreya[wght].ttf",
+    "file": "sources/fonts/Alegreya[wght].ttf",
+    "sha256": "ba5564634b93a8f8ba57b48cd4f1ae7417d2b4656fbac779028679b00de3cf12"
+  },
+  {
+    "source": "D:/Codex/IMC/runs/ui-kit-v1/sources/fonts/alegreya-OFL.txt",
+    "file": "sources/fonts/alegreya-OFL.txt",
+    "sha256": "f6f60d5d4cf4f4b1fc4e41353c897a2f5a16e6396c0cd8fa8bdfd2f4586a9a68"
+  },
+  {
+    "source": "D:/Codex/IMC/runs/ui-kit-v1/sources/fonts/cormorantgaramond-OFL.txt",
+    "file": "sources/fonts/cormorantgaramond-OFL.txt",
+    "sha256": "60700d351cac4650c51f3f9db318d2a420f8b45052dba2715eb5fec41f0f6956"
+  },
+  {
+    "source": "D:/Storyboards/Isekai Mercenary Company/UI Kit/Approved v1/README.md",
+    "file": "sources/approved/README.md",
+    "sha256": "d9ffd4dc3ebeadf755f8540d3f97c1d416aecf26bb2b022672e3c8a0fbd8c0e8"
+  },
+  {
+    "source": "D:/Storyboards/Isekai Mercenary Company/UI Kit/Approved v1/Codex run notes.md",
+    "file": "sources/approved/Codex run notes.md",
+    "sha256": "7fc97a126673614a841cf70be59df1ecf1a75335c6b01e79abf01cf0a1ec44fe"
+  },
+  {
+    "source": "D:/Storyboards/Isekai Mercenary Company/UI Kit/Approved v1/kit.json",
+    "file": "sources/approved/kit.json",
+    "sha256": "fa5b80f1a6a576b52fadaa925c635d1b48c8cb7136053862714a40fd3248f7fc"
+  },
+  {
+    "source": "D:/Codex/IMC/runs/battle-ui-mockup-v2/mockup.html",
+    "file": "sources/reference/mockup.html",
+    "sha256": "fbf6da37a6f45d20eb67be1f9fcf023f777b10573a80d8a32004f871800493bc"
+  },
+  {
+    "source": "D:/Codex/IMC/runs/battle-ui-mockup-v2/mockup-battle.png",
+    "file": "sources/reference/mockup-battle.png",
+    "sha256": "15dd2e9197277939b80801cdd61f03bd0d359436209ff0186500fe09567be2e1"
+  },
+  {
+    "source": "D:/Codex/IMC/runs/battle-ui-mockup-v2/zoom-ring.png",
+    "file": "sources/reference/zoom-ring.png",
+    "sha256": "3450b29bfaf56d084a49861640093cc1a547626f4f32e2c75613db64c85828bd"
+  },
+  {
+    "source": "D:/Codex/IMC/runs/battle-ui-mockup-v2/zoom-party.png",
+    "file": "sources/reference/zoom-party.png",
+    "sha256": "27b9ff3bc484b364aa8328587cd7e3372544bacac3d9bcd9f9e10e21d68958d0"
+  },
+  {
+    "source": "D:/Download/battlemenu-grandia.jpg",
+    "file": "sources/reference/grandia.jpg",
+    "sha256": "00965fdc5f6ad0ddb2a288e96bba55190c1026ffc5697aaf5784e3757d898ea7"
+  },
+  {
+    "source": "C:/Users/Tristixa-/Pictures/Screenshots/Ignore the blue symbol at bottom right, it's the channel logo.png",
+    "file": "sources/reference/kh-gauge.png",
+    "sha256": "f687690d7d4d473ea2f711c2cfbf7962bd52c534f5dd7e3e0c6b9ffdccb3fc6e"
+  },
+  {
+    "source": "D:/Codex/IMC/runs/ui-kit-v1/sources/kit.js",
+    "file": "sources/reference/approved-kit.js",
+    "sha256": "2d4e08726b8dbfb01d3f1b211e971aa9156251ec5c165d5737a90fd602fa7cc3"
+  }
+]

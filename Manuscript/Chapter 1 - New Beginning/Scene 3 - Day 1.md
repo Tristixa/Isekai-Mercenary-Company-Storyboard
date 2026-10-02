@@ -5,7 +5,7 @@ Location: Guild house (Tier 1) interior
 Time: Morning
 Actors: Tristitia, Elsie, Commander
 Staging: Tristitia at table_north facing south, seated; Commander at table_south facing north, standing beside the opposite chair; Elsie at bench_east facing west in Guild house (Tier 1) courtyard, offstage until the courtyard transition
-Special poses: Tristitia sit, Tristitia stand_from_chair, Commander sit, Commander look_down_seated, Commander stand_from_chair, Elsie look_down, Commander kneel_reach, Elsie withdraw_hand, Commander stand_from_kneel, Commander salute, Elsie salute
+Special poses: Tristitia sit, Tristitia stand_from_chair, Commander sit, Commander look_down_seated, Commander stand_from_chair, Elsie look_down
 
 > One week after the discussion in the tavern.
 
@@ -130,31 +130,6 @@ Commander (Base):
    "My name is <name>. Pleasure to meet you."
    Elsie (Happy):
    "Elsie. Good to meet you, Commander."
-
-3. **[Kneel and kiss her hand]**
-   [move: Commander elsie_side]
-   [pose: Commander kneel_reach]
-   Commander (Happy):
-   "I’m <name>."
-   [pose: Elsie withdraw_hand]
-   Elsie (Laugh):
-   "You can stand."
-   "I’m not anyone you need to bow to."
-   [pose: Commander stand_from_kneel]
-   [pose: Commander idle]
-   [pose: Elsie idle]
-   [move: Commander bench_west]
-   [face: Commander Elsie]
-
-4. **[Salute]**
-   [pose: Commander salute]
-   Commander (Serious):
-   "<name>."
-   [pose: Elsie salute]
-   [pose: Elsie idle]
-   [pose: Commander idle]
-   Elsie (Base):
-   "...Old habit."
 
 Elsie (Base):
 "Tristitia told me what you’re trying to build."
@@ -318,7 +293,7 @@ Commander (Base):
 Tristitia (Base):
 "Learn the city."
 "Start with the market and the gate."
-"Find out where people gather and share informations."
+"Find out where people gather and share news."
 
 Commander (Base):
 "So I walk around and talk to people."
@@ -327,7 +302,7 @@ Tristitia (Serious):
 "Talk to them, yes."
 "But look around before you begin asking questions. You will learn more that way."
 
-Commander (HappY):
+Commander (Happy):
 "All right. I can do that."
 
 Tristitia (Happy):

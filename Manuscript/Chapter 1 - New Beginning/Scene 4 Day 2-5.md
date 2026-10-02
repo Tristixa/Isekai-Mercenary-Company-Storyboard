@@ -19,8 +19,8 @@ Commander:
 
 1. **[Ask about her]** {topic}
    Commander (Surprise):
-   "How do you know so much about running things."
-   Tristitia (Surprise):
+   "How do you know so much about running things?"
+   Tristitia (Base):
    "Someone taught me well."
    Commander (Base):
    "Who's the guy?"
@@ -33,11 +33,11 @@ Commander:
 
 2. **[Ask about Mae]** {topic}
    Commander (Base):
-   "Mae and you seems close."
-   Tristitia (Surprise):
-   "Sure, we works well together."
+   "You and Mae seem close."
+   Tristitia (Base):
+   "We work well together."
    Commander (Base):
-   "How long have you met her?"
+   "How long have you known her?"
    Tristitia (Surprise):
    "From the start of my adventuring days."
    Tristitia (Happy):
@@ -46,7 +46,7 @@ Commander:
 3. **[Ask about Elsie]** {topic}
    Commander (Base):
    "Elsie is your friend?"
-   Tristitia (Surprise):
+   Tristitia (Base):
    "Yes, it's nice being around her."
    Commander (Happy):
    "What about me?"
@@ -76,19 +76,19 @@ Commander:
    Mae (Happy):
    "Long enough to know how to process any kind of monster."
    Commander (Surprise):
-   "Any kind? surely not."
+   "Any kind? Surely not."
    Mae (Laugh):
-   "Well I never get my hands on dragon before, or monsters from the frontier."
+   "Well, I've never had my hands on a dragon, or on monsters from the Frontier."
 
 2. **[Ask about Tristitia]** {topic}
    Commander (Base):
-   "Tristitia and you seems close."
+   "You and Tristitia seem close."
    Mae (Happy):
-   "We go long way back, I think I know her better than my lovers."
+   "We go a long way back. I think I know her better than I knew my lovers."
    Commander (Surprise):
    "You have a lover?"
    Mae (Base):
-   "Not anymore, I love what I do and this guild is my focus for now."
+   "Not anymore. I love what I do, and this Guild is my focus for now."
 
 3. **[Ask about Eurydica]** {topic}
    Commander (Base):
@@ -99,15 +99,15 @@ Commander:
    Commander (Base):
    "Is there any interesting place?"
    Mae (Happy):
-   "Try the old city streets, it have the best view."
+   "Try the old city streets. They have the best view."
 
 4. **[Ask about The Frontier]** {topic} {after: Ask about her}
    Commander (Base):
    "What's the frontier?"
    Mae (Serious):
-   "Hmmm I only know vague information about it."
+   "Hmm. I only know rumours about it."
    Mae (Base):
-   "Elsie should know it better, she used to be there."
+   "Elsie should know it better. She used to be there."
 
 ---
 
@@ -123,31 +123,31 @@ Commander:
    Commander (Base):
    "You used to lead people?"
    Elsie (Happy):
-   "I do, somehow people always put me as someone in charge."
+   "I did. Somehow people always end up putting me in charge."
    Commander (Surprise):
    "In an army?"
    Elsie (Happy):
-   "Yeah, In the frontier."
+   "Yeah, in the Frontier."
    Elsie (Laugh):
    "I used to argue all the time with the officers there."
    Commander (Base):
    "Why quit?"
    Elsie (Happy):
-   "Why indeed, you'll know when you step foot on that place."
+   "Why indeed. You'll know when you set foot in that place."
    Elsie (Happy):
-   "I like it here more, it's not constricting."
+   "I like it here more. It's not so constricting."
 
 2. **[Ask about Tristitia]** {topic}
    Commander (Base):
-   "Tristitia and you seems really close."
+   "You and Tristitia seem really close."
    Elsie (Surprise):
-   "Shhh don't let her hear that."
+   "Shhh, don't let her hear that."
    Elsie (Fear):
-   "She will stab you, if you ask her that."
+   "She'll stab you if you ask her that."
    Commander (Surprise):
-   "really? she seems nice to me."
+   "Really? She seems nice to me."
    Elsie (Surprise):
-   "You think so? you don't think she's unfriendly?"
+   "You think so? You don't think she's unfriendly?"
    Commander (Base):
    "Well, maybe she is..."
    Commander:
@@ -161,7 +161,7 @@ Commander:
       Commander (Laugh):
       "A bit cold."
    Elsie (Laugh):
-   "Uh oh, do you hear that Tristitia?"
+   "Uh oh. Did you hear that, Tristitia?"
    [face: Commander back]
    [camera: gaze Commander]
    [pause: 1.0]
@@ -173,47 +173,47 @@ Commander:
    Elsie (Laugh):
    "I'm just teasing you."
    Commander (Base):
-   "So what's she likes to you?"
+   "So what is she like to you?"
    Elsie (Happy):
-   "Trusted friend, we understand each other."
-   "she didn't talk much but she's actually nice conversation partner."
+   "A trusted friend. We understand each other."
+   "She doesn't talk much, but she's actually a nice conversation partner."
 
 3. **[Ask about The Frontier]** {topic} {after: Ask about her}
    Commander (Base):
    "What's the frontier?"
    Elsie (Base):
-   "It's a vast lands that remain largely unexplored."
+   "It's a vast land that remains largely unexplored."
    "Ancient ruins, dangerous creatures, forgotten roads, and remnants of an unknown civilization dot the landscape."
    Commander (Surprise):
-   "So civilization only occupies fraction of the world?"
+   "So civilization only occupies a fraction of the world?"
    Elsie (Base):
    "Yeah, small compared to that place."
    Commander (Laugh):
-   "Maybe we can send expedition there."
+   "Maybe we can send an expedition there."
    Elsie (Serious):
-   "Too dangerous, I say we stay clear."
+   "Too dangerous. I say we stay clear."
    Elsie (Sad):
-   "People lost their lives all the time there."
+   "People lose their lives there all the time."
    Elsie (Serious):
-   "Informations and discoveries are rumors at best."
+   "Information and discoveries are rumours at best."
    "Understanding the frontier will need an organization that can verify everything, and make sure folks are safe."
    Commander (Surprise):
    "Like our guild?"
    Elsie (Laugh):
    "Well now, you do have a point."
    Commander (Surprise):
-   "You're teasing me again are you?"
+   "You're teasing me again, aren't you?"
    [emote: Elsie laugh]
    Elsie (Laugh):
-   "*chuckle*, Apologize commander."
+   "*chuckle* Apologies, Commander."
 
 ---
 
 ## Bark: Travelling Merchant
 Trigger: nearby
-"Hmmm there's not much rare slime parts in the market..."
+"Hmmm, there aren't many rare slime parts in the market..."
 "Must be because of the chimera."
-"Where can I get them, I already promised the client."
+"Where can I get them? I already promised the client."
 
 ## Talk: Travelling Merchant (Request 1, CH1-REQ-003)
 Where: Market Spine stall
@@ -224,13 +224,13 @@ Commander:
    Commander (Base):
    "I can help you with that."
    Travelling Merchant (Surprised):
-   "Oh? do you have any rare slime part?"
+   "Oh? Do you have any rare slime parts?"
    Commander (Base):
    "Not yet, you can send the request to <Guild-name>."
    "We handle any job involved with monster and adventurer."
    "Tristitia will tell you more."
    Travelling Merchant (Considering):
-   "Hmmm I don't have much gold but I know a lot of people."
+   "Hmmm, I don't have much gold, but I know a lot of people."
    Travelling Merchant (Pleased):
    "I can spread your Guild name."
    Commander (Happy):
@@ -251,7 +251,7 @@ Commander:
 Where: Clinic, Service Lanes
 
 Dr. Emmerich (Base):
-"Hello young man, you don't have any common slime parts by chance are you?"
+"Hello, young man. You wouldn't have any common slime parts by chance, would you?"
 
 Commander (Base):
 "Maybe, in my Guild storage."
@@ -265,14 +265,14 @@ Commander:
    Commander (Serious):
    "No way."
    Dr. Emmerich (Sad):
-   "Well okay sonnie."
+   "Well, okay, sonny."
 
 2. **[Accept]** {request: CH1-REQ-004}
    Commander (Happy):
-   "Sure you can make the request at my Guild."
+   "Sure. You can make the request at my Guild."
    "Tristitia will tell you more."
    Dr. Emmerich (Happy):
-   "Thanks boy, I'll talk to her."
+   "Thanks, boy. I'll talk to her."
 
 ---
 

@@ -40,6 +40,7 @@ Mae (Laugh):
   - Officers and the Commander: **Base, Happy, Serious, Sad, Anger, Fear, Surprise, Laugh**. Base is neutral.
   - Buyers: the 8 negotiation expressions (`Characters/Negotiation Buyers Roster.md`).
   - Leave it out, as in `Mae:`, and the portrait **keeps its last expression**, which starts at Base.
+  - **Extra expressions** *(added 2026-10-02)*: a character may also use the extra expressions listed for them in `Research/Portrait Expressions.md` (for example Liliana (Flustered), Valerie (Wink)). Until an extra expression is drawn, the line shows the fallback that file names for it.
 - **Inner monologue:** a line in `{braces}` instead of quotes is the speaker's thought. It shows in italics in parentheses, with no talk sound, and can sit between spoken lines under the same speaker. This is the manuscript's existing convention, and in Chapter 1 only the Commander thinks aloud.
 - **Placeholders:** `<name>` (the Commander's name) and `<Guild-name>` stay as they are; the game fills them in.
 - **Several lines by the same speaker:** each quoted line is one text box. A quoted or `{thought}` line with no speaker line directly above it **continues the previous speaker**, and blank lines between them are fine. Repeat the speaker line only to change the expression.
@@ -86,6 +87,7 @@ A cue sits on **its own line in square brackets**, before the dialogue line it b
 | `[name-entry]` | Opens the Commander's name screen; `<name>` is valid after it |
 | `[request: CH1-REQ-001]` | Unlocks a request unconditionally and shows the game's own "request available" notice (use `{request: …}` on a choice for offer branches) |
 | `[guild-name-entry]` | Opens the Guild naming screen; `<Guild-name>` is valid after it |
+| `[time: 08:30]` | Sets the Guild clock (use it inside a fade for a time skip within a scene; added for Scene 7) |
 
 ### Effects and sound
 
@@ -104,7 +106,7 @@ A cue sits on **its own line in square brackets**, before the dialogue line it b
 |---|---|
 | `[face: Mae Commander]` | Mae turns to face the Commander (or a direction: `north`, `east`…; or `back` to turn and look behind) |
 | `[move: Commander table_west]` | Walks to a marker, then continues |
-| `[pose: Mae sit]` | Switches to a special pose listed in the header; `[pose: Mae idle]` returns to idle |
+| `[pose: Mae sit]` | Switches to a special pose listed in the header; `[pose: Mae idle]` returns to idle. A pose can also be a character's looping work animation from the sim (`craft`, `process`), which plays until the next pose cue |
 | `[emote: Mae laugh]` | A small icon over the sprite (list in 5) |
 | `[enter: Liliana door]` / `[exit: Liliana door]` | An actor walks in from, or out to, a marker |
 

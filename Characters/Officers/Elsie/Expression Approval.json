@@ -1,0 +1,136 @@
+{
+  "character": "Elsie",
+  "approvedOn": "2026-10-02",
+  "approval": "Explicit user instruction: approved, move them to her folder",
+  "folder": "D:\\Storyboards\\Isekai Mercenary Company\\Characters\\Officers\\Elsie",
+  "base": {
+    "path": "D:\\Storyboards\\Isekai Mercenary Company\\Characters\\Officers\\Elsie\\Base.png",
+    "sha256": "004725b15da03c61a6db0bbd1286b8c46dae751c880fc38b0eae213a1c082274"
+  },
+  "preservedFiles": [
+    {
+      "path": "D:\\Storyboards\\Isekai Mercenary Company\\Characters\\Officers\\Elsie\\Base.png",
+      "sha256": "004725b15da03c61a6db0bbd1286b8c46dae751c880fc38b0eae213a1c082274"
+    },
+    {
+      "path": "D:\\Storyboards\\Isekai Mercenary Company\\Characters\\Officers\\Elsie\\Elsie.md",
+      "sha256": "1d0e479992e2a870616a84d2732b64f94dcbc7eca813485dfaac619447d09719"
+    },
+    {
+      "path": "D:\\Storyboards\\Isekai Mercenary Company\\Characters\\Officers\\Elsie\\Base Approval.json",
+      "sha256": "56130e0a37cb1d5fd2932a4e80ba20c1b07262ec727d88b97a51a2482de3ae48"
+    }
+  ],
+  "productionRun": "D:\\Codex\\IMC\\runs\\elsie-expressions-new-base-2026-10-02\\",
+  "expressions": [
+    {
+      "name": "Happy",
+      "movedFrom": "D:\\Codex\\IMC\\runs\\elsie-expressions-new-base-2026-10-02\\candidates\\Happy.png",
+      "asset": "D:\\Storyboards\\Isekai Mercenary Company\\Characters\\Officers\\Elsie\\Happy.png",
+      "sha256": "07c1a230bdf34ffa65cc3507bc7ae55b42c200db3c197471b648bf91cd4a5f72",
+      "dimensions": [
+        768,
+        1024
+      ],
+      "format": "RGBA PNG",
+      "previous": null
+    },
+    {
+      "name": "Laugh",
+      "movedFrom": "D:\\Codex\\IMC\\runs\\elsie-expressions-new-base-2026-10-02\\candidates\\Laugh.png",
+      "asset": "D:\\Storyboards\\Isekai Mercenary Company\\Characters\\Officers\\Elsie\\Laugh.png",
+      "sha256": "cf42b7231f18325ce22b0d441f03a6ab982abae1453eefafb5bc4a060e79a739",
+      "dimensions": [
+        768,
+        1024
+      ],
+      "format": "RGBA PNG",
+      "previous": null
+    },
+    {
+      "name": "Serious",
+      "movedFrom": "D:\\Codex\\IMC\\runs\\elsie-expressions-new-base-2026-10-02\\candidates\\Serious.png",
+      "asset": "D:\\Storyboards\\Isekai Mercenary Company\\Characters\\Officers\\Elsie\\Serious.png",
+      "sha256": "c2c86a8fab06c30ae3539ace93c27ab646212b06c01a394b127ffad65482de3b",
+      "dimensions": [
+        768,
+        1024
+      ],
+      "format": "RGBA PNG",
+      "previous": null
+    },
+    {
+      "name": "Anger",
+      "movedFrom": "D:\\Codex\\IMC\\runs\\elsie-expressions-new-base-2026-10-02\\candidates\\Anger.png",
+      "asset": "D:\\Storyboards\\Isekai Mercenary Company\\Characters\\Officers\\Elsie\\Anger.png",
+      "sha256": "039b2dcd8aa2079f01a993723becfc8bc833d6e35bf827a5cb056d0ec4e482b8",
+      "dimensions": [
+        768,
+        1024
+      ],
+      "format": "RGBA PNG",
+      "previous": null
+    },
+    {
+      "name": "Fear",
+      "movedFrom": "D:\\Codex\\IMC\\runs\\elsie-expressions-new-base-2026-10-02\\candidates\\Fear.png",
+      "asset": "D:\\Storyboards\\Isekai Mercenary Company\\Characters\\Officers\\Elsie\\Fear.png",
+      "sha256": "6b3a6693f98f4ae128be12d520eb398524dfcd6c3cc15337e157a37625751b87",
+      "dimensions": [
+        768,
+        1024
+      ],
+      "format": "RGBA PNG",
+      "previous": null
+    },
+    {
+      "name": "Sad",
+      "movedFrom": "D:\\Codex\\IMC\\runs\\elsie-expressions-new-base-2026-10-02\\candidates\\Sad.png",
+      "asset": "D:\\Storyboards\\Isekai Mercenary Company\\Characters\\Officers\\Elsie\\Sad.png",
+      "sha256": "7a5c2c62f8b5ce070c4d45da8968d2feb9443ab3ffdea7769482dd871c57c8b2",
+      "dimensions": [
+        768,
+        1024
+      ],
+      "format": "RGBA PNG",
+      "previous": null
+    },
+    {
+      "name": "Surprise",
+      "movedFrom": "D:\\Codex\\IMC\\runs\\elsie-expressions-new-base-2026-10-02\\candidates\\Surprise.png",
+      "asset": "D:\\Storyboards\\Isekai Mercenary Company\\Characters\\Officers\\Elsie\\Surprise.png",
+      "sha256": "002aa05a2e661bf82df55998012cd4413153823bfde0f847d9008d4407631283",
+      "dimensions": [
+        768,
+        1024
+      ],
+      "format": "RGBA PNG",
+      "previous": null
+    },
+    {
+      "name": "Teasing",
+      "movedFrom": "D:\\Codex\\IMC\\runs\\elsie-expressions-new-base-2026-10-02\\candidates\\Teasing.png",
+      "asset": "D:\\Storyboards\\Isekai Mercenary Company\\Characters\\Officers\\Elsie\\Teasing.png",
+      "sha256": "c2f02a1c1e14f69071258a6837d3e47c6b5aec6fd64a24bf0f54f030cb51b14e",
+      "dimensions": [
+        768,
+        1024
+      ],
+      "format": "RGBA PNG",
+      "previous": null
+    },
+    {
+      "name": "Brave smile",
+      "movedFrom": "D:\\Codex\\IMC\\runs\\elsie-expressions-new-base-2026-10-02\\candidates\\Brave smile.png",
+      "asset": "D:\\Storyboards\\Isekai Mercenary Company\\Characters\\Officers\\Elsie\\Brave smile.png",
+      "sha256": "b616263ea68c2104a5a953d4ab12a42d6341564a5ba8d43551f301905d40c0a6",
+      "dimensions": [
+        768,
+        1024
+      ],
+      "format": "RGBA PNG",
+      "previous": null
+    }
+  ],
+  "runtimeIntegration": false
+}

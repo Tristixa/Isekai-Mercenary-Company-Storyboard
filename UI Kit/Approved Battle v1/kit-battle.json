@@ -1,0 +1,518 @@
+{
+  "version": 1,
+  "status": "candidates_not_approved",
+  "basis": "Approved v1 / v5 painted Canvas process",
+  "reference_resolution": [
+    1280,
+    720
+  ],
+  "tokens": {
+    "navy_950": "#07131F",
+    "navy_900": "#0B1D2D",
+    "navy_800": "#102B45",
+    "navy_700": "#163B5D",
+    "gold_500": "#C99435",
+    "gold_400": "#E0B04A",
+    "blue_select": "#146EC8",
+    "blue_glow": "#37A1FF",
+    "parchment_100": "#F1E2BC",
+    "parchment_200": "#E6CFA0",
+    "parchment_300": "#D2B77D",
+    "ink": "#2A2117",
+    "success": "#43A65E",
+    "warning": "#D79A2B",
+    "danger": "#C9433A",
+    "critical": "#9F1F22",
+    "info": "#3C8CCB",
+    "rare": "#8B5CC7",
+    "disabled": "#6E6C68"
+  },
+  "fonts": {
+    "heading": "sources/fonts/CormorantGaramond-SemiBold.otf",
+    "body": "sources/fonts/Alegreya[wght].ttf",
+    "features": {
+      "lnum": 1,
+      "onum": 0
+    }
+  },
+  "pieces": [
+    {
+      "piece": "tl_bezel",
+      "file": "kit/battle/tl_bezel.png",
+      "group": "battle",
+      "tier": 1,
+      "size": [
+        480,
+        480
+      ],
+      "margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "stretch": false,
+      "file_1x": "kit/battle/tl_bezel@1x.png",
+      "use_size": [
+        240,
+        240
+      ],
+      "scale": 2,
+      "anchor": [
+        240,
+        240
+      ],
+      "notes": "Full 480px square. Stack at center [240,240] source / [120,120] use. Fixed aspect, no slicing."
+    },
+    {
+      "piece": "tl_track_enemy",
+      "file": "kit/battle/tl_track_enemy.png",
+      "group": "battle",
+      "tier": 2,
+      "size": [
+        480,
+        480
+      ],
+      "margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "stretch": false,
+      "file_1x": "kit/battle/tl_track_enemy@1x.png",
+      "use_size": [
+        240,
+        240
+      ],
+      "scale": 2,
+      "anchor": [
+        240,
+        240
+      ],
+      "notes": "Full 480px square. Stack at center [240,240] source / [120,120] use. Fixed aspect, no slicing. 24 white ticks at 15-degree intervals from 0 degrees (top); 12 longer, brighter ticks every 30 degrees and 12 short ticks. enemy band."
+    },
+    {
+      "piece": "tl_track_party",
+      "file": "kit/battle/tl_track_party.png",
+      "group": "battle",
+      "tier": 2,
+      "size": [
+        480,
+        480
+      ],
+      "margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "stretch": false,
+      "file_1x": "kit/battle/tl_track_party@1x.png",
+      "use_size": [
+        240,
+        240
+      ],
+      "scale": 2,
+      "anchor": [
+        240,
+        240
+      ],
+      "notes": "Full 480px square. Stack at center [240,240] source / [120,120] use. Fixed aspect, no slicing. 24 white ticks at 15-degree intervals from 0 degrees (top); 12 longer, brighter ticks every 30 degrees and 12 short ticks. party band."
+    },
+    {
+      "piece": "tl_divider",
+      "file": "kit/battle/tl_divider.png",
+      "group": "battle",
+      "tier": 1,
+      "size": [
+        480,
+        480
+      ],
+      "margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "stretch": false,
+      "file_1x": "kit/battle/tl_divider@1x.png",
+      "use_size": [
+        240,
+        240
+      ],
+      "scale": 2,
+      "anchor": [
+        240,
+        240
+      ],
+      "notes": "Full 480px square. Stack at center [240,240] source / [120,120] use. Fixed aspect, no slicing."
+    },
+    {
+      "piece": "tl_act_zone",
+      "file": "kit/battle/tl_act_zone.png",
+      "group": "battle",
+      "tier": 1,
+      "size": [
+        480,
+        480
+      ],
+      "margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "stretch": false,
+      "file_1x": "kit/battle/tl_act_zone@1x.png",
+      "use_size": [
+        240,
+        240
+      ],
+      "scale": 2,
+      "anchor": [
+        240,
+        240
+      ],
+      "notes": "Full 480px square. Stack at center [240,240] source / [120,120] use. Fixed aspect, no slicing. Opaque jewelled annular segment 300–360 degrees clockwise from 12. Soft outer glow. Rotate all around shared anchor."
+    },
+    {
+      "piece": "tl_pointer",
+      "file": "kit/battle/tl_pointer.png",
+      "group": "battle",
+      "tier": 1,
+      "size": [
+        480,
+        480
+      ],
+      "margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "stretch": false,
+      "file_1x": "kit/battle/tl_pointer@1x.png",
+      "use_size": [
+        240,
+        240
+      ],
+      "scale": 2,
+      "anchor": [
+        240,
+        240
+      ],
+      "notes": "Full 480px square. Stack at center [240,240] source / [120,120] use. Fixed aspect, no slicing."
+    },
+    {
+      "piece": "tl_act_plate",
+      "file": "kit/battle/tl_act_plate.png",
+      "group": "battle",
+      "tier": 1,
+      "size": [
+        480,
+        480
+      ],
+      "margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "stretch": false,
+      "file_1x": "kit/battle/tl_act_plate@1x.png",
+      "use_size": [
+        240,
+        240
+      ],
+      "scale": 2,
+      "anchor": [
+        240,
+        240
+      ],
+      "notes": "Full 480px square. Stack at center [240,240] source / [120,120] use. Fixed aspect, no slicing. Blank gilded ACT plate centered at radius 85.5, angle 330 degrees, across both tracks in the 300-360 segment. Center [77.25,45.955] use; rotation -30 degrees; plate 36x18, local text-safe [-14,-6,28,12]. Engine ACT: 12px Cormorant Garamond SemiBold, centered, dark ink. Rotate with ACT zone."
+    },
+    {
+      "piece": "tl_hub",
+      "file": "kit/battle/tl_hub.png",
+      "group": "battle",
+      "tier": 1,
+      "size": [
+        480,
+        480
+      ],
+      "margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "stretch": false,
+      "file_1x": "kit/battle/tl_hub@1x.png",
+      "use_size": [
+        240,
+        240
+      ],
+      "scale": 2,
+      "anchor": [
+        240,
+        240
+      ],
+      "notes": "Full 480px square. Stack at center [240,240] source / [120,120] use. Fixed aspect, no slicing. Transparent 60px portrait opening, unchanged center. Rich gilded rim, restrained bezel filigree, four quarter-point studs, deeper navy field with soft inner bevel. Blank matching gilded NEXT plate centered [120,158], 36x16 use; text-safe [106,152,28,12]. No text or emblems baked in. Draw bust behind."
+    },
+    {
+      "piece": "tl_marker_party",
+      "file": "kit/battle/tl_marker_party.png",
+      "group": "battle",
+      "tier": 2,
+      "size": [
+        96,
+        96
+      ],
+      "margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "stretch": false,
+      "file_1x": "kit/battle/tl_marker_party@1x.png",
+      "use_size": [
+        48,
+        48
+      ],
+      "scale": 2,
+      "anchor": [
+        48,
+        48
+      ],
+      "notes": "34px clear circular bust opening. Center [48,48] source / [24,24] use. Portrait behind frame. Bright side rim."
+    },
+    {
+      "piece": "tl_marker_party_glow",
+      "file": "kit/battle/tl_marker_party_glow.png",
+      "group": "battle",
+      "tier": 2,
+      "size": [
+        96,
+        96
+      ],
+      "margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "stretch": false,
+      "file_1x": "kit/battle/tl_marker_party_glow@1x.png",
+      "use_size": [
+        48,
+        48
+      ],
+      "scale": 2,
+      "anchor": [
+        48,
+        48
+      ],
+      "tint_token": "blue_glow",
+      "notes": "White RGB / variable alpha acting mask; tint once; same 48px canvas and anchor as marker frame. Place behind frame."
+    },
+    {
+      "piece": "tl_marker_enemy",
+      "file": "kit/battle/tl_marker_enemy.png",
+      "group": "battle",
+      "tier": 2,
+      "size": [
+        96,
+        96
+      ],
+      "margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "stretch": false,
+      "file_1x": "kit/battle/tl_marker_enemy@1x.png",
+      "use_size": [
+        48,
+        48
+      ],
+      "scale": 2,
+      "anchor": [
+        48,
+        48
+      ],
+      "notes": "34px clear circular bust opening. Center [48,48] source / [24,24] use. Portrait behind frame. Bright side rim."
+    },
+    {
+      "piece": "tl_marker_enemy_glow",
+      "file": "kit/battle/tl_marker_enemy_glow.png",
+      "group": "battle",
+      "tier": 2,
+      "size": [
+        96,
+        96
+      ],
+      "margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "stretch": false,
+      "file_1x": "kit/battle/tl_marker_enemy_glow@1x.png",
+      "use_size": [
+        48,
+        48
+      ],
+      "scale": 2,
+      "anchor": [
+        48,
+        48
+      ],
+      "tint_token": "danger",
+      "notes": "White RGB / variable alpha acting mask; tint once; same 48px canvas and anchor as marker frame. Place behind frame."
+    },
+    {
+      "piece": "tl_flag_skill",
+      "file": "kit/battle/tl_flag_skill.png",
+      "group": "battle",
+      "tier": 2,
+      "size": [
+        80,
+        32
+      ],
+      "margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "stretch": false,
+      "file_1x": "kit/battle/tl_flag_skill@1x.png",
+      "use_size": [
+        40,
+        16
+      ],
+      "scale": 2,
+      "anchor": [
+        40,
+        16
+      ],
+      "notes": "Blank red skill-due flag. Text-safe use [5,3,30,9]. Point attaches to marker at [20,15]."
+    },
+    {
+      "piece": "gauge_frame",
+      "file": "kit/battle/gauge_frame.png",
+      "group": "battle",
+      "tier": 1,
+      "size": [
+        208,
+        208
+      ],
+      "margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "stretch": false,
+      "file_1x": "kit/battle/gauge_frame@1x.png",
+      "use_size": [
+        104,
+        104
+      ],
+      "scale": 2,
+      "anchor": [
+        104,
+        104
+      ],
+      "notes": "104px use / 208px source. Transparent 70px bust opening, center [52,52] use. Empty slots: HP radius 41 width 9; skill radius 49 width 3. Start 225deg clockwise from 12, sweep 270deg. End caps overlay tracks/fills."
+    },
+    {
+      "piece": "gauge_hp_track",
+      "file": "kit/battle/gauge_hp_track.png",
+      "group": "battle",
+      "tier": 2,
+      "size": [
+        208,
+        208
+      ],
+      "margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "stretch": false,
+      "file_1x": "kit/battle/gauge_hp_track@1x.png",
+      "use_size": [
+        104,
+        104
+      ],
+      "scale": 2,
+      "anchor": [
+        104,
+        104
+      ],
+      "notes": "Empty 270deg HP channel; radius 41, width 9, start 225deg clockwise from 12. Engine fills green, yellow below 50%. Common gauge anchor."
+    },
+    {
+      "piece": "gauge_skill_track",
+      "file": "kit/battle/gauge_skill_track.png",
+      "group": "battle",
+      "tier": 2,
+      "size": [
+        208,
+        208
+      ],
+      "margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "stretch": false,
+      "file_1x": "kit/battle/gauge_skill_track@1x.png",
+      "use_size": [
+        104,
+        104
+      ],
+      "scale": 2,
+      "anchor": [
+        104,
+        104
+      ],
+      "notes": "Empty outer 270deg skill channel; radius 49, width 3, same start and center as HP. Orange engine fill; glow at full."
+    },
+    {
+      "piece": "gauge_skill_ready",
+      "file": "kit/battle/gauge_skill_ready.png",
+      "group": "battle",
+      "tier": 2,
+      "size": [
+        96,
+        36
+      ],
+      "margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "stretch": false,
+      "file_1x": "kit/battle/gauge_skill_ready@1x.png",
+      "use_size": [
+        48,
+        18
+      ],
+      "scale": 2,
+      "anchor": [
+        48,
+        18
+      ],
+      "notes": "Blank orange ready tab. Engine supplies SKILL in navy. Text-safe use [7,4,34,10]."
+    }
+  ]
+}

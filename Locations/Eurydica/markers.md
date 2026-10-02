@@ -18,7 +18,6 @@ Named positions that scene scripts use in `Staging:` and in cues (`move`, `enter
 - `table_west`: the Commander's seat on the west side of the table, facing east.
 - `table_north`: Tristitia's seat on the north side, facing south.
 - `table_east`: Mae's seat on the east side, facing west.
-- `mae_side`: free space beside Mae's seat, for the kneeling hand-kiss greeting.
 
 ## Guild house (Tier 1) interior (Scene 3)
 
@@ -39,10 +38,27 @@ Named positions that scene scripts use in `Staging:` and in cues (`move`, `enter
 - `bench_east`: Elsie's position east of the equipment bench, facing west toward the damaged travel pack.
 - `bench_south`: Tristitia's stop south of the bench, facing Elsie.
 - `bench_west`: the Commander's conversation position west of Elsie, with a clear route around the bench.
-- `elsie_side`: clear space beside Elsie, within hand reach, for the kneeling greeting.
 
 Scene 4's talks and ambient lines use `Where:` descriptions instead of markers; each talk happens where that character stands in the world.
 
+
+## Guild house (Tier 2) interior (Scenes 7 and 8)
+
+The main room after the Tier 2 upgrade; every Tier 1 interior marker above stays valid. `courtyard_door` is the hall's front double door to the yard. Positions are in `Interiors/interiors.json` (`guild_house.markers`).
+
+- `reception`: Tristitia's place behind the reception counter. Scene 7 turns her to face west along the counter.
+- `reception_west`: the Commander's place at the counter's west end, beside Tristitia, facing west into the hall.
+- `hall_centre`: the open floor west of the reception counter, facing east toward it; where a visitor stops (Scene 7, Fulker).
+- `arrival_1`, `arrival_2`, `arrival_3`: where Tristitia and the two new officers stop inside the doors, facing east (Scene 8).
+- `wait_1` to `wait_4`: standing places by the meeting table, facing south toward the doors, where the officers wait (Scene 8).
+- `greet_1` to `greet_4`: closer places facing west toward the arrivals, for the introductions (Scene 8).
+
+## Guild annex (Tier 2) Workshop (Scene 7)
+
+- `fulker_station`: Fulker's crafting table, facing south (work animations face south).
+- `workshop_watch_w1`, `workshop_watch_w2`: watching places west of Fulker's table, facing east.
+- `workshop_watch_e1`, `workshop_watch_e2`: watching places east of it, facing west.
+- `annex_door`: the annex's door from the yard.
 
 ## v5 additions — approved 29 September 2026
 

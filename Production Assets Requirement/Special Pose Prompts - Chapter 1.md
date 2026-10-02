@@ -1,6 +1,6 @@
-# Special pose prompts: Chapter 1 (Scenes 1–5)
+# Special pose prompts: Chapter 1 (Scenes 1–8)
 
-Written 2026-09-30. These are paste-ready prompts for **every special pose in the Chapter 1 scene headers**: a sprite pose beyond idle and walk (`Game Design/Scene Script Format.md` §1). Each pose is a **still image**, not a video.
+Written 2026-09-30; recounted 2026-10-02 for the finished Chapter 1 manuscript (Scenes 1–8), after the kneel, hand-kiss and salute options were removed. These are paste-ready prompts for **every special pose in the Chapter 1 scene headers**: a sprite pose beyond idle and walk (`Game Design/Scene Script Format.md` §1). Each pose is a **still image**, not a video.
 
 - **Only the facings the scene staging uses are listed.** Facing right is the left pose **mirrored** in the engine.
 - **A missing pose falls back to idle** (FGC_07 §10.4), so none of these blocks development. Poses marked **optional** can be skipped: the portrait and the emotes carry the moment.
@@ -36,14 +36,18 @@ Show only the character (and a hand-held prop if the pose names one). No chair, 
 
 ## Summary
 
-| Character | Required poses | Optional |
-|---|---|---|
-| Commander | lie (down); sit_ground (down); salute_seated (down, left); sit (left, up); kneel (left); kneel_reach (left); salute (left, down); raise_mug (left) | think_seated, nod, look_down_seated, stand_from_chair, stand_from_kneel |
-| Tristitia | sit (down); raise_mug (down); point (down, left) | stand_from_chair, nod |
-| Elsie | look_down (left); withdraw_hand (left); salute (left) | — |
-| Mae | sit (left); raise_mug (left) | — |
+| Character | Required (Gemini) | Optional (Gemini) | Puppet script (no Gemini) |
+|---|---|---|---|
+| Commander | lie (down); sit_ground (down); sit (left, up); raise_mug (left) | think_seated, look_down_seated, stand_from_chair | nod (standing down; seated left) |
+| Tristitia | sit (down); raise_mug (down); point (down, left) | stand_from_chair | nod (standing down; seated down) |
+| Elsie | look_down (left); sit (left) | — | nod (seated left) |
+| Mae | sit (left); raise_mug (left) | — | nod (seated left) |
+| Fulker | — (her craft loop is in the work animation prompts) | — | nod (standing down) |
+| Valerie, Liliana | — (Scene 8 needs only idles and turns) | — | — |
 
-**16 required poses and 7 optional,** counted per pose (some poses have two facings on one image).
+**11 required Gemini images and 4 optional**, counted per pose (some poses have two facings on one image), **plus 5 puppet nods** (7 facings) made by script, and Fulker's existing work loop.
+
+**Removed 2026-10-02 (owner):** the Commander's kneel, kneel_reach, stand_from_kneel, salute and salute_seated, and Elsie's withdraw_hand and salute, with the kneel, hand-kiss and salute options in Scenes 1–3.
 
 **Proposed manuscript tweak:** in Scene 1 the Commander sits **on the ground** under the tree, which is a different pose from sitting on a chair. This file names it `sit_ground`. I'll update Scene 1's header and cues to match when you confirm.
 
@@ -109,29 +113,9 @@ Pose: sitting on the ground as in sit_ground, one hand raised to his chin, head 
 Show only the character. No chair, table, bench, floor, shadow, effects or text. Background: one flat solid pure magenta #FF00FF filling the whole image.
 ```
 
-### salute_seated
-
-*Used in Scene 1 (ground, down); Scene 2 (chair, facing east = mirrored left).* Attach `Character Sprites/Officers/Commander/Reference Sheet.png` + `Character Sprites/Officers/Commander/Cropped/Start - Facing Down.png` + `Character Sprites/Officers/Commander/Cropped/Start - Facing Left.png`.
-
-```
-Pixel-art sprite of Commander in a special pose, for an HD-2D JRPG. Match the attached sprite sheet exactly: same design, colours, head size (about one third of the total height), large eyes with a single highlight, outline weight, pixel size and shading.
-
-Pixel rules: true pixel grid; every art pixel is an exact 8×8 block of image pixels on one grid. No anti-aliasing, no blur, no half-pixels (mixels), no soft gradients.
-
-Scale: the same scale as the attached start frame (about 93 art pixels tall when standing). Seated, kneeling and lying poses are shorter because of the pose, never because the character is smaller.
-
-Face: large eyes with a highlight, NO mouth, NO lips, NO nose.
-
-Outfit, exactly as in the sheet: messy black hair, the long black coat worn open over a white shirt, dark blue jeans (he is from Earth), dark boots.
-
-Pose: seated, back straight, right hand raised to his brow in a crisp salute. Ground version (down): sitting on the ground, knees drawn up. Chair version (left): seated upright on an unseen chair, thighs level, feet on the floor. Direction: facing down, toward the camera (front view); and on the right of the same image, facing left, in side view. Leave at least 60 image pixels of empty background between the two sprites.
-
-Show only the character. No chair, table, bench, floor, shadow, effects or text. Background: one flat solid pure magenta #FF00FF filling the whole image.
-```
-
 ### sit
 
-*Used in Scene 2 (facing east = mirrored left); Scene 3 (facing north = up).* Attach `Character Sprites/Officers/Commander/Reference Sheet.png` + `Character Sprites/Officers/Commander/Cropped/Start - Facing Left.png` + `Character Sprites/Officers/Commander/Cropped/Start - Facing Up.png`.
+*Used in Scene 2 (facing east = mirrored left); Scenes 3 and 6 (facing north = up).* Attach `Character Sprites/Officers/Commander/Reference Sheet.png` + `Character Sprites/Officers/Commander/Cropped/Start - Facing Left.png` + `Character Sprites/Officers/Commander/Cropped/Start - Facing Up.png`.
 
 ```
 Pixel-art sprite of Commander in a special pose, for an HD-2D JRPG. Match the attached sprite sheet exactly: same design, colours, head size (about one third of the total height), large eyes with a single highlight, outline weight, pixel size and shading.
@@ -149,25 +133,9 @@ Pose: seated upright on an unseen chair at a table: thighs level, knees bent at 
 Show only the character. No chair, table, bench, floor, shadow, effects or text. Background: one flat solid pure magenta #FF00FF filling the whole image.
 ```
 
-### nod (optional)
+### nod (puppet)
 
-*Used in Scenes 1–2.* Attach `Character Sprites/Officers/Commander/Reference Sheet.png` + `Character Sprites/Officers/Commander/Cropped/Start - Facing Left.png`.
-
-```
-Pixel-art sprite of Commander in a special pose, for an HD-2D JRPG. Match the attached sprite sheet exactly: same design, colours, head size (about one third of the total height), large eyes with a single highlight, outline weight, pixel size and shading.
-
-Pixel rules: true pixel grid; every art pixel is an exact 8×8 block of image pixels on one grid. No anti-aliasing, no blur, no half-pixels (mixels), no soft gradients.
-
-Scale: the same scale as the attached start frame (about 93 art pixels tall when standing). Seated, kneeling and lying poses are shorter because of the pose, never because the character is smaller.
-
-Face: large eyes with a highlight, NO mouth, NO lips, NO nose.
-
-Outfit, exactly as in the sheet: messy black hair, the long black coat worn open over a white shirt, dark blue jeans (he is from Earth), dark boots.
-
-Pose: a small nod: head tipped forward, eyes lowered. Seated on an unseen chair. Direction: facing left, in side view.
-
-Show only the character. No chair, table, bench, floor, shadow, effects or text. Background: one flat solid pure magenta #FF00FF filling the whole image.
-```
+*Used in Scene 1 (standing, down) and Scene 2 (seated, facing east = mirrored left).* **Not a Gemini image.** Made by the puppet script (`D:/Codex/IMC/runs/puppet-pilot-v1/puppet.py`, owner-approved 2026-10-02) from the Commander's matching idle or seated pose: the head drops 1 then 2 pixels with the eyes closed at the bottom. It needs only that pose's eye boxes and chin line measured.
 
 ### look_down_seated (optional)
 
@@ -209,86 +177,6 @@ Pose: halfway up from an unseen chair: knees still bent, hands pushing off his t
 Show only the character. No chair, table, bench, floor, shadow, effects or text. Background: one flat solid pure magenta #FF00FF filling the whole image.
 ```
 
-### kneel
-
-*Used in Scene 1 (to Tristitia); Scene 2 (to Mae), mirrored as needed.* Attach `Character Sprites/Officers/Commander/Reference Sheet.png` + `Character Sprites/Officers/Commander/Cropped/Start - Facing Left.png`.
-
-```
-Pixel-art sprite of Commander in a special pose, for an HD-2D JRPG. Match the attached sprite sheet exactly: same design, colours, head size (about one third of the total height), large eyes with a single highlight, outline weight, pixel size and shading.
-
-Pixel rules: true pixel grid; every art pixel is an exact 8×8 block of image pixels on one grid. No anti-aliasing, no blur, no half-pixels (mixels), no soft gradients.
-
-Scale: the same scale as the attached start frame (about 93 art pixels tall when standing). Seated, kneeling and lying poses are shorter because of the pose, never because the character is smaller.
-
-Face: large eyes with a highlight, NO mouth, NO lips, NO nose.
-
-Outfit, exactly as in the sheet: messy black hair, the long black coat worn open over a white shirt, dark blue jeans (he is from Earth), dark boots.
-
-Pose: kneeling on one knee (right knee down, left foot planted), back straight, head slightly bowed, a gallant bow. Direction: facing left, in side view.
-
-Show only the character. No chair, table, bench, floor, shadow, effects or text. Background: one flat solid pure magenta #FF00FF filling the whole image.
-```
-
-### kneel_reach
-
-*Used in Scene 3 (toward Elsie, facing east = mirrored left).* Attach `Character Sprites/Officers/Commander/Reference Sheet.png` + `Character Sprites/Officers/Commander/Cropped/Start - Facing Left.png`.
-
-```
-Pixel-art sprite of Commander in a special pose, for an HD-2D JRPG. Match the attached sprite sheet exactly: same design, colours, head size (about one third of the total height), large eyes with a single highlight, outline weight, pixel size and shading.
-
-Pixel rules: true pixel grid; every art pixel is an exact 8×8 block of image pixels on one grid. No anti-aliasing, no blur, no half-pixels (mixels), no soft gradients.
-
-Scale: the same scale as the attached start frame (about 93 art pixels tall when standing). Seated, kneeling and lying poses are shorter because of the pose, never because the character is smaller.
-
-Face: large eyes with a highlight, NO mouth, NO lips, NO nose.
-
-Outfit, exactly as in the sheet: messy black hair, the long black coat worn open over a white shirt, dark blue jeans (he is from Earth), dark boots.
-
-Pose: kneeling on one knee as in kneel, reaching one hand forward and slightly up, as if offering to take someone's hand. Direction: facing left, in side view.
-
-Show only the character. No chair, table, bench, floor, shadow, effects or text. Background: one flat solid pure magenta #FF00FF filling the whole image.
-```
-
-### stand_from_kneel (optional)
-
-*Used in Scene 3.* Attach `Character Sprites/Officers/Commander/Reference Sheet.png` + `Character Sprites/Officers/Commander/Cropped/Start - Facing Left.png`.
-
-```
-Pixel-art sprite of Commander in a special pose, for an HD-2D JRPG. Match the attached sprite sheet exactly: same design, colours, head size (about one third of the total height), large eyes with a single highlight, outline weight, pixel size and shading.
-
-Pixel rules: true pixel grid; every art pixel is an exact 8×8 block of image pixels on one grid. No anti-aliasing, no blur, no half-pixels (mixels), no soft gradients.
-
-Scale: the same scale as the attached start frame (about 93 art pixels tall when standing). Seated, kneeling and lying poses are shorter because of the pose, never because the character is smaller.
-
-Face: large eyes with a highlight, NO mouth, NO lips, NO nose.
-
-Outfit, exactly as in the sheet: messy black hair, the long black coat worn open over a white shirt, dark blue jeans (he is from Earth), dark boots.
-
-Pose: rising from the kneel: one knee lifting off the ground, a hand on the raised knee. Direction: facing left, in side view.
-
-Show only the character. No chair, table, bench, floor, shadow, effects or text. Background: one flat solid pure magenta #FF00FF filling the whole image.
-```
-
-### salute
-
-*Used in Scene 1 (down); Scene 3 (toward Elsie, mirrored left).* Attach `Character Sprites/Officers/Commander/Reference Sheet.png` + `Character Sprites/Officers/Commander/Cropped/Start - Facing Left.png` + `Character Sprites/Officers/Commander/Cropped/Start - Facing Down.png`.
-
-```
-Pixel-art sprite of Commander in a special pose, for an HD-2D JRPG. Match the attached sprite sheet exactly: same design, colours, head size (about one third of the total height), large eyes with a single highlight, outline weight, pixel size and shading.
-
-Pixel rules: true pixel grid; every art pixel is an exact 8×8 block of image pixels on one grid. No anti-aliasing, no blur, no half-pixels (mixels), no soft gradients.
-
-Scale: the same scale as the attached start frame (about 93 art pixels tall when standing). Seated, kneeling and lying poses are shorter because of the pose, never because the character is smaller.
-
-Face: large eyes with a highlight, NO mouth, NO lips, NO nose.
-
-Outfit, exactly as in the sheet: messy black hair, the long black coat worn open over a white shirt, dark blue jeans (he is from Earth), dark boots.
-
-Pose: standing at attention, heels together, right hand raised to his brow in a crisp salute. Direction: facing left, in side view; and on the right of the same image, facing down, toward the camera (front view). Leave at least 60 image pixels of empty background between the two sprites.
-
-Show only the character. No chair, table, bench, floor, shadow, effects or text. Background: one flat solid pure magenta #FF00FF filling the whole image.
-```
-
 ### raise_mug
 
 *Used in Scene 2 (facing east = mirrored left).* Attach `Character Sprites/Officers/Commander/Reference Sheet.png` + `Character Sprites/Officers/Commander/Cropped/Start - Facing Left.png`.
@@ -313,7 +201,7 @@ Show only the character and the mug. No chair, table, bench, floor, shadow, effe
 
 ### sit
 
-*Used in Scenes 2 and 3 (table_north, facing south = down).* Attach `Character Sprites/Officers/Tristitia/Reference Sheet.png` + `Character Sprites/Officers/Tristitia/Cropped/Start - Facing Down.png`.
+*Used in Scenes 2, 3 and 6 (table_north, facing south = down).* Attach `Character Sprites/Officers/Tristitia/Reference Sheet.png` + `Character Sprites/Officers/Tristitia/Cropped/Start - Facing Down.png`.
 
 ```
 Pixel-art sprite of Tristitia in a special pose, for an HD-2D JRPG. Match the attached sprite sheet exactly: same design, colours, head size (about one third of the total height), large eyes with a single highlight, outline weight, pixel size and shading.
@@ -391,31 +279,15 @@ Pose: halfway up from an unseen chair: knees still bent, one hand on the table's
 Show only the character. No chair, table, bench, floor, shadow, effects or text. Background: one flat solid pure magenta #FF00FF filling the whole image.
 ```
 
-### nod (optional)
+### nod (puppet)
 
-*Used in Scene 5 (naming the Guild).* Attach `Character Sprites/Officers/Tristitia/Reference Sheet.png` + `Character Sprites/Officers/Tristitia/Cropped/Start - Facing Down.png`.
-
-```
-Pixel-art sprite of Tristitia in a special pose, for an HD-2D JRPG. Match the attached sprite sheet exactly: same design, colours, head size (about one third of the total height), large eyes with a single highlight, outline weight, pixel size and shading.
-
-Pixel rules: true pixel grid; every art pixel is an exact 8×8 block of image pixels on one grid. No anti-aliasing, no blur, no half-pixels (mixels), no soft gradients.
-
-Scale: the same scale as the attached start frame (about 93 art pixels tall when standing). Seated, kneeling and lying poses are shorter because of the pose, never because the character is smaller.
-
-Face: large eyes with a highlight, NO mouth, NO lips, NO nose.
-
-Outfit, exactly as in the sheet: long silver hair falling over one eye, the long black coat with gold trim and red lining, the white shirt with the red cravat, black gloves, black trousers, black boots.
-
-Pose: a small, approving nod: head tipped forward, eyes lowered, standing. Direction: facing down, toward the camera (front view).
-
-Show only the character. No chair, table, bench, floor, shadow, effects or text. Background: one flat solid pure magenta #FF00FF filling the whole image.
-```
+*Used in Scene 5 (standing, down) and Scene 6 (seated, down).* **Not a Gemini image.** Made by the puppet script (`D:/Codex/IMC/runs/puppet-pilot-v1/puppet.py`, owner-approved 2026-10-02) from Tristitia's matching idle or seated pose: the head drops 1 then 2 pixels with the eyes closed at the bottom. It needs only that pose's eye boxes and chin line measured.
 
 ## Elsie (about 93 px; key magenta)
 
 ### look_down
 
-*Used in Scene 3 (bench_east, facing west = left).* Attach `Character Sprites/Officers/Elsie/Reference Sheet.png` + `Character Sprites/Officers/Elsie/Cropped/Start - Facing Left.png`.
+*Used in Scene 3 (bench_east, facing west = left). The puppet script's look-down (lowered lids, head 1 pixel lower) is a stand-in until this is made.* Attach `Character Sprites/Officers/Elsie/Reference Sheet.png` + `Character Sprites/Officers/Elsie/Cropped/Start - Facing Left.png`.
 
 ```
 Pixel-art sprite of Elsie in a special pose, for an HD-2D JRPG. Match the attached sprite sheet exactly: same design, colours, head size (about one third of the total height), large eyes with a single highlight, outline weight, pixel size and shading.
@@ -433,29 +305,9 @@ Pose: standing, head bowed, looking down at something on the bench in front of h
 Show only the character. No chair, table, bench, floor, shadow, effects or text. Background: one flat solid pure magenta #FF00FF filling the whole image.
 ```
 
-### withdraw_hand
+### sit
 
-*Used in Scene 3 (toward the Commander, facing west = left).* Attach `Character Sprites/Officers/Elsie/Reference Sheet.png` + `Character Sprites/Officers/Elsie/Cropped/Start - Facing Left.png`.
-
-```
-Pixel-art sprite of Elsie in a special pose, for an HD-2D JRPG. Match the attached sprite sheet exactly: same design, colours, head size (about one third of the total height), large eyes with a single highlight, outline weight, pixel size and shading.
-
-Pixel rules: true pixel grid; every art pixel is an exact 8×8 block of image pixels on one grid. No anti-aliasing, no blur, no half-pixels (mixels), no soft gradients.
-
-Scale: the same scale as the attached start frame (about 93 art pixels tall when standing). Seated, kneeling and lying poses are shorter because of the pose, never because the character is smaller.
-
-Face: large eyes with a highlight, NO mouth, NO lips, NO nose.
-
-Outfit, exactly as in the sheet: the blonde high ponytail, the olive-green military jacket, black fitted trousers, brown gloves, the equipment belts, brown boots.
-
-Pose: standing, pulling one hand back toward her chest, a little startled, weight shifting back. Direction: facing left, in side view.
-
-Show only the character. No chair, table, bench, floor, shadow, effects or text. Background: one flat solid pure magenta #FF00FF filling the whole image.
-```
-
-### salute
-
-*Used in Scene 3 (facing west = left).* Attach `Character Sprites/Officers/Elsie/Reference Sheet.png` + `Character Sprites/Officers/Elsie/Cropped/Start - Facing Left.png`.
+*Used in Scene 6 (table_east, facing west = left).* Attach `Character Sprites/Officers/Elsie/Reference Sheet.png` + `Character Sprites/Officers/Elsie/Cropped/Start - Facing Left.png`.
 
 ```
 Pixel-art sprite of Elsie in a special pose, for an HD-2D JRPG. Match the attached sprite sheet exactly: same design, colours, head size (about one third of the total height), large eyes with a single highlight, outline weight, pixel size and shading.
@@ -468,16 +320,20 @@ Face: large eyes with a highlight, NO mouth, NO lips, NO nose.
 
 Outfit, exactly as in the sheet: the blonde high ponytail, the olive-green military jacket, black fitted trousers, brown gloves, the equipment belts, brown boots.
 
-Pose: standing at attention, heels together, right hand raised to her brow in a crisp military salute. Direction: facing left, in side view.
+Pose: seated upright on an unseen chair at a table: thighs level, knees bent at a right angle, feet flat on the floor, forearms resting on her thighs, relaxed but alert. Mime the chair: no chair or table appears. Direction: facing left, in side view.
 
 Show only the character. No chair, table, bench, floor, shadow, effects or text. Background: one flat solid pure magenta #FF00FF filling the whole image.
 ```
+
+### nod (puppet)
+
+*Used in Scene 6 (seated, facing west = left).* **Not a Gemini image.** Made by the puppet script (`D:/Codex/IMC/runs/puppet-pilot-v1/puppet.py`, owner-approved 2026-10-02) from Elsie's matching idle or seated pose: the head drops 1 then 2 pixels with the eyes closed at the bottom. It needs only that pose's eye boxes and chin line measured.
 
 ## Mae (Steady Mae; about 93 px; key magenta)
 
 ### sit
 
-*Used in Scene 2 (table_east, facing west = left).* Attach `Character Sprites/Officers/Steady Mae/Reference Sheet.png` + `Character Sprites/Officers/Steady Mae/Cropped/Start - Facing Left.png`.
+*Used in Scene 2 (table_east, facing west = left); Scene 6 (table_west, facing east = mirrored left).* Attach `Character Sprites/Officers/Steady Mae/Reference Sheet.png` + `Character Sprites/Officers/Steady Mae/Cropped/Start - Facing Left.png`.
 
 ```
 Pixel-art sprite of Mae Tanner (Steady Mae) in a special pose, for an HD-2D JRPG. Match the attached sprite sheet exactly: same design, colours, head size (about one third of the total height), large eyes with a single highlight, outline weight, pixel size and shading.
@@ -515,3 +371,16 @@ Pose: seated as in sit, raising a wooden tavern mug high in a cheerful toast. Di
 Show only the character and the mug. No chair, table, bench, floor, shadow, effects or text. Background: one flat solid pure magenta #FF00FF filling the whole image.
 ```
 
+### nod (puppet)
+
+*Used in Scene 6 (seated, facing east = mirrored left).* **Not a Gemini image.** Made by the puppet script (`D:/Codex/IMC/runs/puppet-pilot-v1/puppet.py`, owner-approved 2026-10-02) from Mae's matching idle or seated pose: the head drops 1 then 2 pixels with the eyes closed at the bottom. It needs only that pose's eye boxes and chin line measured.
+
+## Fulker (about 93 px; key magenta)
+
+### craft
+
+*Used in Scene 7 (fulker_station, facing south = down).* **Not a still.** This is Fulker's Workshop work loop, already written in `Production Assets Requirement/Officer Work Animation Prompts.md` (Sigrid Fulker — Workshop); the scene plays it twice.
+
+### nod (puppet)
+
+*Used in Scene 7 (standing, down).* **Not a Gemini image.** Made by the puppet script (`D:/Codex/IMC/runs/puppet-pilot-v1/puppet.py`, owner-approved 2026-10-02) from Fulker's matching idle or seated pose: the head drops 1 then 2 pixels with the eyes closed at the bottom. It needs only that pose's eye boxes and chin line measured.

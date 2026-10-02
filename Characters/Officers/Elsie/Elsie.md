@@ -6,6 +6,8 @@ This sheet defines IMC Elsie. She is unrelated to Chasm of Hope's Elsie except a
 
 Chasm Elsie's western voice, gunslinger identity, bounty-hunting history, and flirtatious companion manner must not be transferred to this character.
 
+**Dialect slips** (owner, 2026-10-02): Elsie comes from the frontier-style "wild west" nation. She doesn't speak with a cowgirl cadence, but an occasional western phrase slips out when she's pleased or caught off guard (Scene 7: "I do declare, that's pretty solid gear!"). Keep these rare.
+
 ## Role
 
 - Supporting character.

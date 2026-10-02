@@ -6,7 +6,7 @@ Time: Night
 Actors: Commander, Tristitia
 Music: outskirts_night
 Staging: Commander at tree_rest facing south, lying down; Tristitia offstage
-Special poses: Commander lie, Commander sit, Commander kneel, Commander salute, Commander salute_seated, Commander think_seated, Commander nod, Tristitia point
+Special poses: Commander lie, Commander sit, Commander think_seated, Commander nod, Tristitia point
 
 |Dialogue options are mostly flavour, so the player can own their character, as in Steambot Chronicles. The bracketed label is the intent shown to the player; the quoted line under it is spoken after it's chosen. The Commander's bag stays equipped all scene.|
 
@@ -67,7 +67,7 @@ Tristitia (Base):
 
 "You have the look of a rookie on a battlefield."
 
-"lost, exhausted, and standing where they shouldn't have."
+"Lost, exhausted, and standing where they shouldn't have."
 
 "Do you remember your name?"
 
@@ -81,18 +81,6 @@ Commander:
 2. **[Answer friendly]**
    Commander (Happy):
    "I'm <name>. Nice to meet you."
-
-3. **[Kneel and kiss her hand]**
-   [pose: Commander kneel]
-   Commander (Happy):
-   "<name>."
-   [pose: Commander idle]
-
-4. **[Salute]**
-   [pose: Commander salute]
-   Commander (Serious):
-   "<name>."
-   [pose: Commander idle]
 
 Tristitia (Base):
 ". . . . ."
@@ -211,7 +199,7 @@ Commander (Base):
 
 3. **[Dragon with a knife]**
    Commander (Laugh):
-   "Dragon? with a knife."
+   "A dragon? With a knife?"
 
 [pose: Commander sit]
 Tristitia (Base):

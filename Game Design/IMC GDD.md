@@ -941,15 +941,20 @@ Every monster has **one skill**: ordinary monsters, their variants, rares, bosse
 
 **Battle HUD**
 - **Enemy HP**: top centre, one bar per enemy (RARE badge where it applies).
-- **Party column** *(changed 2026-09-28, owner)*: one semi-transparent card per member, stacked down the right edge (as in Star Ocean: The Second Story R), so five members never cover the fight. Each card uses the FGC_08 card finish.
-  - A round bust (face and shoulders from the front idle sprite) instead of a name plate.
-  - Name beside a large HP number and HP bar.
-  - The attack timer is a **gold ring filling clockwise** around the bust. Not a blue bar: that reads as MP.
-  - Status effects sit above the name. Slot 1 shows FRONT.
+- **Party gauges** *(changed 2026-10-02, owner; replaces the 2026-09-28 card column)*: a slim column of round gauges down the right edge, in the style of Kingdom Hearts.
+  - A round bust (face and shoulders from the front idle sprite) in each gauge.
+  - **HP is the thick arc** round the bust (green, yellow below half). There is no HP number: the arc shows it.
+  - **The skill meter is a thin orange arc** outside it, glowing with a SKILL tab when full. Never blue: that reads as MP.
+  - The name sits under the gauge as plain text with a shadow, no box. No FRONT/BACK label: the formation is visible on the field.
+  - The acting member's gauge glows.
+- **Timeline ring** *(new 2026-10-02, owner; in the style of Grandia 3)*: bottom left, a round timeline. **Party markers ride the inner (blue) track and enemy markers the outer (red) track**, with blue and red rims. Each marker moves clockwise at its fighter's attack speed; whoever reaches the gilded **ACT** section acts.
+  - The centre hub shows **NEXT**, the bust of whoever acts next.
+  - The acting fighter's marker glows. Markers ease forward, and jump back a little when their fighter takes a hard hit.
+  - An enemy whose skill is due gets a red **SKILL** flag that pulses gently.
+  - Hunts are automatic, so the ring has only Wait and ACT. A command section, where time stops for orders, is for the hand-played flashpoints (`Game Design/To-Do (Later).md`).
 - **Left side**: place and target, time left, secured corpses.
-- **Bottom left**: battle log (moved from the right, which the party column now uses).
+- **Battle log** *(changed 2026-10-02, owner)*: a small button at the top left showing the latest line. Pressing it opens a semi-transparent black log window in the centre of the screen, with white text and names, numbers and skills in bold. **Game time pauses while the log is open** and resumes when it closes, as on the management screens.
 - **Buttons**: Leave view and Recall. The HUD cluster with the speed controls stays visible.
-- There is **no turn-order bar**; the rings make it redundant.
 - **Closing the view never stops the fight**, and reopening it shows the live state.
 
 ### 9.5 The search walk *(new)*
@@ -1253,8 +1258,8 @@ Start with **four dormitory beds** (owner, 2026-10-01) and service corners opene
 
 | Upgrade | Preview / prerequisite | Cost / calendar duration | Effect |
 |---|---|---|---|
-| Guild House Tier 2 | Objective C1S6-1 (Scene 6, the first Guild meeting) | 1,000G + 6 Standard+ Boar Hides / 48 hours | The annex: second officers' room (Fulker, Valerie, Liliana), the Workshop with 4 tables (2 processing: Mae + a staff station; 2 crafting: Fulker + a craftsman station), the Commerce + Information room; unlocks Dorm Expansion |
-| Dorm Expansion | Guild House Tier 2 complete | 1,000G + 8 Standard+ Wolf Pelts / 48 hours | Beds 4→8: room for the starter workers (processing, craftsman, information) and Chloris |
+| Guild House Tier 2 | Objective C1S6-1 (Scene 6, the first Guild meeting) | 500G + 6 Standard+ Boar Hides / 48 hours | The annex: second officers' room (Fulker, Valerie, Liliana), the Workshop with 4 tables (2 processing: Mae + a staff station; 2 crafting: Fulker + a craftsman station), the Commerce + Information room; unlocks Dorm Expansion |
+| Dorm Expansion | Guild House Tier 2 complete; objective C1S7-1 (Scene 7) | 300G + 8 Standard+ Wolf Pelts / 48 hours | Beds 4→8: room for the starter workers (processing, craftsman, information) and Chloris |
 | Trading Shelves | Valerie joined | 300G + 4 Standard+ Boar Hides / 24 hours | +2 listing slots |
 
 *(2026-10-01: Tier 2 and Dorm Expansion replace the Dorm Annex, Larger Dorm, Second Processing Table, Second Workbench and Officers' Quarters II. The sim's HQ upgrade data follows in a later sprint.)* Eight beds hold the five authored adventurers and the three starter workers; more belong to the Frontier. No implicit sixth adventurer. Four people can run a three-person hunt plus one scout, or two modest two-person hunts; two safe boar teams are not promised. Simultaneous operations have no extra slot currency.
@@ -1334,9 +1339,9 @@ Services open through once-only event predicates, not fixed days or mandatory nu
 | M02 | Chapter 1 arrival walk complete; returned to Tristitia for the 14:00 meeting; recruitment scene acknowledged | Anselm/Nell hiring, Severa/Otto preview; CH1-REQ-001/002 offers |
 | M03 | M02; at least one hire; Elsie's dispatch explanation acknowledged | Hunting; Mae's baseline Processing opens alongside it |
 | M06 | Opens with M03 (owner, 2026-09-30: Elsie suggests hunting and scouting together in Scene 5) | Scouting, from the first expedition; Scout Map fallback |
-| M05 / Fulker joins | Boar material seen in inventory or a discovered material-source card; speak to Fulker | Crafting officer joins in Chapter 1; Workshop corner works immediately |
-| Valerie joins | The Guild reaches **400 Reputation** (owner, 2026-09-30; Scene 6); joining scene acknowledged | Commerce officer joins in Chapter 1; trading counter |
-| Liliana joins | First scouting return; joining scene acknowledged | Information officer joins in Chapter 1; Information corner works immediately |
+| First Guild meeting (Scene 6) | M02; the Guild reaches **400 Reputation** (owner, 2026-09-30); plays at 07:00 the next day | Objective C1S6-1: **Guild House Tier 2** can be bought (12.7) |
+| M05 / Fulker joins (Scene 7) | Guild House Tier 2 built; plays at 07:00 the next day | Crafting officer joins; the Workshop works; objectives C1S7-1 (Dorm Expansion, talk to Fulker) and C1S7-2 (recruit a processor and a craftsman) |
+| Valerie and Liliana join (Scene 8) | Fulker joined and C1S7-2 complete; plays at 07:00 the next day | Commerce and Information officers join together; the information staff member can be recruited; objectives C1S8-1 and C1S8-2 |
 | M08 | First ordinary hunt fight won; Tristitia's contract explanation acknowledged | Optional contracts subject to individual gates |
 | Service Lanes access | M02 completed; next free city exploration | Hilde/clinic request conversations accessible during Chapter 1 |
 | Chapter 1 completion | Commerce, Crafting and Information officers joined; player elects chapter conclusion | Enter Chapter 2; review unaccepted local offers first |
@@ -1346,7 +1351,7 @@ Services open through once-only event predicates, not fixed days or mandatory nu
 | The Alliance appointment | Envoy scene complete; Civic Terrace meeting with the leaders of the nations acknowledged | The Alliance of Nations, impressed by the Guild, appoints it the **sole institution that verifies information** and charges it to open the Frontier. Verification authority starts now. The move unlocks |
 | Chapter 3 departure | Appointment complete; move conditions in 16a met; player elects the day | Transfer to the Frontier; Chapter 3 begins on arrival |
 
-The three officers may join in any eligible order; none is drawn from recruitment and none requires another officer's bespoke request. The morning-only proof does not establish that all services operate on campaign Day 1. Chapter 1 previews Frontier reports lightly; verification authority is not granted early. The Alliance grants it at the Civic Terrace appointment at the end of Chapter 2 (owner, 2026-09-29); the physical relocation stays at the start of Chapter 3.
+*(Changed 2026-10-02 to follow the finished Chapter 1 manuscript, Scenes 6–8: the officers now join in a fixed order, Fulker first, then Valerie and Liliana together. This replaces the earlier boar-material, 400-Reputation and first-scout predicates.)* None of the three is drawn from recruitment, and none requires a bespoke request. Each Chapter 1 scene from 6 on plays at 07:00 on the day after its predicate first holds. The morning-only proof does not establish that all services operate on campaign Day 1. Chapter 1 previews Frontier reports lightly; verification authority is not granted early. The Alliance grants it at the Civic Terrace appointment at the end of Chapter 2 (owner, 2026-09-29); the physical relocation stays at the start of Chapter 3.
 
 **Frontier scaling:** later chapters bind new content to persistent predicates, using the same once-only event/reward contract. Scenes and cast are content to author, not unspecified service logic.
 
@@ -1504,6 +1509,9 @@ No unresolved numeric system rule is parked here. Balance values throughout rema
 | 2026-09-29 | **Bonds are capped at level 1 in Eurydica** (5.4); banked points carry over to the Frontier under the weekly limit. |
 | 2026-10-01 | **Standing orders** (9.3a2): one rule per adventurer for when the signature skill fires; hunts stay automatic. Flashpoints played by hand (Grandia 3-style timeline with movement) and a reusable weather system are agreed for later (`Game Design/To-Do (Later).md`). |
 | 2026-10-01 | **Eurydica HQ per Scene 6** (owner): Tier 1 (main room with meeting table and Mae's processing corner, Commander's room = office, shared officers' room, Elsie in the courtyard, **dormitory for 4 staff from the start**) and **Guild House Tier 2** (C1S6-1; 1,000G + 6 Standard+ Boar Hides / 48 h: officers' room II, a 4-table Workshop for processing and crafting, one Commerce + Information room), then **Dorm Expansion 4→8**. Staff (recruitables) sleep in the dorm. Per-officer department rooms and the HQ kitchen are Frontier content. Replaces Dorm Annex, Larger Dorm, Second Processing Table, Second Workbench and Officers' Quarters II. **Environment style:** pixel art (Proof 1), §2.4. |
+| 2026-10-02 | **Battle HUD** (§9.4, owner): Kingdom Hearts-style round party gauges (thick HP arc, thin skill arc, name under the gauge, no HP number or FRONT/BACK) replace the card column; a Grandia 3-style timeline ring (party inner, enemies outer, ACT section, NEXT hub) replaces "no turn-order bar"; the battle log becomes a top-left button whose centred window pauses game time. Art: `UI Kit/Approved Battle v1/`. |
+| 2026-10-02 | **HQ upgrade costs lowered** (§12.7, owner, Scene 8 note): the Trading Post isn't open yet when they come due, so Guild House Tier 2 drops from 1,000G to **500G** (+ 6 Standard+ Boar Hides) and the Dorm Expansion from 1,000G to **300G** (+ 8 Standard+ Wolf Pelts). The Dorm Expansion is objective C1S7-1 (Scene 7). |
+| 2026-10-02 | **Story gating follows the finished manuscript** (§14): 400 Reputation now starts the first Guild meeting (Scene 6, Tier 2 objective). Fulker joins after Tier 2 is built (Scene 7). Valerie and Liliana join together after Fulker's staff objective (Scene 8). Each scene plays at 07:00 the next day. |
 | 2026-09-29 | Owner decisions after S2: **enhancement removed** (12.3; Refinement becomes the Demondrug line); **consumables** made a heavy expedition requirement, tier 1 bought in Eurydica (new 6.6a: Potion, Demondrug, Armorskin, Lure, Map), tiers 1–5 from a Frontier Research Department; the Workshop crafts gear only; **crafted gear** gets market demand per item at (inputs + fee) × 1.25; abandoned or failed repeats return after 2 days; the demand schedule covers today + 3 days; the Negotiation gold bonus rounds down. |
 | 2026-09-28 | UI finish locked from style test v5 (owner): fonts Cormorant Garamond SemiBold + Alegreya with lining figures, all-caps card headers; the 2.5 colour tokens stay (parchment and navy); the FGC_08 §2.2 tier and layer model; the owner's watermark emblem. |
 | 2026-09-28 | UI decisions from FGC_08 (owner): the top bar becomes a top-left HUD cluster around a clock medallion (§15); the battle HUD party row becomes a semi-transparent card column on the right, and the battle log moves to the bottom left (§9). Processing odds stay visible as §12.1/§15 say, so the rank-3 Know-how ability **Trained eye** becomes a passive: processing never produces Unsellable, and that chance moves to Damaged (§5a.2, §5.4 perk arithmetic). |

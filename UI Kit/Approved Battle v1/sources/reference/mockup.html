@@ -1,0 +1,170 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Battle UI mockup v2</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Alegreya+Sans:wght@500;700;800&display=swap" rel="stylesheet">
+<style>
+  :root { --ink:#0f1626; --navy:#1f2a4a; --gold:#d4ad5c; --gold-d:#7a5a26; --hp:#5fbf5a; --hp-d:#2c6a2a; --skill:#f08c2a; --enemy:#c2413a; }
+  * { box-sizing: border-box; margin: 0; }
+  body { width: 1280px; height: 720px; overflow: hidden; background: #000; font-family: 'Alegreya Sans', sans-serif; color: #f2ecdc; }
+  .stage { position: relative; width: 1280px; height: 720px; background: url(bg.png) center/cover; }
+  .stage::after { content:''; position:absolute; inset:0; background: radial-gradient(ellipse at center, transparent 55%, rgba(0,0,0,.45)); pointer-events:none; }
+  .panel { position:absolute; background: rgba(15,22,38,.78); border:1px solid var(--gold-d); border-radius:3px; box-shadow: 0 2px 8px rgba(0,0,0,.4); }
+  /* top left: clock, target, log button */
+  .clock { left:16px; top:14px; padding:6px 12px; display:flex; gap:14px; align-items:center; font-weight:700; }
+  .clock .t { font-size:20px; } .clock .s { font-size:12px; color:var(--gold); border:1px solid var(--gold-d); padding:1px 6px; border-radius:2px; }
+  .target { left:16px; top:58px; padding:6px 12px; width:250px; }
+  .target .k { font-size:11px; letter-spacing:.12em; color:var(--gold); text-transform:uppercase; }
+  .target .v { font-family:'Cormorant Garamond'; font-size:22px; font-weight:700; }
+  .target .m { font-size:12px; opacity:.85; }
+  .logbtn { left:16px; top:138px; width:250px; padding:6px 10px; display:flex; align-items:center; gap:8px; font-size:13px; }
+  .logbtn .icon { width:22px; height:22px; border:1px solid var(--gold); border-radius:3px; display:grid; place-items:center; color:var(--gold); font-weight:800; font-size:13px; }
+  .logbtn .last { white-space:nowrap; overflow:hidden; text-overflow:ellipsis; opacity:.9; } .logbtn b { color:#fff; }
+  /* enemy bars */
+  .enemies { position:absolute; left:340px; top:16px; display:flex; gap:26px; }
+  .ebar { width:170px; text-align:center; font-family:'Cormorant Garamond'; font-weight:700; font-size:18px; text-shadow:0 1px 3px #000; }
+  .ebar .b { height:9px; background:#2a1414; border:1px solid #000; margin-top:2px; } .ebar .b i { display:block; height:100%; background:var(--enemy); }
+  .ebar .n { font-family:'Alegreya Sans'; font-size:11px; font-weight:500; opacity:.85; }
+  /* party ring gauges */
+  .party { position:absolute; right:22px; top:84px; display:flex; flex-direction:column; gap:10px; align-items:center; }
+  .member { position:relative; display:flex; flex-direction:column; align-items:center; }
+  .tag { margin-top:-4px; font-weight:800; font-size:15px; color:#fff; text-shadow:0 0 3px #000, 0 1px 2px #000, 0 0 6px rgba(0,0,0,.8); position:relative; z-index:2; letter-spacing:.02em; }
+  .ring { position:relative; width:104px; height:104px; }
+  .ring svg { position:absolute; inset:0; }
+  .ring img { position:absolute; left:17px; top:17px; width:70px; height:70px; border-radius:50%; border:2px solid #0f1626; }
+  .ring .skillfull { position:absolute; right:-6px; bottom:-2px; font-size:10px; font-weight:800; color:#1a0d00; background:var(--skill); padding:1px 5px; border-radius:2px; box-shadow:0 0 10px var(--skill); }
+  /* timeline */
+  .tl { position:absolute; left:20px; bottom:16px; width:210px; height:210px; }
+  .tl svg.ringbg { position:absolute; inset:0; }
+  .tl .mk { position:absolute; width:34px; height:34px; margin:-17px 0 0 -17px; border-radius:50%; border:2px solid #6fb4ff; box-shadow:0 0 0 1px #0a1426, 0 0 6px rgba(111,180,255,.55); background:#000; box-shadow:0 1px 4px #000; }
+  .tl .mk img { width:100%; height:100%; object-fit:cover; border-radius:50%; }
+  .tl .mk.enemy { border-color: #ff5a4e; box-shadow:0 0 0 1px #200806, 0 0 6px rgba(255,90,78,.55); width:30px; height:30px; margin:-15px 0 0 -15px; }
+  .tl .flag { position:absolute; top:-14px; left:50%; transform:translateX(-50%); font-size:9px; font-weight:800; padding:0 4px; background:var(--enemy); color:#fff; border-radius:2px; white-space:nowrap; }
+  .tl .lbl { position:absolute; font-size:10px; font-weight:800; letter-spacing:.12em; color:var(--gold); text-shadow:0 1px 2px #000; }
+  /* buttons */
+  .btns { position:absolute; right:20px; bottom:18px; display:flex; gap:10px; }
+  .btn { padding:8px 16px; background: rgba(31,42,74,.9); border:1px solid var(--gold); font-weight:700; font-size:14px; border-radius:3px; }
+  .btn.red { background: rgba(110,30,30,.9); border-color:#c2413a; }
+  /* the open log */
+  .overlay { position:absolute; inset:0; background: rgba(0,0,0,.35); display:none; }
+  .open .overlay { display:block; }
+  .log { position:absolute; left:290px; top:110px; width:700px; height:500px; background: rgba(0,0,0,.82); border:1px solid rgba(255,255,255,.25); border-radius:4px; padding:18px 22px; display:none; }
+  .open .log { display:block; }
+  .log h3 { font-family:'Cormorant Garamond'; font-size:24px; display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid rgba(255,255,255,.2); padding-bottom:8px; margin-bottom:10px; }
+  .log h3 span { font-family:'Alegreya Sans'; font-size:12px; letter-spacing:.14em; color:#ffd56a; }
+  .log p { font-size:15px; line-height:1.75; color:#fff; font-weight:500; } .log p .t { opacity:.5; margin-right:10px; font-variant-numeric:tabular-nums; }
+  .log b { font-weight:800; } .log .sk { color:#ffb15c; } .log .dmg { color:#ff8a80; } .log .heal { color:#9be08f; }
+  .paused { position:absolute; left:50%; top:62px; transform:translateX(-50%); font-weight:800; font-size:14px; letter-spacing:.2em; color:#ffd56a; display:none; text-shadow:0 1px 4px #000; }
+  .open .paused { display:block; }
+  .open .logbtn { border-color: var(--gold); box-shadow: 0 0 0 1px var(--gold); }
+</style></head>
+<body>
+<div class="stage" id="stage">
+  <div class="panel clock"><span class="t">Day 4 · 09:12</span><span class="s">Battle pace ¼</span><span class="s">⏸ 1× 2× 4×</span></div>
+  <div class="panel target"><div class="k">Mosswood · Hunt · Fight 1</div><div class="v">Target: Dire Boar</div><div class="m">2h 30m left · secured corpses 0</div></div>
+  <div class="panel logbtn"><div class="icon">≡</div><div class="last"><b>Mira</b> hits the Dire Boar for <b>14</b>.</div></div>
+
+  <div class="enemies">
+    <div class="ebar">Dire Boar<div class="b"><i style="width:62%"></i></div><div class="n">205 / 330</div></div>
+    <div class="ebar">Dire Boar<div class="b"><i style="width:100%"></i></div><div class="n">330 / 330</div></div>
+    <div class="ebar">Dire Boar<div class="b"><i style="width:100%"></i></div><div class="n">330 / 330</div></div>
+  </div>
+
+  <div class="party" id="party"></div>
+
+  <div class="tl" id="tl">
+    <svg class="ringbg" viewBox="0 0 210 210" id="ringsvg">
+      <defs>
+        <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6dc93"/><stop offset=".5" stop-color="#b8893a"/><stop offset="1" stop-color="#6a4a1c"/></linearGradient>
+        <radialGradient id="hubg"><stop offset="0" stop-color="#26355e"/><stop offset="1" stop-color="#0c1222"/></radialGradient>
+      </defs>
+      <circle cx="105" cy="105" r="103" fill="rgba(10,14,26,.6)"/>
+      <circle cx="105" cy="105" r="101" fill="none" stroke="url(#gold)" stroke-width="3"/>
+      <circle cx="105" cy="105" r="96" fill="none" stroke="#0a0e1a" stroke-width="2"/>
+      <circle cx="105" cy="105" r="88" fill="none" stroke="#6e2420" stroke-width="13"/>
+      <circle cx="105" cy="105" r="88" fill="none" stroke="#a8382f" stroke-width="9" opacity=".8"/>
+      <circle cx="105" cy="105" r="75" fill="none" stroke="url(#gold)" stroke-width="1.5"/>
+      <circle cx="105" cy="105" r="62" fill="none" stroke="#1d2c52" stroke-width="13"/>
+      <circle cx="105" cy="105" r="62" fill="none" stroke="#2f4a86" stroke-width="9" opacity=".9"/>
+      <circle cx="105" cy="105" r="49" fill="none" stroke="#0a0e1a" stroke-width="2"/>
+      <g id="ticks"></g>
+      <path id="actwedge" fill="rgba(212,173,92,.28)" stroke="url(#gold)" stroke-width="2"/>
+      <circle cx="105" cy="105" r="40" fill="url(#hubg)" stroke="url(#gold)" stroke-width="2.5"/>
+      <circle cx="105" cy="105" r="34" fill="none" stroke="#7a5a26" stroke-width="1"/>
+      <g id="pointer"></g>
+    </svg>
+    <img id="hubimg" src="bust1.png" style="position:absolute;left:79px;top:79px;width:52px;height:52px;border-radius:50%;">
+    <div class="lbl" style="left:83px;top:136px;font-size:8px">NEXT</div>
+    <div class="lbl" id="actlbl">ACT</div>
+    <div id="markers"></div>
+  </div>
+
+  <div class="btns"><div class="btn">Leave view</div><div class="btn red">Recall</div></div>
+
+  <div class="overlay"></div>
+  <div class="paused">PAUSED · BATTLE LOG</div>
+  <div class="log">
+    <h3>Battle log <span>Mosswood · Fight 1</span></h3>
+    <p><span class="t">07:00</span>The party sets out to hunt <b>Dire Boar</b>.</p>
+    <p><span class="t">07:27</span>A group of <b>3 Dire Boars</b> appears!</p>
+    <p><span class="t">07:29</span><b>Rowan</b> hits the <b>Dire Boar</b> for <b class="dmg">16</b>.</p>
+    <p><span class="t">07:29</span><b>Aveline</b> hits the <b>Dire Boar</b> for <b class="dmg">15</b>.</p>
+    <p><span class="t">07:30</span><b>Dire Boar</b> uses <b class="sk">Tusk Gore</b> on <b>Rowan</b> for <b class="dmg">38</b>.</p>
+    <p><span class="t">07:30</span><b>Mira</b> hits the <b>Dire Boar</b> for <b class="dmg">14</b>.</p>
+    <p><span class="t">07:31</span><b>Aveline</b> uses <b class="sk">Diving Splitter</b> on the <b>Dire Boar</b> for <b class="dmg">42</b>.</p>
+    <p><span class="t">07:31</span><b>Rowan</b> drinks a <b>Potion</b> and recovers <b class="heal">60</b> HP.</p>
+    <p><span class="t">07:32</span><b>Mira</b> hits the <b>Dire Boar</b> for <b class="dmg">14</b>.</p>
+  </div>
+</div>
+<script>
+  const party = [
+    { nm:'Rowan', hp:142, max:180, sk:.55, row:'FRONT', img:'bust0.png' },
+    { nm:'Aveline', hp:175, max:175, sk:1.0, row:'FRONT', img:'bust1.png' },
+    { nm:'Mira', hp:96, max:150, sk:.3, row:'BACK', img:'bust2.png' },
+  ];
+  const arc = (r, frac, start=135, sweep=270) => {
+    const a0 = start * Math.PI/180, a1 = (start + sweep*frac) * Math.PI/180;
+    const p = a => [52 + r*Math.cos(a), 52 + r*Math.sin(a)];
+    const [x0,y0] = p(a0), [x1,y1] = p(a1);
+    return `M${x0} ${y0} A${r} ${r} 0 ${sweep*frac > 180 ? 1 : 0} 1 ${x1} ${y1}`;
+  };
+  document.getElementById('party').innerHTML = party.map(m => `
+    <div class="member">
+      <div class="ring"><svg viewBox="0 0 104 104">
+        <circle cx="52" cy="52" r="44" fill="rgba(15,22,38,.85)" stroke="#000" stroke-width="2"/>
+        <path d="${arc(41,1)}" stroke="#203020" stroke-width="9" fill="none" stroke-linecap="butt"/>
+        <path d="${arc(41,m.hp/m.max)}" stroke="${m.hp/m.max < .5 ? '#e0c050' : '#5fbf5a'}" stroke-width="9" fill="none"/>
+        <path d="${arc(50,1)}" stroke="#3a2610" stroke-width="3.5" fill="none"/>
+        <path d="${arc(50,m.sk)}" stroke="#f08c2a" stroke-width="3.5" fill="none" ${m.sk>=1?'style="filter:drop-shadow(0 0 4px #f08c2a)"':''}/>
+      </svg><img src="${m.img}">${m.sk>=1?'<div class="skillfull">SKILL</div>':''}</div>
+      <div class="tag">${m.nm}</div>
+    </div>`).join('');
+  // Grandia 3 ring: every fighter's marker travels clockwise from the top (0) to ACT (1, at 300 deg).
+  // Party on the inner track, enemies on the outer track.
+  const C = 105, ACT = 300;
+  const pos = (f, r) => { const a = (-90 + f * ACT) * Math.PI / 180; return [C + r * Math.cos(a), C + r * Math.sin(a)]; };
+  const mks = [
+    { f:.86, img:'bust1.png', side:'party' }, { f:.42, img:'bust0.png', side:'party' }, { f:.16, img:'bust2.png', side:'party' },
+    { f:.94, img:'boar.png', side:'enemy', flag:'SKILL' }, { f:.58, img:'boar.png', side:'enemy' }, { f:.28, img:'boar.png', side:'enemy' },
+  ];
+  document.getElementById('markers').innerHTML = mks.map(m => { const [x,y] = pos(m.f, m.side === 'party' ? 62 : 88);
+    return `<div class="mk ${m.side}" style="left:${x}px;top:${y}px">${m.flag?`<div class="flag">${m.flag}</div>`:''}<img src="${m.img}"></div>`; }).join('');
+  // minute-style ticks on both tracks: one every 15 degrees, a long one every 30 (owner: fewer, calmer)
+  let t = '';
+  for (let i = 0; i < 24; i++) { const a = i * 15 * Math.PI / 180; const big = i % 2 === 0;
+    for (const [r0, r1] of [[big ? 81 : 84, 94], [big ? 55 : 58, 68]]) {
+      t += `<line x1="${105 + r0 * Math.sin(a)}" y1="${105 - r0 * Math.cos(a)}" x2="${105 + r1 * Math.sin(a)}" y2="${105 - r1 * Math.cos(a)}" stroke="#fff" stroke-opacity="${big ? .85 : .45}" stroke-width="${big ? 1.6 : .9}"/>`; } }
+  document.getElementById('ticks').innerHTML = t;
+  // the ACT zone: a gilded wedge across both tracks from 300 to 360 degrees, with a pointer at its start
+  const wedge = (r0, r1, a0, a1) => { const p = (r, a) => [105 + r * Math.cos((a - 90) * Math.PI / 180), 105 + r * Math.sin((a - 90) * Math.PI / 180)];
+    const [x0,y0] = p(r1,a0), [x1,y1] = p(r1,a1), [x2,y2] = p(r0,a1), [x3,y3] = p(r0,a0);
+    return `M${x0} ${y0} A${r1} ${r1} 0 0 1 ${x1} ${y1} L${x2} ${y2} A${r0} ${r0} 0 0 0 ${x3} ${y3} Z`; };
+  document.getElementById('actwedge').setAttribute('d', wedge(50, 96, ACT, 360));
+  { const a = (ACT - 90) * Math.PI / 180, b = a - .12, c = a + .12;
+    document.getElementById('pointer').innerHTML = `<polygon points="${105 + 106 * Math.cos(a)},${105 + 106 * Math.sin(a)} ${105 + 97 * Math.cos(b)},${105 + 97 * Math.sin(b)} ${105 + 97 * Math.cos(c)},${105 + 97 * Math.sin(c)}" fill="url(#gold)" stroke="#0a0e1a" stroke-width="1"/>`; }
+  // (old ACT arc, kept hidden)
+
+  const [ax0, ay0] = pos(1, 75), [ax1, ay1] = pos(1.2, 75);
+  const [lx0, ly0] = pos(1, 46), [lx1, ly1] = pos(1, 104);
+  const [tx, ty] = pos(1.1, 108); const lb = document.getElementById('actlbl'); lb.style.left = (tx - 12) + 'px'; lb.style.top = (ty - 6) + 'px';
+  if (location.hash === '#open') document.getElementById('stage').classList.add('open');
+</script>
+</body></html>

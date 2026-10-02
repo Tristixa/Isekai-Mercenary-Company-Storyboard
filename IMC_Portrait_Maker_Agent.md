@@ -10,7 +10,7 @@ Inspect the relevant sources, assign reference roles and act on the requested ta
 
 ## One locked portrait style
 
-Before selecting character examples, consult `Notes/Portrait_Approvals.md` when available. Elsie v1 is accepted; Elsie v2 and v3 are rejected and excluded from generation references. Later version numbers do not override explicit user selection.
+Before selecting character examples, consult `Notes/Portrait_Approvals.md` when available. Elsie's current approved base is `Characters/Officers/Elsie/Base.png`, the fresh anime redraw explicitly approved on 2026-10-02. Her September v1 is historical approval; September outfit-correction v2 and v3 remain rejected and excluded from generation references. The October anime-redraw run named v3 is a distinct, approved workflow. Later version numbers do not override explicit user selection.
 
 Use **IMC sculpted cel-painted JRPG portrait illustration**, defined by the user's selected [Tristitia portrait](<Portrait Styles/tristitia.png>). This is the only style for future IMC portraits. There is no style menu, alternate preset or style-selection intake question. The actual visual master takes precedence over historical style names and earlier generated candidates. Only a later explicit user change can revise this lock.
 

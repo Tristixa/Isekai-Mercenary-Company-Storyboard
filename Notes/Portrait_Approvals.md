@@ -4,6 +4,8 @@ The user's explicit selections control reference use. A higher version number do
 
 ## Current visual references
 
+- Elsie latest, 2026-10-02: the user explicitly approved the fresh anime face redraw and requested moving it into her folder. `Characters/Officers/Elsie/Base.png` is now her current base identity/rendering/outfit reference, moved byte-identically from `D:/Codex/IMC/runs/elsie-anime-redraw-v3-2026-10-02/`. This supersedes her prior base and September v1 as the current character reference, without changing the global Tristitia style master. The older project base is archived in that run's `history/Previous Project Base.png`; all seven existing expressions remain untouched and are not automatically compatible with the new base. See adjacent `Portrait Approval.md` and `Base Approval.json`. This October run's “v3” is distinct from the rejected September correction v3 below. No runtime integration is implied.
+
 - Lady Isabeau de Chamerolles: owner manually corrected and selected Characters/Buyers/Lady Isabeau de Chamerolles/Base.png on 2026-09-30. This is the current identity, skin, mouth/teeth, makeup, outfit/build and composition authority. Earlier generated redesigns had crooked teeth and overly pale skin; do not reuse them instead of this base. Original Lady.png is design provenance only. Earlier Octavia/Ottilie portraits and expression sets are superseded. All seven new expressions explicitly approved and moved unchanged beside Base.png on 2026-09-30: Pleased, Considering, Doubtful, Irritated, Surprised, Deal and WalkAway. Considering touches her emerald choker; selected revised Irritated is included, initial alternative excluded. Eight approved portraits total. See adjacent Base Reference Approval.json and Expression Approval.json; untouched masters, prompts and QA remain in D:/Codex/IMC/Buyers/Lady Isabeau de Chamerolles/Expressions v1/. No runtime integration is implied.
 
 - Reinhold Eisenmann expressions: all seven delivered Expressions v1 portraits approved 2026-09-28 and copied unchanged beside Base.png. Eight approved portraits total. Selected revised Doubtful and Irritated are included; initial alternatives excluded. See Characters/Buyers/Reinhold Eisenmann/Expression Approval.json. This supersedes the earlier pending-expression status.
@@ -19,13 +21,13 @@ The user's explicit selections control reference use. A higher version number do
 - Dietrich Vogt expressions: all eight Expressions v1 portraits explicitly approved 2026-09-28 and saved unchanged beside Base.png: Pleased, Considering, Doubtful, Irritated, Surprised, Deal, WalkAway and Bluff. The approved set contains nine portraits. See `Characters/Buyers/Dietrich Vogt/Expression Approval.json` for provenance.
 - Sole style master: `Portrait Styles/tristitia.png`.
 - Steady Mae: `Characters/Portrait Candidates/Steady Mae - Locked Style v1.png`, explicitly approved by the user.
-- Elsie: `Characters/Portrait Candidates/Elsie - Locked Style v1.png`, explicitly selected by the user as the best and correct version. Its corresponding original source is `output/portraits/elsie-2026-09-20-v1/generated-source.png`.
+- Elsie historical September approval: `Characters/Portrait Candidates/Elsie - Locked Style v1.png` was explicitly selected as best at that time. Its original source is `output/portraits/elsie-2026-09-20-v1/generated-source.png`. Current base authority is the 2026-10-02 approval above.
 
 The accepted Mae and Elsie portraits demonstrate applications of the single locked style, not additional style options. Use each character's own identity source.
 
 ## Rejected Elsie corrections
 
-Elsie v2 and v3, their generated sources, composites and edit prompts are rejected. Exclude them from future positive references, contact sheets and generation inputs. Their proposed lighting, shading, hair, armor and fabric adjustments are not new style rules. They remain on disk only as historical records; the user authorized ignoring or deleting them, and this workflow chooses explicit exclusion without deletion.
+Elsie's September outfit-correction v2 and v3, their generated sources, composites and edit prompts are rejected. Exclude them from future positive references, contact sheets and generation inputs. This exclusion does not refer to the explicitly approved 2026-10-02 anime redraw run named v3. Their proposed lighting, shading, hair, armor and fabric adjustments are not new style rules. They remain on disk only as historical records; the user authorized ignoring or deleting them, and this workflow chooses explicit exclusion without deletion.
 
 Do not resume polishing Elsie v1 using the rejected correction plans unless the user explicitly asks for new changes. No game integration is implied by portrait approval.
 

@@ -1,0 +1,13 @@
+import fs from 'node:fs';
+const root='D:/Codex/IMC/runs/ui-battle-ring-v1';
+let v=fs.readFileSync(root+'/sources/verify.mjs','utf8');
+v=v.replace("ok(polar('tl_act_zone',170,330)[3]===255",`ok(polar('tl_act_plate',171,330)[3]===255,'ACT plate centered between tracks at 330 degrees');ok(polar('tl_act_plate',171,150)[3]===0,'ACT plate opposite side clear');
+ for(const a of [0,90,180,270])ok(polar('tl_hub',76,a)[3]===255,'hub quarter-point stud '+a);
+ ok(px('tl_hub',240,316)[3]===255,'NEXT gilded plate under portrait');
+ ok(polar('tl_act_zone',170,330)[3]===255`);
+fs.writeFileSync(root+'/sources/verify.mjs',v);
+let r=fs.readFileSync(root+'/README.md','utf8');
+r=r.replace('16 components','17 components').replace('All seven timeline layers','All eight timeline layers').replace('[104,153,32,10]','[106,152,28,12]').replace('node sources/revise-v1b.mjs','node sources/revise-v1c.mjs');
+r+=`\n## v1c revision\n\nAdded blank \`tl_act_plate\` aligned to the ACT zone on the common 480x480 source canvas. Its use-size center is [77.25,45.955], radius 85.5 at 330 degrees, midway across the tracks. The 36x18px plate is rotated -30 degrees; its local text-safe area is [-14,-6,28,12]. The mockup draws ACT at 12px in Cormorant Garamond SemiBold and removes the old bezel-edge label.\n\nRepainted only \`tl_hub\`: richer gilding, the existing bezel flourish at four diagonal positions, quarter-point studs, deeper navy and an inner bevel. The portrait opening remains 60px at [120,120]. A matching blank 36x16px NEXT plate sits at [120,158]; proof-only NEXT uses 11px Cormorant Garamond SemiBold. Exports contain no lettering or emblems.\n\nBoth v1b hub PNGs were copied before replacement to \`history/v1b-hub/\`; its baseline records all previous component hashes. All 45 non-hub component files, including both 24-tick tracks, remain byte-identical. The sheet now has five rows (2080x2030) for 17 pieces; the proof remains 1280x720. Native Canvas sources supply the finish deterministically. Verification is in \`sources/revision-v1c-verification.json\`, \`sources/verification.json\`, and \`sources/delivery-verification.json\`.\n`;
+fs.writeFileSync(root+'/README.md',r);
+fs.writeFileSync('D:/Codex/IMC/handoff/ui-battle-ring-v1c-last.txt',`Completed v1c: blank ACT plate and richer gilded NEXT hub; 60px opening preserved; 2x and @1x hub backups in history/v1b-hub/.\nUpdated kit-battle.json, README.md, sheets/battle-ring.png and mockups/battle-ring.png inside runs/ui-battle-ring-v1/.\nChecks passed: 17 pieces, 34 exports, 617 pixel checks; all 45 other component files unchanged, including v1b 24-tick tracks; preserved source hashes verified.\n`);

@@ -1,0 +1,48 @@
+{
+  "character": "Elsie",
+  "approvedOn": "2026-10-02",
+  "approval": "Explicit user approval: APPROVED! move this new base portrait of her to her folder",
+  "asset": "D:/Storyboards/Isekai Mercenary Company/Characters/Officers/Elsie/Base.png",
+  "sha256": "004725b15da03c61a6db0bbd1286b8c46dae751c880fc38b0eae213a1c082274",
+  "dimensions": [
+    768,
+    1024
+  ],
+  "format": "RGBA PNG",
+  "productionRun": "D:/Codex/IMC/runs/elsie-anime-redraw-v3-2026-10-02",
+  "untouchedMaster": "D:/Codex/IMC/runs/elsie-anime-redraw-v3-2026-10-02/masters/Generated.png",
+  "previousBaseArchive": "D:/Codex/IMC/runs/elsie-anime-redraw-v3-2026-10-02/history/Previous Project Base.png",
+  "previousBaseSha256": "9685f5a0ca201b8940b5b4229d9420d1bbddc60cc31edf115e8c146d4f7b53d4",
+  "existingExpressionsUnchanged": [
+    {
+      "name": "Anger",
+      "sha256": "ddca9a4f0b458958404d236b52d1bf5337e77f1613321ece946eb6e0ae5920d7"
+    },
+    {
+      "name": "Fear",
+      "sha256": "923e9af8917a238ee598238d784b3b4ef386e05cfa5208b8de757306b2c46a56"
+    },
+    {
+      "name": "Happy",
+      "sha256": "1393766f0396f1c7a604fc8c44adb88a9177aaf1656622e5153e3c8d36fc3205"
+    },
+    {
+      "name": "Laugh",
+      "sha256": "06e063ea6901cbaa9fa2cb4a5898985c8e15e11f4a96bb43bb65bac41a67f569"
+    },
+    {
+      "name": "Sad",
+      "sha256": "b267395b3df6e62afbc693e4087c752b5e7d5d0b589b53f5d9c187f38a2e6484"
+    },
+    {
+      "name": "Serious",
+      "sha256": "7a7a384362a4230d4676b674f5c440858bafd04bb2f42128e8ed522c3ff688ef"
+    },
+    {
+      "name": "Surprise",
+      "sha256": "d1cf45c69e9286f0d4e3391785e643bb2e3931cf53c966a3ca980f20a2102364"
+    }
+  ],
+  "expressionCompatibility": "Existing expressions belong to the previous base; no regeneration or new compatibility approval is implied.",
+  "runtimeIntegration": false
+}

@@ -28,4 +28,4 @@ Curious, playful and a little mischievous. She treats every Frontier monster par
 ## Status
 
 - Portrait: the design plan and prompts are in `Production Assets Requirement/Minerva Alraun Portrait Design.md` (2026-09-30). **The owner's locked identity: small round wire glasses that never hide her eyes, and a plain black choker with no buckle.** The design plan there supersedes the notes above where they differ.
-- Sprite: not made yet. Her work loop is written in `Production Assets Requirement/Officer Work Animation Prompts.md`, and it needs her base sheet first.
+- Sprite: not made yet. The base-sheet prompt (from her portrait, Liliana as the style reference) is `Production Assets Requirement/Minerva Sprite Prompt.md` (2026-10-02). Her work loop is written in `Production Assets Requirement/Officer Work Animation Prompts.md`, and it needs her base sheet first.

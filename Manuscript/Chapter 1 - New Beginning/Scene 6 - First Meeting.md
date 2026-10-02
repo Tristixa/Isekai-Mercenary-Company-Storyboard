@@ -239,6 +239,6 @@ Commander (Happy):
 - Upgrade the Guild House to Tier 2
 [end objectives]
 
-|Guild House Tier 2 (GDD 12.7: 1,000G + 6 Standard+ Boar Hides, 48 hours) adds, in one upgrade: a second officers' room (Fulker, Valerie and Liliana sleep there), the Workshop (Mae moves her processing there; Fulker and the processing and craftsman staff work there too) and one Commerce + Information room (in Eurydica they share a room; they separate in the Frontier, where the information department verifies reports). Interior design: Locations/Eurydica/Interiors/Guild House Interiors.md.|
+|Guild House Tier 2 (GDD 12.7: 500G + 6 Standard+ Boar Hides, 48 hours) adds, in one upgrade: a second officers' room (Fulker, Valerie and Liliana sleep there), the Workshop (Mae moves her processing there; Fulker and the processing and craftsman staff work there too) and one Commerce + Information room (in Eurydica they share a room; they separate in the Frontier, where the information department verifies reports). Interior design: Locations/Eurydica/Interiors/Guild House Interiors.md.|
 
-|Tier 2 also unlocks the Dorm Expansion from 4 to 8 beds. All staff (recruitables: adventurers and workers) sleep in the dormitory; the expansion gives room for the starter processing, craftsman and information staff. The information staff member (Cassia Susurra) becomes available after Liliana joins (after objective C1S7-1).|
+|Tier 2 also unlocks the Dorm Expansion from 4 to 8 beds. All staff (recruitables: adventurers and workers) sleep in the dormitory; the expansion gives room for the starter processing, craftsman and information staff. The information staff member (Cassia Susurra) becomes available after Liliana joins (Scene 8).|

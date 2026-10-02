@@ -1,0 +1,16 @@
+[
+  {
+    "id": "G1",
+    "command": "node sources/verify.mjs",
+    "exit": 0,
+    "output_sha256": "64bac1352a8267d497c1bb06d7853131e88d2dd62467e7dbba63f9d28e66e639",
+    "definition_sha256": "dcd061987de78e26e2e15789f09560527a8fde03f86df014bf46c260eb9e3f56"
+  },
+  {
+    "id": "G3",
+    "command": "node sources/verify-delivery.mjs",
+    "exit": 0,
+    "output_sha256": "95fd239e6ec45e184f665f6cee9e7483eab1718de2b617221edbe2991af299a4",
+    "definition_sha256": "537c748d3ecebdb6b75421a171c9de9fef5ebf80f3ce95bb7f9047219598857e"
+  }
+]

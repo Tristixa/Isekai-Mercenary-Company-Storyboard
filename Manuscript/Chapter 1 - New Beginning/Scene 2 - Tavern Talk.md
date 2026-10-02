@@ -6,9 +6,9 @@ Time: Night
 Actors: Commander, Tristitia, Mae
 Music: tavern_night
 Staging: Commander at table_west facing east; Tristitia at table_north facing south; Mae at table_east facing west; all seated
-Special poses: Commander sit, Tristitia sit, Mae sit, Commander kneel, Commander salute_seated, Commander nod, Commander raise_mug, Tristitia raise_mug, Mae raise_mug
+Special poses: Commander sit, Tristitia sit, Mae sit, Commander nod, Commander raise_mug, Tristitia raise_mug, Mae raise_mug
 
-|Mae has been waiting for Tristitia at the tavern. Continues from Scene 1 with all three already seated. Three mugs are on the table. Leave room beside Mae for the optional hand-kiss greeting.|
+|Mae has been waiting for Tristitia at the tavern. Continues from Scene 1 with all three already seated. Three mugs are on the table.|
 
 ---
 
@@ -37,7 +37,7 @@ Tristitia (Serious):
 "He was lost."
 
 Mae (Laugh):
-"Mm-hmm, That is usually how people begin."
+"Mm-hmm. That is usually how people begin."
 
 [camera: two-shot Tristitia Mae]
 [shake: light]
@@ -59,21 +59,6 @@ Commander:
    Commander (Base):
    "<name>."
 
-3. **[Kneel and kiss her hand]**
-   [move: Commander mae_side]
-   [pose: Commander kneel]
-   [emote: Mae heart]
-   Commander (Happy):
-   "I'm <name>."
-   [move: Commander table_west]
-   [pose: Commander sit]
-
-4. **[Salute]**
-   [pose: Commander salute_seated]
-   Commander (Serious):
-   "<name>."
-   [pose: Commander sit]
-
 Mae (Happy):
 "I'm Mae."
 
@@ -91,7 +76,7 @@ Tristitia (Serious):
 [face: Mae Tristitia]
 [camera: two-shot Mae Tristitia]
 Mae (Serious):
-"I thought you stopped taking works involving other humans."
+"I thought you stopped taking work involving other humans."
 
 |Tristitia lowers her gaze slightly and says nothing.|
 [camera: hold 1.0]
@@ -132,10 +117,10 @@ Mae (Happy):
 "We will find one eventually."
 
 Commander (Base):
-"Why not sell them to Adventurer's guild?"
+"Why not sell them to the Adventurers' Guild?"
 
 Mae (Surprise):
-"Adventurer's guild?"
+"Adventurers' Guild?"
 
 Commander (Base):
 "An organization that manages adventurers?"
@@ -164,7 +149,7 @@ Mae (Happy):
 "Then tell us."
 
 [fade: out]
-> You explain what you know about Adventurer Guild.
+> You explain what you know about adventurer guilds.
 [fade: in]
 [camera: shared]
 
@@ -174,7 +159,7 @@ Mae (Serious):
 Commander (Base):
 "Yeah."
 
-"They connect clients with adventurers, organize jobs, establish payment, provide a base, keep records, and create a system for handling equipment and materials"
+"They connect clients with adventurers, organize jobs, establish payment, provide a base, keep records, and create a system for handling equipment and materials."
 
 Mae (Serious):
 "Hmmm...."
@@ -232,7 +217,7 @@ Tristitia (Base):
 ". . . . ."
 
 Tristitia (Sad):
-"Don't sell everything, hold on to things that still have attachment to you."
+"Don't sell everything. Hold on to the things you're still attached to."
 
 Mae (Happy):
 "You have the idea and the money. I think he should be the commander."
@@ -255,7 +240,7 @@ Mae (Laugh):
 "Good. Saves us the cost of hiring one."
 
 Tristitia (Happy):
-"Don't worry you're not alone."
+"Don't worry. You're not alone."
 
 [pose: Mae raise_mug]
 Mae (Laugh):

@@ -1,0 +1,8 @@
+{
+  "status": "pass",
+  "preserved_inputs": 23,
+  "unchanged_external_inputs": true,
+  "untouched_generated_sources": 17,
+  "report_lines": 3,
+  "scope": "All task-authored files and browser profiles under run; only external task write is named report. Existing source and reference input hashes verified unchanged."
+}

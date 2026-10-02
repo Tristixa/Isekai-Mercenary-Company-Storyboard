@@ -1,0 +1,198 @@
+{
+  "size": [
+    1280,
+    720
+  ],
+  "ring_use_size": [
+    240,
+    240
+  ],
+  "ring_position": [
+    20,
+    464
+  ],
+  "party_use_size": [
+    104,
+    104
+  ],
+  "all_replaced": true,
+  "draws": [
+    {
+      "piece": "tl_bezel",
+      "x": 0,
+      "y": 0,
+      "w": 240,
+      "h": 240
+    },
+    {
+      "piece": "tl_track_enemy",
+      "x": 0,
+      "y": 0,
+      "w": 240,
+      "h": 240
+    },
+    {
+      "piece": "tl_track_party",
+      "x": 0,
+      "y": 0,
+      "w": 240,
+      "h": 240
+    },
+    {
+      "piece": "tl_divider",
+      "x": 0,
+      "y": 0,
+      "w": 240,
+      "h": 240
+    },
+    {
+      "piece": "tl_act_zone",
+      "x": 0,
+      "y": 0,
+      "w": 240,
+      "h": 240
+    },
+    {
+      "piece": "tl_hub",
+      "x": 0,
+      "y": 0,
+      "w": 240,
+      "h": 240
+    },
+    {
+      "piece": "tl_pointer",
+      "x": 0,
+      "y": 0,
+      "w": 240,
+      "h": 240
+    },
+    {
+      "piece": "tl_act_plate",
+      "x": 0,
+      "y": 0,
+      "w": 240,
+      "h": 240
+    },
+    {
+      "piece": "tl_marker_party_glow",
+      "x": 26.551520347899796,
+      "y": 110.76173004806091,
+      "w": 48,
+      "h": 48
+    },
+    {
+      "piece": "tl_marker_party",
+      "x": 26.551520347899796,
+      "y": 110.76173004806091,
+      "w": 48,
+      "h": 48
+    },
+    {
+      "piece": "tl_marker_party",
+      "x": 153.44020660062125,
+      "y": 137.7327529127656,
+      "w": 48,
+      "h": 48
+    },
+    {
+      "piece": "tl_marker_party",
+      "x": 148.763282608895,
+      "y": 48.49172694852106,
+      "w": 48,
+      "h": 48
+    },
+    {
+      "piece": "tl_marker_enemy",
+      "x": -1.8147600733805689,
+      "y": 75.2088309182241,
+      "w": 48,
+      "h": 48
+    },
+    {
+      "piece": "tl_flag_skill",
+      "x": 2.185239926619431,
+      "y": 66.2088309182241,
+      "w": 40,
+      "h": 16
+    },
+    {
+      "piece": "tl_marker_enemy",
+      "x": 106.45284632676535,
+      "y": 195.45218953682735,
+      "w": 48,
+      "h": 48
+    },
+    {
+      "piece": "tl_marker_enemy",
+      "x": 195.45218953682735,
+      "y": 85.54715367323467,
+      "w": 48,
+      "h": 48
+    },
+    {
+      "piece": "gauge_hp_track",
+      "x": 0,
+      "y": 0,
+      "w": 104,
+      "h": 104
+    },
+    {
+      "piece": "gauge_skill_track",
+      "x": 0,
+      "y": 0,
+      "w": 104,
+      "h": 104
+    },
+    {
+      "piece": "gauge_frame",
+      "x": 0,
+      "y": 0,
+      "w": 104,
+      "h": 104
+    },
+    {
+      "piece": "gauge_hp_track",
+      "x": 0,
+      "y": 0,
+      "w": 104,
+      "h": 104
+    },
+    {
+      "piece": "gauge_skill_track",
+      "x": 0,
+      "y": 0,
+      "w": 104,
+      "h": 104
+    },
+    {
+      "piece": "gauge_frame",
+      "x": 0,
+      "y": 0,
+      "w": 104,
+      "h": 104
+    },
+    {
+      "piece": "gauge_hp_track",
+      "x": 0,
+      "y": 0,
+      "w": 104,
+      "h": 104
+    },
+    {
+      "piece": "gauge_skill_track",
+      "x": 0,
+      "y": 0,
+      "w": 104,
+      "h": 104
+    },
+    {
+      "piece": "gauge_frame",
+      "x": 0,
+      "y": 0,
+      "w": 104,
+      "h": 104
+    }
+  ],
+  "fonts_loaded": true,
+  "note": "Preserved reference HTML positioning, fixture values, background and characters. Requested 240px ring replaces original 210px placeholder."
+}

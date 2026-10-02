@@ -35,7 +35,7 @@ We copy Three Houses' **structure and grammar**, never its assets, emblems or te
 | G11 | **Date emblem** | A wreath medallion with a large day number and the month | **The clock medallion:** a wreath medallion with the day number and the time. The ring fills through the day, and it turns orange from 19:00 (GDD 15). |
 | G12 | **Objectives** | A short list under the date, top left, with a scroll icon per line | The same: story objectives and pinned projects (up to three, GDD 3). |
 | G13 | **Results banner** | A full-width flat band with a large word, then one line per reward | Flat Band colour; the grade word in Band text (Accent only for S). |
-| G14 | **Battle cards** | Nameplate banners (blue ally, red enemy), an HP diamond with the number and small stat cards, slightly tilted in 3D | The party's cards stack down the right edge, semi-transparent and slightly tilted (§5.7; P5). |
+| G14 | **Battle cards** | Nameplate banners (blue ally, red enemy), an HP diamond with the number and small stat cards, slightly tilted in 3D | The party's round gauges stack down the right edge, the column leaning slightly in 3D (§5.7, changed 2026-10-02; P5). |
 
 ### 2.2 Visual hierarchy, layers and decoration *(revised again 2026-09-28 from the owner's deep read of Three Houses)*
 
@@ -239,35 +239,42 @@ The full-width Band (G13): the grade letter or word in large Band-text Marcellus
 
 ### 5.7 Field view battle HUD
 
-GDD §9 "Battle HUD" as changed on 2026-09-28: the party is a **column of cards on the right**, following the owner's Star Ocean: The Second Story R reference, so five members never cover the fight.
+GDD §9 "Battle HUD" as changed on 2026-10-02 (owner): **Kingdom Hearts-style round gauges** for the party on the right, a **Grandia 3-style timeline ring** at the bottom left, and the battle log as a top-left button. It replaces the 2026-09-28 card column. Art: `UI Kit/Approved Battle v1/` (pieces, `kit-battle.json`, the approved screen in `mockups/battle-ring.png`).
 
 ```
 +--------------------------------------------------------------------------------+
-| (clock + speed)          [Forest Wolf ████░░]  [Dire Boar ██████] RARE          |
-| Hylaea · target: Boar                                  +---------------------+   |
-| time left 1h 12m                                       |(bust) Anselm  FRONT |   |
-| corpses: 2                                             | 180 ████████  SKILL |   |
-|                                                        +---------------------+   |
-|                     (the fight in the diorama)         |(bust) Nell          |   |
-|                                                        | 120 ██████          |   |
-|                                                        +---------------------+   |
-|  +--------------------+                                |  ... up to 5 cards  |   |
-|  | battle log         |                                +---------------------+   |
-|  | Anselm hits Boar 16|                                                          |
-|  +--------------------+                              [Leave view]  [Recall]     |
+| (clock + speed)      [Dire Boar ████░░]  [Dire Boar ██████] RARE               |
+| Hylaea · target: Boar                                               ( bust )   |
+| time left 1h 12m                                                     Anselm    |
+| [= Anselm hits Boar for 16]   <- log button                         ( bust )   |
+|                                                                      Nell      |
+|                     (the fight in the diorama)                       ...       |
+|   .-----------.                                                                |
+|  /  ACT  o  o     <- timeline ring: party inner, enemies outer               |
+| |  o  (NEXT)  o |                                                             |
+|    o      o   /                                    [Leave view]  [Recall]    |
 +--------------------------------------------------------------------------------+
 ```
 
-- **Party cards** down the right edge, one per member, semi-transparent (the Band-coloured card at about 70% opacity, text fully opaque). Like Three Houses' battle cards, they may lean a few degrees in perspective. Each card has:
-  - a round bust (face and shoulders from the front idle sprite), ringed by the **gold attack timer** (Accent) filling clockwise;
-  - the name, a large HP number and HP bar, status effects above the name, and FRONT or BACK;
-  - the **orange skill meter** (0–100) along the card's lower edge, glowing with SKILL at full. Never blue: that reads as MP. There is no turn-order bar.
-- **The acting member's card** slides out a little and brightens; the target's card flashes on a hit.
+- **Party gauges** down the right edge (`gauge_frame`, `gauge_hp_track`, `gauge_skill_track`), one per member, use size 104 px:
+  - a round bust (face and shoulders from the front idle sprite);
+  - **HP as the thick 270° arc** (green, yellow below 50%), with no HP number;
+  - the **orange skill meter** (0–100) as the thin outer arc, glowing with the `gauge_skill_ready` SKILL tab at full; never blue;
+  - the **name under the gauge** in plain text with a dark shadow (Cormorant Garamond SemiBold), no plate; no FRONT/BACK label;
+  - the acting member's gauge glows; the target's flashes on a hit. Status effects sit beside the gauge.
+  - Like Three Houses' battle cards, the whole column may lean back a few degrees in perspective.
+- **Timeline ring**, bottom left, use size 240 px (`tl_*` pieces, stacked on one centre):
+  - **Party markers on the inner blue track** (bright blue rims), **enemy markers on the outer red track** (bright red rims). Each moves clockwise from the top at its fighter's attack speed; whoever reaches the gilded **ACT** section (300–360°, `tl_act_zone` with `tl_act_plate` and `tl_pointer`) acts.
+  - Both tracks carry 24 white ticks (one every 15°, longer every 30°).
+  - The **NEXT hub** in the centre (`tl_hub`) shows the bust of whoever acts next.
+  - The acting fighter's marker glows (`tl_marker_*_glow`). Markers ease forward, and jump back a little when their fighter takes a hard hit.
+  - An enemy whose skill is due gets the red `tl_flag_skill` SKILL flag, pulsing gently.
+  - Hunts have only Wait and ACT. The hand-played flashpoints later add a command section where time stops.
 - **Enemy HP** at the top centre, one bar per enemy, with a RARE badge where it applies.
-- **Top left, under the clock cluster:** the place and target, time left and secured corpses.
-- **Bottom left:** the battle log.
+- **Top left, under the clock cluster:** the place and target, time left and secured corpses, then the **battle log button**: one line with the latest event.
+- **Battle log window:** pressing the button opens a semi-transparent black window in the centre of the screen. White text; names and numbers in bold, skills in bold orange, damage red, healing green. A **PAUSED · BATTLE LOG** label shows while it is open: **game time pauses**, and resumes when it closes.
 - **Buttons:** Leave view and Recall, bottom right. The clock and speed controls stay visible.
-- **In the world:** damage numbers pop at body height with stacked hits offset, plus the skill-name banner at the top centre, as in the reference.
+- **In the world:** damage numbers pop at body height with stacked hits offset, plus the skill-name banner at the top centre.
 
 ### 5.8 The Guild ledger (main menu)
 

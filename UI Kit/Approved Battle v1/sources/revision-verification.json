@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "unchanged_other_piece_files": 42,
+  "backup_pngs": 4,
+  "ticks_per_track": 24,
+  "long_per_track": 12,
+  "short_per_track": 12,
+  "angles": "aligned, clockwise from top, every 15 degrees",
+  "manifest_changes": "two track notes only"
+}

@@ -1408,6 +1408,71 @@
           2.6,
           6.5,
           "south"
+        ],
+        "hall_centre": [
+          0.4,
+          2.8,
+          "east"
+        ],
+        "arrival_1": [
+          -0.6,
+          4.2,
+          "east"
+        ],
+        "arrival_2": [
+          -1.8,
+          3.6,
+          "east"
+        ],
+        "arrival_3": [
+          -1.8,
+          5,
+          "east"
+        ],
+        "wait_1": [
+          0.4,
+          -1.4,
+          "south"
+        ],
+        "wait_2": [
+          1.6,
+          -1.4,
+          "south"
+        ],
+        "wait_3": [
+          2.8,
+          -1.4,
+          "south"
+        ],
+        "wait_4": [
+          4,
+          -1.4,
+          "south"
+        ],
+        "greet_1": [
+          1.4,
+          4.2,
+          "west"
+        ],
+        "greet_2": [
+          2,
+          3,
+          "west"
+        ],
+        "greet_3": [
+          2,
+          5.4,
+          "west"
+        ],
+        "greet_4": [
+          3.2,
+          5.6,
+          "west"
+        ],
+        "reception_west": [
+          2.2,
+          2.4,
+          "west"
         ]
       },
       "exit": "courtyard_door",
@@ -2373,6 +2438,26 @@
           3.9,
           -0.4,
           "north"
+        ],
+        "workshop_watch_w1": [
+          -9.6,
+          -4.2,
+          "east"
+        ],
+        "workshop_watch_w2": [
+          -10.2,
+          -3.2,
+          "east"
+        ],
+        "workshop_watch_e1": [
+          -7,
+          -3.6,
+          "west"
+        ],
+        "workshop_watch_e2": [
+          -6.8,
+          -2.6,
+          "west"
         ]
       },
       "exit": "annex_door",
@@ -3103,11 +3188,6 @@
         "table_east": [
           -4.95,
           -0.6,
-          "west"
-        ],
-        "mae_side": [
-          -4.95,
-          0.4,
           "west"
         ],
         "tavern_door": [
