@@ -1,5 +1,0 @@
-# Madame Octavia Belmonte — approved base portrait
-
-User approved Base v1 on 2026-09-28 and requested the seven expressions. Base.png is an unchanged copy of the reviewed 768x1024 transparent portrait. Preserve this exact face, green eyes, blue-black braided updo, emerald pin/ribbon and pearl drops, emerald/gold gown and riding jacket, ivory lace gloves and botanical folding fan for future identity and costume continuity. Tristitia remains style authority only.
-
-Untouched master and production records: D:/Codex/IMC/Buyers/Madame Octavia Belmonte/Base v1/. The user approved all seven Expressions v1 portraits on 2026-09-28: Pleased, Considering, Doubtful, Irritated, Surprised, Deal and WalkAway. They were copied unchanged into this folder. The approved set contains eight portraits including Base. See Expression Approval.json for file hashes and staging sources. Originals and production records remain in D:/Codex/IMC/Buyers/Madame Octavia Belmonte/Expressions v1/. No runtime game integration.
